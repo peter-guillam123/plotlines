@@ -11,10 +11,16 @@ export function createPlaces(container, map, novel, cards, engine, director) {
     <div class="places-groups"></div>`;
   const groupsEl = container.querySelector('.places-groups');
 
-  const regions = novel.regions || [{ id: '__all', name: 'All places' }];
+  // Anything with a missing or unknown region still deserves a home.
+  const regions = novel.regions
+    ? [...novel.regions, { id: '__rest', name: 'Elsewhere' }]
+    : [{ id: '__all', name: 'All places' }];
+  const known = new Set((novel.regions || []).map((r) => r.id));
   for (const region of regions) {
-    const locs = novel.locations.filter(
-      (l) => region.id === '__all' || l.region === region.id
+    const locs = novel.locations.filter((l) =>
+      region.id === '__all' ? true :
+      region.id === '__rest' ? !known.has(l.region) :
+      l.region === region.id
     );
     if (!locs.length) continue;
 

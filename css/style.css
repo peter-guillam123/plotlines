@@ -738,6 +738,26 @@ body {
   vertical-align: middle;
 }
 
+/* ---- boot error ---- */
+
+.boot-error {
+  position: absolute;
+  z-index: 50;
+  left: 50%;
+  top: 24px;
+  transform: translateX(-50%);
+  max-width: min(440px, calc(100vw - 24px));
+  padding: 12px 18px;
+  background: var(--paper-bright);
+  border: 1px solid var(--accent);
+  border-left: 4px solid var(--accent);
+  border-radius: 3px;
+  box-shadow: var(--shadow);
+  font-size: 15px;
+}
+.boot-error p { margin: 0; line-height: 1.5; }
+.boot-error-keys { font-style: italic; color: var(--ink-soft); }
+
 /* ---- focus + motion ---- */
 
 :focus-visible {

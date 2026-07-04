@@ -8,13 +8,15 @@ import { CERTAINTY, CHARACTER_COLOURS } from './constants.js';
 const MODES = ['train', 'coach', 'ship', 'foot', 'horse', 'unknown'];
 
 export async function loadNovelIndex() {
-  const res = await fetch('data/novels.json');
+  // no-cache = revalidate with the server, so a fresh deploy's data is
+  // never skewed against fresh code by a stale HTTP cache.
+  const res = await fetch('data/novels.json', { cache: 'no-cache' });
   if (!res.ok) throw new Error(`Could not load novel index (${res.status})`);
   return res.json();
 }
 
 export async function loadNovel(file) {
-  const res = await fetch(file);
+  const res = await fetch(file, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`Could not load ${file} (${res.status})`);
   const novel = await res.json();
   validate(novel, file);
@@ -63,8 +65,10 @@ function validate(novel, file) {
 
   const locIds = new Set();
   for (const loc of novel.locations) {
+    // Content-level gaps warn rather than kill the app: a stale cached
+    // dataset mid-deploy must never blank the whole site.
     if (regionIds.size && !regionIds.has(loc.region)) {
-      fail(file, `region "${loc.region}" not in the regions list`, loc);
+      console.warn(`${file}: "${loc.id}" has region "${loc.region}" not in the regions list`);
     }
     if (locIds.has(loc.id)) fail(file, `duplicate location id "${loc.id}"`);
     locIds.add(loc.id);
@@ -73,10 +77,10 @@ function validate(novel, file) {
       fail(file, `certainty must be one of ${certainties.join('/')}`, loc);
     }
     if (loc.certainty !== CERTAINTY.REAL && !loc.note) {
-      fail(file, `"${loc.id}" is ${loc.certainty} but has no note explaining the judgement`);
+      console.warn(`${file}: "${loc.id}" is ${loc.certainty} but has no note explaining the judgement`);
     }
     if (!loc.story) {
-      fail(file, `"${loc.id}" has no story note — every place must say what happens there`);
+      console.warn(`${file}: "${loc.id}" has no story note — every place should say what happens there`);
     }
   }
 

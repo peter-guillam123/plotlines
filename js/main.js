@@ -149,4 +149,12 @@ ready
   })
   .catch((err) => {
     console.error(err);
+    // Whatever went wrong, never leave a silent page of empty panels.
+    const el = document.createElement('div');
+    el.className = 'boot-error';
+    el.innerHTML = `
+      <p><strong>The map didn't load properly.</strong>
+      A hard refresh usually cures it —
+      <span class="boot-error-keys">Cmd/Ctrl + Shift + R</span>.</p>`;
+    document.body.append(el);
   });
