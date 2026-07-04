@@ -45,6 +45,10 @@
 
 * { box-sizing: border-box; }
 
+/* Panels use display:flex, which would otherwise defeat the hidden
+   attribute the mode switch relies on. */
+[hidden] { display: none !important; }
+
 html, body {
   margin: 0;
   padding: 0;
@@ -185,35 +189,68 @@ body {
   text-overflow: ellipsis;
 }
 
-/* ---- places index ---- */
+/* ---- mode tabs ---- */
+
+.mode-tabs {
+  display: flex;
+  margin: 10px 0 6px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.mode-tabs button {
+  flex: 1;
+  min-height: 40px;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 14px;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.mode-tabs button + button { border-left: 1px solid var(--rule); }
+.mode-tabs button[aria-pressed='true'] {
+  background: var(--ink);
+  color: var(--paper-bright);
+}
+
+/* ---- places gazetteer (explore mode) ---- */
 
 #places {
   top: 150px;
-  left: 254px;
-  max-width: 240px;
-  padding: 0;
+  left: 12px;
+  width: 250px;
+  padding: 0 0 6px;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 180px);
+}
+#places[hidden] { display: none; }
+
+.places-title {
+  margin: 0;
+  padding: 12px 14px 10px;
+  font-family: var(--display);
+  font-weight: normal;
+  font-size: 18px;
+  border-bottom: 1px solid var(--rule);
 }
 
-#places summary {
-  padding: 10px 14px;
-  min-height: 44px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  font-style: italic;
+.places-groups {
+  overflow-y: auto;
+  padding: 4px 6px;
+}
+
+.places-group h3 {
+  margin: 10px 8px 2px;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   color: var(--ink-soft);
 }
-
-#places details[open] summary { border-bottom: 1px solid var(--rule); }
-
-.places-list {
-  margin: 0;
-  padding: 4px;
-  list-style: none;
-  max-height: min(400px, 45vh);
-  overflow-y: auto;
-}
+.places-group ul { margin: 0; padding: 0; list-style: none; }
 
 .places-item {
   display: block;
@@ -739,12 +776,13 @@ body {
   .legend-role { display: none; }
 
   #places {
-    top: 8px;
-    left: auto;
-    right: 56px; /* clear of the zoom control */
-    max-width: 200px;
+    top: auto;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    width: auto;
+    max-height: 46vh;
   }
-  .places-list { max-height: 40vh; }
 
   #captions { bottom: 152px; }
   .caption-line { font-size: 13px; }

@@ -86,6 +86,7 @@ export function addRouteLayers(map, novel, paths) {
     geometry: { type: 'Point', coordinates: loc.coords },
     properties: {
       id: loc.id,
+      label: loc.name,
       conjectured: loc.certainty === CERTAINTY.CONJECTURED,
     },
   }));
@@ -109,6 +110,39 @@ export function addRouteLayers(map, novel, paths) {
       'circle-pitch-alignment': 'map',
     },
   });
+}
+
+// Explore mode: place names on the map itself, and the route web calmed
+// to a uniform whisper so the places lead.
+export function addLocationLabels(map) {
+  map.addLayer({
+    id: 'location-labels',
+    type: 'symbol',
+    source: LOCATION_SOURCE,
+    layout: {
+      'text-field': ['get', 'label'],
+      'text-font': ['Noto Sans Italic'],
+      'text-size': 12,
+      // Crowded spots (the London cluster) try four anchors before a
+      // label concedes to the collision engine.
+      'text-variable-anchor': ['top', 'bottom', 'right', 'left'],
+      'text-radial-offset': 0.7,
+      'text-justify': 'auto',
+      visibility: 'none',
+    },
+    paint: {
+      'text-color': '#463724',
+      'text-halo-color': '#f3ead7',
+      'text-halo-width': 1.8,
+    },
+  });
+}
+
+export function setExploreStyling(map, explore) {
+  map.setLayoutProperty('location-labels', 'visibility', explore ? 'visible' : 'none');
+  for (const layer of ['routes-solid', 'routes-dashed']) {
+    map.setPaintProperty(layer, 'line-opacity', explore ? 0.3 : 0.7);
+  }
 }
 
 // The legs currently being travelled, drawn emphasised over the faint

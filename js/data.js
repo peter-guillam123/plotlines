@@ -59,8 +59,13 @@ function validate(novel, file) {
   });
   const maxChapter = novel.chapters.length;
 
+  const regionIds = new Set((novel.regions || []).map((r) => r.id));
+
   const locIds = new Set();
   for (const loc of novel.locations) {
+    if (regionIds.size && !regionIds.has(loc.region)) {
+      fail(file, `region "${loc.region}" not in the regions list`, loc);
+    }
     if (locIds.has(loc.id)) fail(file, `duplicate location id "${loc.id}"`);
     locIds.add(loc.id);
     checkCoord(file, loc.coords, loc);

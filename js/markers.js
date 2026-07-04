@@ -39,6 +39,12 @@ export function addCharacterMarkers(map, novel) {
   });
 }
 
+export function setCharacterMarkersVisible(map, visible) {
+  for (const layer of ['character-markers', 'character-labels']) {
+    map.setLayoutProperty(layer, 'visibility', visible ? 'visible' : 'none');
+  }
+}
+
 export function updateCharacterMarkers(map, novel, positions, selectedId) {
   const features = [];
   for (const c of novel.characters) {

@@ -2,9 +2,12 @@ import { createMap } from './map.js';
 import { addNlsOverlay } from './overlay.js';
 import { loadNovelIndex, loadNovel } from './data.js';
 import {
-  buildPaths, addRouteLayers, addActiveLegLayers, setRouteEmphasis, updateActiveLegs,
+  buildPaths, addRouteLayers, addActiveLegLayers, addLocationLabels,
+  setRouteEmphasis, setExploreStyling, updateActiveLegs,
 } from './routes.js';
-import { addCharacterMarkers, updateCharacterMarkers } from './markers.js';
+import {
+  addCharacterMarkers, updateCharacterMarkers, setCharacterMarkersVisible,
+} from './markers.js';
 import { createTimeline } from './timeline.js';
 import { createEngine } from './engine.js';
 import { createDirector } from './director.js';
@@ -31,6 +34,7 @@ ready
     const paths = buildPaths(novel);
     addRouteLayers(map, novel, paths);
     addActiveLegLayers(map);
+    addLocationLabels(map);
     addCharacterMarkers(map, novel);
 
     const timeline = createTimeline(novel, paths);
@@ -44,7 +48,9 @@ ready
     });
 
     // ---- UI ----
-    createMasthead(document.getElementById('masthead'), index, index[0].id);
+    const masthead = createMasthead(document.getElementById('masthead'), index, index[0].id, {
+      onMode: (m) => setMode(m),
+    });
     const legend = createLegend(document.getElementById('legend'), novel, (id) => {
       selectCharacter(id === timeline.state.selected ? null : id);
     });
@@ -54,21 +60,58 @@ ready
       isPlaying: () => engine.isPlaying(),
     });
     createPlaces(document.getElementById('places'), map, novel, cards, engine, director);
-    createIntro(document.getElementById('intro'), novel, () => {
-      director.arm();
-      engine.play();
-    });
+    createIntro(
+      document.getElementById('intro'),
+      novel,
+      () => {
+        setMode('story');
+        director.arm();
+        engine.play();
+      },
+      () => setMode('explore')
+    );
 
-    // "Frame the story" appears whenever the user has taken the camera.
+    // ---- modes ----
+    // Story: legend, scrubber, captions, the director. Explore: the
+    // gazetteer and place names, playback cleared away.
+    let mode = 'story';
     const recentre = document.getElementById('recentre');
+
+    function setMode(next) {
+      if (next === mode) return;
+      mode = next;
+      const explore = mode === 'explore';
+      document.getElementById('legend').hidden = explore;
+      document.getElementById('controls').hidden = explore;
+      document.getElementById('captions').hidden = explore;
+      document.getElementById('places').hidden = !explore;
+      setCharacterMarkersVisible(map, !explore);
+      setExploreStyling(map, explore);
+      masthead.setMode(mode);
+      if (explore) {
+        engine.pause();
+        director.disarm();
+        updateActiveLegs(map, novel, {}, paths);
+      } else {
+        setRouteEmphasis(map, timeline.state.selected);
+        director.arm();
+        engine.requestRender();
+      }
+      updateRecentre();
+    }
+
+    // "Frame the story" appears when the user has taken the camera —
+    // but only in story mode, where there's a story to frame.
     recentre.addEventListener('click', () => {
       director.arm();
       engine.requestRender();
     });
-    director.onStateChange((armed) => {
-      recentre.hidden = armed;
-    });
-    recentre.hidden = true;
+    function updateRecentre() {
+      recentre.hidden = director.isArmed() || mode === 'explore';
+    }
+    director.onStateChange(updateRecentre);
+    updateRecentre();
+    document.getElementById('places').hidden = true;
 
     function selectCharacter(id) {
       timeline.setSelected(id);

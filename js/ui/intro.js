@@ -2,7 +2,7 @@
 // starts directed playback from chapter one; "Explore the map" hands
 // over the controls. Escape also dismisses.
 
-export function createIntro(container, novel, onBegin) {
+export function createIntro(container, novel, onBegin, onExplore) {
   container.innerHTML = `
     <div class="intro-scrim"></div>
     <div class="intro-card" role="dialog" aria-modal="true" aria-labelledby="intro-title">
@@ -41,7 +41,10 @@ export function createIntro(container, novel, onBegin) {
     dismiss();
     onBegin();
   });
-  container.querySelector('.intro-explore').addEventListener('click', dismiss);
+  container.querySelector('.intro-explore').addEventListener('click', () => {
+    dismiss();
+    if (onExplore) onExplore();
+  });
   container.querySelector('.intro-scrim').addEventListener('click', dismiss);
   document.addEventListener('keydown', onKey);
 
