@@ -84,13 +84,29 @@ body {
   border-radius: 3px;
 }
 
+/* ---- the left rail: masthead, legend, places stack and flow ----
+   (pinning each at fixed offsets broke the moment a long title
+   wrapped: the legend slid up over the masthead's buttons) */
+
+#rail {
+  position: absolute;
+  z-index: 10;
+  top: 12px;
+  left: 12px;
+  width: 250px;
+  max-height: calc(100vh - 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  pointer-events: none; /* gaps click through to the map */
+}
+#rail > * { pointer-events: auto; }
+
 /* ---- masthead ---- */
 
 #masthead {
-  top: 12px;
-  left: 12px;
+  position: static;
   padding: 10px 16px 12px;
-  max-width: 260px;
   border-top: 3px double var(--rule);
   border-bottom: 3px double var(--rule);
 }
@@ -135,13 +151,12 @@ body {
 /* ---- legend ---- */
 
 #legend {
-  top: 150px;
-  left: 12px;
-  width: 230px;
+  position: static;
   padding: 6px;
   display: flex;
   flex-direction: column;
   gap: 2px;
+  overflow-y: auto;
 }
 
 .legend-item {
@@ -225,14 +240,12 @@ body {
 /* ---- places gazetteer (explore mode) ---- */
 
 #places {
-  top: 150px;
-  left: 12px;
-  width: 250px;
+  position: static;
+  min-height: 0; /* let the rail's max-height squeeze it */
   padding: 0 0 6px;
   font-size: 14px;
   display: flex;
   flex-direction: column;
-  max-height: calc(100vh - 180px);
 }
 #places[hidden] { display: none; }
 
@@ -1003,6 +1016,10 @@ body.is-overture #captions { display: none !important; }
 @media (max-width: 720px) {
   body { font-size: 15px; }
 
+  /* the rail dissolves; panels take their own mobile positions */
+  #rail { display: contents; }
+  #masthead, #legend, #places { position: absolute; }
+
   #masthead {
     top: 8px;
     left: 8px;
@@ -1040,6 +1057,7 @@ body.is-overture #captions { display: none !important; }
     right: 8px;
     width: auto;
     max-height: 46vh;
+    min-height: 0;
   }
 
   #captions { bottom: 152px; }
