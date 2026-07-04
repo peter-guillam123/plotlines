@@ -1,0 +1,9 @@
+[
+  {
+    "id": "dracula",
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "file": "data/dracula.json"
+  }
+]
