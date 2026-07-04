@@ -5,5 +5,12 @@
     "author": "Bram Stoker",
     "year": 1897,
     "file": "data/dracula.json"
+  },
+  {
+    "id": "tess",
+    "title": "Tess of the d'Urbervilles",
+    "author": "Thomas Hardy",
+    "year": 1891,
+    "file": "data/tess.json"
   }
 ]
