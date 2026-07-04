@@ -11,6 +11,7 @@ import { createLegend } from './ui/legend.js';
 import { createScrubber } from './ui/scrubber.js';
 import { createCaptions } from './ui/captions.js';
 import { createCards } from './ui/cards.js';
+import { createPlaces } from './ui/places.js';
 
 const map = createMap('map');
 
@@ -49,7 +50,8 @@ ready
     });
     createScrubber(document.getElementById('controls'), novel, timeline, engine);
     createCaptions(document.getElementById('captions'), novel, timeline);
-    createCards(map, novel, document.getElementById('sheet'));
+    const cards = createCards(map, novel, document.getElementById('sheet'));
+    createPlaces(document.getElementById('places'), map, novel, cards, engine);
 
     function selectCharacter(id) {
       timeline.setSelected(id);

@@ -100,6 +100,7 @@ function buildOpacityControl(map) {
       if (root.isConnected) map.removeControl(control);
     },
   };
-  map.addControl(control, 'top-left');
+  // top-right, under the zoom buttons — top-left belongs to the masthead.
+  map.addControl(control, 'top-right');
   return control;
 }

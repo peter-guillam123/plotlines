@@ -172,6 +172,56 @@ body {
   text-overflow: ellipsis;
 }
 
+/* ---- places index ---- */
+
+#places {
+  top: 150px;
+  left: 254px;
+  max-width: 240px;
+  padding: 0;
+  font-size: 14px;
+}
+
+#places summary {
+  padding: 10px 14px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+#places details[open] summary { border-bottom: 1px solid var(--rule); }
+
+.places-list {
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  max-height: min(400px, 45vh);
+  overflow-y: auto;
+}
+
+.places-item {
+  display: block;
+  width: 100%;
+  min-height: 40px;
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.places-item:hover { background: var(--paper-deep); }
+.places-certainty {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
 /* ---- captions ---- */
 
 #captions {
@@ -495,6 +545,14 @@ body {
   #legend::-webkit-scrollbar { display: none; }
   .legend-item { flex: none; min-height: 44px; padding: 4px 10px; }
   .legend-role { display: none; }
+
+  #places {
+    top: 8px;
+    left: auto;
+    right: 56px; /* clear of the zoom control */
+    max-width: 200px;
+  }
+  .places-list { max-height: 40vh; }
 
   #captions { bottom: 152px; }
   .caption-line { font-size: 13px; }

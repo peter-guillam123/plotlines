@@ -65,14 +65,20 @@ export function createCards(map, novel, sheetEl) {
   const panel = sheetEl.querySelector('.sheet-panel');
   const content = sheetEl.querySelector('.sheet-content');
 
+  let opener = null; // element to return focus to on close
+
   function openSheet(loc) {
+    opener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     content.innerHTML = cardHtml(loc);
     fillCard(content, loc);
     sheetEl.classList.add('is-open');
     panel.focus({ preventScroll: true });
   }
   function closeSheet() {
+    if (!sheetEl.classList.contains('is-open')) return;
     sheetEl.classList.remove('is-open');
+    if (opener && opener.isConnected) opener.focus({ preventScroll: true });
+    opener = null;
   }
 
   sheetEl.querySelector('.sheet-close').addEventListener('click', closeSheet);
