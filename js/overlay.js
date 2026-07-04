@@ -22,13 +22,18 @@ function firstSymbolLayerId(map) {
   return layer ? layer.id : undefined;
 }
 
-export function addNlsOverlay(map) {
+export function addNlsOverlay(map, novel = {}) {
   if (!MAPTILER_KEY) return null;
+
+  // Each novel may name its own period layer (e.g. the OS Old Series
+  // for a Regency book); the 1890s one-inch is the default.
+  const tileset = novel.overlay?.tileset || NLS_TILESET;
+  const label = novel.overlay?.label || '1890s map';
 
   map.addSource(SOURCE_ID, {
     type: 'raster',
     tiles: [
-      `https://api.maptiler.com/tiles/${NLS_TILESET}/{z}/{x}/{y}.jpg?key=${MAPTILER_KEY}`,
+      `https://api.maptiler.com/tiles/${tileset}/{z}/{x}/{y}.jpg?key=${MAPTILER_KEY}`,
     ],
     tileSize: 256,
     bounds: GB_BOUNDS, // never request tiles outside Great Britain
@@ -47,7 +52,7 @@ export function addNlsOverlay(map) {
     firstSymbolLayerId(map)
   );
 
-  const control = buildOpacityControl(map);
+  const control = buildOpacityControl(map, label);
   let failed = false;
 
   map.on('error', (e) => {
@@ -68,13 +73,13 @@ export function addNlsOverlay(map) {
 
 // A small parchment control: checkbox to toggle the scans, slider for
 // their opacity. Registered as a MapLibre IControl.
-function buildOpacityControl(map) {
+function buildOpacityControl(map, label) {
   const root = document.createElement('div');
   root.className = 'maplibregl-ctrl nls-control';
   root.innerHTML = `
     <label class="nls-toggle">
       <input type="checkbox" checked>
-      <span>1890s map</span>
+      <span></span>
     </label>
     <label class="nls-opacity">
       <span class="visually-hidden">Historic map opacity</span>
@@ -82,6 +87,7 @@ function buildOpacityControl(map) {
              aria-label="Historic map opacity">
     </label>`;
 
+  root.querySelector('.nls-toggle span').textContent = label;
   const checkbox = root.querySelector('input[type=checkbox]');
   const slider = root.querySelector('input[type=range]');
 

@@ -118,6 +118,20 @@ body {
   color: var(--ink-soft);
 }
 
+.masthead-picker {
+  display: block;
+  width: 100%;
+  margin: 8px 0 2px;
+  padding: 8px 6px;
+  min-height: 40px;
+  font: inherit;
+  font-size: 14px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+}
+
 .masthead-about {
   font-size: 13px;
   font-style: italic;
