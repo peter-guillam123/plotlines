@@ -25,10 +25,12 @@ export function createEngine(timeline, render) {
     // paints, it must not also advance.
     const smoothPlaying = timeline.state.playing && stepTimer == null;
     if (smoothPlaying) atEnd = timeline.advance(dt * PLAY_SPEED);
-    render();
+    // render() may return true to request more frames (a camera still
+    // settling after a pause or scrub).
+    const wantsMore = render() === true;
     if (atEnd) {
       pause();
-    } else if (smoothPlaying) {
+    } else if (smoothPlaying || wantsMore) {
       schedule();
     } else {
       lastTs = null;

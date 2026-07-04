@@ -230,7 +230,11 @@ body {
   left: 50%;
   bottom: 96px;
   transform: translateX(-50%);
-  max-width: min(560px, calc(100vw - 24px));
+  max-width: min(620px, calc(100vw - 24px));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
   text-align: center;
   pointer-events: none;
   opacity: 0;
@@ -239,14 +243,30 @@ body {
 #captions.is-visible { opacity: 1; }
 
 .caption-line {
-  display: inline-block;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
   margin: 0;
-  padding: 8px 18px;
+  padding: 7px 16px;
   background: rgba(46, 36, 23, 0.85);
   color: var(--paper-bright);
   font-size: 15px;
   border-radius: 3px;
+  transition: opacity 0.5s ease;
 }
+.caption-line.is-arrival { background: rgba(46, 36, 23, 0.68); font-style: italic; }
+.caption-line.is-retiring { opacity: 0; }
+
+.caption-swatch {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  align-self: center;
+  box-shadow: 0 0 0 1.5px var(--paper-bright);
+}
+.caption-swatch + .caption-swatch { margin-left: -6px; }
+.caption-text { min-width: 0; }
 .caption-note { font-style: italic; opacity: 0.85; }
 
 /* ---- controls / scrubber ---- */
@@ -312,6 +332,130 @@ body {
   accent-color: var(--accent);
   height: 24px;
   cursor: pointer;
+}
+
+/* ---- recentre / frame-the-story ---- */
+
+#recentre {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 92px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 6px 16px;
+  font: inherit;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+#recentre:hover { color: var(--accent); background: var(--paper); }
+#recentre[hidden] { display: none; }
+
+/* ---- intro title card ---- */
+
+#intro:empty { display: none; }
+#intro.is-leaving { opacity: 0; transition: opacity 0.45s ease; }
+
+.intro-scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(46, 36, 23, 0.45);
+}
+
+.intro-card {
+  position: fixed;
+  z-index: 41;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: min(460px, calc(100vw - 32px));
+  padding: 34px 38px 26px;
+  background: var(--paper-bright);
+  border: 1px solid var(--rule);
+  border-top: 4px double var(--rule);
+  border-bottom: 4px double var(--rule);
+  box-shadow: 0 12px 48px rgba(46, 36, 23, 0.45);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.intro-kicker {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.intro-title {
+  margin: 8px 0 0;
+  font-family: var(--display);
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 1;
+}
+
+.intro-byline {
+  margin: 6px 0 0;
+  font-style: italic;
+  font-size: 16px;
+  color: var(--ink-soft);
+}
+
+.intro-blurb {
+  margin: 18px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.intro-actions {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.intro-begin, .intro-explore {
+  min-height: 44px;
+  padding: 8px 22px;
+  border-radius: 3px;
+  font: inherit;
+  font-size: 16px;
+  cursor: pointer;
+}
+.intro-begin {
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  color: var(--paper-bright);
+}
+.intro-begin:hover { background: #8e332b; }
+.intro-explore {
+  background: transparent;
+  border: 1px solid var(--rule);
+  color: var(--ink-soft);
+}
+.intro-explore:hover { background: var(--paper-deep); }
+
+.intro-hints {
+  margin: 20px 0 0;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* Gentle pulse on play until first pressed (skipped under reduced motion) */
+@keyframes play-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(166, 61, 51, 0.45); }
+  50% { box-shadow: 0 0 0 9px rgba(166, 61, 51, 0); }
+}
+#controls:not(.has-played) .play-btn { animation: play-pulse 2.2s ease infinite; }
+@media (prefers-reduced-motion: reduce) {
+  #controls:not(.has-played) .play-btn { animation: none; }
 }
 
 /* ---- location cards (hover popup) ---- */
@@ -577,6 +721,9 @@ body {
 
   #captions { bottom: 152px; }
   .caption-line { font-size: 13px; }
+  #recentre { bottom: 148px; font-size: 13px; }
+  .intro-title { font-size: 40px; }
+  .intro-card { padding: 26px 22px 20px; }
 
   #controls {
     bottom: 8px;

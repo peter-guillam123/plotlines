@@ -4,7 +4,7 @@
 
 import { CERTAINTY_LABELS } from './format.js';
 
-export function createPlaces(container, map, novel, cards, engine) {
+export function createPlaces(container, map, novel, cards, engine, director) {
   container.innerHTML = `
     <details>
       <summary>Places in the story</summary>
@@ -22,6 +22,7 @@ export function createPlaces(container, map, novel, cards, engine) {
     btn.querySelector('.places-certainty').textContent =
       loc.certainty === 'real' ? '' : `(${CERTAINTY_LABELS[loc.certainty].toLowerCase()})`;
     btn.addEventListener('click', () => {
+      director.disarm(); // looking at a place beats following the story
       const view = { center: loc.coords, zoom: Math.max(map.getZoom(), 8) };
       if (engine.reducedMotion()) map.jumpTo(view);
       else map.flyTo({ ...view, duration: 1200 });

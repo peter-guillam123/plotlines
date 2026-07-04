@@ -1,17 +1,20 @@
 import { createMap } from './map.js';
 import { addNlsOverlay } from './overlay.js';
 import { loadNovelIndex, loadNovel } from './data.js';
-import { buildPaths, addRouteLayers, setRouteEmphasis } from './routes.js';
+import {
+  buildPaths, addRouteLayers, addActiveLegLayers, setRouteEmphasis, updateActiveLegs,
+} from './routes.js';
 import { addCharacterMarkers, updateCharacterMarkers } from './markers.js';
 import { createTimeline } from './timeline.js';
 import { createEngine } from './engine.js';
-import { createFollowCamera } from './camera.js';
+import { createDirector } from './director.js';
 import { createMasthead } from './ui/masthead.js';
 import { createLegend } from './ui/legend.js';
 import { createScrubber } from './ui/scrubber.js';
 import { createCaptions } from './ui/captions.js';
 import { createCards } from './ui/cards.js';
 import { createPlaces } from './ui/places.js';
+import { createIntro } from './ui/intro.js';
 
 const map = createMap('map');
 window.novelmapsMap = map; // exposed immediately so a stuck startup can be inspected
@@ -27,21 +30,17 @@ ready
 
     const paths = buildPaths(novel);
     addRouteLayers(map, novel, paths);
+    addActiveLegLayers(map);
     addCharacterMarkers(map, novel);
 
     const timeline = createTimeline(novel, paths);
-    const camera = createFollowCamera(map);
+    const director = createDirector(map, timeline, novel, paths);
 
     const engine = createEngine(timeline, () => {
       const positions = timeline.positionsAt(timeline.state.t);
       updateCharacterMarkers(map, novel, positions, timeline.state.selected);
-      if (timeline.state.selected) {
-        const pos = positions[timeline.state.selected];
-        if (pos) {
-          if (engine.reducedMotion()) camera.jumpTo(pos.lngLat);
-          else camera.update(pos.lngLat);
-        }
-      }
+      updateActiveLegs(map, novel, positions, paths);
+      return director.update(positions, { instant: engine.reducedMotion() });
     });
 
     // ---- UI ----
@@ -52,14 +51,28 @@ ready
     createScrubber(document.getElementById('controls'), novel, timeline, engine);
     createCaptions(document.getElementById('captions'), novel, timeline);
     const cards = createCards(map, novel, document.getElementById('sheet'));
-    createPlaces(document.getElementById('places'), map, novel, cards, engine);
+    createPlaces(document.getElementById('places'), map, novel, cards, engine, director);
+    createIntro(document.getElementById('intro'), novel, () => {
+      director.arm();
+      engine.play();
+    });
+
+    // "Frame the story" appears whenever the user has taken the camera.
+    const recentre = document.getElementById('recentre');
+    recentre.addEventListener('click', () => {
+      director.arm();
+      engine.requestRender();
+    });
+    director.onStateChange((armed) => {
+      recentre.hidden = armed;
+    });
+    recentre.hidden = true;
 
     function selectCharacter(id) {
       timeline.setSelected(id);
       setRouteEmphasis(map, id);
       legend.setSelected(id);
-      if (id) camera.arm();
-      else camera.disarm();
+      if (id) director.arm();
       engine.requestRender();
     }
 
@@ -87,7 +100,7 @@ ready
 
     engine.requestRender();
 
-    window.novelmaps = { map, novel, timeline, engine, selectCharacter };
+    window.novelmaps = { map, novel, timeline, engine, director, selectCharacter };
   })
   .catch((err) => {
     console.error(err);

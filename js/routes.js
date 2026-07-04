@@ -111,6 +111,72 @@ export function addRouteLayers(map, novel, paths) {
   });
 }
 
+// The legs currently being travelled, drawn emphasised over the faint
+// route web — a soft paper glow under a full-strength colour line, so
+// the eye finds the motion.
+export function addActiveLegLayers(map) {
+  map.addSource('active-legs', {
+    type: 'geojson',
+    data: { type: 'FeatureCollection', features: [] },
+  });
+  const layout = { 'line-cap': 'round', 'line-join': 'round' };
+  map.addLayer({
+    id: 'active-legs-glow',
+    type: 'line',
+    source: 'active-legs',
+    layout,
+    paint: {
+      'line-color': '#f9f2e2',
+      'line-width': ['interpolate', ['linear'], ['zoom'], 4, 6, 10, 9],
+      'line-opacity': 0.8,
+      'line-blur': 2,
+    },
+  });
+  map.addLayer({
+    id: 'active-legs-line',
+    type: 'line',
+    source: 'active-legs',
+    layout,
+    paint: {
+      'line-color': ['get', 'colour'],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 4, 2.6, 10, 3.6],
+      'line-offset': ['get', 'offset'],
+      'line-opacity': 0.95,
+    },
+  });
+}
+
+const activeKey = (positions) =>
+  Object.values(positions)
+    .map((p) => (p && p.movement ? `${p.movement.character}:${p.movement.from}>${p.movement.to}@${p.movement.chapter}` : ''))
+    .join('|');
+let lastActiveKey = null;
+
+export function updateActiveLegs(map, novel, positions, paths) {
+  const key = activeKey(positions);
+  if (key === lastActiveKey) return; // legs change rarely; skip per-frame churn
+  lastActiveKey = key;
+
+  const offsets = characterOffsets(novel.characters);
+  const byMovement = new Map(paths.map((e) => [e.movement, e]));
+  const features = [];
+  for (const [id, pos] of Object.entries(positions)) {
+    if (!pos || !pos.movement) continue;
+    const entry = byMovement.get(pos.movement);
+    if (!entry) continue;
+    features.push({
+      type: 'Feature',
+      geometry: { type: 'LineString', coordinates: entry.path.coords },
+      properties: {
+        colour: CHARACTER_COLOURS[novel.charactersById[id].colour],
+        offset: offsets[id],
+      },
+    });
+  }
+  const source = map.getSource('active-legs');
+  if (source) source.setData({ type: 'FeatureCollection', features });
+}
+
 // Character selection: dim everyone else's routes.
 export function setRouteEmphasis(map, characterId) {
   const opacity = characterId

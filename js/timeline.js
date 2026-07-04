@@ -36,7 +36,7 @@ export function createTimeline(novel, paths) {
     selected: null,
   };
 
-  const listeners = { tick: [], movementStarted: [], chapterChanged: [], playState: [] };
+  const listeners = { tick: [], movementStarted: [], movementEnded: [], chapterChanged: [], playState: [] };
   const on = (ev, fn) => listeners[ev].push(fn);
   const emit = (ev, ...args) => listeners[ev].forEach((fn) => fn(...args));
 
@@ -79,7 +79,11 @@ export function createTimeline(novel, paths) {
   function fireTransitions(positions) {
     for (const [id, pos] of Object.entries(positions)) {
       const current = pos && pos.movement;
-      if (current && current !== lastActive[id]) {
+      const previous = lastActive[id];
+      if (previous && current !== previous) {
+        emit('movementEnded', previous, novel.charactersById[id]);
+      }
+      if (current && current !== previous) {
         emit('movementStarted', current, novel.charactersById[id]);
       }
       lastActive[id] = current;

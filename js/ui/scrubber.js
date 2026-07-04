@@ -67,6 +67,7 @@ export function createScrubber(container, novel, timeline, engine) {
     playBtn.setAttribute('aria-pressed', String(playing));
     playBtn.setAttribute('aria-label', playing ? 'Pause' : 'Play');
     container.classList.toggle('is-playing', playing);
+    if (playing) container.classList.add('has-played');
   });
 
   updateHeading(1);

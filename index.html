@@ -16,7 +16,15 @@
   <div id="places" class="panel"></div>
   <div id="captions" aria-live="polite"></div>
   <div id="controls" class="panel"></div>
+  <button type="button" id="recentre" class="panel" hidden>
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <circle cx="12" cy="12" r="3.2" fill="currentColor"/>
+      <path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    <span>Frame the story</span>
+  </button>
   <div id="sheet"></div>
+  <div id="intro"></div>
 
   <noscript><p class="noscript">Novelmaps needs JavaScript to draw the map.</p></noscript>
   <script src="vendor/maplibre-gl/maplibre-gl.js"></script>

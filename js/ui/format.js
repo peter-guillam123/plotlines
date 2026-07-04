@@ -28,18 +28,37 @@ export function chapterHeading(novel, n) {
 }
 
 const VERBS = {
-  train: 'travels by train',
-  coach: 'goes by coach',
-  ship: 'sails',
-  foot: 'goes on foot',
-  horse: 'rides',
-  unknown: 'moves',
+  train: ['travels by train', 'travel by train'],
+  coach: ['goes by coach', 'go by coach'],
+  ship: ['sails', 'sail'],
+  foot: ['goes on foot', 'go on foot'],
+  horse: ['rides', 'ride'],
+  unknown: ['moves', 'move'],
 };
 
-export function movementSentence(novel, movement, character) {
+function nameList(characters) {
+  // "The hunting party" keeps its capital only at the start of a sentence.
+  const names = characters.map((c, i) =>
+    i === 0 ? c.name : c.name.replace(/^The /, 'the ')
+  );
+  if (names.length === 1) return names[0];
+  return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
+}
+
+// One sentence per journey; shared journeys take a plural verb:
+// "Jonathan Harker, Mina Harker and the hunting party travel by train…"
+export function movementSentence(novel, movement, characters) {
+  const chars = Array.isArray(characters) ? characters : [characters];
   const from = novel.locationsById[movement.from];
   const to = novel.locationsById[movement.to];
-  return `${character.name} ${VERBS[movement.mode]} from ${from.novelName} to ${to.novelName}.`;
+  const verb = VERBS[movement.mode][chars.length > 1 ? 1 : 0];
+  return `${nameList(chars)} ${verb} from ${from.novelName} to ${to.novelName}.`;
+}
+
+export function arrivalSentence(novel, movement, characters) {
+  const chars = Array.isArray(characters) ? characters : [characters];
+  const to = novel.locationsById[movement.to];
+  return `${nameList(chars)} ${chars.length > 1 ? 'arrive' : 'arrives'} at ${to.novelName}.`;
 }
 
 export const CERTAINTY_LABELS = {
