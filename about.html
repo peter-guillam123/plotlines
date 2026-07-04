@@ -14,13 +14,94 @@
       <h1>About Novelmaps</h1>
     </header>
 
-    <!-- Filled properly at the docs pass (commit 11): what this is,
-         methodology (incl. how conjectured locations are placed),
-         full attribution, and the reverse-chronological diary. -->
     <section>
-      <p>Novelmaps animates character journeys from out-of-copyright
-      Victorian novels on a Victorian map. It's under construction; the
-      full story of what it is and how it's made will appear here.</p>
+      <h2>What this is</h2>
+      <p>Novelmaps takes out-of-copyright Victorian novels and draws their
+      characters' journeys on a Victorian map. Pick a novel, press play,
+      and watch everyone move at once, chapter by chapter — or follow a
+      single character and let the map travel with them. Hover over any
+      stop and you get the place as the novel itself names it, with the
+      line of text that puts them there.</p>
+      <p>It starts with <em>Dracula</em>, because Stoker wrote what is
+      probably the best travel itinerary in Victorian fiction: a
+      solicitor's clerk crossing Europe by train, a ghost ship rounding
+      Gibraltar with her captain lashed to the wheel, and a three-pronged
+      chase up a Romanian river at the end. More novels to follow.</p>
+    </section>
+
+    <section>
+      <h2>Where the pins come from</h2>
+      <p>Every location carries a badge, and the badge matters.</p>
+      <p><strong>Real place</strong> means exactly that — Whitby's Tate
+      Hill Pier, 197 Chicksand Street — and the pin goes precisely there.
+      <strong>Identified place</strong> means the novel is being coy but
+      the answer is generally agreed: Stoker's "Kingstead" churchyard is
+      Highgate Cemetery in all but name. <strong>Best guess</strong> means
+      the place is invented — Castle Dracula, Carfax, Hillingham — and the
+      pin is an editorial judgement, made from the clues the novel leaves
+      (Carfax is "at Purfleet, on a by-road"; the castle is somewhere east
+      of the Borgo Pass, on the edge of a precipice). Guessed places are
+      drawn with dashed routes and hollow markers, and each one carries a
+      note explaining the reasoning. If you think a pin is in the wrong
+      place, you may well be right, and I'd like to hear about it.</p>
+      <p>Every quotation on the map has been checked, verbatim, against
+      the Project Gutenberg text. One honest simplification: the timeline
+      runs on chapters, and Dracula's letters and diary entries overlap
+      each other in real story-time. The dates shown are the novel's own;
+      the animation follows the chapters.</p>
+    </section>
+
+    <section>
+      <h2>How it's made</h2>
+      <p>The base map is <a href="https://openfreemap.org">OpenFreeMap</a>'s
+      rendering of OpenStreetMap data, re-dressed in a sepia and parchment
+      style. Over Great Britain, you can lay genuine Victorian cartography
+      on top: Ordnance Survey sheets from 1885–1903, scanned and
+      georeferenced by the <a href="https://maps.nls.uk/">National Library
+      of Scotland</a> and served via MapTiler. It feels different watching
+      Lucy sleepwalk across the actual 1890s survey of Whitby, which is
+      rather the point.</p>
+      <p>Under the hood it's plain JavaScript and
+      <a href="https://maplibre.org/">MapLibre GL</a> — no framework, no
+      build step. The novel data is one hand-written JSON file per book,
+      with the routes' sea lanes and railway lines plotted by hand where a
+      straight line would tell lies. The whole thing is a static site on
+      GitHub Pages.</p>
+    </section>
+
+    <section>
+      <h2>Attribution</h2>
+      <ul>
+        <li>Base map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>
+            contributors, tiles by <a href="https://openfreemap.org">OpenFreeMap</a>
+            using <a href="https://openmaptiles.org/">OpenMapTiles</a>.</li>
+        <li>Historic maps: reproduced with the permission of the
+            <a href="https://maps.nls.uk/">National Library of Scotland</a>
+            (CC-BY-NC-SA), served by <a href="https://www.maptiler.com/">MapTiler</a>.</li>
+        <li>Novel text: <a href="https://www.gutenberg.org/ebooks/345">Project
+            Gutenberg #345</a>, <em>Dracula</em> by Bram Stoker (1897).</li>
+        <li>Map rendering: <a href="https://maplibre.org/">MapLibre GL JS</a> (BSD-3-Clause).</li>
+        <li>Type: IM Fell English (the Fell Types, digitised by Igino
+            Marini, SIL OFL) and EB Garamond (SIL OFL).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Diary</h2>
+
+      <h3>4 July 2026 — the first map <span class="diary-milestone">milestone</span></h3>
+      <p>Built the whole first version in a sitting: the sepia base map,
+      the NLS Victorian overlay, the timeline scrubber, and <em>Dracula</em>
+      itself — six character tracks, 28 locations, 88 movements, every
+      quotation checked verbatim against Gutenberg. The data model turned
+      out to be the interesting part: certainty is a first-class field, so
+      the map can be honest about the difference between Tate Hill Pier
+      (real, to the metre) and Castle Dracula (a considered guess above
+      the Borgo Pass). The validation code caught me teleporting Jonathan
+      from Transylvania to Budapest without his escape leg, which feels to
+      me like the system working. Known gap: the historic overlay awaits
+      its MapTiler key, so for now Whitby sits on the sepia base rather
+      than the 1890s survey.</p>
     </section>
   </main>
 </body>

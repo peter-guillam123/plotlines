@@ -503,6 +503,27 @@ body {
 .about a { color: var(--accent); }
 .about p, .about li { line-height: 1.55; }
 
+.about h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 1.5rem 0 0.25rem;
+}
+
+.diary-milestone {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 8px 1px;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+  color: var(--accent);
+  vertical-align: middle;
+}
+
 /* ---- focus + motion ---- */
 
 :focus-visible {
