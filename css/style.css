@@ -549,6 +549,12 @@ body {
 }
 .card-real-name:empty { display: none; }
 
+.card-story {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
 .card-quote {
   margin: 8px 0 0;
   padding-left: 10px;

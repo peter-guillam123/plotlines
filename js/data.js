@@ -75,6 +75,9 @@ function validate(novel, file) {
     if (loc.certainty !== CERTAINTY.REAL && !loc.note) {
       fail(file, `"${loc.id}" is ${loc.certainty} but has no note explaining the judgement`);
     }
+    if (!loc.story) {
+      fail(file, `"${loc.id}" has no story note — every place must say what happens there`);
+    }
   }
 
   const charIds = new Set();
