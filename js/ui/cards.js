@@ -25,13 +25,20 @@ function fillCard(el, loc) {
   if (loc.note) el.querySelector('.card-note').textContent = loc.note;
 }
 
-export function createCards(map, novel, sheetEl) {
+export function createCards(map, novel, sheetEl, { isPlaying = () => false } = {}) {
   const finePointer = window.matchMedia('(pointer: fine)').matches;
 
   // ---- hover card (desktop) ----
   let popup = null;
   if (finePointer) {
+    // A pin drifting under a stationary cursor must not leave a card
+    // stranded: any camera movement dismisses the hover card.
+    map.on('movestart', () => {
+      popup?.remove();
+      popup = null;
+    });
     map.on('mouseenter', 'locations', (e) => {
+      if (isPlaying()) return; // no hover cards while the story plays
       map.getCanvas().style.cursor = 'pointer';
       const loc = novel.locationsById[e.features[0].properties.id];
       if (!loc) return;

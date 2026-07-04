@@ -161,6 +161,19 @@ body {
   box-shadow: 0 0 0 1px var(--rule);
 }
 
+.map-key {
+  margin-top: 4px;
+  padding: 8px 8px 4px;
+  border-top: 1px solid var(--rule);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px 10px;
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+.key-item { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+.key-item svg { flex: none; color: var(--ink); }
+
 .legend-text { display: flex; flex-direction: column; min-width: 0; }
 .legend-name { font-size: 15px; }
 .legend-role {
@@ -295,6 +308,20 @@ body {
   place-items: center;
 }
 .play-btn:hover { background: var(--paper-deep); }
+.speed-btn {
+  flex: none;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.speed-btn:hover { background: var(--paper-deep); color: var(--ink); }
+
 .play-btn .icon-pause { display: none; }
 .play-btn[aria-pressed='true'] .icon-play { display: none; }
 .play-btn[aria-pressed='true'] .icon-pause { display: block; }

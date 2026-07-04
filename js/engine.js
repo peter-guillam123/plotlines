@@ -6,14 +6,15 @@
 // Reduced motion is a different transport, same model: play() becomes a
 // chapter-by-chapter step on a timer, with a single jump-render per step.
 
-import { PLAY_SPEED } from './constants.js';
+import { PLAY_SPEED, SPEED_STEPS } from './constants.js';
 
-const RM_STEP_MS = 3000;
+const RM_STEP_MS = 3600;
 
 export function createEngine(timeline, render) {
   let rafId = null;
   let lastTs = null;
   let stepTimer = null;
+  let speedIndex = 0; // index into SPEED_STEPS
   const rmQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 
   function frame(ts) {
@@ -24,7 +25,7 @@ export function createEngine(timeline, render) {
     // In reduced-motion mode the step timer drives time; the loop only
     // paints, it must not also advance.
     const smoothPlaying = timeline.state.playing && stepTimer == null;
-    if (smoothPlaying) atEnd = timeline.advance(dt * PLAY_SPEED);
+    if (smoothPlaying) atEnd = timeline.advance(dt * PLAY_SPEED * SPEED_STEPS[speedIndex]);
     // render() may return true to request more frames (a camera still
     // settling after a pause or scrub).
     const wantsMore = render() === true;
@@ -62,7 +63,7 @@ export function createEngine(timeline, render) {
         const done = timeline.stepChapter(1);
         requestRender();
         if (done) pause();
-      }, RM_STEP_MS);
+      }, RM_STEP_MS / SPEED_STEPS[speedIndex]);
       timeline.setPlaying(true);
       requestRender();
     } else {
@@ -100,5 +101,15 @@ export function createEngine(timeline, render) {
     isPlaying,
     requestRender,
     reducedMotion: () => rmQuery.matches,
+    // Cycle 1x -> 2x -> 3x; restart the step timer if it's driving.
+    cycleSpeed() {
+      speedIndex = (speedIndex + 1) % SPEED_STEPS.length;
+      if (stepTimer) {
+        pause();
+        play();
+      }
+      return SPEED_STEPS[speedIndex];
+    },
+    speed: () => SPEED_STEPS[speedIndex],
   };
 }

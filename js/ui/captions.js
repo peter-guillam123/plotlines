@@ -67,7 +67,7 @@ export function createCaptions(container, novel, timeline) {
     entry.arrived = true;
     render(entry, arrivalSentence(novel, movement, entry.characters));
     entry.el.classList.add('is-arrival');
-    entry.retireTimer = setTimeout(() => retire(key), 4000);
+    entry.retireTimer = setTimeout(() => retire(key), 2500);
   });
 
   function retire(key, immediate = false) {

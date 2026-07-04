@@ -40,6 +40,8 @@ export const NLS_MINZOOM = 6;
 export const NLS_MAXZOOM = 16; // tileset's native max
 export const NLS_DEFAULT_OPACITY = 0.85;
 
-// Animation
-export const PLAY_SPEED = 0.25;        // chapters per second
+// Animation. Base pace is deliberately unhurried (~3 minutes for a
+// 27-chapter novel); the speed control multiplies it.
+export const PLAY_SPEED = 0.15;        // chapters per second at 1x
+export const SPEED_STEPS = [1, 2, 3];  // the speed button cycles these
 export const CAMERA_DAMPING = 0.08;    // per-frame lerp factor for follow mode

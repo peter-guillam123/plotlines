@@ -15,6 +15,7 @@ export function createScrubber(container, novel, timeline, engine) {
         <path d="M6.5 4.5h4v15h-4zm7 0h4v15h-4z" fill="currentColor"/>
       </svg>
     </button>
+    <button type="button" class="speed-btn" aria-label="Playback speed: 1 times">1&times;</button>
     <div class="scrub-body">
       <div class="chapter-heading">
         <span class="chapter-numeral"></span>
@@ -43,6 +44,13 @@ export function createScrubber(container, novel, timeline, engine) {
   }
 
   playBtn.addEventListener('click', () => engine.toggle());
+
+  const speedBtn = container.querySelector('.speed-btn');
+  speedBtn.addEventListener('click', () => {
+    const s = engine.cycleSpeed();
+    speedBtn.innerHTML = `${s}&times;`;
+    speedBtn.setAttribute('aria-label', `Playback speed: ${s} times`);
+  });
 
   range.addEventListener('input', () => {
     scrubbing = true;

@@ -50,7 +50,9 @@ ready
     });
     createScrubber(document.getElementById('controls'), novel, timeline, engine);
     createCaptions(document.getElementById('captions'), novel, timeline);
-    const cards = createCards(map, novel, document.getElementById('sheet'));
+    const cards = createCards(map, novel, document.getElementById('sheet'), {
+      isPlaying: () => engine.isPlaying(),
+    });
     createPlaces(document.getElementById('places'), map, novel, cards, engine, director);
     createIntro(document.getElementById('intro'), novel, () => {
       director.arm();

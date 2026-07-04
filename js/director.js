@@ -64,6 +64,8 @@ export function createDirector(map, timeline, novel, paths) {
     const bounds = [];
     let maxZoom;
 
+    let contextRelax = 0; // extra zoom-out so long legs keep their geography
+
     if (selected) {
       const pos = positions[selected];
       if (!pos) return null;
@@ -71,6 +73,12 @@ export function createDirector(map, timeline, novel, paths) {
       if (pos.movement) {
         const path = pathByMovement.get(pos.movement);
         for (const c of path.coords) extendBounds(bounds, c);
+        // A town errand should be seen close; a country-crossing should
+        // read as a country-crossing, not a corridor of detail. Very long
+        // voyages barely relax — the whole-leg fit is already the context.
+        const km = path.totalKm;
+        contextRelax =
+          km > 1500 ? 0.3 : km > 500 ? 0.9 : km > 100 ? 0.7 : km > 15 ? 0.35 : 0;
       } else {
         extendBounds(bounds, pos.lngLat);
       }
@@ -89,6 +97,7 @@ export function createDirector(map, timeline, novel, paths) {
     if (!bounds.length) return null;
 
     const cam = map.cameraForBounds(bounds, { padding: padding(), maxZoom });
+    if (cam) cam.zoom = Math.max(cam.zoom - contextRelax, 3);
     return cam || null;
   }
 
