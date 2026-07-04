@@ -25,7 +25,7 @@ export const STYLE_URL = 'styles/victorian.json';
 // domain-restricted key (locked to the GitHub Pages origin + localhost in
 // the MapTiler dashboard) — committing it is normal practice for client
 // map keys. Empty string = overlay quietly unavailable.
-export const MAPTILER_KEY = '';
+export const MAPTILER_KEY = 'sSYkPN6c1QDSyXFoXpc5';
 
 // NLS historic layers served via MapTiler. Tileset slugs have been
 // reshuffled by MapTiler before — confirm against the account when the
@@ -37,7 +37,7 @@ export const NLS_TILESET = 'uk-osgb63k1885'; // OS one-inch "Hills", 1885-1900
 // tiles outside this box, which protects the 100k/month free quota.
 export const GB_BOUNDS = [-8.7, 49.8, 1.9, 60.9]; // [west, south, east, north]
 export const NLS_MINZOOM = 6;
-export const NLS_MAXZOOM = 15;
+export const NLS_MAXZOOM = 16; // tileset's native max
 export const NLS_DEFAULT_OPACITY = 0.85;
 
 // Animation

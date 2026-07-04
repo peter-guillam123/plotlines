@@ -14,6 +14,7 @@ import { createCards } from './ui/cards.js';
 import { createPlaces } from './ui/places.js';
 
 const map = createMap('map');
+window.novelmapsMap = map; // exposed immediately so a stuck startup can be inspected
 
 const ready = Promise.all([
   new Promise((resolve) => map.on('load', resolve)),
