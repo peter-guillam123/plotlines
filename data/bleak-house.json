@@ -529,7 +529,12 @@
       "note": "A real, precisely locatable place and the novel's symbolic centre. The Court of Chancery sat in Lincoln's Inn Hall, where Jarndyce and Jarndyce grinds on; Kenge and Carboy's office is 'Old Square, Lincoln's Inn'.",
       "story": "The fog-bound heart of everything: the Court where the interminable suit consumes fortunes and lives. The three young wards first meet here, and Richard is slowly destroyed by it.",
       "quote": "London. Michaelmas term lately over, and the Lord Chancellor sitting in Lincoln's Inn Hall.",
-      "quoteRef": "Ch. 1, In Chancery"
+      "quoteRef": "Ch. 1, In Chancery",
+      "image": {
+        "file": "assets/images/bh-lincolns-inn.jpg",
+        "caption": "Lincoln's Inn Old Hall, which housed the Court of Chancery, engraved c.1830",
+        "credit": "Thomas H. Shepherd, c.1830 · public domain"
+      }
     },
     {
       "id": "snagsbys-cooks-court",
@@ -574,7 +579,13 @@
       "note": "The pauper graveyard where Nemo/Captain Hawdon is buried and where Lady Dedlock is found dead at the iron gate. Dickens drew on the notorious overcrowded grounds behind Drury Lane — the most-cited model is Russell Court, closed in 1853 — but the text never names it, so the position is a best guess.",
       "story": "The iron gate the whole novel circles back to. Nemo is 'sown in corruption' here; Jo leads the veiled Lady Dedlock to it; and here, in the snow, she dies on the step.",
       "quote": "they lower our dear brother down a foot or two, here sow him in corruption",
-      "quoteRef": "Ch. 11, Our Dear Brother"
+      "quoteRef": "Ch. 11, Our Dear Brother",
+      "image": {
+        "file": "assets/images/bh-enon-chapel.jpg",
+        "caption": "Enon Chapel — a notorious London burial pit with a dance hall above the bodies, the pestilential kind of ground Dickens was attacking",
+        "credit": "The Poor Man's Guardian, 1847 · London Museum · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "tom-all-alones",
@@ -589,7 +600,13 @@
       "note": "The novel's great ruinous slum, tied into the Jarndyce suit as a decaying property. Dickens never names a real district and built it as a composite of the mid-century rookeries; scholarship makes St Giles-in-the-Fields the leading candidate, with Field Lane and Clare Market also proposed. No single site is agreed — hence a best guess.",
       "story": "The black, tumbledown street where Jo lives, and where the fever breeds that will climb out of the slum and reach even the great house.",
       "quote": "Jo lives—that is to say, Jo has not yet died—in a ruinous place known to the like of him by the name of Tom-all-Alone's.",
-      "quoteRef": "Ch. 16, Tom-all-Alone's"
+      "quoteRef": "Ch. 16, Tom-all-Alone's",
+      "image": {
+        "file": "assets/images/bh-seven-dials.jpg",
+        "caption": "Dudley Street, Seven Dials — the St Giles rookery behind Tom-all-Alone's, engraved by Gustave Doré, 1872",
+        "credit": "Gustave Doré, London: A Pilgrimage, 1872 · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "mr-george-shooting-gallery",
@@ -664,7 +681,13 @@
       "note": "The Dedlocks' country seat, which the novel places unambiguously 'in Lincolnshire' ('down in Lincolnshire', 'the place in Lincolnshire'). The atmosphere — the Ghost's Walk, the long gallery, the tower room — Dickens drew from Rockingham Castle in Northamptonshire, home of his friends the Watsons ('many bits, chiefly about trees and shadows'). Pinned in Lincolnshire, where the story sends its travellers; Rockingham is the real house behind the mood.",
       "story": "The great, damp, ancestral house where Lady Dedlock is bored to death and the rain falls for ever on the Ghost's Walk — the cold pole of the story, opposite Bleak House's warmth.",
       "quote": "The rain is ever falling—drip, drip, drip—by day and night upon the broad flagged terrace-pavement, the Ghost's Walk.",
-      "quoteRef": "Ch. 2, In Fashion"
+      "quoteRef": "Ch. 2, In Fashion",
+      "image": {
+        "file": "assets/images/bh-rockingham.jpg",
+        "caption": "Rockingham Castle — the real house whose mood Dickens gave Chesney Wold, not the imagined seat itself",
+        "credit": "J. P. Neale, 1818 · British Library · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "deal",
@@ -679,7 +702,12 @@
       "note": "A real Kentish seaport, named and unchanged. Richard is quartered here with his regiment; Esther travels down to plead with him, and sees Woodcourt land from the East Indiaman.",
       "story": "The windy garrison town on the Kent coast where Richard, in uniform now, is quartered — and where Esther, come to reason with him, watches Allan Woodcourt come ashore from a shipwreck.",
       "quote": "I should go down to Deal, where Richard was then stationed, and see him, and try if it were possible to avert the worst.",
-      "quoteRef": "Ch. 45, In Trust"
+      "quoteRef": "Ch. 45, In Trust",
+      "image": {
+        "file": "assets/images/bh-deal.jpg",
+        "caption": "The promenade at Deal, Kent, photographed c.1890",
+        "credit": "Detroit Publishing Co. photochrom · Library of Congress · public domain"
+      }
     }
   ],
   "movements": [
