@@ -25,5 +25,14 @@
     "file": "data/pride-and-prejudice.json",
     "blurb": "A country neighbourhood, a winter in town, and one scandalous dash from Brighton.",
     "spine": { "cloth": "#68809b", "text": "#f3ead7" }
+  },
+  {
+    "id": "david-copperfield",
+    "title": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "file": "data/david-copperfield.json",
+    "blurb": "A whole life — a Suffolk churchyard, the road to Dover, and the far side of the world.",
+    "spine": { "cloth": "#2e6e6a", "text": "#e6d59a" }
   }
 ]

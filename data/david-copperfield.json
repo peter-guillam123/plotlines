@@ -1,0 +1,1008 @@
+{
+  "title": "David Copperfield",
+  "author": "Charles Dickens",
+  "year": 1850,
+  "gutenbergId": 766,
+  "quotesVerified": true,
+  "timeline": {
+    "epoch": null,
+    "calendar": false,
+    "span": "about thirty years",
+    "unit": "year"
+  },
+  "overture": "David Copperfield lives a whole life across this map, from a Suffolk churchyard where he is born to a Swiss valley where he learns to bear his griefs. Between them lie the boat-house at Yarmouth, the blacking warehouse and the courts of London, the long boy's walk to Dover, the quiet of Canterbury — and, at the map's far edges, Naples and a new world in Australia.",
+  "sources": [
+    {
+      "name": "The Charles Dickens Page — David Copperfield",
+      "url": "https://www.charlesdickenspage.com/charles-dickens-david-copperfield.html"
+    },
+    {
+      "name": "Blundeston — the village and the Copperfield connection (Kent / Suffolk parish records)",
+      "url": "https://en.wikipedia.org/wiki/Blundeston"
+    },
+    {
+      "name": "The Victorian Web — Doctors' Commons and the law in Dickens",
+      "url": "https://victorianweb.org/authors/dickens/dc/index.html"
+    },
+    {
+      "name": "The Dickens Fellowship",
+      "url": "https://www.dickensfellowship.org/"
+    }
+  ],
+  "regions": [
+    {
+      "id": "east-anglia",
+      "name": "East Anglia — the Suffolk coast"
+    },
+    {
+      "id": "london",
+      "name": "London"
+    },
+    {
+      "id": "the-road-to-dover",
+      "name": "The road to Dover"
+    },
+    {
+      "id": "far-away",
+      "name": "Far away"
+    }
+  ],
+  "mapHome": {
+    "bounds": [
+      [
+        -0.6,
+        50.9
+      ],
+      [
+        2.0,
+        52.8
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "title": "Blunderstone born",
+      "day": 0,
+      "when": "his birth, at Blunderstone"
+    },
+    {
+      "n": 2,
+      "title": "Blunderstone born",
+      "day": 60,
+      "when": "his birth, at Blunderstone"
+    },
+    {
+      "n": 3,
+      "title": "a Suffolk boyhood",
+      "day": 2900,
+      "when": "a Suffolk boyhood"
+    },
+    {
+      "n": 4,
+      "title": "a Suffolk boyhood",
+      "day": 3000,
+      "when": "a Suffolk boyhood"
+    },
+    {
+      "n": 5,
+      "title": "sent away to school",
+      "day": 3300,
+      "when": "sent away to school"
+    },
+    {
+      "n": 6,
+      "title": "sent away to school",
+      "day": 3400,
+      "when": "sent away to school"
+    },
+    {
+      "n": 7,
+      "title": "sent away to school",
+      "day": 3500,
+      "when": "sent away to school"
+    },
+    {
+      "n": 8,
+      "title": "his mother's death",
+      "day": 3650,
+      "when": "his mother's death"
+    },
+    {
+      "n": 9,
+      "title": "his mother's death",
+      "day": 3700,
+      "when": "his mother's death"
+    },
+    {
+      "n": 10,
+      "title": "his mother's death",
+      "day": 3760,
+      "when": "his mother's death"
+    },
+    {
+      "n": 11,
+      "title": "the blacking warehouse",
+      "day": 3830,
+      "when": "the blacking warehouse"
+    },
+    {
+      "n": 12,
+      "title": "the flight to Dover",
+      "day": 3950,
+      "when": "the flight to Dover"
+    },
+    {
+      "n": 13,
+      "title": "the flight to Dover",
+      "day": 4000,
+      "when": "the flight to Dover"
+    },
+    {
+      "n": 14,
+      "title": "rescued — Dover and Canterbury",
+      "day": 4380,
+      "when": "rescued — Dover and Canterbury"
+    },
+    {
+      "n": 15,
+      "title": "rescued — Dover and Canterbury",
+      "day": 4550,
+      "when": "rescued — Dover and Canterbury"
+    },
+    {
+      "n": 16,
+      "title": "rescued — Dover and Canterbury",
+      "day": 4700,
+      "when": "rescued — Dover and Canterbury"
+    },
+    {
+      "n": 17,
+      "title": "rescued — Dover and Canterbury",
+      "day": 4850,
+      "when": "rescued — Dover and Canterbury"
+    },
+    {
+      "n": 18,
+      "title": "the Canterbury schooldays",
+      "day": 5100,
+      "when": "the Canterbury schooldays"
+    },
+    {
+      "n": 19,
+      "title": "the Canterbury schooldays",
+      "day": 5350,
+      "when": "the Canterbury schooldays"
+    },
+    {
+      "n": 20,
+      "title": "the Canterbury schooldays",
+      "day": 5600,
+      "when": "the Canterbury schooldays"
+    },
+    {
+      "n": 21,
+      "title": "the Canterbury schooldays",
+      "day": 5850,
+      "when": "the Canterbury schooldays"
+    },
+    {
+      "n": 22,
+      "title": "the Canterbury schooldays",
+      "day": 6100,
+      "when": "the Canterbury schooldays"
+    },
+    {
+      "n": 23,
+      "title": "a young man in London",
+      "day": 6400,
+      "when": "a young man in London"
+    },
+    {
+      "n": 24,
+      "title": "a young man in London",
+      "day": 6450,
+      "when": "a young man in London"
+    },
+    {
+      "n": 25,
+      "title": "a young man in London",
+      "day": 6500,
+      "when": "a young man in London"
+    },
+    {
+      "n": 26,
+      "title": "a young man in London",
+      "day": 6550,
+      "when": "a young man in London"
+    },
+    {
+      "n": 27,
+      "title": "a young man in London",
+      "day": 6600,
+      "when": "a young man in London"
+    },
+    {
+      "n": 28,
+      "title": "a young man in London",
+      "day": 6650,
+      "when": "a young man in London"
+    },
+    {
+      "n": 29,
+      "title": "a young man in London",
+      "day": 6700,
+      "when": "a young man in London"
+    },
+    {
+      "n": 30,
+      "title": "a young man in London",
+      "day": 6750,
+      "when": "a young man in London"
+    },
+    {
+      "n": 31,
+      "title": "a young man in London",
+      "day": 6800,
+      "when": "a young man in London"
+    },
+    {
+      "n": 32,
+      "title": "a young man in London",
+      "day": 6850,
+      "when": "a young man in London"
+    },
+    {
+      "n": 33,
+      "title": "a young man in London",
+      "day": 6900,
+      "when": "a young man in London"
+    },
+    {
+      "n": 34,
+      "title": "courtship, and the storm gathering",
+      "day": 7300,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 35,
+      "title": "courtship, and the storm gathering",
+      "day": 7325,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 36,
+      "title": "courtship, and the storm gathering",
+      "day": 7350,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 37,
+      "title": "courtship, and the storm gathering",
+      "day": 7375,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 38,
+      "title": "courtship, and the storm gathering",
+      "day": 7400,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 39,
+      "title": "courtship, and the storm gathering",
+      "day": 7425,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 40,
+      "title": "courtship, and the storm gathering",
+      "day": 7450,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 41,
+      "title": "courtship, and the storm gathering",
+      "day": 7475,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 42,
+      "title": "courtship, and the storm gathering",
+      "day": 7500,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 43,
+      "title": "courtship, and the storm gathering",
+      "day": 7525,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 44,
+      "title": "courtship, and the storm gathering",
+      "day": 7550,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 45,
+      "title": "courtship, and the storm gathering",
+      "day": 7575,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 46,
+      "title": "courtship, and the storm gathering",
+      "day": 7600,
+      "when": "courtship, and the storm gathering"
+    },
+    {
+      "n": 47,
+      "title": "the reckoning",
+      "day": 7700,
+      "when": "the reckoning"
+    },
+    {
+      "n": 48,
+      "title": "the reckoning",
+      "day": 7770,
+      "when": "the reckoning"
+    },
+    {
+      "n": 49,
+      "title": "the reckoning",
+      "day": 7840,
+      "when": "the reckoning"
+    },
+    {
+      "n": 50,
+      "title": "the reckoning",
+      "day": 7910,
+      "when": "the reckoning"
+    },
+    {
+      "n": 51,
+      "title": "the reckoning",
+      "day": 7980,
+      "when": "the reckoning"
+    },
+    {
+      "n": 52,
+      "title": "the reckoning",
+      "day": 8050,
+      "when": "the reckoning"
+    },
+    {
+      "n": 53,
+      "title": "loss, and the emigrants",
+      "day": 8200,
+      "when": "loss, and the emigrants"
+    },
+    {
+      "n": 54,
+      "title": "loss, and the emigrants",
+      "day": 8300,
+      "when": "loss, and the emigrants"
+    },
+    {
+      "n": 55,
+      "title": "loss, and the emigrants",
+      "day": 8400,
+      "when": "loss, and the emigrants"
+    },
+    {
+      "n": 56,
+      "title": "loss, and the emigrants",
+      "day": 8500,
+      "when": "loss, and the emigrants"
+    },
+    {
+      "n": 57,
+      "title": "loss, and the emigrants",
+      "day": 8600,
+      "when": "loss, and the emigrants"
+    },
+    {
+      "n": 58,
+      "title": "abroad, in grief",
+      "day": 8800,
+      "when": "abroad, in grief"
+    },
+    {
+      "n": 59,
+      "title": "abroad, in grief",
+      "day": 9100,
+      "when": "abroad, in grief"
+    },
+    {
+      "n": 60,
+      "title": "abroad, in grief",
+      "day": 9400,
+      "when": "abroad, in grief"
+    },
+    {
+      "n": 61,
+      "title": "home, at last — Agnes",
+      "day": 10200,
+      "when": "home, at last — Agnes"
+    },
+    {
+      "n": 62,
+      "title": "home, at last — Agnes",
+      "day": 10333,
+      "when": "home, at last — Agnes"
+    },
+    {
+      "n": 63,
+      "title": "home, at last — Agnes",
+      "day": 10467,
+      "when": "home, at last — Agnes"
+    },
+    {
+      "n": 64,
+      "title": "home, at last — Agnes",
+      "day": 10600,
+      "when": "home, at last — Agnes"
+    }
+  ],
+  "characters": [
+    {
+      "id": "david",
+      "name": "David Copperfield",
+      "colour": "prussian",
+      "role": "The narrator, telling his own life from birth: Blunderstone boy, warehouse drudge, Canterbury scholar, London proctor, and at last a writer — the thread the whole map is strung on",
+      "start": {
+        "location": "blunderstone",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "emly",
+      "name": "Little Em'ly",
+      "colour": "ochre",
+      "role": "Mr Peggotty's niece, David's boyhood sweetheart — the fisher-girl who dreams of being a lady, elopes with Steerforth to her ruin, is found and reclaimed, and sails for a new life in Australia",
+      "start": {
+        "location": "yarmouth",
+        "chapter": 3
+      }
+    },
+    {
+      "id": "steerforth",
+      "name": "James Steerforth",
+      "colour": "slate",
+      "role": "David's dazzling, careless schoolfriend from Highgate; he charms the Peggottys, carries Em'ly off, and is drowned in the Yarmouth storm within sight of the home he wrecked",
+      "start": {
+        "location": "highgate",
+        "chapter": 6
+      }
+    },
+    {
+      "id": "mrpeggotty",
+      "name": "Mr Peggotty",
+      "colour": "bottle",
+      "role": "The Yarmouth fisherman in the boat-house; when Em'ly is carried off he crosses France and Italy on foot in a years-long search, brings her home, and emigrates with her",
+      "start": {
+        "location": "yarmouth",
+        "chapter": 3
+      }
+    },
+    {
+      "id": "micawbers",
+      "name": "The Micawbers",
+      "colour": "sienna",
+      "role": "Wilkins Micawber and his loyal wife — genteel, indebted, endlessly hopeful; from London lodgings to Heep's clerkship in Canterbury, and finally to unlikely eminence in Australia",
+      "start": {
+        "location": "windsor-terrace",
+        "chapter": 11
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "blunderstone",
+      "region": "east-anglia",
+      "name": "Blundeston, Suffolk",
+      "novelName": "Blunderstone Rookery",
+      "coords": [
+        1.72,
+        52.47
+      ],
+      "certainty": "identified",
+      "note": "Blundeston, near Lowestoft: Dickens saw the signpost between Yarmouth and Lowestoft in January 1849 while planning the book, and lifted the name (softening it to Blunderstone). The Rookery house itself is invented.",
+      "story": "David's birthplace, and the whole first act of his childhood: born here six months after his father's death, he grows up between his gentle mother and stern Peggotty, until the Murdstones arrive to marry his mother and break the house up. He is sent away, comes home to find his mother dead, and never lives here again.",
+      "quote": "I was born at Blunderstone, in Suffolk",
+      "quoteRef": "Ch. 1"
+    },
+    {
+      "id": "yarmouth",
+      "region": "east-anglia",
+      "name": "Great Yarmouth",
+      "novelName": "Yarmouth",
+      "coords": [
+        1.73,
+        52.61
+      ],
+      "certainty": "real",
+      "note": "Great Yarmouth is a real town. The Peggottys' home — an upturned barge beached on the Denes, made into a house — is Dickens's invention on the real flats east of the town.",
+      "story": "The flat, sea-smelling town where Peggotty's family live in a black boat drawn up on the shore. David is happiest here as a boy; it is the home of Little Em'ly and Ham, and the harbour Mr Peggotty keeps returning to. It is also where the storm comes, at the very end.",
+      "quote": "There was a black barge, or some other kind of superannuated boat, not far off, high and dry on the ground, with an iron funnel sticking out of it for a chimney and smoking very cosily",
+      "quoteRef": "Ch. 3"
+    },
+    {
+      "id": "salem-house",
+      "region": "london",
+      "name": "Blackheath, London",
+      "novelName": "Salem House",
+      "coords": [
+        0.008,
+        51.466
+      ],
+      "certainty": "conjectured",
+      "note": "Mr Creakle's school is placed 'down by Blackheath' in the text; the exact building is invented, so this point stands on Blackheath, south-east London.",
+      "story": "The brutal boarding school run by the ignorant, caning Mr Creakle, where David is made to wear a placard reading 'Take care of him. He bites.' Here he meets the two poles of his life: gentle, doomed Traddles and the dazzling, careless Steerforth, who takes him up as a favourite.",
+      "quote": "It's down by Blackheath,",
+      "quoteRef": "Ch. 5"
+    },
+    {
+      "id": "warehouse",
+      "region": "london",
+      "name": "Blackfriars, London",
+      "novelName": "Murdstone and Grinby's",
+      "coords": [
+        -0.104,
+        51.511
+      ],
+      "certainty": "real",
+      "note": "A real quarter of riverside London. The wine-bottling warehouse is modelled closely on Warren's Blacking factory at Hungerford Stairs, where the twelve-year-old Dickens himself was sent to labour — the buried wound of his own childhood.",
+      "story": "The riverside warehouse where the ten-year-old David is set to washing and labelling bottles among rough boys, lodging with the Micawbers. It is the pit of the novel: shameful, hopeless drudgery that David never quite forgives, and the source of Dickens's own lifelong grievance.",
+      "quote": "Murdstone and Grinby's warehouse was at the waterside. It was down in\nBlackfriars.",
+      "quoteRef": "Ch. 11"
+    },
+    {
+      "id": "windsor-terrace",
+      "region": "london",
+      "name": "Windsor Terrace, City Road",
+      "novelName": "Windsor Terrace",
+      "coords": [
+        -0.09,
+        51.529
+      ],
+      "certainty": "real",
+      "note": "City Road is a real London street; the Micawbers' particular lodging is Dickens's placing, folded onto it here.",
+      "story": "The Micawbers' shabby-genteel lodging, where David boards during the warehouse days. Mr Micawber waits here, magnificently, for something to turn up, dodging creditors between bursts of oratory — before debt carries him off to the King's Bench prison.",
+      "quote": "My address,' said Mr. Micawber, 'is Windsor Terrace, City Road.",
+      "quoteRef": "Ch. 11"
+    },
+    {
+      "id": "canterbury",
+      "region": "the-road-to-dover",
+      "name": "Canterbury",
+      "novelName": "Canterbury",
+      "coords": [
+        1.079,
+        51.279
+      ],
+      "certainty": "real",
+      "note": "A real cathedral city. Mr Wickfield's house and Dr Strong's school are inventions placed within it.",
+      "story": "The gentle counterweight to London — though David first comes through it wayworn and ragged on his walk to Dover. Later Betsey Trotwood sends him to school at Dr Strong's here, boarding with the lawyer Mr Wickfield and his daughter Agnes, the quiet centre of David's whole life. It is also where the writhing clerk Uriah Heep spins his web, and where the Micawbers come as his tools.",
+      "quote": "some of the boys had seen me coming through\nCanterbury, wayworn and ragged",
+      "quoteRef": "Ch. 16"
+    },
+    {
+      "id": "dover",
+      "region": "the-road-to-dover",
+      "name": "Dover",
+      "novelName": "Dover",
+      "coords": [
+        1.313,
+        51.129
+      ],
+      "certainty": "real",
+      "note": "The text places Betsey Trotwood 'near Dover'. The cliff-top cottage itself is invented; Dickens is generally thought to have drawn it from 2 Nuckell's Place at Broadstairs, further up the Kent coast — so the town is Dover, but the real-world model is elsewhere. The map trusts the text.",
+      "story": "The end of David's desperate walk from London: footsore and ragged, he finds his aunt Betsey Trotwood in her neat cottage above the sea. She takes him in, sees off the pursuing Murdstones, and — for the first time since his mother died — he is safe.",
+      "quote": "I am going to Dover,",
+      "quoteRef": "Ch. 13"
+    },
+    {
+      "id": "highgate",
+      "region": "london",
+      "name": "Highgate",
+      "novelName": "Highgate",
+      "coords": [
+        -0.146,
+        51.571
+      ],
+      "certainty": "real",
+      "note": "A real village on the hill north of London. Both the Steerforths' house and, later, David and Dora's cottage are inventions placed here.",
+      "story": "On its hilltop: first the proud Mrs Steerforth's house, where David visits his charming friend and meets the watchful Rosa Dartle; and later the cottage where David brings his child-wife Dora, and where their sweet, hopeless attempt at housekeeping plays out.",
+      "quote": "old brick house at Highgate on the summit of the hill",
+      "quoteRef": "Ch. 20"
+    },
+    {
+      "id": "doctors-commons",
+      "region": "london",
+      "name": "Doctors' Commons, near St Paul's",
+      "novelName": "Doctors' Commons",
+      "coords": [
+        -0.099,
+        51.513
+      ],
+      "certainty": "real",
+      "note": "A real legal quarter near St Paul's, the seat of the ecclesiastical and admiralty courts. It was a genuine institution, wound up and demolished in 1867 — Dickens describes it as an antique survival even in the 1840s.",
+      "story": "The 'lazy old nook' of church-law courts where David is articled as a proctor, buying his way into a profession. Here he falls headlong for Dora Spenlow, his employer's daughter, and here he later scrapes for a living when his aunt's fortune collapses.",
+      "quote": "some faded courts held in Doctors' Commons,--a lazy old nook near St.\nPaul's Churchyard",
+      "quoteRef": "Ch. 23"
+    },
+    {
+      "id": "putney",
+      "region": "london",
+      "name": "Putney",
+      "novelName": "Putney",
+      "coords": [
+        -0.216,
+        51.461
+      ],
+      "certainty": "real",
+      "note": "A real riverside district south-west of London. Dora's aunts' house is invented and placed here.",
+      "story": "Where Dora's spinster aunts take her after her father's sudden death, and where David haunts the road to court her. It is from Putney that he finally wins her, and marries her.",
+      "quote": "maiden sisters of Mr. Spenlow, who lived at Putney",
+      "quoteRef": "Ch. 38"
+    },
+    {
+      "id": "golden-cross",
+      "region": "london",
+      "name": "the Golden Cross, Charing Cross",
+      "novelName": "the Golden Cross",
+      "coords": [
+        -0.128,
+        51.508
+      ],
+      "certainty": "real",
+      "note": "A real coaching inn at Charing Cross, terminus of the Dover road. The original was demolished in 1827 to clear the way for Trafalgar Square; Dickens writes it as the 'mouldy' establishment of an earlier day.",
+      "story": "The coaching inn where David, now seventeen, puts up on returning to London a young gentleman — and by chance meets the grown-up Steerforth again, the friendship rekindling just as it will lead them both to Yarmouth, and to ruin.",
+      "quote": "We went to the Golden Cross at Charing Cross, then a mouldy sort of\nestablishment in a close neighbourhood.",
+      "quoteRef": "Ch. 19"
+    },
+    {
+      "id": "naples",
+      "region": "far-away",
+      "name": "Naples",
+      "novelName": "Naples",
+      "coords": [
+        14.268,
+        40.851
+      ],
+      "certainty": "real",
+      "note": "The real city. The text is explicit: Steerforth and Em'ly keep a villa 'in the neighbourhood of Naples', and it is from there that he abandons her.",
+      "story": "The bright southern shore where Steerforth carries Little Em'ly after their elopement, and where — grown tired of her — he leaves her, coldly offering her in marriage to his servant. It is the far point of her ruin, and the turn from which she begins the long road home.",
+      "quote": "from the neighbourhood of\nNaples, where we had a villa",
+      "quoteRef": "Ch. 46"
+    },
+    {
+      "id": "gravesend",
+      "region": "far-away",
+      "name": "Gravesend",
+      "novelName": "Gravesend",
+      "coords": [
+        0.37,
+        51.442
+      ],
+      "certainty": "real",
+      "note": "A real town on the Thames estuary, the traditional point where emigrant ships took on passengers below London.",
+      "story": "The Thames-side port where the emigrant ship lies waiting. Here David watches the whole broken company he loves — Mr Peggotty and the reclaimed Em'ly, the Micawbers, poor Martha — go aboard to sail for Australia and a new life, and waves them out towards the sea.",
+      "quote": "my old nurse and I went down to\nGravesend. We found the ship in the river",
+      "quoteRef": "Ch. 57"
+    },
+    {
+      "id": "port-middlebay",
+      "region": "far-away",
+      "name": "near Melbourne, Australia",
+      "novelName": "Port Middlebay",
+      "coords": [
+        144.963,
+        -37.814
+      ],
+      "certainty": "conjectured",
+      "note": "Dickens's invented Australian port. Scholars place it in the Melbourne region by consensus — the colony to which mid-century emigrants of this kind sailed — but the novel never fixes it, so this point stands at Melbourne.",
+      "story": "The far side of the world, where the emigrants make good. Mr Peggotty and Em'ly settle to a hard, honest life; and Mr Micawber, of all men, comes into his own at last — 'Port Middlebay District Magistrate', toasted at a public dinner, the eternal debtor turned pillar of a colony.",
+      "quote": "WILKINS MICAWBER, ESQUIRE, Port Middlebay District Magistrate",
+      "quoteRef": "Ch. 63"
+    },
+    {
+      "id": "switzerland",
+      "region": "far-away",
+      "name": "a valley in the Alps, near Geneva",
+      "novelName": "a valley in Switzerland",
+      "coords": [
+        7.5,
+        46.4
+      ],
+      "certainty": "conjectured",
+      "note": "The text names only 'a valley' in the Swiss Alps, reached over one of the great passes out of Italy; it is never located. Geneva is the association most often drawn by scholars, so this point stands in the Alps south of it. An honest approximation.",
+      "story": "Where David, crushed by Dora's death and the drowning of Steerforth and Ham, wanders in grief for months. In a still mountain valley, opening a bundle of letters from Agnes, his numbness finally breaks — and he begins, slowly, to live again, and to write.",
+      "quote": "I was in Switzerland. I had come out of Italy, over one of the great\npasses of the Alps",
+      "quoteRef": "Ch. 58"
+    }
+  ],
+  "movements": [
+    {
+      "character": "david",
+      "from": "blunderstone",
+      "to": "yarmouth",
+      "chapter": 3,
+      "mode": "coach",
+      "days": 1,
+      "note": "The childhood fortnight with Peggotty's family — Barkis's cart down to the sea"
+    },
+    {
+      "character": "david",
+      "from": "yarmouth",
+      "to": "blunderstone",
+      "chapter": 4,
+      "mode": "coach",
+      "days": 1,
+      "note": "Home again — to find his mother married to Mr Murdstone in his absence"
+    },
+    {
+      "character": "david",
+      "from": "blunderstone",
+      "to": "salem-house",
+      "chapter": 5,
+      "mode": "coach",
+      "days": 1,
+      "note": "Sent away to Mr Creakle's school after biting Murdstone; the long stage-coach up to Blackheath"
+    },
+    {
+      "character": "david",
+      "from": "salem-house",
+      "to": "blunderstone",
+      "chapter": 8,
+      "mode": "coach",
+      "days": 1,
+      "note": "Home for the holidays — and, soon after, for his mother's death and the breaking-up of the house"
+    },
+    {
+      "character": "david",
+      "from": "blunderstone",
+      "to": "warehouse",
+      "chapter": 11,
+      "mode": "coach",
+      "days": 1,
+      "note": "Cast out by Murdstone to labour at the riverside warehouse, and to lodge with the Micawbers"
+    },
+    {
+      "character": "david",
+      "from": "warehouse",
+      "to": "dover",
+      "chapter": 13,
+      "mode": "foot",
+      "days": 6,
+      "via": [
+        [
+          0.5,
+          51.39
+        ],
+        [
+          0.52,
+          51.38
+        ],
+        [
+          1.079,
+          51.279
+        ]
+      ],
+      "note": "The famous flight: robbed on the first day, he walks the whole Dover road, over Rochester bridge and into Chatham, through Canterbury and out onto the downs, selling his clothes as he goes"
+    },
+    {
+      "character": "david",
+      "from": "dover",
+      "to": "canterbury",
+      "chapter": 15,
+      "mode": "coach",
+      "days": 1,
+      "note": "Betsey Trotwood settles him at Dr Strong's school, boarding with the Wickfields"
+    },
+    {
+      "character": "david",
+      "from": "canterbury",
+      "to": "golden-cross",
+      "chapter": 19,
+      "mode": "coach",
+      "days": 1,
+      "note": "Schooldays over, a young gentleman sets out to see the world; he puts up at the Golden Cross and falls in again with Steerforth"
+    },
+    {
+      "character": "david",
+      "from": "golden-cross",
+      "to": "yarmouth",
+      "chapter": 21,
+      "mode": "coach",
+      "days": 1,
+      "note": "He takes Steerforth down to Yarmouth to meet the Peggottys — the fateful introduction"
+    },
+    {
+      "character": "david",
+      "from": "yarmouth",
+      "to": "doctors-commons",
+      "chapter": 23,
+      "mode": "coach",
+      "days": 1,
+      "note": "Back to London to be articled as a proctor in Doctors' Commons, where he meets Dora Spenlow"
+    },
+    {
+      "character": "david",
+      "from": "doctors-commons",
+      "to": "putney",
+      "chapter": 41,
+      "mode": "coach",
+      "days": 1,
+      "note": "Courting Dora at her aunts' house after her father's sudden death"
+    },
+    {
+      "character": "david",
+      "from": "putney",
+      "to": "highgate",
+      "chapter": 43,
+      "mode": "coach",
+      "days": 1,
+      "note": "Married; he carries his child-wife home to their little cottage, and their doomed housekeeping begins"
+    },
+    {
+      "character": "david",
+      "from": "highgate",
+      "to": "gravesend",
+      "chapter": 57,
+      "mode": "coach",
+      "days": 1,
+      "note": "After Dora's death, he sees the emigrants aboard their ship — and, half-broken, resolves to leave England himself"
+    },
+    {
+      "character": "david",
+      "from": "gravesend",
+      "to": "switzerland",
+      "chapter": 58,
+      "mode": "ship",
+      "days": 20,
+      "note": "Abroad to grieve; over the Alps out of Italy into a still Swiss valley, where Agnes's letters finally reach him and his numbness lifts"
+    },
+    {
+      "character": "david",
+      "from": "switzerland",
+      "to": "canterbury",
+      "chapter": 60,
+      "mode": "ship",
+      "days": 20,
+      "note": "Home at last, three years on, to Agnes at Canterbury — the settled end"
+    },
+    {
+      "character": "steerforth",
+      "from": "highgate",
+      "to": "yarmouth",
+      "chapter": 21,
+      "mode": "coach",
+      "days": 1,
+      "note": "Down to Yarmouth with David, where the Peggottys take him to their hearts — and he fixes on Em'ly"
+    },
+    {
+      "character": "steerforth",
+      "from": "yarmouth",
+      "to": "naples",
+      "chapter": 31,
+      "mode": "ship",
+      "days": 10,
+      "note": "He carries Little Em'ly off across the sea to the villa near Naples"
+    },
+    {
+      "character": "steerforth",
+      "from": "naples",
+      "to": "yarmouth",
+      "chapter": 55,
+      "mode": "ship",
+      "days": 14,
+      "note": "His yacht is driven back onto the Yarmouth sands in the great storm; he and Ham drown within sight of the boat-house"
+    },
+    {
+      "character": "emly",
+      "from": "yarmouth",
+      "to": "naples",
+      "chapter": 31,
+      "mode": "ship",
+      "days": 10,
+      "note": "The elopement: she leaves a letter and is gone with Steerforth to the south"
+    },
+    {
+      "character": "emly",
+      "from": "naples",
+      "to": "gravesend",
+      "chapter": 50,
+      "mode": "ship",
+      "days": 14,
+      "via": [
+        [
+          14.0,
+          42.0
+        ],
+        [
+          8.0,
+          44.0
+        ],
+        [
+          2.35,
+          48.86
+        ],
+        [
+          1.85,
+          50.96
+        ]
+      ],
+      "note": "Abandoned, she makes her way back alone — France, and service abroad — until Martha and Mr Peggotty find her hidden in London and bring her to the emigrant ship"
+    },
+    {
+      "character": "mrpeggotty",
+      "from": "yarmouth",
+      "to": "naples",
+      "chapter": 40,
+      "mode": "foot",
+      "days": 250,
+      "via": [
+        [
+          1.85,
+          50.96
+        ],
+        [
+          2.35,
+          48.86
+        ],
+        [
+          4.83,
+          45.76
+        ],
+        [
+          10.0,
+          44.0
+        ]
+      ],
+      "note": "The years-long search on foot: across-channel to France 'as if I'd fell down from the sky', then over into Italy, town by town, as far as the Swiss mountains — the path here is illustrative, the novel naming only France, Italy and the mountains"
+    },
+    {
+      "character": "mrpeggotty",
+      "from": "naples",
+      "to": "gravesend",
+      "chapter": 51,
+      "mode": "ship",
+      "days": 14,
+      "note": "Home to London with the found Em'ly, and on to the emigrant ship at Gravesend"
+    },
+    {
+      "character": "micawbers",
+      "from": "windsor-terrace",
+      "to": "canterbury",
+      "chapter": 36,
+      "mode": "coach",
+      "days": 3,
+      "note": "Mr Micawber, ever hopeful, takes a confidential clerkship under Uriah Heep at Canterbury"
+    },
+    {
+      "character": "micawbers",
+      "from": "canterbury",
+      "to": "gravesend",
+      "chapter": 52,
+      "mode": "coach",
+      "days": 3,
+      "note": "He turns on his master in a scene of glorious denunciation, exposing Heep's frauds — then, ruined creditors settled, joins the emigrants"
+    },
+    {
+      "character": [
+        "emly",
+        "mrpeggotty",
+        "micawbers"
+      ],
+      "from": "gravesend",
+      "to": "port-middlebay",
+      "chapter": 57,
+      "mode": "ship",
+      "days": 100,
+      "note": "The long emigrant voyage to Australia: the whole reclaimed company sails together to begin a new life"
+    }
+  ]
+}
