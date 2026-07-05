@@ -381,6 +381,16 @@ body.is-overture #locationtile { display: none !important; }
   transition: opacity 0.5s ease;
 }
 .caption-line.is-arrival { background: rgba(46, 36, 23, 0.68); font-style: italic; }
+/* A staging post ticking by as you ride along — lighter and quieter than
+   a full journey line, a passing whisper. */
+.caption-line.is-passing {
+  background: rgba(46, 36, 23, 0.6);
+  font-size: 13px;
+  font-style: italic;
+  padding: 4px 14px;
+  align-self: flex-start;
+}
+.caption-line.is-passing .caption-swatch { width: 7px; height: 7px; }
 .caption-line.is-retiring { opacity: 0; }
 
 .caption-swatch {

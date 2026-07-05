@@ -2,7 +2,7 @@ import { createMap } from './map.js';
 import { addNlsOverlay } from './overlay.js';
 import { loadNovelIndex, loadNovel } from './data.js';
 import {
-  buildPaths, addRouteLayers, addTrailLayers, addLocationLabels,
+  buildPaths, addRouteLayers, addStopLayers, addTrailLayers, addLocationLabels,
   setRouteEmphasis, setRouteMode, updateTrails,
 } from './routes.js';
 import {
@@ -50,6 +50,7 @@ ready
 
     const paths = buildPaths(novel);
     addRouteLayers(map, novel, paths);
+    addStopLayers(map, novel, paths);
     addTrailLayers(map);
     addLocationLabels(map);
     addCharacterMarkers(map, novel);
@@ -79,7 +80,7 @@ ready
     // The frame-the-story button lives inside the controls bar, where it
     // can never overlap the caption stack.
     document.getElementById('controls').append(document.getElementById('recentre'));
-    const captions = createCaptions(document.getElementById('captions'), novel, timeline);
+    const captions = createCaptions(document.getElementById('captions'), novel, timeline, paths);
     const cards = createCards(map, novel, document.getElementById('sheet'), {
       isPlaying: () => engine.isPlaying(),
     });

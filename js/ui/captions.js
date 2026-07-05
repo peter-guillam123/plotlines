@@ -12,8 +12,14 @@ import { modeIcon } from './modeicons.js';
 // copies of a shared party movement collapse into one line.
 const legKey = (m) => `${m.from}>${m.to}@${m.chapter}:${m.mode}`;
 
-export function createCaptions(container, novel, timeline) {
+export function createCaptions(container, novel, timeline, paths) {
   const lines = new Map(); // legKey -> {el, characters, movement, retireTimer}
+
+  // Legs per character, in travel order — the same indexing the timeline's
+  // positionsAt(legIndex) uses, so we can find the leg someone is on.
+  const legsByChar = {};
+  for (const c of novel.characters) legsByChar[c.id] = [];
+  for (const e of paths || []) legsByChar[e.movement.character].push(e);
 
   function render(entry, sentence) {
     const swatches = entry.characters
@@ -99,6 +105,57 @@ export function createCaptions(container, novel, timeline) {
     if (!timeline.state.playing) {
       for (const key of [...lines.keys()]) retire(key, true);
     }
+  });
+
+  // ---- riding along: the towns tick by ----
+  // When you follow one character, the named staging posts on the leg
+  // they're travelling announce themselves as they pass — "through
+  // Grantham", "passing the Cape of Good Hope". Only for the followed
+  // character (otherwise five journeys would all shout at once), and only
+  // while actually moving.
+  let follow = { char: null, legIndex: -1, done: null };
+
+  function passing(character, text) {
+    const el = document.createElement('p');
+    el.className = 'caption-line is-passing';
+    el.innerHTML =
+      `<span class="caption-swatch" style="background:${CHARACTER_COLOURS[character.colour]}"></span>` +
+      '<span class="caption-text"></span>';
+    el.querySelector('.caption-text').textContent = text;
+    container.append(el);
+    container.classList.add('is-visible');
+    // Keep the strip from filling with passing notes.
+    const passers = container.querySelectorAll('.is-passing');
+    if (passers.length > 2) passers[0].remove();
+    setTimeout(() => {
+      el.classList.add('is-retiring');
+      setTimeout(() => {
+        el.remove();
+        if (!container.querySelector('.caption-line')) container.classList.remove('is-visible');
+      }, 600);
+    }, 2400);
+  }
+
+  timeline.on('tick', (t, positions) => {
+    const sel = timeline.state.selected;
+    if (!sel || !timeline.state.playing) { follow.char = null; return; }
+    const pos = positions[sel];
+    if (!pos || !pos.moving) return;
+    const leg = legsByChar[sel] && legsByChar[sel][pos.legIndex];
+    if (!leg || !leg.path.stops.length) return;
+    // New leg (or new follow): seed already-passed stops as silent, so
+    // scrubbing into the middle of a leg doesn't dump every earlier town.
+    if (follow.char !== sel || follow.legIndex !== pos.legIndex) {
+      follow = { char: sel, legIndex: pos.legIndex, done: new Set() };
+      leg.path.stops.forEach((s, i) => { if (pos.fraction >= s.t) follow.done.add(i); });
+      return;
+    }
+    const verb = leg.movement.mode === 'ship' ? 'passing' : 'through';
+    leg.path.stops.forEach((s, i) => {
+      if (follow.done.has(i) || pos.fraction < s.t) return;
+      follow.done.add(i);
+      passing(novel.charactersById[sel], `${verb} ${s.name}`);
+    });
   });
 
   // A one-off line (the opening "begins at…") — same bottom strip as the

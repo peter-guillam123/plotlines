@@ -112,6 +112,48 @@ export function addRouteLayers(map, novel, paths) {
   });
 }
 
+// The staging posts: a faint bead at each named town or sea-mark a route
+// is known to pass through, so a journey reads as surveyed rather than
+// ruled with a straightedge. Deliberately un-labelled — the names are for
+// the ride-along narration and the hover card, not for cluttering the
+// map. Drawn beneath the story's own places so they never upstage them.
+export const STOP_SOURCE = 'route-stops';
+
+export function addStopLayers(map, novel, paths) {
+  const seen = new Set();
+  const features = [];
+  for (const { path } of paths) {
+    for (const s of path.stops) {
+      const key = `${s.name}@${s.at[0]},${s.at[1]}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      features.push({
+        type: 'Feature',
+        geometry: { type: 'Point', coordinates: s.at },
+        properties: { name: s.name },
+      });
+    }
+  }
+  map.addSource(STOP_SOURCE, {
+    type: 'geojson',
+    data: { type: 'FeatureCollection', features },
+  });
+  map.addLayer({
+    id: 'route-stops',
+    type: 'circle',
+    source: STOP_SOURCE,
+    paint: {
+      'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 1.4, 10, 2.6],
+      'circle-color': '#f5eddc',
+      'circle-stroke-color': '#7a6642',
+      'circle-stroke-width': 1,
+      'circle-opacity': 0.85,
+      'circle-stroke-opacity': 0.7,
+      'circle-pitch-alignment': 'map',
+    },
+  }, 'locations'); // sit beneath the story's own place markers
+}
+
 // Explore mode: place names on the map itself, and the route web calmed
 // to a uniform whisper so the places lead.
 export function addLocationLabels(map) {
