@@ -7,7 +7,8 @@ genuine 1890s Ordnance Survey scans overlaid wherever Britain is in shot.
 
 Novels so far: **Dracula** (Stoker, 1897), **Tess of the d'Urbervilles**
 (Hardy, 1891), **Pride and Prejudice** (Austen, 1813), **David
-Copperfield** (Dickens, 1850) and **Bleak House** (Dickens, 1853).
+Copperfield** (Dickens, 1850), **Bleak House** (Dickens, 1853) and
+**Kidnapped** (Stevenson, 1886).
 
 ## Running locally
 

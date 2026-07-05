@@ -1,0 +1,732 @@
+{
+  "title": "Kidnapped",
+  "author": "Robert Louis Stevenson",
+  "year": 1886,
+  "gutenbergId": 421,
+  "quotesVerified": true,
+  "timeline": {
+    "epoch": null,
+    "calendar": false,
+    "span": "the summer of 1751",
+    "unit": "year"
+  },
+  "overture": "In the summer of 1751 David Balfour walks out of the Borders to claim his inheritance — and is kidnapped, wrecked off Mull, and driven the length of the Highlands. This map is his one long journey: the brig Covenant's voyage round the top of Scotland, the wreck on the Torran Rocks, and the flight in the heather with Alan Breck — over Rannoch Moor and Ben Alder, and down at last to the Forth and home.",
+  "sources": [
+    {
+      "name": "The National Library of Scotland — the Kidnapped route",
+      "url": "https://www.nls.uk/"
+    },
+    {
+      "name": "Robert Louis Stevenson, Kidnapped (Project Gutenberg #421)",
+      "url": "https://www.gutenberg.org/ebooks/421"
+    },
+    {
+      "name": "The Appin Murder (historical background)",
+      "url": "https://en.wikipedia.org/wiki/Appin_Murder"
+    }
+  ],
+  "regions": [
+    {
+      "id": "lowlands",
+      "name": "The Lowlands — Edinburgh and the Forth"
+    },
+    {
+      "id": "west",
+      "name": "The wreck — Mull and Morvern"
+    },
+    {
+      "id": "flight",
+      "name": "The flight in the heather"
+    }
+  ],
+  "mapHome": {
+    "bounds": [
+      [
+        -6.9,
+        55.7
+      ],
+      [
+        -2.9,
+        57.2
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "title": "I Set Off Upon My Journey to the House of Shaws",
+      "day": 0,
+      "when": "the road to Shaws"
+    },
+    {
+      "n": 2,
+      "title": "I Come to My Journey's End",
+      "day": 5,
+      "when": "the road to Shaws"
+    },
+    {
+      "n": 3,
+      "title": "I Make Acquaintance of My Uncle",
+      "day": 9,
+      "when": "the road to Shaws"
+    },
+    {
+      "n": 4,
+      "title": "I Run a Great Danger in the House of Shaws",
+      "day": 14,
+      "when": "the road to Shaws"
+    },
+    {
+      "n": 5,
+      "title": "I Go to the Queen's Ferry",
+      "day": 14,
+      "when": "kidnapped, at the Queen's Ferry"
+    },
+    {
+      "n": 6,
+      "title": "What Befell at the Queen's Ferry",
+      "day": 20,
+      "when": "kidnapped, at the Queen's Ferry"
+    },
+    {
+      "n": 7,
+      "title": "I Go to Sea in the Brig Covenant of Dysart",
+      "day": 20,
+      "when": "the voyage"
+    },
+    {
+      "n": 8,
+      "title": "The Round-House",
+      "day": 23,
+      "when": "the voyage"
+    },
+    {
+      "n": 9,
+      "title": "The Man with the Belt of Gold",
+      "day": 27,
+      "when": "the voyage"
+    },
+    {
+      "n": 10,
+      "title": "The Siege of the Round-House",
+      "day": 30,
+      "when": "the voyage"
+    },
+    {
+      "n": 11,
+      "title": "The Captain Knuckles Under",
+      "day": 33,
+      "when": "the voyage"
+    },
+    {
+      "n": 12,
+      "title": "I Hear of the “Red Fox”",
+      "day": 37,
+      "when": "the voyage"
+    },
+    {
+      "n": 13,
+      "title": "The Loss of the Brig",
+      "day": 40,
+      "when": "the voyage"
+    },
+    {
+      "n": 14,
+      "title": "The Islet",
+      "day": 40,
+      "when": "shipwrecked — Mull and Morvern"
+    },
+    {
+      "n": 15,
+      "title": "The Lad with the Silver Button: Through the Isle of Mull",
+      "day": 46,
+      "when": "shipwrecked — Mull and Morvern"
+    },
+    {
+      "n": 16,
+      "title": "The Lad with the Silver Button: Across Morven",
+      "day": 52,
+      "when": "shipwrecked — Mull and Morvern"
+    },
+    {
+      "n": 17,
+      "title": "The Death of the Red Fox",
+      "day": 58,
+      "when": "shipwrecked — Mull and Morvern"
+    },
+    {
+      "n": 18,
+      "title": "I Talk with Alan in the Wood of Lettermore",
+      "day": 58,
+      "when": "the flight in the heather"
+    },
+    {
+      "n": 19,
+      "title": "The House of Fear",
+      "day": 61,
+      "when": "the flight in the heather"
+    },
+    {
+      "n": 20,
+      "title": "The Flight in the Heather: The Rocks",
+      "day": 65,
+      "when": "the flight in the heather"
+    },
+    {
+      "n": 21,
+      "title": "The Flight in the Heather: The Heugh of Corrynakiegh",
+      "day": 68,
+      "when": "the flight in the heather"
+    },
+    {
+      "n": 22,
+      "title": "The Flight in the Heather: The Moor",
+      "day": 72,
+      "when": "the flight in the heather"
+    },
+    {
+      "n": 23,
+      "title": "Cluny's Cage",
+      "day": 75,
+      "when": "the flight in the heather"
+    },
+    {
+      "n": 24,
+      "title": "The Flight in the Heather: The Quarrel",
+      "day": 79,
+      "when": "the flight in the heather"
+    },
+    {
+      "n": 25,
+      "title": "In Balquhidder",
+      "day": 82,
+      "when": "the flight in the heather"
+    },
+    {
+      "n": 26,
+      "title": "End of the Flight: We Pass the Forth",
+      "day": 82,
+      "when": "home to the Forth"
+    },
+    {
+      "n": 27,
+      "title": "I Come to Mr. Rankeillor",
+      "day": 85,
+      "when": "home to the Forth"
+    },
+    {
+      "n": 28,
+      "title": "I Go in Quest of My Inheritance",
+      "day": 88,
+      "when": "home to the Forth"
+    },
+    {
+      "n": 29,
+      "title": "I Come into My Kingdom",
+      "day": 92,
+      "when": "home to the Forth"
+    },
+    {
+      "n": 30,
+      "title": "Good-bye",
+      "day": 95,
+      "when": "home to the Forth"
+    }
+  ],
+  "characters": [
+    {
+      "id": "david-balfour",
+      "name": "David Balfour",
+      "colour": "prussian",
+      "role": "The narrator and spine of the whole book: a newly-orphaned Lowland lad who walks out to claim his kin, is kidnapped and shipwrecked, and is driven the length of the Highlands before winning his inheritance in Edinburgh.",
+      "start": {
+        "location": "essendean",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "alan-breck-stewart",
+      "name": "Alan Breck Stewart",
+      "colour": "madder",
+      "role": "A Jacobite exile and Appin Stewart, gun-runner for the exiled clan chief, who becomes David's companion and protector through the flight in the heather.",
+      "start": {
+        "location": "lettermore-appin",
+        "chapter": 18
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "essendean",
+      "region": "lowlands",
+      "name": "The Pentlands / the Borders",
+      "novelName": "Essendean",
+      "coords": [
+        -3.3,
+        55.72
+      ],
+      "certainty": "conjectured",
+      "note": "David's home village, fictional and only loosely placed. Stevenson gives a 'quiet country-side' with a kirk and manse, a day or two's walk from Edinburgh; the standard 'Kidnapped trail' places it vaguely in the Borders south-west of the capital. Coordinates are a nominal Pentlands placing.",
+      "story": "The quiet parish where David is born and orphaned, and which he leaves one June morning in 1751 with a letter that sends him to claim his inheritance at the House of Shaws.",
+      "quote": "I will begin the story of my adventures with a certain morning early in the month of June, the year of grace 1751",
+      "quoteRef": "Ch. 1"
+    },
+    {
+      "id": "house-of-shaws",
+      "region": "lowlands",
+      "name": "near Cramond, west of Edinburgh",
+      "novelName": "the house of Shaws",
+      "coords": [
+        -3.3,
+        55.98
+      ],
+      "certainty": "conjectured",
+      "note": "The house is fictional — a grim, half-built mansion — but Stevenson expressly sites it near Cramond on the Firth of Forth, west of Edinburgh. No single real building is agreed; the district is real, the exact spot a best guess.",
+      "story": "The blighted, half-finished house of David's miserly uncle Ebenezer, who first tries to kill him on a broken stair in the dark, then has him kidnapped. David returns at the end to trap the old man into confessing.",
+      "quote": "give my boy this letter into his hand, and start him off to the house of Shaws, not far from Cramond",
+      "quoteRef": "Ch. 1"
+    },
+    {
+      "id": "queensferry",
+      "region": "lowlands",
+      "name": "South Queensferry (the Hawes Inn)",
+      "novelName": "the Queen's Ferry",
+      "coords": [
+        -3.398,
+        55.9905
+      ],
+      "certainty": "real",
+      "note": "Precisely real. South Queensferry on the Firth of Forth, where the Hawes Inn still stands (now beneath the Forth Bridge). David is decoyed aboard the brig Covenant here. Stevenson knew the inn; coordinates are for it.",
+      "story": "The ferry-town on the Forth where Ebenezer walks David down 'on business' and, at the Hawes Inn, has him struck down and carried aboard the Covenant. David returns here at the end to find the lawyer Rankeillor.",
+      "quote": "The Hawes Inn, at the Queen's Ferry",
+      "quoteRef": "Ch. 5"
+    },
+    {
+      "id": "torran-rocks",
+      "region": "west",
+      "name": "The Torran Rocks, off the Ross of Mull",
+      "novelName": "the Torran rocks",
+      "coords": [
+        -6.42,
+        56.25
+      ],
+      "certainty": "real",
+      "note": "A real, notoriously dangerous reef stretching south and west off the Ross of Mull. The Covenant strikes here in the dark. The reef spreads over miles, so the single point is representative but the feature is real and charted.",
+      "story": "The reef, off the south-west end of Mull near Iona, where the brig Covenant is thrown by the tide and beats herself to pieces — scattering the crew and casting David up alone.",
+      "quote": "I'm thinking,\" said Alan, \"these'll be what they call the Torran Rocks",
+      "quoteRef": "Ch. 13"
+    },
+    {
+      "id": "earraid",
+      "region": "west",
+      "name": "Erraid (Eilean Earraid)",
+      "novelName": "Earraid",
+      "coords": [
+        -6.3667,
+        56.295
+      ],
+      "certainty": "real",
+      "note": "A real tidal islet off the south-west tip of the Ross of Mull, near Iona. Stevenson knew it personally — his family's lighthouse firm had a shore station here. David is marooned until he realises at low tide he can wade across.",
+      "story": "The little tidal islet where David is cast ashore alone after the wreck, and spends wretched days believing himself trapped — until he grasps that the sea goes out and he can simply walk off.",
+      "quote": "in under the southwest end of Mull, off a little isle they call Earraid",
+      "quoteRef": "Ch. 13"
+    },
+    {
+      "id": "isle-of-mull",
+      "region": "west",
+      "name": "Isle of Mull (the Ross of Mull)",
+      "novelName": "the Island of Mull",
+      "coords": [
+        -6.0,
+        56.35
+      ],
+      "certainty": "real",
+      "note": "Real island. After escaping Earraid, David crosses the Ross of Mull on foot — 'fifty miles as the crow might fly' — east toward Torosay and the ferry to the mainland. Coordinates are a central point on the Ross.",
+      "story": "The long, crooked island David treks across on Alan's silver-button token, guided and half-swindled by the folk of the Ross, working east toward the Appin country.",
+      "quote": "big and crooked Island of Mull, from Earraid to Torosay, fifty miles as the crow flies",
+      "quoteRef": "Ch. 15"
+    },
+    {
+      "id": "kinlochaline-morven",
+      "region": "west",
+      "name": "Kinlochaline and Morvern",
+      "novelName": "Kinlochaline / Morven",
+      "coords": [
+        -5.78,
+        56.55
+      ],
+      "certainty": "real",
+      "note": "Real. David takes the ferry from Torosay across the Sound of Mull to Kinlochaline on the Morvern peninsula, then crosses it. Kinlochaline is a precise real location; Morvern a real district.",
+      "story": "The mainland shore David is ferried to across the Sound of Mull, and the wild peninsula of Morvern he crosses, still following Alan's trail toward Appin.",
+      "quote": "There is a regular ferry from Torosay to Kinlochaline on the mainland",
+      "quoteRef": "Ch. 16"
+    },
+    {
+      "id": "kingairloch-ardgour",
+      "region": "west",
+      "name": "Kingairloch and Ardgour",
+      "novelName": "Kingairloch / Ardgour",
+      "coords": [
+        -5.55,
+        56.65
+      ],
+      "certainty": "real",
+      "note": "Real districts on the mainland opposite Mull. Crossing east, David comes down to the shore of Loch Linnhe near Kingairloch, where he takes a boat over into Appin.",
+      "story": "The Loch Linnhe shore where David, near the end of his lonely trek, takes a boat across into Appin — and walks straight into the killing that changes everything.",
+      "quote": "our ways lying together as far as to Kingairloch",
+      "quoteRef": "Ch. 16"
+    },
+    {
+      "id": "lettermore-appin",
+      "region": "flight",
+      "name": "Lettermore, Appin (the Appin Murder)",
+      "novelName": "the wood of Lettermore",
+      "coords": [
+        -5.227,
+        56.636
+      ],
+      "certainty": "real",
+      "note": "Real and commemorated. In the wood of Lettermore near Ballachulish, Colin Roy Campbell of Glenure — the 'Red Fox', the King's factor — is shot dead by an unseen marksman: the real 1752 Appin Murder (Stevenson pins it to 1751), for which James Stewart was hanged. A cairn marks the spot; coordinates are for the monument.",
+      "story": "The Appin wood where David, arriving at the worst possible moment, sees the Red Fox shot from the hillside — and, marked as a suspect, falls in with Alan Breck and takes to his heels. Here the flight begins.",
+      "quote": "there came the shot of a firelock from higher up the hill; and with the very sound of it Glenure fell upon the road",
+      "quoteRef": "Ch. 17"
+    },
+    {
+      "id": "corrynakiegh",
+      "region": "flight",
+      "name": "Corrynakiegh, Appin (Glen Duror hills)",
+      "novelName": "the Heugh of Corrynakiegh",
+      "coords": [
+        -5.2,
+        56.62
+      ],
+      "certainty": "conjectured",
+      "note": "A rocky cleft where David and Alan lie up for five days after the murder. Not precisely fixed; trail-followers associate it with the Glen Duror / Coire hills of Appin. Fictionalised or lightly renamed; position approximate.",
+      "story": "The hidden cleft in the Appin hills where the two shelter, fish for trout, and signal for money and news, while the redcoats scour the country below for the murderers.",
+      "quote": "The name of the cleft was the Heugh of Corrynakiegh",
+      "quoteRef": "Ch. 21"
+    },
+    {
+      "id": "rannoch-moor",
+      "region": "flight",
+      "name": "Rannoch Moor",
+      "novelName": "the Moor",
+      "coords": [
+        -4.65,
+        56.62
+      ],
+      "certainty": "real",
+      "note": "Real, and one of Britain's largest expanses of blanket bog. The great desolate waste crossed in the flight in the heather, where David nearly collapses. Coordinates are the centre of the moor.",
+      "story": "The vast, skeleton-firred bog the fugitives cross by crawling from heather-bush to heather-bush under a blazing sun, in full view of the soldiers on the surrounding hills — the set-piece of the whole flight.",
+      "quote": "there was quite a forest of dead firs, standing like skeletons. A wearier-looking desert man never saw",
+      "quoteRef": "Ch. 22"
+    },
+    {
+      "id": "ben-alder-clunys-cage",
+      "region": "flight",
+      "name": "Ben Alder (Cluny's Cage)",
+      "novelName": "Ben Alder / Cluny's Cage",
+      "coords": [
+        -4.47,
+        56.81
+      ],
+      "certainty": "conjectured",
+      "note": "Ben Alder is a real, precisely-locatable mountain; Cluny's Cage — the wattled hideout where the real fugitive chief Cluny Macpherson sheltered them — has no exactly-agreed spot, traditionally placed on the wooded flank above Loch Ericht. Coordinates are the Ben Alder summit as anchor; the Cage itself is approximate.",
+      "story": "The mountain into whose 'heart' the flight drives them, where Cluny Macpherson's scouts take them up to his wicker hiding-place. Feverish, David quarrels bitterly with Alan over money gambled away.",
+      "quote": "into the heart of that dismal mountain of Ben Alder",
+      "quoteRef": "Ch. 23"
+    },
+    {
+      "id": "balquhidder",
+      "region": "flight",
+      "name": "Balquhidder",
+      "novelName": "Balquhidder",
+      "coords": [
+        -4.35,
+        56.36
+      ],
+      "certainty": "real",
+      "note": "Real — the MacGregor country in the braes of Balquhidder, where the piping-duel between Alan and Robin Oig (a son of the historical Rob Roy) takes place. Rob Roy's grave is in the kirkyard.",
+      "story": "The glen where David falls sick and the two rest, and where Alan out-plays Robin Oig, one of Rob Roy's sons, on the pipes rather than fight him. When David mends, the flight resumes.",
+      "quote": "the western end of the country of Balquhidder",
+      "quoteRef": "Ch. 25"
+    },
+    {
+      "id": "stirling-forth",
+      "region": "lowlands",
+      "name": "Stirling (the old Bridge of Stirling)",
+      "novelName": "the Bridge of Stirling",
+      "coords": [
+        -3.947,
+        56.1265
+      ],
+      "certainty": "real",
+      "note": "Real. The fugitives must cross the Forth; Stirling Bridge is 'the main pass over that river'. Foiled by the sentry, they slip east down the Ochils to find a boat lower down. Coordinates for the Old Bridge of Stirling.",
+      "story": "The guarded bridge that 'bridles the wild Hielandman' — where Alan's ruse fails to get them across, and they must turn east and downstream to steal a passage over the Forth.",
+      "quote": "Stirling Bridge, which is the main pass over that river",
+      "quoteRef": "Ch. 26"
+    },
+    {
+      "id": "limekilns-carron",
+      "region": "lowlands",
+      "name": "Limekilns, on the Forth",
+      "novelName": "the clachan of Limekilns",
+      "coords": [
+        -3.475,
+        56.033
+      ],
+      "certainty": "real",
+      "note": "Real village on the north shore of the Forth, looking across the Hope to Queensferry. Here a serving-girl, moved by pity, steals a boat and rows the fugitives across at night to the Lothian shore near Carriden. Precisely locatable.",
+      "story": "The little Forth-side clachan where a change-house girl, taking David for a hunted gentleman, rows them over the water single-handed by night — the quiet, kindly climax of the flight.",
+      "quote": "came to the little clachan of Limekilns. This is a place that sits near in by the water-side",
+      "quoteRef": "Ch. 26"
+    },
+    {
+      "id": "edinburgh-british-linen",
+      "region": "lowlands",
+      "name": "Edinburgh (the British Linen Company's bank)",
+      "novelName": "the British Linen Company's bank",
+      "coords": [
+        -3.19,
+        55.95
+      ],
+      "certainty": "real",
+      "note": "Real. The novel ends with David walking into Edinburgh to claim his fortune at the British Linen Company, a real bank founded in 1746. Coordinates for the Old Town.",
+      "story": "Journey's end: David, his inheritance won and Alan parted from him on the Corstorphine road, walks into the city 'to the very doors of the British Linen Company's bank' — rich, and heavy-hearted.",
+      "quote": "The hand of Providence brought me in my drifting to the very doors of the British Linen Company's bank",
+      "quoteRef": "Ch. 30"
+    }
+  ],
+  "movements": [
+    {
+      "character": "david-balfour",
+      "from": "essendean",
+      "to": "house-of-shaws",
+      "chapter": 2,
+      "mode": "foot",
+      "days": 2,
+      "note": "David walks out of the Borders with the minister's letter and comes, footsore, to the grim house of Shaws."
+    },
+    {
+      "character": "david-balfour",
+      "from": "house-of-shaws",
+      "to": "queensferry",
+      "chapter": 5,
+      "mode": "foot",
+      "days": 1,
+      "note": "Ebenezer walks David down to the Forth 'on business' with the shipmaster Hoseason — the bait for the trap."
+    },
+    {
+      "character": "david-balfour",
+      "from": "queensferry",
+      "to": "torran-rocks",
+      "chapter": 7,
+      "mode": "ship",
+      "days": 20,
+      "via": [
+        {
+          "at": [
+            -2.3,
+            56.15
+          ],
+          "name": "the mouth of the Forth",
+          "note": "the brig beats out to sea"
+        },
+        {
+          "at": [
+            -1.8,
+            57.3
+          ],
+          "name": "the north-east coast",
+          "note": "standing up the east coast of Scotland"
+        },
+        {
+          "at": [
+            -2.9,
+            58.65
+          ],
+          "name": "the Pentland Firth",
+          "note": "round the very top of Scotland, to shun the Channel"
+        },
+        {
+          "at": [
+            -5.0,
+            58.62
+          ],
+          "name": "Cape Wrath",
+          "note": "the north-west corner, then down among the isles"
+        },
+        {
+          "at": [
+            -6.2,
+            57.6
+          ],
+          "name": "the Minch",
+          "note": "standing down the west coast, off the Hebrides"
+        },
+        {
+          "at": [
+            -6.55,
+            56.45
+          ],
+          "name": "the reefs off Mull",
+          "note": "weaving toward Iona when the tide takes her"
+        }
+      ],
+      "routeNote": "The Covenant's course, north about Scotland and down the west coast, exactly as the novel sets it.",
+      "routeSource": "Stevenson, Ch. 7: Hoseason means 'to go north about Scotland, and come down through the... the west coast', to avoid the Channel — the long way round the top.",
+      "routeCertainty": "novel",
+      "note": "Kidnapped aboard the brig Covenant, David is carried out to sea. Rather than risk the Channel, Hoseason stands north about Scotland and down the west coast, bound to sell him in the Carolinas — until the reefs off Mull end the voyage."
+    },
+    {
+      "character": "david-balfour",
+      "from": "torran-rocks",
+      "to": "earraid",
+      "chapter": 14,
+      "mode": "ship",
+      "days": 1,
+      "note": "Thrown from the breaking brig, David is washed up alone on the little isle of Earraid."
+    },
+    {
+      "character": "david-balfour",
+      "from": "earraid",
+      "to": "isle-of-mull",
+      "chapter": 15,
+      "mode": "foot",
+      "days": 2,
+      "note": "Realising Earraid is tidal, David wades off and sets out east across Mull on Alan's silver-button token."
+    },
+    {
+      "character": "david-balfour",
+      "from": "isle-of-mull",
+      "to": "kinlochaline-morven",
+      "chapter": 16,
+      "mode": "ship",
+      "days": 1,
+      "note": "Ferried over the Sound of Mull to Kinlochaline on the mainland."
+    },
+    {
+      "character": "david-balfour",
+      "from": "kinlochaline-morven",
+      "to": "kingairloch-ardgour",
+      "chapter": 16,
+      "mode": "foot",
+      "days": 1,
+      "note": "Across the wild peninsula of Morvern toward Loch Linnhe and the Appin country."
+    },
+    {
+      "character": "david-balfour",
+      "from": "kingairloch-ardgour",
+      "to": "lettermore-appin",
+      "chapter": 17,
+      "mode": "ship",
+      "days": 1,
+      "note": "A boat across Loch Linnhe into Appin — and David walks into the wood of Lettermore just as the Red Fox is shot."
+    },
+    {
+      "character": [
+        "david-balfour",
+        "alan-breck-stewart"
+      ],
+      "from": "lettermore-appin",
+      "to": "corrynakiegh",
+      "chapter": 21,
+      "mode": "foot",
+      "days": 3,
+      "note": "Marked men, David and Alan flee together and lie up five days in the cleft of Corrynakiegh while the redcoats scour Appin."
+    },
+    {
+      "character": [
+        "david-balfour",
+        "alan-breck-stewart"
+      ],
+      "from": "corrynakiegh",
+      "to": "rannoch-moor",
+      "chapter": 22,
+      "mode": "foot",
+      "days": 2,
+      "note": "East to the great moor — the crawling, sun-blistered crossing of Rannoch, in full view of the troops on the hills."
+    },
+    {
+      "character": [
+        "david-balfour",
+        "alan-breck-stewart"
+      ],
+      "from": "rannoch-moor",
+      "to": "ben-alder-clunys-cage",
+      "chapter": 23,
+      "mode": "foot",
+      "days": 2,
+      "note": "Driven up into Ben Alder, where Cluny Macpherson's men take them to the wattled hideout of Cluny's Cage."
+    },
+    {
+      "character": [
+        "david-balfour",
+        "alan-breck-stewart"
+      ],
+      "from": "ben-alder-clunys-cage",
+      "to": "balquhidder",
+      "chapter": 25,
+      "mode": "foot",
+      "days": 4,
+      "note": "Put across the lochs by night and south to Balquhidder, quarrelling bitterly on the road; David falls sick and they rest."
+    },
+    {
+      "character": [
+        "david-balfour",
+        "alan-breck-stewart"
+      ],
+      "from": "balquhidder",
+      "to": "stirling-forth",
+      "chapter": 26,
+      "mode": "foot",
+      "days": 2,
+      "note": "Down out of the Highlands to Stirling — only to find the bridge, the main pass over the Forth, held by a sentry."
+    },
+    {
+      "character": [
+        "david-balfour",
+        "alan-breck-stewart"
+      ],
+      "from": "stirling-forth",
+      "to": "limekilns-carron",
+      "chapter": 26,
+      "mode": "foot",
+      "days": 1,
+      "note": "Foiled at the bridge, they skirt east under the Ochils, past Alloa, to the clachan of Limekilns on the Forth."
+    },
+    {
+      "character": [
+        "david-balfour",
+        "alan-breck-stewart"
+      ],
+      "from": "limekilns-carron",
+      "to": "queensferry",
+      "chapter": 27,
+      "mode": "ship",
+      "days": 1,
+      "note": "A Limekilns girl rows them over the Forth by night to the Lothian shore; David comes round to Queensferry to seek the lawyer Rankeillor."
+    },
+    {
+      "character": [
+        "david-balfour",
+        "alan-breck-stewart"
+      ],
+      "from": "queensferry",
+      "to": "house-of-shaws",
+      "chapter": 28,
+      "mode": "foot",
+      "days": 1,
+      "note": "By night David, Rankeillor and Alan go out to Shaws, and Alan lures Ebenezer into confessing he paid to have David kidnapped. The inheritance is won."
+    },
+    {
+      "character": "david-balfour",
+      "from": "house-of-shaws",
+      "to": "edinburgh-british-linen",
+      "chapter": 30,
+      "mode": "foot",
+      "days": 1,
+      "note": "David and Alan part on the Corstorphine road, and David walks on alone into Edinburgh, to the doors of the bank and his fortune."
+    }
+  ]
+}

@@ -43,5 +43,14 @@
     "file": "data/bleak-house.json",
     "blurb": "Fog, Chancery, and a secret that drags a great lady from a Lincolnshire seat to a pauper's grave.",
     "spine": { "cloth": "#46545c", "text": "#cbb98f" }
+  },
+  {
+    "id": "kidnapped",
+    "title": "Kidnapped",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "file": "data/kidnapped.json",
+    "blurb": "A Lowland lad kidnapped, wrecked off Mull, and driven the length of the Highlands in the flight in the heather.",
+    "spine": { "cloth": "#5c4a5c", "text": "#c2a878" }
   }
 ]
