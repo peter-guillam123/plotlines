@@ -120,7 +120,7 @@ ready
       // The opening line goes to the bottom narration strip (where all the
       // running commentary lives), not a separate popup up top.
       const heroChar = novel.charactersById[hero];
-      const hp = timeline.positionsAt(1)[hero];
+      const hp = timeline.positionsAt(timeline.tStart)[hero];
       const originId = hp && (hp.moving ? hp.movement.from : hp.atLocationId);
       if (originId) {
         captions.announce(heroChar, `${heroChar.name} begins at ${novel.locationsById[originId].novelName}.`);
@@ -211,7 +211,7 @@ ready
       legend.setSelected(null);
       setRouteEmphasis(map, null);
       locationTile.clear();
-      timeline.seek(1);
+      timeline.seek(timeline.tStart);
       setRouteMode(map, 'full'); // the overture shows the whole journey
       updateTrails(map, novel, {}, paths); // no trail drawn yet
       director.disarm(); // the overture holds the camera until Start

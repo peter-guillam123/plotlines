@@ -1,15 +1,13 @@
-// The chapter timeline: play/pause + a range scrubber. Arrow keys give a
-// fine scrub (native), PageUp/PageDown move a whole chapter, Home/End
-// jump to the ends (native). aria-valuetext narrates the chapter.
+// The chapter timeline: play/pause + a range scrubber over the story's
+// real days. Arrow keys give a fine scrub (native), PageUp/PageDown move a
+// whole chapter, Home/End jump to the ends (native).
 //
 // Behind the range runs an "activity band": a ribbon coloured by how many
-// characters are travelling at each moment, so the still stretches (much
-// of Tess) read as pale gaps and the busy passages as deep madder — the
-// timeline itself shows how much movement the novel holds.
+// characters are travelling at each moment, so the quiet stretches read as
+// pale gaps and the busy passages as deep madder.
 
 import { chapterHeading, storyTime } from './format.js';
 
-// Mix two #rrggbb colours; f=0 -> a, f=1 -> b.
 function mix(a, b, f) {
   const pa = [1, 3, 5].map((i) => parseInt(a.slice(i, i + 2), 16));
   const pb = [1, 3, 5].map((i) => parseInt(b.slice(i, i + 2), 16));
@@ -17,16 +15,15 @@ function mix(a, b, f) {
   return `rgb(${c[0]},${c[1]},${c[2]})`;
 }
 
-// A hard-stop linear-gradient: pale parchment where nobody moves, deep
-// madder where the whole cast is on the road, self-scaled per novel.
-function activityGradient(novel, timeline, tEnd) {
+function activityGradient(novel, timeline) {
   const STILL = '#e4d8bd';
   const BUSY = '#a63d33';
-  const N = 160;
+  const N = 200;
+  const { tStart, tEnd } = timeline;
   const density = [];
   let max = 1;
   for (let i = 0; i < N; i++) {
-    const t = 1 + (tEnd - 1.001) * (i / (N - 1));
+    const t = tStart + (tEnd - tStart) * (i / (N - 1));
     const pos = timeline.positionsAt(t);
     let moving = 0;
     for (const c of novel.characters) if (pos[c.id] && pos[c.id].moving) moving++;
@@ -42,7 +39,7 @@ function activityGradient(novel, timeline, tEnd) {
 }
 
 export function createScrubber(container, novel, timeline, engine) {
-  const tEnd = timeline.tEnd;
+  const { tStart, tEnd } = timeline;
   container.innerHTML = `
     <button type="button" class="play-btn" aria-pressed="false" aria-label="Play">
       <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true" width="22" height="22">
@@ -65,14 +62,14 @@ export function createScrubber(container, novel, timeline, engine) {
         </span>
       </div>
       <div class="scrub-activity" aria-hidden="true"
-           title="Darker bands are the chapters with more characters travelling"></div>
+           title="Darker bands are the times with more characters travelling"></div>
       <input class="scrub-range" type="range"
-             min="1" max="${tEnd - 0.001}" step="0.05" value="1"
+             min="${tStart}" max="${tEnd - 0.01}" step="0.1" value="${tStart}"
              aria-label="Story timeline">
     </div>`;
 
   container.querySelector('.scrub-activity').style.background =
-    activityGradient(novel, timeline, tEnd);
+    activityGradient(novel, timeline);
 
   const playBtn = container.querySelector('.play-btn');
   const range = container.querySelector('.scrub-range');
@@ -83,15 +80,28 @@ export function createScrubber(container, novel, timeline, engine) {
 
   let scrubbing = false;
 
-  function updateHeading(t) {
-    const h = chapterHeading(novel, Math.min(Math.floor(t), novel.chapters.length));
+  // Which chapter to name: the one whose journey is on the map right now
+  // (faithful on a chronological axis), falling back to the nearest by date.
+  function currentChapter(t, positions) {
+    if (positions) {
+      let min = Infinity;
+      for (const c of novel.characters) {
+        const p = positions[c.id];
+        if (p && p.moving && p.movement) min = Math.min(min, p.movement.chapter);
+      }
+      if (min !== Infinity) return min;
+    }
+    return timeline.chapterByDate(t);
+  }
+
+  function updateHeading(t, positions) {
+    const h = chapterHeading(novel, currentChapter(t, positions));
     numeralEl.textContent = h.numeral;
     titleEl.textContent = h.title;
     const clock = storyTime(novel, t);
     dateEl.textContent = clock ? clock.primary : h.dates;
     elapsedEl.textContent = clock && clock.secondary ? clock.secondary : '';
-    range.setAttribute('aria-valuetext',
-      `${clock ? clock.primary + '. ' : ''}${h.plain}`);
+    range.setAttribute('aria-valuetext', `${clock ? clock.primary + '. ' : ''}${h.plain}`);
   }
 
   playBtn.addEventListener('click', () => engine.toggle());
@@ -113,14 +123,15 @@ export function createScrubber(container, novel, timeline, engine) {
     if (e.key === 'PageUp' || e.key === 'PageDown') {
       e.preventDefault();
       const dir = e.key === 'PageUp' ? 1 : -1;
-      timeline.seek(Math.floor(timeline.state.t) + dir);
+      const n = Math.min(Math.max(timeline.chapterByDate(timeline.state.t) + dir, 1), novel.chapters.length);
+      timeline.seek(novel.chapters[n - 1].day);
       engine.requestRender();
     }
   });
 
-  timeline.on('tick', (t) => {
+  timeline.on('tick', (t, positions) => {
     if (!scrubbing) range.value = t;
-    updateHeading(t);
+    updateHeading(t, positions);
   });
   timeline.on('playState', (playing) => {
     playBtn.setAttribute('aria-pressed', String(playing));
@@ -129,5 +140,5 @@ export function createScrubber(container, novel, timeline, engine) {
     if (playing) container.classList.add('has-played');
   });
 
-  updateHeading(1);
+  updateHeading(tStart, timeline.positionsAt(tStart));
 }

@@ -223,10 +223,10 @@
       "note": "To Whitby with her mother for the summer" },
     { "character": "mina", "from": "kings-cross", "to": "whitby-crescent", "chapter": 6, "mode": "train" },
 
-    { "character": "dracula", "from": "castle-dracula", "to": "varna", "chapter": 5, "days": 12, "mode": "unknown",
+    { "character": "dracula", "from": "castle-dracula", "to": "varna", "chapter": 5, "days": 16, "mode": "unknown",
       "via": [[25.6, 46.9], [26.8, 45.9]],
       "note": "Fifty boxes of earth, by Szgany cart and Slovak river-craft, down to the Black Sea" },
-    { "character": "dracula", "from": "varna", "to": "tate-hill-pier", "chapter": 7, "days": 33, "mode": "ship",
+    { "character": "dracula", "from": "varna", "to": "tate-hill-pier", "chapter": 7, "startDay": 64, "days": 33, "mode": "ship",
       "via": [[28.99, 41.12], [26.2, 39.3], [22.4, 36.2], [10.5, 37.5], [-5.35, 35.95], [-9.3, 37.0], [-9.3, 43.4], [-5.0, 48.3], [1.5, 51.05], [-0.1, 54.1]],
       "note": "The voyage of the Demeter: her whole crew lost, her captain lashed dead to the wheel" },
 
@@ -236,7 +236,7 @@
       "note": "Running after her, barefoot on the East Cliff steps" },
     { "character": "lucy", "from": "east-cliff-churchyard", "to": "whitby-crescent", "chapter": 8, "mode": "foot" },
     { "character": "mina", "from": "east-cliff-churchyard", "to": "whitby-crescent", "chapter": 8, "mode": "foot" },
-    { "character": "jonathan", "from": "castle-dracula", "to": "buda-pesth-hospital", "chapter": 8, "days": 21, "mode": "unknown",
+    { "character": "jonathan", "from": "castle-dracula", "to": "buda-pesth-hospital", "chapter": 8, "startDay": 55, "days": 8, "mode": "unknown",
       "via": [[23.59, 46.77], [19.8, 47.3]],
       "note": "The escape down the castle wall — six weeks of brain fever later, he is in Buda-Pesth" },
     { "character": "dracula", "from": "tate-hill-pier", "to": "carfax", "chapter": 8, "mode": "train",

@@ -6,7 +6,7 @@
 // Reduced motion is a different transport, same model: play() becomes a
 // chapter-by-chapter step on a timer, with a single jump-render per step.
 
-import { PLAY_SPEED, SPEED_STEPS } from './constants.js';
+import { SPEED_STEPS, STORY_TARGET_SECONDS, REST_SPEEDUP } from './constants.js';
 
 const RM_STEP_MS = 3600;
 
@@ -17,6 +17,20 @@ export function createEngine(timeline, render) {
   let speedIndex = 0; // index into SPEED_STEPS
   const rmQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 
+  // Normalise this novel to ~STORY_TARGET_SECONDS: sample the day axis to
+  // learn how many days have someone travelling vs waiting, then set a
+  // base days/sec so journeys play at their true relative length while
+  // the quiet stretches fast-forward.
+  const span = timeline.tEnd - timeline.tStart;
+  const sampleStep = Math.max(0.5, span / 500);
+  let movingDays = 0;
+  for (let d = timeline.tStart; d < timeline.tEnd; d += sampleStep) {
+    if (timeline.anyMoving(d)) movingDays += sampleStep;
+  }
+  const restDays = Math.max(span - movingDays, 0);
+  const effectiveDays = movingDays + restDays / REST_SPEEDUP;
+  const baseRate = Math.max(effectiveDays / STORY_TARGET_SECONDS, 0.001); // days/sec while travelling
+
   function frame(ts) {
     rafId = null;
     const dt = lastTs == null ? 0 : Math.min((ts - lastTs) / 1000, 0.25);
@@ -26,8 +40,9 @@ export function createEngine(timeline, render) {
     // paints, it must not also advance.
     const smoothPlaying = timeline.state.playing && stepTimer == null;
     if (smoothPlaying) {
-      // Long journeys linger: the pace factor slows heavy chapters.
-      const rate = (PLAY_SPEED * SPEED_STEPS[speedIndex]) / timeline.paceFactor(timeline.state.t);
+      // Travelling plays at the base rate; the quiet stretches fast-forward.
+      const moving = timeline.anyMoving(timeline.state.t);
+      const rate = baseRate * (moving ? 1 : REST_SPEEDUP) * SPEED_STEPS[speedIndex];
       atEnd = timeline.advance(dt * rate);
     }
     // render() may return true to request more frames (a camera still

@@ -40,11 +40,11 @@ export const NLS_DEFAULT_OPACITY = 0.85;
 
 // Animation. Base pace is deliberately unhurried (~3 minutes for a
 // 27-chapter novel); the speed control multiplies it.
-export const PLAY_SPEED = 0.15;        // chapters per second at 1x
 export const SPEED_STEPS = [1, 2, 3];  // the speed button cycles these
-// A long journey (a movement's `days`) slows its chapter so it lingers on
-// screen instead of darting past. Sub-linear and capped: the Demeter's
-// month plays ~PACE_CAP times a normal chapter, not thirty times.
-export const PACE_EXP = 0.6;
-export const PACE_CAP = 5;
+// Playback runs on real days. A novel is normalised to roughly this many
+// seconds at 1x; days when someone travels play at the base rate, and the
+// quiet stretches (nobody on the road) fast-forward by REST_SPEEDUP — so
+// journeys take their true relative time while the waiting compresses.
+export const STORY_TARGET_SECONDS = 120;
+export const REST_SPEEDUP = 15;
 export const CAMERA_DAMPING = 0.08;    // per-frame lerp factor for follow mode

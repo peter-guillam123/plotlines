@@ -7,8 +7,16 @@
 // aria-live so screen-reader users hear the same running commentary.
 
 import { CHARACTER_COLOURS } from '../constants.js';
-import { characterInitial, roman } from './format.js';
+import { characterInitial } from './format.js';
 import { modeIcon, modePhrase } from './modeicons.js';
+
+// A dwell in human terms (days are the timeline's unit now).
+function dwellPhrase(days) {
+  if (days < 3) return '';
+  if (days < 21) return `stays about ${Math.round(days)} days`;
+  if (days < 75) return `stays about ${Math.round(days / 7)} weeks`;
+  return `stays about ${Math.round(days / 30)} months`;
+}
 
 export function createLocationTile(container, novel, timeline) {
   let selected = null;    // the followed character (persists)
@@ -45,12 +53,9 @@ export function createLocationTile(container, novel, timeline) {
       return `${icon} ${modePhrase(pos.movement.mode)} to ${novel.locationsById[pos.movement.to].novelName}`;
     }
     const here = `at ${novel.locationsById[pos.atLocationId].novelName}`;
-    // Only flag a genuine dwell, not a moment's pause between legs.
     if (pos.restUntil >= timeline.tEnd) return `${here} — journey's end`;
-    if (pos.restUntil - timeline.state.t >= 1.4) {
-      return `${here} — stays until Chapter ${roman(Math.floor(pos.restUntil))}`;
-    }
-    return here;
+    const dwell = dwellPhrase(pos.restUntil - timeline.state.t);
+    return dwell ? `${here} — ${dwell}` : here;
   }
 
   function render(t, positions) {
