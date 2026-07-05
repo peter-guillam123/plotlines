@@ -12,7 +12,7 @@
     { "id": "london", "name": "London & Purfleet" },
     { "id": "wider", "name": "The wider journey" }
   ],
-  "mapHome": { "bounds": [[-11, 41], [30, 60]] },
+  "mapHome": { "bounds": [[-11, 35], [30, 60]] },
   "chapters": [
     { "n": 1, "title": "Jonathan Harker's Journal", "dateInStory": "3–5 May", "day": 0 },
     { "n": 2, "title": "Jonathan Harker's Journal", "dateInStory": "5–8 May", "day": 2 },

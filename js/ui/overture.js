@@ -7,17 +7,25 @@ import { CHARACTER_COLOURS } from '../constants.js';
 import { characterInitial } from './format.js';
 
 export function createOverture(container, map, novel, paths, { onStart, reducedMotion }) {
-  // The full story extent: every densified route vertex, so the frame
-  // includes the sea lanes, not just the pins.
-  const bounds = [];
-  for (const { path } of paths) {
-    for (const [lng, lat] of path.coords) {
-      if (!bounds.length) bounds.push([lng, lat], [lng, lat]);
-      else {
-        bounds[0][0] = Math.min(bounds[0][0], lng);
-        bounds[0][1] = Math.min(bounds[0][1], lat);
-        bounds[1][0] = Math.max(bounds[1][0], lng);
-        bounds[1][1] = Math.max(bounds[1][1], lat);
+  // The opening overview frames the novel's home canvas (mapHome) — the
+  // country the story mostly lives in — so a single far journey (David's
+  // emigration to Australia) doesn't zoom the opening out to the whole
+  // globe; those distances reveal themselves dramatically when they play.
+  // Falls back to the full route extent if no mapHome is declared.
+  let bounds;
+  if (novel.mapHome && novel.mapHome.bounds) {
+    bounds = novel.mapHome.bounds.map((p) => [...p]);
+  } else {
+    bounds = [];
+    for (const { path } of paths) {
+      for (const [lng, lat] of path.coords) {
+        if (!bounds.length) bounds.push([lng, lat], [lng, lat]);
+        else {
+          bounds[0][0] = Math.min(bounds[0][0], lng);
+          bounds[0][1] = Math.min(bounds[0][1], lat);
+          bounds[1][0] = Math.max(bounds[1][0], lng);
+          bounds[1][1] = Math.max(bounds[1][1], lat);
+        }
       }
     }
   }
