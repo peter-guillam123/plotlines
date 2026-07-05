@@ -140,6 +140,7 @@
       "quoteRef": "Ch. 34" },
     { "id": "kingsbere", "region": "dairies", "name": "Bere Regis", "novelName": "Kingsbere-sub-Greenhill",
       "coords": [-2.218, 50.753], "certainty": "identified",
+      "image": { "file": "assets/images/bere-regis.jpg", "caption": "Bere Regis — Hardy's Kingsbere — in a watercolour of 1910", "credit": "E. W. Haslehust, from The Heart of Wessex, 1910 · public domain" },
       "note": "Bere Regis — the real Turberville vaults and window are in the parish church, exactly as the novel describes (Hardy's map; Lea 1913).",
       "story": "The ancestral parish, with rows of d'Urbervilles in the church vaults. Evicted from Marlott on Old Lady-Day, the family finds its promised rooms already let and sets up the four-post bedstead against the church wall, beneath the d'Urberville Window.",
       "quote": "Hard by, the aisle of the church called the d'Urberville Aisle looked on imperturbably.",

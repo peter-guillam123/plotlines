@@ -161,6 +161,7 @@
       "quoteRef": "Ch. 43" },
     { "id": "chatsworth", "region": "north", "name": "Chatsworth House, Derbyshire", "novelName": "Chatsworth",
       "coords": [-1.611, 53.227], "certainty": "real",
+      "image": { "file": "assets/images/chatsworth.jpg", "caption": "Chatsworth House, Derbyshire, in an engraving of 1880", "credit": "F. O. Morris, Seats of Noblemen and Gentlemen, 1880 · public domain" },
       "note": "Real, and visited as itself — which is the standing objection to Chatsworth-as-Pemberley, whatever the film adaptations have since decided.",
       "story": "One of 'the celebrated beauties' the tourists take in on the road north — and the quiet joke of the Pemberley debate: Elizabeth sees Chatsworth as Chatsworth, days before Pemberley overwhelms her as Pemberley. The adaptations have been merrily conflating the two ever since.",
       "quote": "as great an object of her curiosity as all the celebrated beauties of Matlock, Chatsworth, Dovedale, or the Peak",

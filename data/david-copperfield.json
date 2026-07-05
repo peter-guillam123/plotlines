@@ -586,7 +586,12 @@
       "note": "A real cathedral city. Mr Wickfield's house and Dr Strong's school are inventions placed within it.",
       "story": "The gentle counterweight to London — though David first comes through it wayworn and ragged on his walk to Dover. Later Betsey Trotwood sends him to school at Dr Strong's here, boarding with the lawyer Mr Wickfield and his daughter Agnes, the quiet centre of David's whole life. It is also where the writhing clerk Uriah Heep spins his web, and where the Micawbers come as his tools.",
       "quote": "some of the boys had seen me coming through\nCanterbury, wayworn and ragged",
-      "quoteRef": "Ch. 16"
+      "quoteRef": "Ch. 16",
+      "image": {
+        "file": "assets/images/canterbury.jpg",
+        "caption": "Canterbury Cathedral, photographed c.1890",
+        "credit": "Detroit Publishing Co. photochrom · Library of Congress · public domain"
+      }
     },
     {
       "id": "dover",
