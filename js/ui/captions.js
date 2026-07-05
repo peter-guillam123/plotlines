@@ -6,6 +6,7 @@
 
 import { CHARACTER_COLOURS } from '../constants.js';
 import { movementSentence, arrivalSentence } from './format.js';
+import { modeIcon } from './modeicons.js';
 
 // Journeys are matched by shape, not object identity, so the four
 // copies of a shared party movement collapse into one line.
@@ -21,7 +22,9 @@ export function createCaptions(container, novel, timeline) {
           `<span class="caption-swatch" style="background:${CHARACTER_COLOURS[c.colour]}"></span>`
       )
       .join('');
-    entry.el.innerHTML = `${swatches}<span class="caption-text"></span>`;
+    // The travel-mode icon (not on the arrival line — the journey's done).
+    const icon = entry.arrived ? '' : modeIcon(entry.movement.mode);
+    entry.el.innerHTML = `${swatches}${icon}<span class="caption-text"></span>`;
     const text = entry.el.querySelector('.caption-text');
     text.textContent = sentence;
     if (entry.movement.note && !entry.arrived) {

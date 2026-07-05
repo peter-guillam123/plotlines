@@ -329,16 +329,24 @@ body.is-overture #locationtile { display: none !important; }
   box-shadow: 0 0 0 2px rgba(249, 242, 226, 0.45);
 }
 
-.loc-tile-body { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; }
+.loc-tile-body { display: flex; flex-direction: column; line-height: 1.2; min-width: 0; }
 .loc-tile-name { font-size: 14px; }
 .loc-tile-where {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-size: 12px;
   font-style: italic;
-  opacity: 0.85;
+  opacity: 0.9;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.loc-tile-where .mode-icon { flex: none; vertical-align: -2px; }
+
+/* travel-mode icon, shared by tile and captions */
+.mode-icon { display: inline-block; }
+.caption-line .mode-icon { flex: none; align-self: center; opacity: 0.9; }
 
 /* ---- captions ---- */
 

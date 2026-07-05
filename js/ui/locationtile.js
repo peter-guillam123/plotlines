@@ -8,6 +8,7 @@
 
 import { CHARACTER_COLOURS } from '../constants.js';
 import { characterInitial, roman } from './format.js';
+import { modeIcon, modePhrase } from './modeicons.js';
 
 export function createLocationTile(container, novel, timeline) {
   let selected = null;    // the followed character (persists)
@@ -31,9 +32,17 @@ export function createLocationTile(container, novel, timeline) {
     builtFor = c.id;
   }
 
-  function phrase(pos) {
+  // Returns HTML (may carry a travel-mode icon).
+  function phrase(pos, establishing) {
+    // The opening note names where the character starts, not where the
+    // first step already points.
+    if (establishing) {
+      const originId = pos.moving ? pos.movement.from : pos.atLocationId;
+      return `begins at ${novel.locationsById[originId].novelName}`;
+    }
     if (pos.moving) {
-      return `on the way to ${novel.locationsById[pos.movement.to].novelName}`;
+      const icon = modeIcon(pos.movement.mode);
+      return `${icon} ${modePhrase(pos.movement.mode)} to ${novel.locationsById[pos.movement.to].novelName}`;
     }
     const here = `at ${novel.locationsById[pos.atLocationId].novelName}`;
     // Only flag a genuine dwell, not a moment's pause between legs.
@@ -56,7 +65,8 @@ export function createLocationTile(container, novel, timeline) {
       return;
     }
     if (builtFor !== id) buildShell(novel.charactersById[id]);
-    container.querySelector('.loc-tile-where').textContent = phrase(pos);
+    const establishing = !selected && establish === id;
+    container.querySelector('.loc-tile-where').innerHTML = phrase(pos, establishing);
     container.classList.add('is-visible');
   }
 
