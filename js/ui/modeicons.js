@@ -12,9 +12,17 @@ const ICONS = {
   // carriage: a body on two wheels
   coach:
     '<rect x="3" y="5" width="8" height="4" rx="1" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M11 7h3l-1 2h-2z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><circle cx="5" cy="12" r="1.6" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="11" cy="12" r="1.6" fill="none" stroke="currentColor" stroke-width="1.3"/>',
-  // locomotive
+  // steam locomotive: cab, boiler, a flared chimney with smoke, wheels
   train:
-    '<path d="M4 4h4v6H3V6a2 2 0 0 1 1-2z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M8 6h4l2 4H8z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M3 10h11" stroke="currentColor" stroke-width="1.3"/><circle cx="5" cy="12.5" r="1.3" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="11" cy="12.5" r="1.3" fill="none" stroke="currentColor" stroke-width="1.2"/>',
+    '<path d="M2 11h11.4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>' +
+    '<path d="M2.6 11V6h3.3v5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>' +
+    '<path d="M5.9 11V8.4a2 2 0 0 1 2-2h4.9V11" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>' +
+    '<path d="M8 6.4a1 1 0 0 1 1.8 0" fill="none" stroke="currentColor" stroke-width="1"/>' +
+    '<path d="M11.3 6.4V4.1M10.2 4.1h2.2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>' +
+    '<circle cx="4.2" cy="12" r="1.4" fill="none" stroke="currentColor" stroke-width="1.1"/>' +
+    '<circle cx="8.4" cy="12.2" r="1.1" fill="none" stroke="currentColor" stroke-width="1"/>' +
+    '<circle cx="11.4" cy="12.2" r="1.1" fill="none" stroke="currentColor" stroke-width="1"/>' +
+    '<circle cx="12.5" cy="2.6" r=".8" fill="currentColor"/><circle cx="13.7" cy="1.5" r=".55" fill="currentColor"/>',
   // sailing ship
   ship:
     '<path d="M8 2v8M8 4l4 2-4 1.5M8 4L4 6l4 1.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><path d="M2.5 11h11l-1.6 3H4.1z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>',
