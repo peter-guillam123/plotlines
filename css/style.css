@@ -704,6 +704,37 @@ body.is-overture #locationtile { display: none !important; }
   line-height: 1.35;
 }
 
+/* ---- route + staging-post hover cards ---- */
+.route-card-leg {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 15px;
+  line-height: 1.2;
+}
+.route-card-note {
+  margin: 6px 0 0;
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+.route-card-note:empty { display: none; }
+.route-card-source {
+  margin: 6px 0 0;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--ink-soft);
+  line-height: 1.35;
+}
+.route-card-source:empty { display: none; }
+.badge-route-documented { border-color: var(--rule); color: var(--ink-soft); }
+.badge-route-reconstructed,
+.badge-route-illustrative {
+  border-color: var(--accent);
+  color: var(--accent);
+  border-style: dashed;
+}
+.stop-card-name { font-size: 14px; }
+.stop-card-note { font-style: italic; }
+
 /* ---- bottom sheet ---- */
 
 #sheet { display: none; }

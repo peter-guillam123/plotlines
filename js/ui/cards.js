@@ -27,6 +27,26 @@ function fillCard(el, loc) {
   if (loc.note) el.querySelector('.card-note').textContent = loc.note;
 }
 
+// How a route's confidence reads in the hover card.
+const ROUTE_CERTAINTY = {
+  documented: 'Documented route',
+  reconstructed: 'Reconstructed — period-plausible',
+  illustrative: 'Illustrative — the text is vague',
+};
+
+function routeCardHtml(p) {
+  return `
+    <p class="route-card-leg">${p.fromName} → ${p.toName}</p>
+    <p class="route-card-note"></p>
+    <p class="route-card-source"></p>
+    <p class="badge badge-route badge-route-${p.routeCertainty}"></p>`;
+}
+
+// A bead on the route: a town or sea-mark the journey passes through.
+function stopCardHtml() {
+  return `<p class="route-card-leg stop-card-name"></p><p class="route-card-note stop-card-note"></p>`;
+}
+
 export function createCards(map, novel, sheetEl, { isPlaying = () => false } = {}) {
   const finePointer = window.matchMedia('(pointer: fine)').matches;
 
@@ -36,6 +56,61 @@ export function createCards(map, novel, sheetEl, { isPlaying = () => false } = {
     // A pin drifting under a stationary cursor must not leave a card
     // stranded: any camera movement dismisses the hover card.
     map.on('movestart', () => {
+      popup?.remove();
+      popup = null;
+    });
+
+    // Hovering a route line names the road and where it comes from — the
+    // provenance made auditable, not just admired. Un-enriched legs carry
+    // no note, so they stay silent.
+    const showRouteCard = (e) => {
+      if (isPlaying()) return;
+      const p = e.features[0].properties;
+      if (!p.routeNote) return;
+      map.getCanvas().style.cursor = 'help';
+      popup?.remove();
+      popup = new maplibregl.Popup({
+        closeButton: false, closeOnClick: false, offset: 10,
+        maxWidth: '300px', className: 'loc-card route-hover-card',
+      })
+        .setLngLat(e.lngLat)
+        .setHTML(routeCardHtml(p))
+        .addTo(map);
+      const el = popup.getElement();
+      el.querySelector('.route-card-note').textContent = p.routeNote;
+      el.querySelector('.route-card-source').textContent = p.routeSource;
+      el.querySelector('.badge-route').textContent =
+        ROUTE_CERTAINTY[p.routeCertainty] || 'Route';
+    };
+    // The wide invisible hit-line is the hover target (thin strokes are
+    // fiddly to catch).
+    map.on('mouseenter', 'routes-hit', showRouteCard);
+    map.on('mousemove', 'routes-hit', showRouteCard);
+    map.on('mouseleave', 'routes-hit', () => {
+      map.getCanvas().style.cursor = '';
+      popup?.remove();
+      popup = null;
+    });
+
+    // Hovering a bead names the staging post and, where there's one, its note.
+    map.on('mouseenter', 'route-stops', (e) => {
+      if (isPlaying()) return;
+      const p = e.features[0].properties;
+      map.getCanvas().style.cursor = 'help';
+      popup?.remove();
+      popup = new maplibregl.Popup({
+        closeButton: false, closeOnClick: false, offset: 8,
+        maxWidth: '260px', className: 'loc-card stop-hover-card',
+      })
+        .setLngLat(e.features[0].geometry.coordinates)
+        .setHTML(stopCardHtml())
+        .addTo(map);
+      const el = popup.getElement();
+      el.querySelector('.stop-card-name').textContent = p.name;
+      if (p.note) el.querySelector('.stop-card-note').textContent = p.note;
+    });
+    map.on('mouseleave', 'route-stops', () => {
+      map.getCanvas().style.cursor = '';
       popup?.remove();
       popup = null;
     });

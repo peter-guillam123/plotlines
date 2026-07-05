@@ -47,6 +47,12 @@ export function addRouteLayers(map, novel, paths) {
       offset: offsets[movement.character],
       dashed,
       chapter: movement.chapter,
+      // route provenance, for the hover card (empty on un-enriched legs)
+      routeNote: movement.routeNote || '',
+      routeSource: movement.routeSource || '',
+      routeCertainty: movement.routeCertainty || '',
+      fromName: novel.locationsById[movement.from].novelName,
+      toName: novel.locationsById[movement.to].novelName,
     },
   }));
 
@@ -79,6 +85,23 @@ export function addRouteLayers(map, novel, paths) {
     filter: ['get', 'dashed'],
     layout: lineLayout,
     paint: { ...linePaint, 'line-dasharray': [2.2, 1.8] },
+  });
+
+  // A wide, invisible companion line so the thin visible route is
+  // comfortably hoverable — the provenance card hangs off this, not the
+  // 2px stroke. Sits beneath the beads and place markers, which stay the
+  // preferred hover targets.
+  map.addLayer({
+    id: 'routes-hit',
+    type: 'line',
+    source: ROUTE_SOURCE,
+    layout: lineLayout,
+    paint: {
+      'line-color': '#000',
+      'line-opacity': 0,
+      'line-width': 14,
+      'line-offset': ['get', 'offset'],
+    },
   });
 
   const locationFeatures = novel.locations.map((loc) => ({
@@ -130,7 +153,7 @@ export function addStopLayers(map, novel, paths) {
       features.push({
         type: 'Feature',
         geometry: { type: 'Point', coordinates: s.at },
-        properties: { name: s.name },
+        properties: { name: s.name, note: s.note || '' },
       });
     }
   }
