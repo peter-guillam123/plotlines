@@ -41,6 +41,14 @@ export function createTimeline(novel, paths) {
   }
   tEnd += 2; // a breath at the end
 
+  // Every leg's start day, sorted — so the engine can find the next moment
+  // anyone sets out and pace a long empty stretch to reach it.
+  const legStarts = paths.map((e) => e.dayStart).sort((a, b) => a - b);
+  function nextMovingDay(day) {
+    for (const s of legStarts) if (s > day) return s;
+    return tEnd;
+  }
+
   const state = { t: tStart, playing: false, selected: null };
 
   const listeners = { tick: [], movementStarted: [], movementEnded: [], chapterChanged: [], playState: [] };
@@ -151,6 +159,7 @@ export function createTimeline(novel, paths) {
     on,
     positionsAt,
     anyMoving,
+    nextMovingDay,
     chapterByDate,
     // Continuous playback advance (dt already in days); true at the end.
     advance(dtDays) {

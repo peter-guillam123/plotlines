@@ -6,7 +6,7 @@
 // Reduced motion is a different transport, same model: play() becomes a
 // chapter-by-chapter step on a timer, with a single jump-render per step.
 
-import { SPEED_STEPS, STORY_TARGET_SECONDS, REST_SPEEDUP } from './constants.js';
+import { SPEED_STEPS, STORY_TARGET_SECONDS, REST_SPEEDUP, REST_MAX_SECONDS } from './constants.js';
 
 const RM_STEP_MS = 3600;
 
@@ -40,9 +40,15 @@ export function createEngine(timeline, render) {
     // paints, it must not also advance.
     const smoothPlaying = timeline.state.playing && stepTimer == null;
     if (smoothPlaying) {
-      // Travelling plays at the base rate; the quiet stretches fast-forward.
+      // Travelling plays at the base rate; the quiet stretches fast-forward
+      // — and any long empty gap is swept to the next journey in at most
+      // REST_MAX_SECONDS, so a thirty-year life doesn't sit dead on the map.
       const moving = timeline.anyMoving(timeline.state.t);
-      const rate = baseRate * (moving ? 1 : REST_SPEEDUP) * SPEED_STEPS[speedIndex];
+      let rate = baseRate * SPEED_STEPS[speedIndex];
+      if (!moving) {
+        const gap = timeline.nextMovingDay(timeline.state.t) - timeline.state.t;
+        rate = Math.max(baseRate * REST_SPEEDUP, gap / REST_MAX_SECONDS) * SPEED_STEPS[speedIndex];
+      }
       atEnd = timeline.advance(dt * rate);
     }
     // render() may return true to request more frames (a camera still

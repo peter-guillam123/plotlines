@@ -56,4 +56,9 @@ export const SPEED_STEPS = [1, 2, 3];  // the speed button cycles these
 // journeys take their true relative time while the waiting compresses.
 export const STORY_TARGET_SECONDS = 120;
 export const REST_SPEEDUP = 15;
+// ...but no single empty stretch should ever hold the map still for long.
+// A gap with nobody travelling is swept to the next journey in at most
+// this many seconds, however many years it spans — so David Copperfield's
+// childhood and quiet years pass in a beat, not a dead minute.
+export const REST_MAX_SECONDS = 2.5;
 export const CAMERA_DAMPING = 0.08;    // per-frame lerp factor for follow mode
