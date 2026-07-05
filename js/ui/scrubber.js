@@ -1,8 +1,45 @@
 // The chapter timeline: play/pause + a range scrubber. Arrow keys give a
 // fine scrub (native), PageUp/PageDown move a whole chapter, Home/End
 // jump to the ends (native). aria-valuetext narrates the chapter.
+//
+// Behind the range runs an "activity band": a ribbon coloured by how many
+// characters are travelling at each moment, so the still stretches (much
+// of Tess) read as pale gaps and the busy passages as deep madder — the
+// timeline itself shows how much movement the novel holds.
 
 import { chapterHeading } from './format.js';
+
+// Mix two #rrggbb colours; f=0 -> a, f=1 -> b.
+function mix(a, b, f) {
+  const pa = [1, 3, 5].map((i) => parseInt(a.slice(i, i + 2), 16));
+  const pb = [1, 3, 5].map((i) => parseInt(b.slice(i, i + 2), 16));
+  const c = pa.map((v, i) => Math.round(v + (pb[i] - v) * f));
+  return `rgb(${c[0]},${c[1]},${c[2]})`;
+}
+
+// A hard-stop linear-gradient: pale parchment where nobody moves, deep
+// madder where the whole cast is on the road, self-scaled per novel.
+function activityGradient(novel, timeline, tEnd) {
+  const STILL = '#e4d8bd';
+  const BUSY = '#a63d33';
+  const N = 160;
+  const density = [];
+  let max = 1;
+  for (let i = 0; i < N; i++) {
+    const t = 1 + (tEnd - 1.001) * (i / (N - 1));
+    const pos = timeline.positionsAt(t);
+    let moving = 0;
+    for (const c of novel.characters) if (pos[c.id] && pos[c.id].moving) moving++;
+    density.push(moving);
+    if (moving > max) max = moving;
+  }
+  const seg = 100 / N;
+  const stops = density.map((m, i) => {
+    const colour = m === 0 ? STILL : mix(STILL, BUSY, 0.25 + 0.75 * (m / max));
+    return `${colour} ${(i * seg).toFixed(2)}% ${((i + 1) * seg).toFixed(2)}%`;
+  });
+  return `linear-gradient(90deg, ${stops.join(',')})`;
+}
 
 export function createScrubber(container, novel, timeline, engine) {
   const tEnd = timeline.tEnd;
@@ -22,10 +59,15 @@ export function createScrubber(container, novel, timeline, engine) {
         <span class="chapter-title"></span>
         <span class="chapter-dates"></span>
       </div>
+      <div class="scrub-activity" aria-hidden="true"
+           title="Darker bands are the chapters with more characters travelling"></div>
       <input class="scrub-range" type="range"
              min="1" max="${tEnd - 0.001}" step="0.05" value="1"
              aria-label="Story timeline">
     </div>`;
+
+  container.querySelector('.scrub-activity').style.background =
+    activityGradient(novel, timeline, tEnd);
 
   const playBtn = container.querySelector('.play-btn');
   const range = container.querySelector('.scrub-range');
