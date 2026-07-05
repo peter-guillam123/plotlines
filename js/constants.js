@@ -21,20 +21,18 @@ export const CHARACTER_COLOURS = {
 
 export const STYLE_URL = 'styles/victorian.json';
 
-// MapTiler Cloud key for the NLS historic overlay. This is a PUBLIC,
-// domain-restricted key (locked to the GitHub Pages origin + localhost in
-// the MapTiler dashboard) — committing it is normal practice for client
-// map keys. Empty string = overlay quietly unavailable.
-export const MAPTILER_KEY = 'sSYkPN6c1QDSyXFoXpc5';
-
-// NLS historic layers served via MapTiler. Tileset slugs have been
-// reshuffled by MapTiler before — confirm against the account when the
-// key is created. One-inch is the v1 workhorse; six-inch kept for later.
-export const NLS_TILESET = 'uk-osgb63k1885'; // OS one-inch "Hills", 1885-1900
-// export const NLS_TILESET_6INCH = 'uk-osgb10k1888'; // OS six-inch, 1888-1913
+// The historic overlay is served straight from the National Library of
+// Scotland's own public tile server — keyless, CORS-open, no quota. A
+// {z}/{x}/{y} template; a novel may override it via its overlay field
+// (e.g. a different NLS series). This is the OS one-inch 2nd edition,
+// 1885-1903 — the same survey we used to reach via MapTiler, now direct.
+export const NLS_TILE_URL =
+  'https://mapseries-tilesets.s3.amazonaws.com/1inch_2nd_ed/{z}/{x}/{y}.png';
+// Six-inch first edition, kept for reference: os/6inchfirst
 
 // Great Britain bounds for the raster source — MapLibre won't request
-// tiles outside this box, which protects the 100k/month free quota.
+// tiles outside this box (nothing to serve there, and it keeps the
+// request count sane).
 export const GB_BOUNDS = [-8.7, 49.8, 1.9, 60.9]; // [west, south, east, north]
 export const NLS_MINZOOM = 6;
 export const NLS_MAXZOOM = 16; // tileset's native max

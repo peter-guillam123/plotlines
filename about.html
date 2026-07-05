@@ -82,9 +82,9 @@
       style. Over Great Britain, you can lay genuine Victorian cartography
       on top: Ordnance Survey sheets from 1885–1903, scanned and
       georeferenced by the <a href="https://maps.nls.uk/">National Library
-      of Scotland</a> and served via MapTiler. It feels different watching
-      Lucy sleepwalk across the actual 1890s survey of Whitby, which is
-      rather the point.</p>
+      of Scotland</a> and served straight from the Library's own tile
+      server. It feels different watching Lucy sleepwalk across the actual
+      1890s survey of Whitby, which is rather the point.</p>
       <p>Under the hood it's plain JavaScript and
       <a href="https://maplibre.org/">MapLibre GL</a> — no framework, no
       build step. The novel data is one hand-written JSON file per book,
@@ -101,7 +101,7 @@
             using <a href="https://openmaptiles.org/">OpenMapTiles</a>.</li>
         <li>Historic maps: reproduced with the permission of the
             <a href="https://maps.nls.uk/">National Library of Scotland</a>
-            (CC-BY-NC-SA), served by <a href="https://www.maptiler.com/">MapTiler</a>.</li>
+            (CC-BY-NC-SA), served from the Library's own tile server.</li>
         <li>Novel texts: Project Gutenberg
             <a href="https://www.gutenberg.org/ebooks/345">#345</a>
             (<em>Dracula</em>, Bram Stoker, 1897) and
@@ -126,6 +126,16 @@
 
     <section>
       <h2>Diary</h2>
+
+      <h3>5 July 2026, later — cutting out the middleman</h3>
+      <p>The 1890s maps used to reach you via MapTiler, which meant an API
+      key, a monthly tile quota and a domain lock — three things that
+      could break the overlay for reasons that had nothing to do with the
+      maps. It turns out the National Library of Scotland serves the very
+      same scans straight from its own tile server, no key required. So
+      that's where PlotLines draws them from now: fewer moving parts, no
+      quota to exhaust, and the Library credited directly. Nothing changed
+      on screen — which, for this kind of plumbing, is exactly right.</p>
 
       <h3>5 July 2026 — Pride and Prejudice makes three <span class="diary-milestone">milestone</span></h3>
       <p>The shelf gains its blue boards. Austen is the opposite problem

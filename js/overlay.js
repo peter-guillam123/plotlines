@@ -1,10 +1,10 @@
 // The genuine Victorian layer: NLS georeferenced Ordnance Survey scans
-// (1885-1903), served via MapTiler Cloud, drawn over Great Britain only.
-// Degrades gracefully: no key, bad key or exhausted quota all mean the
-// sepia vector base simply carries on and the toggle disappears.
+// (1885-1903), served straight from the National Library of Scotland's
+// own public tile server — no key, no quota. Degrades gracefully: if the
+// tiles ever fail, the sepia vector base simply carries on.
 
 import {
-  MAPTILER_KEY, NLS_TILESET, GB_BOUNDS,
+  NLS_TILE_URL, GB_BOUNDS,
   NLS_MINZOOM, NLS_MAXZOOM, NLS_DEFAULT_OPACITY,
 } from './constants.js';
 
@@ -13,8 +13,7 @@ const LAYER_ID = 'nls-historic';
 
 const NLS_ATTRIBUTION =
   'Historic maps: <a href="https://maps.nls.uk/" target="_blank" rel="noopener">' +
-  'National Library of Scotland</a> (CC-BY-NC-SA) · ' +
-  '© <a href="https://www.maptiler.com/" target="_blank" rel="noopener">MapTiler</a>';
+  'National Library of Scotland</a> (CC-BY-NC-SA)';
 
 // Insert the scans above land/roads but below labels, routes and markers.
 function firstSymbolLayerId(map) {
@@ -23,18 +22,14 @@ function firstSymbolLayerId(map) {
 }
 
 export function addNlsOverlay(map, novel = {}) {
-  if (!MAPTILER_KEY) return null;
-
-  // Each novel may name its own period layer (e.g. the OS Old Series
-  // for a Regency book); the 1890s one-inch is the default.
-  const tileset = novel.overlay?.tileset || NLS_TILESET;
+  // A novel may point at a different NLS series via its overlay field;
+  // the 1890s one-inch is the default.
+  const tiles = novel.overlay?.tiles || NLS_TILE_URL;
   const label = novel.overlay?.label || '1890s map';
 
   map.addSource(SOURCE_ID, {
     type: 'raster',
-    tiles: [
-      `https://api.maptiler.com/tiles/${tileset}/{z}/{x}/{y}.jpg?key=${MAPTILER_KEY}`,
-    ],
+    tiles: [tiles],
     tileSize: 256,
     bounds: GB_BOUNDS, // never request tiles outside Great Britain
     minzoom: NLS_MINZOOM,
@@ -58,9 +53,10 @@ export function addNlsOverlay(map, novel = {}) {
   map.on('error', (e) => {
     if (failed || !e || e.sourceId !== SOURCE_ID) return;
     const status = e.error && e.error.status;
-    // 403 = bad/locked key, 429 = quota. Any tile failure from this source
-    // that isn't a transient blip gets the same treatment: hide and move on.
-    if (status === 403 || status === 429 || status === 401) {
+    // Missing tiles (404) are normal at the edges and ignored by MapLibre.
+    // Only a server-level refusal (403) or outage (5xx) means the layer
+    // itself is unavailable — hide it and let the sepia base carry on.
+    if (status === 403 || (status >= 500 && status < 600)) {
       failed = true;
       console.warn(`NLS overlay unavailable (HTTP ${status}); continuing on the base map.`);
       if (map.getLayer(LAYER_ID)) map.setLayoutProperty(LAYER_ID, 'visibility', 'none');

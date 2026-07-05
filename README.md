@@ -25,8 +25,9 @@ then open http://localhost:8000.
 - Base map: [OpenFreeMap](https://openfreemap.org/) vector tiles with a
   committed sepia fork of their Positron style (`styles/victorian.json`).
 - Historic overlay: National Library of Scotland georeferenced Ordnance
-  Survey scans (1885–1903) served via MapTiler Cloud, shown over Great
-  Britain only. CC-BY-NC-SA; attribution is mandatory and stays visible.
+  Survey scans (1885–1903), served straight from the Library's own public
+  tile server (keyless), shown over Great Britain only. CC-BY-NC-SA;
+  attribution is mandatory and stays visible.
 - All novel data is hand-curated JSON in `data/`, verified against the
   Project Gutenberg text.
 
