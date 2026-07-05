@@ -79,7 +79,7 @@ ready
     // The frame-the-story button lives inside the controls bar, where it
     // can never overlap the caption stack.
     document.getElementById('controls').append(document.getElementById('recentre'));
-    createCaptions(document.getElementById('captions'), novel, timeline);
+    const captions = createCaptions(document.getElementById('captions'), novel, timeline);
     const cards = createCards(map, novel, document.getElementById('sheet'), {
       isPlaying: () => engine.isPlaying(),
     });
@@ -117,7 +117,14 @@ ready
       setRouteMode(map, 'ghost'); // the trail leads from here on
       director.arm();
       director.setSpotlight(hero);
-      locationTile.establish(hero, 6000);
+      // The opening line goes to the bottom narration strip (where all the
+      // running commentary lives), not a separate popup up top.
+      const heroChar = novel.charactersById[hero];
+      const hp = timeline.positionsAt(1)[hero];
+      const originId = hp && (hp.moving ? hp.movement.from : hp.atLocationId);
+      if (originId) {
+        captions.announce(heroChar, `${heroChar.name} begins at ${novel.locationsById[originId].novelName}.`);
+      }
       engine.requestRender();
       if (engine.reducedMotion()) {
         director.setSpotlight(null);

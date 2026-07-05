@@ -354,7 +354,7 @@ body.is-overture #locationtile { display: none !important; }
   position: absolute;
   z-index: 10;
   left: 50%;
-  bottom: 96px;
+  bottom: 122px; /* a clear gap above the controls bar */
   transform: translateX(-50%);
   max-width: min(620px, calc(100vw - 24px));
   display: flex;

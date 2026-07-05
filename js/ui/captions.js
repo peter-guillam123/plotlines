@@ -70,7 +70,7 @@ export function createCaptions(container, novel, timeline) {
     entry.arrived = true;
     render(entry, arrivalSentence(novel, movement, entry.characters));
     entry.el.classList.add('is-arrival');
-    entry.retireTimer = setTimeout(() => retire(key), 2500);
+    entry.retireTimer = setTimeout(() => retire(key), 1400);
   });
 
   function retire(key, immediate = false) {
@@ -100,4 +100,26 @@ export function createCaptions(container, novel, timeline) {
       for (const key of [...lines.keys()]) retire(key, true);
     }
   });
+
+  // A one-off line (the opening "begins at…") — same bottom strip as the
+  // journey narration, so all the running commentary lives in one place.
+  function announce(character, text) {
+    const el = document.createElement('p');
+    el.className = 'caption-line is-opening';
+    el.innerHTML =
+      `<span class="caption-swatch" style="background:${CHARACTER_COLOURS[character.colour]}"></span>` +
+      '<span class="caption-text"></span>';
+    el.querySelector('.caption-text').textContent = text;
+    container.append(el);
+    container.classList.add('is-visible');
+    setTimeout(() => {
+      el.classList.add('is-retiring');
+      setTimeout(() => {
+        el.remove();
+        if (!container.querySelector('.caption-line')) container.classList.remove('is-visible');
+      }, 600);
+    }, 4600);
+  }
+
+  return { announce };
 }
