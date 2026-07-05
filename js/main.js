@@ -157,7 +157,7 @@ ready
       enterStory({ restart: true });
     }
 
-    createIntro(
+    const intro = createIntro(
       document.getElementById('intro'),
       novel,
       beginStory,
@@ -180,6 +180,10 @@ ready
       setCharacterMarkersVisible(map, !explore);
       masthead.setMode(mode);
       if (explore) {
+        // A modal front-door (title card or overture) must not linger over
+        // the gazetteer when you switch tabs.
+        intro.dismiss();
+        overture.hide();
         cancelEstablish();
         locationTile.clear();
         engine.pause();
@@ -206,6 +210,7 @@ ready
     }
 
     function restartStory() {
+      intro.dismiss(); // clicking Story from the title card replaces it with the overture
       cancelEstablish();
       engine.pause();
       timeline.setSelected(null);

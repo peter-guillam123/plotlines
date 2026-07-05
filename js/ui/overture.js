@@ -92,6 +92,7 @@ export function createOverture(container, map, novel, paths, { onStart, reducedM
   }
 
   function hide() {
+    if (!open) return; // idempotent: a mode switch may also call this
     open = false;
     document.removeEventListener('keydown', onKey);
     document.body.classList.remove('is-overture');
@@ -102,5 +103,5 @@ export function createOverture(container, map, novel, paths, { onStart, reducedM
     }, 400);
   }
 
-  return { show, isOpen: () => open };
+  return { show, isOpen: () => open, hide };
 }

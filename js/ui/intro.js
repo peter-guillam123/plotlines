@@ -26,7 +26,10 @@ export function createIntro(container, novel, onBegin, onExplore) {
 
   const begin = container.querySelector('.intro-begin');
 
+  let gone = false;
   function dismiss() {
+    if (gone) return; // idempotent: mode-switches may also call this
+    gone = true;
     container.classList.add('is-leaving');
     setTimeout(() => {
       container.hidden = true;
@@ -50,4 +53,8 @@ export function createIntro(container, novel, onBegin, onExplore) {
   document.addEventListener('keydown', onKey);
 
   begin.focus({ preventScroll: true });
+
+  // Exposed so a mode switch (the masthead tabs) can clear the card too —
+  // not only its own buttons.
+  return { dismiss };
 }
