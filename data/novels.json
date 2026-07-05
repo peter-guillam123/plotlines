@@ -16,5 +16,14 @@
     "file": "data/tess.json",
     "blurb": "One woman walking one county, renamed but barely disguised.",
     "spine": { "cloth": "#3d5c3d", "text": "#e6d59a" }
+  },
+  {
+    "id": "pride-and-prejudice",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "file": "data/pride-and-prejudice.json",
+    "blurb": "A country neighbourhood, a winter in town, and one scandalous dash from Brighton.",
+    "spine": { "cloth": "#68809b", "text": "#f3ead7" }
   }
 ]
