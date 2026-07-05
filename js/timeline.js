@@ -6,12 +6,16 @@
 // rests at their last stop; before their start chapter they are absent.
 
 import { positionAt } from './geometry.js';
+import { PACE_EXP, PACE_CAP } from './constants.js';
 
 export function createTimeline(novel, paths) {
   const nChapters = novel.chapters.length;
   const tEnd = nChapters + 1;
 
-  // Per-character schedule: [{ movement, path, dashed, t0, t1 }, ...]
+  // Per-character schedule: [{ movement, path, dashed, t0, t1 }, ...].
+  // A character's movements within a chapter split its [n, n+1) span in
+  // proportion to their `days` (a long journey claims more of the chapter
+  // than a short hop), defaulting to an even split when none is given.
   const schedule = {};
   for (const c of novel.characters) schedule[c.id] = [];
   for (const entry of paths) {
@@ -23,11 +27,26 @@ export function createTimeline(novel, paths) {
       (byChapter[e.movement.chapter] ||= []).push(e);
     }
     for (const group of Object.values(byChapter)) {
-      group.forEach((e, j) => {
-        e.t0 = e.movement.chapter + j / group.length;
-        e.t1 = e.movement.chapter + (j + 1) / group.length;
-      });
+      const total = group.reduce((s, e) => s + (e.movement.days || 1), 0);
+      let acc = 0;
+      for (const e of group) {
+        e.t0 = e.movement.chapter + acc;
+        acc += (e.movement.days || 1) / total;
+        e.t1 = e.movement.chapter + acc;
+      }
     }
+  }
+
+  // How much wall-clock each chapter deserves: driven by its longest
+  // journey, so a chapter carrying the Demeter plays slowly.
+  const chapterPace = {};
+  for (const m of novel.movements) {
+    const d = m.days || 1;
+    chapterPace[m.chapter] = Math.max(chapterPace[m.chapter] || 1, d);
+  }
+  function paceFactor(t) {
+    const w = chapterPace[Math.floor(t)] || 1;
+    return Math.min(Math.max(w ** PACE_EXP, 1), PACE_CAP);
   }
 
   const state = {
@@ -132,6 +151,7 @@ export function createTimeline(novel, paths) {
     tEnd,
     on,
     positionsAt,
+    paceFactor,
     // Continuous playback advance; returns true when the end is reached.
     advance(dt) {
       setT(state.t + dt, { transitions: true });

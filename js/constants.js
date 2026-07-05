@@ -42,4 +42,9 @@ export const NLS_DEFAULT_OPACITY = 0.85;
 // 27-chapter novel); the speed control multiplies it.
 export const PLAY_SPEED = 0.15;        // chapters per second at 1x
 export const SPEED_STEPS = [1, 2, 3];  // the speed button cycles these
+// A long journey (a movement's `days`) slows its chapter so it lingers on
+// screen instead of darting past. Sub-linear and capped: the Demeter's
+// month plays ~PACE_CAP times a normal chapter, not thirty times.
+export const PACE_EXP = 0.6;
+export const PACE_CAP = 5;
 export const CAMERA_DAMPING = 0.08;    // per-frame lerp factor for follow mode

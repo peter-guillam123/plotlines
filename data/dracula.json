@@ -223,10 +223,10 @@
       "note": "To Whitby with her mother for the summer" },
     { "character": "mina", "from": "kings-cross", "to": "whitby-crescent", "chapter": 6, "mode": "train" },
 
-    { "character": "dracula", "from": "castle-dracula", "to": "varna", "chapter": 5, "mode": "unknown",
+    { "character": "dracula", "from": "castle-dracula", "to": "varna", "chapter": 5, "days": 12, "mode": "unknown",
       "via": [[25.6, 46.9], [26.8, 45.9]],
       "note": "Fifty boxes of earth, by Szgany cart and Slovak river-craft, down to the Black Sea" },
-    { "character": "dracula", "from": "varna", "to": "tate-hill-pier", "chapter": 7, "mode": "ship",
+    { "character": "dracula", "from": "varna", "to": "tate-hill-pier", "chapter": 7, "days": 33, "mode": "ship",
       "via": [[28.99, 41.12], [26.2, 39.3], [22.4, 36.2], [10.5, 37.5], [-5.35, 35.95], [-9.3, 37.0], [-9.3, 43.4], [-5.0, 48.3], [1.5, 51.05], [-0.1, 54.1]],
       "note": "The voyage of the Demeter: her whole crew lost, her captain lashed dead to the wheel" },
 
@@ -236,14 +236,14 @@
       "note": "Running after her, barefoot on the East Cliff steps" },
     { "character": "lucy", "from": "east-cliff-churchyard", "to": "whitby-crescent", "chapter": 8, "mode": "foot" },
     { "character": "mina", "from": "east-cliff-churchyard", "to": "whitby-crescent", "chapter": 8, "mode": "foot" },
-    { "character": "jonathan", "from": "castle-dracula", "to": "buda-pesth-hospital", "chapter": 8, "mode": "unknown",
+    { "character": "jonathan", "from": "castle-dracula", "to": "buda-pesth-hospital", "chapter": 8, "days": 21, "mode": "unknown",
       "via": [[23.59, 46.77], [19.8, 47.3]],
       "note": "The escape down the castle wall — six weeks of brain fever later, he is in Buda-Pesth" },
     { "character": "dracula", "from": "tate-hill-pier", "to": "carfax", "chapter": 8, "mode": "train",
       "via": [[-1.08, 53.96], [-0.24, 52.57], [-0.1238, 51.5308]],
       "note": "Fifty boxes of common earth by Great Northern Railway to King's Cross, thence to Carfax" },
 
-    { "character": "mina", "from": "whitby-crescent", "to": "buda-pesth-hospital", "chapter": 9, "mode": "train",
+    { "character": "mina", "from": "whitby-crescent", "to": "buda-pesth-hospital", "chapter": 9, "days": 3, "mode": "train",
       "via": [[8.7, 50.1], [16.373, 48.208]],
       "note": "To nurse Jonathan; they marry at his bedside" },
     { "character": "lucy", "from": "whitby-crescent", "to": "hillingham", "chapter": 9, "mode": "train" },
@@ -257,7 +257,7 @@
       "note": "The night the wolf Bersicker was set at the window" },
     { "character": "dracula", "from": "hillingham", "to": "carfax", "chapter": 11, "mode": "unknown" },
 
-    { "character": ["jonathan", "mina"], "from": "buda-pesth-hospital", "to": "exeter", "chapter": 12, "mode": "train",
+    { "character": ["jonathan", "mina"], "from": "buda-pesth-hospital", "to": "exeter", "chapter": 12, "days": 3, "mode": "train",
       "via": [[16.373, 48.208], [8.7, 50.1], [2.359, 48.877]],
       "note": "Home, married, to Mr. Hawkins's house" },
 
@@ -307,7 +307,7 @@
     { "character": ["jonathan", "vanhelsing"], "from": "piccadilly", "to": "seward-asylum", "chapter": 23, "mode": "train" },
     { "character": "hunters", "from": "piccadilly", "to": "seward-asylum", "chapter": 23, "mode": "train" },
 
-    { "character": "dracula", "from": "doolittles-wharf", "to": "galatz", "chapter": 24, "mode": "ship",
+    { "character": "dracula", "from": "doolittles-wharf", "to": "galatz", "chapter": 24, "days": 21, "mode": "ship",
       "via": [[1.4, 51.0], [-5.35, 35.95], [15.0, 36.5], [26.2, 40.0], [28.99, 41.12], [29.2, 43.3], [29.66, 45.16]],
       "note": "In a box aboard the Czarina Catherine, cleared for Varna — but she slips past to Galatz" },
 
@@ -315,7 +315,7 @@
     { "character": ["jonathan", "mina", "vanhelsing", "hunters"], "from": "charing-cross", "to": "paris", "chapter": 25, "mode": "train",
       "via": [[1.32, 51.13], [1.85, 50.95]],
       "note": "The boat train, Dover to Calais" },
-    { "character": ["jonathan", "mina", "vanhelsing", "hunters"], "from": "paris", "to": "varna", "chapter": 25, "mode": "train",
+    { "character": ["jonathan", "mina", "vanhelsing", "hunters"], "from": "paris", "to": "varna", "chapter": 25, "days": 3, "mode": "train",
       "via": [[7.75, 48.58], [11.575, 48.137], [16.373, 48.208], [19.04, 47.498], [26.1, 44.43]],
       "note": "The Orient Express — to Varna, to wait for the Count's ship" },
 
@@ -325,17 +325,17 @@
     { "character": ["vanhelsing", "mina"], "from": "galatz", "to": "veresti", "chapter": 26, "mode": "train",
       "note": "The first prong: by rail, then carriage, to close the Borgo Pass" },
 
-    { "character": ["vanhelsing", "mina"], "from": "veresti", "to": "borgo-pass", "chapter": 27, "mode": "coach",
+    { "character": ["vanhelsing", "mina"], "from": "veresti", "to": "borgo-pass", "chapter": 27, "days": 4, "mode": "coach",
       "note": "Carriage and changes of horses, into the snow" },
     { "character": ["vanhelsing", "mina"], "from": "borgo-pass", "to": "castle-dracula", "chapter": 27, "mode": "coach",
       "note": "The holy circle in the snow; the three sisters destroyed" },
-    { "character": "jonathan", "from": "galatz", "to": "castle-dracula", "chapter": 27, "mode": "ship",
+    { "character": "jonathan", "from": "galatz", "to": "castle-dracula", "chapter": 27, "days": 5, "mode": "ship",
       "via": [[27.95, 45.42], [27.2, 46.0], [26.91, 46.57], [26.37, 46.93], [25.9, 47.15], [25.4, 47.3]],
       "note": "With Lord Godalming: by steam launch up the Sereth, then the Bistritza" },
-    { "character": "hunters", "from": "galatz", "to": "castle-dracula", "chapter": 27, "mode": "horse",
+    { "character": "hunters", "from": "galatz", "to": "castle-dracula", "chapter": 27, "days": 5, "mode": "horse",
       "via": [[27.9, 45.5], [27.1, 46.1], [26.85, 46.6], [26.3, 47.0], [25.85, 47.2], [25.4, 47.32]],
       "note": "Morris and Seward, riding the river bank; the cart intercepted at sunset" },
-    { "character": "dracula", "from": "galatz", "to": "castle-dracula", "chapter": 27, "mode": "unknown",
+    { "character": "dracula", "from": "galatz", "to": "castle-dracula", "chapter": 27, "days": 5, "mode": "unknown",
       "via": [[28.0, 45.4], [26.91, 46.57], [26.37, 46.93], [25.36, 47.35]],
       "note": "Up the river with the Szgany, in the last box of earth — overtaken as the sun sets" }
   ]

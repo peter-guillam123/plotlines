@@ -205,7 +205,7 @@
     { "character": "lydia", "from": "longbourn", "to": "brighton", "chapter": 41, "mode": "coach",
       "note": "With Mrs Forster, particular friend of two months' standing — off from Meryton early in the morning, Kitty weeping with envy, Lydia in raptures" },
 
-    { "character": "elizabeth", "from": "longbourn", "to": "chatsworth", "chapter": 42, "mode": "coach",
+    { "character": "elizabeth", "from": "longbourn", "to": "chatsworth", "chapter": 42, "days": 7, "mode": "coach",
       "via": [[-1.26, 51.75], [-1.36, 51.84], [-1.59, 52.28], [-1.58, 52.34], [-1.89, 52.48], [-1.56, 53.14]],
       "note": "The tour, shrunk from the Lakes to Derbyshire; Austen does the whole road in a sentence — 'Oxford, Blenheim, Warwick, Kenilworth, Birmingham, etc., are sufficiently known' — and the celebrated beauties of Matlock and Chatsworth get their due" },
     { "character": "elizabeth", "from": "chatsworth", "to": "lambton", "chapter": 42, "mode": "coach",
@@ -235,7 +235,7 @@
 
     { "character": "lydia", "from": "gracechurch-street", "to": "longbourn", "chapter": 51, "mode": "coach",
       "note": "Married from the Gardiners' house at St Clement's and straight home to show the ring: 'Ah! Jane, I take your place now'" },
-    { "character": "lydia", "from": "longbourn", "to": "newcastle", "chapter": 53, "mode": "coach",
+    { "character": "lydia", "from": "longbourn", "to": "newcastle", "chapter": 53, "days": 3, "mode": "coach",
       "note": "North to Wickham's commission in the regulars — 'a place quite northward, it seems' — the marriage posted out of everybody's way" },
     { "character": "darcy", "from": "gracechurch-street", "to": "netherfield", "chapter": 53, "mode": "coach",
       "note": "Back with Bingley, nominally for the shooting; Mrs Bennet's civilities all go to the wrong man" },

@@ -25,7 +25,11 @@ export function createEngine(timeline, render) {
     // In reduced-motion mode the step timer drives time; the loop only
     // paints, it must not also advance.
     const smoothPlaying = timeline.state.playing && stepTimer == null;
-    if (smoothPlaying) atEnd = timeline.advance(dt * PLAY_SPEED * SPEED_STEPS[speedIndex]);
+    if (smoothPlaying) {
+      // Long journeys linger: the pace factor slows heavy chapters.
+      const rate = (PLAY_SPEED * SPEED_STEPS[speedIndex]) / timeline.paceFactor(timeline.state.t);
+      atEnd = timeline.advance(dt * rate);
+    }
     // render() may return true to request more frames (a camera still
     // settling after a pause or scrub).
     const wantsMore = render() === true;
