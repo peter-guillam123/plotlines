@@ -444,26 +444,44 @@ body.is-overture #locationtile { display: none !important; }
 .chapter-heading {
   display: flex;
   align-items: baseline;
-  gap: 8px;
+  gap: 10px;
   margin-bottom: 4px;
   white-space: nowrap;
   overflow: hidden;
 }
-.chapter-numeral {
-  font-family: var(--display);
-  font-size: 16px;
+/* the story clock — the date/season ticking, made the hero */
+.story-clock {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex: none;
 }
+.clock-date {
+  font-family: var(--display);
+  font-size: 19px;
+  color: var(--ink);
+}
+.clock-elapsed {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+.clock-elapsed:empty { display: none; }
+/* the chapter reference — now secondary, pushed to the right */
+.chapter-ref {
+  margin-left: auto;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  min-width: 0;
+  color: var(--ink-soft);
+}
+.chapter-numeral { font-size: 13px; letter-spacing: 0.04em; }
 .chapter-title {
   font-style: italic;
-  font-size: 14px;
-  color: var(--ink-soft);
+  font-size: 13px;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-.chapter-dates {
-  margin-left: auto;
-  font-size: 13px;
-  color: var(--ink-soft);
 }
 
 .scrub-activity {
@@ -1136,6 +1154,6 @@ body.is-overture #captions { display: none !important; }
     gap: 10px;
   }
   .chapter-title { display: none; }
-  .chapter-numeral { font-size: 14px; }
-  .chapter-dates { font-size: 12px; }
+  .clock-date { font-size: 16px; }
+  .chapter-numeral { font-size: 12px; }
 }

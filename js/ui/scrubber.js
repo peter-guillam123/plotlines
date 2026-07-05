@@ -7,7 +7,7 @@
 // of Tess) read as pale gaps and the busy passages as deep madder — the
 // timeline itself shows how much movement the novel holds.
 
-import { chapterHeading } from './format.js';
+import { chapterHeading, storyTime } from './format.js';
 
 // Mix two #rrggbb colours; f=0 -> a, f=1 -> b.
 function mix(a, b, f) {
@@ -55,9 +55,14 @@ export function createScrubber(container, novel, timeline, engine) {
     <button type="button" class="speed-btn" aria-label="Playback speed: 1 times">1&times;</button>
     <div class="scrub-body">
       <div class="chapter-heading">
-        <span class="chapter-numeral"></span>
-        <span class="chapter-title"></span>
-        <span class="chapter-dates"></span>
+        <span class="story-clock">
+          <span class="clock-date"></span>
+          <span class="clock-elapsed"></span>
+        </span>
+        <span class="chapter-ref">
+          <span class="chapter-numeral"></span>
+          <span class="chapter-title"></span>
+        </span>
       </div>
       <div class="scrub-activity" aria-hidden="true"
            title="Darker bands are the chapters with more characters travelling"></div>
@@ -73,7 +78,8 @@ export function createScrubber(container, novel, timeline, engine) {
   const range = container.querySelector('.scrub-range');
   const numeralEl = container.querySelector('.chapter-numeral');
   const titleEl = container.querySelector('.chapter-title');
-  const datesEl = container.querySelector('.chapter-dates');
+  const dateEl = container.querySelector('.clock-date');
+  const elapsedEl = container.querySelector('.clock-elapsed');
 
   let scrubbing = false;
 
@@ -81,8 +87,11 @@ export function createScrubber(container, novel, timeline, engine) {
     const h = chapterHeading(novel, Math.min(Math.floor(t), novel.chapters.length));
     numeralEl.textContent = h.numeral;
     titleEl.textContent = h.title;
-    datesEl.textContent = h.dates;
-    range.setAttribute('aria-valuetext', h.plain);
+    const clock = storyTime(novel, t);
+    dateEl.textContent = clock ? clock.primary : h.dates;
+    elapsedEl.textContent = clock && clock.secondary ? clock.secondary : '';
+    range.setAttribute('aria-valuetext',
+      `${clock ? clock.primary + '. ' : ''}${h.plain}`);
   }
 
   playBtn.addEventListener('click', () => engine.toggle());
