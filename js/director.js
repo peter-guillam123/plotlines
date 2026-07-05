@@ -100,7 +100,11 @@ export function createDirector(map, timeline, novel, paths) {
     if (!bounds.length) return null;
 
     const cam = map.cameraForBounds(bounds, { padding: padding(), maxZoom });
-    if (cam) cam.zoom = Math.max(cam.zoom - contextRelax, 3);
+    // Floor of 0 (not 3) so a near-global leg — David Copperfield's
+    // emigration to Australia — can actually zoom out far enough to hold
+    // both England and the ship in frame. Ordinary journeys fit well above
+    // this, so only the trans-oceanic voyages are affected.
+    if (cam) cam.zoom = Math.max(cam.zoom - contextRelax, 0);
     return cam || null;
   }
 
