@@ -482,7 +482,13 @@
       "note": "No original exists; the pin is fixed purely by Austen's stated distances — one mile from Meryton, twenty-four from Gracechurch Street — a mile west of the Hertford conjecture. Kenneth Smith (Persuasions 27, 2005) ran the same triangulation and came out near Harpenden instead; the method is agreed even where the answer isn't.",
       "story": "The Bennet home: an entailed estate of two thousand a year, five unmarried daughters and a father barricaded in his library. The novel opens here, closes here, and keeps coming back to catch its breath — and Mr Collins, who will inherit the place, proposes accordingly.",
       "quote": "The village of Longbourn was only one mile from Meryton; a most convenient distance for the young ladies",
-      "quoteRef": "Ch. 7"
+      "quoteRef": "Ch. 7",
+      "image": {
+        "file": "assets/images/pp-longbourn.jpg",
+        "caption": "Colney House, Hertfordshire — a modest Georgian country seat of the Longbourn kind, engraved in the 1820s. Indicative of the neighbourhood; no original for Longbourn exists.",
+        "credit": "Drawn by J. P. Neale, engraved by T. Barber, from Views of the Seats of Noblemen and Gentlemen (1825) · British Museum · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "meryton",
@@ -497,7 +503,13 @@
       "note": "Austen sanctioned no identifications. Jamie Everitt ('Meryton Identified!', Persuasions On-Line 42.1, 2021) makes the case for Hertford: a county market town with a proper assembly room, off the main coach roads as Meryton must be, and sitting right for the twenty-four miles to Gracechurch Street. Ware and Harpenden are the older rivals.",
       "story": "The market town a mile's walk away: aunt Philips, the milliner's shop, and — from October — the militia's winter quarters. Its assembly is where Darcy declines to be introduced to anybody and is settled to be the proudest, most disagreeable man in the world.",
       "quote": "they were well supplied both with news and happiness by the recent arrival of a militia regiment in the neighbourhood; it was to remain the whole winter, and Meryton was the head-quarters",
-      "quoteRef": "Ch. 7"
+      "quoteRef": "Ch. 7",
+      "image": {
+        "file": "assets/images/pp-meryton.jpg",
+        "caption": "A Hertfordshire village near Ware, drawn in 1814 — the country Meryton's little market town would have sat in. Indicative; Austen named no original.",
+        "credit": "John Linnell, 'View of Amwell Hill, near Ware, in Hertfordshire' (1814) · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "netherfield",
@@ -512,7 +524,13 @@
       "note": "Three miles from Longbourn is all Austen gives, and no candidate has ever stuck. Balls Park, south-east of Hertford, stands in here as the right kind of house in the right place under Everitt's geography.",
       "story": "The house Bingley takes by Michaelmas, and the question that opens the novel. Jane's providential cold buys both elder sisters a five-day residence; the ball in late November knots up half the plot, and the party's abrupt remove to town unties none of it.",
       "quote": "have you heard that Netherfield Park is let at last?",
-      "quoteRef": "Ch. 1, Mrs Bennet"
+      "quoteRef": "Ch. 1, Mrs Bennet",
+      "image": {
+        "file": "assets/images/pp-netherfield.jpg",
+        "caption": "Panshanger, Hertfordshire — a substantial county house in its park, of the kind Bingley takes at Netherfield, engraved in 1818. Indicative; no original for Netherfield has ever stuck.",
+        "credit": "Drawn by J. P. Neale, etched by J. Webb, engraved by J. Bishop, from Views of the Seats of Noblemen and Gentlemen (1818) · British Museum · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "gracechurch-street",
@@ -527,7 +545,12 @@
       "note": "Real, and precisely chosen: a merchant's address in the City, within view of Mr Gardiner's own warehouses, for Bingley's sisters to sneer at. When Darcy's unnamed town house is meant, this pin stands for 'town' generally.",
       "story": "The Gardiners' comfortable house in the trading City — the novel's London base and its moral counterweight: the relations Darcy should blush for prove to be the ones he ends by loving. Jane winters here unhappily; the hunt for Wickham is run from here; Lydia is married from here.",
       "quote": "Mr. Darcy may, perhaps, have heard of such a place as Gracechurch Street, but he would hardly think a month's ablution enough to cleanse him from its impurities",
-      "quoteRef": "Ch. 25, Elizabeth"
+      "quoteRef": "Ch. 25, Elizabeth",
+      "image": {
+        "file": "assets/images/pp-gracechurch-street.jpg",
+        "caption": "Cheapside and Bow Church, in the trading City a few streets from Gracechurch Street, engraved 1837 — the merchant London of the Gardiners.",
+        "credit": "Engraved by W. Albutt after Thomas H. Shepherd, published 1837 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "hunsford",
@@ -542,7 +565,13 @@
       "note": "'Hunsford, near Westerham, Kent' is the dateline of Mr Collins's first letter — Austen's one anchor, and this pin's only warrant. Neither the parsonage nor Rosings has a settled original; Lady Catherine's park is folded into the same pin.",
       "story": "Mr Collins's parsonage, with Rosings and its glazing across the lane. Elizabeth's six-week Easter visit collects the novel's hinge: Darcy's first proposal, delivered with more pride than love, and the letter next morning that starts the long revision of everything she thought she knew.",
       "quote": "Hunsford, near Westerham, Kent",
-      "quoteRef": "Ch. 13, the dateline of Mr Collins's letter"
+      "quoteRef": "Ch. 13, the dateline of Mr Collins's letter",
+      "image": {
+        "file": "assets/images/pp-hunsford.jpg",
+        "caption": "Godmersham Park, Kent — a great house in its wooded park, of the Rosings kind (and, as it happens, Austen's own brother's seat), engraved in the 1820s. Indicative; neither Rosings nor Hunsford has a settled original.",
+        "credit": "Drawn by J. P. Neale, engraved by T. Jeavons, from Views of the Seats of Noblemen and Gentlemen (1826) · British Museum · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "bromley-bell",
@@ -571,7 +600,12 @@
       "certainty": "real",
       "story": "The camp, the sea, and a whole campful of officers: everything Lydia's imagination requires. Mr Bennet lets her go as the cheaper way of teaching her her own insignificance — a calculation the third volume spends fifty pages correcting.",
       "quote": "In Lydia's imagination, a visit to Brighton comprised every possibility of earthly happiness",
-      "quoteRef": "Ch. 41"
+      "quoteRef": "Ch. 41",
+      "image": {
+        "file": "assets/images/pp-brighton.jpg",
+        "caption": "The Royal Pavilion, Brighton — the Regency resort in its heyday, from Nash's Views of the Royal Pavilion, 1826.",
+        "credit": "From John Nash, Views of the Royal Pavilion, Brighton (1826) · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "ramsgate",
@@ -585,7 +619,12 @@
       "certainty": "real",
       "story": "Backstory, not itinerary — no track touches it. The summer before the novel, Wickham followed fifteen-year-old Georgiana Darcy here and talked her into an elopement her brother forestalled by a day or two. Darcy's letter discloses it; it is why Lydia's flight lands on him like a repetition.",
       "quote": "last summer she went with the lady who presided over it to Ramsgate; and thither also went Mr. Wickham, undoubtedly by design",
-      "quoteRef": "Ch. 35, Darcy's letter"
+      "quoteRef": "Ch. 35, Darcy's letter",
+      "image": {
+        "file": "assets/images/pp-ramsgate.jpg",
+        "caption": "Ramsgate town and harbour, the Kent watering-place, in an aquatint of 1799.",
+        "credit": "James Ward, 'View of Ramsgate Town and Harbour' (1799) · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "lambton",
@@ -600,7 +639,13 @@
       "note": "Bakewell is the common identification — Austen is said to have stayed at the Rutland Arms there, and the town sits where the tour needs it; Old Brampton is the persistent rival. The pin follows the tradition without leaning on it.",
       "story": "Mrs Gardiner's girlhood town, and the inn where the tour pauses — not five miles from Pemberley. Darcy and Georgiana call; the return visits multiply; and it is here, with Darcy in the room, that Jane's two letters arrive and the Lydia disaster breaks.",
       "quote": "To the little town of Lambton, the scene of Mrs. Gardiner's former residence, and where she had lately learned that some acquaintance still remained, they bent their steps",
-      "quoteRef": "Ch. 42"
+      "quoteRef": "Ch. 42",
+      "image": {
+        "file": "assets/images/pp-lambton.jpg",
+        "caption": "Dovedale, in the Derbyshire Peak — one of the 'celebrated beauties' Austen names, standing here for the wooded Peak country of Lambton. Indicative; Lambton is a conjectured place.",
+        "credit": "Joseph Wright of Derby, 'Dovedale' (c.1786) · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "pemberley",
@@ -615,7 +660,13 @@
       "note": "The pin obeys Austen's only hard datum: five miles from Lambton. Donald Greene ('Pemberley Revisited', Persuasions 1) argued for Chatsworth — but the novel's tourists visit Chatsworth as itself among the celebrated beauties, so Pemberley can hardly textually be it. Janine Barchas (Persuasions 35) makes the richer case for Wentworth Woodhouse, seat of the real Fitzwilliams, as the house in Austen's mind, if not on her map.",
       "story": "The house that turns the novel: the stream swelled without artificial appearance, the housekeeper's testimony, 'of this place I might have been mistress' — and the owner home a day early, walking up from the stables a changed man. The second half of the book starts on this lawn.",
       "quote": "the eye was instantly caught by Pemberley House, situated on the opposite side of the valley, into which the road with some abruptness wound. It was a large, handsome stone building, standing well on rising ground",
-      "quoteRef": "Ch. 43"
+      "quoteRef": "Ch. 43",
+      "image": {
+        "file": "assets/images/pp-pemberley.jpg",
+        "caption": "Matlock Bath in the Derwent valley — the Derbyshire Peak country Pemberley is set among, with the river winding below the crags, painted in 1789. Indicative; Pemberley is a conjectured place.",
+        "credit": "William Day, 'Matlock Baths, Derbyshire' (1789) · Yale Center for British Art · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "chatsworth",
@@ -649,7 +700,12 @@
       "certainty": "real",
       "story": "Wickham's commission in the regulars — Darcy's money, nobody's thanks — and the map's furthest, most grudging point: the Wickhams' marriage banished north to cool, further than even Mrs Bennet can conveniently visit.",
       "quote": "They are gone down to Newcastle, a place quite northward it seems, and there they are to stay, I do not know how long",
-      "quoteRef": "Ch. 53, Mrs Bennet"
+      "quoteRef": "Ch. 53, Mrs Bennet",
+      "image": {
+        "file": "assets/images/pp-newcastle.jpg",
+        "caption": "Newcastle upon Tyne from across the river, the map's furthest, most grudging point, in a steel engraving of 1837.",
+        "credit": "'Newcastle-on-Tyne', steel engraving, 1837 · Wikimedia Commons · public domain"
+      }
     }
   ],
   "movements": [
