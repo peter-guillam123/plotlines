@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The workshop — PlotLines</title>
+  <meta name="description" content="How each book is assembled — the line of agents and gates behind PlotLines. The site has no AI; the workshop is full of it.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ---- the pipeline diagram (scoped to this page) ---- */
+    .lede { font-size: 1.12rem; }
+    .pipe {
+      max-width: 640px;
+      margin: 34px auto 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .node {
+      background: var(--paper-bright);
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      padding: 14px 18px;
+      box-shadow: var(--shadow);
+    }
+    .node h3 { font-family: var(--display); font-weight: normal; font-size: 1.28rem; margin: 2px 0 4px; }
+    .node h4 { font-family: var(--display); font-weight: normal; font-size: 1.06rem; margin: 0 0 4px; }
+    .node p { margin: 0; font-size: 0.94rem; line-height: 1.5; color: var(--ink); }
+    .node .tag {
+      display: inline-block; font-size: 0.66rem; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--ink-soft); margin-bottom: 2px;
+    }
+    /* agents carry a madder rail — the judgement work */
+    .node.agent { border-left: 5px solid var(--accent); }
+    .node.agent .tag { color: var(--accent); }
+    /* tool: auxiliary, dashed */
+    .node.tool { border-style: dashed; background: var(--paper); }
+    .node.tool .opt { font-size: 0.68rem; color: var(--ink-soft); font-style: italic; letter-spacing: 0.04em; }
+    /* in / out: filled endpoints */
+    .node.io { background: var(--ink); color: var(--paper-bright); border-color: var(--ink); text-align: center; }
+    .node.io h3 { color: var(--paper-bright); }
+    .node.io p { color: var(--paper); opacity: 0.85; }
+    .node.io .tag { color: var(--rule); }
+
+    /* the connector between stages */
+    .link { align-self: center; width: 2px; height: 26px; background: var(--rule); position: relative; }
+    .link::after {
+      content: '▼'; position: absolute; left: 50%; bottom: -4px; transform: translateX(-50%);
+      color: var(--rule); font-size: 12px; line-height: 1;
+    }
+
+    /* the three gates — a checkpoint band */
+    .gates { border: 1.5px solid #45635b; border-radius: 5px; background: rgba(69, 99, 91, 0.06); padding: 14px; }
+    .gates-head { margin: 0 0 12px; text-align: center; font-family: var(--display); font-size: 1.14rem; color: #2f4a44; }
+    .gaterow { display: flex; gap: 12px; }
+    .gaterow .node.gate { flex: 1; min-width: 0; border-left: 5px solid #45635b; }
+    .node.gate .tag { color: #3f5c55; }
+    .gates-foot { margin: 12px 0 0; text-align: center; font-size: 0.86rem; color: var(--ink-soft); font-style: italic; }
+    .gates-foot b { color: #7a3f38; font-style: normal; }
+
+    /* the two people who run the line */
+    .overseers { max-width: 640px; margin: 8px auto 0; display: flex; gap: 16px; }
+    .role { flex: 1; border-top: 3px double var(--rule); padding-top: 12px; }
+    .role h4 { font-family: var(--display); font-weight: normal; font-size: 1.1rem; margin: 0 0 4px; }
+    .role p { margin: 0; font-size: 0.92rem; line-height: 1.5; }
+
+    /* legend */
+    .legend { max-width: 640px; margin: 26px auto 0; padding: 0; list-style: none;
+      display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 0.88rem; color: var(--ink-soft); }
+    .legend li { display: flex; align-items: center; gap: 8px; }
+    .legend .sw { width: 15px; height: 15px; border-radius: 3px; flex: none; border: 1px solid var(--rule); }
+    .sw.agent { border-left: 5px solid var(--accent); }
+    .sw.gate { border-left: 5px solid #45635b; }
+    .sw.tool { border-style: dashed; }
+    .sw.io { background: var(--ink); border-color: var(--ink); }
+  </style>
+</head>
+<body class="page-about">
+  <main class="about">
+    <header class="about-masthead">
+      <a class="about-back" href="index.html">&larr; Back to the map</a>
+      <h1>The workshop</h1>
+    </header>
+
+    <section>
+      <p class="lede">Here is the strange thing about PlotLines: the site
+      you are reading has no intelligence in it at all. It is a set of data
+      files and a small program that draws them on a map — nothing is
+      thinking while you watch Phileas Fogg cross the Pacific. All of that
+      happened <em>earlier</em>, in the workshop, where each book is put
+      together by a short line of agents and gates before it ever reaches
+      the shelf. Agentic to make; dead-static to read. This is that line.</p>
+    </section>
+
+    <section>
+      <div class="pipe">
+        <div class="node io start">
+          <span class="tag">the raw material</span>
+          <h3>A novel</h3>
+          <p>Out of copyright, and on Project Gutenberg as plain text.</p>
+        </div>
+
+        <div class="link"></div>
+        <div class="node agent">
+          <span class="tag">agent · judgement</span>
+          <h3>Research &amp; curate</h3>
+          <p>Reads the whole book. Places every location — a real place, an
+          identified one, or a flagged best guess — with its sources; records
+          who travels where; and verifies every quote against the text, word
+          for word.</p>
+        </div>
+
+        <div class="link"></div>
+        <div class="node agent">
+          <span class="tag">agent · judgement</span>
+          <h3>Route</h3>
+          <p>Puts every leg on the real road, railway or sea-lane it could
+          have taken, with a source — so the map never draws a straight line
+          where a coaching road ran, or a walk where the text says a ship.</p>
+        </div>
+
+        <div class="link"></div>
+        <div class="node agent">
+          <span class="tag">agent · judgement</span>
+          <h3>Script</h3>
+          <p>Turns the true data into a <em>telling</em>: an ordered sequence
+          of narrated beats, written for someone who has never read the book —
+          scenes for the still years, journeys that take as long as their
+          words do to read.</p>
+        </div>
+
+        <div class="link"></div>
+        <div class="gates">
+          <p class="gates-head">The three gates — pass all, or it does not ship</p>
+          <div class="gaterow">
+            <div class="node gate">
+              <span class="tag">deterministic</span>
+              <h4>It loads</h4>
+              <p>The validator refuses bad coordinates, an unknown way of
+              travelling, a character who teleports, a scene with no chapter.</p>
+            </div>
+            <div class="node gate">
+              <span class="tag">deterministic</span>
+              <h4>Rushes</h4>
+              <p>Performs the telling headless and flags camera leaps,
+              unreadable text, a clock that rewinds unannounced, a journey
+              left undramatised.</p>
+            </div>
+            <div class="node gate">
+              <span class="tag">agent · judgement</span>
+              <h4>Text&nbsp;vs&nbsp;map</h4>
+              <p>Reads every beat's words against the line the map will draw.
+              It caught a man <em>walking</em> across France drawn as a sea
+              voyage, and a coach wearing a ship's icon.</p>
+            </div>
+          </div>
+          <p class="gates-foot"><b>✗</b> Any failure sends the book back up the line, to the agent that can fix it.</p>
+        </div>
+
+        <div class="link"></div>
+        <div class="node tool">
+          <span class="tag">a script, and a human eye <span class="opt">· optional</span></span>
+          <h3>Pictures</h3>
+          <p>Surfaces public-domain photographs and engravings for each place;
+          someone still confirms each one is really that place, and really
+          out of copyright, before it goes in.</p>
+        </div>
+
+        <div class="link"></div>
+        <div class="node io end">
+          <span class="tag">the finished thing</span>
+          <h3>A book on the shelf</h3>
+          <p>A static page. No AI runs when you read it — the intelligence is
+          all baked into the data before it ships.</p>
+        </div>
+      </div>
+
+      <div class="overseers">
+        <div class="role">
+          <h4>The orchestrator</h4>
+          <p>Spawns each agent, reads its report, wires the pieces together,
+          and catches what a single agent, working alone, will miss.</p>
+        </div>
+        <div class="role">
+          <h4>The editor</h4>
+          <p>A human. Watches the finished book end to end as a stranger
+          would, and sends notes back up the line — the last judgement the
+          gates can't make.</p>
+        </div>
+      </div>
+
+      <ul class="legend">
+        <li><span class="sw agent"></span> Agent — makes judgements</li>
+        <li><span class="sw gate"></span> Gate — deterministic; refuses bad work, can't be charmed</li>
+        <li><span class="sw tool"></span> Tool — a script, or a pair of eyes</li>
+        <li><span class="sw io"></span> In and out</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Why gates and agents both</h2>
+      <p>The agents are where the work is interesting and where it can go
+      quietly wrong — an agent will happily write beautiful prose about a
+      journey it has drawn on the wrong ocean. The gates are the answer to
+      that: two of them are dumb, deterministic programs that simply refuse a
+      book that doesn't load or doesn't play, and the third is an agent given
+      one narrow, adversarial job — hold the words against the map and find
+      the lie. Nothing reaches the shelf on an agent's own say-so. And after
+      all three, a person still watches it, because "is this any good?" is not
+      a thing a gate can decide.</p>
+      <p><a href="about.html">&larr; Back to About</a></p>
+    </section>
+  </main>
+</body>
+</html>
