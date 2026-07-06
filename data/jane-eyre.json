@@ -1,0 +1,728 @@
+{
+  "title": "Jane Eyre",
+  "author": "Charlotte Brontë",
+  "year": 1847,
+  "gutenbergId": 1260,
+  "quotesVerified": true,
+  "timeline": {
+    "epoch": null,
+    "calendar": false,
+    "span": "about nineteen years",
+    "unit": "year"
+  },
+  "overture": "Jane Eyre travels the length of the north of England to make a life of her own — from her aunt's cold house at Gateshead, down to the charity school at Lowood, on to Thornfield and Mr Rochester, out across the moor to Whitcross a beggar, and back at last to a burned hall and a blind man in a wood. Brontë renamed her places but drew them over the real Peak District and the Yorkshire–Lancashire border; the map plays the life through, chapter by chapter.",
+  "sources": [
+    {
+      "name": "North Lees Hall, Hathersage — the model for Thornfield (Peak District National Park)",
+      "url": "https://www.peakdistrict.gov.uk/visiting/places-to-visit/stanage-and-north-lees/north-lees-hall"
+    },
+    {
+      "name": "The Clergy Daughters' School, Cowan Bridge — the model for Lowood",
+      "url": "https://en.wikipedia.org/wiki/Clergy_Daughters%27_School"
+    },
+    {
+      "name": "Charlotte Brontë at Hathersage, 1845 (the Morton country) — Anne Brontë society",
+      "url": "http://www.annebronte.org/2024/03/24/where-was-the-real-thornfield-hall/"
+    }
+  ],
+  "regions": [
+    {
+      "id": "childhood",
+      "name": "The childhood houses"
+    },
+    {
+      "id": "thornfield",
+      "name": "Thornfield and Millcote"
+    },
+    {
+      "id": "moor",
+      "name": "The moor country"
+    }
+  ],
+  "mapHome": {
+    "bounds": [
+      [
+        -3.1,
+        52.9
+      ],
+      [
+        -0.9,
+        54.5
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "title": "The red-room begins",
+      "dateInStory": "A drear November afternoon",
+      "day": 0,
+      "when": "the tenth year — a child at Gateshead"
+    },
+    {
+      "n": 2,
+      "title": "The red-room",
+      "dateInStory": "That evening",
+      "day": 2,
+      "when": "the tenth year — a child at Gateshead"
+    },
+    {
+      "n": 3,
+      "title": "The apothecary",
+      "dateInStory": "The following days",
+      "day": 5,
+      "when": "the tenth year — a child at Gateshead"
+    },
+    {
+      "n": 4,
+      "title": "Mr Brocklehurst calls",
+      "dateInStory": "The turn of the year — 15 January fixed for Lowood",
+      "day": 40,
+      "when": "the tenth year — a child at Gateshead"
+    },
+    {
+      "n": 5,
+      "title": "The journey to Lowood",
+      "dateInStory": "19 January, before dawn",
+      "day": 55,
+      "when": "the tenth year — sent away to school"
+    },
+    {
+      "n": 6,
+      "title": "Helen Burns",
+      "dateInStory": "The first days at Lowood",
+      "day": 60,
+      "when": "the school years"
+    },
+    {
+      "n": 7,
+      "title": "Brocklehurst's inspection",
+      "dateInStory": "That winter",
+      "day": 75,
+      "when": "the school years"
+    },
+    {
+      "n": 8,
+      "title": "Cleared of the lie",
+      "dateInStory": "The same week",
+      "day": 78,
+      "when": "the school years"
+    },
+    {
+      "n": 9,
+      "title": "The typhus spring; Helen dies",
+      "dateInStory": "Spring — the fever in the school",
+      "day": 150,
+      "when": "the school years"
+    },
+    {
+      "n": 10,
+      "title": "Eight years pass; the advertisement",
+      "dateInStory": "Eight years on — Jane turns eighteen",
+      "day": 3000,
+      "when": "leaving Lowood — a governess at last"
+    },
+    {
+      "n": 11,
+      "title": "Thornfield",
+      "dateInStory": "October — the arrival",
+      "day": 3040,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 12,
+      "title": "The meeting on the causeway",
+      "dateInStory": "A frosty January afternoon",
+      "day": 3130,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 13,
+      "title": "Mr Rochester",
+      "dateInStory": "The days following",
+      "day": 3135,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 14,
+      "title": "The fireside talks",
+      "dateInStory": "That winter",
+      "day": 3150,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 15,
+      "title": "The fire in the night",
+      "dateInStory": "A March night",
+      "day": 3190,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 16,
+      "title": "Grace Poole",
+      "dateInStory": "The day after",
+      "day": 3192,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 17,
+      "title": "The house-party",
+      "dateInStory": "A fortnight later, and after",
+      "day": 3210,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 18,
+      "title": "The gipsy",
+      "dateInStory": "A wet week of games",
+      "day": 3220,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 19,
+      "title": "The fortune told",
+      "dateInStory": "That evening",
+      "day": 3222,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 20,
+      "title": "Mason wounded",
+      "dateInStory": "That night, into the small hours",
+      "day": 3223,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 21,
+      "title": "Summoned to Gateshead",
+      "dateInStory": "May — Mrs Reed dying",
+      "day": 3280,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 22,
+      "title": "Back to Thornfield",
+      "dateInStory": "A month on, midsummer",
+      "day": 3315,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 23,
+      "title": "The proposal in the orchard",
+      "dateInStory": "Midsummer eve",
+      "day": 3320,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 24,
+      "title": "The month of courtship",
+      "dateInStory": "The weeks before the wedding",
+      "day": 3340,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 25,
+      "title": "The veil torn",
+      "dateInStory": "The eve of the wedding",
+      "day": 3360,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 26,
+      "title": "The wedding stopped",
+      "dateInStory": "The wedding morning",
+      "day": 3362,
+      "when": "the first year at Thornfield"
+    },
+    {
+      "n": 27,
+      "title": "The flight",
+      "dateInStory": "The following dawn",
+      "day": 3364,
+      "when": "the flight across the moor"
+    },
+    {
+      "n": 28,
+      "title": "Whitcross, and the moor",
+      "dateInStory": "Three days destitute",
+      "day": 3367,
+      "when": "the flight across the moor"
+    },
+    {
+      "n": 29,
+      "title": "Taken in at Moor House",
+      "dateInStory": "Recovering, days on",
+      "day": 3375,
+      "when": "the moor country — the Rivers"
+    },
+    {
+      "n": 30,
+      "title": "The Rivers sisters",
+      "dateInStory": "The weeks after",
+      "day": 3400,
+      "when": "the moor country — the Rivers"
+    },
+    {
+      "n": 31,
+      "title": "The village school at Morton",
+      "dateInStory": "Autumn — the school opens",
+      "day": 3440,
+      "when": "the moor country — the Rivers"
+    },
+    {
+      "n": 32,
+      "title": "St John's resolve",
+      "dateInStory": "Winter at Morton",
+      "day": 3500,
+      "when": "the moor country — the Rivers"
+    },
+    {
+      "n": 33,
+      "title": "The inheritance",
+      "dateInStory": "A snowy night — the fortune revealed",
+      "day": 3560,
+      "when": "the moor country — the Rivers"
+    },
+    {
+      "n": 34,
+      "title": "St John's proposal",
+      "dateInStory": "The following spring",
+      "day": 3620,
+      "when": "the moor country — the Rivers"
+    },
+    {
+      "n": 35,
+      "title": "The voice on the moor",
+      "dateInStory": "A moonlit night",
+      "day": 3650,
+      "when": "the moor country — the Rivers"
+    },
+    {
+      "n": 36,
+      "title": "Back to Thornfield — the ruin",
+      "dateInStory": "Two days' journey on",
+      "day": 3655,
+      "when": "the return"
+    },
+    {
+      "n": 37,
+      "title": "Ferndean",
+      "dateInStory": "That same evening",
+      "day": 3656,
+      "when": "the return — Ferndean"
+    },
+    {
+      "n": 38,
+      "title": "Reader, I married him",
+      "dateInStory": "Ten years told in a chapter",
+      "day": 7000,
+      "when": "the years after"
+    }
+  ],
+  "characters": [
+    {
+      "id": "jane",
+      "name": "Jane Eyre",
+      "colour": "prussian",
+      "role": "Orphan, charity-scholar, then governess; the whole of this map is the road she walks to a life of her own",
+      "start": {
+        "location": "gateshead",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "rochester",
+      "name": "Edward Rochester",
+      "colour": "madder",
+      "role": "Master of Thornfield, with a mad wife locked in its attic; blinded and maimed when the hall burns, he ends where the map does, at Ferndean",
+      "start": {
+        "location": "thornfield",
+        "chapter": 11
+      }
+    },
+    {
+      "id": "st-john",
+      "name": "St John Rivers",
+      "colour": "bottle",
+      "role": "The austere young parson of Morton who takes Jane in, proves her cousin, and would carry her to India as a missionary's wife",
+      "start": {
+        "location": "moor-house",
+        "chapter": 28
+      }
+    },
+    {
+      "id": "helen",
+      "name": "Helen Burns",
+      "colour": "ochre",
+      "role": "Jane's first friend, a consumptive fellow-pupil at Lowood; her patience and her early death shape everything Jane carries out of the school",
+      "start": {
+        "location": "lowood",
+        "chapter": 6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "gateshead",
+      "region": "childhood",
+      "name": "The north Midlands (unlocated)",
+      "novelName": "Gateshead Hall",
+      "coords": [
+        -1.35,
+        53.7
+      ],
+      "certainty": "conjectured",
+      "note": "Gateshead Hall is invented and scholarship has never fixed it to a real house. The text places it a hard two-day, hundred-mile coach ride north of Lowood, in a '——shire' remote from London — so it lies well north of the Peak. This point is an editorial best guess in the north Midlands; it is not the real Gateshead on Tyne, which the novel does not mean.",
+      "story": "The Reeds' house, where the novel opens: Jane a despised orphan-ward, shut in the haunted red-room, and at last shipped off to charity school. She is called back here years later to a dying, unrepenting aunt, and learns of the uncle in Madeira who will one day make her rich.",
+      "quote": "“Good-bye to Gateshead!” cried I, as we passed through the hall and went out at the front door.",
+      "quoteRef": "Ch. 5"
+    },
+    {
+      "id": "lowood",
+      "region": "childhood",
+      "name": "Cowan Bridge, on the Lancashire–Yorkshire border",
+      "novelName": "Lowood Institution",
+      "coords": [
+        -2.556,
+        54.171
+      ],
+      "certainty": "identified",
+      "note": "Lowood is drawn from the Clergy Daughters' School at Cowan Bridge, which the Brontë sisters attended and where two of them sickened; the identification is long-settled biographically. This point is Cowan Bridge, near Kirkby Lonsdale. Lowton, the local market town, stands in for the real Kirkby Lonsdale nearby.",
+      "story": "The charity school, cold, half-starved and preached at by the hypocrite Brocklehurst. Here Jane meets the patient Helen Burns and the kind Miss Temple — and here a typhus spring kills off the weakest girls, Helen among them. Reforms follow, and Jane stays eight years, six as pupil and two as teacher.",
+      "quote": "What is Lowood Institution?",
+      "quoteRef": "Ch. 3"
+    },
+    {
+      "id": "brocklebridge",
+      "region": "childhood",
+      "name": "Cowan Bridge churchyard",
+      "novelName": "Brocklebridge churchyard",
+      "coords": [
+        -2.559,
+        54.169
+      ],
+      "certainty": "conjectured",
+      "note": "Brocklebridge is Brontë's name for the parish serving Lowood; it is not separately locatable, so this point sits by the school at Cowan Bridge. Helen Burns is a composite drawn largely from Charlotte's own sister Maria, who died of consumption caught at the school.",
+      "story": "Where Helen Burns is buried. For fifteen years her grave was only a grassy mound; then a grey marble tablet marked it, inscribed with her name and the single word 'Resurgam' — I shall rise again.",
+      "quote": "Her grave is in Brocklebridge churchyard",
+      "quoteRef": "Ch. 9"
+    },
+    {
+      "id": "thornfield",
+      "region": "thornfield",
+      "name": "North Lees Hall, near Hathersage, Derbyshire",
+      "novelName": "Thornfield Hall",
+      "coords": [
+        -1.632,
+        53.347
+      ],
+      "certainty": "identified",
+      "note": "Thornfield is drawn from North Lees Hall near Hathersage, which Charlotte Brontë visited in 1845 while staying at the Hathersage vicarage; the battlemented three-storey house, its roof-view and the shut-up upper room all match. Only Norton Conyers in Yorkshire has rivalled it as a candidate, but North Lees is the settled favourite.",
+      "story": "Mr Rochester's house, and the heart of the book. Jane comes as governess to little Adèle; she and Rochester fall in love across a winter of fireside talk; and above them, behind a locked door, his mad wife Bertha Mason sets fires and bites in the night. The wedding is stopped at the altar by the revelation of that wife — and Jane flees. In her absence Bertha burns the hall to the ground.",
+      "quote": "“Mrs. Fairfax, Thornfield, near Millcote, ——shire.”",
+      "quoteRef": "Ch. 10"
+    },
+    {
+      "id": "hay",
+      "region": "thornfield",
+      "name": "Hathersage, Derbyshire",
+      "novelName": "Hay",
+      "coords": [
+        -1.65,
+        53.328
+      ],
+      "certainty": "identified",
+      "note": "Hay is the village two miles from Thornfield with the post and the nearest church; it maps onto Hathersage, the real village below North Lees Hall. (Hathersage does double duty in the novel — its moorland stands in again, later, for Morton.)",
+      "story": "The village two miles off, on the road where Jane, out to post a letter on a frosty afternoon, first meets Rochester — his horse slipping on the ice of the causeway, its rider swearing, neither of them yet knowing the other.",
+      "quote": "and volunteered to carry it to Hay; the distance, two miles, would be a pleasant winter afternoon walk.",
+      "quoteRef": "Ch. 12"
+    },
+    {
+      "id": "millcote",
+      "region": "thornfield",
+      "name": "A manufacturing town toward Sheffield",
+      "novelName": "Millcote",
+      "coords": [
+        -1.5,
+        53.36
+      ],
+      "certainty": "conjectured",
+      "note": "Millcote — 'a large manufacturing town on the banks of the A——', six miles from Thornfield — is Brontë's invention; readers usually gesture toward Sheffield or a Sheffield-like town on the eastern edge of the Peak. This point stands on that road, six miles from North Lees toward the industrial valleys, without claiming a single real town.",
+      "story": "The busy manufacturing town six miles from Thornfield, where the coaches set Jane down, where Rochester's guests come from and his errands are run, and where he buys the finery and the carriage for a wedding that never happens.",
+      "quote": "Millcote was a large manufacturing town on the banks of the A——: a busy place enough, doubtless",
+      "quoteRef": "Ch. 10"
+    },
+    {
+      "id": "whitcross",
+      "region": "moor",
+      "name": "A crossroads on the Peak moors",
+      "novelName": "Whitcross",
+      "coords": [
+        -1.72,
+        53.35
+      ],
+      "certainty": "conjectured",
+      "note": "Whitcross is a fictional guide-stone — 'no town, nor even a hamlet', a whitewashed pillar where four roads meet on a 'north-midland shire, dusk with moorland'. It cannot be pinned to a real crossroads; this point sets it out on the open moor west of Thornfield, on the road the fleeing Jane's coach-fare could reach, and within the day's walk of the Rivers' Morton country.",
+      "story": "Where the coach sets Jane down when her money runs out, penniless after the aborted wedding. She leaves her one parcel behind in the coach and is 'absolutely destitute' — and for two days and nights she wanders and sleeps on the moor, begging bread, before she is taken in.",
+      "quote": "Whitcross is no town, nor even a hamlet; it is but a stone pillar set up where four roads meet",
+      "quoteRef": "Ch. 28"
+    },
+    {
+      "id": "moor-house",
+      "region": "moor",
+      "name": "A moorland house near Hathersage",
+      "novelName": "Moor House, or Marsh End",
+      "coords": [
+        -1.7,
+        53.36
+      ],
+      "certainty": "conjectured",
+      "note": "The Rivers' house — 'Some calls it Marsh End, and some calls it Moor House' — is Brontë's invention, but the Morton country round it is drawn from the Hathersage moors she knew in 1845. This point stands on that moor, close by Whitcross, at the end of Jane's destitute walk; the house itself has no settled real original.",
+      "story": "The house on the moor where St John Rivers and his sisters Diana and Mary take the dying Jane in off their doorstep. Nursed back, she finds a home at last — and in time the Rivers prove to be her own cousins, and the Madeira uncle's fortune, split four ways, makes them all comfortable.",
+      "quote": "“Some calls it Marsh End, and some calls it Moor House.”",
+      "quoteRef": "Ch. 28"
+    },
+    {
+      "id": "morton",
+      "region": "moor",
+      "name": "Hathersage and its moors",
+      "novelName": "Morton",
+      "coords": [
+        -1.65,
+        53.33
+      ],
+      "certainty": "identified",
+      "note": "Morton — St John's parish, with its church, its village school and the Olivers' needle-works — is drawn from Hathersage, where Charlotte Brontë stayed at the vicarage in 1845; the needle-mills and the family Eyre in the parish register are both real Hathersage facts she used. It shares its ground with 'Hay', two miles from Thornfield.",
+      "story": "The moorland parish where St John is clergyman. Jane keeps the village girls' school here, refuses St John's cold offer to make her a missionary's wife in India, and hears — across the miles, on the wind — Rochester's voice calling her name, the moment that sends her back to Thornfield.",
+      "quote": "when I heard him preach in his own church at Morton.",
+      "quoteRef": "Ch. 30"
+    },
+    {
+      "id": "ferndean",
+      "region": "moor",
+      "name": "A wooded manor deep in the Peak",
+      "novelName": "Ferndean Manor",
+      "coords": [
+        -1.85,
+        53.25
+      ],
+      "certainty": "conjectured",
+      "note": "Ferndean is invented and unlocated — 'a manor-house on a farm he has, about thirty miles off', 'deep buried in a wood', on damp, 'insalubrious' ground. This point sets it thirty-odd miles from Thornfield, deeper into the wooded folds of the Peak, in the direction the text implies without naming a real house.",
+      "story": "Rochester's other, hidden house, where he has withdrawn — blind and maimed from the Thornfield fire, in which he tried and failed to save Bertha. Jane finds him here, and stays; the reunion, the marriage, and the slow return of a little of his sight all happen in this dripping wood.",
+      "quote": "The manor-house of Ferndean was a building of considerable antiquity, moderate size, and no architectural pretensions, deep buried in a wood.",
+      "quoteRef": "Ch. 37"
+    }
+  ],
+  "movements": [
+    {
+      "character": "jane",
+      "from": "gateshead",
+      "to": "lowood",
+      "chapter": 5,
+      "days": 2,
+      "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -1.9,
+            53.95
+          ],
+          "name": "The night's inn",
+          "note": "A long day's coaching north, a night at an inn, then another day — the whole 'tedious' hundred miles to the school."
+        }
+      ],
+      "routeNote": "The novel gives no road, only the shape: a hundred miles north over two days by public coach, an inn between. This draws the long northward line from the unlocated Gateshead country up to Cowan Bridge, with the overnight stop marked but unnamed.",
+      "routeSource": "No route named in the text — Brontë gives only 'the journey of a day' out and, on the equivalent return, 'fifty miles one day, a night spent at an inn; fifty miles the next day' (Ch. 21). Endpoints are the conjectured Gateshead and Cowan Bridge (Lowood).",
+      "routeCertainty": "illustrative",
+      "note": "Sent away to school at ten, before dawn on a raw January morning"
+    },
+    {
+      "character": "jane",
+      "from": "lowood",
+      "to": "thornfield",
+      "chapter": 11,
+      "days": 1,
+      "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -2.5,
+            54.15
+          ],
+          "name": "Lowton",
+          "note": "The market town by Lowood (Kirkby Lonsdale), where Jane waits at the George Inn for the coach south."
+        },
+        {
+          "at": [
+            -1.5,
+            53.36
+          ],
+          "name": "Millcote",
+          "note": "The manufacturing town, sixteen hours' coaching south; from its George Inn a chaise carries her the last six miles to Thornfield."
+        }
+      ],
+      "routeNote": "Eight years on, leaving Lowood a governess: from Lowton by public coach the long day south to Millcote — 'seventy miles nearer London' — then a hired chaise the last six miles out to Thornfield.",
+      "routeSource": "Brontë names the stages: Jane leaves 'Lowton at four o'clock A.M.', reaches Millcote by evening (sixteen hours), and takes a chaise 'a matter of six miles' on to Thornfield (Ch. 11). Lowton = Kirkby Lonsdale, Millcote a Sheffield-ward town, Thornfield = North Lees Hall.",
+      "routeCertainty": "novel",
+      "note": "Sixteen hours' coaching to a new life as governess"
+    },
+    {
+      "character": "jane",
+      "from": "thornfield",
+      "to": "gateshead",
+      "chapter": 21,
+      "days": 2,
+      "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -1.9,
+            53.95
+          ],
+          "name": "The night's inn",
+          "note": "'Fifty miles one day, a night spent at an inn; fifty miles the next day' — the long haul north to her dying aunt."
+        }
+      ],
+      "routeNote": "Summoned to the deathbed of the aunt who cast her out: a hundred miles north from Thornfield over two days, the reverse of her childhood journey down.",
+      "routeSource": "Brontë gives the shape of this leg exactly — 'fifty miles one day, a night spent at an inn; fifty miles the next day' (Ch. 21) — but names no towns. Endpoints are Thornfield (North Lees) and the conjectured Gateshead.",
+      "routeCertainty": "illustrative",
+      "note": "To the deathbed of Mrs Reed — who confesses she hid the letter from Jane's uncle"
+    },
+    {
+      "character": "jane",
+      "from": "gateshead",
+      "to": "thornfield",
+      "chapter": 22,
+      "days": 2,
+      "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -1.9,
+            53.95
+          ],
+          "name": "The night's inn",
+          "note": "The same two-day haul run backwards, Jane 'like the messenger-pigeon flying home' to Thornfield."
+        }
+      ],
+      "routeNote": "A month later, back south to Thornfield — the return that, for the first time in her life, feels like going home.",
+      "routeSource": "The return of the Ch. 21 leg; Brontë notes the arrival 'at the great town of ——' on the way back (Ch. 22) but names no road. Endpoints as before.",
+      "routeCertainty": "illustrative",
+      "note": "Home to Thornfield — and, that midsummer eve, the proposal in the orchard"
+    },
+    {
+      "character": "jane",
+      "from": "thornfield",
+      "to": "whitcross",
+      "chapter": 28,
+      "days": 2,
+      "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -1.5,
+            53.36
+          ],
+          "name": "Millcote",
+          "note": "Out from Thornfield by the manufacturing town, the coach carrying her only as far as her few shillings will stretch."
+        }
+      ],
+      "routeNote": "The flight after the broken wedding: Jane takes the first coach at dawn and rides until her money is spent, and is set down at Whitcross on the open moor with nothing.",
+      "routeSource": "The text says only that the coachman 'set me down at a place called Whitcross; he could take me no farther for the sum I had given' (Ch. 28) — the road unnamed. This runs the line out by Millcote onto the Peak moors.",
+      "routeCertainty": "illustrative",
+      "note": "Fleeing at daybreak — set down penniless where four roads meet"
+    },
+    {
+      "character": "jane",
+      "from": "whitcross",
+      "to": "moor-house",
+      "chapter": 28,
+      "days": 2,
+      "mode": "foot",
+      "note": "Two days and nights destitute on the moor — begging a crust, sleeping in the heather — until she drops at the Rivers' door and is taken in"
+    },
+    {
+      "character": "jane",
+      "from": "moor-house",
+      "to": "morton",
+      "chapter": 31,
+      "mode": "foot",
+      "note": "To keep the village school St John has found her — a cottage and twenty moorland girls"
+    },
+    {
+      "character": "st-john",
+      "from": "moor-house",
+      "to": "morton",
+      "chapter": 31,
+      "mode": "foot",
+      "note": "The parson to his own parish and church"
+    },
+    {
+      "character": "jane",
+      "from": "morton",
+      "to": "moor-house",
+      "chapter": 34,
+      "mode": "foot",
+      "note": "Back to Moor House once the cousinship and the shared fortune are known — St John pressing her, on these moors, to marry him and go to India"
+    },
+    {
+      "character": "jane",
+      "from": "moor-house",
+      "to": "thornfield",
+      "chapter": 36,
+      "days": 2,
+      "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -1.72,
+            53.35
+          ],
+          "name": "Whitcross",
+          "note": "Back to the sign-post where she was set down a beggar, now to meet the coach for Thornfield — 'like the messenger-pigeon flying home'."
+        },
+        {
+          "at": [
+            -1.5,
+            53.36
+          ],
+          "name": "Millcote",
+          "note": "A journey of six-and-thirty hours to the Rochester country; she leaves the coach at a wayside inn two miles short of the hall."
+        }
+      ],
+      "routeNote": "Called back by the voice on the moor: on foot to Whitcross for the coach, then six-and-thirty hours south to the inn near Thornfield — where she finds the hall a blackened ruin.",
+      "routeSource": "Brontë names the stages: Jane waits 'at the foot of the sign-post of Whitcross' for the coach, rides 'a journey of six-and-thirty hours', and is set down at 'The Rochester Arms', 'just two miles' from Thornfield Hall (Ch. 36).",
+      "routeCertainty": "novel",
+      "note": "Drawn back to Thornfield — to find it burned, and Rochester gone"
+    },
+    {
+      "character": "jane",
+      "from": "thornfield",
+      "to": "ferndean",
+      "chapter": 37,
+      "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -1.78,
+            53.29
+          ],
+          "name": "The wooded miles",
+          "note": "A post-chaise thirty miles off into deep wood, the last stretch through a dripping green gloom to the buried manor."
+        }
+      ],
+      "routeNote": "From the ruin of Thornfield out to Rochester's other house — a hired post-chaise thirty miles into the wood to Ferndean, arriving just before dark.",
+      "routeSource": "The innkeeper directs her: Ferndean is 'about thirty miles off; quite a desolate spot', and Jane hires a chaise to reach it 'before dark this day' (Ch. 37). The wood and distance are the novel's; the exact line is drawn to a conjectured Ferndean.",
+      "routeCertainty": "reconstructed",
+      "note": "To the blinded Rochester — 'Reader, I married him'"
+    },
+    {
+      "character": "rochester",
+      "from": "thornfield",
+      "to": "ferndean",
+      "chapter": 36,
+      "mode": "coach",
+      "note": "After the fire that blinded and maimed him — and killed Bertha — he withdraws to the one house left to him, deep in its wood"
+    }
+  ]
+}

@@ -61,5 +61,14 @@
     "file": "data/eighty-days.json",
     "blurb": "A wager at a London club, eighty days, and the whole turning world — by steamer, rail, elephant and sledge.",
     "spine": { "cloth": "#b25a2e", "text": "#f0e0b8" }
+  },
+  {
+    "id": "jane-eyre",
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "file": "data/jane-eyre.json",
+    "blurb": "An orphan, a charity school, a governess's post at a house with a secret — and a destitute walk across the moor.",
+    "spine": { "cloth": "#7a3b34", "text": "#e6d59a" }
   }
 ]
