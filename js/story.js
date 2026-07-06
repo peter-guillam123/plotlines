@@ -185,6 +185,7 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
       total: beats.length,
       clock: clockLabel(beat),
       focusChar: beat.focus ? novel.charactersById[beat.focus] : null,
+      mode: beat.leg ? beat.leg.movement.mode : null,
     });
     emphasize(beat.focus || null);
     frameBeat(beat, ts ?? performance.now());

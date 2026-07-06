@@ -411,6 +411,18 @@ body.is-overture #storycard { display: none !important; }
   color: var(--ink-soft);
 }
 .story-subject { display: inline-flex; align-items: center; gap: 6px; }
+.story-mode {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+.story-mode[hidden] { display: none; }
+.story-mode .mode-icon { width: 17px; height: 17px; opacity: 0.85; }
+#storycard.is-interstitial .story-mode { color: var(--paper); }
 .story-swatch {
   width: 16px;
   height: 16px;

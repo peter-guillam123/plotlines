@@ -8,6 +8,7 @@
 
 import { CHARACTER_COLOURS } from '../constants.js';
 import { characterInitial } from './format.js';
+import { modeIcon, modePhrase } from './modeicons.js';
 
 export function createStoryCard(container, novel, { onStep }) {
   container.innerHTML = `
@@ -15,6 +16,7 @@ export function createStoryCard(container, novel, { onStep }) {
     <div class="story-body">
       <p class="story-kicker">
         <span class="story-subject"></span>
+        <span class="story-mode"></span>
         <span class="story-clock"></span>
       </p>
       <h3 class="story-title"></h3>
@@ -24,6 +26,7 @@ export function createStoryCard(container, novel, { onStep }) {
     <button type="button" class="story-step story-step-next" aria-label="Next scene">&#9656;</button>`;
 
   const subjectEl = container.querySelector('.story-subject');
+  const modeEl = container.querySelector('.story-mode');
   const clockEl = container.querySelector('.story-clock');
   const titleEl = container.querySelector('.story-title');
   const narrationEl = container.querySelector('.story-narration');
@@ -34,7 +37,7 @@ export function createStoryCard(container, novel, { onStep }) {
   prevBtn.addEventListener('click', () => onStep(-1));
   nextBtn.addEventListener('click', () => onStep(1));
 
-  function show(beat, { index, total, clock, focusChar }) {
+  function show(beat, { index, total, clock, focusChar, mode }) {
     container.classList.remove('is-interstitial', 'is-done');
     container.classList.toggle('is-interstitial', beat.kind === 'meanwhile' || beat.kind === 'handoff');
 
@@ -46,6 +49,16 @@ export function createStoryCard(container, novel, { onStep }) {
       subjectEl.querySelector('.story-name').textContent = focusChar.name;
     } else {
       subjectEl.textContent = '';
+    }
+    // For a journey/removal beat, how they travel — the mode icon restored
+    // from the old caption strip (walk / horse / coach / train / ship).
+    if (mode) {
+      modeEl.innerHTML = `${modeIcon(mode)}<span class="story-mode-word"></span>`;
+      modeEl.querySelector('.story-mode-word').textContent = modePhrase(mode);
+      modeEl.hidden = false;
+    } else {
+      modeEl.textContent = '';
+      modeEl.hidden = true;
     }
     clockEl.textContent = beat.kind === 'meanwhile' ? 'Meanwhile — the clock turns back' : (clock || '');
     titleEl.textContent = beat.title || '';
