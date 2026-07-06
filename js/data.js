@@ -5,7 +5,7 @@
 
 import { CERTAINTY, CHARACTER_COLOURS, ROUTE_CERTAINTY } from './constants.js';
 
-const MODES = ['train', 'coach', 'ship', 'foot', 'horse', 'unknown'];
+const MODES = ['train', 'coach', 'ship', 'foot', 'horse', 'elephant', 'sledge', 'unknown'];
 
 export async function loadNovelIndex() {
   // no-cache = revalidate with the server, so a fresh deploy's data is

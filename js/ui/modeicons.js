@@ -26,6 +26,21 @@ const ICONS = {
   // sailing ship
   ship:
     '<path d="M8 2v8M8 4l4 2-4 1.5M8 4L4 6l4 1.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><path d="M2.5 11h11l-1.6 3H4.1z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>',
+  // elephant: the fifty-hour ride across the Indian jungle (Eighty Days).
+  // Left-facing, asymmetric — body and legs to the right, the head and a
+  // curling trunk to the left — so it doesn't read as a symmetric arch.
+  elephant:
+    '<path d="M12.8 11c.9-1.2 1.1-3 .3-4.7C12 4.4 9.6 3.5 7.3 4.1 5.7 4.6 4.7 5.8 4.4 7.2" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>' +
+    '<path d="M4.4 7.2c-.2 1-.8 1.5-1.3 2.4-.5.9-.5 1.9-.1 2.4.4.4 1 .2 1.1-.3.1-.5 0-1-.2-1.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>' +
+    '<path d="M5.9 11.3h5.4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>' +
+    '<path d="M6.6 11.3v1.7M11 11.1v1.7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>' +
+    '<path d="M8 4.4c1.6-.2 2.6.9 2.5 2.4" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>' +
+    '<circle cx="5.6" cy="7.2" r=".5" fill="currentColor"/>',
+  // wind-sledge: the sailed sledge across the Nebraska snow (Eighty Days)
+  sledge:
+    '<path d="M2.4 11.6h8.7c1 0 1.8-.6 2.2-1.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>' +
+    '<path d="M6 11.6V3.4l3.7 3.1L6 8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>' +
+    '<path d="M3.8 13.4q4-1.3 7.4 0" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>',
   // dotted line for an unrecorded mode
   unknown:
     '<path d="M3 8h10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1 2.5"/>',
@@ -37,6 +52,8 @@ const PHRASE = {
   coach: 'by coach',
   train: 'by train',
   ship: 'by ship',
+  elephant: 'by elephant',
+  sledge: 'by wind-sledge',
   unknown: 'onward',
 };
 
