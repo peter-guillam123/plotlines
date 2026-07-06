@@ -248,7 +248,11 @@ The pipeline that produced the honest datasets, in order:
    overlap; any global voyage stays in frame; a place card centres its
    spot clear of the sheet; the historic overlay shows over Britain. Then
    a mobile pass.
-7. **Update** the About page (a diary entry + any new attribution) and add
+7. **Write the script** — the novel's `story` array of narrated beats, per
+   `STORYTELLING.md` (the rubric) and its screening loop (draft → rushes →
+   watch-through). The dataset records what is true; the script decides
+   how it is told. A novel isn't finished without both.
+8. **Update** the About page (a diary entry + any new attribution) and add
    the shelf entry to `data/novels.json` with first-edition spine colours.
 
 ---

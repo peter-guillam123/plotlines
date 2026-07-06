@@ -1748,5 +1748,381 @@
       "routeCertainty": "documented",
       "note": "The long emigrant voyage to Australia: the whole reclaimed company sails together to begin a new life"
     }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "character": "david",
+      "at": "blunderstone",
+      "chapter": 1,
+      "title": "A posthumous child",
+      "narration": "David Copperfield is born at Blunderstone in Suffolk, six months after his father's death, adored by his gentle young mother and her fierce servant, Peggotty."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "blunderstone",
+      "to": "yarmouth",
+      "chapter": 3,
+      "title": "To the sea",
+      "narration": "Peggotty takes the boy to Yarmouth, to her brother's boat-house, an upturned barge made a home on the flats. There David meets Little Em'ly, the fisherman's orphan niece, and loves her."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "yarmouth",
+      "to": "blunderstone",
+      "chapter": 4,
+      "title": "A changed house",
+      "narration": "Home again, everything changed: his mother has married Mr Murdstone, a cold man of 'firmness', and the house goes quiet around the boy."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "blunderstone",
+      "to": "salem-house",
+      "chapter": 5,
+      "title": "Sent away",
+      "narration": "Beaten, David bites the hand that beats him and is packed off to Salem House, a London boarding school, placarded: 'Take care of him. He bites.'"
+    },
+    {
+      "kind": "scene",
+      "character": "david",
+      "at": "salem-house",
+      "chapter": 6,
+      "title": "Steerforth",
+      "narration": "Salem House is Mr Creakle and his cane. David's consolation is James Steerforth, older, dazzling, careless, who takes him up as a favourite. Remember him."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "salem-house",
+      "to": "blunderstone",
+      "chapter": 8,
+      "title": "The holidays",
+      "narration": "Home for the holidays, to a mother grown timid and a new baby brother. It is the last time he sees her."
+    },
+    {
+      "kind": "scene",
+      "character": "david",
+      "at": "blunderstone",
+      "chapter": 9,
+      "title": "The empty house",
+      "narration": "The news comes on his birthday: his mother is dead, her baby with her. David buries them; Peggotty is dismissed; the Murdstones have no more use for him."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "blunderstone",
+      "to": "warehouse",
+      "chapter": 11,
+      "title": "Cast out",
+      "narration": "Ten years old, he is sent to wash bottles at Murdstone's riverside warehouse, lodging with the Micawbers: grand of speech, hopeless with money, expecting something to turn up."
+    },
+    {
+      "kind": "scene",
+      "character": "david",
+      "at": "warehouse",
+      "chapter": 12,
+      "title": "The pit",
+      "narration": "The warehouse is shameful, hopeless drudgery. When debt carries Mr Micawber to prison, David resolves to run: to Dover, to an aunt he has never met."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "warehouse",
+      "to": "dover",
+      "chapter": 13,
+      "title": "The walk to Dover",
+      "narration": "Robbed of box and money before he is clear of London, David walks the whole Dover road: six days, sleeping in fields, selling clothes for bread, through Rochester and Canterbury, over the downs, on the strength of one hope, Aunt Betsey."
+    },
+    {
+      "kind": "scene",
+      "character": "david",
+      "at": "dover",
+      "chapter": 14,
+      "title": "Aunt Betsey",
+      "narration": "Betsey Trotwood, brisk and kind under the crust, takes him in and sees off the Murdstones. For the first time since his mother died, he is safe."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "dover",
+      "to": "canterbury",
+      "chapter": 15,
+      "title": "A good school",
+      "narration": "She sends him to school in Canterbury, a good one this time, boarding with her lawyer Mr Wickfield and his daughter Agnes."
+    },
+    {
+      "kind": "scene",
+      "character": "david",
+      "at": "canterbury",
+      "chapter": 17,
+      "title": "Agnes — and Uriah",
+      "narration": "Calm years: school, and Agnes Wickfield, the quiet centre of David's life. In the same house coils Uriah Heep, a 'humble' clerk with plans. David grows up."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "canterbury",
+      "to": "golden-cross",
+      "chapter": 19,
+      "title": "Seventeen",
+      "narration": "Schooldays done, seventeen, David coaches up to London, and at the Golden Cross inn walks into Steerforth again, now a splendid young man about town."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "golden-cross",
+      "to": "yarmouth",
+      "chapter": 21,
+      "title": "Two worlds meet",
+      "narration": "David carries his friend off to Yarmouth, to show him the boat-house. He wants his two worlds to meet. They should not."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Steerforth's own road begins at Highgate, north of London, where a proud mother keeps her handsome only son."
+    },
+    {
+      "kind": "removal",
+      "character": "steerforth",
+      "from": "highgate",
+      "to": "yarmouth",
+      "chapter": 21,
+      "title": "The charmer",
+      "narration": "He comes down and charms the boat-house whole: stays weeks, buys a boat. Em'ly, newly engaged to her cousin Ham, cannot stop watching him."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "yarmouth",
+      "to": "doctors-commons",
+      "chapter": 23,
+      "title": "A profession",
+      "narration": "David returns to London to be a proctor in the drowsy church-courts of Doctors' Commons. Steerforth stays behind at Yarmouth, with his boat."
+    },
+    {
+      "kind": "scene",
+      "character": "david",
+      "at": "doctors-commons",
+      "chapter": 35,
+      "title": "Dora — and ruin",
+      "narration": "Young manhood: David falls helplessly for Dora Spenlow, his employer's childish, pretty daughter. Then his aunt's fortune collapses: mornings at shorthand, courting on nothing."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Wind the clock back. While David was falling in love, a letter was opened at Yarmouth, on the eve of Em'ly's wedding."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "emly",
+        "steerforth"
+      ],
+      "from": "yarmouth",
+      "to": "naples",
+      "chapter": 31,
+      "title": "The elopement",
+      "narration": "Em'ly is gone with Steerforth — 'to come back a lady', her letter pleads, or never — carried by sea to a villa near Naples. Ham is left at the altar's edge; her uncle sits all night by the fire."
+    },
+    {
+      "kind": "removal",
+      "character": "micawbers",
+      "from": "windsor-terrace",
+      "to": "canterbury",
+      "chapter": 36,
+      "title": "Something turns up",
+      "narration": "The Micawbers are moving too: Mr Micawber has taken a confidential clerkship in Canterbury, under, of all masters, Uriah Heep."
+    },
+    {
+      "kind": "handoff",
+      "character": "mrpeggotty",
+      "at": "yarmouth",
+      "chapter": 40,
+      "title": "The candle in the window",
+      "narration": "Mr Peggotty shuts the boat-house and sets a candle in the window for Em'ly. He means to find her, however far, however long."
+    },
+    {
+      "kind": "journey",
+      "character": "mrpeggotty",
+      "from": "yarmouth",
+      "to": "naples",
+      "chapter": 40,
+      "title": "The search",
+      "narration": "The great search: across the Channel, down through France, over the mountains into Italy, town by town toward Naples. Years of walking, an old fisherman asking for his niece in languages he does not speak."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "While he walks, wind back to London, where David, poor and busy, is still in love."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "doctors-commons",
+      "to": "putney",
+      "chapter": 41,
+      "title": "Courting Dora",
+      "narration": "Dora's father dies suddenly; she is taken in by her maiden aunts at Putney. David wears out the road there, and wins her."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "putney",
+      "to": "highgate",
+      "chapter": 43,
+      "title": "The child-wife",
+      "narration": "Married. He carries his child-wife home to a cottage at Highgate, where housekeeping defeats them both, sweetly and completely. He loves her; he worries."
+    },
+    {
+      "kind": "handoff",
+      "character": "emly",
+      "chapter": 46,
+      "title": "Abandoned",
+      "narration": "Far south, the villa has gone quiet: Steerforth, bored with what he ruined, abandons Em'ly, offering her in parting insult to his servant. She flees."
+    },
+    {
+      "kind": "journey",
+      "character": "emly",
+      "from": "naples",
+      "to": "gravesend",
+      "chapter": 50,
+      "title": "Her own way home",
+      "narration": "Em'ly makes her own long way home: service and hiding in France, then by sea to the Thames, vanishing into London, too ashamed to be found."
+    },
+    {
+      "kind": "journey",
+      "character": "mrpeggotty",
+      "from": "naples",
+      "to": "gravesend",
+      "chapter": 51,
+      "title": "Found",
+      "narration": "Word reaches Mr Peggotty and he comes home close behind. In a London lodging, uncle and niece are found and forgiven. He will take her where the past cannot follow: Australia."
+    },
+    {
+      "kind": "removal",
+      "character": "micawbers",
+      "from": "canterbury",
+      "to": "gravesend",
+      "chapter": 52,
+      "title": "Heep undone",
+      "narration": "One score to settle: in Canterbury Mr Micawber rises and denounces his master. Fraud by fraud, Heep is exposed and undone, and the Micawbers throw in with the emigrants."
+    },
+    {
+      "kind": "scene",
+      "character": "david",
+      "at": "highgate",
+      "chapter": 53,
+      "title": "Dora",
+      "narration": "At Highgate the child-wife has been fading. Dora dies in the spring, her little dog in the same hour. David is hollowed out."
+    },
+    {
+      "kind": "handoff",
+      "character": "steerforth",
+      "chapter": 55,
+      "title": "A loose thread",
+      "narration": "One thread is still loose, and it is coming home: a yacht, beating up from the Mediterranean into filthy weather."
+    },
+    {
+      "kind": "journey",
+      "character": "steerforth",
+      "from": "naples",
+      "to": "yarmouth",
+      "chapter": 55,
+      "title": "The storm",
+      "narration": "The great storm: Steerforth's yacht is driven onto the Yarmouth sands, within sight of the old boat-house. Ham swims out through the surf to the wreck and drowns; the sea gives back Steerforth's body on the shore he ruined."
+    },
+    {
+      "kind": "handoff",
+      "character": "david",
+      "chapter": 57,
+      "title": "Gathering at the river",
+      "narration": "What is left of the old life gathers on the Thames at Gravesend, where the emigrant ship lies waiting."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "highgate",
+      "to": "gravesend",
+      "chapter": 57,
+      "title": "Goodbye",
+      "narration": "David comes down with Peggotty to say goodbye: to Mr Peggotty, to Em'ly veiled on deck, to the irrepressible Micawbers, emigrants all."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "On the same tide, the ship weighs anchor and stands down the river for the sea."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "emly",
+        "mrpeggotty",
+        "micawbers"
+      ],
+      "from": "gravesend",
+      "to": "port-middlebay",
+      "chapter": 57,
+      "title": "The emigrants",
+      "narration": "Three months under sail: down the Channel, south past Madeira, round the Cape of Good Hope, east across the whole Southern Ocean to Australia. Em'ly at the rail, her uncle beside her, Mr Micawber certain that something, finally, has turned up."
+    },
+    {
+      "kind": "handoff",
+      "character": "david",
+      "chapter": 58,
+      "title": "Grief",
+      "narration": "David cannot stay. Wife, friend and boyhood gone in one season, he leaves England to outwalk his grief."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "gravesend",
+      "to": "switzerland",
+      "chapter": 58,
+      "title": "Abroad",
+      "narration": "Across the Channel, down through France, over the Alps: months of numb wandering, until he stops in a quiet Swiss valley."
+    },
+    {
+      "kind": "scene",
+      "character": "david",
+      "at": "switzerland",
+      "chapter": 59,
+      "title": "The valley",
+      "narration": "In the valley, letters from Agnes reach him, steady and certain. The numbness breaks. He begins to write, and finds it is what he is for."
+    },
+    {
+      "kind": "journey",
+      "character": "david",
+      "from": "switzerland",
+      "to": "canterbury",
+      "chapter": 60,
+      "title": "Home",
+      "narration": "Three years after leaving, David comes home to Canterbury, to Agnes, whom he has loved all his life without once understanding it."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Before the story closes at home, one last dispatch from the far side of the world."
+    },
+    {
+      "kind": "scene",
+      "character": "micawbers",
+      "at": "port-middlebay",
+      "chapter": 63,
+      "title": "Port Middlebay",
+      "narration": "The emigrants have made good. Mr Peggotty farms and prospers; Em'ly lives quiet at his side; Mr Micawber, the debtor of Windsor Terrace, is District Magistrate of Port Middlebay."
+    },
+    {
+      "kind": "handoff",
+      "character": "david",
+      "chapter": 64,
+      "title": "The teller",
+      "narration": "Which leaves only the teller of the story."
+    },
+    {
+      "kind": "scene",
+      "character": "david",
+      "at": "canterbury",
+      "chapter": 64,
+      "title": "Agnes",
+      "narration": "David marries Agnes, and the long book settles into happiness: children, work, the writing of this very story. Of all its faces, hers shines on him to the last."
+    }
   ]
 }
