@@ -7,6 +7,10 @@ import { characterInitial } from './ui/format.js';
 
 const SOURCE = 'characters';
 
+// How far apart, in screen pixels, two co-located markers sit — enough that
+// each disc and its letter read as its own, with a hair of daylight between.
+const DODGE_PX = 21;
+
 export function addCharacterMarkers(map, novel) {
   map.addSource(SOURCE, {
     type: 'geojson',
@@ -53,13 +57,33 @@ export function updateCharacterMarkers(map, novel, positions, selectedId) {
     if (!pos) continue;
     features.push({
       type: 'Feature',
-      geometry: { type: 'Point', coordinates: pos.lngLat },
+      geometry: { type: 'Point', coordinates: [pos.lngLat[0], pos.lngLat[1]] },
       properties: {
         id: c.id,
         colour: CHARACTER_COLOURS[c.colour],
         letter: characterInitial(c.name),
         selected: c.id === selectedId,
       },
+    });
+  }
+  // Two characters travelling together (a shared journey) sit at the exact
+  // same coordinate, so their discs would stack into one and their letters
+  // smudge. Spread any such cluster side by side. A collectively-named group
+  // (Dracula's "hunters") is a single character — one disc already — so it
+  // never triggers this. The offset is a fixed number of screen pixels
+  // converted to longitude degrees at the current zoom, so it holds as you
+  // zoom (longitude px→deg is latitude-independent in Web Mercator).
+  const degPerPx = 360 / (512 * Math.pow(2, map.getZoom()));
+  const clusters = new Map();
+  for (const f of features) {
+    const key = f.geometry.coordinates.map((n) => n.toFixed(4)).join(',');
+    (clusters.get(key) || clusters.set(key, []).get(key)).push(f);
+  }
+  for (const group of clusters.values()) {
+    if (group.length < 2) continue;
+    const spread = (group.length - 1) / 2;
+    group.forEach((f, i) => {
+      f.geometry.coordinates[0] += (i - spread) * DODGE_PX * degPerPx;
     });
   }
   const source = map.getSource(SOURCE);

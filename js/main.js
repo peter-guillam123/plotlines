@@ -67,6 +67,14 @@ ready
       return director.update(positions, { instant: engine.reducedMotion() });
     });
 
+    // Co-located markers are dodged apart by a fixed number of screen pixels,
+    // so the spread has to recompute as the map zooms. Playback re-renders
+    // each frame already; this keeps it right through manual zoom and the
+    // camera's own eases. Markers only — never the director, or it could loop.
+    map.on('move', () => {
+      updateCharacterMarkers(map, novel, timeline.positionsAt(timeline.state.t), timeline.state.selected);
+    });
+
     // ---- scripted story mode ----
     // A novel with a `story` script is played as a telling — beats, not a
     // clock (docs/STORYTELLING.md). The story player drives the timeline;
