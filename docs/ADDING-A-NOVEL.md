@@ -224,6 +224,18 @@ Sourcing rules, non-negotiable:
   that can't be automated.
 - Full attribution goes in the card `credit` **and** the About page.
 
+**A helper for the search half.** `node tools/image-candidates.mjs "<place
++ period query>"` queries Wikimedia Commons, keeps only public-domain / CC0
+files, and prints each with its licence, source page and provenance — the
+tedious search-and-filter, done. It does NOT pick or commit: you still open
+each candidate and confirm it is really the place and really the period
+(the search returns noise — a bond certificate for "San Francisco", a
+modern cross-section diagram for "Suez"), then download the full file, crop
+if needed, and record the attribution. Sharpen a vague query with a date or
+a landmark ("Suez Canal 1869", "San Francisco 1878 panorama"). The
+assistant can view the thumbnails and do the honesty pass itself, then
+surface a shortlist for the editor to choose from.
+
 ---
 
 ## 5. The build process
