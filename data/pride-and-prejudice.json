@@ -686,6 +686,43 @@
       "to": "gracechurch-street",
       "chapter": 21,
       "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -0.013,
+            51.762
+          ],
+          "name": "Hoddesdon",
+          "note": "down out of Hertford to join the London road in the Lea valley"
+        },
+        {
+          "at": [
+            -0.033,
+            51.688
+          ],
+          "name": "Waltham Cross",
+          "note": "the Eleanor cross on the road south"
+        },
+        {
+          "at": [
+            -0.06,
+            51.615
+          ],
+          "name": "Edmonton",
+          "note": "down the Lea valley into Middlesex"
+        },
+        {
+          "at": [
+            -0.068,
+            51.588
+          ],
+          "name": "Tottenham",
+          "note": "the last stage before the City turnpike"
+        }
+      ],
+      "routeNote": "Out of the Hertford country down the Lea valley — Hoddesdon, Waltham Cross, Edmonton and Tottenham — and in through Shoreditch to the City.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Hertford–Cambridge road down the Lea valley, the standard coaching approach to the City from that quarter.",
+      "routeCertainty": "documented",
       "note": "The whole Netherfield party decamps to town within days of the ball — Darcy's engineering, confessed much later. His own house is in a smarter quarter; Gracechurch Street stands in for 'town' on this map"
     },
     {
@@ -694,6 +731,43 @@
       "to": "gracechurch-street",
       "chapter": 26,
       "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -0.013,
+            51.762
+          ],
+          "name": "Hoddesdon",
+          "note": "down out of Hertford to join the London road in the Lea valley"
+        },
+        {
+          "at": [
+            -0.033,
+            51.688
+          ],
+          "name": "Waltham Cross",
+          "note": "the Eleanor cross on the road south"
+        },
+        {
+          "at": [
+            -0.06,
+            51.615
+          ],
+          "name": "Edmonton",
+          "note": "down the Lea valley into Middlesex"
+        },
+        {
+          "at": [
+            -0.068,
+            51.588
+          ],
+          "name": "Tottenham",
+          "note": "the last stage before the City turnpike"
+        }
+      ],
+      "routeNote": "Out of the Hertford country down the Lea valley — Hoddesdon, Waltham Cross, Edmonton and Tottenham — and in through Shoreditch to the City.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Hertford–Cambridge road down the Lea valley, the standard coaching approach to the City from that quarter.",
+      "routeCertainty": "documented",
       "note": "To town with the Gardiners at the end of their Christmas visit, on a hope she barely admits; a fortnight of Miss Bingley's silence does the rest"
     },
     {
@@ -702,6 +776,43 @@
       "to": "gracechurch-street",
       "chapter": 27,
       "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -0.013,
+            51.762
+          ],
+          "name": "Hoddesdon",
+          "note": "down out of Hertford to join the London road in the Lea valley"
+        },
+        {
+          "at": [
+            -0.033,
+            51.688
+          ],
+          "name": "Waltham Cross",
+          "note": "the Eleanor cross on the road south"
+        },
+        {
+          "at": [
+            -0.06,
+            51.615
+          ],
+          "name": "Edmonton",
+          "note": "down the Lea valley into Middlesex"
+        },
+        {
+          "at": [
+            -0.068,
+            51.588
+          ],
+          "name": "Tottenham",
+          "note": "the last stage before the City turnpike"
+        }
+      ],
+      "routeNote": "The twenty-four miles Austen counts: out of the Hertford country down the Lea valley — Hoddesdon, Waltham Cross, Edmonton and Tottenham — and in through Shoreditch to the City.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Hertford–Cambridge road down the Lea valley, the standard coaching approach to the City from that quarter. Austen fixes the distance herself (ch. 27, 'in Gracechurch Street by noon').",
+      "routeCertainty": "documented",
       "note": "With Sir William Lucas and Maria — twenty-four miles, 'in Gracechurch Street by noon' — for a night with the Gardiners and an evening at the theatre"
     },
     {
@@ -711,11 +822,26 @@
       "chapter": 28,
       "mode": "coach",
       "via": [
-        [
-          -0.016,
-          51.406
-        ]
+        {
+          "at": [
+            -0.016,
+            51.406
+          ],
+          "name": "Bromley",
+          "note": "out of London on the Kent road — Lady Catherine's appointed change of horses"
+        },
+        {
+          "at": [
+            0.03,
+            51.36
+          ],
+          "name": "Keston",
+          "note": "up onto the Kent heath, bearing for Westerham"
+        }
       ],
+      "routeNote": "Out of the City over the river and down the Kent road through Bromley, then bearing off by Keston for Westerham and the parsonage at Hunsford.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Bromley–Westerham road into west Kent. Austen names Bromley as the change of horses (ch. 37).",
+      "routeCertainty": "documented",
       "note": "'Every object in the next day's journey was new and interesting': into Kent to the parsonage gate, Mr Collins pointing out every prospect on the way"
     },
     {
@@ -725,11 +851,26 @@
       "chapter": 30,
       "mode": "coach",
       "via": [
-        [
-          -0.016,
-          51.406
-        ]
+        {
+          "at": [
+            -0.016,
+            51.406
+          ],
+          "name": "Bromley",
+          "note": "out of London on the Kent road — Lady Catherine's appointed change of horses"
+        },
+        {
+          "at": [
+            0.03,
+            51.36
+          ],
+          "name": "Keston",
+          "note": "up onto the Kent heath, bearing for Westerham"
+        }
       ],
+      "routeNote": "Out of London over the river and down the Kent road through Bromley, then bearing off by Keston for Westerham and Rosings.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Bromley–Westerham road into west Kent. Austen names Bromley as the change of horses (ch. 37).",
+      "routeCertainty": "documented",
       "note": "The Easter pilgrimage to Lady Catherine, bringing Colonel Fitzwilliam; the visitors at the parsonage complicate it fatally"
     },
     {
@@ -739,11 +880,26 @@
       "chapter": 37,
       "mode": "coach",
       "via": [
-        [
-          -0.016,
-          51.406
-        ]
+        {
+          "at": [
+            0.03,
+            51.36
+          ],
+          "name": "Keston",
+          "note": "off the Kent heath, coming down for Bromley"
+        },
+        {
+          "at": [
+            -0.016,
+            51.406
+          ],
+          "name": "Bromley",
+          "note": "the change of horses on the road back into London"
+        }
       ],
+      "routeNote": "Back off the Westerham road by Keston to Bromley, then up the Kent road and over the river into the City.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Bromley–Westerham road into west Kent. Austen names Bromley as the change of horses (ch. 37).",
+      "routeCertainty": "documented",
       "note": "The gentlemen leave Rosings the morning after the letter is put into Elizabeth's hand in the grove"
     },
     {
@@ -771,6 +927,43 @@
       "to": "longbourn",
       "chapter": 39,
       "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -0.068,
+            51.588
+          ],
+          "name": "Tottenham",
+          "note": "out of the City through Shoreditch onto the Lea valley road"
+        },
+        {
+          "at": [
+            -0.06,
+            51.615
+          ],
+          "name": "Edmonton",
+          "note": "up the Lea valley out of Middlesex"
+        },
+        {
+          "at": [
+            -0.033,
+            51.688
+          ],
+          "name": "Waltham Cross",
+          "note": "the Eleanor cross on the road north"
+        },
+        {
+          "at": [
+            -0.013,
+            51.762
+          ],
+          "name": "Hoddesdon",
+          "note": "turning off for Hertford and the Longbourn country"
+        }
+      ],
+      "routeNote": "Home up the Lea valley — through Tottenham, Edmonton, Waltham Cross and Hoddesdon — and off the London road into the Hertford country.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Hertford–Cambridge road down the Lea valley, the standard coaching approach to the City from that quarter.",
+      "routeCertainty": "documented",
       "note": "'The second week in May': home together, met at the George by Kitty and Lydia with a table of cold meat and the news that the regiment is off to Brighton"
     },
     {
@@ -994,15 +1187,26 @@
       "chapter": 46,
       "mode": "unknown",
       "via": [
-        [
-          -0.27,
-          51.32
-        ],
-        [
-          -0.14,
-          51.46
-        ]
+        {
+          "at": [
+            -0.27,
+            51.32
+          ],
+          "name": "Epsom",
+          "note": "the first post north from Brighton, where the chaise was traced"
+        },
+        {
+          "at": [
+            -0.14,
+            51.46
+          ],
+          "name": "Clapham",
+          "note": "where they left the chaise for a hackney-coach and vanished into London"
+        }
       ],
+      "routeNote": "The elopement's own trace: up from Brighton to Epsom and on to Clapham, where the chaise was given up for a hackney-coach into London — the road the pursuers followed to the point the scent went cold.",
+      "routeSource": "Austen names the stages herself (ch. 47): traced 'to Epsom', then 'to Clapham', where 'they were seen to continue the London road'.",
+      "routeCertainty": "novel",
       "note": "The elopement: off with Wickham on the Sunday night, traced through Epsom to Clapham — where they moved into a hackney-coach and vanished into London. Scotland was never in his plan"
     },
     {
@@ -1155,6 +1359,43 @@
       "to": "longbourn",
       "chapter": 51,
       "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -0.068,
+            51.588
+          ],
+          "name": "Tottenham",
+          "note": "out of the City through Shoreditch onto the Lea valley road"
+        },
+        {
+          "at": [
+            -0.06,
+            51.615
+          ],
+          "name": "Edmonton",
+          "note": "up the Lea valley out of Middlesex"
+        },
+        {
+          "at": [
+            -0.033,
+            51.688
+          ],
+          "name": "Waltham Cross",
+          "note": "the Eleanor cross on the road north"
+        },
+        {
+          "at": [
+            -0.013,
+            51.762
+          ],
+          "name": "Hoddesdon",
+          "note": "turning off for Hertford and the Longbourn country"
+        }
+      ],
+      "routeNote": "Up the Lea valley from the City — Tottenham, Edmonton, Waltham Cross and Hoddesdon — and off the London road into the Hertford country.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Hertford–Cambridge road down the Lea valley, the standard coaching approach to the City from that quarter.",
+      "routeCertainty": "documented",
       "note": "Married from the Gardiners' house at St Clement's and straight home to show the ring: 'Ah! Jane, I take your place now'"
     },
     {
@@ -1273,6 +1514,43 @@
       "to": "netherfield",
       "chapter": 53,
       "mode": "coach",
+      "via": [
+        {
+          "at": [
+            -0.068,
+            51.588
+          ],
+          "name": "Tottenham",
+          "note": "out of the City through Shoreditch onto the Lea valley road"
+        },
+        {
+          "at": [
+            -0.06,
+            51.615
+          ],
+          "name": "Edmonton",
+          "note": "up the Lea valley out of Middlesex"
+        },
+        {
+          "at": [
+            -0.033,
+            51.688
+          ],
+          "name": "Waltham Cross",
+          "note": "the Eleanor cross on the road north"
+        },
+        {
+          "at": [
+            -0.013,
+            51.762
+          ],
+          "name": "Hoddesdon",
+          "note": "turning off for Hertford and Netherfield"
+        }
+      ],
+      "routeNote": "Up the Lea valley from the City — Tottenham, Edmonton, Waltham Cross and Hoddesdon — and off the London road into the Hertford country.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Hertford–Cambridge road down the Lea valley, the standard coaching approach to the City from that quarter.",
+      "routeCertainty": "documented",
       "note": "Back with Bingley, nominally for the shooting; Mrs Bennet's civilities all go to the wrong man"
     },
     {
