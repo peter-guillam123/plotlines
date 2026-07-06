@@ -54,7 +54,7 @@
         50.9
       ],
       [
-        2.0,
+        2,
         52.8
       ]
     ]
@@ -472,8 +472,8 @@
       "colour": "slate",
       "role": "David's dazzling, careless schoolfriend from Highgate; he charms the Peggottys, carries Em'ly off, and is drowned in the Yarmouth storm within sight of the home he wrecked",
       "start": {
-        "location": "highgate",
-        "chapter": 6
+        "location": "golden-cross",
+        "chapter": 19
       }
     },
     {
@@ -1186,12 +1186,57 @@
     },
     {
       "character": "steerforth",
-      "from": "highgate",
+      "from": "golden-cross",
       "to": "yarmouth",
       "chapter": 21,
       "mode": "coach",
       "days": 1,
-      "note": "Down to Yarmouth with David, where the Peggottys take him to their hearts — and he fixes on Em'ly"
+      "note": "Down to Yarmouth with David, where the Peggottys take him to their hearts — and he fixes on Em'ly",
+      "via": [
+        {
+          "at": [
+            0.183,
+            51.575
+          ],
+          "name": "Romford",
+          "note": "out of London on the Great Essex Road"
+        },
+        {
+          "at": [
+            0.47,
+            51.735
+          ],
+          "name": "Chelmsford",
+          "note": "the Essex county town"
+        },
+        {
+          "at": [
+            0.902,
+            51.889
+          ],
+          "name": "Colchester",
+          "note": "on the Norwich road"
+        },
+        {
+          "at": [
+            1.155,
+            52.057
+          ],
+          "name": "Ipswich",
+          "note": "the great Suffolk coaching town"
+        },
+        {
+          "at": [
+            1.293,
+            52.628
+          ],
+          "name": "Norwich",
+          "note": "the East Anglian capital; road turns east for the coast"
+        }
+      ],
+      "routeNote": "The old Norwich road out of London - through Romford, Chelmsford, Colchester and Ipswich to Norwich, then east to Great Yarmouth on the coast.",
+      "routeSource": "Cary's New Itinerary / the London-Colchester-Ipswich-Norwich-Yarmouth coaching route, the standard road to East Anglia.",
+      "routeCertainty": "documented"
     },
     {
       "character": "steerforth",
@@ -1212,7 +1257,7 @@
         {
           "at": [
             1.4,
-            51.0
+            51
           ],
           "name": "the Dover Strait",
           "note": "through the narrows into the Channel"
@@ -1251,15 +1296,15 @@
         },
         {
           "at": [
-            -6.0,
-            36.0
+            -6,
+            36
           ],
           "name": "the Strait of Gibraltar",
           "note": "into the Mediterranean"
         },
         {
           "at": [
-            8.0,
+            8,
             38.5
           ],
           "name": "the western Mediterranean",
@@ -1307,7 +1352,7 @@
         {
           "at": [
             1.4,
-            51.0
+            51
           ],
           "name": "the Dover Strait",
           "note": "through the narrows into the Channel"
@@ -1346,15 +1391,15 @@
         },
         {
           "at": [
-            -6.0,
-            36.0
+            -6,
+            36
           ],
           "name": "the Strait of Gibraltar",
           "note": "into the Mediterranean"
         },
         {
           "at": [
-            8.0,
+            8,
             38.5
           ],
           "name": "the western Mediterranean",
@@ -1392,7 +1437,7 @@
         },
         {
           "at": [
-            8.0,
+            8,
             38.5
           ],
           "name": "the western Mediterranean",
@@ -1400,8 +1445,8 @@
         },
         {
           "at": [
-            -6.0,
-            36.0
+            -6,
+            36
           ],
           "name": "the Strait of Gibraltar",
           "note": "out of the Mediterranean into the Atlantic"
@@ -1441,14 +1486,14 @@
         {
           "at": [
             1.4,
-            51.0
+            51
           ],
           "name": "the Dover Strait",
           "note": "through the narrows"
         },
         {
           "at": [
-            1.0,
+            1,
             51.5
           ],
           "name": "the Thames Estuary",
@@ -1479,7 +1524,7 @@
         {
           "at": [
             1.4,
-            51.0
+            51
           ],
           "name": "the Dover Strait",
           "note": "through the narrows into the Channel"
@@ -1518,15 +1563,15 @@
         },
         {
           "at": [
-            -6.0,
-            36.0
+            -6,
+            36
           ],
           "name": "the Strait of Gibraltar",
           "note": "into the Mediterranean"
         },
         {
           "at": [
-            8.0,
+            8,
             38.5
           ],
           "name": "the western Mediterranean",
@@ -1564,7 +1609,7 @@
         },
         {
           "at": [
-            8.0,
+            8,
             38.5
           ],
           "name": "the western Mediterranean",
@@ -1572,8 +1617,8 @@
         },
         {
           "at": [
-            -6.0,
-            36.0
+            -6,
+            36
           ],
           "name": "the Strait of Gibraltar",
           "note": "out of the Mediterranean into the Atlantic"
@@ -1613,14 +1658,14 @@
         {
           "at": [
             1.4,
-            51.0
+            51
           ],
           "name": "the Dover Strait",
           "note": "through the narrows"
         },
         {
           "at": [
-            1.0,
+            1,
             51.5
           ],
           "name": "the Thames Estuary",
@@ -1688,24 +1733,24 @@
         },
         {
           "at": [
-            -25.0,
-            8.0
+            -25,
+            8
           ],
           "name": "into the NE trades",
           "note": "running SW toward the Line"
         },
         {
           "at": [
-            -30.0,
-            -8.0
+            -30,
+            -8
           ],
           "name": "toward the Brazilian coast",
           "note": "crossing the SE trades near the Brazil bulge"
         },
         {
           "at": [
-            -20.0,
-            -30.0
+            -20,
+            -30
           ],
           "name": "South Atlantic westerlies",
           "note": "curving SE off the River Plate longitude"
@@ -1720,7 +1765,7 @@
         },
         {
           "at": [
-            70.0,
+            70,
             -39.5
           ],
           "name": "Southern Indian Ocean",
@@ -1728,7 +1773,7 @@
         },
         {
           "at": [
-            110.0,
+            110,
             -40.5
           ],
           "name": "SW of Cape Leeuwin",
@@ -1736,7 +1781,7 @@
         },
         {
           "at": [
-            140.0,
+            140,
             -39.5
           ],
           "name": "off King Island",
@@ -1872,25 +1917,23 @@
     },
     {
       "kind": "journey",
-      "character": "david",
+      "character": [
+        "david",
+        "steerforth"
+      ],
       "from": "golden-cross",
       "to": "yarmouth",
       "chapter": 21,
       "title": "Two worlds meet",
-      "narration": "David carries his friend off to Yarmouth, to show him the boat-house. He wants his two worlds to meet. They should not."
+      "narration": "David brings his dazzling friend Steerforth down to Yarmouth, to show him the boat-house: his two worlds, the gentleman and the fisherfolk, meeting at last. They should never have met."
     },
     {
-      "kind": "meanwhile",
-      "narration": "Steerforth's own road begins at Highgate, north of London, where a proud mother keeps her handsome only son."
-    },
-    {
-      "kind": "removal",
+      "kind": "scene",
       "character": "steerforth",
-      "from": "highgate",
-      "to": "yarmouth",
-      "chapter": 21,
+      "at": "yarmouth",
+      "chapter": 22,
       "title": "The charmer",
-      "narration": "He comes down and charms the boat-house whole: stays weeks, buys a boat. Em'ly, newly engaged to her cousin Ham, cannot stop watching him."
+      "narration": "Steerforth charms the boat-house whole — stays for weeks, buys a boat, is taken to every heart. Em'ly, newly engaged to her cousin Ham, cannot stop watching him."
     },
     {
       "kind": "journey",
