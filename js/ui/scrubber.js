@@ -38,7 +38,7 @@ function activityGradient(novel, timeline) {
   return `linear-gradient(90deg, ${stops.join(',')})`;
 }
 
-export function createScrubber(container, novel, timeline, engine) {
+export function createScrubber(container, novel, timeline, engine, { scripted = false, onSeekFraction = null } = {}) {
   const { tStart, tEnd } = timeline;
   container.innerHTML = `
     <button type="button" class="play-btn" aria-pressed="false" aria-label="Play">
@@ -64,12 +64,17 @@ export function createScrubber(container, novel, timeline, engine) {
       <div class="scrub-activity" aria-hidden="true"
            title="Darker bands are the times with more characters travelling"></div>
       <input class="scrub-range" type="range"
-             min="${tStart}" max="${tEnd - 0.01}" step="0.1" value="${tStart}"
-             aria-label="Story timeline">
+             min="${scripted ? 0 : tStart}" max="${scripted ? 1000 : tEnd - 0.01}"
+             step="${scripted ? 1 : 0.1}" value="${scripted ? 0 : tStart}"
+             aria-label="${scripted ? 'Story progress' : 'Story timeline'}">
     </div>`;
 
-  container.querySelector('.scrub-activity').style.background =
-    activityGradient(novel, timeline);
+  const activityEl = container.querySelector('.scrub-activity');
+  // In scripted mode the bar measures the telling's own progress (which
+  // creeps forward even through a still scene), not the day-clock — so it
+  // becomes a plain fill rather than the day-density band.
+  if (scripted) activityEl.style.background = 'var(--rule)';
+  else activityEl.style.background = activityGradient(novel, timeline);
 
   const playBtn = container.querySelector('.play-btn');
   const range = container.querySelector('.scrub-range');
@@ -115,8 +120,12 @@ export function createScrubber(container, novel, timeline, engine) {
 
   range.addEventListener('input', () => {
     scrubbing = true;
-    timeline.seek(range.valueAsNumber);
-    engine.requestRender();
+    if (scripted) {
+      if (onSeekFraction) onSeekFraction(range.valueAsNumber / 1000);
+    } else {
+      timeline.seek(range.valueAsNumber);
+      engine.requestRender();
+    }
     scrubbing = false;
   });
   range.addEventListener('keydown', (e) => {
@@ -130,7 +139,7 @@ export function createScrubber(container, novel, timeline, engine) {
   });
 
   timeline.on('tick', (t, positions) => {
-    if (!scrubbing) range.value = t;
+    if (!scripted && !scrubbing) range.value = t; // scripted: the story drives it
     updateHeading(t, positions);
   });
   timeline.on('playState', (playing) => {
@@ -141,4 +150,17 @@ export function createScrubber(container, novel, timeline, engine) {
   });
 
   updateHeading(tStart, timeline.positionsAt(tStart));
+
+  // Scripted story: the player pushes its continuous progress here, so the
+  // bar always advances — the reassurance the reader needs that it's
+  // working, even while a still scene holds.
+  return {
+    setStoryProgress(frac) {
+      const pct = Math.max(0, Math.min(1, frac)) * 100;
+      if (!scrubbing) range.value = Math.round(frac * 1000);
+      activityEl.style.background =
+        `linear-gradient(90deg, var(--accent) 0 ${pct}%, var(--rule) ${pct}% 100%)`;
+      range.setAttribute('aria-valuetext', `${Math.round(pct)}% through the story`);
+    },
+  };
 }

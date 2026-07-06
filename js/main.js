@@ -74,16 +74,19 @@ ready
     // clock playback.
     const scripted = Array.isArray(novel.story) && novel.story.length > 0;
     let story = null;
+    let scrubber = null;
     if (scripted) {
       engine.setExternalDriver(true);
       const storyCard = createStoryCard(document.getElementById('storycard'), novel, {
         onStep: (dir) => story.step(dir),
       });
       story = createStoryPlayer(novel, timeline, paths, {
+        map,
         director,
         engine,
         card: storyCard,
         emphasize: (id) => setRouteEmphasis(map, id),
+        onProgress: (frac) => scrubber && scrubber.setStoryProgress(frac),
       });
     }
     // Everything that starts/stops playback talks to the transport: the
@@ -112,7 +115,10 @@ ready
     const legend = createLegend(document.getElementById('legend'), novel, (id) => {
       selectCharacter(id === timeline.state.selected ? null : id);
     });
-    createScrubber(document.getElementById('controls'), novel, timeline, transport);
+    scrubber = createScrubber(document.getElementById('controls'), novel, timeline, transport, {
+      scripted,
+      onSeekFraction: (f) => story && story.gotoFraction(f),
+    });
     // The frame-the-story button lives inside the controls bar, where it
     // can never overlap the caption stack.
     document.getElementById('controls').append(document.getElementById('recentre'));
