@@ -1274,7 +1274,7 @@
       "to": "switzerland",
       "chapter": 58,
       "days": 20,
-      "mode": "ship",
+      "mode": "coach",
       "via": [
         {
           "at": [
@@ -1328,7 +1328,7 @@
       "to": "canterbury",
       "chapter": 60,
       "days": 20,
-      "mode": "ship",
+      "mode": "coach",
       "via": [
         {
           "at": [
