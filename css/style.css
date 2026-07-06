@@ -421,12 +421,17 @@ body.is-overture #storycard { display: none !important; }
   color: var(--ink-soft);
 }
 .story-mode[hidden] { display: none; }
-.story-mode .mode-icon { width: 17px; height: 17px; opacity: 0.85; }
+.story-mode .mode-icon { width: 18px; height: 18px; opacity: 0.85; }
 #storycard.is-interstitial .story-mode { color: var(--paper); }
+/* The character disc: the story card's echo of their circle on the map —
+   a filled colour circle with the same light ring the marker carries. */
 .story-swatch {
-  width: 16px;
-  height: 16px;
+  flex: none;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
+  border: 1.5px solid var(--paper-bright);
   display: inline-flex;
   align-items: center;
   justify-content: center;
