@@ -327,7 +327,12 @@
       "certainty": "real",
       "story": "Where the wager is struck over whist and the Daily Telegraph's timetable, and where — eighty days later — Fogg must be back by a quarter before nine to win. He leaves at twenty-five past seven that same evening.",
       "quote": "I shall be due in London in this very room of the Reform Club, on\nSaturday, the 21st of December, at a quarter before nine p.m.",
-      "quoteRef": "Ch. 3"
+      "quoteRef": "Ch. 3",
+      "image": {
+        "file": "assets/images/reform-club.jpg",
+        "caption": "The Reform Club, Pall Mall, wood engraving, 1896",
+        "credit": "Wood engraving, 1896 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "charing-cross",
@@ -412,7 +417,12 @@
       "certainty": "real",
       "story": "At the head of the Red Sea, where Fix waits with a warrant that never comes and inspects the Mongolia's passengers. Passepartout has his passport stamped; the detective attaches himself to the party here.",
       "quote": "Reached Suez, Wednesday, October 9th, at 11 a.m.",
-      "quoteRef": "Ch. 7, Fix's telegram log"
+      "quoteRef": "Ch. 7, Fix's telegram log",
+      "image": {
+        "file": "assets/images/suez.jpg",
+        "caption": "The opening of the Suez Canal at Ismailia, 1869",
+        "credit": "Stereoview, 1869 · Rijksmuseum · CC0"
+      }
     },
     {
       "id": "aden",
@@ -440,7 +450,12 @@
       "certainty": "real",
       "story": "India reached ahead of time. Passepartout wanders into a pagoda in his shoes and is set upon; the Great Indian Peninsula Railway carries them east that same evening — and that small blasphemy will hand Fix his pretext later.",
       "quote": "at the quays of Bombay",
-      "quoteRef": "Ch. 9"
+      "quoteRef": "Ch. 9",
+      "image": {
+        "file": "assets/images/bombay.jpg",
+        "caption": "Bombay harbour, photographed c.1870",
+        "credit": "Albumen photograph, c.1870 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "kholby",
@@ -540,7 +555,12 @@
       "certainty": "real",
       "story": "The last British ground before Japan — where Fix's warrant might at last be valid, and is not. He gets Passepartout drunk and drugged in an opium den so he cannot warn Fogg; the Carnatic sails a day early, carrying the servant off senseless and leaving master and detective behind. Fogg hires the pilot-boat Tankadere to chase her.",
       "quote": "Hong Kong, which is a little English colony near the Chinese coast",
-      "quoteRef": "Ch. 17"
+      "quoteRef": "Ch. 17",
+      "image": {
+        "file": "assets/images/hong-kong.jpg",
+        "caption": "Victoria Harbour, Hong Kong, from the Botanical Gardens, c.1870",
+        "credit": "William Pryor Floyd, c.1870 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "shanghai",
@@ -582,7 +602,12 @@
       "certainty": "real",
       "story": "America, reached on 3 December after twenty-two days of Pacific. A political brawl in the street, a first sight of the New World — and that evening the party boards the Pacific Railroad train east.",
       "quote": "the “General Grant” entered\nthe bay of the Golden Gate, and reached San Francisco.",
-      "quoteRef": "Ch. 25"
+      "quoteRef": "Ch. 25",
+      "image": {
+        "file": "assets/images/san-francisco.jpg",
+        "caption": "San Francisco from Nob Hill — from Muybridge’s panorama, 1878",
+        "credit": "Eadweard Muybridge, 1878 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "ogden",
@@ -695,7 +720,12 @@
       "certainty": "real",
       "story": "They reach the quay forty-five minutes after the Liverpool steamer China has sailed. Fogg charters the trading vessel Henrietta instead, buys off her crew, and — when her captain refuses Liverpool — takes command himself.",
       "quote": "The “China,” for Liverpool, had started three-quarters of an hour\nbefore!",
-      "quoteRef": "Ch. 32"
+      "quoteRef": "Ch. 32",
+      "image": {
+        "file": "assets/images/new-york.jpg",
+        "caption": "New York harbour and the East River, Currier & Ives, 1879",
+        "credit": "C.R. Parsons for Currier & Ives, 1879 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "queenstown",
