@@ -375,7 +375,13 @@
       "note": "Gateshead Hall is invented and scholarship has never fixed it to a real house. The text places it a hard two-day, hundred-mile coach ride north of Lowood, in a '——shire' remote from London — so it lies well north of the Peak. This point is an editorial best guess in the north Midlands; it is not the real Gateshead on Tyne, which the novel does not mean.",
       "story": "The Reeds' house, where the novel opens: Jane a despised orphan-ward, shut in the haunted red-room, and at last shipped off to charity school. She is called back here years later to a dying, unrepenting aunt, and learns of the uncle in Madeira who will one day make her rich.",
       "quote": "“Good-bye to Gateshead!” cried I, as we passed through the hall and went out at the front door.",
-      "quoteRef": "Ch. 5"
+      "quoteRef": "Ch. 5",
+      "image": {
+        "file": "assets/images/je-gateshead.jpg",
+        "caption": "Stone Gappe, near Lothersdale in the West Riding — the genteel Georgian house that Charlotte Brontë knew as a governess and drew on for Gateshead Hall, photographed in 1899. It stands in here for the aunt's cold house, which the novel never locates.",
+        "credit": "W. R. Bland, 1899, from The Life and Works of the Sisters Brontë · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "lowood",
@@ -420,7 +426,13 @@
       "note": "Thornfield is drawn from North Lees Hall near Hathersage, which Charlotte Brontë visited in 1845 while staying at the Hathersage vicarage; the battlemented three-storey house, its roof-view and the shut-up upper room all match. Only Norton Conyers in Yorkshire has rivalled it as a candidate, but North Lees is the settled favourite.",
       "story": "Mr Rochester's house, and the heart of the book. Jane comes as governess to little Adèle; she and Rochester fall in love across a winter of fireside talk; and above them, behind a locked door, his mad wife Bertha Mason sets fires and bites in the night. The wedding is stopped at the altar by the revelation of that wife — and Jane flees. In her absence Bertha burns the hall to the ground.",
       "quote": "“Mrs. Fairfax, Thornfield, near Millcote, ——shire.”",
-      "quoteRef": "Ch. 10"
+      "quoteRef": "Ch. 10",
+      "image": {
+        "file": "assets/images/je-thornfield.jpg",
+        "caption": "The Rydings, Birstall — a battlemented stone hall Charlotte Brontë stayed at, and one of the early models proposed for Thornfield, photographed in 1899. It stands in here for the mood of the house; the settled favourite for Thornfield is North Lees Hall near Hathersage, of which no period photograph is in the public domain.",
+        "credit": "W. R. Bland, 1899, from The Life and Works of the Sisters Brontë · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "hay",
@@ -435,7 +447,13 @@
       "note": "Hay is the village two miles from Thornfield with the post and the nearest church; it maps onto Hathersage, the real village below North Lees Hall. (Hathersage does double duty in the novel — its moorland stands in again, later, for Morton.)",
       "story": "The village two miles off, on the road where Jane, out to post a letter on a frosty afternoon, first meets Rochester — his horse slipping on the ice of the causeway, its rider swearing, neither of them yet knowing the other.",
       "quote": "and volunteered to carry it to Hay; the distance, two miles, would be a pleasant winter afternoon walk.",
-      "quoteRef": "Ch. 12"
+      "quoteRef": "Ch. 12",
+      "image": {
+        "file": "assets/images/je-hay.jpg",
+        "caption": "The main street of Hathersage, Derbyshire — the real village below North Lees Hall that Brontë used for Hay (and, later, for Morton), photographed in 1899. This is the country of the lane where Jane first meets Rochester.",
+        "credit": "W. R. Bland, 1899, from The Life and Works of the Sisters Brontë · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "millcote",
@@ -465,7 +483,13 @@
       "note": "Whitcross is a fictional guide-stone — 'no town, nor even a hamlet', a whitewashed pillar where four roads meet on a 'north-midland shire, dusk with moorland'. It cannot be pinned to a real crossroads; this point sets it out on the open moor west of Thornfield, on the road the fleeing Jane's coach-fare could reach, and within the day's walk of the Rivers' Morton country.",
       "story": "Where the coach sets Jane down when her money runs out, penniless after the aborted wedding. She leaves her one parcel behind in the coach and is 'absolutely destitute' — and for two days and nights she wanders and sleeps on the moor, begging bread, before she is taken in.",
       "quote": "Whitcross is no town, nor even a hamlet; it is but a stone pillar set up where four roads meet",
-      "quoteRef": "Ch. 28"
+      "quoteRef": "Ch. 28",
+      "image": {
+        "file": "assets/images/je-whitcross.jpg",
+        "caption": "The open moor near Hathersage — gritstone boulders, heather and a flat-topped edge running to the horizon, photographed in 1899. This is the real Peak moorland beneath the fictional Whitcross, where Jane is set down penniless and wanders destitute.",
+        "credit": "W. R. Bland, 1899, from The Life and Works of the Sisters Brontë · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "moor-house",
@@ -480,7 +504,13 @@
       "note": "The Rivers' house — 'Some calls it Marsh End, and some calls it Moor House' — is Brontë's invention, but the Morton country round it is drawn from the Hathersage moors she knew in 1845. This point stands on that moor, close by Whitcross, at the end of Jane's destitute walk; the house itself has no settled real original.",
       "story": "The house on the moor where St John Rivers and his sisters Diana and Mary take the dying Jane in off their doorstep. Nursed back, she finds a home at last — and in time the Rivers prove to be her own cousins, and the Madeira uncle's fortune, split four ways, makes them all comfortable.",
       "quote": "“Some calls it Marsh End, and some calls it Moor House.”",
-      "quoteRef": "Ch. 28"
+      "quoteRef": "Ch. 28",
+      "image": {
+        "file": "assets/images/je-moor-house.jpg",
+        "caption": "Moorseats, a gritstone house on the hillside above Hathersage that Brontë knew in 1845 and is traditionally taken as the model for the Rivers' Moor House, photographed in 1899. It stands in for the door at which the destitute Jane is taken in.",
+        "credit": "W. R. Bland, 1899, from The Life and Works of the Sisters Brontë · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "morton",
@@ -495,7 +525,13 @@
       "note": "Morton — St John's parish, with its church, its village school and the Olivers' needle-works — is drawn from Hathersage, where Charlotte Brontë stayed at the vicarage in 1845; the needle-mills and the family Eyre in the parish register are both real Hathersage facts she used. It shares its ground with 'Hay', two miles from Thornfield.",
       "story": "The moorland parish where St John is clergyman. Jane keeps the village girls' school here, refuses St John's cold offer to make her a missionary's wife in India, and hears — across the miles, on the wind — Rochester's voice calling her name, the moment that sends her back to Thornfield.",
       "quote": "when I heard him preach in his own church at Morton.",
-      "quoteRef": "Ch. 30"
+      "quoteRef": "Ch. 30",
+      "image": {
+        "file": "assets/images/je-morton.jpg",
+        "caption": "The spired parish church of Hathersage, Derbyshire — the real village Brontë stayed at in 1845 and used for St John's parish of Morton, photographed in 1899. This is the church of the passage where Jane hears him preach.",
+        "credit": "W. R. Bland, 1899, from The Life and Works of the Sisters Brontë · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "ferndean",
@@ -510,7 +546,13 @@
       "note": "Ferndean is invented and unlocated — 'a manor-house on a farm he has, about thirty miles off', 'deep buried in a wood', on damp, 'insalubrious' ground. This point sets it thirty-odd miles from Thornfield, deeper into the wooded folds of the Peak, in the direction the text implies without naming a real house.",
       "story": "Rochester's other, hidden house, where he has withdrawn — blind and maimed from the Thornfield fire, in which he tried and failed to save Bertha. Jane finds him here, and stays; the reunion, the marriage, and the slow return of a little of his sight all happen in this dripping wood.",
       "quote": "The manor-house of Ferndean was a building of considerable antiquity, moderate size, and no architectural pretensions, deep buried in a wood.",
-      "quoteRef": "Ch. 37"
+      "quoteRef": "Ch. 37",
+      "image": {
+        "file": "assets/images/je-ferndean.jpg",
+        "caption": "The ruined mullioned hall at Wycoller, buried in trees beside its old stone bridge — the manor long taken as the model for Ferndean — photographed in 1899. It stands in for Rochester's last house, 'deep buried in a wood'.",
+        "credit": "W. R. Bland, 1899, from The Life and Works of the Sisters Brontë · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     }
   ],
   "movements": [
