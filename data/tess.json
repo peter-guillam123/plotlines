@@ -806,7 +806,28 @@
       "to": "trantridge",
       "chapter": 7,
       "mode": "coach",
-      "note": "To live, as keeper of Mrs d'Urberville's fowls — Alec driving the last downhill stage at a deliberately reckless gallop"
+      "note": "To live, as keeper of Mrs d'Urberville's fowls — Alec driving the last downhill stage at a deliberately reckless gallop",
+      "via": [
+        {
+          "at": [
+            -2.196,
+            51.006
+          ],
+          "name": "Shaston (Shaftesbury)",
+          "note": "up out of the Vale onto the hill-town"
+        },
+        {
+          "at": [
+            -2.005,
+            50.958
+          ],
+          "name": "Handley (Sixpenny Handley)",
+          "note": "along the chalk edge toward the Chase country"
+        }
+      ],
+      "routeNote": "Up out of Blackmoor by Shaston, then east along the chalk by Handley to Trantridge — Alec driving the last downhill stage at a reckless gallop.",
+      "routeSource": "The carrier's road out of the Vale climbed through Shaftesbury; the line east along the downs to Pentridge follows the real lanes past Sixpenny Handley.",
+      "routeCertainty": "reconstructed"
     },
     {
       "character": "alec",
@@ -852,7 +873,28 @@
       "to": "marlott",
       "chapter": 12,
       "mode": "foot",
-      "note": "The Sunday-morning walk home with her basket, a few weeks later; Alec overtakes her and drives her part of the way"
+      "note": "The Sunday-morning walk home with her basket, a few weeks later; Alec overtakes her and drives her part of the way",
+      "via": [
+        {
+          "at": [
+            -2.005,
+            50.958
+          ],
+          "name": "Handley (Sixpenny Handley)",
+          "note": "west along the chalk out of the Chase country"
+        },
+        {
+          "at": [
+            -2.196,
+            51.006
+          ],
+          "name": "Shaston (Shaftesbury)",
+          "note": "the hill-town on the Vale's rim"
+        }
+      ],
+      "routeNote": "The long walk home for good: west along the downs by Handley and over Shaston, then down into the Vale — Alec overtaking her, and put off, on the road.",
+      "routeSource": "The reverse of her road into service: the real lanes east of Pentridge by Sixpenny Handley, then the Shaftesbury road down into Blackmoor.",
+      "routeCertainty": "reconstructed"
     },
     {
       "character": "tess",
@@ -903,7 +945,28 @@
       "to": "emminster",
       "chapter": 39,
       "mode": "coach",
-      "note": "Three weeks after the wedding, to tell his parents of Brazil. His track pauses here: a year in Brazil, offstage, before he returns to Emminster fever-worn"
+      "note": "Three weeks after the wedding, to tell his parents of Brazil. His track pauses here: a year in Brazil, offstage, before he returns to Emminster fever-worn",
+      "via": [
+        {
+          "at": [
+            -2.441,
+            50.711
+          ],
+          "name": "Casterbridge (Dorchester)",
+          "note": "west along the valley to the county town"
+        },
+        {
+          "at": [
+            -2.575,
+            50.774
+          ],
+          "name": "Maiden Newton",
+          "note": "up the Frome and out toward the western hills"
+        }
+      ],
+      "routeNote": "West down the valley from Wellbridge through Casterbridge, then up by Maiden Newton to the Clare vicarage at Emminster.",
+      "routeSource": "No route named for the leg — the turnpike west from Wool ran through Dorchester, and Maiden Newton is the road-junction for Beaminster.",
+      "routeCertainty": "reconstructed"
     },
     {
       "character": "tess",
@@ -954,8 +1017,29 @@
       "from": "trantridge",
       "to": "evershead",
       "chapter": 45,
-      "mode": "unknown",
-      "note": "Reappearing after the missing years as a ranting convert, mid-circuit, preaching in a barn on the Evershead road"
+      "mode": "horse",
+      "note": "Reappearing after the missing years as a ranting convert, mid-circuit, preaching in a barn on the Evershead road",
+      "via": [
+        {
+          "at": [
+            -2.166,
+            50.856
+          ],
+          "name": "Blandford Forum",
+          "note": "west off the Cranborne country into the heart of Dorset"
+        },
+        {
+          "at": [
+            -2.386,
+            50.855
+          ],
+          "name": "Buckland Newton",
+          "note": "up the Blackmoor edge toward the western hills"
+        }
+      ],
+      "routeNote": "Right across Dorset from the Cranborne country by Pentridge, west through Blandford Forum and up by Buckland Newton to the barn on the Evershead road.",
+      "routeSource": "No route named in the text — Hardy has Alec appear mid-circuit as a ranting convert. This reconstructs the natural line west across the county on the Blandford turnpike toward Evershot.",
+      "routeCertainty": "reconstructed"
     },
     {
       "character": "tess",
@@ -1018,20 +1102,36 @@
       "note": "Still in pursuit: it is his form Tess finds stretched on the altar-tomb in the d'Urberville aisle"
     },
     {
-      "character": "tess",
+      "character": [
+        "tess",
+        "alec"
+      ],
       "from": "kingsbere",
       "to": "sandbourne",
       "chapter": 53,
-      "mode": "unknown",
-      "note": "Offstage, between chapters: with her family destitute, she yields at last and goes to Alec at The Herons"
-    },
-    {
-      "character": "alec",
-      "from": "kingsbere",
-      "to": "sandbourne",
-      "chapter": 53,
-      "mode": "unknown",
-      "note": "His last remove; he dies at Sandbourne"
+      "mode": "coach",
+      "note": "Offstage, between chapters: her family destitute, Tess yields at last and goes with Alec to keep house at The Herons — his last remove, and hers.",
+      "via": [
+        {
+          "at": [
+            -2.11,
+            50.687
+          ],
+          "name": "Wareham",
+          "note": "down off the heath toward the coast"
+        },
+        {
+          "at": [
+            -1.987,
+            50.72
+          ],
+          "name": "Poole",
+          "note": "the harbour town at the edge of the new resort"
+        }
+      ],
+      "routeNote": "South-east off the Kingsbere heath by Wareham and Poole to the glittering new pleasure-city of Sandbourne.",
+      "routeSource": "The move is passed over between chapters; the line follows the real road from Bere Regis down through Wareham and Poole to Bournemouth.",
+      "routeCertainty": "reconstructed"
     },
     {
       "character": "angel",
@@ -1040,12 +1140,27 @@
       "chapter": 54,
       "mode": "coach",
       "via": [
-        [
-          -2.533,
-          50.838
-        ]
+        {
+          "at": [
+            -2.66,
+            50.79
+          ],
+          "name": "Benvill Lane",
+          "note": "the high lane east out of the Emminster basin"
+        },
+        {
+          "at": [
+            -2.533,
+            50.838
+          ],
+          "name": "Cross-in-Hand",
+          "note": "the sinister old stone on the upland"
+        }
       ],
-      "note": "Home from Brazil, searching: a hired trap along Benvill Lane and past Cross-in-Hand. At the farm no 'Mrs Clare' has ever been heard of"
+      "note": "Home from Brazil, searching: a hired trap along Benvill Lane and past Cross-in-Hand. At the farm no 'Mrs Clare' has ever been heard of",
+      "routeNote": "His search runs her winter backward: a hired trap along Benvill Lane and over the hills by Cross-in-Hand to the starve-acre farm.",
+      "routeSource": "Hardy names Benvill Lane and Cross-in-Hand on this search (Ch. 54); the line between them follows the real upland lanes.",
+      "routeCertainty": "novel"
     },
     {
       "character": "angel",
@@ -1053,7 +1168,20 @@
       "to": "marlott",
       "chapter": 54,
       "mode": "coach",
-      "note": "A borrowed gig to the Vale's edge, the last stretch on foot — to find strangers in the house and John Durbeyfield's headstone unpaid for"
+      "note": "A borrowed gig to the Vale's edge, the last stretch on foot — to find strangers in the house and John Durbeyfield's headstone unpaid for",
+      "via": [
+        {
+          "at": [
+            -2.36,
+            50.855
+          ],
+          "name": "the Blackmoor edge",
+          "note": "down off the flint uplands toward the Vale"
+        }
+      ],
+      "routeNote": "A borrowed gig north off the uplands to the Vale's edge, the last stretch on foot into Marlott.",
+      "routeSource": "No route named for the leg; the line drops north off the Flintcomb uplands into Blackmoor by the real lanes toward Marnhull.",
+      "routeCertainty": "reconstructed"
     },
     {
       "character": "angel",
@@ -1123,8 +1251,29 @@
       "from": "stonehenge",
       "to": "wintoncester",
       "chapter": 58,
-      "mode": "unknown",
-      "note": "Taken at dawn from the warm slab where she slept — 'I am ready'"
+      "mode": "coach",
+      "note": "Taken at dawn from the warm slab where she slept — 'I am ready'",
+      "via": [
+        {
+          "at": [
+            -1.794,
+            51.068
+          ],
+          "name": "Melchester (Salisbury)",
+          "note": "back off the plain into the cathedral city"
+        },
+        {
+          "at": [
+            -1.5,
+            50.99
+          ],
+          "name": "Romsey",
+          "note": "east down the Test valley"
+        }
+      ],
+      "routeNote": "Taken off Salisbury Plain a prisoner: back through Melchester, then east by Romsey and the Test valley to the county gaol at Wintoncester.",
+      "routeSource": "The text says only that she is taken across Wessex to the county gaol. This follows the real road east from Salisbury through Romsey to Winchester.",
+      "routeCertainty": "reconstructed"
     },
     {
       "character": "angel",
@@ -1132,7 +1281,28 @@
       "to": "wintoncester",
       "chapter": 59,
       "mode": "foot",
-      "note": "To the great West Hill with 'Liza-Lu, one July morning, to watch the black flag go up"
+      "note": "To the great West Hill with 'Liza-Lu, one July morning, to watch the black flag go up",
+      "via": [
+        {
+          "at": [
+            -1.794,
+            51.068
+          ],
+          "name": "Melchester (Salisbury)",
+          "note": "off the plain, back through the cathedral city"
+        },
+        {
+          "at": [
+            -1.5,
+            50.99
+          ],
+          "name": "Romsey",
+          "note": "east down the Test valley"
+        }
+      ],
+      "routeNote": "The road east from the plain: down through Melchester and by Romsey and the Test valley to the great West Hill above Wintoncester.",
+      "routeSource": "No route named — Hardy brings Angel and 'Liza-Lu to the West Hill above Winchester. This follows the real Salisbury–Romsey–Winchester road.",
+      "routeCertainty": "reconstructed"
     }
   ],
   "story": [
@@ -1470,12 +1640,15 @@
     },
     {
       "kind": "removal",
-      "character": "tess",
+      "character": [
+        "tess",
+        "alec"
+      ],
       "from": "kingsbere",
       "to": "sandbourne",
       "chapter": 53,
       "title": "The surrender",
-      "narration": "What happens next the book passes over between chapters. With her people destitute and no word from her husband, Tess yields at last, and goes to Alec at the bright new seaside city of Sandbourne, as the price of her family's shelter."
+      "narration": "What happens next the book passes over between chapters. With her people destitute and no word from her husband, Tess yields at last, and goes with Alec to the bright new seaside city of Sandbourne — kept at The Herons as the price of her family's shelter."
     },
     {
       "kind": "handoff",
