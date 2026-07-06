@@ -277,6 +277,11 @@
         48.137
       ],
       "certainty": "real",
+      "image": {
+        "file": "assets/images/dr-munich.jpg",
+        "caption": "Marienplatz, Munich, photographed c.1890",
+        "credit": "Photochrom Print Collection, c.1890 · Library of Congress · Wikimedia Commons · public domain"
+      },
       "story": "Where the novel's travelling begins: Jonathan leaves by the evening train on 1 May, bound east.",
       "quote": "Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning",
       "quoteRef": "Ch. 1, Jonathan Harker's Journal"
@@ -291,6 +296,11 @@
         48.208
       ],
       "certainty": "real",
+      "image": {
+        "file": "assets/images/dr-vienna.jpg",
+        "caption": "The Ringstrasse and Parliament, Vienna, photographed 1890",
+        "credit": "Victor Angerer, 1890 · Wikimedia Commons · public domain"
+      },
       "story": "An early-morning stop on Jonathan's outbound journey — the train already running late.",
       "quote": "should have arrived at 6:46, but train was an hour late",
       "quoteRef": "Ch. 1, Jonathan Harker's Journal"
@@ -319,6 +329,11 @@
         46.77
       ],
       "certainty": "real",
+      "image": {
+        "file": "assets/images/dr-klausenburgh.jpg",
+        "caption": "The main square (Főtér) and St Michael's Church, Kolozsvár (Cluj), c.1890",
+        "credit": "Unknown photographer, c.1890 · Wikimedia Commons · public domain"
+      },
       "story": "Jonathan overnights at the Hotel Royale, dines on paprika hendl, and starts noting recipes for Mina.",
       "quote": "Here I stopped for the night at the Hotel Royale",
       "quoteRef": "Ch. 1, Jonathan Harker's Journal"
@@ -382,6 +397,11 @@
         43.205
       ],
       "certainty": "real",
+      "image": {
+        "file": "assets/images/dr-varna.jpg",
+        "caption": "The old fortress wall and gate at Varna, on the Black Sea, photographed c.1890",
+        "credit": "Bulgarian Archives State Agency (BASA), c.1890 · Wikimedia Commons · public domain"
+      },
       "story": "The Demeter sails from here with fifty boxes of earth. Months later the hunters wait here to ambush the returning Count — and the ship slips past them.",
       "quote": "the schooner is a Russian from Varna",
       "quoteRef": "Ch. 7, cutting from \"The Dailygraph\""
@@ -443,6 +463,11 @@
         51.5308
       ],
       "certainty": "real",
+      "image": {
+        "file": "assets/images/dr-kings-cross.jpg",
+        "caption": "The Great Northern Railway terminus at King's Cross, engraved 1851",
+        "credit": "Illustrated London News, 1851 · Wikimedia Commons · public domain"
+      },
       "story": "Fifty boxes of common earth arrive by the Great Northern Railway, to be carted quietly on to Carfax.",
       "quote": "The goods leave by the train at 9:30 to-night, and will be due at King's Cross at 4:30 to-morrow afternoon",
       "quoteRef": "Ch. 8, letter, Billington & Son to Carter, Paterson & Co."
@@ -472,6 +497,11 @@
         50.722
       ],
       "certainty": "real",
+      "image": {
+        "file": "assets/images/dr-exeter.jpg",
+        "caption": "The west front of Exeter Cathedral, photographed c.1890",
+        "credit": "Photochrom Print Collection, c.1890 · Library of Congress · Wikimedia Commons · public domain"
+      },
       "story": "Mr Hawkins's town, and the Harkers' married home. When Hawkins dies, Jonathan inherits the practice — and the means to fight.",
       "quote": "You come to me not alone as agent of my friend Peter Hawkins, of Exeter",
       "quoteRef": "Ch. 2, Count Dracula to Jonathan Harker"
@@ -624,6 +654,11 @@
         51.5074
       ],
       "certainty": "real",
+      "image": {
+        "file": "assets/images/dr-charing-cross.jpg",
+        "caption": "The Eleanor Cross in the yard of Charing Cross station, London, c.1903",
+        "credit": "A. H. Kirk, postcard, c.1903 · New York Public Library · Wikimedia Commons · public domain"
+      },
       "story": "The whole company leaves from here on 12 October, racing the Count's ship across a continent.",
       "quote": "We left Charing Cross on the morning of the 12th",
       "quoteRef": "Ch. 25, Jonathan Harker's Journal"
