@@ -1192,7 +1192,11 @@ body.is-overture #captions { display: none !important; }
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: min(640px, calc(100vw - 32px));
+  /* Grow with the shelf: wide enough for the books on it, never wider than
+     the viewport. Beyond a screenful of spines, the shelf itself scrolls. */
+  width: fit-content;
+  min-width: min(560px, calc(100vw - 48px));
+  max-width: calc(100vw - 48px);
   max-height: calc(100vh - 32px);
   overflow-y: auto;
   padding: 34px 38px 26px;
@@ -1224,7 +1228,9 @@ body.is-overture #captions { display: none !important; }
   margin: 26px auto 0;
   padding: 0 10px 10px;
   display: flex;
-  justify-content: center;
+  /* `safe` centres while there's room, then falls back to the start once
+     the row overflows — so the first spine is never scrolled off-screen. */
+  justify-content: safe center;
   align-items: flex-end;
   gap: 10px;
   overflow-x: auto;
