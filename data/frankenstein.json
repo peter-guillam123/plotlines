@@ -265,7 +265,12 @@
       "certainty": "real",
       "story": "Victor's home city, and the still centre the whole book keeps returning to. He is raised here with Elizabeth; here William is murdered and Justine hanged for it; here the family gathers, grieves, and at last plans the wedding.",
       "quote": "We possessed a house in Geneva, and a _campagne_ on Belrive",
-      "quoteRef": "Ch. 1"
+      "quoteRef": "Ch. 1",
+      "image": {
+        "file": "assets/images/fr-geneva.jpg",
+        "caption": "Geneva and the Pont du Mont-Blanc, with the Salève beyond — steel engraving, c.1850",
+        "credit": "Ludwig Rohbock (del.) & Fr. Müller (sc.), pub. G. G. Lange, Darmstadt, c.1850 · Swiss National Library / Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "belrive",
@@ -280,7 +285,12 @@
       "note": "The Frankensteins' lakeside 'campagne' east of the city. Shelley names Belrive on the eastern shore of the lake near Cologny; this point sits on that shore, a best fit for the family's country house.",
       "story": "The family's country house on the eastern shore. It is here, as a boy, that Victor watches lightning shatter an old oak and first turns his mind to the forces that will undo him; here too the household retreats after Justine's death.",
       "quote": "About this time we retired to our house at Belrive",
-      "quoteRef": "Ch. 6"
+      "quoteRef": "Ch. 6",
+      "image": {
+        "file": "assets/images/fr-belrive.jpg",
+        "caption": "A villa on the shore of Lake Geneva, the Alps beyond — steel engraving 'Lake of Geneva', 1840",
+        "credit": "William Miller after D. McKenzie, 1840 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "plainpalais",
@@ -308,7 +318,12 @@
       "certainty": "real",
       "story": "The Alpine valley Victor flees to in his grief. From here he climbs to Montanvert, hoping the sublime scenery will quiet his mind — and instead finds the creature waiting for him on the ice.",
       "quote": "entered the valley of Chamounix",
-      "quoteRef": "Ch. 9"
+      "quoteRef": "Ch. 9",
+      "image": {
+        "file": "assets/images/fr-chamounix.jpg",
+        "caption": "The Mer de Glace above the Chamonix valley — photochrom, c.1900",
+        "credit": "Detroit Publishing Co. photochrom, c.1900 · Library of Congress / Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "montanvert",
@@ -322,7 +337,12 @@
       "certainty": "real",
       "story": "The glacier viewpoint above Chamonix, over the great river of ice. Here the creature bounds across the crevasses to meet its maker face to face, and — for the length of nine chapters — tells its own story: the cottage, the rejection, the murder of William.",
       "quote": "vast river of ice, wound among its dependent mountains",
-      "quoteRef": "Ch. 10"
+      "quoteRef": "Ch. 10",
+      "image": {
+        "file": "assets/images/fr-montanvert.jpg",
+        "caption": "The Mer de Glace from Montanvert, with the hut on the moraine — hand-coloured view, c.1781",
+        "credit": "Carl Ludwig Hackert, c.1781 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "evian",
@@ -336,7 +356,12 @@
       "certainty": "real",
       "story": "The little town on the far shore of Lake Geneva where Victor and Elizabeth stop on their wedding night. Sure the creature's threatened vengeance is meant for him, Victor keeps watch — and hears Elizabeth scream in the room he has left her in.",
       "quote": "sleeping that night at Evian and continuing our voyage on the following day",
-      "quoteRef": "Ch. 23"
+      "quoteRef": "Ch. 23",
+      "image": {
+        "file": "assets/images/fr-evian.jpg",
+        "caption": "Évian-les-Bains from the lake, the mountains behind — photochrom, c.1900",
+        "credit": "Photoglob Zürich / Photochrom Print Collection, c.1900 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "ingolstadt",
@@ -350,7 +375,12 @@
       "certainty": "real",
       "story": "The Bavarian university where Victor studies natural philosophy and, on a dreary night of November, gives his creature life — then flees the room in horror. When he returns, it is gone. Years later he comes back to buy the instruments for a second, female creature.",
       "quote": "It was on a dreary night of November that I beheld the accomplishment of my toils",
-      "quoteRef": "Ch. 5"
+      "quoteRef": "Ch. 5",
+      "image": {
+        "file": "assets/images/fr-ingolstadt.jpg",
+        "caption": "Ingolstadt from the fields, the Liebfrauenmünster rising over the town — hand-coloured lithograph, 1823",
+        "credit": "Adolph Kunike, 1823 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "delacey-cottage",
@@ -365,7 +395,13 @@
       "note": "The novel never fixes the cottage — the creature wanders from Ingolstadt through woods and fields for some days before finding it, so it lies somewhere in the German countryside beyond the city. This point is an editorial best guess in the country north-east of Ingolstadt; the position is not the novel's.",
       "story": "The hovel where the creature shelters, watching a poor blind man and his children through a chink in the wall. Here it learns to speak, to read, to hope for kindness — and, when it finally shows itself, is beaten and driven out. Its rejection here turns it toward revenge.",
       "quote": "The name of the old man was De Lacey.",
-      "quoteRef": "Ch. 11"
+      "quoteRef": "Ch. 11",
+      "image": {
+        "file": "assets/images/fr-delacey-cottage.jpg",
+        "caption": "The Bavarian countryside on the Danube, near Ingolstadt — oil painting, 1863",
+        "credit": "Pieter Franciscus Peters, 1863 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "strasbourg",
@@ -379,7 +415,12 @@
       "certainty": "real",
       "story": "Where Victor and Clerval meet to begin their journey to England. From here they take a boat down the Rhine, Victor carrying his chemical instruments and the dread of the work still to do.",
       "quote": "arrived at Strasburgh, where I waited two days for Clerval",
-      "quoteRef": "Ch. 18"
+      "quoteRef": "Ch. 18",
+      "image": {
+        "file": "assets/images/fr-strasbourg.jpg",
+        "caption": "The old Maison Kammerzell, Strasbourg — photochrom, c.1895",
+        "credit": "Photochrom Print Collection, c.1895 · Library of Congress / Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "rotterdam",
@@ -393,7 +434,12 @@
       "certainty": "real",
       "story": "The end of the Rhine voyage, on the plains of Holland, where Victor and Clerval take ship across the Channel for England.",
       "quote": "arrived in a few days at Rotterdam, whence we proceeded by sea to England",
-      "quoteRef": "Ch. 18"
+      "quoteRef": "Ch. 18",
+      "image": {
+        "file": "assets/images/fr-rotterdam.jpg",
+        "caption": "The Leuvehaven, Rotterdam, thick with sailing barges — photochrom, c.1900",
+        "credit": "Photochrom Print Collection, c.1900 · Library of Congress / Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "london",
@@ -407,7 +453,12 @@
       "certainty": "real",
       "story": "The travellers' point of rest for several months. Clerval delights in the city; Victor, dreading his promise, quietly gathers the materials for the second creature before they turn north.",
       "quote": "we saw the numerous steeples of London, St. Paul’s towering above all",
-      "quoteRef": "Ch. 18"
+      "quoteRef": "Ch. 18",
+      "image": {
+        "file": "assets/images/fr-london.jpg",
+        "caption": "London from the Thames, St Paul's towering over the shipping — oil painting, c.1850",
+        "credit": "John Gendall, c.1850 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "oxford",
@@ -421,7 +472,12 @@
       "certainty": "real",
       "story": "A stop on the leisurely tour north — Windsor, Oxford, Matlock, the lakes. Clerval is happy among the ancient colleges; Victor walks the same streets 'a blasted tree', the bolt already in his soul.",
       "quote": "From thence we proceeded to Oxford.",
-      "quoteRef": "Ch. 19"
+      "quoteRef": "Ch. 19",
+      "image": {
+        "file": "assets/images/fr-oxford.jpg",
+        "caption": "Oxford, the High Street and the spires and domes beyond — photochrom, c.1895",
+        "credit": "Photoglob Zürich / Detroit Publishing Co. photochrom, c.1895 · Library of Congress / Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "perth",
@@ -435,7 +491,12 @@
       "certainty": "real",
       "story": "Where a Scottish acquaintance expects the two friends. Victor leaves Clerval here to make 'the tour of Scotland alone' — really to finish his loathsome work in solitude — with Perth set as their rendezvous.",
       "quote": "along the banks of the Tay, to Perth, where our friend expected us",
-      "quoteRef": "Ch. 19"
+      "quoteRef": "Ch. 19",
+      "image": {
+        "file": "assets/images/fr-perth.jpg",
+        "caption": "Perth and the River Tay from Bridgend — photochrom, c.1900",
+        "credit": "Photochrom Print Collection, c.1900 · Library of Congress / Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "orkney-island",
@@ -465,7 +526,13 @@
       "note": "The town is unnamed; the text says only that Victor, adrift from Orkney, is blown to an Irish coast and hauled before the magistrate Mr. Kirwin. Scholarship places the landfall on Ireland's north-west (the plausible drift from Orkney). This point sits on that coast as a best guess; the position is not the novel's.",
       "story": "Cast adrift from the Orkneys, Victor drifts to an Irish harbour — where the townsfolk, hostile from the start, accuse him of a murder committed the night before. The body is Clerval's, the fingermarks on its throat the creature's signature. He is imprisoned, falls into fever, and is at last acquitted.",
       "quote": "it is the custom of the Irish to hate villains",
-      "quoteRef": "Ch. 20"
+      "quoteRef": "Ch. 20",
+      "image": {
+        "file": "assets/images/fr-ireland-town.jpg",
+        "caption": "The wild west coast of Ireland under a breaking sky — oil painting, 1913",
+        "credit": "Robert Henri, 'West Coast of Ireland', 1913 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "st-petersburg",
@@ -479,7 +546,12 @@
       "certainty": "real",
       "story": "Where Walton's letters begin. Full of an explorer's hope of a passage to the pole, he writes to his sister before travelling north to hire a ship and crew.",
       "quote": "I am already far north of London, and as I walk in the streets of Petersburgh",
-      "quoteRef": "Letter 1"
+      "quoteRef": "Letter 1",
+      "image": {
+        "file": "assets/images/fr-st-petersburg.jpg",
+        "caption": "St Petersburg, the Admiralty and the Neva — photochrom, c.1895",
+        "credit": "Photochrom Print Collection, c.1895 · Library of Congress / Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "archangel",
@@ -493,7 +565,12 @@
       "certainty": "real",
       "story": "The White Sea port where Walton fits out his vessel and gathers his sailors. It is also the northern edge of the world Victor crosses on the creature's trail, before both pass out onto the frozen sea.",
       "quote": "I have hired a vessel and am occupied in collecting my sailors",
-      "quoteRef": "Letter 2, Archangel"
+      "quoteRef": "Letter 2, Archangel",
+      "image": {
+        "file": "assets/images/fr-archangel.jpg",
+        "caption": "The White Sea port of Archangel, tall ships at anchor — photograph, c.1900",
+        "credit": "Unknown photographer, c.1900 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "black-sea",
@@ -522,7 +599,13 @@
       "note": "The novel gives no name — only 'a wretched hamlet on the seashore' at the far edge of Tartary and Russia, where the creature seizes a dog-sledge and drives out onto the frozen ocean, Victor a day behind. This point stands on the Russian Arctic coast as an illustrative anchor; the position is not the novel's.",
       "story": "The last land. Victor reaches a poor coastal hamlet to learn the creature has stolen a sledge and a drove of dogs and struck out across the sea ice the night before. He exchanges his land-sledge for one built for the Frozen Ocean, stocks it, and follows onto the ice.",
       "quote": "I exchanged my land-sledge for one fashioned for the inequalities of the Frozen Ocean",
-      "quoteRef": "Ch. 24"
+      "quoteRef": "Ch. 24",
+      "image": {
+        "file": "assets/images/fr-arctic-coast.jpg",
+        "caption": "A hut on a bleak Arctic shore, ice and a ship offshore — 'Coast of Nova Zembla', 1841",
+        "credit": "François-Auguste Biard, 'Côte de la Nouvelle-Zemble', 1841 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "arctic-ice",
@@ -537,7 +620,13 @@
       "note": "The novel's ending drifts on pack ice north of Archangel toward the pole, with no fixed position — the ship is beset, Victor dies, the creature vanishes north. This point is an illustrative anchor out on the Arctic ice; the position is not the novel's.",
       "story": "Where the two threads finally meet. Walton's ship is frozen fast; out of the white a dog-sledge brings a dying Victor aboard. He tells the whole story and dies; the creature comes to the cabin to mourn its maker, then springs from the window onto an ice raft and is 'lost in darkness and distance'.",
       "quote": "I seek the everlasting ices of the north, where you will feel the misery of cold and frost, to which I am impassive",
-      "quoteRef": "Ch. 24"
+      "quoteRef": "Ch. 24",
+      "image": {
+        "file": "assets/images/fr-arctic-ice.jpg",
+        "caption": "A ship beset and crushed in the Arctic pack ice by moonlight — oil painting, c.1846",
+        "credit": "W. H. Smyth, 'Perilous Position of HMS Terror, 1837', c.1846 · Royal Museums Greenwich / Wikimedia Commons · public domain",
+        "indicative": true
+      }
     }
   ],
   "movements": [
