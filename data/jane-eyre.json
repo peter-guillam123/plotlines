@@ -620,11 +620,11 @@
       "via": [
         {
           "at": [
-            -1.5,
-            53.36
+            -1.685,
+            53.352
           ],
-          "name": "Millcote",
-          "note": "Out from Thornfield by the manufacturing town, the coach carrying her only as far as her few shillings will stretch."
+          "name": "the moor road",
+          "note": "Out from Thornfield away from the town, onto the open moor — the coach carrying her only as far as her few shillings will stretch."
         }
       ],
       "routeNote": "The flight after the broken wedding: Jane takes the first coach at dawn and rides until her money is spent, and is set down at Whitcross on the open moor with nothing.",
@@ -723,6 +723,275 @@
       "chapter": 36,
       "mode": "coach",
       "note": "After the fire that blinded and maimed him — and killed Bertha — he withdraws to the one house left to him, deep in its wood"
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "gateshead",
+      "chapter": 1,
+      "title": "The despised ward",
+      "narration": "Jane Eyre is ten, an orphan raised on sufferance at Gateshead by her aunt, Mrs Reed, who cannot love her. Bullied by her cousin John, she strikes back — and is punished for it."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "gateshead",
+      "chapter": 2,
+      "title": "The red-room",
+      "narration": "For her defiance she is shut in the red-room, the cold chamber where her uncle died. Terrified in the dusk, sure she sees his ghost, the child screams herself into a fit and faints."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "gateshead",
+      "chapter": 4,
+      "title": "Cast off to school",
+      "narration": "Mr Brocklehurst, the grim clergyman who runs a charity school, comes to inspect her. Mrs Reed is glad to be rid of the girl, and it is settled: Jane will be sent away to Lowood."
+    },
+    {
+      "kind": "journey",
+      "character": "jane",
+      "from": "gateshead",
+      "to": "lowood",
+      "chapter": 5,
+      "title": "The road to Lowood",
+      "narration": "Before dawn on a raw January morning she is put on the coach alone — a hundred miles north over two long days, an inn between — to the school that will be her whole world for years."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "lowood",
+      "chapter": 6,
+      "title": "Helen Burns",
+      "narration": "Lowood is cold, hungry and preached at. Jane's one comfort is Helen Burns, an older girl of extraordinary patience, who bears unjust punishment without complaint and teaches Jane to endure."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "lowood",
+      "chapter": 7,
+      "title": "Shamed before the school",
+      "narration": "Brocklehurst brands Jane a liar before the assembled school, standing her on a stool as a warning. Helen's steady eyes, passing and repassing, carry her through the disgrace."
+    },
+    {
+      "kind": "scene",
+      "character": "helen",
+      "at": "lowood",
+      "chapter": 9,
+      "title": "The typhus spring",
+      "narration": "Spring brings typhus to the crowded, ill-fed school, and the weakest girls sicken. Consumption takes Helen. She dies in Jane's arms one night, calm and unafraid, promising they will meet again."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "lowood",
+      "chapter": 10,
+      "title": "Eight years, then an advertisement",
+      "narration": "The scandal reforms the school, and Jane stays eight years — six as pupil, two as teacher. At eighteen, restless for a wider life, she advertises for a post and is answered from a house called Thornfield."
+    },
+    {
+      "kind": "journey",
+      "character": "jane",
+      "from": "lowood",
+      "to": "thornfield",
+      "chapter": 11,
+      "title": "A governess at last",
+      "narration": "Sixteen hours' coaching south carries her out of the school country to Millcote, and a hired chaise the last six miles to Thornfield Hall — a new life as governess to a French child, Adèle."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "thornfield",
+      "chapter": 12,
+      "title": "The house on the hill",
+      "narration": "Thornfield is a battlemented old hall, kept by the mild Mrs Fairfax. Its master is away and the rooms are quiet — but from the attic comes a strange, mirthless laugh that Jane is told is only a servant, Grace Poole."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "thornfield",
+      "chapter": 12,
+      "title": "The meeting on the causeway",
+      "narration": "Out on a frosty afternoon to post a letter at Hay, two miles off, Jane is startled by a rider whose horse slips on the ice. The man swears, is helped up by her, and rides on — Mr Rochester, her master, come home."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "thornfield",
+      "chapter": 14,
+      "title": "The fireside talks",
+      "narration": "Rochester is abrupt, dark, moody — and drawn to Jane's plainness and plain speech. Through a long winter of fireside talk, master and governess fall, unequally and unwillingly, into something like love."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "thornfield",
+      "chapter": 15,
+      "title": "Fire in the night",
+      "narration": "One March night Jane wakes to smoke: Rochester's bed-curtains are ablaze, and he in them. She douses the fire and saves his life. He blames a servant, Grace Poole — and thanks Jane with a strange, held tenderness."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "thornfield",
+      "chapter": 18,
+      "title": "The house-party",
+      "narration": "Grand guests fill the hall, among them the beautiful Blanche Ingram, whom Rochester seems set to marry. Jane, watching from the shadows, learns how much it costs her — and how far above her station he stands."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "thornfield",
+      "chapter": 20,
+      "title": "The wound in the night",
+      "narration": "In the small hours a cry rings through the house. A visitor, Mr Mason, has been stabbed and bitten by something upstairs. Jane tends his wounds in secret while Rochester fetches a surgeon, and no one explains a thing."
+    },
+    {
+      "kind": "journey",
+      "character": "jane",
+      "from": "thornfield",
+      "to": "gateshead",
+      "chapter": 21,
+      "title": "Summoned to a deathbed",
+      "narration": "Word comes that Mrs Reed is dying. Jane makes the two-day journey north to the house that cast her out, to forgive the aunt who cannot ask it — and to learn of an uncle in Madeira who has been seeking her."
+    },
+    {
+      "kind": "journey",
+      "character": "jane",
+      "from": "gateshead",
+      "to": "thornfield",
+      "chapter": 22,
+      "title": "Home to Thornfield",
+      "narration": "A month on she travels back south, and for the first time in her life the road feels like going home. Thornfield, and Rochester waiting at the stile, are what she now means by that word."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "thornfield",
+      "chapter": 23,
+      "title": "The proposal in the orchard",
+      "narration": "On midsummer eve, in the orchard, Rochester torments her with talk of marrying Blanche — then confesses it was a ruse. It is Jane he wants. Amazed, she accepts him, and the great chestnut is split by lightning that night."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "thornfield",
+      "chapter": 25,
+      "title": "The veil torn",
+      "narration": "In the weeks before the wedding, Jane wakes to a figure in her room: a wild, purple-faced woman who tries on the bridal veil and rends it in two. Rochester calls it a dream. Jane knows it was not."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "thornfield",
+      "chapter": 26,
+      "title": "The wedding stopped",
+      "narration": "At the altar a voice forbids the marriage: Rochester has a wife living. He takes them all up to the attic and shows them Bertha Mason — mad, snarling, kept these years by Grace Poole. The wife he can neither free himself of nor kill."
+    },
+    {
+      "kind": "journey",
+      "character": "jane",
+      "from": "thornfield",
+      "to": "whitcross",
+      "chapter": 28,
+      "title": "The flight",
+      "narration": "She will not be his mistress. Before dawn Jane steals away, takes the first coach, and rides until her few shillings are spent — set down at Whitcross, a lone sign-post where four roads cross the open moor, with nothing at all."
+    },
+    {
+      "kind": "journey",
+      "character": "jane",
+      "from": "whitcross",
+      "to": "moor-house",
+      "chapter": 28,
+      "title": "Destitute on the moor",
+      "narration": "For two days and nights she wanders the heather, begging bread, sleeping in the wet, near death from cold and hunger — until a light draws her to a lonely house, and she sinks at its door to be taken in."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "moor-house",
+      "chapter": 30,
+      "title": "The Rivers",
+      "narration": "Moor House is home to the Rivers: warm-hearted sisters Diana and Mary, and their cold, handsome brother St John, the parson of Morton. They nurse the stranger back to life without asking who she is."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "jane",
+        "st-john"
+      ],
+      "from": "moor-house",
+      "to": "morton",
+      "chapter": 31,
+      "title": "To the village school",
+      "narration": "St John finds Jane a place: mistress of the little school at Morton. They walk out to the parish together — he to his church and his own austere labours, she to a cottage and twenty moorland girls to teach."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "morton",
+      "chapter": 33,
+      "title": "A cousin, and a fortune",
+      "narration": "A snowy night brings St John to her door with news: the Madeira uncle has died and left Jane twenty thousand pounds — and the Rivers are her own cousins. She insists on splitting the fortune four ways, and at last has a family."
+    },
+    {
+      "kind": "journey",
+      "character": "jane",
+      "from": "morton",
+      "to": "moor-house",
+      "chapter": 34,
+      "title": "St John's cold offer",
+      "narration": "Back at Moor House, St John presses a strange proposal: not love but duty. He would make Jane a missionary's wife and carry her to India, to serve and likely to die there. She almost yields to his iron will."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "moor-house",
+      "chapter": 35,
+      "title": "The voice on the moor",
+      "narration": "On the very edge of consenting, Jane hears it — Rochester's voice, calling her name across the miles, 'Jane! Jane! Jane!' She cries out in answer, and knows past doubt that she must go back to him."
+    },
+    {
+      "kind": "journey",
+      "character": "jane",
+      "from": "moor-house",
+      "to": "thornfield",
+      "chapter": 36,
+      "title": "Back to Thornfield",
+      "narration": "She takes the coach south again, six-and-thirty hours, 'like the messenger-pigeon flying home' — and finds Thornfield a blackened ruin. Bertha fired the hall and threw herself from the roof; Rochester, trying to save her, was maimed."
+    },
+    {
+      "kind": "meanwhile",
+      "title": "Where Rochester went",
+      "narration": "Meanwhile, go back a little, to Rochester. Blinded and crippled by the falling hall, his mad wife dead at last, he had withdrawn from the ruin months before to the one house left to him, deep in a dripping wood."
+    },
+    {
+      "kind": "removal",
+      "character": "rochester",
+      "from": "thornfield",
+      "to": "ferndean",
+      "chapter": 36,
+      "title": "To Ferndean",
+      "narration": "So he removed thirty miles off into the trees, to Ferndean, a bleak manor buried in the green gloom, to grope out his days sightless and half-forgotten, with only two old servants for company."
+    },
+    {
+      "kind": "journey",
+      "character": "jane",
+      "from": "thornfield",
+      "to": "ferndean",
+      "chapter": 37,
+      "title": "And so Jane follows",
+      "narration": "The two threads meet at last. The innkeeper tells Jane where he is gone, and she hires a chaise the thirty miles into the wood, reaching Ferndean before dark. Blind and worn, Rochester feels her hand and can scarcely believe it real."
+    },
+    {
+      "kind": "scene",
+      "character": "jane",
+      "at": "ferndean",
+      "chapter": 38,
+      "title": "Reader, I married him",
+      "narration": "She stays. 'Reader, I married him.' They wed quietly in the wood, equals now — she with her fortune, he needing her eyes. In time a little of his sight returns, enough to see their first-born son. And there the map rests."
     }
   ]
 }
