@@ -625,19 +625,59 @@ body.is-overture #storycard { display: none !important; }
   text-overflow: ellipsis;
 }
 
+/* One bar, not two. The activity band is the only visible track; the range
+   input rides on top of it, its own track made transparent so the handle
+   travels along the band — density ribbon in clock mode, progress fill in
+   scripted mode. */
+.scrub-track {
+  position: relative;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
 .scrub-activity {
-  height: 7px;
-  margin: 0 1px 3px;
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 8px;
   border-radius: 4px;
   border: 1px solid var(--rule);
   box-shadow: inset 0 1px 2px rgba(46, 36, 23, 0.15);
 }
 
 .scrub-range {
+  position: relative;
   width: 100%;
+  height: 20px;
   margin: 0;
-  accent-color: var(--accent);
-  height: 24px;
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+.scrub-range::-webkit-slider-runnable-track { background: transparent; height: 20px; }
+.scrub-range::-moz-range-track { background: transparent; height: 20px; }
+.scrub-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--paper-bright);
+  box-shadow: 0 1px 3px rgba(46, 36, 23, 0.4);
+  cursor: pointer;
+}
+.scrub-range::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--paper-bright);
+  box-shadow: 0 1px 3px rgba(46, 36, 23, 0.4);
   cursor: pointer;
 }
 

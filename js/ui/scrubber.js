@@ -61,12 +61,14 @@ export function createScrubber(container, novel, timeline, engine, { scripted = 
           <span class="chapter-title"></span>
         </span>
       </div>
-      <div class="scrub-activity" aria-hidden="true"
-           title="Darker bands are the times with more characters travelling"></div>
-      <input class="scrub-range" type="range"
-             min="${scripted ? 0 : tStart}" max="${scripted ? 1000 : tEnd - 0.01}"
-             step="${scripted ? 1 : 0.1}" value="${scripted ? 0 : tStart}"
-             aria-label="${scripted ? 'Story progress' : 'Story timeline'}">
+      <div class="scrub-track">
+        <div class="scrub-activity" aria-hidden="true"
+             title="Darker bands are the times with more characters travelling"></div>
+        <input class="scrub-range" type="range"
+               min="${scripted ? 0 : tStart}" max="${scripted ? 1000 : tEnd - 0.01}"
+               step="${scripted ? 1 : 0.1}" value="${scripted ? 0 : tStart}"
+               aria-label="${scripted ? 'Story progress' : 'Story timeline'}">
+      </div>
     </div>`;
 
   const activityEl = container.querySelector('.scrub-activity');
