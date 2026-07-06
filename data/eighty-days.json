@@ -360,7 +360,12 @@
       "certainty": "real",
       "story": "A crossing of the city between stations on the run south to the Alps; Passepartout barely glimpses it.",
       "quote": "each principal point Paris, Brindisi,\nSuez, Bombay, Calcutta, Singapore, Hong Kong, Yokohama, San Francisco,\nNew York, and London",
-      "quoteRef": "Ch. 7"
+      "quoteRef": "Ch. 7",
+      "image": {
+        "file": "assets/images/paris.jpg",
+        "caption": "The Boulevard Montmartre, Paris, c.1870",
+        "credit": "Art Institute of Chicago · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "turin",
@@ -374,7 +379,12 @@
       "certainty": "real",
       "story": "Reached by the Mont Cenis tunnel and pass on the morning of Friday 4 October — the Alps crossed, Italy ahead.",
       "quote": "Reached Turin by Mont Cenis, Friday, October 4th, at 6.35 a.m.",
-      "quoteRef": "Ch. 7, Fix's telegram log"
+      "quoteRef": "Ch. 7, Fix's telegram log",
+      "image": {
+        "file": "assets/images/turin.jpg",
+        "caption": "Turin, the Piazza Castello, c.1880",
+        "credit": "Hallwyl Museum, c.1880 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "mont-cenis",
@@ -389,7 +399,12 @@
       "story": "The Alpine crossing between France and Italy named in the Telegraph's itinerary; the Fréjus (Mont Cenis) railway tunnel had opened only the year before, in 1871.",
       "note": "The itinerary names 'Mont Cenis' as the Alpine crossing; this point sits on the pass/tunnel line between Modane and Bardonecchia. Verne means the new Fréjus rail tunnel, opened 1871.",
       "quote": "From London to Suez _viâ_ Mont Cenis and Brindisi, by rail and\nsteamboats",
-      "quoteRef": "Ch. 3, the Daily Telegraph estimate"
+      "quoteRef": "Ch. 3, the Daily Telegraph estimate",
+      "image": {
+        "file": "assets/images/mont-cenis.jpg",
+        "caption": "The Mont Cenis (Fell) mountain railway at Grand Croix, 1871",
+        "credit": "Giacomo Brogi, 1871 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "brindisi",
@@ -403,7 +418,12 @@
       "certainty": "real",
       "story": "The Adriatic railhead where the P&O steamer Mongolia takes on the Indian mails. Fogg boards on the Saturday afternoon and sails at five.",
       "quote": "Arrived at Brindisi, Saturday, October 5th, at 4 p.m.",
-      "quoteRef": "Ch. 7, Fix's telegram log"
+      "quoteRef": "Ch. 7, Fix's telegram log",
+      "image": {
+        "file": "assets/images/brindisi.jpg",
+        "caption": "Brindisi railway station, the P&O railhead, c.1870",
+        "credit": "c.1870 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "suez",
@@ -436,7 +456,12 @@
       "certainty": "real",
       "story": "The Mongolia's coaling stop at the mouth of the Red Sea. Fogg and his servant go ashore for four hours to have the passport stamped again; the ship makes up her lost time and steams on for Bombay.",
       "quote": "Mr. Fogg and his servant went ashore at Aden to have the passport again\n_visaed;_",
-      "quoteRef": "Ch. 9"
+      "quoteRef": "Ch. 9",
+      "image": {
+        "file": "assets/images/aden.jpg",
+        "caption": "Aden, Steamer Point, 1855–56",
+        "credit": "Auguste Bartholdi, 1855–56 · Bibliothèque nationale de France · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "bombay",
@@ -470,7 +495,13 @@
       "note": "Kholby is Verne's invented railhead where the unfinished line stops, 'fifteen miles beyond Rothal' in the Sahpoor jungle. No such village exists; this point is an editorial best guess in the Western Ghats interior on the line's eastward course, before the country climbs to the Allahabad plain.",
       "story": "Here the railway simply stops: fifty miles of track never laid, though the tickets are sold through. Fogg buys an elephant, Kiouni, at a fabulous price, hires a guide, and sets off across the forest for Allahabad.",
       "quote": "At the hamlet of Kholby.",
-      "quoteRef": "Ch. 11"
+      "quoteRef": "Ch. 11",
+      "image": {
+        "file": "assets/images/kholby.jpg",
+        "caption": "A bullock cart on a forest track in India — an indicative view of the central-Indian jungle the railway crossed, c.1900",
+        "credit": "c.1900 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "pillaji",
@@ -485,7 +516,13 @@
       "note": "The pagoda of Pillaji is Verne's invention, set in the forest country between Kholby and Allahabad. This point is an editorial best guess in the Bundelcund/Vindhya jungle the elephant crosses, short of Allahabad.",
       "story": "Deep in the forest the party comes on a suttee: the young widow Aouda drugged with opium and hemp, to be burned at dawn beside her dead rajah. At the last moment Passepartout, hidden on the pyre, rises as the dead prince and carries her off.",
       "quote": "To the pagoda of Pillaji, two miles from here; she will pass the night\nthere",
-      "quoteRef": "Ch. 12"
+      "quoteRef": "Ch. 12",
+      "image": {
+        "file": "assets/images/pillaji.jpg",
+        "caption": "The Great Pagoda at Tanjore, 1798 — an indicative view of a South Indian Hindu pagoda",
+        "credit": "Thomas & William Daniell, 1798 · British Library · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "allahabad",
@@ -499,7 +536,12 @@
       "certainty": "real",
       "story": "Where the rails begin again. The elephant is given to the guide as reward; the party takes the train down the Ganges valley, buying European clothes for Aouda before boarding.",
       "quote": "the streets of Allahabad, that is, the City of God",
-      "quoteRef": "Ch. 14"
+      "quoteRef": "Ch. 14",
+      "image": {
+        "file": "assets/images/allahabad.jpg",
+        "caption": "The Ganges ghat below Allahabad Fort, photographed c.1858–61",
+        "credit": "Metropolitan Museum of Art, c.1858–61 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "benares",
@@ -513,7 +555,12 @@
       "certainty": "real",
       "story": "Sir Francis Cromarty's destination, where the brigadier leaves the party. The train presses on down the Ganges for Calcutta.",
       "quote": "At half-past twelve the train stopped at Benares.",
-      "quoteRef": "Ch. 14"
+      "quoteRef": "Ch. 14",
+      "image": {
+        "file": "assets/images/benares.jpg",
+        "caption": "The burning ghats and Aurangzeb’s mosque on the Ganges at Benares, c.1860",
+        "credit": "Rijksmuseum, c.1850–1900 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "calcutta",
@@ -527,7 +574,12 @@
       "certainty": "real",
       "story": "The party is haled before a magistrate over the Bombay pagoda — Fix's doing — and Fogg buys their way free with bail forfeited. They reach the steamer Rangoon with minutes to spare, bound for Hong Kong by way of Singapore.",
       "quote": "Calcutta was reached at seven in the morning, and the packet left for\nHong Kong at noon",
-      "quoteRef": "Ch. 14"
+      "quoteRef": "Ch. 14",
+      "image": {
+        "file": "assets/images/calcutta.jpg",
+        "caption": "Shipping on the Hooghly river at Calcutta, c.1860",
+        "credit": "Francis Frith, c.1850–1870 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "singapore",
@@ -541,7 +593,12 @@
       "certainty": "real",
       "story": "A coaling call on the Rangoon's run to Hong Kong. A few hours ashore among nutmeg groves and clove plantations, then out past the mountains of Malacca.",
       "quote": "the “Rangoon” rode out of Singapore harbour",
-      "quoteRef": "Ch. 17"
+      "quoteRef": "Ch. 17",
+      "image": {
+        "file": "assets/images/singapore.jpg",
+        "caption": "Singapore harbour, c.1880",
+        "credit": "Rijksmuseum, c.1870–1900 · Wikimedia Commons · CC0"
+      }
     },
     {
       "id": "hong-kong",
@@ -574,7 +631,12 @@
       "certainty": "real",
       "story": "The Tankadere's true goal: not Yokohama itself but Shanghai, where the American mail steamer for San Francisco calls. Through a gale the little schooner catches the General Grant off the coast and signals her down.",
       "quote": "Shanghai we should not be forced to sail wide of the Chinese coast,",
-      "quoteRef": "Ch. 20"
+      "quoteRef": "Ch. 20",
+      "image": {
+        "file": "assets/images/shanghai.jpg",
+        "caption": "The Bund, Shanghai, c.1869",
+        "credit": "John Thomson, c.1869 · Metropolitan Museum of Art · Wikimedia Commons · CC0"
+      }
     },
     {
       "id": "yokohama",
@@ -588,7 +650,12 @@
       "certainty": "real",
       "story": "Passepartout wakes here aboard the Carnatic, penniless and alone, and joins Batulcar's acrobatic troupe of Long Noses to earn his passage. Fogg arrives on the General Grant and finds his servant at the bottom of a human pyramid; the party, reunited, sails for America.",
       "quote": "ACROBATIC JAPANESE TROUPE,\nHONOURABLE WILLIAM BATULCAR, PROPRIETOR",
-      "quoteRef": "Ch. 23"
+      "quoteRef": "Ch. 23",
+      "image": {
+        "file": "assets/images/yokohama.jpg",
+        "caption": "Yokohama, the treaty port, c.1865–70",
+        "credit": "Rijksmuseum, c.1860–80 · Wikimedia Commons · CC0"
+      }
     },
     {
       "id": "san-francisco",
@@ -621,7 +688,12 @@
       "certainty": "real",
       "story": "Where the Central Pacific hands the line to the Union Pacific, and the party breaks the journey to run up the branch to Salt Lake City for a glimpse of the Mormon capital.",
       "quote": "The train reached Ogden at two o’clock",
-      "quoteRef": "Ch. 27"
+      "quoteRef": "Ch. 27",
+      "image": {
+        "file": "assets/images/ogden.jpg",
+        "caption": "Ogden, Utah, on the Pacific Railroad, c.1870",
+        "credit": "C. R. Savage, c.1870 · Brigham Young University · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "great-salt-lake",
@@ -635,7 +707,12 @@
       "certainty": "real",
       "story": "The railroad rounds the great inland sea of the Mormons. A fellow passenger delivers Passepartout a whole lecture on Mormon history at twenty miles an hour.",
       "quote": "turns the Great Salt Lake, and reaches Salt Lake\nCity",
-      "quoteRef": "Ch. 26"
+      "quoteRef": "Ch. 26",
+      "image": {
+        "file": "assets/images/great-salt-lake.jpg",
+        "caption": "A railroad trestle in the Great Salt Lake valley at Promontory, 1868",
+        "credit": "A. J. Russell, 1868 · Library of Congress · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "medicine-bow",
@@ -692,7 +769,12 @@
       "certainty": "real",
       "story": "The eastern terminus of the Pacific Railroad proper, reached by wind-sledge across the frozen prairie after the train was lost. From here fast trains run through Chicago to the Atlantic seaboard.",
       "quote": "The Pacific Railroad proper finds its terminus at this important\nNebraska town.",
-      "quoteRef": "Ch. 31"
+      "quoteRef": "Ch. 31",
+      "image": {
+        "file": "assets/images/omaha.jpg",
+        "caption": "Omaha, Nebraska, eastern terminus of the Pacific Railroad, c.1868",
+        "credit": "Jackson Brothers, c.1865–70 · New York Public Library · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "chicago",
@@ -739,7 +821,12 @@
       "certainty": "real",
       "story": "The Henrietta, her upperworks burned for fuel, raises the Irish coast and Fastnet Light. Rather than crawl the last miles to Liverpool on failing steam, Fogg lands here to take the mail express — the trick that gains twelve hours on the Atlantic steamers.",
       "quote": "By ten\nin the evening they were passing Queenstown.",
-      "quoteRef": "Ch. 33"
+      "quoteRef": "Ch. 33",
+      "image": {
+        "file": "assets/images/queenstown.jpg",
+        "caption": "Queenstown (Cobh) harbour, Co. Cork, c.1890",
+        "credit": "Detroit Publishing Co. photochrom, c.1890–1900 · Library of Congress · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "dublin",
@@ -753,7 +840,12 @@
       "certainty": "real",
       "story": "The mail train runs them up from Queenstown by dawn, and they embark at once on the fast Kingstown packet across the Irish Sea for Liverpool.",
       "quote": "at dawn of day they were in Dublin",
-      "quoteRef": "Ch. 33"
+      "quoteRef": "Ch. 33",
+      "image": {
+        "file": "assets/images/dublin.jpg",
+        "caption": "Sackville Street and O’Connell Bridge, Dublin, c.1890",
+        "credit": "Detroit Publishing Co. photochrom, c.1890–1900 · Library of Congress · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "liverpool",
@@ -767,7 +859,12 @@
       "certainty": "real",
       "story": "Fogg steps ashore at twenty minutes to noon on the 21st, six hours from London and seemingly the winner — and there Fix, warrant in hand at last, arrests him. The lost hours in the Custom House will appear to cost him everything.",
       "quote": "Phileas Fogg at last disembarked on the Liverpool quay, at twenty\nminutes before twelve, 21st December.",
-      "quoteRef": "Ch. 33"
+      "quoteRef": "Ch. 33",
+      "image": {
+        "file": "assets/images/liverpool.jpg",
+        "caption": "Liverpool dockside on the Mersey, c.1897",
+        "credit": "Liverpool Record Office, c.1897 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "london-return",
@@ -781,7 +878,12 @@
       "certainty": "real",
       "story": "Freed once Fix realises his blunder, Fogg races for London believing himself five minutes too late. But travelling always eastward he has gained a full day at the meridian: it is not Sunday but Saturday, and he reaches the Reform Club with seconds to spare.",
       "quote": "Phileas Fogg had won his wager, and had made his journey around the\nworld in eighty days.",
-      "quoteRef": "Ch. 37"
+      "quoteRef": "Ch. 37",
+      "image": {
+        "file": "assets/images/london-return.jpg",
+        "caption": "The Houses of Parliament and the Thames, c.1890",
+        "credit": "Detroit Publishing Co. photochrom, c.1890–1900 · Library of Congress · Wikimedia Commons · public domain"
+      }
     }
   ],
   "movements": [
