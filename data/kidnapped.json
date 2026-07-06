@@ -505,7 +505,36 @@
       "chapter": 2,
       "mode": "foot",
       "days": 2,
-      "note": "David walks out of the Borders with the minister's letter and comes, footsore, to the grim house of Shaws."
+      "note": "David walks out of the Borders with the minister's letter and comes, footsore, to the grim house of Shaws.",
+      "via": [
+        {
+          "at": [
+            -3.28,
+            55.83
+          ],
+          "name": "the drove-road",
+          "note": "up onto the green drove-road through the heather, north for Edinburgh"
+        },
+        {
+          "at": [
+            -3.24,
+            55.907
+          ],
+          "name": "Colinton",
+          "note": "\"worked my way to the westward of the capital by Colinton\""
+        },
+        {
+          "at": [
+            -3.29,
+            55.945
+          ],
+          "name": "the Glasgow road",
+          "note": "out onto the Glasgow road, then into Cramond parish"
+        }
+      ],
+      "routeNote": "David's two-day walk out of the Borders to Cramond: over the ford onto the drove-road, past the smoking city of Edinburgh, and round to the west of the capital by Colinton to the Shaws.",
+      "routeSource": "Stevenson, chs. 1–2: over the ford and up to the drove-road; on the second day Edinburgh comes in sight and David works \"to the westward of the capital by Colinton\" onto the Glasgow road, and so into Cramond parish.",
+      "routeCertainty": "novel"
     },
     {
       "character": "david-balfour",
@@ -583,7 +612,7 @@
       "from": "torran-rocks",
       "to": "earraid",
       "chapter": 14,
-      "mode": "ship",
+      "mode": "unknown",
       "days": 1,
       "note": "Thrown from the breaking brig, David is washed up alone on the little isle of Earraid."
     },
@@ -594,7 +623,20 @@
       "chapter": 15,
       "mode": "foot",
       "days": 2,
-      "note": "Realising Earraid is tidal, David wades off and sets out east across Mull on Alan's silver-button token."
+      "note": "Realising Earraid is tidal, David wades off and sets out east across Mull on Alan's silver-button token.",
+      "via": [
+        {
+          "at": [
+            -6.22,
+            56.31
+          ],
+          "name": "the Ross of Mull",
+          "note": "east across \"rugged and trackless\" moorland toward Torosay"
+        }
+      ],
+      "routeNote": "Off the tidal isle and east over the Ross of Mull — \"rugged and trackless\" hill country — following the line of the peninsula toward Torosay and the ferry.",
+      "routeSource": "Stevenson, ch. 15: \"The Ross of Mull, which I had now got upon, was rugged and trackless\"; David crosses it eastward, guided from house to house, toward Torosay.",
+      "routeCertainty": "illustrative"
     },
     {
       "character": "david-balfour",
@@ -603,7 +645,36 @@
       "chapter": 16,
       "mode": "ship",
       "days": 1,
-      "note": "Ferried over the Sound of Mull to Kinlochaline on the mainland."
+      "note": "Ferried over the Sound of Mull to Kinlochaline on the mainland.",
+      "via": [
+        {
+          "at": [
+            -5.79,
+            56.45
+          ],
+          "name": "Torosay",
+          "note": "the ferry slip on the east shore of Mull"
+        },
+        {
+          "at": [
+            -5.78,
+            56.5
+          ],
+          "name": "the Sound of Mull",
+          "note": "rowed up the Sound, no wind, to Gaelic boat-songs"
+        },
+        {
+          "at": [
+            -5.77,
+            56.545
+          ],
+          "name": "the mouth of Loch Aline",
+          "note": "into the sea-loch for the Kinlochaline shore"
+        }
+      ],
+      "routeNote": "The regular ferry from Torosay across and up the Sound of Mull to Kinlochaline, at the mouth of Loch Aline on the Morvern shore.",
+      "routeSource": "Stevenson, ch. 16: \"There is a regular ferry from Torosay to Kinlochaline on the mainland\" — rowed for want of wind up the Sound, \"In the mouth of Loch Aline we found...\"",
+      "routeCertainty": "novel"
     },
     {
       "character": "david-balfour",
@@ -612,7 +683,20 @@
       "chapter": 16,
       "mode": "foot",
       "days": 1,
-      "note": "Across the wild peninsula of Morvern toward Loch Linnhe and the Appin country."
+      "note": "Across the wild peninsula of Morvern toward Loch Linnhe and the Appin country.",
+      "via": [
+        {
+          "at": [
+            -5.66,
+            56.6
+          ],
+          "name": "across Morvern",
+          "note": "over the wild peninsula toward the Loch Linnhe shore"
+        }
+      ],
+      "routeNote": "On foot across the rough peninsula of Morvern, coming down to the shore of Loch Linnhe near Kingairloch.",
+      "routeSource": "Stevenson, ch. 16: David crosses Morven on foot toward Kingairloch and the Linnhe Loch; the exact hill-line is inferred from the ground.",
+      "routeCertainty": "illustrative"
     },
     {
       "character": "david-balfour",
@@ -621,7 +705,20 @@
       "chapter": 17,
       "mode": "ship",
       "days": 1,
-      "note": "A boat across Loch Linnhe into Appin — and David walks into the wood of Lettermore just as the Red Fox is shot."
+      "note": "A boat across Loch Linnhe into Appin — and David walks into the wood of Lettermore just as the Red Fox is shot.",
+      "via": [
+        {
+          "at": [
+            -5.4,
+            56.64
+          ],
+          "name": "Loch Linnhe",
+          "note": "a fisher-boat across the deep, still sea-loch into Appin"
+        }
+      ],
+      "routeNote": "A fisherman rows David straight across Loch Linnhe from the Morvern shore into Appin, sparing him the two public ferries.",
+      "routeSource": "Stevenson, ch. 17: \"a man who had a boat of his own and was to cross the Linnhe Loch that afternoon into Appin\" — the sea \"very deep and still.\"",
+      "routeCertainty": "novel"
     },
     {
       "character": [
@@ -645,7 +742,28 @@
       "chapter": 22,
       "mode": "foot",
       "days": 2,
-      "note": "East to the great moor — the crawling, sun-blistered crossing of Rannoch, in full view of the troops on the hills."
+      "note": "East to the great moor — the crawling, sun-blistered crossing of Rannoch, in full view of the troops on the hills.",
+      "via": [
+        {
+          "at": [
+            -5.05,
+            56.66
+          ],
+          "name": "the head of Glencoe",
+          "note": "over the top of Glencoe, \"the very coming of the soldiers\""
+        },
+        {
+          "at": [
+            -4.85,
+            56.63
+          ],
+          "name": "the edge of the moor",
+          "note": "onto \"yon bald, naked, flat place\" — the desert of Rannoch"
+        }
+      ],
+      "routeNote": "Seven hours’ hard travelling east off the Appin range, over the head of Glencoe and out onto the great desert of Rannoch Moor.",
+      "routeSource": "Stevenson, ch. 22: \"we’ll can strike east... east, ye see, we have the muirs\"; the moor is reached over the top of Glencoe (ch. 20) into \"yon bald, naked, flat place.\"",
+      "routeCertainty": "novel"
     },
     {
       "character": [
@@ -657,7 +775,20 @@
       "chapter": 23,
       "mode": "foot",
       "days": 2,
-      "note": "Driven up into Ben Alder, where Cluny Macpherson's men take them to the wattled hideout of Cluny's Cage."
+      "note": "Driven up into Ben Alder, where Cluny Macpherson's men take them to the wattled hideout of Cluny's Cage.",
+      "via": [
+        {
+          "at": [
+            -4.55,
+            56.72
+          ],
+          "name": "the waste of Rannoch",
+          "note": "crawling heather-bush to heather-bush, north-east under the dragoons’ eyes"
+        }
+      ],
+      "routeNote": "The hares’ dash north-east across the open waste toward Ben Alder — \"a wild, desert mountain full of hills and hollows\" — crawling from bush to bush in full view of the troops.",
+      "routeSource": "Stevenson, ch. 22: Alan points to a mountain \"on the north-eastern sky... Its name is Ben Alder\" and they strike for it across the moor. The mountain is named; the exact crawling line over the bog is a gesture.",
+      "routeCertainty": "illustrative"
     },
     {
       "character": [
@@ -669,7 +800,52 @@
       "chapter": 25,
       "mode": "foot",
       "days": 4,
-      "note": "Put across the lochs by night and south to Balquhidder, quarrelling bitterly on the road; David falls sick and they rest."
+      "note": "Put across the lochs by night and south to Balquhidder, quarrelling bitterly on the road; David falls sick and they rest.",
+      "via": [
+        {
+          "at": [
+            -4.42,
+            56.79
+          ],
+          "name": "across Loch Errick",
+          "note": "\"put across Loch Errocht under cloud of night\""
+        },
+        {
+          "at": [
+            -4.4,
+            56.7
+          ],
+          "name": "the head of Loch Rannoch",
+          "note": "down the eastern shore to a hiding-place near Loch Rannoch"
+        },
+        {
+          "at": [
+            -4.33,
+            56.66
+          ],
+          "name": "across Loch Rannoch",
+          "note": "\"the gillie put us across Loch Rannoch in the dusk\""
+        },
+        {
+          "at": [
+            -4.32,
+            56.52
+          ],
+          "name": "the eastern hills",
+          "note": "Alan’s swifter eastern way, shunning the Glenorchy Campbells"
+        },
+        {
+          "at": [
+            -4.34,
+            56.44
+          ],
+          "name": "the mountain-tops",
+          "note": "over the high tops, three nights’ march down toward Balquhidder"
+        }
+      ],
+      "routeNote": "Ferried across Loch Errick by night and down to Loch Rannoch, put across it in the dusk, then Alan’s swifter eastern way over the mountain-tops, down to the western end of Balquhidder.",
+      "routeSource": "Stevenson, chs. 24–25: \"Alan and I were put across Loch Errocht under cloud of night... down its eastern shore to... the head of Loch Rannoch\"; \"The gillie put us across Loch Rannoch in the dusk\"; Alan chooses the eastern way, three nights’ march to \"the western end of the country of Balquhidder.\"",
+      "routeCertainty": "novel"
     },
     {
       "character": [
@@ -681,7 +857,36 @@
       "chapter": 26,
       "mode": "foot",
       "days": 2,
-      "note": "Down out of the Highlands to Stirling — only to find the bridge, the main pass over the Forth, held by a sentry."
+      "note": "Down out of the Highlands to Stirling — only to find the bridge, the main pass over the Forth, held by a sentry.",
+      "via": [
+        {
+          "at": [
+            -4.19,
+            56.28
+          ],
+          "name": "Uam Var",
+          "note": "a heather bush on the hillside, \"the happiest ten hours of sleep\""
+        },
+        {
+          "at": [
+            -3.98,
+            56.2
+          ],
+          "name": "Allan Water",
+          "note": "struck the water and followed it down out of the hills"
+        },
+        {
+          "at": [
+            -3.94,
+            56.15
+          ],
+          "name": "the Carse of Stirling",
+          "note": "the whole carse \"as flat as a pancake,\" the castle on its hill"
+        }
+      ],
+      "routeNote": "Down out of the Highlands past Uam Var, striking Allan Water and following it down onto the Carse of Stirling, to the old Bridge of Stirling under the castle.",
+      "routeSource": "Stevenson, ch. 26: a heather bush \"on the hillside in Uam Var\"; \"we struck Allan Water, and followed it down... saw the whole Carse of Stirling underfoot\"; on to \"the Bridge of Stirling.\"",
+      "routeCertainty": "novel"
     },
     {
       "character": [
@@ -693,7 +898,44 @@
       "chapter": 26,
       "mode": "foot",
       "days": 1,
-      "note": "Foiled at the bridge, they skirt east under the Ochils, past Alloa, to the clachan of Limekilns on the Forth."
+      "note": "Foiled at the bridge, they skirt east under the Ochils, past Alloa, to the clachan of Limekilns on the Forth.",
+      "via": [
+        {
+          "at": [
+            -3.79,
+            56.11
+          ],
+          "name": "under the Ochils",
+          "note": "all night through the north side of the Carse, under the Ochil line"
+        },
+        {
+          "at": [
+            -3.79,
+            56.116
+          ],
+          "name": "Alloa",
+          "note": "skirted, kept clear of"
+        },
+        {
+          "at": [
+            -3.7,
+            56.1
+          ],
+          "name": "Clackmannan",
+          "note": "avoided in the dark"
+        },
+        {
+          "at": [
+            -3.59,
+            56.055
+          ],
+          "name": "Culross",
+          "note": "the last town skirted before Limekilns"
+        }
+      ],
+      "routeNote": "All night east along the north side of the Carse under the high line of the Ochils, giving Alloa, Clackmannan and Culross a wide berth, to the clachan of Limekilns on the Forth.",
+      "routeSource": "Stevenson, ch. 26: \"we walked through the north side of the Carse under the high line of the Ochil mountains; and by Alloa and Clackmannan and Culross, all of which we avoided... came to the little clachan of Limekilns.\"",
+      "routeCertainty": "novel"
     },
     {
       "character": [
@@ -705,7 +947,20 @@
       "chapter": 27,
       "mode": "ship",
       "days": 1,
-      "note": "A Limekilns girl rows them over the Forth by night to the Lothian shore; David comes round to Queensferry to seek the lawyer Rankeillor."
+      "note": "A Limekilns girl rows them over the Forth by night to the Lothian shore; David comes round to Queensferry to seek the lawyer Rankeillor.",
+      "via": [
+        {
+          "at": [
+            -3.43,
+            56.015
+          ],
+          "name": "the Hope",
+          "note": "rowed across the narrows of the Forth by night"
+        }
+      ],
+      "routeNote": "The Limekilns girl rows the two fugitives across the Hope — the narrows of the Forth — by night, landing them on the Lothian shore by Carriden, and David comes round to the Queen’s Ferry.",
+      "routeSource": "Stevenson, ch. 27: Limekilns \"sits near in by the water-side, and looks across the Hope to the town of the Queensferry\"; the girl rows them over to the far shore.",
+      "routeCertainty": "novel"
     },
     {
       "character": [
