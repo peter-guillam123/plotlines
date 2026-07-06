@@ -691,7 +691,28 @@
       "from": "munich",
       "to": "vienna",
       "chapter": 1,
-      "mode": "train"
+      "mode": "train",
+      "via": [
+        {
+          "at": [
+            13.043,
+            47.809
+          ],
+          "name": "Salzburg",
+          "note": "The frontier city where the Bavarian line meets the Austrian Kaiserin-Elisabeth-Bahn."
+        },
+        {
+          "at": [
+            14.286,
+            48.306
+          ],
+          "name": "Linz",
+          "note": "On the Danube, the principal stop on the run down through Upper Austria to Vienna."
+        }
+      ],
+      "routeNote": "The overnight Munich–Vienna express ran on the Kaiserin-Elisabeth-Bahn via Salzburg and Linz, following the Danube valley down into the Vienna basin.",
+      "routeSource": "1890s Kaiserin-Elisabeth-Bahn (Empress Elisabeth Railway) Munich–Salzburg–Linz–Vienna main line; Jonathan 'left Munich at 8:35 P.M.… arriving at Vienna early next morning' (Ch. 1).",
+      "routeCertainty": "documented"
     },
     {
       "character": "jonathan",
@@ -746,7 +767,28 @@
       "from": "klausenburgh",
       "to": "bistritz",
       "chapter": 1,
-      "mode": "train"
+      "mode": "train",
+      "via": [
+        {
+          "at": [
+            23.87,
+            47.14
+          ],
+          "name": "Szamosújvár (Gherla)",
+          "note": "North-east up the Szamos (Someș) valley — the branch line's course toward the Bistritz country."
+        },
+        {
+          "at": [
+            24.14,
+            47.14
+          ],
+          "name": "Beszterce approaches",
+          "note": "The line bends east off the Szamos to reach Bistritz, the last town before the road to the pass."
+        }
+      ],
+      "routeNote": "The single-track branch north-east from Kolozsvár up the Szamos valley through Szamosújvár, then east into Bistritz — the railhead from which Jonathan takes the diligence on to the Borgo Pass.",
+      "routeSource": "1890s Hungarian State Railways (MAV) Kolozsvár–Beszterce branch, up the Szamos (Someș) valley; Jonathan reaches Bistritz by rail before the coach (Ch. 1).",
+      "routeCertainty": "documented"
     },
     {
       "character": "jonathan",
@@ -754,6 +796,19 @@
       "to": "borgo-pass",
       "chapter": 1,
       "mode": "coach",
+      "via": [
+        {
+          "at": [
+            24.68,
+            47.22
+          ],
+          "name": "Borgóprund (Prundu Bârgăului)",
+          "note": "The valley village on the Borgo road, last inhabited place before the diligence begins the climb to the summit."
+        }
+      ],
+      "routeNote": "The Borgo (Tihuța) Pass road north-east out of Bistritz, up the Bârgău valley through Borgóprund and on to the summit, where the Count's calèche waits.",
+      "routeSource": "The Bistritz–Bukovina post road over the Borgo/Tihuța Pass; Jonathan takes 'the diligence to Bukovina' (Ch. 1).",
+      "routeCertainty": "documented",
       "note": "The diligence to Bukovina, among crossing-themselves fellow passengers"
     },
     {
@@ -770,6 +825,43 @@
       "to": "whitby-crescent",
       "chapter": 6,
       "mode": "train",
+      "via": [
+        {
+          "at": [
+            -0.1238,
+            51.5308
+          ],
+          "name": "King's Cross",
+          "note": "In from Hampstead to the Great Northern terminus for the East Coast express north."
+        },
+        {
+          "at": [
+            -0.643,
+            52.913
+          ],
+          "name": "Grantham",
+          "note": "The Great Northern's principal stop on the run up to York."
+        },
+        {
+          "at": [
+            -1.08,
+            53.958
+          ],
+          "name": "York",
+          "note": "Where the East Coast route passes onto the North Eastern Railway for the run to the coast."
+        },
+        {
+          "at": [
+            -0.797,
+            54.135
+          ],
+          "name": "Malton",
+          "note": "On the North Eastern line, where the branch turns north-east for the Esk valley and Whitby."
+        }
+      ],
+      "routeNote": "In from Hampstead to King's Cross, then the East Coast main line — Grantham, York — and the North Eastern branch through Malton and down the Esk valley to Whitby.",
+      "routeSource": "1890s Great Northern King's Cross–Grantham–York East Coast main line, then North Eastern Railway York–Malton–Whitby; the standard London-to-Whitby journey.",
+      "routeCertainty": "documented",
       "note": "To Whitby with her mother for the summer"
     },
     {
@@ -777,7 +869,36 @@
       "from": "kings-cross",
       "to": "whitby-crescent",
       "chapter": 6,
-      "mode": "train"
+      "mode": "train",
+      "via": [
+        {
+          "at": [
+            -0.643,
+            52.913
+          ],
+          "name": "Grantham",
+          "note": "The Great Northern's principal stop on the run up to York."
+        },
+        {
+          "at": [
+            -1.08,
+            53.958
+          ],
+          "name": "York",
+          "note": "Where the East Coast route passes onto the North Eastern Railway for the run to the coast."
+        },
+        {
+          "at": [
+            -0.797,
+            54.135
+          ],
+          "name": "Malton",
+          "note": "On the North Eastern line, where the branch turns north-east for the Esk valley and Whitby."
+        }
+      ],
+      "routeNote": "The East Coast main line out of King's Cross — Grantham, York — then the North Eastern branch through Malton and down the Esk valley to Whitby.",
+      "routeSource": "1890s Great Northern King's Cross–Grantham–York East Coast main line, then North Eastern Railway York–Malton–Whitby; the standard London-to-Whitby journey.",
+      "routeCertainty": "documented"
     },
     {
       "character": "dracula",
@@ -1012,7 +1133,44 @@
       "from": "whitby-crescent",
       "to": "hillingham",
       "chapter": 9,
-      "mode": "train"
+      "mode": "train",
+      "via": [
+        {
+          "at": [
+            -0.797,
+            54.135
+          ],
+          "name": "Malton",
+          "note": "Up the Esk valley off the coast, where the Whitby branch rejoins the York line."
+        },
+        {
+          "at": [
+            -1.08,
+            53.958
+          ],
+          "name": "York",
+          "note": "Onto the Great Northern for the East Coast run south."
+        },
+        {
+          "at": [
+            -0.643,
+            52.913
+          ],
+          "name": "Grantham",
+          "note": "The Great Northern's principal stop on the run down to London."
+        },
+        {
+          "at": [
+            -0.1238,
+            51.5308
+          ],
+          "name": "King's Cross",
+          "note": "The London terminus, and out again to Hampstead."
+        }
+      ],
+      "routeNote": "The return down the East Coast route — the North Eastern branch through Malton to York, then the Great Northern via Grantham to King's Cross, and out to Hampstead.",
+      "routeSource": "1890s North Eastern Whitby–Malton–York, then Great Northern York–Grantham–King's Cross East Coast main line.",
+      "routeCertainty": "documented"
     },
     {
       "character": "vanhelsing",
@@ -1197,6 +1355,35 @@
       "to": "piccadilly",
       "chapter": 13,
       "mode": "train",
+      "via": [
+        {
+          "at": [
+            -3.1,
+            51.019
+          ],
+          "name": "Taunton",
+          "note": "The first great junction east of Exeter on the Great Western main line."
+        },
+        {
+          "at": [
+            -0.973,
+            51.456
+          ],
+          "name": "Reading",
+          "note": "Where the West of England line joins the Great Western trunk in from Bristol for the run to London."
+        },
+        {
+          "at": [
+            -0.176,
+            51.517
+          ],
+          "name": "Paddington",
+          "note": "The Great Western terminus, a short way west of Piccadilly."
+        }
+      ],
+      "routeNote": "The Great Western main line up from Exeter — Taunton, Reading — to Paddington, then across to Piccadilly.",
+      "routeSource": "1890s Great Western Railway Exeter–Taunton–Reading–Paddington main line, the standard London–Exeter route.",
+      "routeCertainty": "documented",
       "note": "Up for Mr. Hawkins's funeral — and there, outside Giuliano's, the Count, grown young"
     },
     {
@@ -1207,7 +1394,36 @@
       "from": "piccadilly",
       "to": "exeter",
       "chapter": 13,
-      "mode": "train"
+      "mode": "train",
+      "via": [
+        {
+          "at": [
+            -0.176,
+            51.517
+          ],
+          "name": "Paddington",
+          "note": "Across from Piccadilly to the Great Western terminus for the West of England train."
+        },
+        {
+          "at": [
+            -0.973,
+            51.456
+          ],
+          "name": "Reading",
+          "note": "The Great Western's principal junction west of London."
+        },
+        {
+          "at": [
+            -3.1,
+            51.019
+          ],
+          "name": "Taunton",
+          "note": "The last great junction before the line drops down to Exeter."
+        }
+      ],
+      "routeNote": "Back down the Great Western main line — Paddington, Reading, Taunton — to Exeter.",
+      "routeSource": "1890s Great Western Railway Paddington–Reading–Taunton–Exeter main line, the standard London–Exeter route.",
+      "routeCertainty": "documented"
     },
     {
       "character": "lucy",
@@ -1230,6 +1446,35 @@
       "to": "exeter",
       "chapter": 14,
       "mode": "train",
+      "via": [
+        {
+          "at": [
+            -0.176,
+            51.517
+          ],
+          "name": "Paddington",
+          "note": "Across from Hampstead to the Great Western terminus."
+        },
+        {
+          "at": [
+            -0.973,
+            51.456
+          ],
+          "name": "Reading",
+          "note": "The Great Western's principal junction west of London."
+        },
+        {
+          "at": [
+            -3.1,
+            51.019
+          ],
+          "name": "Taunton",
+          "note": "The last great junction before the line drops down to Exeter."
+        }
+      ],
+      "routeNote": "From Hampstead to Paddington, then the Great Western main line — Reading, Taunton — down to Exeter.",
+      "routeSource": "1890s Great Western Railway Paddington–Reading–Taunton–Exeter main line, the standard London–Exeter route.",
+      "routeCertainty": "documented",
       "note": "To read Mina's transcript of Jonathan's journal"
     },
     {
@@ -1238,6 +1483,35 @@
       "to": "kingstead",
       "chapter": 14,
       "mode": "train",
+      "via": [
+        {
+          "at": [
+            -3.1,
+            51.019
+          ],
+          "name": "Taunton",
+          "note": "The first great junction east of Exeter on the Great Western main line."
+        },
+        {
+          "at": [
+            -0.973,
+            51.456
+          ],
+          "name": "Reading",
+          "note": "Where the West of England line joins the Great Western trunk for the run to London."
+        },
+        {
+          "at": [
+            -0.176,
+            51.517
+          ],
+          "name": "Paddington",
+          "note": "The Great Western terminus; thence north across town to the churchyard at Highgate."
+        }
+      ],
+      "routeNote": "Back up the Great Western main line — Taunton, Reading — to Paddington, then across town to Kingstead (Highgate).",
+      "routeSource": "1890s Great Western Railway Exeter–Taunton–Reading–Paddington main line, the standard London–Exeter route.",
+      "routeCertainty": "documented",
       "note": "Back to town; the churchyard work begins"
     },
     {
@@ -1271,6 +1545,43 @@
       "to": "seward-asylum",
       "chapter": 17,
       "mode": "train",
+      "via": [
+        {
+          "at": [
+            -3.1,
+            51.019
+          ],
+          "name": "Taunton",
+          "note": "The first great junction east of Exeter on the Great Western main line."
+        },
+        {
+          "at": [
+            -0.973,
+            51.456
+          ],
+          "name": "Reading",
+          "note": "The Great Western's principal junction west of London."
+        },
+        {
+          "at": [
+            -0.176,
+            51.517
+          ],
+          "name": "Paddington",
+          "note": "The Great Western terminus; then across London to the Essex-side line for Purfleet."
+        },
+        {
+          "at": [
+            0.08,
+            51.54
+          ],
+          "name": "Barking",
+          "note": "Out east of London on the London, Tilbury & Southend line down the north bank of the Thames."
+        }
+      ],
+      "routeNote": "The Great Western main line up from Exeter — Taunton, Reading — to Paddington, then across town and out on the Tilbury line through Barking to Purfleet.",
+      "routeSource": "1890s Great Western Exeter–Paddington main line, then the London, Tilbury & Southend Railway east through Barking to Purfleet.",
+      "routeCertainty": "documented",
       "note": "The whole company gathers under Seward's roof"
     },
     {
@@ -1325,7 +1636,20 @@
       "from": "carfax",
       "to": "piccadilly",
       "chapter": 22,
-      "mode": "train"
+      "mode": "train",
+      "via": [
+        {
+          "at": [
+            0.08,
+            51.54
+          ],
+          "name": "Barking",
+          "note": "Up the Tilbury line from Purfleet into east London, thence across town to Piccadilly."
+        }
+      ],
+      "routeNote": "In from Purfleet on the London, Tilbury & Southend line through Barking, then across town to Piccadilly.",
+      "routeSource": "1890s London, Tilbury & Southend Railway, Purfleet–Barking into Fenchurch Street; the standard Purfleet-to-London route.",
+      "routeCertainty": "documented"
     },
     {
       "character": "dracula",
@@ -1390,35 +1714,66 @@
       "days": 21,
       "mode": "ship",
       "via": [
-        [
-          1.4,
-          51
-        ],
-        [
-          -5.35,
-          35.95
-        ],
-        [
-          15,
-          36.5
-        ],
-        [
-          26.2,
-          40
-        ],
-        [
-          28.99,
-          41.12
-        ],
-        [
-          29.2,
-          43.3
-        ],
-        [
-          29.66,
-          45.16
-        ]
+        {
+          "at": [
+            1.4,
+            51
+          ],
+          "name": "The Straits of Dover",
+          "note": "Down the Thames and out through the Channel narrows — the reverse of the Demeter's last leg in."
+        },
+        {
+          "at": [
+            -5.35,
+            35.95
+          ],
+          "name": "The Strait of Gibraltar",
+          "note": "Out of the Atlantic into the Mediterranean; Mina, hypnotised, hears the wash of open water."
+        },
+        {
+          "at": [
+            15,
+            36.5
+          ],
+          "name": "The central Mediterranean",
+          "note": "The long open-water run east, south of Sicily, toward the Aegean."
+        },
+        {
+          "at": [
+            26.2,
+            40
+          ],
+          "name": "The Dardanelles",
+          "note": "Up through the straits into the Sea of Marmara."
+        },
+        {
+          "at": [
+            28.99,
+            41.12
+          ],
+          "name": "The Bosphorus, off Constantinople",
+          "note": "Through the Bosphorus into the Black Sea — the Demeter's outbound route run backwards."
+        },
+        {
+          "at": [
+            29.2,
+            43.3
+          ],
+          "name": "The western Black Sea",
+          "note": "Standing north up the coast — past Varna, where the hunters wait in vain."
+        },
+        {
+          "at": [
+            29.66,
+            45.16
+          ],
+          "name": "The Danube mouths (Sulina)",
+          "note": "In past the Sulina channel, up the Danube for Galatz instead of Varna."
+        }
       ],
+      "routeNote": "The Czarina Catherine's passage down the Channel, through Gibraltar and the length of the Mediterranean, up the Dardanelles and Bosphorus into the Black Sea, then past Varna to the Danube and Galatz.",
+      "routeSource": "The reverse of the Demeter's named track (Ch. 7), confirmed by the ship's course as Mina tracks it under hypnosis (Ch. 24-25): Channel, Gibraltar, Bosphorus, and landing at Galatz on the lower Danube rather than Varna.",
+      "routeCertainty": "reconstructed",
       "note": "In a box aboard the Czarina Catherine, cleared for Varna — but she slips past to Galatz"
     },
     {
@@ -1431,7 +1786,20 @@
       "from": "seward-asylum",
       "to": "charing-cross",
       "chapter": 25,
-      "mode": "train"
+      "mode": "train",
+      "via": [
+        {
+          "at": [
+            0.08,
+            51.54
+          ],
+          "name": "Barking",
+          "note": "Up the Tilbury line from Purfleet into east London, thence across town to Charing Cross for the Continental boat train."
+        }
+      ],
+      "routeNote": "In from Purfleet on the London, Tilbury & Southend line through Barking, then across town to Charing Cross to take the boat train.",
+      "routeSource": "1890s London, Tilbury & Southend Railway, Purfleet–Barking into Fenchurch Street; the standard Purfleet-to-London route.",
+      "routeCertainty": "documented"
     },
     {
       "character": [
@@ -1469,27 +1837,50 @@
       "days": 3,
       "mode": "train",
       "via": [
-        [
-          7.75,
-          48.58
-        ],
-        [
-          11.575,
-          48.137
-        ],
-        [
-          16.373,
-          48.208
-        ],
-        [
-          19.04,
-          47.498
-        ],
-        [
-          26.1,
-          44.43
-        ]
+        {
+          "at": [
+            7.75,
+            48.58
+          ],
+          "name": "Strasbourg",
+          "note": "The Orient Express's first great stop east, on the Rhine frontier."
+        },
+        {
+          "at": [
+            11.575,
+            48.137
+          ],
+          "name": "Munich",
+          "note": "Across southern Germany — the same city where Jonathan's own journey began."
+        },
+        {
+          "at": [
+            16.373,
+            48.208
+          ],
+          "name": "Vienna",
+          "note": "Into the Austrian capital, the express's great midpoint."
+        },
+        {
+          "at": [
+            19.04,
+            47.498
+          ],
+          "name": "Buda-Pesth",
+          "note": "Over the Danube and out across the Hungarian plain."
+        },
+        {
+          "at": [
+            26.1,
+            44.43
+          ],
+          "name": "Bucharest",
+          "note": "The Roumanian capital, where the line turns for the Black Sea coast at Varna."
+        }
       ],
+      "routeNote": "The Orient Express across Europe — Strasbourg, Munich, Vienna, Buda-Pesth, Bucharest — down to the Black Sea at Varna.",
+      "routeSource": "Stoker names the Orient Express (Ch. 25) and its stops — 'Munich, Vienna, Buda-Pesth, Bucharest' — running to Varna; the 1890s Compagnie Internationale des Wagons-Lits route via Strasbourg.",
+      "routeCertainty": "novel",
       "note": "The Orient Express — to Varna, to wait for the Count's ship"
     },
     {
@@ -1504,11 +1895,18 @@
       "chapter": 26,
       "mode": "train",
       "via": [
-        [
-          26.1,
-          44.43
-        ]
+        {
+          "at": [
+            26.1,
+            44.43
+          ],
+          "name": "Bucharest",
+          "note": "Back up from the coast through the Roumanian capital, the junction for the lower Danube."
+        }
       ],
+      "routeNote": "North from Varna up through Bucharest to Galatz on the lower Danube, hurrying after the ship that made port there.",
+      "routeSource": "1890s Roumanian railways Varna–Bucharest–Galatz; the party 'hurries north to Galatz' after the Czarina Catherine (Ch. 26).",
+      "routeCertainty": "documented",
       "note": "The Czarina Catherine has given them the slip"
     },
     {
@@ -1520,6 +1918,27 @@
       "to": "veresti",
       "chapter": 26,
       "mode": "train",
+      "via": [
+        {
+          "at": [
+            27.026,
+            46.187
+          ],
+          "name": "Tecuci",
+          "note": "The junction north-west of Galatz where the line turns up into Moldavia."
+        },
+        {
+          "at": [
+            26.917,
+            46.928
+          ],
+          "name": "Roman",
+          "note": "On the Siret, the principal Moldavian junction on the northward run toward Bukovina."
+        }
+      ],
+      "routeNote": "North-west up through Moldavia — Tecuci, Roman — to Verești, the nearest railhead to the Borgo Pass.",
+      "routeSource": "1890s Roumanian railways Galatz–Tecuci–Roman–Verești up the Siret valley; Van Helsing and Mina 'take the railway as far as Verești' (Ch. 26).",
+      "routeCertainty": "documented",
       "note": "The first prong: by rail, then carriage, to close the Borgo Pass"
     },
     {
@@ -1532,6 +1951,19 @@
       "chapter": 27,
       "days": 4,
       "mode": "coach",
+      "via": [
+        {
+          "at": [
+            25.86,
+            47.42
+          ],
+          "name": "Dorna Watra (Vatra Dornei)",
+          "note": "Up the Bistritza valley into the Carpathians, the last town before the road climbs to the Borgo Pass."
+        }
+      ],
+      "routeNote": "The mountain road south-west from Verești up the Bistritza valley through Dorna Watra and on to the Borgo Pass — carriage and changes of horses, deep into the snow.",
+      "routeSource": "The Bukovina–Transylvania post road over the Borgo/Tihuța Pass; Van Helsing and Mina go on 'by carriage and changes of horses' from Verești (Ch. 27).",
+      "routeCertainty": "reconstructed",
       "note": "Carriage and changes of horses, into the snow"
     },
     {
