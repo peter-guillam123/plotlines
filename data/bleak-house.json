@@ -564,7 +564,13 @@
       "note": "A fictional shop, but firmly sited: Miss Flite leads the wards straight from the Court to 'courts and lanes immediately outside the wall of the inn' — the tangle west of Lincoln's Inn, long localised to the Chichester Rents / Star Yard warren. The exact court is Dickens's invention, so the pin is a best guess within the real district.",
       "story": "The rag-and-bottle shop where Nemo lodges and where Krook, its gin-soaked master, dies by spontaneous combustion — the most notorious death in Dickens.",
       "quote": "She had stopped at a shop over which was written KROOK, RAG AND BOTTLE WAREHOUSE.",
-      "quoteRef": "Ch. 5, A Morning Adventure"
+      "quoteRef": "Ch. 5, A Morning Adventure",
+      "image": {
+        "file": "assets/images/bh-krooks-shop.jpg",
+        "caption": "Old timber houses at the corner of Chancery Lane — the mouldering district of Krook's rag-and-bottle shop — wood engraving from Old and New London, 1873",
+        "credit": "Old and New London (1873), after J. T. Smith · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "burying-ground-nemo",
@@ -621,7 +627,13 @@
       "note": "Trooper George keeps his shooting gallery in the raffish quarter around the Haymarket and Leicester Square — Dickens names the neighbourhood precisely, but the gallery itself is a fictional establishment, so the pin is a best guess within the named district.",
       "story": "The old trooper's gallery, a refuge on the edge of the respectable world — where Jo is hidden, and where he dies with Woodcourt beside him.",
       "quote": "that curious region lying about the Haymarket and Leicester Square which is a centre of attraction to indifferent foreign hotels",
-      "quoteRef": "Ch. 21, The Smallweed Family"
+      "quoteRef": "Ch. 21, The Smallweed Family",
+      "image": {
+        "file": "assets/images/bh-mr-george-shooting-gallery.jpg",
+        "caption": "Harmony in Leicester Square — street musicians before Jaunay's Hotel in the raffish foreign-hotel quarter of Mr George's gallery, lithograph, 1848",
+        "credit": "Lithograph after H. Mörner, printed by Graf & Soret, 1848 · British Museum · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "dedlock-town-house",
@@ -651,7 +663,13 @@
       "note": "Esther's childhood school. The text places it firmly in the Reading area — she is sent by stagecoach to Reading and spends six years there — but the house is fictional, so the pin is anchored on Reading town, the place Dickens names.",
       "story": "Where the lonely, unwanted Esther is quietly schooled for six years, until the letter comes that summons her to London and the story.",
       "quote": "I left it, inside the stagecoach, for Reading.",
-      "quoteRef": "Ch. 3, A Progress"
+      "quoteRef": "Ch. 3, A Progress",
+      "image": {
+        "file": "assets/images/bh-greenleaf-school.jpg",
+        "caption": "The Market Place at Reading — the town where Esther is schooled — one of the earliest photographs, a calotype by Fox Talbot, c.1845",
+        "credit": "William Henry Fox Talbot, c.1845 · Reading Borough Libraries · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "bleak-house",
@@ -666,7 +684,13 @@
       "note": "John Jarndyce's house, explicitly placed 'in Hertfordshire' and reached just past St Albans. The house is fictional; a house in Folly Lane, St Albans, was called 'Bleak House' after publication and is often cited as the inspiration, though Fort House in Broadstairs (where Dickens did much of the writing) was also later renamed. Best-guess position just outside St Albans.",
       "story": "Jarndyce's rambling, kindly house — the one warm centre of the book, and Esther's home. Jo is found feverish at the brick-kilns nearby; it is the fixed point all her journeys return to.",
       "quote": "the long night had closed in before we came to St. Albans, near to which town Bleak House was, we knew.",
-      "quoteRef": "Ch. 6, Quite at Home"
+      "quoteRef": "Ch. 6, Quite at Home",
+      "image": {
+        "file": "assets/images/bh-bleak-house.jpg",
+        "caption": "High Street, St Albans — the old market town Bleak House lies just beyond — hand-coloured aquatint, c.1807",
+        "credit": "Engraved from a drawing by G. Shepherd for The Beauties of England and Wales, c.1807 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "chesney-wold",
