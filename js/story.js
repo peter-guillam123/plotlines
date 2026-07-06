@@ -78,9 +78,17 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
   };
 
   // ---- camera choreography ----
+  // Desktop only. The visible map is the rectangle left of the character
+  // panel and above the story card + controls — so an establishing shot
+  // keeps both ends of a leg inside that rectangle, never tucked under the
+  // furniture. (See the settle offset below for single-node push-ins.)
   function camPad() {
-    const wide = window.innerWidth > 720;
-    return { top: 70, bottom: 210, left: wide ? 300 : 30, right: 40 };
+    return { top: 80, bottom: 300, left: 360, right: 60 };
+  }
+  // Where a single node should sit so it clears the panel and the card:
+  // pushed right of centre (past the left panel) and up (above the card).
+  function nodeOffset() {
+    return [150, -90];
   }
   function boundsFrom(coords) {
     const b = [[180, 90], [-180, -90]];
@@ -93,12 +101,17 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
   function camForBounds(coords) {
     return map.cameraForBounds(boundsFrom(coords), { padding: camPad(), maxZoom: 13 });
   }
-  function applyCam(cam, ms) {
+  // `offset` (pixels) shifts the target point within the viewport — used to
+  // seat a single node in the visible rectangle. It's a per-call nudge, so
+  // it never leaves stray padding on the map to skew the next establishing
+  // shot (which frames via cameraForBounds' own padding). Everything eases,
+  // duration 0 standing in for an instant jump, so the offset always holds.
+  function applyCam(cam, ms, offset) {
     if (!cam) return;
     const c = cam.center;
-    const opts = { center: [c.lng ?? c[0], c.lat ?? c[1]], zoom: cam.zoom };
-    if (ms <= 0) map.jumpTo(opts);
-    else map.easeTo({ ...opts, duration: ms, essential: true });
+    const opts = { center: [c.lng ?? c[0], c.lat ?? c[1]], zoom: cam.zoom, essential: true };
+    if (offset) opts.offset = offset;
+    map.easeTo({ ...opts, duration: Math.max(0, ms) });
   }
   function beatTarget(beat) {
     if ((beat.kind === 'journey' || beat.kind === 'removal') && beat.leg) {
@@ -131,14 +144,14 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     const settleCam = { center: pt, zoom: NODE_ZOOM };
     const dist = lastPoint ? Math.hypot(pt[0] - lastPoint[0], pt[1] - lastPoint[1]) : 0;
     if (instant || !lastPoint || dist < SMALL_MOVE_DEG) {
-      applyCam(settleCam, instant ? 0 : CAM_SETTLE_MS);
+      applyCam(settleCam, instant ? 0 : CAM_SETTLE_MS, nodeOffset());
     } else {
       // Establish, then settle: pull back to hold both places, let the
       // eye find the new one against the geography, then push in.
       applyCam(camForBounds([lastPoint, pt]), CAM_ESTABLISH_MS);
       pendingSettle = {
         after: (CAM_ESTABLISH_MS + CAM_HOLD_MS) / 1000, // seconds of beat elapsed
-        run: () => applyCam(settleCam, CAM_SETTLE_MS),
+        run: () => applyCam(settleCam, CAM_SETTLE_MS, nodeOffset()),
       };
     }
     lastPoint = pt;
