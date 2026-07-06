@@ -51,7 +51,7 @@
     "bounds": [
       [
         -1.1,
-        51.0
+        51
       ],
       [
         1.6,
@@ -1348,6 +1348,333 @@
       "routeSource": "Dickens, Chs. 56–57: 'I heard of her first at the archway toll, over at Highgate'; 'At Barnet fresh horses were ready for us'; 'We were soon in Saint Albans'; then the doubling-back — 'I'll follow the other.'",
       "routeCertainty": "novel",
       "note": "THE PURSUIT. Roused near two in the morning, Esther is driven by Bucket north out of London through the snow — Highgate, fresh horses at Barnet, on toward St Albans — until he reads the clothes-swap for the decoy it is, doubles back, and tears all the way south again to the iron gate."
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "at": "lincolns-inn-chancery",
+      "chapter": 1,
+      "title": "In Chancery",
+      "narration": "London, in November fog. At the heart of it sits the Court of Chancery, grinding through Jarndyce and Jarndyce — a suit about a will so old that no one living remembers what it means, and that has already ruined everyone it touches."
+    },
+    {
+      "kind": "handoff",
+      "character": "lady-dedlock",
+      "at": "chesney-wold",
+      "chapter": 2,
+      "title": "In fashion",
+      "narration": "Far from the fog, at Chesney Wold in Lincolnshire, lives Lady Dedlock — beautiful, bored, and frozen at the very top of the fashionable world. She has a secret, though even she does not yet know how much it will cost her."
+    },
+    {
+      "kind": "removal",
+      "character": "lady-dedlock",
+      "from": "chesney-wold",
+      "to": "dedlock-town-house",
+      "chapter": 2,
+      "title": "The law-writer's hand",
+      "narration": "The Dedlocks come up to their town house for the season. Reading a legal paper, Lady Dedlock freezes at the handwriting on it — she knows the hand — and faints. The long unravelling has begun."
+    },
+    {
+      "kind": "handoff",
+      "character": "esther-summerson",
+      "at": "greenleaf-school",
+      "chapter": 3,
+      "title": "Esther",
+      "narration": "This is Esther Summerson's story, and she tells much of it herself. Raised without love by a cold godmother, then schooled at Greenleaf in Reading, she has grown up gentle and watchful, never knowing whose child she is."
+    },
+    {
+      "kind": "journey",
+      "character": "esther-summerson",
+      "from": "greenleaf-school",
+      "to": "lincolns-inn-chancery",
+      "chapter": 3,
+      "title": "Summoned to London",
+      "narration": "A letter calls her to London: she is to be companion to Ada Clare, a ward in the great suit. The coach carries her up from Reading into the fog, to Chancery — where she meets Ada and her cousin Richard Carstone, wards both."
+    },
+    {
+      "kind": "journey",
+      "character": "esther-summerson",
+      "from": "lincolns-inn-chancery",
+      "to": "bleak-house",
+      "chapter": 6,
+      "title": "Down to Bleak House",
+      "narration": "Their guardian, John Jarndyce — kind, shy, and sick of the suit that bears his name — takes the young people down to Bleak House, near St Albans. Esther is made its housekeeper, and finds, at last, a home."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Richard Carstone rode down on the same coach — cousin to Ada, ward like her, and the young man this story will follow to his ruin. Turn a moment to him."
+    },
+    {
+      "kind": "removal",
+      "character": "richard-carstone",
+      "from": "lincolns-inn-chancery",
+      "to": "bleak-house",
+      "chapter": 6,
+      "title": "Richard's bright hopes",
+      "narration": "Richard arrives in love with Ada and dizzy with hope, certain Jarndyce and Jarndyce will make him rich any day now. Watch that certainty — it is the thing that will slowly eat him alive, through profession after abandoned profession."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "While the wards were settling into Bleak House that first winter, back in the London fog a great lady was walking the worst streets in the city, in disguise."
+    },
+    {
+      "kind": "handoff",
+      "character": "jo",
+      "at": "tom-all-alones",
+      "chapter": 16,
+      "title": "Jo the crossing-sweeper",
+      "narration": "In the rotting rookery of Tom-all-Alone's lives Jo, a crossing-sweeper who knows nothing — not his letters, not his own history — and is forever told by the police to 'move on'. He is the thread that ties the great to the wretched."
+    },
+    {
+      "kind": "journey",
+      "character": "jo",
+      "from": "tom-all-alones",
+      "to": "burying-ground-nemo",
+      "chapter": 16,
+      "title": "A veiled lady",
+      "narration": "A veiled lady pays Jo to lead her by night to a hemmed-in pauper's graveyard, where a poor law-writer known only as 'Nemo' lies buried. She wants to see the iron gate, the step, the grave. It is Lady Dedlock, in her maid's clothes."
+    },
+    {
+      "kind": "journey",
+      "character": "jo",
+      "from": "burying-ground-nemo",
+      "to": "tom-all-alones",
+      "chapter": 16,
+      "title": "Move on",
+      "narration": "Jo takes his coins and slips back to his crossing and his corner of Tom-all-Alone's. He cannot know it, but the knowledge he now carries — the face behind the veil — has made a penniless boy dangerous to the most powerful people in England."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "See that same night now from the lady's side. Before she followed the boy to the gate, she had slipped out of her own house alone."
+    },
+    {
+      "kind": "journey",
+      "character": "lady-dedlock",
+      "from": "dedlock-town-house",
+      "to": "burying-ground-nemo",
+      "chapter": 16,
+      "title": "To Nemo's grave",
+      "narration": "So Lady Dedlock walks the route herself: from her cold town house through mean streets to the graveyard gate, to stand over the man she once loved. It is, though she does not dream it, a rehearsal of her own last walk."
+    },
+    {
+      "kind": "journey",
+      "character": "lady-dedlock",
+      "from": "burying-ground-nemo",
+      "to": "dedlock-town-house",
+      "chapter": 16,
+      "title": "Back to the state rooms",
+      "narration": "She returns to the frozen splendour of the town house, her secret one step nearer the light. The lawyer Tulkinghorn has begun to watch her, and Tulkinghorn never lets go of a secret once he scents it."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Back at Bleak House the seasons turned. Richard, restless, gave up medicine and went up to town again to try the law, while Esther kept the house — until a convalescent summer took her into Lincolnshire, to Lady Dedlock's own country."
+    },
+    {
+      "kind": "removal",
+      "character": "richard-carstone",
+      "from": "bleak-house",
+      "to": "lincolns-inn-chancery",
+      "chapter": 17,
+      "title": "A restless start",
+      "narration": "Richard cannot settle to anything. He tires of medicine, drifts up to London to try the law, and lets the suit fill the space where a career should be — always half-certain the great case will one day keep him without his lifting a hand."
+    },
+    {
+      "kind": "journey",
+      "character": "esther-summerson",
+      "from": "bleak-house",
+      "to": "chesney-wold",
+      "chapter": 18,
+      "title": "The Ghost's Walk",
+      "narration": "Esther goes to stay with Jarndyce's neighbour Mr Boythorn, whose grounds adjoin Chesney Wold. Sheltering from rain, she first sees Lady Dedlock — and feels, without understanding why, that the great lady's face is strangely, painfully like her own."
+    },
+    {
+      "kind": "scene",
+      "character": "esther-summerson",
+      "at": "chesney-wold",
+      "chapter": 30,
+      "title": "A likeness felt",
+      "narration": "The visit haunts her. There is something in Lady Dedlock's voice and look that stirs a memory Esther cannot place — a chord struck somewhere far back in her loveless childhood. Neither woman yet knows that they are mother and daughter."
+    },
+    {
+      "kind": "journey",
+      "character": "esther-summerson",
+      "from": "chesney-wold",
+      "to": "bleak-house",
+      "chapter": 35,
+      "title": "Home to Bleak House",
+      "narration": "As the summer ends, Esther comes home to Bleak House and her keys and her quiet usefulness. But the fever that will change everything is already loose on the road, walking north out of London on the feet of a sick boy."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Meanwhile — wind back to the city. Jo, hounded from corner to corner and 'moved on' past all endurance, had left London on foot, carrying a sickness with him."
+    },
+    {
+      "kind": "journey",
+      "character": "jo",
+      "from": "tom-all-alones",
+      "to": "bleak-house",
+      "chapter": 31,
+      "title": "The fever walks north",
+      "narration": "Jo trudges up the St Albans road and collapses, feverish, at the brick-kilns near Bleak House. Taken in and nursed, he carries the smallpox into the house — Esther catches it from him, and rises from her sickbed with her face scarred for life."
+    },
+    {
+      "kind": "journey",
+      "character": "jo",
+      "from": "bleak-house",
+      "to": "mr-george-shooting-gallery",
+      "chapter": 46,
+      "title": "The last move but one",
+      "narration": "Recovered enough to be turned out, Jo is moved on once more, drifting the whole way back to London. There the old soldier Trooper George takes the dying boy into his shooting-gallery — the first real shelter of his life, and the last."
+    },
+    {
+      "kind": "scene",
+      "character": "jo",
+      "at": "mr-george-shooting-gallery",
+      "chapter": 47,
+      "title": "Jo's will",
+      "narration": "Jo dies in the gallery, taught the Lord's Prayer a line at a time by the doctor at his side, getting only as far as 'Hallowed be — thy —' before the light goes out. He is one of thousands, dying so, every day."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "While the poor boy was dying, the case that ruins everyone was closing its grip on the young man who trusted it to save him. Back to Richard, now given wholly to the suit."
+    },
+    {
+      "kind": "scene",
+      "character": "richard-carstone",
+      "at": "lincolns-inn-chancery",
+      "chapter": 39,
+      "title": "Consumed by the suit",
+      "narration": "Richard has given up medicine, given up the law, and given himself entirely to Jarndyce and Jarndyce. He haunts the court, quarrels with Jarndyce, pours money and hope into a lawyer who feeds his obsession. The suit is drinking him dry."
+    },
+    {
+      "kind": "journey",
+      "character": "richard-carstone",
+      "from": "lincolns-inn-chancery",
+      "to": "deal",
+      "chapter": 45,
+      "title": "A commission at Deal",
+      "narration": "For a while he tries the army: he buys a commission and is quartered with his regiment at Deal, on the Kent coast. It is one more escape from a life the endless case has hollowed out — and it will not hold him either."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Esther and her maid Charley went down after him to the coast, to plead with him to let the suit go before it took the last of him."
+    },
+    {
+      "kind": "journey",
+      "character": "esther-summerson",
+      "from": "bleak-house",
+      "to": "deal",
+      "chapter": 45,
+      "title": "The plea at the coast",
+      "narration": "Esther travels down to Deal to beg Richard, gently, to give up his ruinous hopes. He will not; he cannot. The case has become the whole meaning of his life, and he is no longer the young man who first rode down to Bleak House."
+    },
+    {
+      "kind": "journey",
+      "character": "richard-carstone",
+      "from": "deal",
+      "to": "lincolns-inn-chancery",
+      "chapter": 45,
+      "title": "Back to the court",
+      "narration": "He sells out of the army and comes back to London and to Chancery, unable to keep away. The suit is all he has now — and at the very last it will take everything from him, and him with it."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Esther followed him back to town, close behind, helpless to save him from himself. And the winter came on — and with it the darkest turn of the whole story."
+    },
+    {
+      "kind": "journey",
+      "character": "esther-summerson",
+      "from": "deal",
+      "to": "lincolns-inn-chancery",
+      "chapter": 45,
+      "title": "Following him home",
+      "narration": "She returns to London as the snow begins. A lawyer lies murdered in his chambers, a buried secret is about to break open, and a detective is already on the scent — the pieces are gathering now toward one iron gate."
+    },
+    {
+      "kind": "handoff",
+      "character": "inspector-bucket",
+      "at": "lincolns-inn-chancery",
+      "chapter": 53,
+      "title": "Inspector Bucket",
+      "narration": "Enter Inspector Bucket of the Detective — stout, genial, tireless, with a fat forefinger that seems to point the way to every hidden thing. Mr Tulkinghorn has been shot dead in his chambers, and Bucket means to find who did it."
+    },
+    {
+      "kind": "journey",
+      "character": "inspector-bucket",
+      "from": "lincolns-inn-chancery",
+      "to": "chesney-wold",
+      "chapter": 53,
+      "title": "On the track",
+      "narration": "The trail runs up to Lincolnshire, to Chesney Wold and the Dedlocks, for Tulkinghorn died holding Lady Dedlock's secret. Bucket ranges over the frozen country, reading it, gathering his proofs, closing in on the truth of who fired the shot."
+    },
+    {
+      "kind": "journey",
+      "character": "inspector-bucket",
+      "from": "chesney-wold",
+      "to": "lincolns-inn-chancery",
+      "chapter": 54,
+      "title": "Springing the mine",
+      "narration": "Bucket returns to London and springs his mine. He clears Lady Dedlock of the murder — but names, before Sir Leicester's face, the whole of her buried past: her dead lover Nemo, and the daughter she bore and believed long dead. Esther."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "The revelation reaches Lady Dedlock herself as a warning note. Believing she has brought ruin on the husband who has just, in silence, forgiven her, she does the one thing no one expects."
+    },
+    {
+      "kind": "journey",
+      "character": "lady-dedlock",
+      "from": "dedlock-town-house",
+      "to": "burying-ground-nemo",
+      "chapter": 55,
+      "title": "The flight into the snow",
+      "narration": "She walks out into a snowstorm in her own clothes, seen at the Highgate toll going north. On the St Albans road she swaps clothes with a poor brickmaker's wife to throw off pursuit — then, in rags, turns and steals back toward London."
+    },
+    {
+      "kind": "handoff",
+      "character": "esther-summerson",
+      "at": "lincolns-inn-chancery",
+      "chapter": 57,
+      "title": "Roused at two in the morning",
+      "narration": "Bucket comes for Esther near two in the morning. Sir Leicester, stricken and forgiving, has begged him to find his wife and bring her back, alive. Only Esther, the daughter, may go with him. They set out into the blizzard together."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "esther-summerson",
+        "inspector-bucket"
+      ],
+      "from": "lincolns-inn-chancery",
+      "to": "burying-ground-nemo",
+      "chapter": 57,
+      "title": "The midnight pursuit",
+      "narration": "North out of London they drive through the snow — the Highgate toll, fresh horses at Barnet, on toward St Albans — Bucket reading every clue by lamplight. Then he grasps the clothes-swap for the decoy it is, wheels the carriage round, and tears south again."
+    },
+    {
+      "kind": "scene",
+      "character": [
+        "esther-summerson",
+        "inspector-bucket"
+      ],
+      "at": "burying-ground-nemo",
+      "chapter": 59,
+      "title": "The iron gate",
+      "narration": "At dawn they reach the pauper burying-ground where Nemo lies. A figure lies cold against the iron gate, in a brickmaker's rags. Esther lifts the head — and it is her mother, Lady Dedlock, dead on the step, come home at last to her lover's grave."
+    },
+    {
+      "kind": "handoff",
+      "character": "esther-summerson",
+      "at": "lincolns-inn-chancery",
+      "chapter": 65,
+      "title": "The suit dies",
+      "narration": "The great case ends as it must: Jarndyce and Jarndyce collapses, the whole disputed fortune eaten up in its own costs, and Richard — ruined, undeceived at last — dies with Ada's hand in his, their child unborn. The fog over Chancery lifts on nothing."
+    },
+    {
+      "kind": "scene",
+      "at": "bleak-house",
+      "chapter": 67,
+      "title": "The close of Esther's narrative",
+      "narration": "For Esther, though, the story turns to light. Jarndyce, who had meant to marry her himself, gives her instead to the man she loves, the doctor Allan Woodcourt, and a new small Bleak House to keep. Scarred, cherished, no longer nobody's child, she ends in plain happiness."
     }
   ]
 }
