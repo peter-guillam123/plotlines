@@ -789,7 +789,10 @@
       "note": "Summoned by letter ('I omit the date') to be Ada's companion; the coach up from Reading to London."
     },
     {
-      "character": "esther-summerson",
+      "character": [
+        "esther-summerson",
+        "richard-carstone"
+      ],
       "from": "lincolns-inn-chancery",
       "to": "bleak-house",
       "chapter": 6,
@@ -810,21 +813,20 @@
             51.6503
           ],
           "name": "Barnet"
+        },
+        {
+          "at": [
+            -0.336,
+            51.752
+          ],
+          "name": "St Albans",
+          "note": "the long night has closed in before they reach it; Bleak House lies just beyond"
         }
       ],
       "routeNote": "The old coaching road out of London to St Albans, by Highgate — the Whittington stone Esther recalls — and Barnet.",
       "routeSource": "Cary's New Itinerary; the road 'an old acquaintance of yours', as Bucket later says (Ch. 57).",
       "routeCertainty": "documented",
-      "note": "The three wards ride down to Jarndyce; Esther, remembering Whittington, watches the milestones and rick-yards go by."
-    },
-    {
-      "character": "richard-carstone",
-      "from": "lincolns-inn-chancery",
-      "to": "bleak-house",
-      "chapter": 6,
-      "mode": "coach",
-      "days": 1,
-      "note": "Down to live under Jarndyce with Esther and Ada, full of bright hopes of the suit."
+      "note": "The three wards ride down together to Jarndyce; Esther, remembering Whittington, watches the milestones and rick-yards go by, and Richard rides beside her full of bright hopes of the suit."
     },
     {
       "character": "lady-dedlock",
@@ -869,6 +871,34 @@
       "chapter": 17,
       "mode": "coach",
       "days": 1,
+      "via": [
+        {
+          "at": [
+            -0.336,
+            51.752
+          ],
+          "name": "St Albans",
+          "note": "the first stage back toward London"
+        },
+        {
+          "at": [
+            -0.1997,
+            51.6503
+          ],
+          "name": "Barnet"
+        },
+        {
+          "at": [
+            -0.1465,
+            51.5716
+          ],
+          "name": "Highgate",
+          "note": "down the hill into the London fog"
+        }
+      ],
+      "routeNote": "Back down the old St Albans coaching road to London — Barnet and Highgate — into the fog and the court.",
+      "routeSource": "Cary's New Itinerary; the London–Barnet–St Albans coaching road (the Great North Road as far as Barnet, then the St Albans branch), reversed.",
+      "routeCertainty": "documented",
       "note": "Back to town to try medicine, then law — restless, as each new career fails him."
     },
     {
@@ -1394,7 +1424,10 @@
     },
     {
       "kind": "journey",
-      "character": "esther-summerson",
+      "character": [
+        "esther-summerson",
+        "richard-carstone"
+      ],
       "from": "lincolns-inn-chancery",
       "to": "bleak-house",
       "chapter": 6,
@@ -1403,14 +1436,13 @@
     },
     {
       "kind": "meanwhile",
-      "narration": "Richard Carstone rode down on the same coach — cousin to Ada, ward like her, and the young man this story will follow to his ruin. Turn a moment to him."
+      "narration": "Richard rode down beside her — cousin to Ada, ward like her, and the young man this story will follow to his ruin. Turn a moment to him."
     },
     {
-      "kind": "removal",
+      "kind": "scene",
       "character": "richard-carstone",
-      "from": "lincolns-inn-chancery",
-      "to": "bleak-house",
-      "chapter": 6,
+      "at": "bleak-house",
+      "chapter": 14,
       "title": "Richard's bright hopes",
       "narration": "Richard arrives in love with Ada and dizzy with hope, certain Jarndyce and Jarndyce will make him rich any day now. Watch that certainty — it is the thing that will slowly eat him alive, through profession after abandoned profession."
     },
