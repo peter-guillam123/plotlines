@@ -90,6 +90,10 @@ story.forEach((b, i) => {
   const tag = `beat ${i + 1} (${b.kind}${b.title ? `: ${b.title}` : ''})`;
   if (!['scene', 'journey', 'removal', 'handoff', 'meanwhile'].includes(b.kind)) errors.push(`${tag}: unknown kind`);
   if (!b.narration || !String(b.narration).trim()) errors.push(`${tag}: no narration`);
+  // The app's loader (js/data.js) requires a scene to carry an integer
+  // chapter — keep rushes in step so a chapterless scene fails here, not at
+  // runtime.
+  if (b.kind === 'scene' && !Number.isInteger(b.chapter)) errors.push(`${tag}: scene needs an integer chapter`);
   const words = String(b.narration || '').trim().split(/\s+/).length;
   if (words > 60) warns.push(`${tag}: ${words} words — will not be read (cut to ≤45)`);
   const read = readTime(b.narration);
