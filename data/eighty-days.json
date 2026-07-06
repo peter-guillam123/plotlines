@@ -1,0 +1,851 @@
+{
+  "title": "Around the World in Eighty Days",
+  "author": "Jules Verne",
+  "year": 1873,
+  "gutenbergId": 103,
+  "quotesVerified": true,
+  "timeline": {
+    "epoch": "1872-10-02",
+    "calendar": true,
+    "span": "2 October – 21 December 1872"
+  },
+  "overture": "A wager at the Reform Club sends Phileas Fogg eastward round the world against the clock — by rail over the Mont Cenis, by P&O steamer through Suez and the Indian Ocean, by elephant across the Indian forests, by packet to Japan, across the Pacific and the American plains (a wind-sledge among them), and home over the Atlantic in a ship he burns for fuel. Four travellers, one detective's pursuit, and a day quietly won at the meridian.",
+  "regions": [
+    { "id": "europe-med", "name": "Europe & the Mediterranean" },
+    { "id": "india", "name": "India" },
+    { "id": "eastern-seas", "name": "The Eastern Seas & China" },
+    { "id": "japan-pacific", "name": "Japan & the Pacific" },
+    { "id": "america", "name": "America" },
+    { "id": "atlantic", "name": "The Atlantic" }
+  ],
+  "mapHome": {
+    "bounds": [ [-125, 0], [142, 56] ]
+  },
+  "chapters": [
+    { "n": 1,  "title": "Fogg and Passepartout accept each other", "dateInStory": "1 October", "day": 0 },
+    { "n": 2,  "title": "Passepartout finds his ideal", "dateInStory": "2 October", "day": 0 },
+    { "n": 3,  "title": "A conversation likely to cost Fogg dear", "dateInStory": "2 October", "day": 0 },
+    { "n": 4,  "title": "Fogg astounds Passepartout", "dateInStory": "2 October", "day": 0 },
+    { "n": 5,  "title": "A new species of funds appears on 'Change", "dateInStory": "2–9 October", "day": 0 },
+    { "n": 6,  "title": "Fix betrays a very natural impatience", "dateInStory": "9 October", "day": 7 },
+    { "n": 7,  "title": "The uselessness of passports", "dateInStory": "9 October", "day": 7 },
+    { "n": 8,  "title": "Passepartout talks rather more than is prudent", "dateInStory": "9 October", "day": 7 },
+    { "n": 9,  "title": "The Red Sea and the Indian Ocean prove propitious", "dateInStory": "9–20 October", "day": 7 },
+    { "n": 10, "title": "Passepartout gets off with the loss of his shoes", "dateInStory": "20 October", "day": 18 },
+    { "n": 11, "title": "A curious means of conveyance at a fabulous price", "dateInStory": "22 October", "day": 20 },
+    { "n": 12, "title": "Across the Indian forests, and what ensued", "dateInStory": "22 October", "day": 20 },
+    { "n": 13, "title": "Fortune favours the brave", "dateInStory": "22–23 October", "day": 20 },
+    { "n": 14, "title": "Down the valley of the Ganges", "dateInStory": "23–25 October", "day": 21 },
+    { "n": 15, "title": "The bag of banknotes disgorges thousands more", "dateInStory": "25 October", "day": 23 },
+    { "n": 16, "title": "Fix does not seem to understand", "dateInStory": "25–30 October", "day": 23 },
+    { "n": 17, "title": "From Singapore to Hong Kong", "dateInStory": "30 October – 6 November", "day": 28 },
+    { "n": 18, "title": "Each about his business", "dateInStory": "6 November", "day": 35 },
+    { "n": 19, "title": "Passepartout takes too great an interest", "dateInStory": "6–7 November", "day": 35 },
+    { "n": 20, "title": "Fix comes face to face with Fogg", "dateInStory": "7 November", "day": 36 },
+    { "n": 21, "title": "The master of the 'Tankadere'", "dateInStory": "7–13 November", "day": 36 },
+    { "n": 22, "title": "Even at the antipodes it helps to have money", "dateInStory": "13–14 November", "day": 42 },
+    { "n": 23, "title": "Passepartout's nose becomes outrageously long", "dateInStory": "14 November", "day": 43 },
+    { "n": 24, "title": "Crossing the Pacific Ocean", "dateInStory": "14 November – 3 December", "day": 43 },
+    { "n": 25, "title": "A slight glimpse of San Francisco", "dateInStory": "3 December", "day": 62 },
+    { "n": 26, "title": "By the Pacific Railroad", "dateInStory": "3–5 December", "day": 62 },
+    { "n": 27, "title": "A course of Mormon history", "dateInStory": "5 December", "day": 64 },
+    { "n": 28, "title": "Passepartout cannot make anybody listen", "dateInStory": "6–7 December", "day": 65 },
+    { "n": 29, "title": "Incidents met with only on American railroads", "dateInStory": "7 December", "day": 66 },
+    { "n": 30, "title": "Fogg simply does his duty", "dateInStory": "7 December", "day": 66 },
+    { "n": 31, "title": "Fix furthers the interests of Fogg", "dateInStory": "7–8 December", "day": 66 },
+    { "n": 32, "title": "A direct struggle with bad fortune", "dateInStory": "9–11 December", "day": 68 },
+    { "n": 33, "title": "Fogg shows himself equal to the occasion", "dateInStory": "11–21 December", "day": 70 },
+    { "n": 34, "title": "Fogg at last reaches London", "dateInStory": "21 December", "day": 80 },
+    { "n": 35, "title": "Fogg does not repeat his orders twice", "dateInStory": "21 December", "day": 80 },
+    { "n": 36, "title": "Fogg's name once more at a premium", "dateInStory": "21 December", "day": 80 },
+    { "n": 37, "title": "Fogg gained nothing, unless it were happiness", "dateInStory": "21 December", "day": 80 }
+  ],
+  "characters": [
+    {
+      "id": "fogg",
+      "name": "Phileas Fogg",
+      "colour": "prussian",
+      "role": "A precise, imperturbable English gentleman of the Reform Club; the spine of the wager and the race",
+      "start": { "location": "reform-club", "chapter": 1 }
+    },
+    {
+      "id": "passepartout",
+      "name": "Jean Passepartout",
+      "colour": "sienna",
+      "role": "Fogg's French servant, hired that same morning; loyal, resourceful and forever the accident that nearly loses the bet",
+      "start": { "location": "reform-club", "chapter": 1 }
+    },
+    {
+      "id": "fix",
+      "name": "Detective Fix",
+      "colour": "bottle",
+      "role": "A Scotland Yard detective who takes Fogg for the Bank of England robber and shadows him round the world, warrant always just out of reach",
+      "start": { "location": "suez", "chapter": 6 }
+    },
+    {
+      "id": "aouda",
+      "name": "Aouda",
+      "colour": "aubergine",
+      "role": "A young Parsee widow rescued from a suttee near Pillaji; travels with Fogg's party thereafter, and at the last marries him",
+      "start": { "location": "pillaji", "chapter": 13 }
+    }
+  ],
+  "locations": [
+    {
+      "id": "reform-club",
+      "region": "europe-med",
+      "name": "Reform Club, Pall Mall, London",
+      "novelName": "the Reform Club",
+      "coords": [-0.1345, 51.5065],
+      "certainty": "real",
+      "story": "Where the wager is struck over whist and the Daily Telegraph's timetable, and where — eighty days later — Fogg must be back by a quarter before nine to win. He leaves at twenty-five past seven that same evening.",
+      "quote": "I shall be due in London in this very room of the Reform Club, on\nSaturday, the 21st of December, at a quarter before nine p.m.",
+      "quoteRef": "Ch. 3"
+    },
+    {
+      "id": "charing-cross",
+      "region": "europe-med",
+      "name": "Charing Cross station, London",
+      "novelName": "the station",
+      "coords": [-0.1247, 51.5074],
+      "certainty": "real",
+      "story": "The party takes the evening train for the Continent, bound over the Channel for Paris and the Mont Cenis road to Brindisi. The race has begun.",
+      "quote": "Phileas Fogg, at twenty-five minutes past seven, left the Reform Club",
+      "quoteRef": "Ch. 4"
+    },
+    {
+      "id": "paris",
+      "region": "europe-med",
+      "name": "Paris",
+      "novelName": "Paris",
+      "coords": [2.352, 48.857],
+      "certainty": "real",
+      "story": "A crossing of the city between stations on the run south to the Alps; Passepartout barely glimpses it.",
+      "quote": "each principal point Paris, Brindisi,\nSuez, Bombay, Calcutta, Singapore, Hong Kong, Yokohama, San Francisco,\nNew York, and London",
+      "quoteRef": "Ch. 7"
+    },
+    {
+      "id": "turin",
+      "region": "europe-med",
+      "name": "Turin",
+      "novelName": "Turin",
+      "coords": [7.686, 45.07],
+      "certainty": "real",
+      "story": "Reached by the Mont Cenis tunnel and pass on the morning of Friday 4 October — the Alps crossed, Italy ahead.",
+      "quote": "Reached Turin by Mont Cenis, Friday, October 4th, at 6.35 a.m.",
+      "quoteRef": "Ch. 7, Fix's telegram log"
+    },
+    {
+      "id": "mont-cenis",
+      "region": "europe-med",
+      "name": "Mont Cenis Pass",
+      "novelName": "Mont Cenis",
+      "coords": [6.9, 45.25],
+      "certainty": "real",
+      "story": "The Alpine crossing between France and Italy named in the Telegraph's itinerary; the Fréjus (Mont Cenis) railway tunnel had opened only the year before, in 1871.",
+      "note": "The itinerary names 'Mont Cenis' as the Alpine crossing; this point sits on the pass/tunnel line between Modane and Bardonecchia. Verne means the new Fréjus rail tunnel, opened 1871.",
+      "quote": "From London to Suez _viâ_ Mont Cenis and Brindisi, by rail and\nsteamboats",
+      "quoteRef": "Ch. 3, the Daily Telegraph estimate"
+    },
+    {
+      "id": "brindisi",
+      "region": "europe-med",
+      "name": "Brindisi",
+      "novelName": "Brindisi",
+      "coords": [17.946, 40.638],
+      "certainty": "real",
+      "story": "The Adriatic railhead where the P&O steamer Mongolia takes on the Indian mails. Fogg boards on the Saturday afternoon and sails at five.",
+      "quote": "Arrived at Brindisi, Saturday, October 5th, at 4 p.m.",
+      "quoteRef": "Ch. 7, Fix's telegram log"
+    },
+    {
+      "id": "suez",
+      "region": "europe-med",
+      "name": "Suez",
+      "novelName": "Suez",
+      "coords": [32.55, 29.97],
+      "certainty": "real",
+      "story": "At the head of the Red Sea, where Fix waits with a warrant that never comes and inspects the Mongolia's passengers. Passepartout has his passport stamped; the detective attaches himself to the party here.",
+      "quote": "Reached Suez, Wednesday, October 9th, at 11 a.m.",
+      "quoteRef": "Ch. 7, Fix's telegram log"
+    },
+    {
+      "id": "aden",
+      "region": "europe-med",
+      "name": "Aden",
+      "novelName": "Aden",
+      "coords": [45.03, 12.79],
+      "certainty": "real",
+      "story": "The Mongolia's coaling stop at the mouth of the Red Sea. Fogg and his servant go ashore for four hours to have the passport stamped again; the ship makes up her lost time and steams on for Bombay.",
+      "quote": "Mr. Fogg and his servant went ashore at Aden to have the passport again\n_visaed;_",
+      "quoteRef": "Ch. 9"
+    },
+    {
+      "id": "bombay",
+      "region": "india",
+      "name": "Bombay (Mumbai)",
+      "novelName": "Bombay",
+      "coords": [72.834, 18.94],
+      "certainty": "real",
+      "story": "India reached ahead of time. Passepartout wanders into a pagoda in his shoes and is set upon; the Great Indian Peninsula Railway carries them east that same evening — and that small blasphemy will hand Fix his pretext later.",
+      "quote": "at the quays of Bombay",
+      "quoteRef": "Ch. 9"
+    },
+    {
+      "id": "kholby",
+      "region": "india",
+      "name": "Kholby (near Kholapur, Deccan)",
+      "novelName": "the hamlet of Kholby",
+      "coords": [76.9, 20.3],
+      "certainty": "conjectured",
+      "note": "Kholby is Verne's invented railhead where the unfinished line stops, 'fifteen miles beyond Rothal' in the Sahpoor jungle. No such village exists; this point is an editorial best guess in the Western Ghats interior on the line's eastward course, before the country climbs to the Allahabad plain.",
+      "story": "Here the railway simply stops: fifty miles of track never laid, though the tickets are sold through. Fogg buys an elephant, Kiouni, at a fabulous price, hires a guide, and sets off across the forest for Allahabad.",
+      "quote": "At the hamlet of Kholby.",
+      "quoteRef": "Ch. 11"
+    },
+    {
+      "id": "pillaji",
+      "region": "india",
+      "name": "Pillaji (Bundelcund forest)",
+      "novelName": "the pagoda of Pillaji",
+      "coords": [78.7, 23.4],
+      "certainty": "conjectured",
+      "note": "The pagoda of Pillaji is Verne's invention, set in the forest country between Kholby and Allahabad. This point is an editorial best guess in the Bundelcund/Vindhya jungle the elephant crosses, short of Allahabad.",
+      "story": "Deep in the forest the party comes on a suttee: the young widow Aouda drugged with opium and hemp, to be burned at dawn beside her dead rajah. At the last moment Passepartout, hidden on the pyre, rises as the dead prince and carries her off.",
+      "quote": "To the pagoda of Pillaji, two miles from here; she will pass the night\nthere",
+      "quoteRef": "Ch. 12"
+    },
+    {
+      "id": "allahabad",
+      "region": "india",
+      "name": "Allahabad (Prayagraj)",
+      "novelName": "Allahabad, the City of God",
+      "coords": [81.846, 25.435],
+      "certainty": "real",
+      "story": "Where the rails begin again. The elephant is given to the guide as reward; the party takes the train down the Ganges valley, buying European clothes for Aouda before boarding.",
+      "quote": "the streets of Allahabad, that is, the City of God",
+      "quoteRef": "Ch. 14"
+    },
+    {
+      "id": "benares",
+      "region": "india",
+      "name": "Benares (Varanasi)",
+      "novelName": "Benares",
+      "coords": [82.973, 25.318],
+      "certainty": "real",
+      "story": "Sir Francis Cromarty's destination, where the brigadier leaves the party. The train presses on down the Ganges for Calcutta.",
+      "quote": "At half-past twelve the train stopped at Benares.",
+      "quoteRef": "Ch. 14"
+    },
+    {
+      "id": "calcutta",
+      "region": "india",
+      "name": "Calcutta (Kolkata)",
+      "novelName": "Calcutta",
+      "coords": [88.363, 22.573],
+      "certainty": "real",
+      "story": "The party is haled before a magistrate over the Bombay pagoda — Fix's doing — and Fogg buys their way free with bail forfeited. They reach the steamer Rangoon with minutes to spare, bound for Hong Kong by way of Singapore.",
+      "quote": "Calcutta was reached at seven in the morning, and the packet left for\nHong Kong at noon",
+      "quoteRef": "Ch. 14"
+    },
+    {
+      "id": "singapore",
+      "region": "eastern-seas",
+      "name": "Singapore",
+      "novelName": "Singapore",
+      "coords": [103.82, 1.29],
+      "certainty": "real",
+      "story": "A coaling call on the Rangoon's run to Hong Kong. A few hours ashore among nutmeg groves and clove plantations, then out past the mountains of Malacca.",
+      "quote": "the “Rangoon” rode out of Singapore harbour",
+      "quoteRef": "Ch. 17"
+    },
+    {
+      "id": "hong-kong",
+      "region": "eastern-seas",
+      "name": "Hong Kong",
+      "novelName": "Hong Kong",
+      "coords": [114.16, 22.29],
+      "certainty": "real",
+      "story": "The last British ground before Japan — where Fix's warrant might at last be valid, and is not. He gets Passepartout drunk and drugged in an opium den so he cannot warn Fogg; the Carnatic sails a day early, carrying the servant off senseless and leaving master and detective behind. Fogg hires the pilot-boat Tankadere to chase her.",
+      "quote": "Hong Kong, which is a little English colony near the Chinese coast",
+      "quoteRef": "Ch. 17"
+    },
+    {
+      "id": "shanghai",
+      "region": "eastern-seas",
+      "name": "Shanghai",
+      "novelName": "Shanghai",
+      "coords": [121.47, 31.23],
+      "certainty": "real",
+      "story": "The Tankadere's true goal: not Yokohama itself but Shanghai, where the American mail steamer for San Francisco calls. Through a gale the little schooner catches the General Grant off the coast and signals her down.",
+      "quote": "Shanghai we should not be forced to sail wide of the Chinese coast,",
+      "quoteRef": "Ch. 20"
+    },
+    {
+      "id": "yokohama",
+      "region": "japan-pacific",
+      "name": "Yokohama",
+      "novelName": "Yokohama",
+      "coords": [139.64, 35.44],
+      "certainty": "real",
+      "story": "Passepartout wakes here aboard the Carnatic, penniless and alone, and joins Batulcar's acrobatic troupe of Long Noses to earn his passage. Fogg arrives on the General Grant and finds his servant at the bottom of a human pyramid; the party, reunited, sails for America.",
+      "quote": "ACROBATIC JAPANESE TROUPE,\nHONOURABLE WILLIAM BATULCAR, PROPRIETOR",
+      "quoteRef": "Ch. 23"
+    },
+    {
+      "id": "san-francisco",
+      "region": "america",
+      "name": "San Francisco",
+      "novelName": "San Francisco",
+      "coords": [-122.42, 37.77],
+      "certainty": "real",
+      "story": "America, reached on 3 December after twenty-two days of Pacific. A political brawl in the street, a first sight of the New World — and that evening the party boards the Pacific Railroad train east.",
+      "quote": "the “General Grant” entered\nthe bay of the Golden Gate, and reached San Francisco.",
+      "quoteRef": "Ch. 25"
+    },
+    {
+      "id": "ogden",
+      "region": "america",
+      "name": "Ogden, Utah",
+      "novelName": "Ogden",
+      "coords": [-111.97, 41.223],
+      "certainty": "real",
+      "story": "Where the Central Pacific hands the line to the Union Pacific, and the party breaks the journey to run up the branch to Salt Lake City for a glimpse of the Mormon capital.",
+      "quote": "The train reached Ogden at two o’clock",
+      "quoteRef": "Ch. 27"
+    },
+    {
+      "id": "great-salt-lake",
+      "region": "america",
+      "name": "Great Salt Lake, Utah",
+      "novelName": "the Great Salt Lake",
+      "coords": [-112.5, 41.1],
+      "certainty": "real",
+      "story": "The railroad rounds the great inland sea of the Mormons. A fellow passenger delivers Passepartout a whole lecture on Mormon history at twenty miles an hour.",
+      "quote": "turns the Great Salt Lake, and reaches Salt Lake\nCity",
+      "quoteRef": "Ch. 26"
+    },
+    {
+      "id": "medicine-bow",
+      "region": "america",
+      "name": "Medicine Bow, Wyoming",
+      "novelName": "Medicine Bow",
+      "coords": [-106.2, 41.9],
+      "certainty": "real",
+      "story": "A failing suspension bridge over a torrent. The engineer takes it at full speed to jump the gap; the train clears it and the bridge falls into the rapids behind.",
+      "quote": "The bridge at Medicine Bow is shaky",
+      "quoteRef": "Ch. 28"
+    },
+    {
+      "id": "plum-creek",
+      "region": "america",
+      "name": "Plum Creek, Nebraska",
+      "novelName": "Plum Creek",
+      "coords": [-99.85, 40.62],
+      "certainty": "real",
+      "story": "On the plains a war-party of Sioux storms the train. In the running fight Passepartout uncouples the locomotive to stop the cars at the fort — and is carried off by the Indians.",
+      "quote": "Do you know Plum Creek?",
+      "quoteRef": "Ch. 29"
+    },
+    {
+      "id": "fort-kearney",
+      "region": "america",
+      "name": "Fort Kearny, Nebraska",
+      "novelName": "Fort Kearney",
+      "coords": [-99.0, 40.68],
+      "certainty": "identified",
+      "note": "Verne spells it 'Fort Kearney'; the real post on the Platte is Fort Kearny, near present Kearney, Nebraska. This point is at the fort's site on the south bank of the Platte.",
+      "story": "The train halts at the fort for protection. Fogg gives up the wager without hesitation to lead a party of soldiers after his servant — and rescues him. But the train has gone on without them; they are stranded, and must find another way to Omaha.",
+      "quote": "The commanding officer of Fort Kearney was there.",
+      "quoteRef": "Ch. 30"
+    },
+    {
+      "id": "omaha",
+      "region": "america",
+      "name": "Omaha, Nebraska",
+      "novelName": "Omaha",
+      "coords": [-95.94, 41.26],
+      "certainty": "real",
+      "story": "The eastern terminus of the Pacific Railroad proper, reached by wind-sledge across the frozen prairie after the train was lost. From here fast trains run through Chicago to the Atlantic seaboard.",
+      "quote": "The Pacific Railroad proper finds its terminus at this important\nNebraska town.",
+      "quoteRef": "Ch. 31"
+    },
+    {
+      "id": "chicago",
+      "region": "america",
+      "name": "Chicago, Illinois",
+      "novelName": "Chicago",
+      "coords": [-87.63, 41.88],
+      "certainty": "real",
+      "story": "Reached on the 10th, 'already risen from its ruins' a year after the Great Fire. Fogg changes trains at once for the run east to New York.",
+      "quote": "it reached Chicago,\nalready risen from its ruins",
+      "quoteRef": "Ch. 31"
+    },
+    {
+      "id": "new-york",
+      "region": "atlantic",
+      "name": "New York",
+      "novelName": "New York",
+      "coords": [-74.01, 40.7],
+      "certainty": "real",
+      "story": "They reach the quay forty-five minutes after the Liverpool steamer China has sailed. Fogg charters the trading vessel Henrietta instead, buys off her crew, and — when her captain refuses Liverpool — takes command himself.",
+      "quote": "The “China,” for Liverpool, had started three-quarters of an hour\nbefore!",
+      "quoteRef": "Ch. 32"
+    },
+    {
+      "id": "queenstown",
+      "region": "atlantic",
+      "name": "Queenstown (Cobh), Ireland",
+      "novelName": "Queenstown",
+      "coords": [-8.3, 51.85],
+      "certainty": "real",
+      "story": "The Henrietta, her upperworks burned for fuel, raises the Irish coast and Fastnet Light. Rather than crawl the last miles to Liverpool on failing steam, Fogg lands here to take the mail express — the trick that gains twelve hours on the Atlantic steamers.",
+      "quote": "By ten\nin the evening they were passing Queenstown.",
+      "quoteRef": "Ch. 33"
+    },
+    {
+      "id": "dublin",
+      "region": "atlantic",
+      "name": "Dublin",
+      "novelName": "Dublin",
+      "coords": [-6.26, 53.35],
+      "certainty": "real",
+      "story": "The mail train runs them up from Queenstown by dawn, and they embark at once on the fast Kingstown packet across the Irish Sea for Liverpool.",
+      "quote": "at dawn of day they were in Dublin",
+      "quoteRef": "Ch. 33"
+    },
+    {
+      "id": "liverpool",
+      "region": "atlantic",
+      "name": "Liverpool",
+      "novelName": "the Liverpool quay",
+      "coords": [-2.99, 53.404],
+      "certainty": "real",
+      "story": "Fogg steps ashore at twenty minutes to noon on the 21st, six hours from London and seemingly the winner — and there Fix, warrant in hand at last, arrests him. The lost hours in the Custom House will appear to cost him everything.",
+      "quote": "Phileas Fogg at last disembarked on the Liverpool quay, at twenty\nminutes before twelve, 21st December.",
+      "quoteRef": "Ch. 33"
+    },
+    {
+      "id": "london-return",
+      "region": "atlantic",
+      "name": "London (return)",
+      "novelName": "London",
+      "coords": [-0.14, 51.505],
+      "certainty": "real",
+      "story": "Freed once Fix realises his blunder, Fogg races for London believing himself five minutes too late. But travelling always eastward he has gained a full day at the meridian: it is not Sunday but Saturday, and he reaches the Reform Club with seconds to spare.",
+      "quote": "Phileas Fogg had won his wager, and had made his journey around the\nworld in eighty days.",
+      "quoteRef": "Ch. 37"
+    }
+  ],
+  "movements": [
+    {
+      "character": ["fogg", "passepartout"],
+      "from": "reform-club",
+      "to": "charing-cross",
+      "chapter": 4,
+      "mode": "coach",
+      "note": "Out of the Reform Club at twenty-five past seven, by cab to the station"
+    },
+    {
+      "character": ["fogg", "passepartout"],
+      "from": "charing-cross",
+      "to": "brindisi",
+      "chapter": 4,
+      "days": 3,
+      "mode": "train",
+      "via": [
+        { "at": [2.352, 48.857], "name": "Paris", "note": "Across the Channel and over the city between stations, on the mail route south." },
+        { "at": [6.9, 45.25], "name": "Mont Cenis", "note": "The Alpine crossing between France and Italy — the new Fréjus (Mont Cenis) rail tunnel, opened 1871." },
+        { "at": [7.686, 45.07], "name": "Turin", "note": "Reached Friday 4 October at 6.35 a.m., Italy gained." },
+        { "at": [11.34, 44.5], "name": "Bologna", "note": "Down through the Italian trunk line toward the Adriatic heel." }
+      ],
+      "routeNote": "The overland mail route to the Indian steamers: London to Paris, south to the Mont Cenis pass and tunnel, down the length of Italy to Brindisi, where P&O took on the mails.",
+      "routeSource": "The Daily Telegraph itinerary in Ch. 3 ('London to Suez _viâ_ Mont Cenis and Brindisi, by rail and steamboats'); Fix's telegram log (Ch. 7) fixes Turin 4 Oct, Brindisi 5 Oct.",
+      "routeCertainty": "documented",
+      "note": "The overland dash across Europe to catch the Mongolia"
+    },
+    {
+      "character": ["fogg", "passepartout"],
+      "from": "brindisi",
+      "to": "suez",
+      "chapter": 6,
+      "days": 4,
+      "mode": "ship",
+      "via": [
+        { "at": [23.9, 36.0], "name": "The Ionian Sea, off Greece", "note": "The Mongolia's course east across the central Mediterranean after leaving the Adriatic." },
+        { "at": [28.2, 33.0], "name": "The eastern Mediterranean", "note": "The open run toward the Egyptian coast and Port Said." },
+        { "at": [32.3, 31.26], "name": "Port Said", "note": "The Mediterranean mouth of the Suez Canal, opened 1869; the Mongolia enters the canal here." }
+      ],
+      "routeNote": "The P&O steamer Mongolia from Brindisi across the Mediterranean to Port Said and down the newly opened Suez Canal to Suez.",
+      "routeSource": "Verne, Ch. 6–7: the Mongolia 'plied regularly between Brindisi and Bombay _viâ_ the Suez Canal'; sailed Brindisi 5 Oct, reached Suez 9 Oct.",
+      "routeCertainty": "documented",
+      "note": "Aboard the P&O steamer Mongolia, through the Med and the Canal"
+    },
+    {
+      "character": ["fogg", "passepartout"],
+      "from": "suez",
+      "to": "bombay",
+      "chapter": 9,
+      "days": 9,
+      "mode": "ship",
+      "via": [
+        { "at": [43.4, 12.6], "name": "Bab-el-Mandeb", "note": "The strait at the foot of the Red Sea, out into the Gulf of Aden." },
+        { "at": [45.03, 12.79], "name": "Aden", "note": "The coaling stop at the mouth of the Red Sea; four hours ashore, the passport stamped again." },
+        { "at": [57.0, 15.5], "name": "The Arabian Sea", "note": "The open crossing east-north-east from Aden toward the Bombay coast, wind in the north-west and all sails aiding the engine." }
+      ],
+      "routeNote": "The Mongolia's Red Sea and Arabian Sea passage, coaling at Aden, then across to Bombay — the standard P&O India run.",
+      "routeSource": "Verne, Ch. 9: 'The distance between Suez and Aden is precisely thirteen hundred and thirty miles'; the Mongolia coals at Aden 14 Oct and reaches Bombay ahead of time.",
+      "routeCertainty": "documented",
+      "note": "The Red Sea and the Indian Ocean prove propitious"
+    },
+    {
+      "character": "fix",
+      "from": "suez",
+      "to": "bombay",
+      "chapter": 9,
+      "days": 9,
+      "mode": "ship",
+      "via": [
+        { "at": [43.4, 12.6], "name": "Bab-el-Mandeb", "note": "The Red Sea strait, following the Mongolia he has boarded to shadow Fogg." },
+        { "at": [45.03, 12.79], "name": "Aden", "note": "Coaling at Aden; Fix wires ahead for a warrant to meet the ship at Bombay." },
+        { "at": [57.0, 15.5], "name": "The Arabian Sea", "note": "The open crossing toward Bombay, the detective aboard the same steamer as his quarry." }
+      ],
+      "routeNote": "Fix boards the Mongolia at Suez and follows Fogg on the same P&O steamer to Bombay, hoping a warrant will overtake them there.",
+      "routeSource": "Verne, Ch. 9: Fix 'proceeding on board the Mongolia' to follow Fogg; same P&O Suez–Aden–Bombay route.",
+      "routeCertainty": "documented",
+      "note": "The detective attaches himself to the chase"
+    },
+    {
+      "character": ["fogg", "passepartout"],
+      "from": "bombay",
+      "to": "kholby",
+      "chapter": 11,
+      "days": 1,
+      "mode": "train",
+      "via": [
+        { "at": [73.86, 18.52], "name": "Poona (Pune)", "note": "The Great Indian Peninsula Railway climbs the Western Ghats above Bombay toward the Deccan plateau." },
+        { "at": [75.9, 19.9], "name": "The Deccan interior", "note": "East across the tableland toward the forest country where the finished line stops." }
+      ],
+      "routeNote": "The Great Indian Peninsula Railway east out of Bombay across the Western Ghats and the Deccan — as far as the line was actually laid, which stopped short in the jungle.",
+      "routeSource": "Verne, Ch. 11–12: the GIPR route Bombay–Allahabad, with the gap 'between Rothal and Allahabad' where 'the line begins again'; the general route is given in Ch. 12.",
+      "routeCertainty": "documented",
+      "note": "By rail into the interior — until the track simply ends"
+    },
+    {
+      "character": "fix",
+      "from": "bombay",
+      "to": "calcutta",
+      "chapter": 14,
+      "days": 3,
+      "mode": "train",
+      "via": [
+        { "at": [73.86, 18.52], "name": "Poona (Pune)", "note": "Fix, unable to arrest Fogg, keeps to the through railway across the Ghats." },
+        { "at": [81.846, 25.435], "name": "Allahabad", "note": "Where the completed line resumes; Fix rides the rails the whole way rather than the elephant road." }
+      ],
+      "routeNote": "Fix stays with the Great Indian Peninsula Railway the whole way to Calcutta, shadowing Fogg's party to their re-embarkation while nursing his Bombay-pagoda pretext.",
+      "routeSource": "Verne, Ch. 13–15: Fix follows to Calcutta and engineers the party's arrest there over the Bombay pagoda; GIPR Bombay–Allahabad–Calcutta.",
+      "routeCertainty": "documented",
+      "note": "The detective keeps to the rails, biding his moment"
+    },
+    {
+      "character": ["fogg", "passepartout"],
+      "from": "kholby",
+      "to": "pillaji",
+      "chapter": 12,
+      "days": 1,
+      "mode": "elephant",
+      "via": [
+        { "at": [77.8, 21.7], "name": "The Sahpoor jungle", "note": "The guide steers the elephant Kiouni off the road and into deep forest to shorten the way and avoid the villages." }
+      ],
+      "routeNote": "The elephant crossing of the Indian forests between the broken railhead and the resuming line — struck cross-country through the Bundelcund jungle, where the party comes on the suttee at Pillaji.",
+      "routeSource": "Verne, Ch. 11–12: Fogg buys the elephant at Kholby and crosses 'the Indian forests' toward Allahabad; the pagoda of Pillaji lies on the way. Reconstructed: the villages are invented and the exact track unnamed.",
+      "routeCertainty": "reconstructed",
+      "note": "Across the forests by elephant — and the fires of Pillaji"
+    },
+    {
+      "character": ["fogg", "passepartout", "aouda"],
+      "from": "pillaji",
+      "to": "allahabad",
+      "chapter": 13,
+      "days": 1,
+      "mode": "elephant",
+      "via": [
+        { "at": [80.2, 24.5], "name": "The Bundelcund forest", "note": "The last stretch of jungle north-east toward the plain, Aouda carried insensible among them." }
+      ],
+      "routeNote": "The elephant carries the party on out of the forest to the railhead at Allahabad, the rescued Aouda with them.",
+      "routeSource": "Verne, Ch. 13: from Pillaji the elephant makes for Allahabad, 'now only twelve miles to the north-east'. Reconstructed: the forest track is unnamed.",
+      "routeCertainty": "reconstructed",
+      "note": "Out of the forest with Aouda, to where the rails resume"
+    },
+    {
+      "character": ["fogg", "passepartout", "aouda"],
+      "from": "allahabad",
+      "to": "calcutta",
+      "chapter": 14,
+      "days": 2,
+      "mode": "train",
+      "via": [
+        { "at": [82.973, 25.318], "name": "Benares", "note": "Sir Francis Cromarty's destination; the line runs down the valley of the Ganges." },
+        { "at": [85.13, 25.6], "name": "The Ganges valley", "note": "The railway follows the great river east across the plain of Bengal." },
+        { "at": [86.98, 23.68], "name": "Burdwan approaches", "note": "The line bends south-east off the river for the run down to Calcutta." }
+      ],
+      "routeNote": "The East Indian Railway down the valley of the Ganges — Allahabad, Benares, and on across Bengal to Calcutta.",
+      "routeSource": "Verne, Ch. 14 ('Down the valley of the Ganges'): the train runs Allahabad–Benares–Calcutta; the East Indian Railway's Ganges-valley main line.",
+      "routeCertainty": "documented",
+      "note": "Down the Ganges to Calcutta — and a magistrate's court"
+    },
+    {
+      "character": ["fogg", "passepartout", "aouda"],
+      "from": "calcutta",
+      "to": "hong-kong",
+      "chapter": 17,
+      "days": 11,
+      "mode": "ship",
+      "via": [
+        { "at": [88.0, 20.5], "name": "The Bay of Bengal", "note": "The Rangoon stands south out of the Hooghly into the open bay." },
+        { "at": [96.0, 8.0], "name": "The Andaman Sea", "note": "South-east toward the Strait of Malacca." },
+        { "at": [103.82, 1.29], "name": "Singapore", "note": "A few hours' coaling call; out past the mountains of Malacca." },
+        { "at": [109.0, 6.5], "name": "The South China Sea", "note": "North-east across the sea toward the Chinese coast, the last days rough with a coming monsoon." }
+      ],
+      "routeNote": "The P&O steamer Rangoon from Calcutta down the Bay of Bengal, through the Strait of Malacca and Singapore, and up the South China Sea to Hong Kong.",
+      "routeSource": "Verne, Ch. 16–17: the Rangoon calls at Singapore ('some thirteen hundred miles' short of Hong Kong) en route Calcutta–Hong Kong; the P&O eastern mail line.",
+      "routeCertainty": "documented",
+      "note": "Aboard the Rangoon, by Singapore to the China coast"
+    },
+    {
+      "character": "fix",
+      "from": "calcutta",
+      "to": "hong-kong",
+      "chapter": 17,
+      "days": 11,
+      "mode": "ship",
+      "via": [
+        { "at": [88.0, 20.5], "name": "The Bay of Bengal", "note": "Fix takes the same Rangoon, still shadowing Fogg, warrant not yet in hand." },
+        { "at": [103.82, 1.29], "name": "Singapore", "note": "The coaling call; British soil, but no warrant to serve." },
+        { "at": [109.0, 6.5], "name": "The South China Sea", "note": "On toward Hong Kong, the last British ground where Fix means to make his arrest." }
+      ],
+      "routeNote": "Fix travels on the same Rangoon to Hong Kong, gambling that his warrant will reach the last British port before Fogg leaves it.",
+      "routeSource": "Verne, Ch. 16–18: Fix aboard the Rangoon, counting on Hong Kong as 'the last English ground'; same P&O route.",
+      "routeCertainty": "documented",
+      "note": "The pursuit, still one warrant short"
+    },
+    {
+      "character": "passepartout",
+      "from": "hong-kong",
+      "to": "yokohama",
+      "chapter": 21,
+      "days": 6,
+      "mode": "ship",
+      "via": [
+        { "at": [117.0, 24.5], "name": "The China coast", "note": "The Carnatic sails a day early, Passepartout senseless aboard from the opium den, master left behind." },
+        { "at": [125.0, 29.0], "name": "The East China Sea", "note": "North-east across the sea toward the Japanese islands." },
+        { "at": [135.0, 33.5], "name": "Off the Japanese coast", "note": "Up the Pacific side of Honshu toward Yokohama." }
+      ],
+      "routeNote": "Passepartout's solo leg: drugged in the Hong Kong opium den, he is carried aboard the Carnatic and wakes at Yokohama alone, separated from Fogg.",
+      "routeSource": "Verne, Ch. 19–22: the Carnatic sails early with Passepartout aboard; he reaches Yokohama and joins Batulcar's troupe. P&O/British India Carnatic Hong Kong–Yokohama.",
+      "routeCertainty": "documented",
+      "note": "Separated: carried off drugged aboard the Carnatic"
+    },
+    {
+      "character": ["fogg", "aouda"],
+      "from": "hong-kong",
+      "to": "shanghai",
+      "chapter": 21,
+      "days": 3,
+      "mode": "ship",
+      "via": [
+        { "at": [116.5, 22.8], "name": "The China coast", "note": "The pilot-boat Tankadere beats up the coast through worsening weather toward the Yangtze mouth." },
+        { "at": [120.0, 28.0], "name": "The approach to the Yangtze", "note": "Through a gale off the Chinese coast, making for Shanghai and the American mail steamer." }
+      ],
+      "routeNote": "Having missed the Carnatic, Fogg charters the pilot-schooner Tankadere to run up the coast to Shanghai and intercept the San Francisco mail steamer there.",
+      "routeSource": "Verne, Ch. 20–21: Fogg hires the Tankadere for Shanghai ('if we make Shanghai we should not be forced to sail wide of the Chinese coast'); the steamer for Yokohama and America is caught off Shanghai.",
+      "routeCertainty": "documented",
+      "note": "The Tankadere's storm-run to catch the American steamer"
+    },
+    {
+      "character": "fix",
+      "from": "hong-kong",
+      "to": "shanghai",
+      "chapter": 21,
+      "days": 3,
+      "mode": "ship",
+      "via": [
+        { "at": [116.5, 22.8], "name": "The China coast", "note": "Fix, his Hong Kong plan foiled, buys himself aboard the Tankadere to stay with Fogg." },
+        { "at": [120.0, 28.0], "name": "The approach to the Yangtze", "note": "Sharing the gale-driven schooner, the detective now bound to help Fogg reach England — and English soil." }
+      ],
+      "routeNote": "Fix takes passage on the same Tankadere; his interest has flipped — he now needs Fogg to reach Britain, where the warrant will finally bite.",
+      "routeSource": "Verne, Ch. 20–21: Fix aboard the Tankadere with Fogg to Shanghai.",
+      "routeCertainty": "documented",
+      "note": "The shadow, now willing the chase along"
+    },
+    {
+      "character": ["fogg", "aouda", "fix"],
+      "from": "shanghai",
+      "to": "yokohama",
+      "chapter": 21,
+      "days": 3,
+      "mode": "ship",
+      "via": [
+        { "at": [125.0, 30.0], "name": "The East China Sea", "note": "Aboard the General Grant at last, flagged down off Shanghai; north-east for Japan." },
+        { "at": [135.0, 34.0], "name": "Off the Japanese coast", "note": "Up to Yokohama, where Passepartout is found among Batulcar's acrobats." }
+      ],
+      "routeNote": "Picked up by the Pacific Mail steamer General Grant off Shanghai, the party crosses to Yokohama, where Fogg finds his lost servant.",
+      "routeSource": "Verne, Ch. 21–23: the Tankadere signals the General Grant, which carries Fogg's party to Yokohama and the reunion; Pacific Mail Yokohama–San Francisco service.",
+      "routeCertainty": "documented",
+      "note": "Aboard the General Grant to Yokohama — and Passepartout found"
+    },
+    {
+      "character": ["fogg", "passepartout", "aouda", "fix"],
+      "from": "yokohama",
+      "to": "san-francisco",
+      "chapter": 24,
+      "days": 19,
+      "mode": "ship",
+      "via": [
+        { "at": [145.0, 38.0], "name": "The western Pacific", "note": "Out of Yokohama east-north-east into the open ocean, the party reunited aboard." },
+        { "at": [165.0, 43.0], "name": "The mid-Pacific", "note": "The great-circle track curving up toward the north Pacific." },
+        { "at": [180.0, 45.0], "name": "The 180th meridian", "note": "Crossing the International Date Line eastward — the day quietly gained that will win the wager." },
+        { "at": [-165.0, 44.0], "name": "The eastern Pacific", "note": "West longitude now; the track bends down toward the American coast." },
+        { "at": [-140.0, 40.0], "name": "Off the American coast", "note": "The long descent south-east toward the Golden Gate." }
+      ],
+      "routeNote": "The Pacific Mail steamer General Grant's great-circle crossing from Yokohama to San Francisco, over the 180th meridian — the eastward passage that gains a day. Laid west-to-east across the date line (139° → 180° → −122°), not backward across Asia.",
+      "routeSource": "Verne, Ch. 24: twenty-two days Yokohama–San Francisco, reached 3 December; the crossing spans 'exactly one half of the terrestrial globe'. Pacific Mail Steamship Company Yokohama–San Francisco line.",
+      "routeCertainty": "documented",
+      "note": "The Pacific crossing — and the meridian's hidden gift"
+    },
+    {
+      "character": ["fogg", "passepartout", "aouda", "fix"],
+      "from": "san-francisco",
+      "to": "ogden",
+      "chapter": 26,
+      "days": 2,
+      "mode": "train",
+      "via": [
+        { "at": [-121.49, 38.58], "name": "Sacramento", "note": "The Central Pacific's starting-point; the line runs north-east from the bay." },
+        { "at": [-120.55, 39.32], "name": "The Sierra Nevada", "note": "Climbing the range by Colfax and Cisco, over the summit toward the Nevada desert." },
+        { "at": [-119.81, 39.53], "name": "Reno", "note": "Down onto the Great American Desert, east across Nevada." }
+      ],
+      "routeNote": "The Central Pacific from San Francisco: north-east by Sacramento, up over the Sierra Nevada, and across the Nevada desert to Ogden, where the Union Pacific takes over.",
+      "routeSource": "Verne, Ch. 25–27: the Central Pacific Sacramento–Sierra Nevada–Reno–Ogden; 'the Central Pacific, between San Francisco and Ogden'. The 1869 transcontinental line.",
+      "routeCertainty": "documented",
+      "note": "Up over the Sierra by the Pacific Railroad"
+    },
+    {
+      "character": ["fogg", "passepartout", "aouda", "fix"],
+      "from": "ogden",
+      "to": "fort-kearney",
+      "chapter": 28,
+      "days": 2,
+      "mode": "train",
+      "via": [
+        { "at": [-112.5, 41.1], "name": "Great Salt Lake", "note": "The Union Pacific turns the great inland sea; a branch runs down to the Mormon capital." },
+        { "at": [-109.47, 41.53], "name": "Green River", "note": "A snowy halt in Wyoming, the line climbing the Rockies." },
+        { "at": [-106.2, 41.9], "name": "Medicine Bow", "note": "The failing bridge, taken at a run; it falls into the rapids behind the train." }
+      ],
+      "routeNote": "The Union Pacific east from Ogden: round the Great Salt Lake, up over the Rockies by Green River and Medicine Bow, and down onto the Nebraska plains toward Fort Kearny — until the Sioux attack halts them.",
+      "routeSource": "Verne, Ch. 26–30: the Union Pacific 'between Ogden and Omaha', Great Salt Lake, Green River, Medicine Bow bridge, the Sioux attack near Plum Creek, Fort Kearny. The 1869 Union Pacific line.",
+      "routeCertainty": "documented",
+      "note": "East across the Rockies and plains — to a war-party of Sioux"
+    },
+    {
+      "character": "passepartout",
+      "from": "fort-kearney",
+      "to": "plum-creek",
+      "chapter": 30,
+      "mode": "unknown",
+      "note": "Carried off by the Sioux in the running fight — Fogg gives up the wager to go after him"
+    },
+    {
+      "character": "passepartout",
+      "from": "plum-creek",
+      "to": "fort-kearney",
+      "chapter": 31,
+      "mode": "foot",
+      "note": "Rescued by Fogg and the soldiers, brought back to the fort — but the train has gone"
+    },
+    {
+      "character": ["fogg", "passepartout", "aouda", "fix"],
+      "from": "fort-kearney",
+      "to": "omaha",
+      "chapter": 32,
+      "days": 1,
+      "mode": "sledge",
+      "via": [
+        { "at": [-97.0, 40.9], "name": "The frozen Platte prairie", "note": "The wind-sledge takes a chord across the arc the railway describes, straight over the hardened snow." },
+        { "at": [-96.5, 41.1], "name": "The Platte River", "note": "Crossed near noon; Mudge knows he is within twenty miles of Omaha." }
+      ],
+      "routeNote": "Having missed the train, the party crosses the frozen prairie by wind-sledge — a sail-rigged land-craft — cutting a straight chord across the railway's curve to Omaha.",
+      "routeSource": "Verne, Ch. 32: Mudge's sail-sledge from below Fort Kearny to Omaha, 'shortening this route, took a chord of the arc described by the railway', crossing the Platte near noon.",
+      "routeCertainty": "documented",
+      "note": "The wind-sledge, flying over the snow to Omaha"
+    },
+    {
+      "character": ["fogg", "passepartout", "aouda", "fix"],
+      "from": "omaha",
+      "to": "new-york",
+      "chapter": 32,
+      "days": 2,
+      "mode": "train",
+      "via": [
+        { "at": [-95.86, 41.26], "name": "Council Bluffs", "note": "Across the Missouri into Iowa on the Chicago & Rock Island road." },
+        { "at": [-90.58, 41.52], "name": "Davenport", "note": "The Mississippi crossed by night at Rock Island, into Illinois." },
+        { "at": [-87.63, 41.88], "name": "Chicago", "note": "Reached on the 10th, 'already risen from its ruins'; straight onto the eastern line." },
+        { "at": [-80.0, 41.0], "name": "Pittsburgh, Fort Wayne & Chicago line", "note": "Across Indiana, Ohio, Pennsylvania and New Jersey 'like a flash' to the Hudson." }
+      ],
+      "routeNote": "The eastern railroads from Omaha: the Chicago & Rock Island through Iowa to Chicago, then the Pittsburgh, Fort Wayne & Chicago line across to New York.",
+      "routeSource": "Verne, Ch. 32: Omaha–Council Bluffs–Davenport–Chicago (Chicago & Rock Island), then Chicago–New York (Pittsburgh, Fort Wayne & Chicago Railway).",
+      "routeCertainty": "documented",
+      "note": "The last American rails — but the Liverpool steamer already gone"
+    },
+    {
+      "character": ["fogg", "passepartout", "aouda", "fix"],
+      "from": "new-york",
+      "to": "queenstown",
+      "chapter": 33,
+      "days": 9,
+      "mode": "ship",
+      "via": [
+        { "at": [-65.0, 42.0], "name": "The western Atlantic", "note": "The chartered Henrietta stands out east; Fogg has locked her captain in his cabin and taken command." },
+        { "at": [-40.0, 47.0], "name": "The mid-Atlantic", "note": "Coal running short, the crew begin burning the ship's own upperworks for fuel." },
+        { "at": [-15.0, 51.0], "name": "The eastern Atlantic", "note": "The Henrietta a flat hulk, driving for the Irish coast and Fastnet Light." }
+      ],
+      "routeNote": "The Henrietta, chartered and then commandeered, crosses the Atlantic from New York toward Liverpool — but with the coal spent and her woodwork burned for steam, she makes for the nearer Irish coast at Queenstown.",
+      "routeSource": "Verne, Ch. 32–33: Fogg buys the Henrietta at New York, burns her upperworks for fuel, sights 'the Irish coast and Fastnet Light' and passes Queenstown by ten in the evening on the 20th.",
+      "routeCertainty": "documented",
+      "note": "The Henrietta burned to her waterline to make the crossing"
+    },
+    {
+      "character": ["fogg", "passepartout", "aouda", "fix"],
+      "from": "queenstown",
+      "to": "liverpool",
+      "chapter": 33,
+      "days": 1,
+      "mode": "ship",
+      "via": [
+        { "at": [-6.26, 53.35], "name": "Dublin", "note": "The mail express runs them up from Queenstown by dawn; they embark at once on the fast Kingstown packet." },
+        { "at": [-5.9, 53.35], "name": "The Irish Sea", "note": "The swift mail boat cutting straight through the waves for the Lancashire coast." }
+      ],
+      "routeNote": "Fogg's twelve-hour trick: land the mails at Queenstown, express train to Dublin, and the fast packet across the Irish Sea to Liverpool — beating the Atlantic steamers into port.",
+      "routeSource": "Verne, Ch. 33: 'These mails are carried to Dublin by express trains... from Dublin they are sent on to Liverpool by the most rapid boats'; ashore at Liverpool at twenty to noon on the 21st.",
+      "routeCertainty": "documented",
+      "note": "The mail route by Dublin — twelve hours gained, and then arrest"
+    },
+    {
+      "character": ["fogg", "passepartout", "aouda"],
+      "from": "liverpool",
+      "to": "london-return",
+      "chapter": 34,
+      "days": 1,
+      "mode": "train",
+      "via": [
+        { "at": [-2.24, 53.48], "name": "Manchester approaches", "note": "The London & North Western main line east out of Liverpool." },
+        { "at": [-1.13, 52.63], "name": "Rugby", "note": "Down the West Coast trunk toward the capital; the special engine flying." },
+        { "at": [-0.335, 51.53], "name": "Euston", "note": "The London terminus, reached with minutes to spare for the Reform Club." }
+      ],
+      "routeNote": "Freed from arrest, Fogg charters a special train down the London & North Western main line from Liverpool to Euston, racing for the Reform Club — arriving, by the day gained at the meridian, just in time.",
+      "routeSource": "Verne, Ch. 34–35: released, Fogg takes a special train Liverpool–London; the London & North Western West Coast main line to Euston. The eastward day-gain is resolved in Ch. 37.",
+      "routeCertainty": "documented",
+      "note": "The last dash to London — and the day quietly won"
+    }
+  ]
+}

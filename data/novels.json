@@ -52,5 +52,14 @@
     "file": "data/kidnapped.json",
     "blurb": "A Lowland lad kidnapped, wrecked off Mull, and driven the length of the Highlands in the flight in the heather.",
     "spine": { "cloth": "#5c4a5c", "text": "#c2a878" }
+  },
+  {
+    "id": "eighty-days",
+    "title": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "file": "data/eighty-days.json",
+    "blurb": "A wager at a London club, eighty days, and the whole turning world — by steamer, rail, elephant and sledge.",
+    "spine": { "cloth": "#b25a2e", "text": "#f0e0b8" }
   }
 ]
