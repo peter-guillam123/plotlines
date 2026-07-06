@@ -517,6 +517,12 @@
         50.967
       ],
       "certainty": "identified",
+      "image": {
+        "file": "assets/images/te-marlott.jpg",
+        "caption": "The Vale of Blackmoor, Dorset — the green vale Hardy renamed Blackmoor and set Marlott in — in a watercolour of about 1913",
+        "credit": "Edward Francis Wells (1876–1952) · Wikimedia Commons · public domain",
+        "indicative": true
+      },
       "note": "Marnhull, by universal identification since Hardy's own 1895 Wessex map and Hermann Lea (1913).",
       "story": "Tess's birthplace in the Vale of Blackmoor: the May club-walking where a young Angel Clare, passing on a walking tour, dances — though not with her. She comes home to it in trouble twice, and her father's grand unpaid-for headstone ends up in its churchyard.",
       "quote": "The village of Marlott lay amid the north-eastern undulations of the beautiful Vale of Blakemore, or Blackmoor",
@@ -592,6 +598,12 @@
         50.703
       ],
       "certainty": "conjectured",
+      "image": {
+        "file": "assets/images/te-talbothays.jpg",
+        "caption": "The water-meadows of the Frome — Hardy's Valley of the Great Dairies, where Talbothays is set — with Dorchester beyond, in a watercolour of about 1903",
+        "credit": "\"Picturesque Dorset\" postcard series, c.1903 · Newberry Library via CARLI · Wikimedia Commons · public domain",
+        "indicative": true
+      },
       "note": "The dairy is invented: Lea (1913) treats it as a composite of Froom-valley dairies, the name borrowed from a Hardy family farm at West Stafford. The valley itself is certain; this point stands in the water-meadows south-east of Dorchester.",
       "story": "Dairyman Crick's great dairy in the Valley of the Great Dairies, where Tess rallies. The heart of the book's one happy stretch: the dawn milkings, the garden at dusk, and Angel Clare — by harvest she has agreed, against her own conscience, to marry him.",
       "quote": "she found herself on a summit commanding the long-sought-for vale, the Valley of the Great Dairies",
@@ -607,6 +619,11 @@
         50.678
       ],
       "certainty": "identified",
+      "image": {
+        "file": "assets/images/te-wellbridge.jpg",
+        "caption": "The ruins of Bindon Abbey at Wool — the abbey by Wellbridge where the sleepwalking Angel lays Tess in a stone coffin — in a pen-and-wash drawing of 1791",
+        "credit": "James Moore, 1791 · Yale Center for British Art · Wikimedia Commons · CC0"
+      },
       "note": "Woolbridge Manor at Wool, by universal identification (Hardy's map; Lea 1913) — and a gift of a fact: the manor really belonged to the Turbervilles, the family whose decayed name Hardy borrowed.",
       "story": "The honeymoon house, once a d'Urberville manor: the wedding-night confessions, the dreadful ancestral portraits on the stair, and Angel's sleepwalk with Tess in his arms to a stone coffin in the abbey ruins. The marriage lasts three days here.",
       "quote": "once portion of a fine manorial residence, and the property and seat of a d'Urberville, but since its partial demolition a farmhouse",
@@ -642,6 +659,11 @@
         50.711
       ],
       "certainty": "identified",
+      "image": {
+        "file": "assets/images/te-casterbridge.jpg",
+        "caption": "Dorchester — Hardy's Casterbridge — seen across the water-meadows, photographed about 1890–1900",
+        "credit": "Photochrom Print Collection · Library of Congress · Wikimedia Commons · public domain"
+      },
       "note": "Dorchester, the capital of Hardy's Wessex (his map; Lea 1913). Its part in this novel is a passing one.",
       "story": "The county town at the edge of Tess's map: it is on the dark road to its Saturday market, with the beehives, that the mail-cart spears Prince the horse — the small disaster that sets the whole story moving.",
       "quote": "if they were to be delivered to the retailers in Casterbridge before the Saturday market began",
@@ -657,6 +679,11 @@
         50.809
       ],
       "certainty": "identified",
+      "image": {
+        "file": "assets/images/te-emminster.jpg",
+        "caption": "A church and its churchyard at Beaminster — Hardy's Emminster, home of the Clare vicarage — photographed in 1898",
+        "credit": "Valentine & Sons, 1898 · Wikimedia Commons · public domain"
+      },
       "note": "Beaminster, by universal identification (Hardy's map; Lea 1913).",
       "story": "The Clare vicarage, Angel's home. Tess walks fifteen miles here in midwinter to ask his parents for help, and turns back at the gate — her nerve finished off by his brothers' talk on the road, and by the confiscation of her hidden walking-boots.",
       "quote": "about noon she paused by a gate on the edge of the basin in which Emminster and its Vicarage lay",
@@ -702,6 +729,11 @@
         50.72
       ],
       "certainty": "identified",
+      "image": {
+        "file": "assets/images/te-sandbourne.jpg",
+        "caption": "Bournemouth — Hardy's Sandbourne — the pier and the front seen from the East Cliff, photographed about 1890–1900",
+        "credit": "Photochrom Print Collection · Library of Congress · Wikimedia Commons · public domain"
+      },
       "note": "Bournemouth, by universal identification (Hardy's map; Lea 1913). The Herons, the boarding-house where Tess is found, is invented, and is folded into the town here.",
       "story": "The glittering new pleasure-city where Alec keeps Tess at The Herons, and where Angel finds her too late. Within the hour of his leaving, Alec lies dead in the upstairs room, and Tess is gone after her husband.",
       "quote": "It was a city of detached mansions; a Mediterranean lounging-place on the English Channel",
@@ -717,6 +749,12 @@
         50.87
       ],
       "certainty": "conjectured",
+      "image": {
+        "file": "assets/images/te-bramshurst.jpg",
+        "caption": "A glade in the New Forest, Hampshire — the country the fugitives cross to reach the empty house of Bramshurst Court — photographed about 1890–1900",
+        "credit": "Photochrom Print Collection · Library of Congress · Wikimedia Commons · public domain",
+        "indicative": true
+      },
       "note": "Scholarship has never settled Bramshurst Court: Lea offered no identification, and later guesses (Moyles Court near Ringwood is sometimes proposed) have never stuck. This point simply stands in the New Forest, on the fugitives' northward line.",
       "story": "An empty furnished mansion with the blinds down and grass growing on the drive: five days of borrowed married happiness — the only ones Tess and Angel are given — until a caretaker's morning round sends them north again.",
       "quote": "It is Bramshurst Court. You can see that it is shut up, and grass is growing on the drive.",
@@ -732,6 +770,11 @@
         51.068
       ],
       "certainty": "identified",
+      "image": {
+        "file": "assets/images/te-melchester.jpg",
+        "caption": "Salisbury — Hardy's Melchester — the cathedral spire rising over the city the fugitives pass through by night, photographed about 1890–1900",
+        "credit": "Photochrom Print Collection · Library of Congress · Wikimedia Commons · public domain"
+      },
       "note": "Salisbury, by universal identification (Hardy's map; Lea 1913).",
       "story": "The fugitives pass through at midnight, keeping off the pavements so their footsteps will not echo, the cathedral rising dimly on their left hand — lost on them now.",
       "quote": "The intercepting city, ancient Melchester, they were obliged to pass through in order to take advantage of the town bridge for crossing a large river",
@@ -747,6 +790,11 @@
         51.178
       ],
       "certainty": "real",
+      "image": {
+        "file": "assets/images/te-stonehenge.jpg",
+        "caption": "Stonehenge on Salisbury Plain — where Tess sleeps on a sun-warmed slab and is taken at dawn — photographed about 1875",
+        "credit": "Francis Frith (1822–1898) · Wikimedia Commons · public domain"
+      },
       "story": "The heathen temple on the open plain, met blind in the dark. Tess sleeps on a sun-warmed slab among the pillars while Angel keeps watch; the police close in with the dawn, and she is ready — 'It is as it should be.'",
       "quote": "Older than the centuries; older than the d'Urbervilles!",
       "quoteRef": "Ch. 58, Angel Clare"
@@ -761,6 +809,11 @@
         51.065
       ],
       "certainty": "identified",
+      "image": {
+        "file": "assets/images/te-wintoncester.jpg",
+        "caption": "Winchester Cathedral — Hardy's Wintoncester, the city of the trial and the hanging — photographed about 1890–1900",
+        "credit": "Photochrom Print Collection · Library of Congress · Wikimedia Commons · public domain"
+      },
       "note": "Winchester, by universal identification (Hardy's map); the prison on the city's western side still stands.",
       "story": "The old capital of Wessex, where Tess is tried and hanged. Angel and 'Liza-Lu climb the great West Hill and watch, hand in hand, as the black flag moves slowly up the prison tower.",
       "quote": "The city of Wintoncester, that fine old city, aforetime capital of Wessex, lay amidst its convex and concave downlands in all the brightness and warmth of a July morning",
