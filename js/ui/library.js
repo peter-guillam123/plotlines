@@ -9,8 +9,9 @@ export function createLibrary(container, index) {
     <div class="library-card" role="dialog" aria-modal="true" aria-labelledby="library-title" tabindex="-1">
       <p class="intro-kicker">A shelf of journeys</p>
       <h1 class="library-title" id="library-title">PlotLines</h1>
-      <p class="library-sub">Victorian novels, mapped — every journey in the book,
-        played out on the maps of its own decade. Take one down.</p>
+      <p class="library-sub">Classic novels, mapped — every journey in the book,
+        drawn on a hand-tinted period map, with the real 1890s Ordnance Survey
+        wherever the story walks in Britain. Take one down.</p>
       <div class="library-shelf" role="list"></div>
       <p class="intro-hints">Each book opens with a choice: watch the story, or
         explore its places.</p>

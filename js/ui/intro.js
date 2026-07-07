@@ -9,8 +9,8 @@ export function createIntro(container, novel, onBegin, onExplore) {
       <p class="intro-kicker">PlotLines presents</p>
       <h2 class="intro-title" id="intro-title"></h2>
       <p class="intro-byline"></p>
-      <p class="intro-blurb">Every journey in the novel, drawn on a genuine
-        Victorian map — played out chapter by chapter, all the characters at once.</p>
+      <p class="intro-blurb">Every journey in the novel, drawn on a period map —
+        the whole story played out, all its characters at once.</p>
       <div class="intro-actions">
         <button type="button" class="intro-begin">Begin the story</button>
         <button type="button" class="intro-explore">Explore the map</button>
