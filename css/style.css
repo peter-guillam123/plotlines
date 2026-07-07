@@ -1242,8 +1242,11 @@ body.is-overture #captions { display: none !important; }
 .library-card:focus { outline: none; }
 
 .library-book {
-  flex: none;
-  width: 78px;
+  /* Full width on a roomy card; shrink toward a floor as the shelf fills,
+     so a growing shelf scales to fit rather than scrolling books off-screen.
+     Only below the floor (a very narrow window) does overflow-x take over. */
+  flex: 0 1 78px;
+  min-width: 54px;
   height: 300px;
   display: flex;
   flex-direction: column;
