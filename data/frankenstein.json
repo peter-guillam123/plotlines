@@ -660,18 +660,42 @@
       "days": 60,
       "mode": "ship",
       "via": [
+        [
+          39.2,
+          65.2
+        ],
+        [
+          39.3,
+          65.8
+        ],
         {
           "at": [
-            40,
-            68
+            40.6,
+            66.2
           ],
-          "name": "Out of the White Sea",
-          "note": "Standing north out of the White Sea into the Arctic Ocean, bound for the pole."
+          "name": "The Gorlo of the White Sea",
+          "note": "Through the throat of the White Sea into the Barents."
         },
+        [
+          41.7,
+          66.7
+        ],
+        [
+          42.8,
+          67.2
+        ],
         {
           "at": [
             45,
-            74
+            69
+          ],
+          "name": "Out of the White Sea",
+          "note": "Standing north into the Arctic Ocean, bound for the pole."
+        },
+        {
+          "at": [
+            47,
+            73
           ],
           "name": "Into the pack ice",
           "note": "The higher latitudes, where the ship is at last beset and frozen fast."
@@ -955,7 +979,8 @@
       "routeNote": "Victor and Clerval descend the Rhine by boat from Strasbourg through Mainz and Cologne to the plains of Holland and Rotterdam — the very towns Shelley names as they pass.",
       "routeSource": "Shelley, Ch. 18: 'descend the Rhine in a boat from Strasburgh to Rotterdam', naming Mainz, Cologne and the plains of Holland.",
       "routeCertainty": "novel",
-      "note": "Down the Rhine, past the ruined castles"
+      "note": "Down the Rhine, past the ruined castles",
+      "medium": "river"
     },
     {
       "character": [
@@ -968,6 +993,14 @@
       "days": 3,
       "mode": "ship",
       "via": [
+        [
+          3.5,
+          52
+        ],
+        [
+          1.9,
+          51.8
+        ],
         {
           "at": [
             1.5,
@@ -976,10 +1009,14 @@
           "name": "The Straits of Dover",
           "note": "Across the Channel: 'the white cliffs of Britain', then up the Thames past Gravesend, Woolwich and Greenwich."
         },
+        [
+          0.9,
+          51.48
+        ],
         {
           "at": [
-            0.36,
-            51.46
+            0.5,
+            51.49
           ],
           "name": "Tilbury Fort",
           "note": "'We saw Tilbury Fort and remembered the Spanish Armada' — up the Thames toward London."
