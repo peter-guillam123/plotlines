@@ -715,7 +715,9 @@
       "to": "netherfield",
       "chapter": 7,
       "mode": "horse",
-      "note": "Sent on horseback with rain coming on — 'then you must stay all night': Mrs Bennet's scheme answers beyond her hopes, and the violent cold that follows buys a five-day residence"
+      "note": "Sent on horseback with rain coming on — 'then you must stay all night': Mrs Bennet's scheme answers beyond her hopes, and the violent cold that follows buys a five-day residence",
+      "startDay": 44,
+      "days": 0.3
     },
     {
       "character": "elizabeth",
@@ -723,7 +725,9 @@
       "to": "netherfield",
       "chapter": 7,
       "mode": "foot",
-      "note": "The famous walk to Jane's sickbed: three miles, crossing field after field, jumping over stiles and springing over puddles — arriving with a glowing face and a petticoat six inches deep in mud"
+      "note": "The famous walk to Jane's sickbed: three miles, crossing field after field, jumping over stiles and springing over puddles — arriving with a glowing face and a petticoat six inches deep in mud",
+      "startDay": 45,
+      "days": 0.3
     },
     {
       "character": [
