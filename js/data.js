@@ -115,6 +115,9 @@ function validate(novel, file) {
     if (c.start && !locIds.has(c.start.location)) {
       fail(file, `start location "${c.start.location}" does not exist`, c);
     }
+    if (c.start && !Number.isInteger(c.start.chapter)) {
+      fail(file, `"${c.id}" start needs an integer "chapter" — the timeline derives the character's opening day from it`, c);
+    }
   }
 
   for (const m of novel.movements) {
