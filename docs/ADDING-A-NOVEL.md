@@ -374,7 +374,23 @@ walking journey drawn as a sea voyage.
   Steerforth once rode to Yarmouth on separate lines). But leave *apart* the
   ones that only look shared: a pursuit, a funeral, converging-by-different-
   means, or the same route on different days (Jane rides to Netherfield,
-  Elizabeth walks it the next morning).
+  Elizabeth walks it the next morning). And separate movements alone isn't
+  enough: two characters on the same leg in the same chapter with no explicit
+  `startDay` derive the *same* time and travel in lockstep, so a pursuer
+  glides beside his quarry like a companion. Give the second an offset
+  `startDay` that fits the story — a follower who trails (a little later), a
+  watcher already waiting at the destination (earlier, so he is resting there
+  when she arrives), or a next-day journey (Jane rides day 44, Elizabeth walks
+  day 45). Alec never travels *with* Tess; he lies in wait ahead or trails
+  behind.
+- **Don't lodge two characters at one node when the book gives them
+  different addresses.** A single "London" pin quietly sends everyone to the
+  same doorstep. Darcy once shared the Gardiners' Cheapside house (Gracechurch
+  Street) because it was the only London node — the proudest man in the book
+  parked at the very trade-district address he sneers at. Where the novel
+  distinguishes them — a fashionable West End house against a City street —
+  give them distinct pins, even when one is unlocated and `conjectured`. The
+  class geography *is* the plot.
 - **A leg crossing the antimeridian** (a trans-Pacific voyage) needs its
   `via` longitudes to step across the 180° line going the intended way
   (e.g. 145 → 165 → 180 → −165 → −140), or the line lunges backward across
