@@ -30,6 +30,7 @@ export function chapterHeading(novel, n) {
 const VERBS = {
   train: ['travels by train', 'travel by train'],
   coach: ['goes by coach', 'go by coach'],
+  omnibus: ['rides the omnibus', 'ride the omnibus'],
   ship: ['sails', 'sail'],
   foot: ['goes on foot', 'go on foot'],
   horse: ['rides', 'ride'],
@@ -76,18 +77,34 @@ const MONTHS = [
 // this is a direct read: a real date for the dated novels (Dracula, P&P)
 // that ticks as time passes, and for undated Tess the season label of the
 // day's chapter plus an honest "about N years in".
+// A single-day book (Mrs Dalloway) sets `timeline.hourClock: true`. Time
+// then reads as the hour of the day — Big Ben's own unit — with the date
+// dropped to the secondary line. `mins` is minutes past midnight.
+function clockLabel(mins) {
+  mins = ((Math.round(mins / 5) * 5) % 1440 + 1440) % 1440;   // nearest 5 min
+  const h24 = Math.floor(mins / 60);
+  const m = mins % 60;
+  if (m === 0 && h24 === 12) return 'noon';
+  if (m === 0 && h24 === 0) return 'midnight';
+  const h12 = ((h24 + 11) % 12) + 1;
+  const ap = h24 < 12 ? 'a.m.' : 'p.m.';
+  return m === 0 ? `${h12} ${ap}` : `${h12}.${String(m).padStart(2, '0')} ${ap}`;
+}
+
 export function storyTime(novel, t) {
   const tl = novel.timeline;
   if (!tl) return null;
   const day = Math.round(t);
 
   if (tl.calendar && tl.epoch) {
+    const whole = tl.hourClock ? Math.floor(t) : day;
     const date = new Date(`${tl.epoch}T00:00:00`);
-    date.setDate(date.getDate() + day);
-    return {
-      primary: `${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`,
-      secondary: null,
-    };
+    date.setDate(date.getDate() + whole);
+    const dateStr = `${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
+    if (tl.hourClock) {
+      return { primary: clockLabel((t - whole) * 24 * 60), secondary: dateStr };
+    }
+    return { primary: dateStr, secondary: null };
   }
   // undated: the season label of the chapter whose time this is
   let cur = novel.chapters[0];

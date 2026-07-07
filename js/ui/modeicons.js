@@ -12,6 +12,15 @@ const ICONS = {
   // carriage: a body on two wheels
   coach:
     '<rect x="3" y="5" width="8" height="4" rx="1" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M11 7h3l-1 2h-2z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><circle cx="5" cy="12" r="1.6" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="11" cy="12" r="1.6" fill="none" stroke="currentColor" stroke-width="1.3"/>',
+  // motor omnibus: a double-decker box on two wheels, an upper-deck line
+  // and a row of windows — the 1920s General bus Elizabeth rides up the Strand
+  omnibus:
+    '<path d="M2.6 11.3V6c0-.7.5-1.2 1.2-1.2h8.4c.7 0 1.2.5 1.2 1.2v5.3" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>' +
+    '<path d="M2.6 8h11" stroke="currentColor" stroke-width="1.1"/>' +
+    '<path d="M5.4 4.9V8M8 4.9V8M10.6 4.9V8" stroke="currentColor" stroke-width="1"/>' +
+    '<path d="M2.6 11.3h11" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>' +
+    '<circle cx="5" cy="12.4" r="1.3" fill="none" stroke="currentColor" stroke-width="1.2"/>' +
+    '<circle cx="11" cy="12.4" r="1.3" fill="none" stroke="currentColor" stroke-width="1.2"/>',
   // steam locomotive: cab, boiler, a flared chimney with smoke, wheels
   train:
     '<path d="M2 11h11.4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>' +
@@ -50,6 +59,7 @@ const PHRASE = {
   foot: 'on foot',
   horse: 'on horseback',
   coach: 'by coach',
+  omnibus: 'by omnibus',
   train: 'by train',
   ship: 'by ship',
   elephant: 'by elephant',
