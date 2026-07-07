@@ -184,6 +184,20 @@ travel icon and shapes how you research the path:
   40th parallel. Always check the route against the book's decade, not the
   most famous version of it.
 
+### Checking the drawn line — the spill detector
+
+An arc is blind to coastlines, so a land leg can clip a sea and a sea leg can
+clip a headland. `node tools/route-spill.mjs [data/<slug>.json]` samples each
+drawn path against a coarse land polygon and flags any leg whose *contiguous*
+wrong-medium run is long enough to be a real lie (a train across the Adriatic,
+a steamer cutting the Malay peninsula) rather than an honest short hop (the
+Channel, a harbour mouth). Fix a flag by adding `via` points that hug the real
+coast, road or shipping lane — the same lever as route provenance. Two honest
+exceptions the tool already ignores: a `sledge` leg (its medium is snow and
+sea-ice, not the land/water binary), and a **river-boat**, which runs through
+land by design — mark such a `ship` leg `"medium": "river"` (the Rhine, the
+Sereth up to the castle) and the detector leaves it alone.
+
 ### Timing converging paths — the near-miss class
 
 Most books are one person going somewhere. A few are the opposite: two or
