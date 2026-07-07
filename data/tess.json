@@ -888,7 +888,9 @@
       "to": "chaseborough",
       "chapter": 10,
       "mode": "horse",
-      "note": "Hovering about the town on the fair-night, cigar alight"
+      "note": "Hovering about the town on the fair-night, cigar alight",
+      "startDay": 299.5,
+      "days": 0.3
     },
     {
       "character": "tess",
@@ -896,7 +898,9 @@
       "to": "chaseborough",
       "chapter": 10,
       "mode": "foot",
-      "note": "The September night when fair and market coincide; her comrades dance into the small hours"
+      "note": "The September night when fair and market coincide; her comrades dance into the small hours",
+      "startDay": 300.0,
+      "days": 0.4
     },
     {
       "character": [
@@ -1092,7 +1096,9 @@
       ],
       "routeNote": "Right across Dorset from the Cranborne country by Pentridge, west through Blandford Forum and up by Buckland Newton to the barn on the Evershead road.",
       "routeSource": "No route named in the text — Hardy has Alec appear mid-circuit as a ranting convert. This reconstructs the natural line west across the county on the Blandford turnpike toward Evershot.",
-      "routeCertainty": "reconstructed"
+      "routeCertainty": "reconstructed",
+      "startDay": 1429.0,
+      "days": 0.4
     },
     {
       "character": "tess",
@@ -1106,7 +1112,9 @@
           50.838
         ]
       ],
-      "note": "Past the barn where the preacher is Alec d'Urberville; he follows, and at Cross-in-Hand makes her swear on the stone never to tempt him"
+      "note": "Past the barn where the preacher is Alec d'Urberville; he follows, and at Cross-in-Hand makes her swear on the stone never to tempt him",
+      "startDay": 1430.0,
+      "days": 0.7
     },
     {
       "character": "alec",
@@ -1114,7 +1122,9 @@
       "to": "flintcomb-ash",
       "chapter": 45,
       "mode": "foot",
-      "note": "Walking after Tess as far as Cross-in-Hand; through the late winter he besieges the farm"
+      "note": "Walking after Tess as far as Cross-in-Hand; through the late winter he besieges the farm",
+      "startDay": 1430.3,
+      "days": 0.7
     },
     {
       "character": "tess",
@@ -1128,7 +1138,9 @@
           50.855
         ]
       ],
-      "note": "Summoned to her mother's sickbed: fifteen miles through Blackmoor by night"
+      "note": "Summoned to her mother's sickbed: fifteen miles through Blackmoor by night",
+      "startDay": 1530.0,
+      "days": 0.9
     },
     {
       "character": "alec",
@@ -1136,7 +1148,9 @@
       "to": "marlott",
       "chapter": 50,
       "mode": "unknown",
-      "note": "He follows — the firelit allotment plot, a pitchfork in his hand"
+      "note": "He follows — the firelit allotment plot, a pitchfork in his hand",
+      "startDay": 1530.3,
+      "days": 0.9
     },
     {
       "character": "tess",
@@ -1144,7 +1158,9 @@
       "to": "kingsbere",
       "chapter": 52,
       "mode": "coach",
-      "note": "Old Lady-Day: the family evicted, their goods on a hired waggon; the promised rooms are let, and the beds go up against the church wall"
+      "note": "Old Lady-Day: the family evicted, their goods on a hired waggon; the promised rooms are let, and the beds go up against the church wall",
+      "startDay": 1570.0,
+      "days": 0.6
     },
     {
       "character": "alec",
@@ -1152,7 +1168,9 @@
       "to": "kingsbere",
       "chapter": 52,
       "mode": "horse",
-      "note": "Still in pursuit: it is his form Tess finds stretched on the altar-tomb in the d'Urberville aisle"
+      "note": "Still in pursuit: it is his form Tess finds stretched on the altar-tomb in the d'Urberville aisle",
+      "startDay": 1568.8,
+      "days": 0.4
     },
     {
       "character": [
