@@ -31,7 +31,10 @@ export function createTimeline(novel, paths) {
     for (const e of legs) {
       const m = e.movement;
       const start = m.startDay != null ? m.startDay : Math.max(cursor, chapterDay(m.chapter));
-      const dur = Math.max(m.days || 1, 1);
+      // Default an undated leg to a day; honour an explicit sub-day duration
+      // (a single-day book times its legs in fractions of a day) down to a
+      // ~3-minute floor so a leg is never zero-length.
+      const dur = Math.max(m.days ?? 1, 0.002);
       e.dayStart = start;
       e.dayEnd = start + dur;
       cursor = e.dayEnd;

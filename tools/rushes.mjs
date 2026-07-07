@@ -53,7 +53,7 @@ for (const c of Object.keys(byChar)) {
   let cursor = start ? chapterDay(start.chapter) : 0;
   for (const m of list) {
     const dayStart = m.startDay != null ? m.startDay : Math.max(cursor, chapterDay(m.chapter));
-    const dur = Math.max(m.days || 1, 1);
+    const dur = Math.max(m.days ?? 1, 0.002);
     const pts = [locs[m.from].coords, ...(m.via || []).map(viaAt), locs[m.to].coords];
     let dist = 0;
     for (let i = 1; i < pts.length; i++) dist += km(pts[i - 1], pts[i]);
@@ -123,7 +123,7 @@ story.forEach((b, i) => {
     if (b.kind === 'scene' && !b.at) errors.push(`${tag}: scene needs "at"`);
     if (b.at && locs[b.at]) frame = { c: locs[b.at].coords, span: 0 };
     if (b.chapter) {
-      const day = chapterDay(b.chapter);
+      const day = typeof b.day === 'number' ? b.day : chapterDay(b.chapter);
       if (t != null && day < t - 0.5 && prevKind !== 'meanwhile') {
         warns.push(`${tag}: steps back to day ${day} (clock at ${Math.round(t)}) with no meanwhile`);
       }

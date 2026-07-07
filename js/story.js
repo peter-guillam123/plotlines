@@ -48,7 +48,11 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
         beat.t1 = leg.dayEnd;
       }
     } else if (b.kind === 'scene' || (b.kind === 'handoff' && b.chapter)) {
-      beat.t0 = beat.t1 = chapterDay(b.chapter) + 0.02;
+      // A single-day book (Mrs Dalloway) may pin a beat to an explicit
+      // fractional `day` — Big Ben's own resolution — instead of the
+      // coarser chapter day, so the hour clock never steps backward within
+      // a thread. Falls back to the chapter day when absent.
+      beat.t0 = beat.t1 = typeof b.day === 'number' ? b.day : chapterDay(b.chapter) + 0.02;
     }
     return beat;
   });
