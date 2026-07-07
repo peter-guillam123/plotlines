@@ -1,0 +1,891 @@
+{
+  "title": "Mrs Dalloway",
+  "author": "Virginia Woolf",
+  "year": 1925,
+  "gutenbergId": 71865,
+  "overture": "One Wednesday in June 1923, a single London day. Clarissa Dalloway walks out to buy the flowers for her party; across the same streets a shell-shocked soldier comes apart. Two lives that never meet, brushing past each other from morning to midnight.",
+  "mapHome": {
+    "bounds": [
+      [
+        -0.166,
+        51.492
+      ],
+      [
+        -0.11,
+        51.534
+      ]
+    ]
+  },
+  "timeline": {
+    "epoch": "1923-06-13",
+    "calendar": true,
+    "hourClock": true,
+    "span": 1,
+    "unit": "days"
+  },
+  "sources": [
+    "The story is a single Wednesday in June 1923; Woolf fixes the weekday and the month but never the date. 13 June 1923 is the common scholarly reconstruction, adopted here and flagged as such.",
+    "The day's clock is reconstructed from the novel's own chimes — Big Ben and St Margaret's strike the hours through the text ('The leaden circles dissolved in the air').",
+    "Clarissa's Westminster house is placed at Dean's Yard, beside the Abbey and St Margaret's: Richard 'entered Dean's Yard' the moment before he reached his own door.",
+    "Septimus and Rezia's lodging is located only as 'admirable lodgings off the Tottenham Court Road' and, at his death, 'the large Bloomsbury-lodging house window' — placed representatively in Bloomsbury."
+  ],
+  "regions": [
+    {
+      "id": "westminster",
+      "name": "Westminster & St James's"
+    },
+    {
+      "id": "mayfair",
+      "name": "Mayfair & Bond Street"
+    },
+    {
+      "id": "regents",
+      "name": "Regent's Park & Harley Street"
+    },
+    {
+      "id": "bloomsbury",
+      "name": "Bloomsbury"
+    },
+    {
+      "id": "eastward",
+      "name": "The Strand & eastward"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "title": "Mrs Dalloway buys the flowers",
+      "day": 0.417,
+      "when": "ten in the morning",
+      "dateInStory": "10 a.m."
+    },
+    {
+      "n": 2,
+      "title": "Eleven o'clock",
+      "day": 0.458,
+      "when": "eleven o'clock",
+      "dateInStory": "11 a.m."
+    },
+    {
+      "n": 3,
+      "title": "Noon: Harley Street",
+      "day": 0.5,
+      "when": "noon",
+      "dateInStory": "noon"
+    },
+    {
+      "n": 4,
+      "title": "The luncheon",
+      "day": 0.56,
+      "when": "half-past one",
+      "dateInStory": "1.30 p.m."
+    },
+    {
+      "n": 5,
+      "title": "Three o'clock",
+      "day": 0.625,
+      "when": "three o'clock",
+      "dateInStory": "3 p.m."
+    },
+    {
+      "n": 6,
+      "title": "The afternoon",
+      "day": 0.646,
+      "when": "late afternoon",
+      "dateInStory": "half-past three"
+    },
+    {
+      "n": 7,
+      "title": "The party",
+      "day": 0.85,
+      "when": "evening",
+      "dateInStory": "the evening"
+    }
+  ],
+  "characters": [
+    {
+      "id": "clarissa",
+      "name": "Clarissa Dalloway",
+      "colour": "aubergine",
+      "role": "A Westminster MP's wife, over fifty, giving a party that night",
+      "start": {
+        "location": "clarissas-house",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "septimus",
+      "name": "Septimus Warren Smith",
+      "colour": "slate",
+      "role": "A shell-shocked war veteran, about thirty, unravelling",
+      "start": {
+        "location": "bond-street",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "rezia",
+      "name": "Lucrezia Warren Smith",
+      "colour": "madder",
+      "role": "Septimus's young Italian wife, a milliner far from home",
+      "start": {
+        "location": "bond-street",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "peter",
+      "name": "Peter Walsh",
+      "colour": "prussian",
+      "role": "Clarissa's old suitor, just back from India, still in love",
+      "start": {
+        "location": "clarissas-house",
+        "chapter": 2
+      }
+    },
+    {
+      "id": "richard",
+      "name": "Richard Dalloway",
+      "colour": "sienna",
+      "role": "Clarissa's husband, a dependable Conservative MP",
+      "start": {
+        "location": "brook-street",
+        "chapter": 5
+      }
+    },
+    {
+      "id": "elizabeth",
+      "name": "Elizabeth Dalloway",
+      "colour": "ochre",
+      "role": "The Dalloways' grave seventeen-year-old daughter",
+      "start": {
+        "location": "clarissas-house",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "kilman",
+      "name": "Doris Kilman",
+      "colour": "bottle",
+      "role": "Elizabeth's embittered, devout, poor history tutor",
+      "start": {
+        "location": "clarissas-house",
+        "chapter": 6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "clarissas-house",
+      "region": "westminster",
+      "name": "Dean's Yard, Westminster",
+      "novelName": "Westminster",
+      "coords": [
+        -0.1283,
+        51.4995
+      ],
+      "certainty": "identified",
+      "note": "Best-supported placement, not an exact address. Woolf never gives the street, but the Dalloways live in Westminster 'over twenty' years, always within earshot of Big Ben and St Margaret's, and Richard 'entered Dean's Yard' just before reaching his door. Dean's Yard, beside the Abbey, is the standard reading; the party is held here.",
+      "story": "Clarissa sets out to buy the flowers, returns to prepare, receives Peter's surprise visit, and holds her party here.",
+      "quote": "For having lived in Westminster--how many years now? over twenty,--one feels even in the midst of the traffic, or waking at night, Clarissa was positive, a particular hush, or solemnity; an indescribable pause; a suspense (but that might be her heart, affected, they said, by influenza) before Big Ben strikes.",
+      "quoteRef": "Clarissa setting out in Westminster"
+    },
+    {
+      "id": "bond-street",
+      "region": "mayfair",
+      "name": "Bond Street",
+      "novelName": "Bond Street",
+      "coords": [
+        -0.1419,
+        51.5122
+      ],
+      "certainty": "real",
+      "story": "Clarissa walks up Bond Street for her flowers; here the morning's first convergence gathers, as a car backfires and the whole street — Clarissa, Septimus, Rezia — looks the same way at once.",
+      "quote": "this astonishing and rather solemn progress with the rest of them, up Bond Street, this being Mrs. Dalloway; not even Clarissa any more; this being Mrs. Richard Dalloway.",
+      "quoteRef": "Clarissa in Bond Street"
+    },
+    {
+      "id": "mulberrys",
+      "region": "mayfair",
+      "name": "Bond Street (Mulberry's the florist)",
+      "novelName": "Mulberry's the florists",
+      "coords": [
+        -0.1421,
+        51.5118
+      ],
+      "certainty": "conjectured",
+      "note": "Best guess. Mulberry's is a fictional florist, fixed by the text to the northern stretch of New Bond Street — the backfiring car drew up 'precisely opposite Mulberry's shop window', the rumour spreading 'to Oxford Street on one side, to Atkinson's scent shop on the other'. A representative shopfront; the exact door is invented. The grey motor car halts here too.",
+      "story": "Clarissa buys her flowers from Miss Pym when a car backfires outside — the morning's first great convergence, and the moment she and Septimus stand unknowing in the same crowd.",
+      "quote": "Nonsense, nonsense! she cried to herself, pushing through the swing doors of Mulberry’s the florists.",
+      "quoteRef": "Clarissa entering the florist"
+    },
+    {
+      "id": "hatchards",
+      "region": "mayfair",
+      "name": "Hatchards, Piccadilly",
+      "novelName": "Hatchards' shop window",
+      "coords": [
+        -0.14,
+        51.5085
+      ],
+      "certainty": "real",
+      "story": "Clarissa stops at the bookshop window and reads the open page of Cymbeline — 'Fear no more the heat o' the sun' — the day's recurring refrain.",
+      "quote": "But what was she dreaming as she looked into Hatchards’ shop window?",
+      "quoteRef": "Clarissa at the bookshop window"
+    },
+    {
+      "id": "regents-park",
+      "region": "regents",
+      "name": "Regent's Park, the Broad Walk",
+      "novelName": "Regent's Park in the Broad Walk",
+      "coords": [
+        -0.1487,
+        51.5266
+      ],
+      "certainty": "real",
+      "story": "Septimus and Rezia sit on a bench while the aeroplane skywrites overhead and he sees the dead Evans; here, at the fountain, Rezia cries 'I am alone', and here Peter Walsh, dozing nearby, passes the same couple without knowing them.",
+      "quote": "Lucrezia Warren Smith, sitting by her husband’s side on a seat in Regent’s Park in the Broad Walk, looked up.",
+      "quoteRef": "Septimus and Rezia in Regent's Park"
+    },
+    {
+      "id": "harley-street",
+      "region": "regents",
+      "name": "Harley Street",
+      "novelName": "Harley Street",
+      "coords": [
+        -0.1468,
+        51.5202
+      ],
+      "certainty": "real",
+      "story": "Septimus and Rezia walk down Harley Street to their noon appointment with Sir William Bradshaw, who condemns Septimus to a rest-home.",
+      "quote": "twelve o’clock struck as Clarissa Dalloway laid her green dress on her bed, and the Warren Smiths walked down Harley Street. Twelve was the hour of their appointment.",
+      "quoteRef": "The Warren Smiths reach Bradshaw"
+    },
+    {
+      "id": "septimus-lodging",
+      "region": "bloomsbury",
+      "name": "Bloomsbury lodging-house (off Tottenham Court Road)",
+      "novelName": "the large Bloomsbury-lodging house window",
+      "coords": [
+        -0.1319,
+        51.5205
+      ],
+      "certainty": "conjectured",
+      "note": "Best guess. Mrs Filmer's house — the Smiths' lodging and the site of Septimus's suicide — has no address, but the text locates it twice: 'admirable lodgings off the Tottenham Court Road' and 'the large Bloomsbury-lodging house window'. Placed representatively in Bloomsbury just east of Tottenham Court Road; the exact house is invented.",
+      "story": "The Smiths' rented rooms; cornered by Dr Holmes, Septimus throws himself from the window that afternoon.",
+      "quote": "There remained only the window, the large Bloomsbury-lodging house window, the tiresome, the troublesome, and rather melodramatic business of opening the window and throwing himself out.",
+      "quoteRef": "Septimus at the window"
+    },
+    {
+      "id": "brook-street",
+      "region": "mayfair",
+      "name": "Brook Street, Mayfair",
+      "novelName": "Brook Street",
+      "coords": [
+        -0.147,
+        51.5126
+      ],
+      "certainty": "identified",
+      "note": "Real street, no house number. Woolf sets Lady Bruton's luncheon 'in Brook Street', Mayfair; the individual house is not given.",
+      "story": "Lady Bruton's Mayfair luncheon, which pointedly excludes Clarissa; Richard Dalloway and Hugh Whitbread lunch here and help draft her letter on emigration to Canada.",
+      "quote": "and spread round the house in Brook Street a fine net where things lodged and were picked out accurately, instantly",
+      "quoteRef": "Lady Bruton's luncheon in Brook Street"
+    },
+    {
+      "id": "green-park",
+      "region": "westminster",
+      "name": "Green Park",
+      "novelName": "the Green Park",
+      "coords": [
+        -0.1426,
+        51.5045
+      ],
+      "certainty": "real",
+      "story": "Richard Dalloway, carrying red and white roses home to tell Clarissa he loves her, crosses Green Park past the sprawling poor and a female vagrant.",
+      "quote": "Because it is a thousand pities never to say what one feels, he thought, crossing the Green Park",
+      "quoteRef": "Richard walking home through Green Park"
+    },
+    {
+      "id": "buckingham-palace",
+      "region": "westminster",
+      "name": "Buckingham Palace and the Mall",
+      "novelName": "the gates of Buckingham Palace",
+      "coords": [
+        -0.1417,
+        51.501
+      ],
+      "certainty": "real",
+      "story": "The presumed destination of the grey motor car; a crowd waits at the Palace gates and along the Mall, and the skywriting aeroplane roars over them.",
+      "quote": "A small crowd meanwhile had gathered at the gates of Buckingham Palace.",
+      "quoteRef": "The crowd at the Palace gates"
+    },
+    {
+      "id": "whitehall",
+      "region": "westminster",
+      "name": "Whitehall",
+      "novelName": "Whitehall",
+      "coords": [
+        -0.1259,
+        51.5055
+      ],
+      "certainty": "real",
+      "note": "The 'empty tomb' the marching boys carry a wreath to is the Cenotaph, which stands in Whitehall — but it is a 1920 monument, later than the 1885-1903 map beneath it. Noted, not pinned.",
+      "story": "Peter Walsh marches up Whitehall after leaving Clarissa, overtaken by a column of uniformed boys bound for the empty tomb; later Elizabeth's omnibus rushes up the same street.",
+      "quote": "No! No! he cried. She is not dead! I am not old, he cried, and marched up Whitehall, as if there rolled down to him, vigorous, unending, his future.",
+      "quoteRef": "Peter Walsh marches up Whitehall"
+    },
+    {
+      "id": "trafalgar-square",
+      "region": "westminster",
+      "name": "Trafalgar Square",
+      "novelName": "Trafalgar Square",
+      "coords": [
+        -0.1281,
+        51.508
+      ],
+      "certainty": "real",
+      "story": "Peter Walsh, alone and unknown at half-past eleven, feels a sudden exhilaration under Gordon's statue, then follows a young woman across the square towards the Haymarket.",
+      "quote": "the strangeness of standing alone, alive, unknown, at half-past eleven in Trafalgar Square overcame him",
+      "quoteRef": "Peter Walsh in Trafalgar Square"
+    },
+    {
+      "id": "army-navy-stores",
+      "region": "westminster",
+      "name": "Army & Navy Stores, Victoria Street",
+      "novelName": "the Army and Navy Stores",
+      "coords": [
+        -0.1366,
+        51.4969
+      ],
+      "certainty": "identified",
+      "note": "Real shop, area-precise. Woolf names 'the Army and Navy Stores' and has Elizabeth wait 'in Victoria Street' for her omnibus straight after. The Army & Navy Co-operative Stores stood at 105 Victoria Street; pinned to that site.",
+      "story": "Miss Kilman takes Elizabeth to tea and clings to her miserably; Elizabeth escapes into Victoria Street to catch a bus.",
+      "quote": "It had been so stuffy in the Army and Navy Stores.",
+      "quoteRef": "Miss Kilman and Elizabeth at the Stores"
+    },
+    {
+      "id": "the-strand",
+      "region": "eastward",
+      "name": "The Strand (Somerset House)",
+      "novelName": "the Strand",
+      "coords": [
+        -0.1173,
+        51.5111
+      ],
+      "certainty": "real",
+      "story": "Elizabeth rides the omnibus up Whitehall and the Strand — a rare venture east — past Somerset House, dreaming of a profession, before turning for home.",
+      "quote": "This was Somerset House.",
+      "quoteRef": "Elizabeth's omnibus up the Strand"
+    },
+    {
+      "id": "bloomsbury",
+      "region": "bloomsbury",
+      "name": "Bloomsbury",
+      "novelName": "Bloomsbury",
+      "coords": [
+        -0.1256,
+        51.522
+      ],
+      "certainty": "identified",
+      "note": "Peter Walsh's hotel is placed in Bloomsbury but never addressed; pinned to the Bloomsbury squares. It is on the walk back here, crossing toward Tottenham Court Road, that Peter hears the ambulance.",
+      "story": "Peter Walsh's hotel among the lit squares; here he dines, and from here he walks to the party opening the big blade of his pocket-knife.",
+      "quote": "It is Clarissa herself, he thought, with a deep emotion, and an extraordinarily clear, yet puzzling, recollection of her",
+      "quoteRef": "Peter Walsh, evening, toward the party"
+    },
+    {
+      "id": "greenwich",
+      "region": "eastward",
+      "name": "Greenwich",
+      "novelName": "Greenwich",
+      "coords": [
+        -0.0005,
+        51.4769
+      ],
+      "certainty": "real",
+      "story": "The skywriting aeroplane is followed east out of the West End until it is lost over Greenwich, where Mr Bentley, rolling his lawn, watches it dwindle to a symbol of the soul.",
+      "quote": "away and away the aeroplane shot; soaring over Greenwich and all the masts; over the little island of grey churches, St. Paul’s and the rest",
+      "quoteRef": "The aeroplane over Greenwich"
+    }
+  ],
+  "movements": [
+    {
+      "character": "clarissa",
+      "from": "clarissas-house",
+      "to": "bond-street",
+      "chapter": 1,
+      "mode": "foot",
+      "startDay": 0.417,
+      "days": 0.018,
+      "via": [
+        {
+          "at": [
+            -0.14,
+            51.5085
+          ],
+          "name": "Hatchards",
+          "note": "pauses at the bookshop window — 'Fear no more the heat o' the sun'"
+        }
+      ],
+      "routeCertainty": "reconstructed",
+      "routeSource": "No turn-by-turn route in the text; reconstructs Clarissa's walk from the named landmarks (Victoria Street, Piccadilly, Bond Street).",
+      "note": "Clarissa walks out to buy the flowers herself — Big Ben strikes as she crosses; she pauses at Hatchards' window on the way up."
+    },
+    {
+      "character": [
+        "septimus",
+        "rezia"
+      ],
+      "from": "bond-street",
+      "to": "regents-park",
+      "chapter": 1,
+      "mode": "foot",
+      "startDay": 0.442,
+      "days": 0.014,
+      "note": "The Smiths are already in Bond Street when the motor car backfires; they cross and walk up to Regent's Park to wait out the noon appointment."
+    },
+    {
+      "character": "peter",
+      "from": "clarissas-house",
+      "to": "trafalgar-square",
+      "chapter": 2,
+      "mode": "foot",
+      "startDay": 0.479,
+      "days": 0.006,
+      "via": [
+        {
+          "at": [
+            -0.1259,
+            51.5055
+          ],
+          "name": "Whitehall",
+          "note": "overtaken by boys marching a wreath to the empty tomb"
+        }
+      ],
+      "routeCertainty": "novel",
+      "routeSource": "The text names the way: Peter 'marched up Whitehall' to Trafalgar Square.",
+      "note": "Leaves Clarissa's at half-past eleven and marches up Whitehall to stand, exhilarated, under Gordon's statue."
+    },
+    {
+      "character": "peter",
+      "from": "trafalgar-square",
+      "to": "regents-park",
+      "chapter": 2,
+      "mode": "foot",
+      "startDay": 0.486,
+      "days": 0.005,
+      "via": [
+        [
+          -0.1355,
+          51.51
+        ],
+        [
+          -0.144,
+          51.521
+        ]
+      ],
+      "note": "On impulse follows a young woman across the square and up Regent Street until she vanishes; then walks on to Regent's Park and dozes."
+    },
+    {
+      "character": [
+        "septimus",
+        "rezia"
+      ],
+      "from": "regents-park",
+      "to": "harley-street",
+      "chapter": 3,
+      "mode": "foot",
+      "startDay": 0.494,
+      "days": 0.006,
+      "note": "Cross out of the Park and down to Sir William Bradshaw's — twelve was the hour of their appointment."
+    },
+    {
+      "character": "peter",
+      "from": "regents-park",
+      "to": "bloomsbury",
+      "chapter": 3,
+      "mode": "foot",
+      "startDay": 0.62,
+      "days": 0.04,
+      "via": [
+        {
+          "at": [
+            -0.1305,
+            51.5165
+          ],
+          "name": "Tottenham Court Road",
+          "note": "an ambulance crosses, bearing — though Peter cannot know it — the man he passed alive in the Park"
+        }
+      ],
+      "routeCertainty": "reconstructed",
+      "routeSource": "The ambulance recedes 'as it crossed the Tottenham Court Road'; Peter's path to his Bloomsbury hotel is reconstructed through it.",
+      "note": "Leaves the Park past the singing old woman and walks toward his Bloomsbury hotel; hears the ambulance cross Tottenham Court Road."
+    },
+    {
+      "character": "clarissa",
+      "from": "bond-street",
+      "to": "clarissas-house",
+      "chapter": 2,
+      "mode": "foot",
+      "startDay": 0.46,
+      "days": 0.015,
+      "note": "Home with the flowers, to mend her green dress and make ready for the party — where Peter, unannounced, will call."
+    },
+    {
+      "character": [
+        "septimus",
+        "rezia"
+      ],
+      "from": "harley-street",
+      "to": "septimus-lodging",
+      "chapter": 4,
+      "mode": "foot",
+      "startDay": 0.515,
+      "days": 0.02,
+      "note": "Walk back to the Bloomsbury lodging, condemned to Bradshaw's rest-home, Rezia hating the man."
+    },
+    {
+      "character": "richard",
+      "from": "brook-street",
+      "to": "clarissas-house",
+      "chapter": 5,
+      "mode": "foot",
+      "startDay": 0.6,
+      "days": 0.025,
+      "via": [
+        {
+          "at": [
+            -0.1426,
+            51.5045
+          ],
+          "name": "Green Park",
+          "note": "crosses with the roses, past the sprawling poor"
+        }
+      ],
+      "routeCertainty": "novel",
+      "routeSource": "The text names the way: Richard walks home 'crossing the Green Park' from the Brook Street luncheon.",
+      "note": "After Lady Bruton's lunch he buys red and white roses and walks home through Green Park to say he loves her, arriving as the clock strikes three."
+    },
+    {
+      "character": [
+        "kilman",
+        "elizabeth"
+      ],
+      "from": "clarissas-house",
+      "to": "army-navy-stores",
+      "chapter": 6,
+      "mode": "foot",
+      "startDay": 0.646,
+      "days": 0.02,
+      "note": "Miss Kilman takes Elizabeth to tea at the Stores, clinging to her; afterward Kilman goes on alone to pray in the Abbey."
+    },
+    {
+      "character": "elizabeth",
+      "from": "army-navy-stores",
+      "to": "the-strand",
+      "chapter": 6,
+      "mode": "omnibus",
+      "startDay": 0.68,
+      "days": 0.03,
+      "via": [
+        {
+          "at": [
+            -0.1259,
+            51.5055
+          ],
+          "name": "Whitehall",
+          "note": "the omnibus, 'all sails spread', rushing up Whitehall"
+        }
+      ],
+      "routeCertainty": "novel",
+      "routeSource": "The text names the way: Elizabeth's omnibus goes up Whitehall and the Strand, past Somerset House.",
+      "note": "Escapes onto the Westminster omnibus — a pirate 'all sails spread up Whitehall' — and rides up the Strand toward the City, dreaming of a profession."
+    },
+    {
+      "character": "elizabeth",
+      "from": "the-strand",
+      "to": "clarissas-house",
+      "chapter": 6,
+      "mode": "omnibus",
+      "startDay": 0.73,
+      "days": 0.03,
+      "note": "Turns for home on another omnibus, back to Westminster for her mother's party."
+    },
+    {
+      "character": "peter",
+      "from": "bloomsbury",
+      "to": "clarissas-house",
+      "chapter": 7,
+      "mode": "foot",
+      "startDay": 0.87,
+      "days": 0.02,
+      "note": "After dinner at his hotel he walks through the lit squares to the party, opening the big blade of his pocket-knife."
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "character": "clarissa",
+      "at": "clarissas-house",
+      "chapter": 1,
+      "title": "A single June day",
+      "narration": "Wednesday, 13 June 1923. Clarissa Dalloway, a Westminster MP's wife of over fifty, is giving a party tonight. On this fine morning she decides to buy the flowers herself, and steps out into London.",
+      "day": 0.405
+    },
+    {
+      "kind": "journey",
+      "character": "clarissa",
+      "from": "clarissas-house",
+      "to": "bond-street",
+      "chapter": 1,
+      "narration": "Big Ben strikes ten as she walks up to the shops, pausing at Hatchards' window over an open page of Cymbeline — 'Fear no more the heat o' the sun', the day's quiet refrain — then on to Bond Street for her flowers."
+    },
+    {
+      "kind": "scene",
+      "character": "clarissa",
+      "at": "mulberrys",
+      "chapter": 1,
+      "title": "The grey motor car",
+      "narration": "Inside Mulberry's the florist a car backfires like a pistol in the street. A grand grey motor draws up, blinds down; the whole pavement stares. Clarissa, coming to the window, is sure she has glimpsed the Queen.",
+      "day": 0.437
+    },
+    {
+      "kind": "handoff",
+      "character": "septimus",
+      "at": "bond-street",
+      "chapter": 1,
+      "narration": "Thirty yards off, the same bang stops another man dead. Septimus Warren Smith — a shell-shocked veteran of about thirty — is certain the world is about to burst into flame. Clarissa never sees him: the day's first near-miss.",
+      "day": 0.438
+    },
+    {
+      "kind": "scene",
+      "character": "rezia",
+      "at": "bond-street",
+      "chapter": 1,
+      "narration": "Beside him stands Lucrezia, his young Italian wife, a milliner far from home, ashamed of the way people look at him. She has brought him out walking to fill the hours before a noon appointment with a nerve doctor.",
+      "day": 0.439
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "septimus",
+        "rezia"
+      ],
+      "from": "bond-street",
+      "to": "regents-park",
+      "chapter": 1,
+      "narration": "The Smiths cross out of the traffic and walk north to Regent's Park, to sit on a bench in the sun. There Septimus hears his dead officer, Evans, singing to him from behind the trees."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Meanwhile, eleven o'clock. An aeroplane climbs over the West End trailing letters of smoke, and for one instant the whole city stops and looks up at the same sky — strangers in the parks, the palace crowd, a man at Greenwich — bound together and not knowing it."
+    },
+    {
+      "kind": "scene",
+      "character": "septimus",
+      "at": "regents-park",
+      "chapter": 2,
+      "narration": "On the bench Septimus reads the skywriting as a signal meant for him alone. Rezia, terrified, hears him talking to the air and to Evans, and thinks: I am alone, I am alone, in the middle of the crowded park.",
+      "day": 0.458
+    },
+    {
+      "kind": "handoff",
+      "character": "peter",
+      "at": "clarissas-house",
+      "chapter": 2,
+      "narration": "Turn back to Westminster and half-past eleven. Peter Walsh — Clarissa's old suitor, just off the boat from India, still in love with her after all these years — has called on her unannounced. Shaken, he leaves her door and walks out into the day.",
+      "day": 0.479
+    },
+    {
+      "kind": "journey",
+      "character": "peter",
+      "from": "clarissas-house",
+      "to": "trafalgar-square",
+      "chapter": 2,
+      "narration": "He marches up Whitehall, overtaken by boys carrying a wreath to the empty tomb, towards Trafalgar Square, suddenly exhilarated that his whole future still rolls ahead of him."
+    },
+    {
+      "kind": "scene",
+      "character": "peter",
+      "at": "trafalgar-square",
+      "chapter": 2,
+      "narration": "Under Gordon's statue the strangeness of standing alone, alive, unknown at half-past eleven overcomes him. Then a young woman crosses the square, and on a whim he decides to follow her.",
+      "day": 0.486
+    },
+    {
+      "kind": "journey",
+      "character": "peter",
+      "from": "trafalgar-square",
+      "to": "regents-park",
+      "chapter": 2,
+      "narration": "He follows her up Regent Street until she vanishes into her house; then, the romance evaporated, he walks on to Regent's Park and settles to doze on a bench in the heat."
+    },
+    {
+      "kind": "scene",
+      "character": "peter",
+      "at": "regents-park",
+      "chapter": 2,
+      "title": "The near-miss on the bench",
+      "narration": "Quarter to twelve, and Peter passes within a bench-width of Septimus and Rezia. He sees only 'lovers squabbling under a tree' and strolls on — never guessing the man is twenty minutes from being sentenced to a rest-home. Three strangers, one patch of grass.",
+      "day": 0.492
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "septimus",
+        "rezia"
+      ],
+      "from": "regents-park",
+      "to": "harley-street",
+      "chapter": 3,
+      "narration": "As noon strikes, the Smiths walk down to Harley Street to keep their appointment. Sir William Bradshaw, smooth and immovable, hears Septimus out for three minutes and orders a rest-home — a bed in the country, no wife."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Meanwhile, back in Bond Street, Clarissa had gathered up her flowers and turned for home."
+    },
+    {
+      "kind": "journey",
+      "character": "clarissa",
+      "from": "bond-street",
+      "to": "clarissas-house",
+      "chapter": 2,
+      "narration": "She walks the flowers back to Westminster, to mend her green dress and make the drawing-room ready — not knowing that Peter, whom she has not seen in years, will call before the morning is out."
+    },
+    {
+      "kind": "handoff",
+      "character": "richard",
+      "at": "brook-street",
+      "chapter": 4,
+      "narration": "Half-past one, a Mayfair luncheon. Richard Dalloway — Clarissa's husband, a dependable Conservative MP — is lunching at Lady Bruton's in Brook Street, a party his wife was pointedly not asked to.",
+      "day": 0.56
+    },
+    {
+      "kind": "scene",
+      "character": "richard",
+      "at": "brook-street",
+      "chapter": 4,
+      "narration": "Over the meal he resolves, for once, to go straight home and tell Clarissa that he loves her — a thing it is 'a thousand pities' never to say. He leaves determined to say it plainly.",
+      "day": 0.565
+    },
+    {
+      "kind": "journey",
+      "character": "richard",
+      "from": "brook-street",
+      "to": "clarissas-house",
+      "chapter": 5,
+      "narration": "He buys a great sheaf of red and white roses and carries them home across Green Park, rehearsing the words. At the door they fail him — he cannot say it aloud — but he holds out the roses, and she understands. It strikes three."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Meanwhile the Warren Smiths had gone home. Condemned to Bradshaw's rest-home, dreading the separation, they had walked back to their Bloomsbury lodging after noon."
+    },
+    {
+      "kind": "removal",
+      "character": [
+        "septimus",
+        "rezia"
+      ],
+      "from": "harley-street",
+      "to": "septimus-lodging",
+      "chapter": 4,
+      "narration": "They return to the rented rooms off the Tottenham Court Road, Rezia hating the doctor who would take her husband from her. For an hour, making a hat together at the table, they are almost happy."
+    },
+    {
+      "kind": "scene",
+      "character": "septimus",
+      "at": "septimus-lodging",
+      "chapter": 4,
+      "title": "That afternoon",
+      "narration": "Then, that afternoon, Dr Holmes climbs the stairs to fetch him for the country. Cornered, unwilling to be 'cured' out of himself, Septimus flings himself from the window. It is the day's quiet catastrophe, and the town goes on.",
+      "day": 0.6
+    },
+    {
+      "kind": "handoff",
+      "character": "kilman",
+      "at": "clarissas-house",
+      "chapter": 6,
+      "narration": "Late afternoon, and Elizabeth — the Dalloways' grave seventeen-year-old daughter — with the woman who has half-captured her: Doris Kilman, her poor, devout, embittered history tutor, who resents Clarissa and loves the girl with a hungry, joyless grip.",
+      "day": 0.646
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "kilman",
+        "elizabeth"
+      ],
+      "from": "clarissas-house",
+      "to": "army-navy-stores",
+      "chapter": 6,
+      "narration": "Kilman walks Elizabeth to tea at the Army & Navy Stores and clings to her over the éclairs, dreading the parting. Elizabeth, stifled, slips away into Victoria Street; Kilman is left to pray alone in the Abbey."
+    },
+    {
+      "kind": "scene",
+      "character": "elizabeth",
+      "at": "army-navy-stores",
+      "chapter": 6,
+      "narration": "Out in Victoria Street Elizabeth breathes again, free of the tutor's need of her, and looks about for an omnibus to carry her somewhere new before the party.",
+      "day": 0.668
+    },
+    {
+      "kind": "journey",
+      "character": "elizabeth",
+      "from": "army-navy-stores",
+      "to": "the-strand",
+      "chapter": 6,
+      "narration": "She boards a Westminster omnibus — a pirate craft 'all sails spread' — and rides up Whitehall and the Strand, a rare venture east, past Somerset House, daydreaming of a real profession of her own."
+    },
+    {
+      "kind": "scene",
+      "character": "elizabeth",
+      "at": "the-strand",
+      "chapter": 6,
+      "narration": "By Somerset House, among the offices and the eastern crowds, she imagines being a doctor, a farmer, a member of Parliament — then the strange grey light unsettles her, and she thinks of home.",
+      "day": 0.715
+    },
+    {
+      "kind": "removal",
+      "character": "elizabeth",
+      "from": "the-strand",
+      "to": "clarissas-house",
+      "chapter": 6,
+      "narration": "She turns back on another omnibus and rides home to Westminster, to dress for her mother's party."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Evening now — and one more crossing to close. Peter Walsh, who left the Park before noon, is walking on toward his Bloomsbury hotel as the afternoon fades."
+    },
+    {
+      "kind": "journey",
+      "character": "peter",
+      "from": "regents-park",
+      "to": "bloomsbury",
+      "chapter": 3,
+      "narration": "An ambulance passes him — 'the light high bell' — and he admires it as a triumph of civilisation, the way the traffic parts to let help through. It crosses the Tottenham Court Road and is gone. Inside lies Septimus, the man he watched alive on the bench. Peter never knows."
+    },
+    {
+      "kind": "scene",
+      "character": "peter",
+      "at": "bloomsbury",
+      "chapter": 7,
+      "narration": "At his hotel he dines alone, turning Clarissa over in his mind, and at last takes up his hat to go to her party — half in dread, half in longing, after all these years.",
+      "day": 0.85
+    },
+    {
+      "kind": "journey",
+      "character": "peter",
+      "from": "bloomsbury",
+      "to": "clarissas-house",
+      "chapter": 7,
+      "narration": "He walks through the lit squares to Westminster, opening and shutting the big blade of his pocket-knife, as the great house fills with light and voices ahead of him."
+    },
+    {
+      "kind": "scene",
+      "character": "clarissa",
+      "at": "clarissas-house",
+      "chapter": 7,
+      "title": "The room where they meet",
+      "narration": "At the height of her party, news reaches her: a young man has killed himself. Clarissa slips away alone. She never met Septimus — only brushed past him once in a Bond Street crowd — yet feels kin, glad he kept what the rest let slip.",
+      "day": 0.9
+    }
+  ]
+}
