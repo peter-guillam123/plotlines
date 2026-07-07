@@ -971,38 +971,78 @@
           "name": "The Bosphorus, off Constantinople",
           "note": "11 July, at dawn: 'entered Bosphorus. Boarded by Turkish Customs officers. Backsheesh.'"
         },
+        [
+          28.4,
+          40.9
+        ],
+        [
+          27.5,
+          40.6
+        ],
         {
           "at": [
-            26.2,
-            39.7
+            26.3,
+            40.15
           ],
           "name": "The Dardanelles",
           "note": "12 July: 'through Dardanelles ... At dark passed into Archipelago' — out of the Marmara into the Aegean."
         },
         {
           "at": [
-            23.9,
-            38
+            25.8,
+            39.9
           ],
           "name": "The Archipelago (Aegean)",
           "note": "Threading the Greek islands after clearing the Dardanelles."
         },
         {
           "at": [
-            22.4,
-            36.2
+            24,
+            36
           ],
           "name": "Cape Matapan",
-          "note": "13 July: 'passed Cape Matapan. Crew dissatisfied about something.' The southern tip of the Greek mainland."
+          "note": "13 July: 'passed Cape Matapan. Crew dissatisfied about something.' South of the Greek mainland."
         },
+        [
+          21,
+          35.4
+        ],
+        [
+          17,
+          35.5
+        ],
         {
           "at": [
-            10.5,
-            37.5
+            13.5,
+            36.4
+          ],
+          "name": "The Malta Channel",
+          "note": "Standing well south of Sicily on the run west."
+        },
+        [
+          11.6,
+          37.3
+        ],
+        {
+          "at": [
+            9.5,
+            37.7
           ],
           "name": "The Mediterranean, off Cape Bon",
-          "note": "The long open-water run west across the Mediterranean."
+          "note": "The long open-water run west, clearing the Tunisian cape."
         },
+        [
+          5,
+          37.6
+        ],
+        [
+          0,
+          37
+        ],
+        [
+          -4,
+          36.3
+        ],
         {
           "at": [
             -5.35,
@@ -1013,12 +1053,16 @@
         },
         {
           "at": [
-            -9.3,
+            -9.9,
             37
           ],
           "name": "Off Cape St Vincent",
           "note": "Standing out into the Atlantic, rounding the south-west corner of Portugal."
         },
+        [
+          -9.9,
+          39.5
+        ],
         {
           "at": [
             -9.3,
@@ -1029,12 +1073,16 @@
         },
         {
           "at": [
-            -5,
-            48.3
+            -5.9,
+            48.4
           ],
           "name": "The Bay of Biscay, off Ushant",
           "note": "24 July: 'entering on the Bay of Biscay with wild weather ahead' — four days in 'a sort of maelstrom.'"
         },
+        [
+          -1.9,
+          49.9
+        ],
         {
           "at": [
             1.5,
@@ -1043,6 +1091,14 @@
           "name": "The Straits of Dover, off the North Foreland",
           "note": "1-2 Aug: hoped to signal 'when in the English Channel'; 2 Aug the mate glimpses North Foreland through lifting fog — 'we are now off in the North Sea.'"
         },
+        [
+          2.3,
+          52.2
+        ],
+        [
+          2.2,
+          53.5
+        ],
         {
           "at": [
             -0.1,
@@ -1153,15 +1209,45 @@
       "mode": "train",
       "via": [
         [
+          -0.13,
+          51.5
+        ],
+        {
+          "at": [
+            1.34,
+            51.13
+          ],
+          "name": "Dover",
+          "note": "south to the Channel coast of Kent"
+        },
+        {
+          "at": [
+            1.87,
+            50.95
+          ],
+          "name": "Calais",
+          "note": "the packet across the Dover Strait"
+        },
+        [
+          4.35,
+          50.85
+        ],
+        [
           8.7,
           50.1
         ],
-        [
-          16.373,
-          48.208
-        ]
+        {
+          "at": [
+            16.373,
+            48.208
+          ],
+          "name": "Vienna",
+          "note": "across Germany and Austria"
+        }
       ],
-      "note": "To nurse Jonathan; they marry at his bedside"
+      "note": "To nurse Jonathan; they marry at his bedside",
+      "routeCertainty": "documented",
+      "routeSource": "The Continental boat-train route — the Channel at Dover-Calais, then the great European rail junctions (Paris/Brussels, Frankfurt, Vienna) to Buda-Pesth."
     },
     {
       "character": "lucy",
@@ -1216,27 +1302,43 @@
       "via": [
         {
           "at": [
-            4.12,
-            51.978
+            4.55,
+            52.47
           ],
-          "name": "Hook of Holland",
-          "note": "The night packet's Dutch railhead; the Hook-Harwich steamer service had just opened (1893)."
+          "name": "IJmuiden",
+          "note": "down the North Sea Canal to the Dutch coast"
         },
         {
           "at": [
             3.3,
             52
           ],
-          "name": "The North Sea crossing",
-          "note": "The overnight steamer run west across the North Sea."
+          "name": "the North Sea crossing",
+          "note": "the overnight steamer run west"
         },
+        [
+          1.9,
+          51.8
+        ],
         {
           "at": [
-            1.29,
-            51.945
+            1.4,
+            51.5
           ],
-          "name": "Harwich",
-          "note": "The English packet port; from here the Great Eastern boat-train ran up to Liverpool Street and across London."
+          "name": "the mouth of the Thames",
+          "note": "closing the English coast"
+        },
+        [
+          0.9,
+          51.48
+        ],
+        {
+          "at": [
+            0.46,
+            51.48
+          ],
+          "name": "up the Thames",
+          "note": "as far up the tideway as she can swim"
         }
       ],
       "routeNote": "Van Helsing most plausibly came by the Hook of Holland-Harwich night packet and boat-train, not a Thames sail — faster and the standard 1890s Amsterdam-to-London route; then across town to Hampstead.",
@@ -1253,27 +1355,43 @@
       "via": [
         {
           "at": [
-            1.29,
-            51.945
+            0.46,
+            51.48
           ],
-          "name": "Harwich",
-          "note": "The English packet port; from here the Great Eastern boat-train ran up to Liverpool Street and across London."
+          "name": "up the Thames",
+          "note": "as far up the tideway as she can swim"
         },
+        [
+          0.9,
+          51.48
+        ],
+        {
+          "at": [
+            1.4,
+            51.5
+          ],
+          "name": "the mouth of the Thames",
+          "note": "closing the English coast"
+        },
+        [
+          1.9,
+          51.8
+        ],
         {
           "at": [
             3.3,
             52
           ],
-          "name": "The North Sea crossing",
-          "note": "The overnight steamer run west across the North Sea."
+          "name": "the North Sea crossing",
+          "note": "the overnight steamer run west"
         },
         {
           "at": [
-            4.12,
-            51.978
+            4.55,
+            52.47
           ],
-          "name": "Hook of Holland",
-          "note": "The night packet's Dutch railhead; the Hook-Harwich steamer service had just opened (1893)."
+          "name": "IJmuiden",
+          "note": "down the North Sea Canal to the Dutch coast"
         }
       ],
       "routeNote": "Van Helsing most plausibly came by the Hook of Holland-Harwich night packet and boat-train, not a Thames sail — faster and the standard 1890s Amsterdam-to-London route; then across town to Hampstead.",
@@ -1290,27 +1408,43 @@
       "via": [
         {
           "at": [
-            4.12,
-            51.978
+            4.55,
+            52.47
           ],
-          "name": "Hook of Holland",
-          "note": "The night packet's Dutch railhead; the Hook-Harwich steamer service had just opened (1893)."
+          "name": "IJmuiden",
+          "note": "down the North Sea Canal to the Dutch coast"
         },
         {
           "at": [
             3.3,
             52
           ],
-          "name": "The North Sea crossing",
-          "note": "The overnight steamer run west across the North Sea."
+          "name": "the North Sea crossing",
+          "note": "the overnight steamer run west"
         },
+        [
+          1.9,
+          51.8
+        ],
         {
           "at": [
-            1.29,
-            51.945
+            1.4,
+            51.5
           ],
-          "name": "Harwich",
-          "note": "The English packet port; from here the Great Eastern boat-train ran up to Liverpool Street and across London."
+          "name": "the mouth of the Thames",
+          "note": "closing the English coast"
+        },
+        [
+          0.9,
+          51.48
+        ],
+        {
+          "at": [
+            0.46,
+            51.48
+          ],
+          "name": "up the Thames",
+          "note": "as far up the tideway as she can swim"
         }
       ],
       "routeNote": "Van Helsing most plausibly came by the Hook of Holland-Harwich night packet and boat-train, not a Thames sail — faster and the standard 1890s Amsterdam-to-London route; then across town to Hampstead.",
@@ -1343,20 +1477,50 @@
       "days": 3,
       "mode": "train",
       "via": [
-        [
-          16.373,
-          48.208
-        ],
+        {
+          "at": [
+            16.373,
+            48.208
+          ],
+          "name": "Vienna",
+          "note": "west across Austria"
+        },
         [
           8.7,
           50.1
         ],
+        {
+          "at": [
+            2.359,
+            48.877
+          ],
+          "name": "Paris",
+          "note": "across Germany and France"
+        },
+        {
+          "at": [
+            1.87,
+            50.95
+          ],
+          "name": "Calais",
+          "note": "to the Channel coast"
+        },
+        {
+          "at": [
+            1.34,
+            51.13
+          ],
+          "name": "Dover",
+          "note": "the packet across the Dover Strait"
+        },
         [
-          2.359,
-          48.877
+          -0.13,
+          51.5
         ]
       ],
-      "note": "Home, married, to Mr. Hawkins's house"
+      "note": "Home, married, to Mr. Hawkins's house",
+      "routeCertainty": "documented",
+      "routeSource": "The Continental boat-train route — the Channel at Dover-Calais, then the great European rail junctions (Paris/Brussels, Frankfurt, Vienna) to Buda-Pesth."
     },
     {
       "character": "lucy",
@@ -1751,11 +1915,55 @@
       "via": [
         {
           "at": [
-            1.4,
-            51
+            0.37,
+            51.45
+          ],
+          "name": "Down the Thames",
+          "note": "out of the Pool of London on the ebb"
+        },
+        [
+          1,
+          51.5
+        ],
+        {
+          "at": [
+            1.45,
+            51.05
           ],
           "name": "The Straits of Dover",
-          "note": "Down the Thames and out through the Channel narrows — the reverse of the Demeter's last leg in."
+          "note": "out through the Channel narrows — the reverse of the Demeter's last leg in."
+        },
+        [
+          1.4,
+          50.7
+        ],
+        [
+          -1.9,
+          49.9
+        ],
+        {
+          "at": [
+            -5.9,
+            48.4
+          ],
+          "name": "Off Ushant",
+          "note": "clearing the Channel for the Bay of Biscay"
+        },
+        {
+          "at": [
+            -9.3,
+            43.4
+          ],
+          "name": "Off Cape Finisterre",
+          "note": "across Biscay to the NW corner of Spain"
+        },
+        {
+          "at": [
+            -9.9,
+            37.5
+          ],
+          "name": "Off Cape St Vincent",
+          "note": "the SW corner of Portugal, standing well out to sea"
         },
         {
           "at": [
@@ -1763,47 +1971,111 @@
             35.95
           ],
           "name": "The Strait of Gibraltar",
-          "note": "Out of the Atlantic into the Mediterranean; Mina, hypnotised, hears the wash of open water."
+          "note": "out of the Atlantic into the Mediterranean; Mina, hypnotised, hears the wash of open water."
         },
+        [
+          -4,
+          36.3
+        ],
+        [
+          0,
+          37
+        ],
+        [
+          5,
+          37.6
+        ],
         {
           "at": [
-            15,
-            36.5
+            9.5,
+            37.7
           ],
-          "name": "The central Mediterranean",
-          "note": "The long open-water run east, south of Sicily, toward the Aegean."
+          "name": "Off Cape Bon",
+          "note": "the long open-water run east, north of the Tunisian coast"
+        },
+        [
+          11.6,
+          37.3
+        ],
+        {
+          "at": [
+            13.5,
+            36.4
+          ],
+          "name": "The Malta Channel",
+          "note": "passing well south of Sicily toward the Aegean"
+        },
+        [
+          17,
+          35.5
+        ],
+        [
+          21,
+          35.4
+        ],
+        [
+          24,
+          36
+        ],
+        {
+          "at": [
+            25.8,
+            39.9
+          ],
+          "name": "The Aegean",
+          "note": "north through the Archipelago for the straits"
         },
         {
           "at": [
-            26.2,
-            40
+            26.3,
+            40.15
           ],
           "name": "The Dardanelles",
-          "note": "Up through the straits into the Sea of Marmara."
+          "note": "up through the straits into the Sea of Marmara"
         },
+        [
+          27.5,
+          40.6
+        ],
+        [
+          28.4,
+          40.9
+        ],
         {
           "at": [
-            28.99,
-            41.12
+            29,
+            41.05
           ],
           "name": "The Bosphorus, off Constantinople",
-          "note": "Through the Bosphorus into the Black Sea — the Demeter's outbound route run backwards."
+          "note": "through the Bosphorus into the Black Sea — the Demeter's outbound route run backwards."
         },
+        [
+          29.1,
+          41.4
+        ],
         {
           "at": [
-            29.2,
-            43.3
+            29.5,
+            43
           ],
           "name": "The western Black Sea",
-          "note": "Standing north up the coast — past Varna, where the hunters wait in vain."
+          "note": "standing north up the coast — past Varna, where the hunters wait in vain."
         },
+        [
+          30,
+          44
+        ],
+        [
+          30.3,
+          44.9
+        ],
         {
           "at": [
             29.66,
             45.16
           ],
           "name": "The Danube mouths (Sulina)",
-          "note": "In past the Sulina channel, up the Danube for Galatz instead of Varna."
+          "note": "in past the Sulina channel, up the Danube for Galatz instead of Varna."
         }
       ],
       "routeNote": "The Czarina Catherine's passage down the Channel, through Gibraltar and the length of the Mediterranean, up the Dardanelles and Bosphorus into the Black Sea, then past Varna to the Danube and Galatz.",
@@ -2045,7 +2317,8 @@
           47.3
         ]
       ],
-      "note": "With Lord Godalming: by steam launch up the Sereth, then the Bistritza"
+      "note": "With Lord Godalming: by steam launch up the Sereth, then the Bistritza",
+      "medium": "river"
     },
     {
       "character": "hunters",

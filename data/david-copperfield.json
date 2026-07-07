@@ -1481,10 +1481,14 @@
       "days": 10,
       "mode": "ship",
       "via": [
+        [
+          2,
+          52.3
+        ],
         {
           "at": [
-            1.4,
-            51.9
+            1.7,
+            51.6
           ],
           "name": "off the North Foreland",
           "note": "down the North Sea coast of Kent"
@@ -1523,32 +1527,48 @@
         },
         {
           "at": [
-            -9.5,
-            38.7
+            -9.9,
+            37.6
           ],
-          "name": "off the coast of Portugal",
-          "note": "past the Tagus, Lisbon abeam"
+          "name": "off Cape St Vincent",
+          "note": "the SW tip of Portugal, standing well out to sea"
         },
         {
           "at": [
-            -6,
-            36
+            -7,
+            35.9
           ],
           "name": "the Strait of Gibraltar",
           "note": "into the Mediterranean"
         },
+        [
+          -5.3,
+          35.95
+        ],
         {
           "at": [
-            8,
-            38.5
+            -2.5,
+            36.5
           ],
-          "name": "the western Mediterranean",
-          "note": "passing south of Sardinia"
+          "name": "the Alboran Sea",
+          "note": "east along the Spanish coast, well offshore"
         },
         {
           "at": [
+            6,
+            38.5
+          ],
+          "name": "the western Mediterranean",
+          "note": "passing south of the Balearics and Sardinia"
+        },
+        [
+          9,
+          38.2
+        ],
+        {
+          "at": [
             12.5,
-            40.4
+            38.8
           ],
           "name": "the Tyrrhenian Sea",
           "note": "closing the Bay of Naples"
@@ -1571,34 +1591,50 @@
         {
           "at": [
             12.5,
-            40.4
+            38.8
           ],
           "name": "the Tyrrhenian Sea",
           "note": "closing the Bay of Naples"
         },
+        [
+          9,
+          38.2
+        ],
         {
           "at": [
-            8,
+            6,
             38.5
           ],
           "name": "the western Mediterranean",
-          "note": "passing south of Sardinia"
+          "note": "passing south of the Balearics and Sardinia"
         },
         {
           "at": [
-            -6,
-            36
+            -2.5,
+            36.5
+          ],
+          "name": "the Alboran Sea",
+          "note": "east along the Spanish coast, well offshore"
+        },
+        [
+          -5.3,
+          35.95
+        ],
+        {
+          "at": [
+            -7,
+            35.9
           ],
           "name": "the Strait of Gibraltar",
           "note": "into the Mediterranean"
         },
         {
           "at": [
-            -9.5,
-            38.7
+            -9.9,
+            37.6
           ],
-          "name": "off the coast of Portugal",
-          "note": "past the Tagus, Lisbon abeam"
+          "name": "off Cape St Vincent",
+          "note": "the SW tip of Portugal, standing well out to sea"
         },
         {
           "at": [
@@ -1634,12 +1670,16 @@
         },
         {
           "at": [
-            1.4,
-            51.9
+            1.7,
+            51.6
           ],
           "name": "off the North Foreland",
           "note": "down the North Sea coast of Kent"
-        }
+        },
+        [
+          2,
+          52.3
+        ]
       ],
       "routeNote": "Up out of the Tyrrhenian and the western Mediterranean, through the Strait of Gibraltar, past Portugal and Finisterre, across the Bay of Biscay and up the Channel and the North Sea to the Yarmouth sands.",
       "routeSource": "Standard age-of-sail North Europe to Mediterranean sailing track (Channel - Biscay - off Finisterre/Portugal - Gibraltar - Tyrrhenian). Dickens names Naples as the destination of Steerforth and Em'ly's flight abroad.",
@@ -1653,10 +1693,14 @@
       "days": 10,
       "mode": "ship",
       "via": [
+        [
+          2,
+          52.3
+        ],
         {
           "at": [
-            1.4,
-            51.9
+            1.7,
+            51.6
           ],
           "name": "off the North Foreland",
           "note": "down the North Sea coast of Kent"
@@ -1695,32 +1739,48 @@
         },
         {
           "at": [
-            -9.5,
-            38.7
+            -9.9,
+            37.6
           ],
-          "name": "off the coast of Portugal",
-          "note": "past the Tagus, Lisbon abeam"
+          "name": "off Cape St Vincent",
+          "note": "the SW tip of Portugal, standing well out to sea"
         },
         {
           "at": [
-            -6,
-            36
+            -7,
+            35.9
           ],
           "name": "the Strait of Gibraltar",
           "note": "into the Mediterranean"
         },
+        [
+          -5.3,
+          35.95
+        ],
         {
           "at": [
-            8,
-            38.5
+            -2.5,
+            36.5
           ],
-          "name": "the western Mediterranean",
-          "note": "passing south of Sardinia"
+          "name": "the Alboran Sea",
+          "note": "east along the Spanish coast, well offshore"
         },
         {
           "at": [
+            6,
+            38.5
+          ],
+          "name": "the western Mediterranean",
+          "note": "passing south of the Balearics and Sardinia"
+        },
+        [
+          9,
+          38.2
+        ],
+        {
+          "at": [
             12.5,
-            40.4
+            38.8
           ],
           "name": "the Tyrrhenian Sea",
           "note": "closing the Bay of Naples"
@@ -1739,6 +1799,10 @@
       "days": 14,
       "mode": "foot",
       "via": [
+        [
+          13.6,
+          41.49
+        ],
         {
           "at": [
             12.496,
@@ -1749,12 +1813,24 @@
         },
         {
           "at": [
+            11.25,
+            43.77
+          ],
+          "name": "Florence",
+          "note": "inland through Tuscany"
+        },
+        {
+          "at": [
             8.934,
             44.407
           ],
           "name": "Genoa",
           "note": "the Ligurian coast"
         },
+        [
+          9.7,
+          44.6
+        ],
         {
           "at": [
             7.687,
@@ -1789,11 +1865,11 @@
         },
         {
           "at": [
-            1.4,
-            51.05
+            1.34,
+            51.13
           ],
-          "name": "the Dover Strait",
-          "note": "then by sea for the Thames"
+          "name": "Dover",
+          "note": "the Channel hop, then by sea for the Thames"
         }
       ],
       "routeNote": "Her own long way home: up through Italy and over the Alps, in service and hiding across France, then by sea from the coast to the Thames.",
@@ -1809,6 +1885,26 @@
       "days": 250,
       "mode": "foot",
       "via": [
+        [
+          1.16,
+          52.06
+        ],
+        [
+          0.47,
+          51.74
+        ],
+        [
+          1.08,
+          51.28
+        ],
+        {
+          "at": [
+            1.34,
+            51.13
+          ],
+          "name": "Dover",
+          "note": "to the Channel coast of Kent"
+        },
         {
           "at": [
             1.856,
@@ -1849,13 +1945,25 @@
           "name": "Turin",
           "note": "down into Piedmont"
         },
+        [
+          9.7,
+          44.6
+        ],
         {
           "at": [
             8.934,
             44.407
           ],
           "name": "Genoa",
-          "note": "the Ligurian coast"
+          "note": "over the Apennines to the Ligurian coast"
+        },
+        {
+          "at": [
+            11.25,
+            43.77
+          ],
+          "name": "Florence",
+          "note": "inland through Tuscany"
         },
         {
           "at": [
@@ -1864,7 +1972,11 @@
           ],
           "name": "Rome",
           "note": "the long road south"
-        }
+        },
+        [
+          13.6,
+          41.49
+        ]
       ],
       "routeNote": "Across the Channel into France, and overland on foot — Paris, Lyon, over the Alps by the Mont Cenis pass, then Turin, Genoa and Rome — town by town toward Naples.",
       "routeSource": "The novel names only France, Italy and 'the mountains'; the line follows the historic overland road to Italy (Paris–Lyon–Mont Cenis–Turin–Rome).",
@@ -1879,6 +1991,10 @@
       "days": 14,
       "mode": "foot",
       "via": [
+        [
+          13.6,
+          41.49
+        ],
         {
           "at": [
             12.496,
@@ -1889,12 +2005,24 @@
         },
         {
           "at": [
+            11.25,
+            43.77
+          ],
+          "name": "Florence",
+          "note": "inland through Tuscany"
+        },
+        {
+          "at": [
             8.934,
             44.407
           ],
           "name": "Genoa",
           "note": "the Ligurian coast"
         },
+        [
+          9.7,
+          44.6
+        ],
         {
           "at": [
             7.687,
@@ -1929,11 +2057,11 @@
         },
         {
           "at": [
-            1.4,
-            51.05
+            1.34,
+            51.13
           ],
-          "name": "the Dover Strait",
-          "note": "then by sea for the Thames"
+          "name": "Dover",
+          "note": "the Channel hop, then by sea for the Thames"
         }
       ],
       "routeNote": "Home close behind her — back through Italy and over the Alps, across France, and by sea to the Thames.",
