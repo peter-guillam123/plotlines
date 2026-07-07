@@ -911,39 +911,82 @@
       "via": [
         {
           "at": [
+            1.34,
+            51.13
+          ],
+          "name": "Dover"
+        },
+        {
+          "at": [
+            1.87,
+            50.95
+          ],
+          "name": "Calais"
+        },
+        {
+          "at": [
             2.352,
             48.857
           ],
-          "name": "Paris",
-          "note": "Across the Channel and over the city between stations, on the mail route south."
+          "name": "Paris"
         },
         {
           "at": [
             6.9,
             45.25
           ],
-          "name": "Mont Cenis",
-          "note": "The Alpine crossing between France and Italy — the new Fréjus (Mont Cenis) rail tunnel, opened 1871."
+          "name": "Mont Cenis"
         },
         {
           "at": [
             7.686,
             45.07
           ],
-          "name": "Turin",
-          "note": "Reached Friday 4 October at 6.35 a.m., Italy gained."
+          "name": "Turin"
         },
         {
           "at": [
             11.34,
             44.5
           ],
-          "name": "Bologna",
-          "note": "Down through the Italian trunk line toward the Adriatic heel."
+          "name": "Bologna"
+        },
+        {
+          "at": [
+            13.52,
+            43.6
+          ],
+          "name": "Ancona"
+        },
+        [
+          13.8,
+          43.05
+        ],
+        [
+          14.1,
+          42.5
+        ],
+        [
+          14.85,
+          41.9
+        ],
+        {
+          "at": [
+            15.55,
+            41.46
+          ],
+          "name": "Foggia"
+        },
+        {
+          "at": [
+            16.87,
+            41.13
+          ],
+          "name": "Bari"
         }
       ],
       "routeNote": "The overland mail route to the Indian steamers: London to Paris, south to the Mont Cenis pass and tunnel, down the length of Italy to Brindisi, where P&O took on the mails.",
-      "routeSource": "The Daily Telegraph itinerary in Ch. 3 ('London to Suez _viâ_ Mont Cenis and Brindisi, by rail and steamboats'); Fix's telegram log (Ch. 7) fixes Turin 4 Oct, Brindisi 5 Oct.",
+      "routeSource": "The Mont Cenis rail route and the line down the Adriatic coast of Italy — Bologna, Ancona, Bari — to Brindisi.",
       "routeCertainty": "documented",
       "note": "The overland dash across Europe to catch the Mongolia"
     },
@@ -960,33 +1003,36 @@
       "via": [
         {
           "at": [
-            23.9,
-            36
+            18.6,
+            39.4
           ],
-          "name": "The Ionian Sea, off Greece",
-          "note": "The Mongolia's course east across the central Mediterranean after leaving the Adriatic."
+          "name": "The Ionian Sea"
         },
-        {
-          "at": [
-            28.2,
-            33
-          ],
-          "name": "The eastern Mediterranean",
-          "note": "The open run toward the Egyptian coast and Port Said."
-        },
+        [
+          20.3,
+          36.2
+        ],
+        [
+          25.0,
+          34.0
+        ],
+        [
+          29.0,
+          32.2
+        ],
         {
           "at": [
             32.3,
             31.26
           ],
-          "name": "Port Said",
-          "note": "The Mediterranean mouth of the Suez Canal, opened 1869; the Mongolia enters the canal here."
+          "name": "Port Said"
         }
       ],
       "routeNote": "The P&O steamer Mongolia from Brindisi across the Mediterranean to Port Said and down the newly opened Suez Canal to Suez.",
-      "routeSource": "Verne, Ch. 6–7: the Mongolia 'plied regularly between Brindisi and Bombay _viâ_ the Suez Canal'; sailed Brindisi 5 Oct, reached Suez 9 Oct.",
+      "routeSource": "The P&O Mediterranean lane, keeping south of the Peloponnese and Crete to Port Said.",
       "routeCertainty": "documented",
-      "note": "Aboard the P&O steamer Mongolia, through the Med and the Canal"
+      "note": "Aboard the P&O steamer Mongolia, through the Med and the Canal",
+      "medium": "canal"
     },
     {
       "character": [
@@ -999,33 +1045,47 @@
       "days": 9,
       "mode": "ship",
       "via": [
+        [
+          33.0,
+          29.2
+        ],
+        [
+          33.5,
+          28.3
+        ],
+        [
+          34.0,
+          27.6
+        ],
+        [
+          36.0,
+          24.0
+        ],
+        [
+          39.0,
+          18.5
+        ],
         {
           "at": [
             43.4,
             12.6
           ],
-          "name": "Bab-el-Mandeb",
-          "note": "The strait at the foot of the Red Sea, out into the Gulf of Aden."
+          "name": "Bab-el-Mandeb"
         },
         {
           "at": [
             45.03,
             12.79
           ],
-          "name": "Aden",
-          "note": "The coaling stop at the mouth of the Red Sea; four hours ashore, the passport stamped again."
+          "name": "Aden"
         },
-        {
-          "at": [
-            57,
-            15.5
-          ],
-          "name": "The Arabian Sea",
-          "note": "The open crossing east-north-east from Aden toward the Bombay coast, wind in the north-west and all sails aiding the engine."
-        }
+        [
+          57.0,
+          15.5
+        ]
       ],
       "routeNote": "The Mongolia's Red Sea and Arabian Sea passage, coaling at Aden, then across to Bombay — the standard P&O India run.",
-      "routeSource": "Verne, Ch. 9: 'The distance between Suez and Aden is precisely thirteen hundred and thirty miles'; the Mongolia coals at Aden 14 Oct and reaches Bombay ahead of time.",
+      "routeSource": "Down the centre of the Red Sea, out at Bab-el-Mandeb by Aden, across the Arabian Sea.",
       "routeCertainty": "documented",
       "note": "The Red Sea and the Indian Ocean prove propitious"
     },
@@ -1037,33 +1097,47 @@
       "days": 9,
       "mode": "ship",
       "via": [
+        [
+          33.0,
+          29.2
+        ],
+        [
+          33.5,
+          28.3
+        ],
+        [
+          34.0,
+          27.6
+        ],
+        [
+          36.0,
+          24.0
+        ],
+        [
+          39.0,
+          18.5
+        ],
         {
           "at": [
             43.4,
             12.6
           ],
-          "name": "Bab-el-Mandeb",
-          "note": "The Red Sea strait, following the Mongolia he has boarded to shadow Fogg."
+          "name": "Bab-el-Mandeb"
         },
         {
           "at": [
             45.03,
             12.79
           ],
-          "name": "Aden",
-          "note": "Coaling at Aden; Fix wires ahead for a warrant to meet the ship at Bombay."
+          "name": "Aden"
         },
-        {
-          "at": [
-            57,
-            15.5
-          ],
-          "name": "The Arabian Sea",
-          "note": "The open crossing toward Bombay, the detective aboard the same steamer as his quarry."
-        }
+        [
+          57.0,
+          15.5
+        ]
       ],
       "routeNote": "Fix boards the Mongolia at Suez and follows Fogg on the same P&O steamer to Bombay, hoping a warrant will overtake them there.",
-      "routeSource": "Verne, Ch. 9: Fix 'proceeding on board the Mongolia' to follow Fogg; same P&O Suez–Aden–Bombay route.",
+      "routeSource": "Down the centre of the Red Sea, out at Bab-el-Mandeb by Aden, across the Arabian Sea.",
       "routeCertainty": "documented",
       "note": "The detective attaches himself to the chase"
     },
@@ -1235,41 +1309,52 @@
       "days": 11,
       "mode": "ship",
       "via": [
+        [
+          88.0,
+          20.5
+        ],
+        [
+          94.0,
+          10.0
+        ],
+        [
+          98.2,
+          6.0
+        ],
+        [
+          100.2,
+          3.2
+        ],
+        [
+          101.8,
+          1.9
+        ],
         {
           "at": [
-            88,
-            20.5
+            103.6,
+            1.18
           ],
-          "name": "The Bay of Bengal",
-          "note": "The Rangoon stands south out of the Hooghly into the open bay."
+          "name": "Singapore"
         },
-        {
-          "at": [
-            96,
-            8
-          ],
-          "name": "The Andaman Sea",
-          "note": "South-east toward the Strait of Malacca."
-        },
-        {
-          "at": [
-            103.82,
-            1.29
-          ],
-          "name": "Singapore",
-          "note": "A few hours' coaling call; out past the mountains of Malacca."
-        },
-        {
-          "at": [
-            109,
-            6.5
-          ],
-          "name": "The South China Sea",
-          "note": "North-east across the sea toward the Chinese coast, the last days rough with a coming monsoon."
-        }
+        [
+          104.7,
+          1.5
+        ],
+        [
+          106.8,
+          5.0
+        ],
+        [
+          110.5,
+          11.0
+        ],
+        [
+          113.5,
+          17.0
+        ]
       ],
       "routeNote": "The P&O steamer Rangoon from Calcutta down the Bay of Bengal, through the Strait of Malacca and Singapore, and up the South China Sea to Hong Kong.",
-      "routeSource": "Verne, Ch. 16–17: the Rangoon calls at Singapore ('some thirteen hundred miles' short of Hong Kong) en route Calcutta–Hong Kong; the P&O eastern mail line.",
+      "routeSource": "The mail lane through the Strait of Malacca to Singapore, then north-east across the open South China Sea.",
       "routeCertainty": "documented",
       "note": "Aboard the Rangoon, by Singapore to the China coast"
     },
@@ -1281,33 +1366,52 @@
       "days": 11,
       "mode": "ship",
       "via": [
+        [
+          88.0,
+          20.5
+        ],
+        [
+          94.0,
+          10.0
+        ],
+        [
+          98.2,
+          6.0
+        ],
+        [
+          100.2,
+          3.2
+        ],
+        [
+          101.8,
+          1.9
+        ],
         {
           "at": [
-            88,
-            20.5
+            103.6,
+            1.18
           ],
-          "name": "The Bay of Bengal",
-          "note": "Fix takes the same Rangoon, still shadowing Fogg, warrant not yet in hand."
+          "name": "Singapore"
         },
-        {
-          "at": [
-            103.82,
-            1.29
-          ],
-          "name": "Singapore",
-          "note": "The coaling call; British soil, but no warrant to serve."
-        },
-        {
-          "at": [
-            109,
-            6.5
-          ],
-          "name": "The South China Sea",
-          "note": "On toward Hong Kong, the last British ground where Fix means to make his arrest."
-        }
+        [
+          104.7,
+          1.5
+        ],
+        [
+          106.8,
+          5.0
+        ],
+        [
+          110.5,
+          11.0
+        ],
+        [
+          113.5,
+          17.0
+        ]
       ],
       "routeNote": "Fix travels on the same Rangoon to Hong Kong, gambling that his warrant will reach the last British port before Fogg leaves it.",
-      "routeSource": "Verne, Ch. 16–18: Fix aboard the Rangoon, counting on Hong Kong as 'the last English ground'; same P&O route.",
+      "routeSource": "The mail lane through the Strait of Malacca to Singapore, then north-east across the open South China Sea.",
       "routeCertainty": "documented",
       "note": "The pursuit, still one warrant short"
     },
@@ -1319,33 +1423,29 @@
       "days": 6,
       "mode": "ship",
       "via": [
-        {
-          "at": [
-            117,
-            24.5
-          ],
-          "name": "The China coast",
-          "note": "The Carnatic sails a day early, Passepartout senseless aboard from the opium den, master left behind."
-        },
-        {
-          "at": [
-            125,
-            29
-          ],
-          "name": "The East China Sea",
-          "note": "North-east across the sea toward the Japanese islands."
-        },
-        {
-          "at": [
-            135,
-            33.5
-          ],
-          "name": "Off the Japanese coast",
-          "note": "Up the Pacific side of Honshu toward Yokohama."
-        }
+        [
+          116.0,
+          20.5
+        ],
+        [
+          121.0,
+          21.0
+        ],
+        [
+          125.0,
+          25.0
+        ],
+        [
+          131.0,
+          30.0
+        ],
+        [
+          137.0,
+          33.5
+        ]
       ],
       "routeNote": "Passepartout's solo leg: drugged in the Hong Kong opium den, he is carried aboard the Carnatic and wakes at Yokohama alone, separated from Fogg.",
-      "routeSource": "Verne, Ch. 19–22: the Carnatic sails early with Passepartout aboard; he reaches Yokohama and joins Batulcar's troupe. P&O/British India Carnatic Hong Kong–Yokohama.",
+      "routeSource": "East of Formosa through the Bashi Channel, then across the Pacific south of Japan to Yokohama.",
       "routeCertainty": "documented",
       "note": "Separated: carried off drugged aboard the Carnatic"
     },
@@ -1360,25 +1460,25 @@
       "days": 3,
       "mode": "ship",
       "via": [
-        {
-          "at": [
-            116.5,
-            22.8
-          ],
-          "name": "The China coast",
-          "note": "The pilot-boat Tankadere beats up the coast through worsening weather toward the Yangtze mouth."
-        },
-        {
-          "at": [
-            120,
-            28
-          ],
-          "name": "The approach to the Yangtze",
-          "note": "Through a gale off the Chinese coast, making for Shanghai and the American mail steamer."
-        }
+        [
+          116.0,
+          21.0
+        ],
+        [
+          119.5,
+          24.0
+        ],
+        [
+          122.0,
+          27.0
+        ],
+        [
+          123.0,
+          30.0
+        ]
       ],
       "routeNote": "Having missed the Carnatic, Fogg charters the pilot-schooner Tankadere to run up the coast to Shanghai and intercept the San Francisco mail steamer there.",
-      "routeSource": "Verne, Ch. 20–21: Fogg hires the Tankadere for Shanghai ('if we make Shanghai we should not be forced to sail wide of the Chinese coast'); the steamer for Yokohama and America is caught off Shanghai.",
+      "routeSource": "Up the coast well offshore in the East China Sea to the mouth of the Yangtze.",
       "routeCertainty": "documented",
       "note": "The Tankadere's storm-run to catch the American steamer"
     },
@@ -1390,25 +1490,25 @@
       "days": 3,
       "mode": "ship",
       "via": [
-        {
-          "at": [
-            116.5,
-            22.8
-          ],
-          "name": "The China coast",
-          "note": "Fix, his Hong Kong plan foiled, buys himself aboard the Tankadere to stay with Fogg."
-        },
-        {
-          "at": [
-            120,
-            28
-          ],
-          "name": "The approach to the Yangtze",
-          "note": "Sharing the gale-driven schooner, the detective now bound to help Fogg reach England — and English soil."
-        }
+        [
+          116.0,
+          21.0
+        ],
+        [
+          119.5,
+          24.0
+        ],
+        [
+          122.0,
+          27.0
+        ],
+        [
+          123.0,
+          30.0
+        ]
       ],
       "routeNote": "Fix takes passage on the same Tankadere; his interest has flipped — he now needs Fogg to reach Britain, where the warrant will finally bite.",
-      "routeSource": "Verne, Ch. 20–21: Fix aboard the Tankadere with Fogg to Shanghai.",
+      "routeSource": "Up the coast well offshore in the East China Sea to the mouth of the Yangtze.",
       "routeCertainty": "documented",
       "note": "The shadow, now willing the chase along"
     },
@@ -1424,25 +1524,29 @@
       "days": 3,
       "mode": "ship",
       "via": [
-        {
-          "at": [
-            125,
-            30
-          ],
-          "name": "The East China Sea",
-          "note": "Aboard the General Grant at last, flagged down off Shanghai; north-east for Japan."
-        },
-        {
-          "at": [
-            135,
-            34
-          ],
-          "name": "Off the Japanese coast",
-          "note": "Up to Yokohama, where Passepartout is found among Batulcar's acrobats."
-        }
+        [
+          123.5,
+          30.5
+        ],
+        [
+          128.0,
+          30.0
+        ],
+        [
+          133.0,
+          32.0
+        ],
+        [
+          138.0,
+          34.0
+        ],
+        [
+          139.7,
+          34.9
+        ]
       ],
       "routeNote": "Picked up by the Pacific Mail steamer General Grant off Shanghai, the party crosses to Yokohama, where Fogg finds his lost servant.",
-      "routeSource": "Verne, Ch. 21–23: the Tankadere signals the General Grant, which carries Fogg's party to Yokohama and the reunion; Pacific Mail Yokohama–San Francisco service.",
+      "routeSource": "Across the East China Sea and the Pacific south of Honshu into Sagami Bay.",
       "routeCertainty": "documented",
       "note": "Aboard the General Grant to Yokohama — and Passepartout found"
     },
@@ -1749,25 +1853,29 @@
       "days": 1,
       "mode": "ship",
       "via": [
-        {
-          "at": [
-            -6.26,
-            53.35
-          ],
-          "name": "Dublin",
-          "note": "The mail express runs them up from Queenstown by dawn; they embark at once on the fast Kingstown packet."
-        },
-        {
-          "at": [
-            -5.9,
-            53.35
-          ],
-          "name": "The Irish Sea",
-          "note": "The swift mail boat cutting straight through the waves for the Lancashire coast."
-        }
+        [
+          -8.0,
+          51.4
+        ],
+        [
+          -6.2,
+          51.4
+        ],
+        [
+          -5.6,
+          52.3
+        ],
+        [
+          -5.4,
+          53.2
+        ],
+        [
+          -4.0,
+          53.4
+        ]
       ],
       "routeNote": "Fogg's twelve-hour trick: land the mails at Queenstown, express train to Dublin, and the fast packet across the Irish Sea to Liverpool — beating the Atlantic steamers into port.",
-      "routeSource": "Verne, Ch. 33: 'These mails are carried to Dublin by express trains... from Dublin they are sent on to Liverpool by the most rapid boats'; ashore at Liverpool at twenty to noon on the 21st.",
+      "routeSource": "Round the south of Ireland and up St George's Channel and the Irish Sea to the Mersey.",
       "routeCertainty": "documented",
       "note": "The mail route by Dublin — twelve hours gained, and then arrest"
     },
