@@ -32,7 +32,7 @@ const LAND_MODES = new Set(['foot', 'horse', 'coach', 'omnibus', 'train', 'eleph
 const SKIP_MODES = new Set(['unknown', 'sledge']);
 
 // ---- load the land polygons, each ring-group with a bbox for prefiltering ----
-const landPath = fileURLToPath(new URL('./data/ne_110m_land.geojson', import.meta.url));
+const landPath = fileURLToPath(new URL('./data/ne_50m_land.geojson', import.meta.url));
 const LAND = JSON.parse(readFileSync(landPath, 'utf8'));
 const polys = [];
 for (const f of LAND.features) {
@@ -71,7 +71,7 @@ function isLand(x, y) {
 }
 
 function analyseLeg(byId, m) {
-  if (SKIP_MODES.has(m.mode) || m.medium === 'river') return null;
+  if (SKIP_MODES.has(m.mode) || ['river', 'canal'].includes(m.medium)) return null;
   const from = byId[m.from]?.coords, to = byId[m.to]?.coords;
   if (!from || !to) return null;
   const path = buildPath(from, m.via, to);
