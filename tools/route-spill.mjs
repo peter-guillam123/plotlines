@@ -71,7 +71,7 @@ function isLand(x, y) {
 }
 
 function analyseLeg(byId, m) {
-  if (SKIP_MODES.has(m.mode) || ['river', 'canal'].includes(m.medium)) return null;
+  if (SKIP_MODES.has(m.mode) || ['river', 'canal'].includes(m.medium) || m.spillOk) return null;
   const from = byId[m.from]?.coords, to = byId[m.to]?.coords;
   if (!from || !to) return null;
   const path = buildPath(from, m.via, to);
