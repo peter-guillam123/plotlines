@@ -466,6 +466,16 @@
         "location": "longbourn",
         "chapter": 1
       }
+    },
+    {
+      "id": "lady-catherine",
+      "name": "Lady Catherine de Bourgh",
+      "colour": "aubergine",
+      "role": "Darcy's imperious aunt at Rosings; she makes one journey in the whole book — a chaise-and-four raid on Longbourn to forbid the match — and, by carrying Elizabeth's defiance straight to her nephew in town, becomes the unwitting engine of the ending",
+      "start": {
+        "location": "hunsford",
+        "chapter": 1
+      }
     }
   ],
   "locations": [
@@ -1647,9 +1657,223 @@
     {
       "character": "darcy",
       "from": "netherfield",
+      "to": "darcy-london",
+      "chapter": 55,
+      "mode": "coach",
+      "startDay": 367,
+      "days": 0.5,
+      "via": [
+        {
+          "at": [
+            -0.013,
+            51.762
+          ],
+          "name": "Hoddesdon",
+          "note": "down out of the Hertford country to join the London road in the Lea valley"
+        },
+        {
+          "at": [
+            -0.033,
+            51.688
+          ],
+          "name": "Waltham Cross",
+          "note": "the Eleanor cross on the road south"
+        },
+        {
+          "at": [
+            -0.06,
+            51.615
+          ],
+          "name": "Edmonton",
+          "note": "down the Lea valley into Middlesex"
+        },
+        {
+          "at": [
+            -0.068,
+            51.588
+          ],
+          "name": "Tottenham",
+          "note": "the last stage before the City turnpike"
+        }
+      ],
+      "routeNote": "Down the Lea valley again — Hoddesdon, Waltham Cross, Edmonton and Tottenham — and in through Shoreditch to the West End.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Hertford–Cambridge road down the Lea valley, the standard coaching approach to the City from that quarter.",
+      "routeCertainty": "documented",
+      "note": "The day after Bingley's engagement Darcy has business in town and is gone — back, he tells Bingley, within ten days. Nobody at Longbourn thinks anything of it; it is what puts him in London for the one visitor who matters."
+    },
+    {
+      "character": "lady-catherine",
+      "from": "hunsford",
+      "to": "longbourn",
+      "chapter": 56,
+      "mode": "coach",
+      "startDay": 370,
+      "days": 0.6,
+      "via": [
+        {
+          "at": [
+            0.03,
+            51.36
+          ],
+          "name": "Keston",
+          "note": "off the Westerham road, down onto the Kent heath toward Bromley"
+        },
+        {
+          "at": [
+            -0.016,
+            51.406
+          ],
+          "name": "Bromley",
+          "note": "the change of horses on the Kent road — her own appointed inn, the Bell"
+        },
+        {
+          "at": [
+            -0.088,
+            51.508
+          ],
+          "name": "London Bridge",
+          "note": "over the Thames and up through the City"
+        },
+        {
+          "at": [
+            -0.068,
+            51.588
+          ],
+          "name": "Tottenham",
+          "note": "out through Shoreditch onto the Lea valley road"
+        },
+        {
+          "at": [
+            -0.06,
+            51.615
+          ],
+          "name": "Edmonton",
+          "note": "up the Lea valley out of Middlesex"
+        },
+        {
+          "at": [
+            -0.033,
+            51.688
+          ],
+          "name": "Waltham Cross",
+          "note": "the Eleanor cross on the road north"
+        },
+        {
+          "at": [
+            -0.013,
+            51.762
+          ],
+          "name": "Hoddesdon",
+          "note": "turning off for Hertford and the Longbourn country"
+        }
+      ],
+      "routeNote": "The whole length of the home counties in a chaise and four — up out of west Kent by Bromley, across the Thames and through the City, then north up the Lea valley to the Hertford country.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the Westerham–Bromley–London road joined to the London–Hertford road up the Lea valley. Austen does not trace the drive; the roads are the documented coaching lines between the two houses.",
+      "routeCertainty": "reconstructed",
+      "note": "Unannounced, a chaise and four at the Longbourn gate: Lady Catherine has driven the whole way from Rosings to forbid a match she has only heard a rumour of — and to demand Elizabeth promise never to accept her nephew"
+    },
+    {
+      "character": "lady-catherine",
+      "from": "longbourn",
+      "to": "darcy-london",
+      "chapter": 57,
+      "mode": "coach",
+      "startDay": 371,
+      "days": 0.5,
+      "via": [
+        {
+          "at": [
+            -0.013,
+            51.762
+          ],
+          "name": "Hoddesdon",
+          "note": "down out of the Hertford country to join the London road in the Lea valley"
+        },
+        {
+          "at": [
+            -0.033,
+            51.688
+          ],
+          "name": "Waltham Cross",
+          "note": "the Eleanor cross on the road south"
+        },
+        {
+          "at": [
+            -0.06,
+            51.615
+          ],
+          "name": "Edmonton",
+          "note": "down the Lea valley into Middlesex"
+        },
+        {
+          "at": [
+            -0.068,
+            51.588
+          ],
+          "name": "Tottenham",
+          "note": "the last stage before the West End"
+        }
+      ],
+      "routeNote": "Back down the Lea valley to town — Hoddesdon, Waltham Cross, Edmonton and Tottenham — and across to her nephew's door in the fashionable quarter.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Hertford road down the Lea valley. Darcy discloses the London call himself (ch. 58).",
+      "routeCertainty": "documented",
+      "note": "Too incensed to let it rest, she drives straight on to her nephew in town — to have him forbid the thing himself. By repeating every word of Elizabeth's defiance, she hands him instead the one thing he lacked: hope"
+    },
+    {
+      "character": "darcy",
+      "from": "darcy-london",
+      "to": "netherfield",
+      "chapter": 58,
+      "mode": "coach",
+      "startDay": 373,
+      "days": 0.4,
+      "via": [
+        {
+          "at": [
+            -0.068,
+            51.588
+          ],
+          "name": "Tottenham",
+          "note": "out of the City through Shoreditch onto the Lea valley road"
+        },
+        {
+          "at": [
+            -0.06,
+            51.615
+          ],
+          "name": "Edmonton",
+          "note": "up the Lea valley out of Middlesex"
+        },
+        {
+          "at": [
+            -0.033,
+            51.688
+          ],
+          "name": "Waltham Cross",
+          "note": "the Eleanor cross on the road north"
+        },
+        {
+          "at": [
+            -0.013,
+            51.762
+          ],
+          "name": "Hoddesdon",
+          "note": "turning off for Hertford and Netherfield"
+        }
+      ],
+      "routeNote": "Up the Lea valley from town — Tottenham, Edmonton, Waltham Cross and Hoddesdon — and off the London road into the Hertford country.",
+      "routeSource": "Paterson's Roads / Cary's New Itinerary — the London–Hertford–Cambridge road down the Lea valley, the standard coaching approach to the City from that quarter.",
+      "routeCertainty": "documented",
+      "note": "The ten days up, Darcy comes back to Hertfordshire with Bingley — Lady Catherine's furious report of Elizabeth's defiance turning quietly, on the road, into hope"
+    },
+    {
+      "character": "darcy",
+      "from": "netherfield",
       "to": "longbourn",
       "chapter": 58,
       "mode": "foot",
+      "startDay": 373.5,
+      "days": 0.2,
       "note": "The last three miles of the map: the walk out towards Lucas Lodge on which Elizabeth thanks him for Lydia — and the second proposal fares better than the first"
     }
   ],
@@ -2079,12 +2303,40 @@
       "narration": "Bingley reopens Netherfield for the shooting, and Darcy comes with him, drawn by no bird in Hertfordshire. Freed at last of Darcy's interference, Bingley is soon on his knees to Jane — one sister happily settled, while Elizabeth watches Darcy and dares not hope for herself."
     },
     {
-      "kind": "scene",
-      "character": "elizabeth",
-      "at": "longbourn",
+      "kind": "journey",
+      "character": "darcy",
+      "from": "netherfield",
+      "to": "darcy-london",
+      "chapter": 55,
+      "title": "Darcy is called to town",
+      "narration": "His friend settled, Darcy himself is suddenly called away — business in London, back within ten days. It looks like nothing. It is, in fact, the small accident of timing that decides everything: it puts him in town at the one moment his aunt comes looking for him."
+    },
+    {
+      "kind": "journey",
+      "character": "lady-catherine",
+      "from": "hunsford",
+      "to": "longbourn",
       "chapter": 56,
       "title": "Lady Catherine's raid",
-      "narration": "Then Lady Catherine descends on Longbourn in a fury, having heard a rumour that Elizabeth means to marry her nephew, and demands she promise never to accept him. Elizabeth, magnificently, refuses to promise anything at all — and sends the great lady off defeated."
+      "narration": "A chaise and four at the Longbourn gate, unannounced. Lady Catherine has driven the whole way up from Kent, in a fury at a mere rumour that Elizabeth means to marry her nephew, and demands she promise never to accept him. Elizabeth, magnificently, refuses to promise anything at all — and sends the great lady off defeated."
+    },
+    {
+      "kind": "journey",
+      "character": "lady-catherine",
+      "from": "longbourn",
+      "to": "darcy-london",
+      "chapter": 57,
+      "title": "She carries it to Darcy",
+      "narration": "Too angry to let it lie, she wheels the carriage round and drives straight to her nephew in town, meaning to have him forbid the match himself. She recounts every word of Elizabeth's defiance — and, without meaning to, tells Darcy the one thing he needed to hear: that Elizabeth would not disavow him."
+    },
+    {
+      "kind": "journey",
+      "character": "darcy",
+      "from": "darcy-london",
+      "to": "netherfield",
+      "chapter": 58,
+      "title": "Back to Hertfordshire",
+      "narration": "It teaches him to hope as he had scarcely let himself hope before. Within the day Darcy is on the road north again, Bingley beside him, the ten days in town cut short — driving back towards the very house his aunt has just failed to defend."
     },
     {
       "kind": "journey",
@@ -2093,7 +2345,7 @@
       "to": "longbourn",
       "chapter": 58,
       "title": "The second proposal",
-      "narration": "It is the last three miles of the whole map. Lady Catherine's report of Elizabeth's defiance has given Darcy a thread of hope, and he walks over towards Lucas Lodge to test it. Elizabeth thanks him for Lydia; he asks again; and this time the answer is yes."
+      "narration": "It is the last three miles of the whole map. Darcy walks over towards Lucas Lodge, and Elizabeth — who now knows what he did for Lydia — thanks him for it. He asks again; and this time, field and parsonage and great house behind them both, the answer is yes."
     },
     {
       "kind": "scene",
