@@ -21,7 +21,9 @@
   <script>
     // Mark real touch devices early (before paint) so the mobile layout and
     // the rotate hint apply only there, never to a small desktop window.
-    if (matchMedia('(pointer: coarse)').matches || navigator.maxTouchPoints > 0) {
+    if (matchMedia('(any-pointer: coarse)').matches
+        || navigator.maxTouchPoints > 0
+        || 'ontouchstart' in window) {
       document.documentElement.classList.add('touch');
     }
   </script>

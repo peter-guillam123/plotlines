@@ -1434,21 +1434,27 @@ body.is-overture #captions { display: none !important; }
    ============================================================ */
 
 /* ---- the rotate-to-read hint (portrait phones only) ---- */
-#rotate-hint { display: none; }
+#rotate-hint {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--paper);
+  padding:
+    calc(env(safe-area-inset-top) + 16px) calc(env(safe-area-inset-right) + 24px)
+    calc(env(safe-area-inset-bottom) + 16px) calc(env(safe-area-inset-left) + 24px);
+}
+/* Two independent triggers, so it works even if the JS `.touch` class never
+   lands: a real coarse pointer (any iPhone/Android) shows it on its own; the
+   `.touch` class is the belt-and-braces (and what the preview can force). */
+@media (orientation: portrait) and (max-width: 560px) and (any-pointer: coarse) {
+  #rotate-hint:not(.dismissed) { display: flex; }
+}
 @media (orientation: portrait) and (max-width: 560px) {
-  html.touch #rotate-hint:not(.dismissed) {
-    display: flex;
-    position: fixed;
-    inset: 0;
-    z-index: 200;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: var(--paper);
-    padding:
-      calc(env(safe-area-inset-top) + 16px) calc(env(safe-area-inset-right) + 24px)
-      calc(env(safe-area-inset-bottom) + 16px) calc(env(safe-area-inset-left) + 24px);
-  }
+  html.touch #rotate-hint:not(.dismissed) { display: flex; }
 }
 .rotate-inner { max-width: 20rem; }
 .rotate-glyph svg { width: 108px; height: 108px; color: var(--ink); display: block; margin: 0 auto; }
@@ -1480,7 +1486,7 @@ body.is-overture #captions { display: none !important; }
   /* keep every fixed panel clear of the notch */
   html.touch #rail { top: calc(env(safe-area-inset-top) + 8px); left: calc(env(safe-area-inset-left) + 8px); }
   html.touch .maplibregl-ctrl-top-right { margin-top: env(safe-area-inset-top); margin-right: env(safe-area-inset-right); }
-  html.touch #controls { left: calc(env(safe-area-inset-left) + 8px); right: calc(env(safe-area-inset-right) + 8px); bottom: calc(env(safe-area-inset-bottom) + 6px); }
+  html.touch #controls { left: calc(env(safe-area-inset-left) + 8px); right: calc(env(safe-area-inset-right) + 8px); bottom: calc(env(safe-area-inset-bottom) + 6px); transform: none; width: auto; }
   html.touch #recentre { right: calc(env(safe-area-inset-right) + 10px); }
 
   /* reclaim height: a slimmer rail that scrolls rather than filling the screen */
@@ -1515,4 +1521,17 @@ body.is-overture #captions { display: none !important; }
   html.touch .story-narration { font-size: 14px; line-height: 1.35; margin: 3px 0 0; }
   html.touch .story-kicker { font-size: 11px; }
   html.touch .story-progress { margin-top: 3px; }
+}
+
+/* landscape phone — the library shelf must fit a ~390px height, not run off
+   the foot showing only the tops of the books */
+@media (orientation: landscape) and (max-height: 560px) {
+  html.touch .library-card { padding: 12px 18px 10px; max-height: calc(100vh - 12px); }
+  html.touch .library-title { font-size: 30px; margin: 0; }
+  html.touch .library-sub { font-size: 12px; line-height: 1.4; margin: 5px auto 0; max-width: 36rem; }
+  html.touch .intro-kicker, html.touch .intro-hints { display: none; }
+  html.touch .library-shelf { margin-top: 12px; }
+  html.touch .library-book { height: 150px; }
+  html.touch .book-title { font-size: 12px; max-height: 92px; }
+  html.touch .book-author { font-size: 9px; max-height: 42px; }
 }
