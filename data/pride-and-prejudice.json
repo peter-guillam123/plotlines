@@ -1953,6 +1953,14 @@
       "narration": "A militia regiment winters at Meryton, and with it charming Mr Wickham, who tells Elizabeth that Darcy cheated him of a living his own father meant him to have. She believes every word — it fits the proud man she already despises."
     },
     {
+      "kind": "scene",
+      "character": "elizabeth",
+      "at": "longbourn",
+      "chapter": 19,
+      "title": "Mr Collins finds a wife",
+      "narration": "Mr Collins — the pompous cousin who will inherit Longbourn — comes to pick a wife from the girls he is dispossessing. He proposes to Elizabeth, is refused flatly, and within three days is engaged to her practical friend Charlotte Lucas, who takes him clear-eyed, for a home of her own, and gives Elizabeth a reason to visit Kent."
+    },
+    {
       "kind": "handoff",
       "character": "darcy",
       "at": "netherfield",
