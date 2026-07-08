@@ -54,6 +54,15 @@
     "spine": { "cloth": "#2e6e6a", "text": "#e6d59a" }
   },
   {
+    "id": "monte-cristo",
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1846,
+    "file": "data/monte-cristo.json",
+    "blurb": "Buried without trial in the Château d'If, an innocent sailor escapes with a hidden fortune and returns — as the Count of Monte Cristo — to ruin the three men who destroyed him. Marseille to Rome to Paris, and east across the sea.",
+    "spine": { "cloth": "#203a54", "text": "#d3b06a" }
+  },
+  {
     "id": "tess",
     "title": "Tess of the d'Urbervilles",
     "author": "Thomas Hardy",

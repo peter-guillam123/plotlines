@@ -1,0 +1,561 @@
+{
+  "title": "The Count of Monte Cristo",
+  "author": "Alexandre Dumas",
+  "year": 1846,
+  "gutenbergId": 1184,
+  "quotesVerified": true,
+  "timeline": {
+    "epoch": "1815-02-24",
+    "calendar": true,
+    "span": "1815–1838: arrest, fourteen years' imprisonment, and the long revenge"
+  },
+  "overture": "On the day he is to be made captain and married, the young sailor Edmond Dantès is denounced on a trumped-up charge and buried without trial in the island fortress of the Château d'If. Fourteen years on he escapes, digs a hidden fortune out of the isle of Monte Cristo, and returns — rich, patient and unrecognisable — to ruin the three men who destroyed him. From Marseille to Rome to Paris, and at last east across the sea, a fall, a rise, and a reckoning.",
+  "sources": [
+    {
+      "name": "Project Gutenberg #1184 — the 1846 English translation; place-names and quotes verified verbatim",
+      "url": "https://www.gutenberg.org/ebooks/1184"
+    },
+    {
+      "name": "The novel's geography is real and precise (Marseille, the Château d'If, the isle of Montecristo, Rome, Paris); the two headline islands cross-checked",
+      "url": "https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo"
+    }
+  ],
+  "regions": [
+    {
+      "id": "provence",
+      "name": "Marseille and the Château d'If"
+    },
+    {
+      "id": "mediterranean",
+      "name": "The Mediterranean: the treasure, Rome, the East"
+    },
+    {
+      "id": "paris",
+      "name": "Paris: the revenge"
+    },
+    {
+      "id": "levant",
+      "name": "The Levant: Haydée's story"
+    }
+  ],
+  "mapHome": {
+    "bounds": [
+      [2.0, 40.5],
+      [14.5, 49.5]
+    ]
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "title": "Marseille",
+      "dateInStory": "24 February 1815",
+      "day": 0
+    },
+    {
+      "n": 2,
+      "title": "The arrest",
+      "dateInStory": "28 February 1815",
+      "day": 4
+    },
+    {
+      "n": 3,
+      "title": "The Château d'If",
+      "dateInStory": "the fourteen years",
+      "day": 30
+    },
+    {
+      "n": 4,
+      "title": "The escape",
+      "dateInStory": "1829",
+      "day": 5300
+    },
+    {
+      "n": 5,
+      "title": "The treasure",
+      "dateInStory": "1829",
+      "day": 5310
+    },
+    {
+      "n": 6,
+      "title": "Rome",
+      "dateInStory": "the Carnival, 1838",
+      "day": 8500
+    },
+    {
+      "n": 7,
+      "title": "To Paris",
+      "dateInStory": "1838",
+      "day": 8560
+    },
+    {
+      "n": 8,
+      "title": "The revenge",
+      "dateInStory": "1838",
+      "day": 8600
+    },
+    {
+      "n": 9,
+      "title": "The flight",
+      "dateInStory": "autumn 1838",
+      "day": 8650
+    },
+    {
+      "n": 10,
+      "title": "Wait and hope",
+      "dateInStory": "5 October 1838",
+      "day": 8690
+    },
+    {
+      "n": 11,
+      "title": "Yanina",
+      "dateInStory": "the fall of Ali Pasha, 1822",
+      "day": 2550
+    },
+    {
+      "n": 12,
+      "title": "Constantinople",
+      "dateInStory": "sold into slavery",
+      "day": 2560
+    }
+  ],
+  "characters": [
+    {
+      "id": "dantes",
+      "name": "Edmond Dantès",
+      "colour": "prussian",
+      "role": "The young sailor destroyed on his wedding day and buried in the Château d'If; he escapes with a hidden fortune and returns, as the Count of Monte Cristo, to repay the three men who ruined him",
+      "start": {
+        "location": "marseille",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "haydee",
+      "name": "Haydée",
+      "colour": "aubergine",
+      "role": "Daughter of Ali Pasha of Yanina, sold into slavery at Constantinople after the Frenchman Fernand betrayed her father; the Count buys her freedom, and her testimony is the ruin of his enemy — the book's counter-arc, a rise out of the fall",
+      "start": {
+        "location": "yanina",
+        "chapter": 11
+      }
+    },
+    {
+      "id": "danglars",
+      "name": "Danglars",
+      "colour": "slate",
+      "role": "The jealous shipmate whose forged letter begins it all; he rises to a Paris barony and bank, and at the end is run down near Rome and starved of his stolen millions",
+      "start": {
+        "location": "marseille",
+        "chapter": 1
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "marseille",
+      "region": "provence",
+      "name": "Marseille",
+      "novelName": "Marseilles",
+      "coords": [5.3699, 43.2951],
+      "certainty": "real",
+      "story": "Where it begins and, for a while, ends: the Old Port and the look-out at Notre-Dame de la Garde; the Catalans and La Réserve, where Dantès is betrothed to Mercédès and, at the feast, arrested on Danglars's forged denunciation.",
+      "quote": "On the 24th of February, 1815, the look-out at Notre-Dame de la Garde signalled the three-master, the Pharaon from Smyrna, Trieste, and Naples.",
+      "quoteRef": "Ch. 1"
+    },
+    {
+      "id": "chateau-dif",
+      "region": "provence",
+      "name": "Château d'If",
+      "novelName": "the Château d'If",
+      "coords": [5.3251, 43.2799],
+      "certainty": "real",
+      "story": "The island fortress off Marseille where Dantès is walled up without trial for fourteen years — and where the Abbé Faria, tunnelling in error into his cell, gives him an education, a purpose, and the secret of the treasure buried on Monte Cristo.",
+      "quote": "The treasure I speak of really exists, and I offer to make you the possessor of it.",
+      "quoteRef": "Ch. 17, the Abbé Faria"
+    },
+    {
+      "id": "tiboulen",
+      "region": "provence",
+      "name": "Île de Tiboulen",
+      "novelName": "the isle of Tiboulen",
+      "coords": [5.3007, 43.2795],
+      "certainty": "identified",
+      "note": "Named in the text ('Tiboulen and Lemaire are a league from the Château d'If'); a real Frioul islet, the exact landing conjectured.",
+      "story": "The bare islet, a league from the prison, that Dantès reaches after being flung into the sea sewn in the dead Faria's shroud — the first ground of his freedom, where smugglers take him up."
+    },
+    {
+      "id": "monte-cristo",
+      "region": "mediterranean",
+      "name": "Isle of Monte Cristo",
+      "novelName": "the Isle of Monte Cristo",
+      "coords": [10.3091, 42.3319],
+      "certainty": "real",
+      "story": "The uninhabited rock in the Tuscan archipelago where Faria's fortune lies hidden in a cave — and, at the last, the isle Dantès withdraws to and sails from. It gives him his new name and his new self.",
+      "quote": "In the first, blazed piles of golden coin; in the second, were ranged bars of unpolished gold.",
+      "quoteRef": "Ch. 24"
+    },
+    {
+      "id": "rome",
+      "region": "mediterranean",
+      "name": "Rome",
+      "novelName": "Rome",
+      "coords": [12.4823, 41.9058],
+      "certainty": "real",
+      "story": "Where the Count of Monte Cristo first appears in society, at the Carnival — mysterious, magnificent, saving young Albert de Morcerf from bandits and so buying his way into the Paris the boy's father inhabits. Later, the net closes here on the last of the enemies.",
+      "quote": "the Colosseum by moonlight, as he had shown him Saint Peter's by daylight.",
+      "quoteRef": "Ch. 34"
+    },
+    {
+      "id": "paris",
+      "region": "paris",
+      "name": "Paris",
+      "novelName": "Paris",
+      "coords": [2.3079, 48.8698],
+      "certainty": "identified",
+      "note": "The Count's addresses (No. 30 Avenue des Champs-Élysées; Auteuil, Rue de la Fontaine) are real streets with invented numbers; the pin marks the city.",
+      "story": "The stage of the revenge: the Count's house on the Champs-Élysées and his second at Auteuil, where Villefort's buried secret waits. Here his three enemies have risen high — a banker, a peer, a prosecutor — and here, one by one, he brings them down.",
+      "quote": "I am Edmond Dantès!",
+      "quoteRef": "Ch. 116, the unmasking"
+    },
+    {
+      "id": "yanina",
+      "region": "levant",
+      "name": "Ioannina (Yanina)",
+      "novelName": "Yanina",
+      "coords": [20.8537, 39.665],
+      "certainty": "real",
+      "story": "The court of Ali Pasha in Epirus, where Haydée is a princess — until the French officer Fernand, taken into Ali's trust, betrays him to the Turks for gold. Her father is killed; the crime, twenty years buried, is the thread the Count pulls to destroy the Count de Morcerf."
+    },
+    {
+      "id": "constantinople",
+      "region": "levant",
+      "name": "Constantinople",
+      "novelName": "Constantinople",
+      "coords": [28.9784, 41.0082],
+      "certainty": "real",
+      "story": "Where the child Haydée and her mother are sold into slavery after Yanina falls — and where, years on, the Count of Monte Cristo finds and buys her, and with her the proof of Fernand's treason."
+    },
+    {
+      "id": "the-east",
+      "region": "mediterranean",
+      "name": "Eastward, into the Levant",
+      "novelName": "the East",
+      "coords": [24.0, 37.0],
+      "certainty": "conjectured",
+      "note": "The destination is unnamed in the text ('the blue line separating the sky from the Mediterranean'); the pin marks the eastward heading, drawn as an open sea-leg.",
+      "story": "No fixed harbour — the open sea toward the Levant, where the white sail of the Count's yacht dwindles at the last, carrying Edmond and Haydée away from the world that made and unmade him."
+    }
+  ],
+  "movements": [
+    {
+      "character": "dantes",
+      "from": "marseille",
+      "to": "chateau-dif",
+      "chapter": 2,
+      "mode": "ship",
+      "startDay": 4.0,
+      "days": 0.3,
+      "note": "Arrested at his own betrothal feast on Danglars's forged letter, Dantès is rowed straight out to the island prison, still not believing it is real"
+    },
+    {
+      "character": "dantes",
+      "from": "chateau-dif",
+      "to": "tiboulen",
+      "chapter": 4,
+      "mode": "unknown",
+      "startDay": 5300.0,
+      "days": 0.2,
+      "note": "After fourteen years, sewn into the dead Faria's shroud and flung from the rampart into the sea, he cuts himself free and swims through the night to the bare islet of Tiboulen"
+    },
+    {
+      "character": "dantes",
+      "from": "tiboulen",
+      "to": "monte-cristo",
+      "chapter": 5,
+      "mode": "ship",
+      "startDay": 5306.0,
+      "days": 3.0,
+      "via": [
+        { "at": [6.0, 42.9], "name": "south of Toulon" },
+        { "at": [8.6, 43.35], "name": "the Ligurian Sea", "note": "north of Corsica" },
+        { "at": [9.7, 42.95], "name": "the Corsica Channel" },
+        { "at": [9.8, 42.5], "name": "west of Elba" }
+      ],
+      "note": "Taken up by Genoese smugglers, he works the Tyrrhenian until he can get himself set ashore alone on Monte Cristo — and digs Faria's fortune out of its cave",
+      "routeNote": "With the smugglers up the Ligurian coast past Elba to the Tuscan archipelago.",
+      "routeSource": "Dumas gives the smuggling range as Piombino, Civita Vecchia, Corsica and Tuscany (ch. 31).",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": "dantes",
+      "from": "monte-cristo",
+      "to": "rome",
+      "chapter": 6,
+      "mode": "ship",
+      "startDay": 8500.0,
+      "days": 2.0,
+      "via": [
+        { "at": [11.8, 42.09], "name": "Civitavecchia" },
+        { "at": [12.28, 41.73], "name": "Ostia", "note": "the port of Rome" }
+      ],
+      "note": "Nine years on, as the Count of Monte Cristo, he comes by sea to Rome for the Carnival — and there begins, with a rescued boy, to work his way toward Paris",
+      "routeNote": "By sea from the isle to the Roman coast at Civitavecchia and Ostia, and up to the city.",
+      "routeSource": "The Count travels to Rome by his yacht; the port of Rome is Ostia/Civitavecchia.",
+      "routeCertainty": "reconstructed"
+    },
+    {
+      "character": "dantes",
+      "from": "rome",
+      "to": "paris",
+      "chapter": 7,
+      "mode": "coach",
+      "startDay": 8560.0,
+      "days": 8.0,
+      "via": [
+        { "at": [11.25, 43.77], "name": "Florence" },
+        { "at": [7.0, 45.1], "name": "the Alps", "note": "over the Mont Cenis pass" },
+        { "at": [4.835, 45.76], "name": "Lyon" }
+      ],
+      "note": "And so to Paris, where his three enemies have prospered mightily — Danglars a baron and banker, Fernand a count and peer of France, Villefort the king's own prosecutor",
+      "routeNote": "Overland by post from Rome — Florence, over the Alps by Mont Cenis, Lyon — to Paris.",
+      "routeSource": "The standard post-road from Rome to Paris over the Mont Cenis.",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": "haydee",
+      "from": "yanina",
+      "to": "constantinople",
+      "chapter": 11,
+      "mode": "unknown",
+      "startDay": 2550.0,
+      "days": 6.0,
+      "note": "Ali Pasha betrayed and killed, the child Haydée and her mother are carried off and sold into slavery in the markets of Constantinople"
+    },
+    {
+      "character": "haydee",
+      "from": "constantinople",
+      "to": "paris",
+      "chapter": 12,
+      "mode": "unknown",
+      "startDay": 8520.0,
+      "days": 10.0,
+      "note": "Years later the Count of Monte Cristo seeks her out, buys her freedom, and brings her to Paris — his ward, and the living witness to Fernand's treason"
+    },
+    {
+      "character": "danglars",
+      "from": "marseille",
+      "to": "paris",
+      "chapter": 6,
+      "mode": "unknown",
+      "startDay": 4000.0,
+      "days": 60.0,
+      "note": "The supercargo whose forged note began it all has climbed, in the years between, from a Marseille clerk to a Paris baron with a great bank"
+    },
+    {
+      "character": "danglars",
+      "from": "paris",
+      "to": "rome",
+      "chapter": 9,
+      "mode": "coach",
+      "startDay": 8650.0,
+      "days": 8.0,
+      "via": [
+        { "at": [4.835, 45.76], "name": "Lyon" },
+        { "at": [7.0, 45.1], "name": "the Alps", "note": "over the Mont Cenis pass" },
+        { "at": [11.25, 43.77], "name": "Florence" }
+      ],
+      "note": "Ruined and disgraced, Danglars flees France with five million in stolen credit — only to be seized by Vampa's bandits at the gates of Rome and starved, franc by franc, of every stolen penny",
+      "routeNote": "South by post from Paris — Lyon, over the Alps, Florence — toward Rome, where the bandits take him.",
+      "routeSource": "Danglars posts toward Rome and is intercepted at La Storta (ch. 114).",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": [
+        "dantes",
+        "haydee"
+      ],
+      "from": "paris",
+      "to": "monte-cristo",
+      "chapter": 10,
+      "mode": "unknown",
+      "startDay": 8680.0,
+      "days": 4.0,
+      "note": "His enemies destroyed, the Count gives away his Paris house and fortune and withdraws, with Haydée, to the isle that remade him"
+    },
+    {
+      "character": [
+        "dantes",
+        "haydee"
+      ],
+      "from": "monte-cristo",
+      "to": "the-east",
+      "chapter": 10,
+      "mode": "ship",
+      "startDay": 8690.0,
+      "days": 3.0,
+      "via": [
+        { "at": [11.2, 38.4], "name": "west of Sicily" },
+        { "at": [11.6, 36.8], "name": "the Sicilian Channel" },
+        { "at": [15.5, 36.0], "name": "south of Sicily" },
+        { "at": [19.0, 36.2], "name": "the Ionian Sea" },
+        { "at": [22.6, 36.3], "name": "south of the Morea" }
+      ],
+      "note": "And sails east into the dawn with Haydée, leaving Morrel's children the isle and a last word: all human wisdom is in two — wait, and hope",
+      "routeNote": "East from the isle, south of Sicily and the Morea, into the Levant.",
+      "routeSource": "The final departure is eastward across the Mediterranean; destination unnamed (ch. 117).",
+      "routeCertainty": "illustrative"
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "character": "dantes",
+      "at": "marseille",
+      "chapter": 1,
+      "title": "Marseille, 1815",
+      "narration": "In Marseille, 1815, the young sailor Edmond Dantès comes home to be made captain of the Pharaon and to marry his Mercédès. But his good fortune is watched with envy: by Danglars, who covets his ship, and Fernand, who covets his bride — and their lie will find a frightened accomplice in the magistrate Villefort."
+    },
+    {
+      "kind": "journey",
+      "character": "dantes",
+      "from": "marseille",
+      "to": "chateau-dif",
+      "chapter": 2,
+      "title": "The arrest",
+      "narration": "At the betrothal feast the gendarmes come. On Danglars's anonymous letter — and to bury a secret of his own, for the letter Dantès unknowingly carried named Villefort's own Bonapartist father — Villefort has him committed without trial to the Château d'If, rowed out still protesting it must be a mistake."
+    },
+    {
+      "kind": "scene",
+      "character": "dantes",
+      "at": "chateau-dif",
+      "chapter": 3,
+      "day": 5200,
+      "title": "Faria, and fourteen years",
+      "narration": "Fourteen years. Despair, and then a scratching in the wall: the Abbé Faria, a fellow prisoner tunnelling the wrong way. The old man teaches Edmond history, languages and men — and, dying, leaves him the secret of a great treasure hidden on the isle of Monte Cristo."
+    },
+    {
+      "kind": "journey",
+      "character": "dantes",
+      "from": "chateau-dif",
+      "to": "tiboulen",
+      "chapter": 4,
+      "title": "The escape",
+      "narration": "When Faria dies, Dantès takes his place in the burial sack — and is flung from the rampart into the sea. He cuts the shroud open, and swims through the storm to the bare rock of Tiboulen, and to freedom."
+    },
+    {
+      "kind": "journey",
+      "character": "dantes",
+      "from": "tiboulen",
+      "to": "monte-cristo",
+      "chapter": 5,
+      "title": "The treasure",
+      "narration": "Smugglers take him aboard. When they next put in at Monte Cristo he contrives to be left there alone, and finds Faria's cave: coin, bars of gold, a fortune in jewels. Edmond Dantès is, from this hour, a rich and vanished man."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "With a prince's fortune and a new name, Dantès disappears from the world. Nine years pass. Then, at the Roman Carnival of 1838, a mysterious Count of Monte Cristo appears."
+    },
+    {
+      "kind": "journey",
+      "character": "dantes",
+      "from": "monte-cristo",
+      "to": "rome",
+      "chapter": 6,
+      "title": "The Count of Monte Cristo",
+      "narration": "Dazzling and patient, the Count saves a young Parisian, Albert de Morcerf, from bandits in the Colosseum — and so earns an entrance into the society where his enemies have risen. Every kindness is a move."
+    },
+    {
+      "kind": "journey",
+      "character": "dantes",
+      "from": "rome",
+      "to": "paris",
+      "chapter": 7,
+      "title": "To Paris",
+      "narration": "To Paris, then — where the three men who destroyed him are great: Danglars a baron and banker, Fernand now the Count de Morcerf, married to the Mercédès that Edmond lost, Villefort the king's prosecutor. The Count takes a house among them, and begins."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "One of the Count's household holds the key to the first ruin. She is Haydée, a Greek slave he has freed — and her story is a wound in the Count de Morcerf. Wind back twenty years, and east, to Yanina."
+    },
+    {
+      "kind": "journey",
+      "character": "haydee",
+      "from": "yanina",
+      "to": "constantinople",
+      "chapter": 11,
+      "title": "The betrayal at Yanina",
+      "narration": "Haydée is the daughter of Ali Pasha of Yanina, in Epirus — until the French officer Fernand, trusted by her father, sells him to the Turks for gold. Ali is killed; the child and her mother are carried off and sold into slavery at Constantinople."
+    },
+    {
+      "kind": "journey",
+      "character": "haydee",
+      "from": "constantinople",
+      "to": "paris",
+      "chapter": 12,
+      "title": "Bought by the Count",
+      "narration": "Years on, the Count of Monte Cristo finds her in the slave-markets, buys her freedom, and brings her to Paris as his ward — carrying, without her enemy knowing it, the one testimony that can destroy him."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Haydée safe in his house and every thread in his hand, the Count’s long patience is over. Wind forward to Paris, and the reckoning."
+    },
+    {
+      "kind": "scene",
+      "character": "dantes",
+      "at": "paris",
+      "chapter": 8,
+      "title": "The revenge",
+      "narration": "Now the reckoning. Haydée stands before the peers and names Fernand the traitor of Yanina; disgraced, he shoots himself. Villefort, his buried child at Auteuil unearthed, goes mad. And to each, at the end, the Count gives the same terrible answer: I am Edmond Dantès."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "The letter that began it all was Danglars's. Wind back to the shipping clerk of 1815, and follow him up through the years he prospered on other men's ruin."
+    },
+    {
+      "kind": "removal",
+      "character": "danglars",
+      "from": "marseille",
+      "to": "paris",
+      "chapter": 6,
+      "title": "Danglars rises",
+      "narration": "From that Marseille counting-house Danglars had risen to a Paris barony and a great bank — the richest and most respectable of the three, and the last the Count means to break."
+    },
+    {
+      "kind": "journey",
+      "character": "danglars",
+      "from": "paris",
+      "to": "rome",
+      "chapter": 9,
+      "title": "Danglars runs",
+      "narration": "Broken now — his bank empty, his name gone — Danglars flees France with five million in stolen credit, posting hard for Rome. At the gates of the city Vampa's bandits take him, and starve him franc by franc until every stolen penny is gone, and only a repentant old man is left."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "His enemies destroyed, the Count finds vengeance has left him hollow. Return to Edmond — and to Haydée, who has loved him all along, and who will not let him go alone."
+    },
+    {
+      "kind": "removal",
+      "character": [
+        "dantes",
+        "haydee"
+      ],
+      "from": "paris",
+      "to": "monte-cristo",
+      "chapter": 10,
+      "title": "The retreat",
+      "narration": "He gives away the house on the Champs-Élysées and the last of his millions, and withdraws with Haydée to the isle that remade him."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "dantes",
+        "haydee"
+      ],
+      "from": "monte-cristo",
+      "to": "the-east",
+      "chapter": 10,
+      "title": "Wait and hope",
+      "narration": "Then the white sail stands out to sea, and dwindles east toward the Levant, carrying them both away — and leaving the world the only wisdom he has to give: 'Wait and hope.'"
+    }
+  ]
+}
