@@ -18,6 +18,13 @@
   <meta property="og:image:alt" content="PlotLines — classic novels, mapped">
   <meta property="og:url" content="https://peter-guillam123.github.io/plotlines/">
   <meta name="twitter:card" content="summary_large_image">
+  <script>
+    // Mark real touch devices early (before paint) so the mobile layout and
+    // the rotate hint apply only there, never to a small desktop window.
+    if (matchMedia('(pointer: coarse)').matches || navigator.maxTouchPoints > 0) {
+      document.documentElement.classList.add('touch');
+    }
+  </script>
   <link rel="stylesheet" href="vendor/maplibre-gl/maplibre-gl.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -44,7 +51,36 @@
   <div id="overture"></div>
   <div id="library"></div>
 
+  <div id="rotate-hint" role="dialog" aria-label="Turn your phone sideways">
+    <div class="rotate-inner">
+      <div class="rotate-glyph" aria-hidden="true">
+        <svg viewBox="0 0 120 120">
+          <path class="rotate-arrow" d="M28 44a40 40 0 0 1 64-6" fill="none" stroke="currentColor"
+                stroke-width="3" stroke-linecap="round"/>
+          <path d="M90 24l4 15-15-2" fill="none" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round"/>
+          <g class="rotate-phone">
+            <rect x="46" y="34" width="28" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="3"/>
+            <rect x="50" y="40" width="20" height="40" rx="1.5" fill="var(--paper-bright)"/>
+            <path d="M53 72q6-13 11-8t9-14" fill="none" stroke="var(--rule)" stroke-width="2"/>
+            <circle cx="64" cy="52" r="3" fill="var(--accent)"/>
+            <line x1="57" y1="83" x2="63" y2="83" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </g>
+        </svg>
+      </div>
+      <p class="rotate-title">PlotLines opens best sideways</p>
+      <p class="rotate-sub">Turn your phone to unfold the map.</p>
+      <button type="button" class="rotate-dismiss">Read upright anyway</button>
+    </div>
+  </div>
+
   <noscript><p class="noscript">PlotLines needs JavaScript to draw the map.</p></noscript>
+  <script>
+    // Let a reader who can't rotate (orientation lock, AT) dismiss the hint.
+    document.querySelector('.rotate-dismiss')?.addEventListener('click', () => {
+      document.getElementById('rotate-hint').classList.add('dismissed');
+    });
+  </script>
   <script src="vendor/maplibre-gl/maplibre-gl.js"></script>
   <script type="module" src="js/main.js"></script>
 </body>

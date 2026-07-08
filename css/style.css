@@ -1426,3 +1426,72 @@ body.is-overture #captions { display: none !important; }
   .clock-date { font-size: 16px; }
   .chapter-numeral { font-size: 12px; }
 }
+
+/* ============================================================
+   MOBILE. Landscape is the designed experience; portrait is sent
+   to turn. Gated on `html.touch` (set in the head from pointer:coarse
+   / maxTouchPoints) so a small desktop window is never affected.
+   ============================================================ */
+
+/* ---- the rotate-to-read hint (portrait phones only) ---- */
+#rotate-hint { display: none; }
+@media (orientation: portrait) and (max-width: 560px) {
+  html.touch #rotate-hint:not(.dismissed) {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--paper);
+    padding:
+      calc(env(safe-area-inset-top) + 16px) calc(env(safe-area-inset-right) + 24px)
+      calc(env(safe-area-inset-bottom) + 16px) calc(env(safe-area-inset-left) + 24px);
+  }
+}
+.rotate-inner { max-width: 20rem; }
+.rotate-glyph svg { width: 108px; height: 108px; color: var(--ink); display: block; margin: 0 auto; }
+.rotate-phone { transform-origin: 60px 60px; animation: rotate-turn 3.4s ease-in-out infinite; }
+.rotate-arrow { opacity: 0.5; }
+@keyframes rotate-turn {
+  0%, 38% { transform: rotate(0deg); }
+  58%, 88% { transform: rotate(-90deg); }
+  100% { transform: rotate(0deg); }
+}
+.rotate-title {
+  font-family: var(--display); font-weight: normal; font-size: 1.6rem;
+  color: var(--ink); margin: 22px 0 6px; line-height: 1.15;
+}
+.rotate-sub { color: var(--ink-soft); margin: 0 0 24px; font-size: 1.02rem; }
+.rotate-dismiss {
+  background: none; border: none; color: var(--accent);
+  font-family: var(--display); font-style: italic; font-size: 0.98rem;
+  text-decoration: underline; cursor: pointer; padding: 12px; min-height: 44px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .rotate-phone { animation: none; transform: rotate(-90deg); }
+}
+
+/* ---- landscape phone: the designed layout ---- */
+@media (orientation: landscape) and (max-height: 560px) {
+  html.touch #rotate-hint { display: none; }
+
+  /* keep every fixed panel clear of the notch */
+  html.touch #rail { top: calc(env(safe-area-inset-top) + 8px); left: calc(env(safe-area-inset-left) + 8px); }
+  html.touch .maplibregl-ctrl-top-right { margin-top: env(safe-area-inset-top); margin-right: env(safe-area-inset-right); }
+  html.touch #controls { left: calc(env(safe-area-inset-left) + 8px); right: calc(env(safe-area-inset-right) + 8px); bottom: calc(env(safe-area-inset-bottom) + 6px); }
+  html.touch #recentre { right: calc(env(safe-area-inset-right) + 10px); }
+
+  /* reclaim height: a slimmer rail that scrolls rather than filling the screen */
+  html.touch #rail { width: 210px; max-height: calc(100vh - 96px); overflow-y: auto; gap: 6px; }
+  html.touch #rail .panel { padding: 8px 10px; }
+  html.touch #masthead h1 { font-size: 26px; }
+
+  /* narration as a caption strip that clears the map's centre, not a floating slab */
+  html.touch #storycard { max-width: min(70vw, 560px); }
+
+  /* thumb-friendly controls */
+  html.touch .scrub-step, html.touch .story-step,
+  html.touch #controls button, html.touch #recentre { min-width: 44px; min-height: 44px; }
+}
