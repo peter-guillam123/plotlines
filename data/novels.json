@@ -88,5 +88,14 @@
     "file": "data/mrs-dalloway.json",
     "blurb": "One June day in London — a party, a lost soldier, and two lives that cross the same streets without ever meeting.",
     "spine": { "cloth": "#2c2b30", "text": "#d9b8a8" }
+  },
+  {
+    "id": "heart-of-darkness",
+    "title": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "file": "data/heart-of-darkness.json",
+    "blurb": "A steamer up the Congo, after a Company agent gone silent — and the hollow man at the end of the river.",
+    "spine": { "cloth": "#1b2a24", "text": "#c9b98d" }
   }
 ]

@@ -1,0 +1,531 @@
+{
+  "title": "Heart of Darkness",
+  "author": "Joseph Conrad",
+  "year": 1899,
+  "gutenbergId": 219,
+  "quotesVerified": true,
+  "timeline": {
+    "epoch": null,
+    "calendar": false,
+    "span": "about six months",
+    "unit": "month"
+  },
+  "overture": "A sailor, Marlow, takes a steamboat command in the Congo and follows the great river into the interior after Kurtz — a Company agent gone silent, and some say mad. Conrad, who made the voyage himself in 1890, names none of the geography; the pins here restore the real river under his deliberate fog, from a sepulchral European city to the innermost station and the man dying at the end of it.",
+  "sources": [
+    { "name": "Joseph Conrad, 'The Congo Diary' (1890)", "url": "https://www.cambridge.org/core/books/heart-of-darkness/congo-diary-1890/70C2527DA73FDD2A8C7E33DD209060C7" },
+    { "name": "Norman Sherry, 'Conrad's Western World' (Cambridge, 1971)" },
+    { "name": "Ian Watt, 'Conrad in the Nineteenth Century' (1979)" }
+  ],
+  "regions": [
+    { "id": "europe", "name": "Europe — the offing and the sepulchral city" },
+    { "id": "lower-congo", "name": "The coast and the lower Congo" },
+    { "id": "the-river", "name": "The river, and the interior" }
+  ],
+  "mapHome": {
+    "bounds": [[11, -7], [26.5, 3]]
+  },
+  "chapters": [
+    { "n": 1, "title": "Part I", "dateInStory": "On the Thames — Marlow's tale begins", "day": 0, "when": "aboard the Nellie" },
+    { "n": 2, "title": "Part I", "dateInStory": "The Company's city", "day": 2, "when": "the sepulchral city" },
+    { "n": 3, "title": "Part I", "dateInStory": "Down the African coast", "day": 5, "when": "the voyage out" },
+    { "n": 4, "title": "Part I", "dateInStory": "The Outer Station", "day": 34, "when": "the lower station" },
+    { "n": 5, "title": "Part I", "dateInStory": "The overland tramp", "day": 40, "when": "the long portage" },
+    { "n": 6, "title": "Part I", "dateInStory": "Waiting on Stanley Pool", "day": 56, "when": "the Central Station" },
+    { "n": 7, "title": "Part II", "dateInStory": "Into the interior", "day": 70, "when": "up the river" },
+    { "n": 8, "title": "Part II", "dateInStory": "Below the Inner Station", "day": 114, "when": "the fog" },
+    { "n": 9, "title": "Part II", "dateInStory": "The last miles", "day": 116, "when": "the approach" },
+    { "n": 10, "title": "Part III", "dateInStory": "Kurtz", "day": 120, "when": "the Inner Station" },
+    { "n": 11, "title": "Part III", "dateInStory": "Down the river", "day": 140, "when": "the return" },
+    { "n": 12, "title": "Part III", "dateInStory": "Homeward", "day": 152, "when": "the long way back" },
+    { "n": 13, "title": "Part III", "dateInStory": "The Intended", "day": 170, "when": "the sepulchral city again" }
+  ],
+  "characters": [
+    {
+      "id": "marlow",
+      "name": "Charlie Marlow",
+      "colour": "slate",
+      "role": "The seaman who tells the tale: hired to captain a Company steamer up the Congo, he follows the river to its end and back, and is marked for life by what he finds there",
+      "start": { "location": "thames", "chapter": 1 }
+    },
+    {
+      "id": "kurtz",
+      "name": "Mr Kurtz",
+      "colour": "madder",
+      "role": "The Company's most gifted agent, alone at the innermost station — a man of great gifts whom the wilderness has found out and hollowed; he makes only one journey in the present of the book, carried down-river to die",
+      "start": { "location": "stanley-falls", "chapter": 10 }
+    }
+  ],
+  "locations": [
+    {
+      "id": "thames",
+      "region": "europe",
+      "name": "The Sea Reach of the Thames, off Gravesend",
+      "novelName": "the sea-reach of the Thames",
+      "coords": [0.44, 51.45],
+      "certainty": "real",
+      "note": "The cruising yawl Nellie swings to her anchor in the Lower Hope, off Gravesend, waiting for the turn of the tide; the exact spot is Conrad's to keep, but the reach is named.",
+      "story": "Where the whole tale is told. Five old friends aboard a yawl wait for the tide to turn on the Thames estuary, and Marlow — a seaman still, sitting cross-legged like an idol — begins the story of the one voyage that marked him. 'And this also,' he says, looking at London's glow, 'has been one of the dark places of the earth.'",
+      "quote": "The sea-reach of the Thames stretched before us like the beginning of an interminable waterway.",
+      "quoteRef": "Part I"
+    },
+    {
+      "id": "brussels",
+      "region": "europe",
+      "name": "Brussels",
+      "novelName": "the sepulchral city",
+      "coords": [4.3517, 50.8503],
+      "certainty": "identified",
+      "note": "Conrad never names it, but the Company's headquarters is Brussels — the seat of the Société Anonyme Belge pour le Commerce du Haut-Congo, which employed him in 1890. 'A whited sepulchre' is the identification the text all but signs.",
+      "story": "The Company's city, where Marlow signs the contract. In the waiting-room two women knit black wool, guarding the door; a doctor measures his skull 'in the interests of science' and asks, mildly, whether there has been madness in his family. Everything here forebodes.",
+      "quote": "...a city that always makes me think of a whited sepulchre.",
+      "quoteRef": "Part I"
+    },
+    {
+      "id": "bordeaux",
+      "region": "europe",
+      "name": "Bordeaux",
+      "novelName": "a French steamer",
+      "coords": [-0.57, 44.84],
+      "certainty": "conjectured",
+      "note": "Best guess for the embarkation. The novel names only 'a French steamer' that calls at every port down the coast; Conrad himself sailed from Bordeaux in May 1890, and a French colonial mail-boat would leave from there.",
+      "story": "The French Atlantic port where Marlow takes ship for Africa — down to the coast to join the steamer that will carry him a month south, past a coast like an enigma.",
+      "quote": "Watching a coast as it slips by the ship is like thinking about an enigma.",
+      "quoteRef": "Part I"
+    },
+    {
+      "id": "boma",
+      "region": "lower-congo",
+      "name": "Boma, near the mouth of the Congo",
+      "novelName": "the mouth of the big river",
+      "coords": [13.054, -5.851],
+      "certainty": "identified",
+      "note": "The estuary landfall. Conrad's own ship, the Ville de Maçeio, landed him near here; the text calls it only the mouth of the big river.",
+      "story": "The mouth of the great river, thirty days down the coast. From here the Company's launches work up the last navigable reach to the first station — the ocean voyage over, the true descent about to begin.",
+      "quote": "...the edge of a colossal jungle, so dark-green as to be almost black, fringed with white surf.",
+      "quoteRef": "Part I"
+    },
+    {
+      "id": "matadi",
+      "region": "lower-congo",
+      "name": "Matadi, at the head of ocean navigation",
+      "novelName": "the Company's station",
+      "coords": [13.463, -5.839],
+      "certainty": "identified",
+      "note": "The Outer or Lower Station, below the first cataracts, where ocean navigation ends and Conrad's Congo Diary begins. Identified as Matadi from the diary and the railway then being cut inland.",
+      "story": "The Outer Station: a railway being blasted into the hillside to no clear purpose, boilers rusting in the grass. And in a shade off the path, the grove where the used-up labourers of the Company have crawled away to die. The book's moral centre, met in its first pages.",
+      "quote": "...black shadows of disease and starvation, lying confusedly in the greenish gloom.",
+      "quoteRef": "Part I"
+    },
+    {
+      "id": "leopoldville",
+      "region": "the-river",
+      "name": "Léopoldville (Kinshasa), on Stanley Pool",
+      "novelName": "the Central Station",
+      "coords": [15.30, -4.30],
+      "certainty": "identified",
+      "note": "The Central Station on the great pool where the river becomes navigable again above the cataracts — Léopoldville, today Kinshasa. Marlow finds his command sunk here and waits.",
+      "story": "The Central Station, at the head of the two-hundred-mile portage. Marlow arrives to find his steamboat at the bottom of the river, and spends weeks fishing it up and patching it while the agents intrigue for advancement — and here he first hears the name Kurtz: the best agent the Company has, alone up-river, gone quiet.",
+      "quote": "It was on a back water surrounded by scrub and forest, with a pretty border of smelly mud on one side.",
+      "quoteRef": "Part I"
+    },
+    {
+      "id": "below-station",
+      "region": "the-river",
+      "name": "The river below the Inner Station",
+      "novelName": "eight miles below the station",
+      "coords": [25.0, 0.42],
+      "certainty": "conjectured",
+      "note": "Best guess. The text places the blinding fog and the attack about eight miles below Kurtz's station; no exact spot is given. Pinned just downstream of Stanley Falls.",
+      "story": "Where the river turns deadly. A dense white fog halts the steamer at dawn; then, in the last miles below the station, arrows come out of the silent bank, and the African helmsman is killed at Marlow's feet — the price of the approach to Kurtz.",
+      "quote": "When the sun rose there was a white fog, very warm and clammy, and more blinding than the night.",
+      "quoteRef": "Part II"
+    },
+    {
+      "id": "stanley-falls",
+      "region": "the-river",
+      "name": "Stanley Falls (Kisangani), the Inner Station",
+      "novelName": "the Inner Station",
+      "coords": [25.191, 0.515],
+      "certainty": "identified",
+      "note": "The innermost station, at the great falls that were the limit of navigation — Stanley Falls, today Kisangani, and the furthest point Conrad himself reached in 1890.",
+      "story": "Kurtz's station, at the head of the navigable river: a ruined house, a broken fence, and fence-posts topped with human heads turned inward. A mad Russian in harlequin patches keeps the last of the ivory and the last of Kurtz's genius. The wilderness had found the man out early, and taken him for its own.",
+      "quote": "His was an impenetrable darkness.",
+      "quoteRef": "Part III"
+    },
+    {
+      "id": "death-point",
+      "region": "the-river",
+      "name": "The head of an island, down-river",
+      "novelName": "the head of an island",
+      "coords": [22.0, 2.0],
+      "certainty": "conjectured",
+      "note": "Author-withheld. Kurtz dies on the down-river passage when the steamer breaks down 'at the head of an island'; Conrad names no place. Pinned, conjecturally, on the great northward bend below Basoko.",
+      "story": "Where Kurtz dies. Carried down-stream on a stretcher, his life going out with the brown current, he sums up everything he has seen and done and been in a whisper — 'The horror! The horror!' — and is gone. They bury something in a muddy hole, and the steamer goes on.",
+      "quote": "'The horror! The horror!'",
+      "quoteRef": "Part III"
+    }
+  ],
+  "movements": [
+    {
+      "character": "marlow",
+      "from": "thames",
+      "to": "brussels",
+      "chapter": 2,
+      "mode": "train",
+      "startDay": 1,
+      "days": 1,
+      "via": [
+        { "at": [1.31, 51.13], "name": "Dover", "note": "down to the coast for the Channel packet" },
+        { "at": [1.85, 50.96], "name": "Calais", "note": "across the Straits into France" },
+        { "at": [3.06, 50.63], "name": "Lille", "note": "up through French Flanders" }
+      ],
+      "routeNote": "The boat-train to the Continent — down to Dover, the packet across the Straits to Calais, and on by rail through Lille to Brussels.",
+      "routeSource": "The standard 1890 London–Brussels boat-train, Dover–Calais.",
+      "routeCertainty": "reconstructed",
+      "note": "An appointment got through his aunt's connexions: Marlow crosses to the Continent to sign the Company's contract in the sepulchral city."
+    },
+    {
+      "character": "marlow",
+      "from": "brussels",
+      "to": "bordeaux",
+      "chapter": 3,
+      "mode": "train",
+      "startDay": 4,
+      "days": 1,
+      "via": [
+        { "at": [2.35, 48.86], "name": "Paris", "note": "down through France to the Atlantic coast" }
+      ],
+      "routeNote": "By rail down through France to the Atlantic port of embarkation.",
+      "routeSource": "Reconstructs the overland leg to the French steamer; the novel skips it.",
+      "routeCertainty": "reconstructed",
+      "note": "Down to the coast to take ship — the passage the book does not perform; Conrad's own port was Bordeaux."
+    },
+    {
+      "character": "marlow",
+      "from": "bordeaux",
+      "to": "boma",
+      "chapter": 3,
+      "mode": "ship",
+      "startDay": 5,
+      "days": 28,
+      "via": [
+        { "at": [-9.6, 43.0], "name": "out of Biscay" },
+        { "at": [-16.5, 28.3], "name": "Tenerife", "note": "coaling at the Canaries" },
+        { "at": [-17.8, 14.5], "name": "off Cap-Vert", "note": "past Dakar" },
+        { "at": [-15.0, 8.5], "name": "the Guinea coast" },
+        { "at": [-8.0, 3.8], "name": "Cape Palmas", "note": "into the Gulf of Guinea" },
+        { "at": [3.0, 2.5], "name": "the Bight" },
+        { "at": [8.5, -2.0], "name": "off Gabon" },
+        { "at": [11.6, -6.1], "name": "closing the coast" },
+        { "at": [12.42, -6.0], "name": "Banana", "note": "at the mouth" }
+      ],
+      "routeNote": "A month down the Atlantic coast of Africa on a French mail-steamer — Tenerife, Dakar, past Cape Palmas into the Gulf of Guinea, and south to the mouth of the Congo.",
+      "routeSource": "The French colonial coastal mail route to the Congo, c.1890; Conrad's own passage.",
+      "routeCertainty": "reconstructed",
+      "note": "Thirty days down a coast like an enigma, the steamer landing soldiers and customs-clerks at every blank little port, the sea and the sky welded together."
+    },
+    {
+      "character": "marlow",
+      "from": "boma",
+      "to": "matadi",
+      "chapter": 4,
+      "mode": "ship",
+      "medium": "river",
+      "startDay": 33,
+      "days": 1,
+      "via": [
+        { "at": [13.25, -5.86], "name": "up the lower reach" }
+      ],
+      "routeNote": "Up the last navigable water of the lower Congo to the head of ocean navigation at Matadi.",
+      "routeSource": "The lower Congo below the cataracts.",
+      "routeCertainty": "documented",
+      "note": "A launch works up the final reach to the Outer Station, below the roar of the first cataracts."
+    },
+    {
+      "character": "marlow",
+      "from": "matadi",
+      "to": "leopoldville",
+      "chapter": 5,
+      "mode": "foot",
+      "startDay": 40,
+      "days": 15,
+      "via": [
+        { "at": [14.02, -5.70], "name": "Songololo", "note": "up from the river into the hills" },
+        { "at": [14.40, -4.89], "name": "Manyanga", "note": "the Congo-side post where the caravans rested" }
+      ],
+      "routeNote": "The two-hundred-mile foot-track around the unnavigable cataracts — up by Songololo and the river-crossing at Manyanga to Stanley Pool. The Matadi–Léopoldville railway later followed this line.",
+      "routeSource": "Conrad's Congo Diary (the overland march, June–August 1890); the caravan corridor later taken by the 1898 railway.",
+      "routeCertainty": "reconstructed",
+      "note": "Fifteen days on foot around the cataracts, past abandoned villages and a white man dead in the road — 'paths, paths, everywhere,' and the country emptied of its people."
+    },
+    {
+      "character": "marlow",
+      "from": "leopoldville",
+      "to": "below-station",
+      "chapter": 7,
+      "mode": "ship",
+      "medium": "river",
+      "startDay": 70,
+      "days": 44,
+      "via": [
+        { "at": [16.233, -2.158], "name": "Bolobo" },
+        { "at": [17.182, -1.061], "name": "Lukolela" },
+        { "at": [19.117, 1.60], "name": "the Bangala station", "note": "Nouvelle-Anvers" },
+        { "at": [22.468, 2.188], "name": "Bumba" },
+        { "at": [23.616, 1.239], "name": "Basoko", "note": "at the mouth of the Aruwimi" }
+      ],
+      "routeNote": "Two months up the navigable Congo above Stanley Pool — Bolobo, Lukolela, the Bangala station, Bumba and Basoko — a thousand miles into the interior.",
+      "routeSource": "The course of the middle and upper Congo, with the Free State posts Conrad passed aboard the Roi des Belges, 1890.",
+      "routeCertainty": "documented",
+      "note": "Up the repaired steamboat into the stillness — 'traveling back to the earliest beginnings of the world,' the forest closing over the water behind him."
+    },
+    {
+      "character": "marlow",
+      "from": "below-station",
+      "to": "stanley-falls",
+      "chapter": 9,
+      "mode": "ship",
+      "medium": "river",
+      "startDay": 116,
+      "days": 2,
+      "note": "The last eight miles up to the Inner Station, past the reeds the arrows came from."
+    },
+    {
+      "character": ["marlow", "kurtz"],
+      "from": "stanley-falls",
+      "to": "death-point",
+      "chapter": 11,
+      "mode": "ship",
+      "medium": "river",
+      "startDay": 140,
+      "days": 6,
+      "via": [
+        { "at": [23.616, 1.239], "name": "Basoko", "note": "back past the Aruwimi mouth" }
+      ],
+      "routeNote": "Down-stream from the Inner Station, Kurtz on a stretcher, the current carrying them back the way Marlow came.",
+      "routeSource": "The upper Congo, reversed.",
+      "routeCertainty": "documented",
+      "note": "Kurtz carried aboard for the passage down; his life ebbing with the river, until the steamer breaks down at the head of an island and he dies."
+    },
+    {
+      "character": "marlow",
+      "from": "death-point",
+      "to": "leopoldville",
+      "chapter": 11,
+      "mode": "ship",
+      "medium": "river",
+      "startDay": 146,
+      "days": 6,
+      "via": [
+        { "at": [19.117, 1.60], "name": "Nouvelle-Anvers" },
+        { "at": [17.182, -1.061], "name": "Lukolela" },
+        { "at": [16.233, -2.158], "name": "Bolobo" }
+      ],
+      "routeNote": "On down the river to the Pool, the dead man left behind in a muddy hole.",
+      "routeSource": "The middle Congo, reversed.",
+      "routeCertainty": "documented",
+      "note": "Marlow brings the boat down to the Central Station, himself half-dead by the time the river lets him go."
+    },
+    {
+      "character": "marlow",
+      "from": "leopoldville",
+      "to": "matadi",
+      "chapter": 12,
+      "mode": "foot",
+      "startDay": 152,
+      "days": 5,
+      "via": [
+        { "at": [14.40, -4.89], "name": "Manyanga" },
+        { "at": [14.02, -5.70], "name": "Songololo" }
+      ],
+      "routeNote": "Back down the portage to the coast.",
+      "routeSource": "The caravan corridor, reversed.",
+      "routeCertainty": "reconstructed",
+      "note": "The long way back down to the sea on foot, sick and disenchanted, the whole business behind him."
+    },
+    {
+      "character": "marlow",
+      "from": "matadi",
+      "to": "brussels",
+      "chapter": 12,
+      "mode": "ship",
+      "startDay": 158,
+      "days": 12,
+      "spillOk": true,
+      "via": [
+        { "at": [13.054, -5.851], "name": "Boma" },
+        { "at": [12.42, -6.0], "name": "Banana", "note": "out at the mouth" },
+        { "at": [8.5, -2.0], "name": "off Gabon" },
+        { "at": [3.0, 2.5], "name": "the Bight" },
+        { "at": [-8.0, 3.8], "name": "Cape Palmas" },
+        { "at": [-17.8, 14.5], "name": "off Cap-Vert" },
+        { "at": [-16.5, 28.3], "name": "Tenerife" },
+        { "at": [-9.6, 43.0], "name": "out of Biscay" },
+        { "at": [-2.0, 49.5], "name": "up Channel" },
+        { "at": [2.5, 51.4], "name": "the Belgian coast" },
+        { "at": [4.40, 51.22], "name": "Antwerp", "note": "up the Scheldt to the Congo trade's own port" }
+      ],
+      "routeNote": "Home by sea — down the estuary from Matadi and back up the whole Atlantic coast to Europe, into Antwerp and inland to the sepulchral city.",
+      "routeSource": "The novel gives the return a sentence; drawn here as an indicative track home, the lower-Congo estuary (ocean-navigable to Matadi) included.",
+      "routeCertainty": "illustrative",
+      "note": "By sea back to the sepulchral city, a year almost gone, and everything he thought he knew about the world turned over."
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "character": "marlow",
+      "at": "thames",
+      "chapter": 1,
+      "title": "On the Thames",
+      "narration": "A yawl lies at anchor on the Thames, waiting for the tide. As dusk gathers over London, Marlow begins: 'And this also has been one of the dark places of the earth.' His tale is of a river in Africa, and the man at the end of it."
+    },
+    {
+      "kind": "journey",
+      "character": "marlow",
+      "from": "thames",
+      "to": "brussels",
+      "chapter": 2,
+      "title": "Signing on",
+      "narration": "Restless for the sea again, Marlow gets a Company appointment through his aunt and crosses to the Continent — to a city that always makes him think of a whited sepulchre — to captain a steamboat on the Congo, and to sign the contract."
+    },
+    {
+      "kind": "scene",
+      "character": "marlow",
+      "at": "brussels",
+      "chapter": 2,
+      "title": "The two knitters",
+      "narration": "In the Company's offices two women sit knitting black wool, guarding the door of Darkness; a doctor measures his skull 'in the interests of science' and asks whether there has been madness in his family. Marlow signs, faintly uneasy, feeling less like a sailor than a conspirator."
+    },
+    {
+      "kind": "removal",
+      "character": "marlow",
+      "from": "brussels",
+      "to": "bordeaux",
+      "chapter": 3,
+      "title": "To the coast",
+      "narration": "Down to the French coast to take ship — the passage the book barely troubles to mention, a hinge between the tidy city and the month of sea that follows."
+    },
+    {
+      "kind": "journey",
+      "character": "marlow",
+      "from": "bordeaux",
+      "to": "boma",
+      "chapter": 3,
+      "title": "The voyage out",
+      "narration": "Thirty days down the coast of Africa on a French steamer that lands soldiers and clerks at every blank little port. The coast slips by like an enigma — smiling, grand, mean, savage — until the ship turns in at last to the muddy mouth of the great river."
+    },
+    {
+      "kind": "removal",
+      "character": "marlow",
+      "from": "boma",
+      "to": "matadi",
+      "chapter": 4,
+      "title": "The Company's station",
+      "narration": "A launch carries him up the last navigable reach to the Outer Station, below the roar of the first cataracts — a hillside of imported disorder, rusting machinery and pointless blasting, where a railway is being cut to nowhere in particular."
+    },
+    {
+      "kind": "scene",
+      "character": "marlow",
+      "at": "matadi",
+      "chapter": 4,
+      "title": "The grove of death",
+      "narration": "Off the path, in a shade by the river, Marlow steps into what he calls the gloomy circle of some Inferno: the Company's worn-out labourers, brought here and worked to nothing, have crawled into the greenish gloom to die. He sits a moment among them, then walks on, appalled. It is the book's moral centre, met in its first pages."
+    },
+    {
+      "kind": "journey",
+      "character": "marlow",
+      "from": "matadi",
+      "to": "leopoldville",
+      "chapter": 5,
+      "title": "The two-hundred-mile tramp",
+      "narration": "Because the river is unnavigable through the cataracts, the next stage is on foot: fifteen days and two hundred miles of caravan track around them, past deserted villages and a white man dead in the road. 'Paths, paths, everywhere,' and the land emptied of the people who made them."
+    },
+    {
+      "kind": "scene",
+      "character": "marlow",
+      "at": "leopoldville",
+      "chapter": 6,
+      "title": "The Central Station",
+      "narration": "He reaches the great pool to find his command sunk in the river, and spends weeks patching it up. And here he first hears the name that will draw him the rest of the way: Kurtz — the Company's best agent, alone up-river, gone silent."
+    },
+    {
+      "kind": "journey",
+      "character": "marlow",
+      "from": "leopoldville",
+      "to": "below-station",
+      "chapter": 7,
+      "title": "Up the river",
+      "narration": "Two months up the mended steamboat into the interior — 'traveling back,' Marlow says, 'to the earliest beginnings of the world.' An empty stream, a great silence, an impenetrable forest; the past crowding the little boat as it beats slowly on toward Kurtz."
+    },
+    {
+      "kind": "scene",
+      "character": "marlow",
+      "at": "below-station",
+      "chapter": 8,
+      "title": "The fog, and the attack",
+      "narration": "Eight miles below the station a blinding white fog comes down at dawn and holds the boat. When it lifts the banks come alive: arrows out of the silent bush, a short vicious skirmish, and the African helmsman speared and dying at Marlow's feet — the toll of the last approach to Kurtz."
+    },
+    {
+      "kind": "journey",
+      "character": "marlow",
+      "from": "below-station",
+      "to": "stanley-falls",
+      "chapter": 9,
+      "title": "The Inner Station",
+      "narration": "The last miles bring the ruined station into view: a broken house, a mad Russian in harlequin patches, and a row of fence-posts each crowned with a human head turned inward. Whatever Kurtz came to do, this is what the wilderness has made of it."
+    },
+    {
+      "kind": "scene",
+      "character": "kurtz",
+      "at": "stanley-falls",
+      "chapter": 10,
+      "title": "Kurtz",
+      "narration": "And here is the man himself: eloquent, magnetic, adored by the people he has terrorised, and hollow at the centre — a voice with almost nothing behind it. The wilderness had found him out early, whispered things to him he could not resist, and sealed his soul to its own. 'His was an impenetrable darkness.'"
+    },
+    {
+      "kind": "journey",
+      "character": ["marlow", "kurtz"],
+      "from": "stanley-falls",
+      "to": "death-point",
+      "chapter": 11,
+      "title": "Down the river",
+      "narration": "They carry Kurtz aboard and turn the steamer down-stream, his life going out with the current. When the boat breaks down at the head of an island, he gathers all he has seen into a last whisper — 'The horror! The horror!' — and dies."
+    },
+    {
+      "kind": "journey",
+      "character": "marlow",
+      "from": "death-point",
+      "to": "leopoldville",
+      "chapter": 11,
+      "title": "Bringing him down",
+      "narration": "Marlow steers the boat the rest of the way to the Pool, half-dead himself by the end — carrying not Kurtz, who is gone, but Kurtz's memory, his papers, and a last word he has promised to deliver."
+    },
+    {
+      "kind": "removal",
+      "character": "marlow",
+      "from": "leopoldville",
+      "to": "matadi",
+      "chapter": 12,
+      "title": "The long way back",
+      "narration": "Back down the two-hundred-mile portage to the coast on foot, sick and disenchanted, the whole rapacious folly of it settling into him for good."
+    },
+    {
+      "kind": "removal",
+      "character": "marlow",
+      "from": "matadi",
+      "to": "brussels",
+      "chapter": 12,
+      "title": "Home",
+      "narration": "And so by sea back up the long coast to the sepulchral city — a place he now walks through with a bitter contempt, resenting the people hurrying about their harmless business, so sure of the safe little world they know nothing about."
+    },
+    {
+      "kind": "scene",
+      "character": "marlow",
+      "at": "brussels",
+      "chapter": 13,
+      "title": "The Intended",
+      "narration": "A year on, Marlow calls on the woman Kurtz meant to marry. She begs for his last words. He cannot give her 'The horror,' and lies: the word Kurtz spoke was her name. On the Thames, the water seems to lead into an immense darkness."
+    }
+  ]
+}
