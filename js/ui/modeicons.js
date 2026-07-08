@@ -21,6 +21,15 @@ const ICONS = {
     '<path d="M2.6 11.3h11" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>' +
     '<circle cx="5" cy="12.4" r="1.3" fill="none" stroke="currentColor" stroke-width="1.2"/>' +
     '<circle cx="11" cy="12.4" r="1.3" fill="none" stroke="currentColor" stroke-width="1.2"/>',
+  // early open motor-car: a long bonnet rising to a raked windscreen, an
+  // open tourer body and two big wheels — the stolen green car and Sir
+  // Walter's car (The Thirty-Nine Steps, 1914)
+  motor:
+    '<path d="M1.7 10.3V8.7l1.9-.3 1.8-2.1h3.9l1.4 2.1 2.6.4v1.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>' +
+    '<path d="M2 10.3h11.4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>' +
+    '<path d="M8.9 8.4 7.7 6.3H6.1l-.1 2.1" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/>' +
+    '<circle cx="4.5" cy="11.3" r="1.4" fill="none" stroke="currentColor" stroke-width="1.2"/>' +
+    '<circle cx="11" cy="11.3" r="1.4" fill="none" stroke="currentColor" stroke-width="1.2"/>',
   // steam locomotive: cab, boiler, a flared chimney with smoke, wheels
   train:
     '<path d="M2 11h11.4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>' +
@@ -60,6 +69,7 @@ const PHRASE = {
   horse: 'on horseback',
   coach: 'by coach',
   omnibus: 'by omnibus',
+  motor: 'by motor-car',
   train: 'by train',
   ship: 'by ship',
   elephant: 'by elephant',

@@ -1,7 +1,7 @@
 // Author-time diagnostic — NOT shipped, not part of playback.
 //
 // Flags route legs that spill across the wrong medium: a land journey
-// (train / coach / foot / horse / omnibus / elephant / sledge) drawn over
+// (train / coach / motor / foot / horse / omnibus / elephant) drawn over
 // open water, or a ship route drawn over land. Routes are great-circle arcs
 // blind to coastlines; the only fidelity lever is `via` shaping points, and
 // this tool tells you which legs need more of them.
@@ -28,7 +28,7 @@ const PCT_FLOOR = 6;  // …and only if it's this % of the leg (cuts coastal noi
 // `unknown` (no claim), `sledge` (polar — its medium is snow and sea-ice, not
 // the land/water binary). A `ship` leg may set `"medium": "river"` to opt out
 // (a river-boat honestly runs through land — the Rhine, the Sereth).
-const LAND_MODES = new Set(['foot', 'horse', 'coach', 'omnibus', 'train', 'elephant']);
+const LAND_MODES = new Set(['foot', 'horse', 'coach', 'omnibus', 'motor', 'train', 'elephant']);
 const SKIP_MODES = new Set(['unknown', 'sledge']);
 
 // ---- load the land polygons, each ring-group with a bbox for prefiltering ----

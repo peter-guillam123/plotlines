@@ -97,5 +97,14 @@
     "file": "data/heart-of-darkness.json",
     "blurb": "A steamer up the Congo, after a Company agent gone silent — and the hollow man at the end of the river.",
     "spine": { "cloth": "#1b2a24", "text": "#c9b98d" }
+  },
+  {
+    "id": "thirty-nine-steps",
+    "title": "The Thirty-Nine Steps",
+    "author": "John Buchan",
+    "year": 1915,
+    "file": "data/thirty-nine-steps.json",
+    "blurb": "A dead man's secret, a milkman's disguise, and one hunted man run the length of Britain — Galloway moor to a chalk stair on the Channel, on the eve of the war.",
+    "spine": { "cloth": "#37506b", "text": "#e0d0a8" }
   }
 ]

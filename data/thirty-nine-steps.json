@@ -1,0 +1,443 @@
+{
+  "title": "The Thirty-Nine Steps",
+  "author": "John Buchan",
+  "year": 1915,
+  "gutenbergId": 558,
+  "quotesVerified": true,
+  "timeline": {
+    "epoch": "1914-05-24",
+    "calendar": true,
+    "span": "late May – 15 June 1914"
+  },
+  "overture": "A returned colonial, bored to death with London, is handed a dead man's secret — a foreign ring will murder to steal Britain's war plans, and the clock runs to the 15th of June, 1914. Richard Hannay bolts: north by train to the bare Galloway moors, hunted on foot, by stolen car and from the air, then back south to a chalk stair above the Channel where it all comes to a head — seven weeks before the world goes to war.",
+  "sources": [
+    {
+      "name": "National Library of Scotland — John Buchan and The Thirty-Nine Steps",
+      "url": "https://www.nls.uk/collections/stories/literature-and-poetry/john-buchan-and-the-thirty-nine-steps/"
+    },
+    {
+      "name": "The Mill on the Fleet — John Buchan and The Thirty-Nine Steps (the Galloway settings)",
+      "url": "https://millonthefleet.co.uk/john-buchan-the-thirty-nine-steps/"
+    },
+    {
+      "name": "Kent Literature — John Buchan stepping out in Broadstairs",
+      "url": "https://kentliterature.com/john-buchan-stepping-out-in-broadstairs/"
+    }
+  ],
+  "regions": [
+    { "id": "london", "name": "London" },
+    { "id": "galloway", "name": "The Galloway moors" },
+    { "id": "berkshire", "name": "The Kennet" },
+    { "id": "kent", "name": "The Kent coast" }
+  ],
+  "mapHome": {
+    "bounds": [[-4.9, 50.9], [1.7, 55.4]]
+  },
+  "chapters": [
+    { "n": 1, "title": "The Man Who Died", "dateInStory": "A May afternoon, 1914", "day": 0 },
+    { "n": 2, "title": "The Milkman Sets Out on his Travels", "dateInStory": "The flight north", "day": 5 },
+    { "n": 3, "title": "The Adventure of the Literary Innkeeper", "dateInStory": "On the moor", "day": 6 },
+    { "n": 4, "title": "The Adventure of the Radical Candidate", "dateInStory": "The by-election", "day": 7 },
+    { "n": 5, "title": "The Adventure of the Spectacled Roadman", "dateInStory": "The aeroplane over the moor", "day": 8 },
+    { "n": 6, "title": "The Adventure of the Bald Archaeologist", "dateInStory": "Run to ground", "day": 9 },
+    { "n": 7, "title": "The Dry-Fly Fisherman", "dateInStory": "Whitsun on the Kennet", "day": 12 },
+    { "n": 8, "title": "The Coming of the Black Stone", "dateInStory": "The plot proved", "day": 14 },
+    { "n": 9, "title": "The Thirty-Nine Steps", "dateInStory": "The riddle cracked", "day": 20 },
+    { "n": 10, "title": "Various Parties Converging on the Sea", "dateInStory": "15 June 1914", "day": 22 }
+  ],
+  "characters": [
+    {
+      "id": "hannay",
+      "name": "Richard Hannay",
+      "colour": "madder",
+      "role": "A Rhodesian mining engineer, newly home and bored, who inherits a murdered spy's secret and spends three weeks as the most hunted man in Britain — pursued across a whole country by a foreign ring and the police at once",
+      "start": { "location": "hannay-flat", "chapter": 1 }
+    }
+  ],
+  "locations": [
+    {
+      "id": "hannay-flat",
+      "region": "london",
+      "name": "Behind Langham Place, London",
+      "novelName": "my flat behind Langham Place",
+      "coords": [-0.1440, 51.5185],
+      "certainty": "real",
+      "note": "Portland Place and Langham Place are real and named in the text; the specific new block and first-floor flat are Buchan's invention.",
+      "story": "A returned colonial, bored to death with London, comes home to find a frightened stranger on his landing — Scudder, a freelance spy who has faked his own death. Days later Scudder is knifed on the floor, and the plot he carried is now Hannay's to run with, or hang for.",
+      "quote": "I returned from the City about three o'clock on that May afternoon pretty well disgusted with life.",
+      "quoteRef": "Ch. 1, the opening line"
+    },
+    {
+      "id": "moorland-station",
+      "region": "galloway",
+      "name": "Gatehouse-of-Fleet (Dromore) station",
+      "novelName": "the wayside station on the moor",
+      "coords": [-4.2736, 54.9352],
+      "certainty": "identified",
+      "note": "Buchan fictionalises the halt, but scholars and local heritage identify it with the real Gatehouse-of-Fleet station (originally Dromore) on the Galloway 'Port Road' — famously six miles from its town, marooned on open moor at the foot of Cairnsmore, matching Buchan's description exactly. The line and station closed in 1965.",
+      "story": "The lonely halt where Hannay leaves the train — no road to it from anywhere, a tarn lapping on grey granite, the moor all around. The perfect country for a hunted man, and the start of five days in the open.",
+      "quote": "There seemed no road to it from anywhere, and to increase the desolation the waves of a tarn lapped on their grey granite beach half a mile away.",
+      "quoteRef": "Ch. 2"
+    },
+    {
+      "id": "cairnsmore",
+      "region": "galloway",
+      "name": "Cairnsmore of Fleet, Galloway",
+      "novelName": "Cairnsmore of Fleet",
+      "coords": [-4.3128, 54.9835],
+      "certainty": "real",
+      "note": "The one real hill Buchan names in the Galloway chase, and the fixed anchor the fictionalised moorland places cluster around.",
+      "story": "Hannay takes to the heather beneath the great hill, curlews and plovers crying everywhere, and for the first time since the murder feels almost free — until the hunt closes in over the open moor.",
+      "quote": "Over a long ridge of moorland I took my road, skirting the side of a high hill which the herd had called Cairnsmore of Fleet.",
+      "quoteRef": "Ch. 2"
+    },
+    {
+      "id": "inn",
+      "region": "galloway",
+      "name": "A moorland inn, Galloway",
+      "novelName": "the inn among the hills",
+      "coords": [-4.35, 55.02],
+      "certainty": "conjectured",
+      "note": "Best guess. The inn is invented and unlocated; placed on the open moor west of Cairnsmore, near the country Buchan drew on. A conjectured pin — the routes touching it are dashed.",
+      "story": "A moorland inn kept by a bookish young man aching for adventure. Hannay tells him enough of the truth to win a night's shelter — and the lad holds off the ring's men when they come asking after him.",
+      "quote": "Man, I've often thought that an innkeeper would make the best story-teller in the world.",
+      "quoteRef": "Ch. 3, Hannay to the innkeeper"
+    },
+    {
+      "id": "sir-harry",
+      "region": "galloway",
+      "name": "Sir Harry's house, Galloway",
+      "novelName": "Sir Harry's house",
+      "coords": [-4.15, 55.05],
+      "certainty": "conjectured",
+      "note": "Best guess. The Radical candidate's house is invented and unlocated; placed toward the greener eastern valleys the text describes. Conjectured — dashed routes.",
+      "story": "Fleeing across country, Hannay blunders into a by-election and is press-ganged into speaking for Sir Harry, the earnest Liberal candidate — who, hearing the real story afterwards, believes every word and sends him on to his godfather, Sir Walter Bullivant.",
+      "quote": "He spoke of Sir Harry's speech as 'statesmanlike', and mine as having 'the eloquence of an emigration agent.'",
+      "quoteRef": "Ch. 4"
+    },
+    {
+      "id": "roadman",
+      "region": "galloway",
+      "name": "A hill road on the moor, Galloway",
+      "novelName": "the roadman's stretch of road",
+      "coords": [-4.30, 55.00],
+      "certainty": "conjectured",
+      "note": "Best guess. The spot where Hannay takes the roadman's place — and where the enemy's monoplane hunts him — is unlocated; placed on the open moor near Cairnsmore. Conjectured — dashed routes.",
+      "story": "Hannay changes clothes with a roadman and mends the highway in disguise while the ring's men drive past and their monoplane quarters the sky overhead — the chase's most famous piece of nerve.",
+      "quote": "Low down in the south a monoplane was climbing into the heavens.",
+      "quoteRef": "Ch. 5"
+    },
+    {
+      "id": "archaeologist",
+      "region": "galloway",
+      "name": "The enemy's house, Galloway",
+      "novelName": "the house in the fir plantations",
+      "coords": [-4.20, 55.08],
+      "certainty": "conjectured",
+      "note": "Best guess. The bald archaeologist's house and private aerodrome are invented and unlocated; placed in the greener, planted country east of the watershed the text describes. Conjectured — dashed routes.",
+      "story": "A lonely house where the hunt runs Hannay to ground — and he knows the mild, bald host for the ring's leader: the old man with a young voice who can hood his eyes like a hawk. Locked in a store-room, he blasts his way out with the enemy's own explosives.",
+      "quote": "an old man with a young voice who could hood his eyes like a hawk.",
+      "quoteRef": "Ch. 1, Scudder's warning — and recognised in Ch. 6"
+    },
+    {
+      "id": "kennet",
+      "region": "berkshire",
+      "name": "Kintbury, Berkshire",
+      "novelName": "Artinswell, on the Kennet",
+      "coords": [-1.4460, 51.3985],
+      "certainty": "identified",
+      "note": "Buchan's 'Artinswell… on the Kennet' is identified with Kintbury, between Newbury and Hungerford on the river; Sir Walter Bullivant's Whitsun cottage is fictional.",
+      "story": "The chalk-stream water-meadows where Hannay finally reaches Sir Walter Bullivant, fishing for trout on his Whitsun holiday. Here the dead man's notebook is decoded and the plot is proved real.",
+      "quote": "I back our Kennet any day against the Test.",
+      "quoteRef": "Ch. 7, Sir Walter"
+    },
+    {
+      "id": "whitehall",
+      "region": "london",
+      "name": "Whitehall, London",
+      "novelName": "town",
+      "coords": [-0.1257, 51.5010],
+      "certainty": "real",
+      "note": "The book keeps Sir Walter's London house unaddressed; the Admiralty circle that gathers over the plot — Whittaker of the Admiralty, the First Sea Lord, the French officer Royer — is placed here at Whitehall.",
+      "story": "The London rooms where the counter-plot is laid: the ring — the 'Black Stone' — means to steal the dispositions a French officer is bringing over, and Scudder's last riddle, thirty-nine steps and a high tide, must be cracked before they slip the secret out to sea.",
+      "quote": "Thirty-nine steps — I counted them — high tide, 10.17 p.m.",
+      "quoteRef": "Ch. 8, Scudder's note"
+    },
+    {
+      "id": "broadstairs",
+      "region": "kent",
+      "name": "Broadstairs, Kent",
+      "novelName": "Bradgate",
+      "coords": [1.4436, 51.3591],
+      "certainty": "identified",
+      "note": "Buchan's 'Bradgate' is Broadstairs, where he convalesced in the summer of 1914 and wrote the book; the seafront and the Griffin Hotel are its real setting.",
+      "story": "The Kent seaside resort Buchan calls Bradgate, where Hannay comes down to the coast to hunt for the staircase in Scudder's note — a smooth June sea, a lightship on the sands, and a destroyer lying off the shore.",
+      "quote": "A pink and blue June morning found me at Bradgate looking from the Griffin Hotel over a smooth sea to the lightship on the Cock sands.",
+      "quoteRef": "Ch. 10"
+    },
+    {
+      "id": "north-foreland",
+      "region": "kent",
+      "name": "North Foreland, Kent",
+      "novelName": "the Ruff",
+      "coords": [1.4468, 51.3757],
+      "certainty": "identified",
+      "note": "The chalk headland Buchan calls 'the Ruff', where villa staircases run down to private beaches. Per Buchan's son, his daughter counted the wooden steps (seventy-eight) to the beach at the house where they stayed; Buchan halved the number for the title.",
+      "story": "The headland where villa staircases run down to private beaches. On one of them Hannay counts thirty-nine steps, finds three ordinary Englishmen playing at innocence — the ring itself — and springs the trap, seven weeks before the war.",
+      "quote": "We have got to find a place where there are several staircases down to the beach, one of which has thirty-nine steps.",
+      "quoteRef": "Ch. 9, Hannay"
+    }
+  ],
+  "movements": [
+    {
+      "character": "hannay",
+      "from": "hannay-flat",
+      "to": "moorland-station",
+      "chapter": 2,
+      "mode": "train",
+      "startDay": 5,
+      "days": 0.45,
+      "via": [
+        { "at": [-0.1266, 51.5308], "name": "St Pancras", "note": "the 7.10 out of London, in a milkman's clothes" },
+        { "at": [-1.1258, 52.6316], "name": "Leicester" },
+        { "at": [-1.4659, 53.3830], "name": "Sheffield" },
+        { "at": [-2.9329, 54.8925], "name": "Carlisle", "note": "over the Settle and Carlisle line into the Borders" },
+        { "at": [-3.5990, 55.0745], "name": "Dumfries", "note": "change onto the slow Galloway train" },
+        { "at": [-3.9280, 54.9375], "name": "Castle Douglas", "note": "west along the Port Road across the moors" }
+      ],
+      "routeNote": "The Midland out of St Pancras over the Settle and Carlisle line to the Borders, the Glasgow & South Western on to Dumfries, and the Galloway 'Port Road' west across the moors to a moorland halt.",
+      "routeSource": "Bradshaw, 1914: the Midland Railway (St Pancras–Carlisle), the Glasgow & South Western (Carlisle–Dumfries) and the Portpatrick & Wigtownshire Joint 'Port Road' (Dumfries–Castle Douglas–Gatehouse). Buchan names the 7.10 from St Pancras, the change at Dumfries and the Galloway train.",
+      "routeCertainty": "documented",
+      "note": "Disguised as a milkman, Hannay slips his watchers and takes the first train for the emptiest ground on the map — a Galloway moor where a hunted man can see trouble coming for miles"
+    },
+    {
+      "character": "hannay",
+      "from": "moorland-station",
+      "to": "cairnsmore",
+      "chapter": 2,
+      "mode": "foot",
+      "startDay": 5.5,
+      "days": 0.2,
+      "note": "He drops off at the lonely halt and strikes out over the heather, skirting the great hill of Cairnsmore of Fleet"
+    },
+    {
+      "character": "hannay",
+      "from": "cairnsmore",
+      "to": "inn",
+      "chapter": 3,
+      "mode": "foot",
+      "startDay": 6,
+      "days": 0.3,
+      "note": "Across the moor to a wayside inn, where a young landlord hungry for adventure takes him in and, when the ring's men come asking, sends them off empty-handed"
+    },
+    {
+      "character": "hannay",
+      "from": "inn",
+      "to": "sir-harry",
+      "chapter": 4,
+      "mode": "foot",
+      "startDay": 7,
+      "days": 0.3,
+      "note": "Fleeing across country he walks straight into a by-election and is taken up by Sir Harry, the earnest Radical candidate, who ends by believing every word of his story"
+    },
+    {
+      "character": "hannay",
+      "from": "sir-harry",
+      "to": "roadman",
+      "chapter": 5,
+      "mode": "motor",
+      "startDay": 8,
+      "days": 0.2,
+      "note": "Sir Harry motors him clear of the cordon and drops him on the moor road, where he changes places with a roadman to hide in plain sight"
+    },
+    {
+      "character": "hannay",
+      "from": "roadman",
+      "to": "archaeologist",
+      "chapter": 6,
+      "mode": "motor",
+      "startDay": 8.6,
+      "days": 0.25,
+      "note": "He steals the ring's big touring car and drives it across the hills — only to be run to ground at the enemy leader's own house, and locked up in a store-room"
+    },
+    {
+      "character": "hannay",
+      "from": "archaeologist",
+      "to": "kennet",
+      "chapter": 7,
+      "mode": "train",
+      "startDay": 12,
+      "days": 0.6,
+      "via": [
+        { "at": [-3.5990, 55.0745], "name": "Dumfries", "note": "back onto the railway out of Galloway" },
+        { "at": [-2.9329, 54.8925], "name": "Carlisle" },
+        { "at": [-2.4406, 53.0977], "name": "Crewe" },
+        { "at": [-1.8998, 52.4778], "name": "Birmingham" },
+        { "at": [-0.9714, 51.4585], "name": "Reading", "note": "round to the Berks & Hants line up the Kennet" }
+      ],
+      "routeNote": "Blown out of the store-room and away over the moor, then south by the West Coast main line — Carlisle, Crewe, Birmingham — and round by Reading up the Kennet valley.",
+      "routeSource": "Bradshaw, 1914: the LNWR West Coast route (Carlisle–Crewe–Birmingham) and the GWR Berks & Hants line to Kintbury. Buchan names Crewe, Birmingham and Reading on the run south.",
+      "routeCertainty": "documented",
+      "note": "Hunted and hungry, he works his way south to the one man Scudder named — Sir Walter Bullivant, taking his Whitsun on the Kennet"
+    },
+    {
+      "character": "hannay",
+      "from": "kennet",
+      "to": "whitehall",
+      "chapter": 8,
+      "mode": "train",
+      "startDay": 14,
+      "days": 0.4,
+      "via": [
+        { "at": [-0.9714, 51.4585], "name": "Reading", "note": "down the Kennet to the Great Western main line" }
+      ],
+      "routeNote": "Down the Kennet to Reading and up the Great Western into London.",
+      "routeSource": "Bradshaw, 1914: the GWR Berks & Hants line and Paddington main line.",
+      "routeCertainty": "documented",
+      "note": "The notebook decoded and the plot proved, Hannay and Sir Walter go up to town, where the men who run Britain's defence must be made to listen before it is too late"
+    },
+    {
+      "character": "hannay",
+      "from": "whitehall",
+      "to": "broadstairs",
+      "chapter": 10,
+      "mode": "motor",
+      "startDay": 22,
+      "days": 0.35,
+      "via": [
+        { "at": [0.5, 51.389], "name": "Rochester", "note": "out of London on the old Dover road" },
+        { "at": [1.078, 51.280], "name": "Canterbury" }
+      ],
+      "routeNote": "Out of London by the old Dover road — Rochester and Canterbury — and on to the Thanet coast.",
+      "routeSource": "The London–Canterbury–Thanet road (the old Dover Road / Watling Street). Buchan has Hannay borrow Sir Walter's car and a road map for the drive.",
+      "routeCertainty": "documented",
+      "note": "He borrows Sir Walter's car and a map of the roads and races for the Kent coast, to find the staircase in Scudder's riddle before the tide"
+    },
+    {
+      "character": "hannay",
+      "from": "broadstairs",
+      "to": "north-foreland",
+      "chapter": 10,
+      "mode": "foot",
+      "startDay": 22.4,
+      "days": 0.1,
+      "note": "The last short walk of the whole chase: out along the chalk headland to count the staircases down to the sea, and find the one with thirty-nine steps"
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "character": "hannay",
+      "at": "hannay-flat",
+      "chapter": 1,
+      "title": "The man who died",
+      "narration": "Richard Hannay, home from Rhodesia and bored stiff with London, finds a frightened stranger on his landing — Scudder, a freelance spy who has faked his own death. He talks of a ring that will murder to steal Britain's war plans. Days later Hannay finds him knifed to the floor, and the dead man's secret is now his to carry."
+    },
+    {
+      "kind": "journey",
+      "character": "hannay",
+      "from": "hannay-flat",
+      "to": "moorland-station",
+      "chapter": 2,
+      "title": "The milkman's train north",
+      "narration": "Wanted by the police for the murder and by the ring for the secret, Hannay slips out dressed as the milkman and takes the 7.10 from St Pancras for the emptiest place on the map — the moors of Galloway, where a hunted man can see trouble coming for miles."
+    },
+    {
+      "kind": "journey",
+      "character": "hannay",
+      "from": "moorland-station",
+      "to": "cairnsmore",
+      "chapter": 2,
+      "title": "Onto the moor",
+      "narration": "He drops off at a halt with no road to it and takes to the open heather beneath Cairnsmore of Fleet, curlews crying all around. For the first time since the murder he almost feels free — but the hunt is already gathering behind him."
+    },
+    {
+      "kind": "journey",
+      "character": "hannay",
+      "from": "cairnsmore",
+      "to": "inn",
+      "chapter": 3,
+      "title": "The literary innkeeper",
+      "narration": "He shelters at a moorland inn kept by a bookish young man aching for adventure, and tells him enough of the truth to win a bed. When the ring's men drive up asking questions, the lad plays dumb and sends them on — the first stranger to take Hannay's side."
+    },
+    {
+      "kind": "journey",
+      "character": "hannay",
+      "from": "inn",
+      "to": "sir-harry",
+      "chapter": 4,
+      "title": "The radical candidate",
+      "narration": "Running across country, Hannay walks straight into a by-election and is press-ganged into making a speech for Sir Harry, the earnest young Liberal candidate. Sir Harry, hearing the real story afterwards, believes every word — and gives him a note to his godfather at the Foreign Office, Sir Walter Bullivant."
+    },
+    {
+      "kind": "journey",
+      "character": "hannay",
+      "from": "sir-harry",
+      "to": "roadman",
+      "chapter": 5,
+      "title": "The spectacled roadman",
+      "narration": "Sir Harry motors him clear of the cordon and drops him on a hill road, where Hannay changes clothes with a roadman and mends the highway in disguise. The ring's men drive slowly past without a glance — and above the moor their monoplane climbs, quartering the sky, hunting for him."
+    },
+    {
+      "kind": "journey",
+      "character": "hannay",
+      "from": "roadman",
+      "to": "archaeologist",
+      "chapter": 6,
+      "title": "The bald archaeologist",
+      "narration": "He steals the ring's car and drives it over the hills — run to ground at a lonely house whose mild, bald owner he knows for the enemy's leader, the man who can hood his eyes like a hawk. He blasts his way out."
+    },
+    {
+      "kind": "journey",
+      "character": "hannay",
+      "from": "archaeologist",
+      "to": "kennet",
+      "chapter": 7,
+      "title": "Back to the south",
+      "narration": "Hunted and half-starved, Hannay works his way south by rail to the one man Scudder named — Sir Walter Bullivant, taking his Whitsun holiday fishing the Kennet. Here, at last, he finds someone who can believe him, and the two of them set to decoding the dead man's little black notebook."
+    },
+    {
+      "kind": "journey",
+      "character": "hannay",
+      "from": "kennet",
+      "to": "whitehall",
+      "chapter": 8,
+      "title": "The coming of the Black Stone",
+      "narration": "The notebook gives up its secret: the ring — the 'Black Stone' — means to steal the dispositions a French officer is bringing to London, and copy them without anyone knowing, so the plans reach Berlin while Britain thinks them safe. Hannay and Sir Walter go up to town to stop it."
+    },
+    {
+      "kind": "scene",
+      "character": "hannay",
+      "at": "whitehall",
+      "chapter": 9,
+      "title": "The man who was not there",
+      "narration": "At the meeting the French officer's plans are laid out, the First Sea Lord himself sitting in. Only afterwards does Hannay understand: that man was an impostor, who met his eye and walked calmly out with Britain's plans in his head. The theft is already done — the race now is to stop them reaching the sea."
+    },
+    {
+      "kind": "scene",
+      "character": "hannay",
+      "at": "whitehall",
+      "chapter": 9,
+      "title": "The thirty-nine steps",
+      "narration": "One riddle in Scudder's note is left: 'thirty-nine steps' and a 'high tide, 10.17 p.m.' Hannay works it out — not stairs in a house but a stretch of open coast, a flight of steps down to a beach where, at the top of the tide, the spies will slip the stolen secret out to a waiting boat."
+    },
+    {
+      "kind": "journey",
+      "character": "hannay",
+      "from": "whitehall",
+      "to": "broadstairs",
+      "chapter": 10,
+      "title": "Down to the sea",
+      "narration": "He borrows Sir Walter's car and a road map and drives hard for the Kent coast, down the old Dover road through Rochester and Canterbury to the Thanet cliffs — hunting the one staircase, among all the villa staircases on that coast, that has thirty-nine steps."
+    },
+    {
+      "kind": "journey",
+      "character": "hannay",
+      "from": "broadstairs",
+      "to": "north-foreland",
+      "chapter": 10,
+      "title": "The trap on the headland",
+      "narration": "On the chalk headland he counts the flights down to the beach until he finds it — thirty-nine steps — and above them a villa where three ordinary Englishmen play tennis and talk cricket, perfectly innocent, perfectly wrong. Hannay springs the trap just as their boat stands in. Seven weeks later, the country goes to war."
+    }
+  ]
+}

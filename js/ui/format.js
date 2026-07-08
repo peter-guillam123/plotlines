@@ -31,9 +31,12 @@ const VERBS = {
   train: ['travels by train', 'travel by train'],
   coach: ['goes by coach', 'go by coach'],
   omnibus: ['rides the omnibus', 'ride the omnibus'],
+  motor: ['drives', 'drive'],
   ship: ['sails', 'sail'],
   foot: ['goes on foot', 'go on foot'],
   horse: ['rides', 'ride'],
+  elephant: ['rides', 'ride'],
+  sledge: ['sails the sledge', 'sail the sledge'],
   unknown: ['moves', 'move'],
 };
 
@@ -52,7 +55,7 @@ export function movementSentence(novel, movement, characters) {
   const chars = Array.isArray(characters) ? characters : [characters];
   const from = novel.locationsById[movement.from];
   const to = novel.locationsById[movement.to];
-  const verb = VERBS[movement.mode][chars.length > 1 ? 1 : 0];
+  const verb = (VERBS[movement.mode] || VERBS.unknown)[chars.length > 1 ? 1 : 0];
   return `${nameList(chars)} ${verb} from ${from.novelName} to ${to.novelName}.`;
 }
 
