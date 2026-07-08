@@ -1233,13 +1233,23 @@ body.is-overture #captions { display: none !important; }
 
 .library-shelf {
   margin: 26px auto 0;
-  padding: 0 10px 10px;
+  /* a case of stacked shelves — rows flow downward, the card scrolls */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+/* each row is a shelf of its own, on its own wooden board */
+.shelf-row {
   display: flex;
   /* `safe` centres while there's room, then falls back to the start once
      the row overflows — so the first spine is never scrolled off-screen. */
   justify-content: safe center;
   align-items: flex-end;
   gap: 10px;
+  max-width: 100%;
+  padding: 0 10px 10px;
   overflow-x: auto;
   /* the shelf board */
   border-bottom: 10px solid #8a6a45;
@@ -1331,7 +1341,7 @@ body.is-overture #captions { display: none !important; }
 @media (max-width: 720px) {
   .library-card { padding: 24px 16px 18px; }
   .library-title { font-size: 42px; }
-  .library-shelf { justify-content: flex-start; }
+  .shelf-row { justify-content: safe flex-start; }
   .library-book { width: 70px; height: 260px; }
   .book-title { font-size: 15px; max-height: 150px; }
   .book-author { max-height: 82px; }
