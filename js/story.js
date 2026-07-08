@@ -96,13 +96,20 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
   // panel and above the story card + controls — so an establishing shot
   // keeps both ends of a leg inside that rectangle, never tucked under the
   // furniture. (See the settle offset below for single-node push-ins.)
+  // A landscape phone has far less room, and the furniture sits differently
+  // (a slim rail, a low caption strip) — so it reserves less on every side.
+  const compact = () =>
+    document.documentElement.classList.contains('touch') &&
+    matchMedia('(orientation: landscape) and (max-height: 560px)').matches;
   function camPad() {
-    return { top: 80, bottom: 300, left: 360, right: 60 };
+    return compact()
+      ? { top: 52, bottom: 176, left: 176, right: 40 }
+      : { top: 80, bottom: 300, left: 360, right: 60 };
   }
   // Where a single node should sit so it clears the panel and the card:
   // pushed right of centre (past the left panel) and up (above the card).
   function nodeOffset() {
-    return [150, -90];
+    return compact() ? [78, -44] : [150, -90];
   }
   function boundsFrom(coords) {
     const b = [[180, 90], [-180, -90]];

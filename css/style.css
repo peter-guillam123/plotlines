@@ -1484,9 +1484,11 @@ body.is-overture #captions { display: none !important; }
   html.touch #recentre { right: calc(env(safe-area-inset-right) + 10px); }
 
   /* reclaim height: a slimmer rail that scrolls rather than filling the screen */
-  html.touch #rail { width: 210px; max-height: calc(100vh - 96px); overflow-y: auto; gap: 6px; }
+  html.touch #rail { width: 200px; max-height: calc(100vh - 210px); overflow-y: auto; gap: 6px; }
   html.touch #rail .panel { padding: 8px 10px; }
   html.touch #masthead h1 { font-size: 26px; }
+  html.touch .masthead-kicker, html.touch .masthead-byline { display: none; }
+  html.touch #masthead { padding: 8px 12px 10px; }
 
   /* narration as a caption strip that clears the map's centre, not a floating slab */
   html.touch #storycard { max-width: min(70vw, 560px); }
@@ -1494,4 +1496,23 @@ body.is-overture #captions { display: none !important; }
   /* thumb-friendly controls */
   html.touch .scrub-step, html.touch .story-step,
   html.touch #controls button, html.touch #recentre { min-width: 44px; min-height: 44px; }
+}
+
+/* landscape phone — the narration as a caption strip along the foot, so the
+   map above it stays clean (the camera reserves the same 122px in story.js) */
+@media (orientation: landscape) and (max-height: 560px) {
+  html.touch #storycard {
+    left: calc(env(safe-area-inset-left) + 8px);
+    right: calc(env(safe-area-inset-right) + 8px);
+    bottom: calc(env(safe-area-inset-bottom) + 74px);
+    transform: none;
+    width: auto;
+    max-width: none;
+    gap: 6px;
+  }
+  html.touch .story-body { padding: 6px 14px 5px; }
+  html.touch .story-title { font-size: 17px; margin-top: 1px; }
+  html.touch .story-narration { font-size: 14px; line-height: 1.35; margin: 3px 0 0; }
+  html.touch .story-kicker { font-size: 11px; }
+  html.touch .story-progress { margin-top: 3px; }
 }
