@@ -552,7 +552,13 @@
       "note": "Mr Creakle's school is placed 'down by Blackheath' in the text; the exact building is invented, so this point stands on Blackheath, south-east London.",
       "story": "The brutal boarding school run by the ignorant, caning Mr Creakle, where David is made to wear a placard reading 'Take care of him. He bites.' Here he meets the two poles of his life: gentle, doomed Traddles and the dazzling, careless Steerforth, who takes him up as a favourite.",
       "quote": "It's down by Blackheath,",
-      "quoteRef": "Ch. 5"
+      "quoteRef": "Ch. 5",
+      "image": {
+        "file": "assets/images/dc-salem-house.jpg",
+        "caption": "Blackheath, south-east London, engraved in 1808 — open heath and a windmill, the edge-of-town kind of spot where Mr Creakle's Salem House is placed.",
+        "credit": "Samuel Noble, 1808 · Yale Center for British Art · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "warehouse",
@@ -567,7 +573,13 @@
       "note": "A real quarter of riverside London. The wine-bottling warehouse is modelled closely on Warren's Blacking factory at Hungerford Stairs, where the twelve-year-old Dickens himself was sent to labour — the buried wound of his own childhood.",
       "story": "The riverside warehouse where the ten-year-old David is set to washing and labelling bottles among rough boys, lodging with the Micawbers. It is the pit of the novel: shameful, hopeless drudgery that David never quite forgives, and the source of Dickens's own lifelong grievance.",
       "quote": "Murdstone and Grinby's warehouse was at the waterside. It was down in\nBlackfriars.",
-      "quoteRef": "Ch. 11"
+      "quoteRef": "Ch. 11",
+      "image": {
+        "file": "assets/images/dc-warehouse.jpg",
+        "caption": "The working Thames at Blackfriars in 1828 — wharves and barges below St Paul's, the riverside London of Murdstone and Grinby's bottling warehouse.",
+        "credit": "Thomas H. Shepherd, Metropolitan Improvements, 1828 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "windsor-terrace",
@@ -582,7 +594,13 @@
       "note": "City Road is a real London street; the Micawbers' particular lodging is Dickens's placing, folded onto it here.",
       "story": "The Micawbers' shabby-genteel lodging, where David boards during the warehouse days. Mr Micawber waits here, magnificently, for something to turn up, dodging creditors between bursts of oratory — before debt carries him off to the King's Bench prison.",
       "quote": "My address,' said Mr. Micawber, 'is Windsor Terrace, City Road.",
-      "quoteRef": "Ch. 11"
+      "quoteRef": "Ch. 11",
+      "image": {
+        "file": "assets/images/dc-windsor-terrace.jpg",
+        "caption": "The City Road Basin in 1828, at the head of the City Road where the Micawbers took their Windsor Terrace lodging — canal barges and warehouses.",
+        "credit": "Thomas H. Shepherd, Metropolitan Improvements, 1828 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "canterbury",
@@ -637,7 +655,13 @@
       "note": "A real village on the hill north of London. Both the Steerforths' house and, later, David and Dora's cottage are inventions placed here.",
       "story": "On its hilltop: first the proud Mrs Steerforth's house, where David visits his charming friend and meets the watchful Rosa Dartle; and later the cottage where David brings his child-wife Dora, and where their sweet, hopeless attempt at housekeeping plays out.",
       "quote": "old brick house at Highgate on the summit of the hill",
-      "quoteRef": "Ch. 20"
+      "quoteRef": "Ch. 20",
+      "image": {
+        "file": "assets/images/dc-highgate.jpg",
+        "caption": "Highgate on its hill north of London, in a view after Chatelain — the real village onto which David sets the Steerforths' house and, later, his cottage with Dora.",
+        "credit": "From Old and New London, 1873, after Chatelain (1745) · British Library · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "doctors-commons",
@@ -672,7 +696,13 @@
       "note": "A real riverside district south-west of London. Dora's aunts' house is invented and placed here.",
       "story": "Where Dora's spinster aunts take her after her father's sudden death, and where David haunts the road to court her. It is from Putney that he finally wins her, and marries her.",
       "quote": "maiden sisters of Mr. Spenlow, who lived at Putney",
-      "quoteRef": "Ch. 38"
+      "quoteRef": "Ch. 38",
+      "image": {
+        "file": "assets/images/dc-putney.jpg",
+        "caption": "Putney across the Thames — St Mary's tower and the old timber bridge, etched in 1738 — the riverside district where Dora's aunts keep house.",
+        "credit": "Thomas Preist, 1738 · Yale Center for British Art · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "golden-cross",
@@ -687,7 +717,13 @@
       "note": "A real coaching inn at Charing Cross, terminus of the Dover road. The original was demolished in 1827 to clear the way for Trafalgar Square; Dickens writes it as the 'mouldy' establishment of an earlier day.",
       "story": "The coaching inn where David, now seventeen, puts up on returning to London a young gentleman — and by chance meets the grown-up Steerforth again, the friendship rekindling just as it will lead them both to Yarmouth, and to ruin.",
       "quote": "We went to the Golden Cross at Charing Cross, then a mouldy sort of\nestablishment in a close neighbourhood.",
-      "quoteRef": "Ch. 19"
+      "quoteRef": "Ch. 19",
+      "image": {
+        "file": "assets/images/dc-golden-cross.jpg",
+        "caption": "Charing Cross and the entry to the Strand in 1842, by the Charles I statue — the junction where the Golden Cross coaching inn stood, from which David takes the Dover road.",
+        "credit": "Thomas Shotter Boys, 1842 · British Museum · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "naples",
