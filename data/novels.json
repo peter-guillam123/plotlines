@@ -54,6 +54,15 @@
     "spine": { "cloth": "#2e6e6a", "text": "#e6d59a" }
   },
   {
+    "id": "hound-of-the-baskervilles",
+    "title": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "year": 1902,
+    "file": "data/hound-of-the-baskervilles.json",
+    "blurb": "A family curse, a spectral hound, and Holmes and Watson on the fog-bound Dartmoor moor.",
+    "spine": { "cloth": "#5f2a26", "text": "#dccdb0" }
+  },
+  {
     "id": "monte-cristo",
     "title": "The Count of Monte Cristo",
     "author": "Alexandre Dumas",
