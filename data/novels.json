@@ -72,6 +72,15 @@
     "spine": { "cloth": "#3d5c3d", "text": "#e6d59a" }
   },
   {
+    "id": "call-of-the-wild",
+    "title": "The Call of the Wild",
+    "author": "Jack London",
+    "year": 1903,
+    "file": "data/call-of-the-wild.json",
+    "blurb": "A ranch dog stolen from sunlit California to the Klondike traces — and the long road back into a wolf.",
+    "spine": { "cloth": "#2e4034", "text": "#dcd2ac" }
+  },
+  {
     "id": "frankenstein",
     "title": "Frankenstein",
     "author": "Mary Shelley",

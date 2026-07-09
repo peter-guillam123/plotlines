@@ -1,0 +1,1115 @@
+{
+  "title": "The Call of the Wild",
+  "author": "Jack London",
+  "year": 1903,
+  "gutenbergId": 215,
+  "quotesVerified": true,
+  "timeline": {
+    "epoch": "1897-09-25",
+    "calendar": true,
+    "span": "1897–1899 (approximate; the novel gives no calendar dates, only the 1897 Klondike strike and the seasons of Buck's two years in the North)"
+  },
+  "overture": "Every mile of Buck's road, from a sun-warmed Californian ranch to the frozen Yukon and the wild beyond it — stolen south to north, broken to the sled, and step by step turned back into a wolf.",
+  "sources": "Jack London, The Call of the Wild (1903), Project Gutenberg #215; Klondike gold-rush geography and the Chilkoot/Yukon stampede route; photographs of Eric A. Hegg and Asahel Curtis, 1898.",
+  "regions": [
+    {
+      "id": "california",
+      "name": "California"
+    },
+    {
+      "id": "salt-water",
+      "name": "The coast & salt water"
+    },
+    {
+      "id": "the-trail",
+      "name": "The Yukon trail"
+    },
+    {
+      "id": "the-wild-east",
+      "name": "The wild east"
+    }
+  ],
+  "mapHome": {
+    "bounds": [
+      [
+        -140.0,
+        36.5
+      ],
+      [
+        -121.0,
+        65.0
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "title": "Into the Primitive",
+      "day": 0
+    },
+    {
+      "n": 2,
+      "title": "The Law of Club and Fang",
+      "day": 16
+    },
+    {
+      "n": 3,
+      "title": "The Dominant Primordial Beast",
+      "day": 42
+    },
+    {
+      "n": 4,
+      "title": "Who Has Won to Mastership",
+      "day": 95
+    },
+    {
+      "n": 5,
+      "title": "The Toil of Trace and Trail",
+      "day": 185
+    },
+    {
+      "n": 6,
+      "title": "For the Love of a Man",
+      "day": 300
+    },
+    {
+      "n": 7,
+      "title": "The Sounding of the Call",
+      "day": 430
+    }
+  ],
+  "characters": [
+    {
+      "id": "buck",
+      "name": "Buck",
+      "colour": "sienna",
+      "role": "A great ranch dog dragged from California into the Klondike, who answers the call of the wild.",
+      "start": {
+        "location": "judge-millers-place",
+        "chapter": 1
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "judge-millers-place",
+      "region": "california",
+      "name": "Judge Miller's place",
+      "novelName": "Judge Miller's place, in the Santa Clara Valley",
+      "coords": [
+        -121.9,
+        37.28
+      ],
+      "certainty": "conjectured",
+      "note": "Buck's home is a fictional estate, but London fixes it 'in the sun-kissed Santa Clara Valley' of California; placed on the valley floor south-east of San José, the orchard country London knew.",
+      "story": "Buck's soft life: a great, sun-warmed house-dog, king of the ranch — until a gardener with gambling debts steals him and sells him north.",
+      "quote": "Buck lived at a big house in the sun-kissed Santa Clara Valley.",
+      "quoteRef": "Ch. 1",
+      "image": {
+        "file": "assets/images/cotw-santa-clara.jpg",
+        "caption": "Orchard-and-vine country in the Santa Clara Valley — a wood-engraving of the Goodrich farm from a Santa Clara county book of 1888, standing for Judge Miller's place.",
+        "credit": "'Pen Pictures from the Garden of the World', 1888 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "seattle",
+      "region": "salt-water",
+      "name": "Seattle",
+      "novelName": "Seattle",
+      "coords": [
+        -122.339,
+        47.603
+      ],
+      "certainty": "real",
+      "story": "Unloaded from the express car into a walled yard and 'the man in the red sweater' — Buck's first lesson that a dog stands no chance against a man with a club.",
+      "quote": "He was beaten (he knew that); but he was not broken. He saw, once for all, that he stood no chance against a man with a club.",
+      "quoteRef": "Ch. 1",
+      "image": {
+        "file": "assets/images/cotw-seattle.jpg",
+        "caption": "The Seattle waterfront from the water, 23 July 1898 — the rush in full spate, and the port Buck was shipped through.",
+        "credit": "L. Heath, 1898 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "dyea",
+      "region": "salt-water",
+      "name": "Dyea",
+      "novelName": "the Dyea beach",
+      "coords": [
+        -135.354,
+        59.513
+      ],
+      "certainty": "real",
+      "note": "The tidewater landing at the head of Taiya Inlet, foot of the Chilkoot trail; now a National Park Service ghost town.",
+      "story": "Alaskan tidewater, and the shock of the North: the she-dog Curly is pulled down and killed by the pack, and Buck is buckled into the traces for the first time.",
+      "quote": "Buck's first day on the Dyea beach was like a nightmare.",
+      "quoteRef": "Ch. 2",
+      "image": {
+        "file": "assets/images/cotw-dyea.jpg",
+        "caption": "The Dyea beach at the head of the inlet, c.1898 — the tidewater landing where the stampede came ashore, and Buck met the North.",
+        "credit": "Eric A. Hegg, c.1898 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "chilkoot-pass",
+      "region": "the-trail",
+      "name": "Chilkoot Pass",
+      "novelName": "the great Chilcoot Divide",
+      "coords": [
+        -135.231,
+        59.684
+      ],
+      "certainty": "real",
+      "note": "The summit of the Chilkoot Pass on the Alaska–BC boundary, the divide between tidewater and the Yukon headwaters, ~1,122 m.",
+      "story": "The killing climb out of the salt water — up the Cañon, past Sheep Camp and the Scales, over the pass that stands between the sea and the frozen interior.",
+      "quote": "over the great Chilcoot Divide, which stands between the salt water and the fresh and guards forbiddingly the sad and lonely North.",
+      "quoteRef": "Ch. 2",
+      "image": {
+        "file": "assets/images/cotw-chilkoot.jpg",
+        "caption": "The line of stampeders on the 'golden stairs' of the Chilkoot Pass, 1898 — the killing climb over the divide.",
+        "credit": "Eric A. Hegg, 1898 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "lake-bennett",
+      "region": "the-trail",
+      "name": "Lake Bennett",
+      "novelName": "the head of Lake Bennett",
+      "coords": [
+        -134.99,
+        59.849
+      ],
+      "certainty": "real",
+      "note": "The boat-building camp at the south end of Lake Bennett, head of the Yukon water route; the historic Bennett townsite.",
+      "story": "The huge tent camp at the lake's head, where thousands of gold-seekers whipsawed lumber and built boats against the spring break-up — and the sled ran on down the chain of frozen lakes.",
+      "quote": "the huge camp at the head of Lake Bennett, where thousands of goldseekers were building boats against the break-up of the ice in the spring.",
+      "quoteRef": "Ch. 2",
+      "image": {
+        "file": "assets/images/cotw-lake-bennett.jpg",
+        "caption": "Whipsawing lumber to build boats at Lake Bennett, 1898 — the camp where thousands waited on the spring break-up.",
+        "credit": "Asahel Curtis, 1898 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "five-finger-rapids",
+      "region": "the-trail",
+      "name": "Five Finger Rapids",
+      "novelName": "the Five Fingers",
+      "coords": [
+        -136.363,
+        62.269
+      ],
+      "certainty": "real",
+      "note": "The four basalt pillars that split the Yukon into channels below Carmacks; a named, precisely located rapid on the run to Dawson.",
+      "story": "One of the named waters of the frozen Yukon road the mail team runs — the river pinched to four fingers of rock, passed on the ice.",
+      "image": {
+        "file": "assets/images/cotw-five-finger.jpg",
+        "caption": "The Yukon walled in rock on the long run down to Dawson — a wild reach of the river the mail team ran on the ice.",
+        "credit": "Asahel Curtis, c.1898 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "dawson-city",
+      "region": "the-trail",
+      "name": "Dawson City",
+      "novelName": "Dawson",
+      "coords": [
+        -139.433,
+        64.06
+      ],
+      "certainty": "real",
+      "note": "The Klondike gold-rush capital at the Klondike–Yukon confluence; the northern end of the trail.",
+      "story": "The gold capital: journey's end for the dispatch run, and later the saloon where Thornton wagers that Buck can start a thousand-pound sled — and Buck does it.",
+      "quote": "“Pooh! pooh!” said John Thornton; “Buck can start a thousand pounds.”",
+      "quoteRef": "Ch. 6",
+      "image": {
+        "file": "assets/images/cotw-dawson.jpg",
+        "caption": "Front Street, Dawson, in the rush (this view 1899) — the gold capital at the end of the trail, dog-team and all.",
+        "credit": "Eric A. Hegg, 1899 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "skagway",
+      "region": "salt-water",
+      "name": "Skagway",
+      "novelName": "Skaguay (Salt Water)",
+      "coords": [
+        -135.313,
+        59.458
+      ],
+      "certainty": "real",
+      "note": "The neighbouring deep-water port, ~6 km east of Dyea; London's 'Skaguay' and 'Salt Water', the return terminus of the mail run. (Dyea served the Chilkoot, Skagway the White Pass.)",
+      "story": "The salt-water end of the endless mail trail. Here the record runs finish; here the worn-out team is at last sold to three green American gold-seekers.",
+      "imageBlank": "Skaguay is the salt-water twin of Dyea, already pictured a few miles west; the mail run's return terminus keeps a logged blank rather than a second harbour view."
+    },
+    {
+      "id": "white-river-mouth",
+      "region": "the-trail",
+      "name": "Mouth of White River",
+      "novelName": "the mouth of White River",
+      "coords": [
+        -139.6,
+        63.14
+      ],
+      "certainty": "real",
+      "note": "The confluence of the glacial White River with the Yukon, on the reach upstream (south) of Dawson toward the Stewart.",
+      "story": "John Thornton's camp, and Buck's rescue: flogged and dying in the traces of Hal's doomed outfit, Buck is cut loose here — moments before the others break through the ice and drown.",
+      "quote": "John Thornton's camp at the mouth of White River.",
+      "quoteRef": "Ch. 5",
+      "image": {
+        "file": "assets/images/cotw-mail-team.jpg",
+        "caption": "A Yukon mail dog-team in harness, c.1898 — not White River itself, but the sledding life Buck was broken to, and that ended for him here.",
+        "credit": "Eric A. Hegg, c.1898 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "lost-cabin-mine",
+      "region": "the-wild-east",
+      "name": "the lost valley",
+      "novelName": "a valley where the gold showed like yellow butter",
+      "coords": [
+        -131.7,
+        63.4
+      ],
+      "certainty": "conjectured",
+      "note": "The invented 'lost cabin' / lost-mine valley. The text routes the party 70 miles up the Yukon, into the Stewart, and up it 'until the Stewart itself became a streamlet' against 'the backbone of the continent'; placed in the upper-Stewart headwaters of the eastern Yukon.",
+      "story": "The wild heart of the book: gold beyond counting, and no man near. Here the Yeehats kill Thornton, the last tie to man is cut, and Buck answers the call for good — the Ghost Dog at the head of the wolf-pack.",
+      "quote": "he may be seen running at the head of the pack through the pale moonlight or glimmering borealis, leaping gigantic above his fellows, his great throat a-bellow as he sings a song of the younger world, which is the song of the pack.",
+      "quoteRef": "Ch. 7",
+      "imageBlank": "The lost valley is invented; rather than pass off a generic wilderness photo as this exact place, a considered blank — the easternmost pin and the narration carry the wild."
+    }
+  ],
+  "movements": [
+    {
+      "character": "buck",
+      "from": "judge-millers-place",
+      "to": "seattle",
+      "chapter": 1,
+      "mode": "train",
+      "days": 2,
+      "startDay": 0.5,
+      "via": [
+        {
+          "at": [
+            -121.49,
+            38.58
+          ],
+          "name": "Sacramento"
+        },
+        [
+          -122.39,
+          40.59
+        ],
+        {
+          "at": [
+            -122.27,
+            41.21
+          ],
+          "name": "Dunsmuir"
+        },
+        {
+          "at": [
+            -122.71,
+            42.19
+          ],
+          "name": "Ashland"
+        },
+        {
+          "at": [
+            -122.68,
+            45.52
+          ],
+          "name": "Portland"
+        },
+        {
+          "at": [
+            -122.44,
+            47.25
+          ],
+          "name": "Tacoma"
+        }
+      ],
+      "note": "Stolen to pay a gardener's gambling debt, Buck is crated and sent north by express — two days and nights in the dark to the coast.",
+      "routeCertainty": "documented",
+      "routeNote": "Southern Pacific 'Shasta Route' up the Sacramento Valley and over the Siskiyous, then the line on through Portland and Tacoma to Seattle.",
+      "routeSource": "Southern Pacific / Northern Pacific West-Coast rail corridor, 1897; London names only 'Seattle'."
+    },
+    {
+      "character": "buck",
+      "from": "seattle",
+      "to": "dyea",
+      "chapter": 2,
+      "mode": "ship",
+      "days": 5,
+      "startDay": 16,
+      "via": [
+        {
+          "at": [
+            -122.66,
+            48.16
+          ],
+          "name": "Puget Sound"
+        },
+        [
+          -123.25,
+          49.05
+        ],
+        [
+          -124.3,
+          49.75
+        ],
+        {
+          "at": [
+            -125.34,
+            50.13
+          ],
+          "name": "Seymour Narrows"
+        },
+        [
+          -126.9,
+          50.8
+        ],
+        [
+          -128.05,
+          51.05
+        ],
+        {
+          "at": [
+            -128.3,
+            51.55
+          ],
+          "name": "Queen Charlotte Sound"
+        },
+        [
+          -128.15,
+          52.05
+        ],
+        [
+          -128.95,
+          52.55
+        ],
+        {
+          "at": [
+            -130.3,
+            53.1
+          ],
+          "name": "Hecate Strait"
+        },
+        [
+          -131.15,
+          53.75
+        ],
+        [
+          -131.35,
+          54.2
+        ],
+        {
+          "at": [
+            -131.0,
+            54.55
+          ],
+          "name": "Dixon Entrance"
+        },
+        [
+          -131.7,
+          55.2
+        ],
+        [
+          -132.3,
+          55.85
+        ],
+        {
+          "at": [
+            -133.3,
+            56.35
+          ],
+          "name": "Sumner Strait"
+        },
+        [
+          -134.3,
+          56.9
+        ],
+        {
+          "at": [
+            -134.65,
+            57.7
+          ],
+          "name": "Chatham Strait"
+        },
+        [
+          -135.0,
+          58.35
+        ],
+        {
+          "at": [
+            -135.25,
+            58.85
+          ],
+          "name": "Lynn Canal"
+        }
+      ],
+      "note": "Aboard the Narwhal, up the sheltered Inside Passage to Alaskan tidewater — Buck's last sight of the soft country as the coast turns to ice.",
+      "routeCertainty": "documented",
+      "routeNote": "The Klondike-era Inside Passage steamer route: Puget Sound, the sheltered BC channels, Dixon Entrance, the Alaska panhandle past Juneau, and up the Lynn Canal to Dyea.",
+      "routeSource": "1897 Inside Passage sailing; London names the Narwhal (fictional steamer) and 'the Dyea beach'."
+    },
+    {
+      "character": "buck",
+      "from": "dyea",
+      "to": "dawson-city",
+      "chapter": 3,
+      "mode": "dogsled",
+      "days": 18,
+      "startDay": 42,
+      "via": [
+        {
+          "at": [
+            -135.231,
+            59.684
+          ],
+          "name": "Chilcoot Divide"
+        },
+        [
+          -134.99,
+          59.78
+        ],
+        {
+          "at": [
+            -134.94,
+            59.849
+          ],
+          "name": "Lake Bennett"
+        },
+        [
+          -134.7,
+          60.17
+        ],
+        {
+          "at": [
+            -134.27,
+            60.32
+          ],
+          "name": "Tagish"
+        },
+        {
+          "at": [
+            -134.3,
+            60.45
+          ],
+          "name": "Marsh Lake"
+        },
+        [
+          -135.02,
+          60.66
+        ],
+        {
+          "at": [
+            -135.05,
+            60.71
+          ],
+          "name": "White Horse Rapids"
+        },
+        {
+          "at": [
+            -135.18,
+            61.15
+          ],
+          "name": "Lake Le Barge"
+        },
+        {
+          "at": [
+            -135.03,
+            61.42
+          ],
+          "name": "the Thirty Mile"
+        },
+        {
+          "at": [
+            -134.88,
+            61.68
+          ],
+          "name": "Hootalinqua"
+        },
+        [
+          -134.9,
+          61.87
+        ],
+        {
+          "at": [
+            -136.363,
+            62.269
+          ],
+          "name": "Five Fingers"
+        },
+        {
+          "at": [
+            -136.47,
+            62.286
+          ],
+          "name": "Rink Rapids"
+        },
+        {
+          "at": [
+            -137.382,
+            62.773
+          ],
+          "name": "the Pelly"
+        },
+        {
+          "at": [
+            -139.42,
+            63.3
+          ],
+          "name": "Stewart River"
+        },
+        {
+          "at": [
+            -139.87,
+            63.6
+          ],
+          "name": "Sixty Mile"
+        }
+      ],
+      "note": "In harness for Perrault the government courier: over the Chilcoot Divide, down the frozen lakes and the length of the Yukon ice to Dawson — the making of a sled-dog.",
+      "routeCertainty": "novel",
+      "routeNote": "London names the trail's defining stops himself — the Chilcoot Divide, Lake Bennett, Tagish, Marsh, the White Horse Rapids, Lake Le Barge, the Thirty Mile, the Hootalinqua, the Five Fingers, the Rink Rapids, the Pelly, the Stewart and Sixty Mile.",
+      "routeSource": "The Klondike stampede route ('Trail of '98'): the Chilkoot Pass, the head-lake chain and the frozen Yukon past the named rapids and river-mouths. Stops and spellings from The Call of the Wild, chs. 2–3."
+    },
+    {
+      "character": "buck",
+      "from": "dawson-city",
+      "to": "skagway",
+      "chapter": 3,
+      "mode": "dogsled",
+      "days": 14,
+      "startDay": 60,
+      "via": [
+        {
+          "at": [
+            -139.87,
+            63.6
+          ],
+          "name": "Sixty Mile"
+        },
+        {
+          "at": [
+            -139.42,
+            63.3
+          ],
+          "name": "Stewart River"
+        },
+        {
+          "at": [
+            -137.382,
+            62.773
+          ],
+          "name": "the Pelly"
+        },
+        {
+          "at": [
+            -136.47,
+            62.286
+          ],
+          "name": "Rink Rapids"
+        },
+        {
+          "at": [
+            -136.363,
+            62.269
+          ],
+          "name": "Five Fingers"
+        },
+        [
+          -134.9,
+          61.87
+        ],
+        {
+          "at": [
+            -135.18,
+            61.15
+          ],
+          "name": "Lake Le Barge"
+        },
+        {
+          "at": [
+            -135.05,
+            60.71
+          ],
+          "name": "White Horse Rapids"
+        },
+        {
+          "at": [
+            -134.3,
+            60.45
+          ],
+          "name": "Marsh Lake"
+        },
+        {
+          "at": [
+            -134.27,
+            60.32
+          ],
+          "name": "Tagish"
+        },
+        {
+          "at": [
+            -134.94,
+            59.849
+          ],
+          "name": "Bennett"
+        },
+        {
+          "at": [
+            -135.231,
+            59.684
+          ],
+          "name": "Chilcoot Divide"
+        }
+      ],
+      "note": "The dash back to salt water. On the trail Buck fights and kills Spitz, wins the lead, and drives the team to Skaguay on a record run.",
+      "routeCertainty": "novel",
+      "routeNote": "The same Trail of '98 reversed to salt water; London narrates the return past the Pelly, Cassiar Bar, 'Marsh, Tagish, and Bennett' and the White Horse Rapids to 'the lights of Skaguay'.",
+      "routeSource": "The Call of the Wild, ch. 3 ('pulled for Dyea and Salt Water')."
+    },
+    {
+      "character": "buck",
+      "from": "skagway",
+      "to": "dawson-city",
+      "chapter": 4,
+      "mode": "dogsled",
+      "days": 20,
+      "startDay": 95,
+      "via": [
+        {
+          "at": [
+            -135.231,
+            59.684
+          ],
+          "name": "Chilcoot Divide"
+        },
+        {
+          "at": [
+            -134.94,
+            59.849
+          ],
+          "name": "Bennett"
+        },
+        {
+          "at": [
+            -134.27,
+            60.32
+          ],
+          "name": "Tagish"
+        },
+        {
+          "at": [
+            -135.05,
+            60.71
+          ],
+          "name": "White Horse Rapids"
+        },
+        {
+          "at": [
+            -135.18,
+            61.15
+          ],
+          "name": "Lake Le Barge"
+        },
+        {
+          "at": [
+            -135.03,
+            61.42
+          ],
+          "name": "the Thirty Mile"
+        },
+        {
+          "at": [
+            -136.363,
+            62.269
+          ],
+          "name": "Five Fingers"
+        },
+        {
+          "at": [
+            -137.382,
+            62.773
+          ],
+          "name": "the Pelly"
+        },
+        {
+          "at": [
+            -139.42,
+            63.3
+          ],
+          "name": "Stewart River"
+        }
+      ],
+      "note": "Sold to a Scotch half-breed for the heavy Salt Water mail, Buck — now lead-dog — drives the team back north over the whole weary trail again.",
+      "routeCertainty": "documented",
+      "routeNote": "The Salt Water Mail run, Skaguay to Dawson, over the established stampede trail.",
+      "routeSource": "The Call of the Wild, ch. 4."
+    },
+    {
+      "character": "buck",
+      "from": "dawson-city",
+      "to": "skagway",
+      "chapter": 5,
+      "mode": "dogsled",
+      "days": 30,
+      "startDay": 185,
+      "via": [
+        {
+          "at": [
+            -139.87,
+            63.6
+          ],
+          "name": "Sixty Mile"
+        },
+        {
+          "at": [
+            -139.42,
+            63.3
+          ],
+          "name": "Stewart River"
+        },
+        {
+          "at": [
+            -137.382,
+            62.773
+          ],
+          "name": "the Pelly"
+        },
+        {
+          "at": [
+            -136.47,
+            62.286
+          ],
+          "name": "Rink Rapids"
+        },
+        {
+          "at": [
+            -136.363,
+            62.269
+          ],
+          "name": "Five Fingers"
+        },
+        [
+          -134.9,
+          61.87
+        ],
+        {
+          "at": [
+            -135.18,
+            61.15
+          ],
+          "name": "Lake Le Barge"
+        },
+        {
+          "at": [
+            -135.05,
+            60.71
+          ],
+          "name": "White Horse Rapids"
+        },
+        {
+          "at": [
+            -134.3,
+            60.45
+          ],
+          "name": "Marsh Lake"
+        },
+        {
+          "at": [
+            -134.27,
+            60.32
+          ],
+          "name": "Tagish"
+        },
+        {
+          "at": [
+            -134.94,
+            59.849
+          ],
+          "name": "Bennett"
+        },
+        {
+          "at": [
+            -135.231,
+            59.684
+          ],
+          "name": "Chilcoot Divide"
+        }
+      ],
+      "note": "The toil of trace and trail: thirty days from Dawson the played-out mail team reaches Skaguay — where it is sold off cheap to three green American gold-seekers.",
+      "routeCertainty": "novel",
+      "routeNote": "'Thirty days from the time it left Dawson, the Salt Water Mail... arrived at Skaguay' — the exhausted team then bought by Hal, Charles and Mercedes.",
+      "routeSource": "The Call of the Wild, ch. 5."
+    },
+    {
+      "character": "buck",
+      "from": "skagway",
+      "to": "white-river-mouth",
+      "chapter": 5,
+      "mode": "dogsled",
+      "days": 30,
+      "startDay": 215,
+      "via": [
+        {
+          "at": [
+            -135.231,
+            59.684
+          ],
+          "name": "Chilcoot Divide"
+        },
+        {
+          "at": [
+            -134.94,
+            59.849
+          ],
+          "name": "Bennett"
+        },
+        {
+          "at": [
+            -134.3,
+            60.45
+          ],
+          "name": "Marsh Lake"
+        },
+        {
+          "at": [
+            -135.18,
+            61.15
+          ],
+          "name": "Lake Le Barge"
+        },
+        {
+          "at": [
+            -135.03,
+            61.42
+          ],
+          "name": "the Thirty Mile"
+        },
+        {
+          "at": [
+            -136.363,
+            62.269
+          ],
+          "name": "Five Fingers"
+        },
+        {
+          "at": [
+            -137.382,
+            62.773
+          ],
+          "name": "the Pelly"
+        },
+        {
+          "at": [
+            -139.42,
+            63.3
+          ],
+          "name": "Stewart River"
+        }
+      ],
+      "note": "Hal's outfit floggs the starving dogs up the trail toward Dawson. At John Thornton's camp the sled halts for the last time — and beyond it, one by one, the ice gives way.",
+      "routeCertainty": "documented",
+      "routeNote": "Hal, Charles and Mercedes' doomed trip up the trail; the party breaks through the rotten spring ice a quarter-mile past Thornton's camp.",
+      "routeSource": "The Call of the Wild, ch. 5."
+    },
+    {
+      "character": "buck",
+      "from": "white-river-mouth",
+      "to": "dawson-city",
+      "chapter": 6,
+      "mode": "ship",
+      "days": 3,
+      "startDay": 300.5,
+      "via": [
+        [
+          -139.55,
+          63.55
+        ],
+        [
+          -139.3,
+          63.85
+        ]
+      ],
+      "medium": "river",
+      "note": "Nursed back to life by Thornton, Buck comes down the thawed Yukon with him to Dawson.",
+      "routeCertainty": "reconstructed",
+      "routeNote": "Downriver on the Yukon from the White River confluence to Dawson, once the ice has gone.",
+      "routeSource": "No route named in the text — reconstructs the short downstream reach to Dawson."
+    },
+    {
+      "character": "buck",
+      "from": "dawson-city",
+      "to": "lost-cabin-mine",
+      "chapter": 7,
+      "mode": "dogsled",
+      "days": 30,
+      "startDay": 430,
+      "via": [
+        {
+          "at": [
+            -139.42,
+            63.3
+          ],
+          "name": "Stewart River"
+        },
+        [
+          -138.4,
+          63.35
+        ],
+        {
+          "at": [
+            -137.0,
+            63.3
+          ],
+          "name": "up the Stewart"
+        },
+        [
+          -134.5,
+          63.35
+        ],
+        [
+          -132.8,
+          63.38
+        ]
+      ],
+      "note": "With the wager winnings, Thornton's party faces east on an unknown trail — seventy miles up the Yukon, into the Stewart, and up it to a valley where the gold lies like yellow butter.",
+      "routeCertainty": "novel",
+      "routeNote": "'They sledded seventy miles up the Yukon, swung to the left into the Stewart River... until the Stewart itself became a streamlet' against 'the backbone of the continent'.",
+      "routeSource": "The Call of the Wild, ch. 7 (the valley itself is unnamed and fictional)."
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "character": "buck",
+      "at": "judge-millers-place",
+      "chapter": 1,
+      "title": "The sun-kissed valley",
+      "narration": "Meet Buck: a hundred-and-forty-pound ranch dog, half St Bernard, half shepherd, king of Judge Miller's place in the sun-warmed Santa Clara Valley. He has never known anything but ease — and up north, men have found gold, and need dogs.",
+      "day": 0
+    },
+    {
+      "kind": "journey",
+      "character": "buck",
+      "from": "judge-millers-place",
+      "to": "seattle",
+      "chapter": 1,
+      "narration": "A gardener deep in gambling debt steals Buck and sells him to a dog-dealer. Roped, choked and crated, he is shipped north by express — two days and nights of darkness and rage to the coast."
+    },
+    {
+      "kind": "scene",
+      "character": "buck",
+      "at": "seattle",
+      "chapter": 1,
+      "title": "The law of the club",
+      "narration": "In a walled Seattle yard waits the man in the red sweater, with a club. Again and again Buck charges; again and again he is beaten down, until he learns the lesson of his after-life: a dog stands no chance against a man with a club.",
+      "day": 2.5
+    },
+    {
+      "kind": "journey",
+      "character": "buck",
+      "from": "seattle",
+      "to": "dyea",
+      "chapter": 2,
+      "narration": "Bought by two French-Canadian government couriers, Buck sails up the Inside Passage aboard the Narwhal — and feels, as the deck turns cold, that the soft southland is gone for good."
+    },
+    {
+      "kind": "scene",
+      "character": "buck",
+      "at": "dyea",
+      "chapter": 2,
+      "title": "Curly, and the traces",
+      "narration": "On the Dyea beach the North shows its teeth: the friendly dog Curly is pulled down and torn apart by the husky pack in seconds. Buck is buckled into the traces, and learns the law of club and fang.",
+      "day": 21
+    },
+    {
+      "kind": "journey",
+      "character": "buck",
+      "from": "dyea",
+      "to": "dawson-city",
+      "chapter": 3,
+      "narration": "In harness for Perrault the courier, Buck runs his first great trail — up over the Chilcoot Divide, down the chain of frozen lakes and the whole length of the Yukon ice to the gold-camp at Dawson."
+    },
+    {
+      "kind": "journey",
+      "character": "buck",
+      "from": "dawson-city",
+      "to": "skagway",
+      "chapter": 3,
+      "narration": "Turned straight round with the mail, Buck at last forces the fight he has been spoiling for: he kills Spitz, the lead-dog, on the moonlit trail, wins the lead for himself, and drives the team to Skaguay on a record run."
+    },
+    {
+      "kind": "journey",
+      "character": "buck",
+      "from": "skagway",
+      "to": "dawson-city",
+      "chapter": 4,
+      "narration": "Sold on to a Scotch half-breed for the heavy Salt Water mail, Buck — lead-dog now — hauls the team back north over the whole weary trail, letters for the gold-fields piled on the sled."
+    },
+    {
+      "kind": "journey",
+      "character": "buck",
+      "from": "dawson-city",
+      "to": "skagway",
+      "chapter": 5,
+      "narration": "The toil of trace and trail: twenty-five hundred miles in five months. Thirty days out of Dawson the broken team reaches Skaguay — and is sold off cheap to Hal, Charles and Mercedes, three green Americans who know nothing of the trail."
+    },
+    {
+      "kind": "journey",
+      "character": "buck",
+      "from": "skagway",
+      "to": "white-river-mouth",
+      "chapter": 5,
+      "narration": "The newcomers overload the sled and flog the starving dogs up the trail. Half are dead when they reach John Thornton's camp at White River — where Thornton, disgusted, cuts the collapsed Buck loose. A quarter-mile on, the rotten ice opens and swallows outfit, drivers and dogs whole."
+    },
+    {
+      "kind": "scene",
+      "character": "buck",
+      "at": "white-river-mouth",
+      "chapter": 6,
+      "title": "For the love of a man",
+      "narration": "Thornton nurses the ruined dog back to life, and Buck gives him a love he has never given a man — twice dragging him from death. For the first time in the North, Buck is content.",
+      "day": 300
+    },
+    {
+      "kind": "journey",
+      "character": "buck",
+      "from": "white-river-mouth",
+      "to": "dawson-city",
+      "chapter": 6,
+      "narration": "When the ice goes out, Buck comes down the thawed Yukon with Thornton to Dawson."
+    },
+    {
+      "kind": "scene",
+      "character": "buck",
+      "at": "dawson-city",
+      "chapter": 6,
+      "title": "A thousand pounds",
+      "narration": "In an Eldorado saloon Thornton, on a boast, wagers a thousand dollars that Buck can break out and start a sled loaded with a thousand pounds. Straining till his heart could burst, Buck does it — and wins his master a fortune and the stake for one last journey.",
+      "day": 303.5
+    },
+    {
+      "kind": "journey",
+      "character": "buck",
+      "from": "dawson-city",
+      "to": "lost-cabin-mine",
+      "chapter": 7,
+      "narration": "With the winnings Thornton's party faces east on an unknown trail — seventy miles up the Yukon, into the Stewart, and up it until the river is a streamlet, to a nameless valley where the gold shows like yellow butter."
+    },
+    {
+      "kind": "scene",
+      "character": "buck",
+      "at": "lost-cabin-mine",
+      "chapter": 7,
+      "title": "The sounding of the call",
+      "narration": "Here the wild takes him for good. While Buck hunts, the Yeehats kill Thornton — and Buck kills them in turn, then answers the howl of the pack. He is the Ghost Dog now, running at the head of the wolves through the borealis, singing the song of the younger world.",
+      "day": 460
+    }
+  ]
+}
