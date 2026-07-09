@@ -247,7 +247,13 @@
       "note": "Best guess. Wells sets the narrator's home 'at Maybury' on the real Maybury Hill, but gives no address; the pin marks the hill.",
       "story": "The narrator's home on the hill above Woking, where the book opens on an ordinary June and where, four weeks later, he comes home to find his wife alive after all. The exact house is Wells's invention; Maybury Hill is real.",
       "quote": "intellects vast and cool and unsympathetic, regarded this earth with envious eyes, and slowly and surely drew their plans against us.",
-      "quoteRef": "Book I, Ch. 1"
+      "quoteRef": "Book I, Ch. 1",
+      "image": {
+        "file": "assets/images/wotw-maybury.jpg",
+        "caption": "Chobham Road, Woking, in a postcard of 1903 — the town below Maybury Hill, where the narrator's invented house stands.",
+        "credit": "Postcard, 1903 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "horsell",
@@ -258,7 +264,8 @@
       "certainty": "real",
       "story": "The sand-pit on Horsell Common where the first cylinder falls and unscrews before a gawping crowd — and where the heat-ray first sweeps out. Ground zero of the invasion, and a real common you can still walk.",
       "quote": "It's a cylinder—an artificial cylinder, man! And there's something inside.",
-      "quoteRef": "Book I, Ch. 4"
+      "quoteRef": "Book I, Ch. 4",
+      "imageBlank": "Only a present-day photograph of the actual sandpit is on the archives; no contemporaneous view of Horsell Common was found, and a modern shot would break the period frame."
     },
     {
       "id": "addlestone",
@@ -268,7 +275,8 @@
       "coords": [-0.4901, 51.355],
       "certainty": "identified",
       "note": "The text places the second cylinder 'in Addlestone Golf Links'; the pin marks the links.",
-      "story": "Where the second cylinder comes down, on the golf links — one corner of the triangle of pits from which the Martians first spread."
+      "story": "Where the second cylinder comes down, on the golf links — one corner of the triangle of pits from which the Martians first spread.",
+      "imageBlank": "No period image of Addlestone or its golf links exists in the archives — only recent photographs."
     },
     {
       "id": "pyrford",
@@ -278,7 +286,8 @@
       "coords": [-0.501, 51.313],
       "certainty": "identified",
       "note": "Named in the text as the third cylinder's site.",
-      "story": "The third cylinder's fall, closing the triangle of pits around Woking from which the fighting-machines advance."
+      "story": "The third cylinder's fall, closing the triangle of pits around Woking from which the fighting-machines advance.",
+      "imageBlank": "No contemporaneous view of Pyrford came to hand; only recent photographs of the village."
     },
     {
       "id": "leatherhead",
@@ -289,7 +298,8 @@
       "certainty": "real",
       "story": "Where the narrator drives his wife to the safety of her cousins, twelve miles off — the last calm errand before the county comes apart. He turns straight round and heads back into it.",
       "quote": "Leatherhead is about twelve miles from Maybury Hill.",
-      "quoteRef": "Book I, Ch. 9"
+      "quoteRef": "Book I, Ch. 9",
+      "imageBlank": "The one pre-1930 Leatherhead photograph is a 1928 motor fire-engine parade — thirty years after the story and jarringly modern; nothing c.1900 of the town surfaced."
     },
     {
       "id": "weybridge",
@@ -300,7 +310,12 @@
       "certainty": "real",
       "story": "The Thames-side towns where the narrator watches the army make its stand — and sees a fighting-machine brought down for the first time, felled into the river as it wrecks Shepperton church across the water.",
       "quote": "It struck the tower of Shepperton Church, smashing it down as the impact of a battering ram might have done, swerved aside, blundered on and collapsed with tremendous force into the river.",
-      "quoteRef": "Book I, Ch. 12"
+      "quoteRef": "Book I, Ch. 12",
+      "image": {
+        "file": "assets/images/wotw-weybridge.jpg",
+        "caption": "The Thames at Weybridge, painted by Turner around 1805 — the river the narrator watches as the artillery duel opens across the water.",
+        "credit": "J. M. W. Turner, The Thames at Weybridge (c.1805) · Tate · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "sheen",
@@ -310,7 +325,8 @@
       "coords": [-0.268, 51.466],
       "certainty": "conjectured",
       "note": "Best guess. Wells puts the ruined house 'where the road turns towards Mortlake', a fictional villa in real East Sheen; the pin marks that stretch.",
-      "story": "The white house where the narrator and the curate are trapped for a fortnight when the fifth cylinder falls almost on top of them — buried, half-starved, watching the Martians at their pit through a crack in the wall until the curate's nerve breaks. The house is Wells's invention; Sheen is real."
+      "story": "The white house where the narrator and the curate are trapped for a fortnight when the fifth cylinder falls almost on top of them — buried, half-starved, watching the Martians at their pit through a crack in the wall until the curate's nerve breaks. The house is Wells's invention; Sheen is real.",
+      "imageBlank": "The ruined house where the narrator lies trapped is invented, near Mortlake; no contemporaneous riverside view of Mortlake or East Sheen came to hand to stand in for it."
     },
     {
       "id": "wimbledon",
@@ -319,7 +335,12 @@
       "novelName": "Wimbledon",
       "coords": [-0.2064, 51.4214],
       "certainty": "real",
-      "story": "Where the sixth star falls, and one of the hills from which the Martians press their crescent on London. The narrator's train home, at the very end, runs past its abandoned pit."
+      "story": "Where the sixth star falls, and one of the hills from which the Martians press their crescent on London. The narrator's train home, at the very end, runs past its abandoned pit.",
+      "image": {
+        "file": "assets/images/wotw-wimbledon.jpg",
+        "caption": "Wimbledon Common and its windmill in an Edwardian postcard — the open ground the narrator crosses on the long walk east.",
+        "credit": "Raphael Tuck & Sons 'Oilette' postcard, c.1905 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "putney-hill",
@@ -328,7 +349,8 @@
       "novelName": "Putney Hill",
       "coords": [-0.216, 51.456],
       "certainty": "real",
-      "story": "Climbing out of the wrecked south-west, the narrator meets the artilleryman again — full of grand, idle schemes for a resistance in the drains while he digs a hole and plays cards. The narrator leaves him to it and walks on into the silence."
+      "story": "Climbing out of the wrecked south-west, the narrator meets the artilleryman again — full of grand, idle schemes for a resistance in the drains while he digs a hole and plays cards. The narrator leaves him to it and walks on into the silence.",
+      "imageBlank": "No period view of Putney Hill itself surfaced — only general Putney postcards of other streets — so the spot where the narrator meets the artilleryman stays blank."
     },
     {
       "id": "primrose-hill",
@@ -339,7 +361,8 @@
       "certainty": "real",
       "story": "The Martians' final redoubt, where the seventh cylinder fell — and where the narrator, walking a dead and silent London, climbs to find the fighting-machines fallen still and their masters dead in the pit, killed by the humblest bacteria of the earth they came to take.",
       "quote": "it was not so much the stillness of death—it was the stillness of suspense, of expectation.",
-      "quoteRef": "Book II, Ch. 8"
+      "quoteRef": "Book II, Ch. 8",
+      "imageBlank": "No contemporaneous view of Primrose Hill's summit was found, where the Martians are found dead; a considered blank rather than a wrong-place stand-in."
     },
     {
       "id": "regents-park",
@@ -349,7 +372,12 @@
       "coords": [-0.15, 51.529],
       "certainty": "identified",
       "note": "The text places the brother 'near Regent's Park' with no exact address; the pin marks the district.",
-      "story": "The brother's lodgings, where his separate story begins: a medical student who reads of Woking on the Saturday and by Monday is running for his life. Wells names the district, not the address."
+      "story": "The brother's lodgings, where his separate story begins: a medical student who reads of Woking on the Saturday and by Monday is running for his life. Wells names the district, not the address.",
+      "image": {
+        "file": "assets/images/wotw-regents-park.jpg",
+        "caption": "Albert Terrace, on the edge of Regent's Park, in 1905 — near where the narrator's brother joins the panic streaming north out of London.",
+        "credit": "Charles Martin postcard, 1905 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "barnet",
@@ -358,7 +386,12 @@
       "novelName": "Barnet",
       "coords": [-0.2, 51.65],
       "certainty": "real",
-      "story": "On the road north out of London the brother is swept into the full exodus — the choked lanes, the crush at the crossroads, the whole population of the city pouring away. Here he throws in with two women in a pony-chaise and defends them from the mob."
+      "story": "On the road north out of London the brother is swept into the full exodus — the choked lanes, the crush at the crossroads, the whole population of the city pouring away. Here he throws in with two women in a pony-chaise and defends them from the mob.",
+      "image": {
+        "file": "assets/images/wotw-barnet.jpg",
+        "caption": "High Barnet seen from Barnet Hill, c.1900 — the road north out of London down which the refugee crowds pour.",
+        "credit": "Postcard, c.1900 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "chelmsford",
@@ -367,7 +400,12 @@
       "novelName": "Chelmsford",
       "coords": [0.469, 51.736],
       "certainty": "real",
-      "story": "Where a self-appointed 'Committee of Public Supply' seizes the party's pony for food, and the road to the coast has to be finished on foot."
+      "story": "Where a self-appointed 'Committee of Public Supply' seizes the party's pony for food, and the road to the coast has to be finished on foot.",
+      "image": {
+        "file": "assets/images/wotw-chelmsford.jpg",
+        "caption": "High Street, Chelmsford, in 1906 — an Essex market town on the refugees' road to the coast.",
+        "credit": "Fred Spalding postcard, 1906 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "tillingham",
@@ -376,7 +414,8 @@
       "novelName": "Tillingham",
       "coords": [0.8811, 51.6985],
       "certainty": "real",
-      "story": "The little Essex village near the coast the brother's party passes at midday, within sight at last of the sea and the crowd of ships waiting to carry the refugees away."
+      "story": "The little Essex village near the coast the brother's party passes at midday, within sight at last of the sea and the crowd of ships waiting to carry the refugees away.",
+      "imageBlank": "No image of the Essex village of Tillingham, at any date, was found in the archives."
     },
     {
       "id": "blackwater",
@@ -385,7 +424,13 @@
       "novelName": "the Blackwater",
       "coords": [0.89, 51.7],
       "certainty": "real",
-      "story": "The Essex estuary where the brother gets aboard a crowded paddle-steamer — the sea black with boats, everyone bound for the Continent, when three fighting-machines come wading out into the water after them."
+      "story": "The Essex estuary where the brother gets aboard a crowded paddle-steamer — the sea black with boats, everyone bound for the Continent, when three fighting-machines come wading out into the water after them.",
+      "image": {
+        "file": "assets/images/wotw-blackwater.jpg",
+        "caption": "A crowded pleasure steamer leaving Maldon on the Blackwater, 1906 — indicative of the Essex estuary where the fleeing boats gather off the coast.",
+        "credit": "Postcard, 1906 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "thunder-child",
@@ -397,7 +442,13 @@
       "note": "The engagement is at sea off the estuary; no fixed point is given, so the pin marks the open water beyond the ships.",
       "story": "The open water off the Blackwater's mouth where the ironclad ram Thunder Child charges the Martians to buy the steamers their escape — and goes down doing it, the one clear victory in the whole rout.",
       "quote": "This was the ram Thunder Child. It was the only warship in sight.",
-      "quoteRef": "Book I, Ch. 17"
+      "quoteRef": "Book I, Ch. 17",
+      "image": {
+        "file": "assets/images/wotw-thunder-child.jpg",
+        "caption": "The torpedo-ram HMS Polyphemus at sea — the Royal Navy's one true ram, of the very kind the Thunder Child was, that charges the Martians off the Essex coast.",
+        "credit": "Royal Navy photograph, c.1890 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     }
   ],
   "movements": [
