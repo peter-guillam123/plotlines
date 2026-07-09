@@ -65,7 +65,12 @@
       "note": "Portland Place and Langham Place are real and named in the text; the specific new block and first-floor flat are Buchan's invention.",
       "story": "A returned colonial, bored to death with London, comes home to find a frightened stranger on his landing — Scudder, a freelance spy who has faked his own death. Days later Scudder is knifed on the floor, and the plot he carried is now Hannay's to run with, or hang for.",
       "quote": "I returned from the City about three o'clock on that May afternoon pretty well disgusted with life.",
-      "quoteRef": "Ch. 1, the opening line"
+      "quoteRef": "Ch. 1, the opening line",
+      "image": {
+        "file": "assets/images/steps-hannay-flat.jpg",
+        "caption": "All Souls, Langham Place — the Nash church with the needle spire that Hannay gives as the landmark for his flat just behind Portland Place.",
+        "credit": "W. F. Starling / C. J. Hullmandel, 1826 · British Museum · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "moorland-station",
@@ -77,7 +82,8 @@
       "note": "Buchan fictionalises the halt, but scholars and local heritage identify it with the real Gatehouse-of-Fleet station (originally Dromore) on the Galloway 'Port Road' — famously six miles from its town, marooned on open moor at the foot of Cairnsmore, matching Buchan's description exactly. The line and station closed in 1965.",
       "story": "The lonely halt where Hannay leaves the train — no road to it from anywhere, a tarn lapping on grey granite, the moor all around. The perfect country for a hunted man, and the start of five days in the open.",
       "quote": "There seemed no road to it from anywhere, and to increase the desolation the waves of a tarn lapped on their grey granite beach half a mile away.",
-      "quoteRef": "Ch. 2"
+      "quoteRef": "Ch. 2",
+      "imageBlank": "No public-domain contemporaneous photograph of Gatehouse of Fleet station on the old Portpatrick line surfaced; the findable images are all modern and in copyright."
     },
     {
       "id": "cairnsmore",
@@ -89,7 +95,8 @@
       "note": "The one real hill Buchan names in the Galloway chase, and the fixed anchor the fictionalised moorland places cluster around.",
       "story": "Hannay takes to the heather beneath the great hill, curlews and plovers crying everywhere, and for the first time since the murder feels almost free — until the hunt closes in over the open moor.",
       "quote": "Over a long ridge of moorland I took my road, skirting the side of a high hill which the herd had called Cairnsmore of Fleet.",
-      "quoteRef": "Ch. 2"
+      "quoteRef": "Ch. 2",
+      "imageBlank": "No public-domain period view of Cairnsmore of Fleet itself came to hand; the available photographs of the hill are modern, and a different Galloway loch can't honestly stand in for the named summit."
     },
     {
       "id": "inn",
@@ -101,7 +108,13 @@
       "note": "Best guess. The inn is invented and unlocated; placed on the open moor west of Cairnsmore, near the country Buchan drew on. A conjectured pin — the routes touching it are dashed.",
       "story": "A moorland inn kept by a bookish young man aching for adventure. Hannay tells him enough of the truth to win a night's shelter — and the lad holds off the ring's men when they come asking after him.",
       "quote": "Man, I've often thought that an innkeeper would make the best story-teller in the world.",
-      "quoteRef": "Ch. 3, Hannay to the innkeeper"
+      "quoteRef": "Ch. 3, Hannay to the innkeeper",
+      "image": {
+        "file": "assets/images/steps-inn.jpg",
+        "caption": "Loch Trool in the Galloway hills, photographed in 1898 — indicative of the empty upland where Hannay is hunted; the inn among the hills is Buchan's invention.",
+        "credit": "Valentine & Sons, Dundee, 1898 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "sir-harry",
@@ -113,7 +126,8 @@
       "note": "Best guess. The Radical candidate's house is invented and unlocated; placed toward the greener eastern valleys the text describes. Conjectured — dashed routes.",
       "story": "Fleeing across country, Hannay blunders into a by-election and is press-ganged into speaking for Sir Harry, the earnest Liberal candidate — who, hearing the real story afterwards, believes every word and sends him on to his godfather, Sir Walter Bullivant.",
       "quote": "He spoke of Sir Harry's speech as 'statesmanlike', and mine as having 'the eloquence of an emigration agent.'",
-      "quoteRef": "Ch. 4"
+      "quoteRef": "Ch. 4",
+      "imageBlank": "A real Galloway country house would only stand in for an invented one; Sir Harry's house keeps its pin without a borrowed portrait."
     },
     {
       "id": "roadman",
@@ -125,7 +139,8 @@
       "note": "Best guess. The spot where Hannay takes the roadman's place — and where the enemy's monoplane hunts him — is unlocated; placed on the open moor near Cairnsmore. Conjectured — dashed routes.",
       "story": "Hannay changes clothes with a roadman and mends the highway in disguise while the ring's men drive past and their monoplane quarters the sky overhead — the chase's most famous piece of nerve.",
       "quote": "Low down in the south a monoplane was climbing into the heavens.",
-      "quoteRef": "Ch. 5"
+      "quoteRef": "Ch. 5",
+      "imageBlank": "An invented point on the open moor; the one good period Galloway view is already used once, and repeating it here would be generic — a logged blank is honest."
     },
     {
       "id": "archaeologist",
@@ -137,7 +152,8 @@
       "note": "Best guess. The bald archaeologist's house and private aerodrome are invented and unlocated; placed in the greener, planted country east of the watershed the text describes. Conjectured — dashed routes.",
       "story": "A lonely house where the hunt runs Hannay to ground — and he knows the mild, bald host for the ring's leader: the old man with a young voice who can hood his eyes like a hawk. Locked in a store-room, he blasts his way out with the enemy's own explosives.",
       "quote": "an old man with a young voice who could hood his eyes like a hawk.",
-      "quoteRef": "Ch. 1, Scudder's warning — and recognised in Ch. 6"
+      "quoteRef": "Ch. 1, Scudder's warning — and recognised in Ch. 6",
+      "imageBlank": "The house in the fir plantations, with its private aerodrome, is Buchan's invention; there is no truthful period image of a specific place to show."
     },
     {
       "id": "kennet",
@@ -149,7 +165,12 @@
       "note": "Buchan's 'Artinswell… on the Kennet' is identified with Kintbury, between Newbury and Hungerford on the river; Sir Walter Bullivant's Whitsun cottage is fictional.",
       "story": "The chalk-stream water-meadows where Hannay finally reaches Sir Walter Bullivant, fishing for trout on his Whitsun holiday. Here the dead man's notebook is decoded and the plot is proved real.",
       "quote": "I back our Kennet any day against the Test.",
-      "quoteRef": "Ch. 7, Sir Walter"
+      "quoteRef": "Ch. 7, Sir Walter",
+      "image": {
+        "file": "assets/images/steps-kennet.jpg",
+        "caption": "The River Kennet near Newbury, painted by John Linnell — the quiet Berkshire river-valley Buchan renames 'Artinswell', a few miles downstream of Kintbury.",
+        "credit": "John Linnell, 1815 · Fitzwilliam Museum · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "whitehall",
@@ -161,7 +182,12 @@
       "note": "The book keeps Sir Walter's London house unaddressed; the Admiralty circle that gathers over the plot — Whittaker of the Admiralty, the First Sea Lord, the French officer Royer — is placed here at Whitehall.",
       "story": "The London rooms where the counter-plot is laid: the ring — the 'Black Stone' — means to steal the dispositions a French officer is bringing over, and Scudder's last riddle, thirty-nine steps and a high tide, must be cracked before they slip the secret out to sea.",
       "quote": "Thirty-nine steps — I counted them — high tide, 10.17 p.m.",
-      "quoteRef": "Ch. 8, Scudder's note"
+      "quoteRef": "Ch. 8, Scudder's note",
+      "image": {
+        "file": "assets/images/steps-whitehall.jpg",
+        "caption": "The Admiralty boardroom in Whitehall, photographed in 1895 — the panelled room, with its wind-dial over the fireplace, where Hannay carries his warning to the men who run the Navy.",
+        "credit": "From Vesey Hamilton's Naval Administration, 1896 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "broadstairs",
@@ -173,7 +199,12 @@
       "note": "Buchan's 'Bradgate' is Broadstairs, where he convalesced in the summer of 1914 and wrote the book; the seafront and the Griffin Hotel are its real setting.",
       "story": "The Kent seaside resort Buchan calls Bradgate, where Hannay comes down to the coast to hunt for the staircase in Scudder's note — a smooth June sea, a lightship on the sands, and a destroyer lying off the shore.",
       "quote": "A pink and blue June morning found me at Bradgate looking from the Griffin Hotel over a smooth sea to the lightship on the Cock sands.",
-      "quoteRef": "Ch. 10"
+      "quoteRef": "Ch. 10",
+      "image": {
+        "file": "assets/images/steps-broadstairs.jpg",
+        "caption": "Broadstairs and its bay about 1890 — the Kent resort Buchan renames 'Bradgate', where, laid up by illness, he actually wrote the book.",
+        "credit": "Photochrom, Detroit Publishing Co. · Library of Congress · c.1890 · public domain"
+      }
     },
     {
       "id": "north-foreland",
@@ -185,7 +216,12 @@
       "note": "The chalk headland Buchan calls 'the Ruff', where villa staircases run down to private beaches. Per Buchan's son, his daughter counted the wooden steps (seventy-eight) to the beach at the house where they stayed; Buchan halved the number for the title.",
       "story": "The headland where villa staircases run down to private beaches. On one of them Hannay counts thirty-nine steps, finds three ordinary Englishmen playing at innocence — the ring itself — and springs the trap, seven weeks before the war.",
       "quote": "We have got to find a place where there are several staircases down to the beach, one of which has thirty-nine steps.",
-      "quoteRef": "Ch. 9, Hannay"
+      "quoteRef": "Ch. 9, Hannay",
+      "image": {
+        "file": "assets/images/steps-north-foreland.jpg",
+        "caption": "The North Foreland lighthouse above the Kent chalk, near Broadstairs — the headland Buchan calls 'the Ruff', where the thirty-nine steps run down to the sea.",
+        "credit": "James Malton, c.1791 · Yale Center for British Art (CC0) · Wikimedia Commons · public domain"
+      }
     }
   ],
   "movements": [
