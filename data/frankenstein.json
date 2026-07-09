@@ -308,7 +308,8 @@
       "certainty": "real",
       "story": "The open ground just outside the old city walls where little William is found strangled — and where, in a flash of lightning that night, Victor first glimpses the creature he made and knows at once who the murderer is.",
       "quote": "the murderer of my brother",
-      "quoteRef": "Ch. 7"
+      "quoteRef": "Ch. 7",
+      "imageBlank": "The only contemporaneous view of the Plaine de Plainpalais is a festive fête, tonally wrong for the open ground where little William is found strangled; a blank is more honest."
     },
     {
       "id": "chamounix",
@@ -515,7 +516,13 @@
       "note": "Shelley names only 'one of the remotest of the Orkneys' — a bare rock of five inhabitants, three huts, five miles from the mainland. No specific island is given; this point sits among the outer northern isles of Orkney as an editorial best guess. The position is not the novel's.",
       "story": "The bleak rock where Victor sets up his laboratory to build the female creature. Half-finished, appalled at what a race of them might do, he tears the thing apart — and looks up to see the creature watching at the window. That night he rows out and sinks her remains at sea, and is carried off course.",
       "quote": "one of the remotest of the Orkneys as the scene of my labours",
-      "quoteRef": "Ch. 20"
+      "quoteRef": "Ch. 20",
+      "image": {
+        "file": "assets/images/fr-orkney-island.jpg",
+        "caption": "The Old Man of Hoy, a bare sea-stack among the remotest of the Orkneys, in a Daniell aquatint of 1817 — the kind of desolate rock where Victor sets up his second laboratory.",
+        "credit": "William Daniell, 'The Old Man of Hoy', 1817 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "ireland-town",
@@ -588,7 +595,13 @@
       "certainty": "real",
       "story": "Following the creature down the Rhône to the Mediterranean, Victor watches it board a ship for the Black Sea by night and takes passage in the same vessel — the hinge where the pursuit leaves western Europe and turns toward Russia and the ice.",
       "quote": "I saw the fiend enter by night and hide himself in a vessel bound for the Black Sea",
-      "quoteRef": "Ch. 24"
+      "quoteRef": "Ch. 24",
+      "image": {
+        "file": "assets/images/fr-black-sea.jpg",
+        "caption": "Ships on the Black Sea at dusk, painted by Ivan Aivazovsky in 1871 — the sea Victor's creature sails for, taking passage in the same vessel.",
+        "credit": "Ivan Aivazovsky, 1871 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "arctic-coast",
@@ -643,7 +656,12 @@
       ],
       "certainty": "conjectured",
       "note": "The novel sends Victor across 'the northern highlands' to 'the coast' to take a boat for the Orkneys but names no town; Thurso is the natural embarkation on the Caithness shore.",
-      "story": "The north coast of Scotland, where Victor takes a boat out to the remotest of the Orkneys."
+      "story": "The north coast of Scotland, where Victor takes a boat out to the remotest of the Orkneys.",
+      "image": {
+        "file": "assets/images/fr-thurso.jpg",
+        "caption": "Thurso across its bay from Holborn Head, in a William Daniell aquatint of c.1820 — the Caithness coast where Victor takes a boat out to the remote Orkneys.",
+        "credit": "William Daniell, from A Voyage Round Great Britain, c.1820 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "le-havre",
@@ -657,7 +675,12 @@
       "certainty": "real",
       "story": "The French port where Victor and his father land from Ireland, on the road home to Geneva.",
       "quote": "We took our passage on board a vessel bound for Havre-de-Grace",
-      "quoteRef": "leaving Ireland"
+      "quoteRef": "leaving Ireland",
+      "image": {
+        "file": "assets/images/fr-le-havre.jpg",
+        "caption": "The port of Le Havre, painted by Claude Monet in 1874 — where Victor and his father land from Ireland on the road home to Geneva.",
+        "credit": "Claude Monet, 'Port of Le Havre', 1874 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "marseille",
@@ -670,7 +693,8 @@
       ],
       "certainty": "conjectured",
       "note": "Victor follows 'the windings of the Rhone' to 'the blue Mediterranean' and takes ship after the creature; the text names no port, but the Rhone reaches the sea at Marseille.",
-      "story": "Where the Rhone meets the Mediterranean, and Victor takes passage after the creature, bound for the Black Sea."
+      "story": "Where the Rhone meets the Mediterranean, and Victor takes passage after the creature, bound for the Black Sea.",
+      "imageBlank": "The text names only 'the blue Mediterranean'; the one period candidate for the conjectured port of Marseille is a heavily-framed salon plate that would need cropping, so the place keeps its pin without a picture."
     }
   ],
   "movements": [
