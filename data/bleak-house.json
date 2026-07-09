@@ -549,7 +549,8 @@
       "note": "Generally agreed: 'Cook's Court, Cursitor Street' is Dickens's light renaming of the real Took's Court off Cursitor Street. Cursitor Street is real and unchanged; only 'Cook's' stands in for 'Took's'.",
       "story": "Where Mr Snagsby the law-stationer pursues his lawful calling, and copies of a certain law-writer's hand set the whole secret in motion.",
       "quote": "On the eastern borders of Chancery Lane, that is to say, more particularly in Cook's Court, Cursitor Street, Mr. Snagsby, law-stationer, pursues his lawful calling.",
-      "quoteRef": "Ch. 10, The Law-Writer"
+      "quoteRef": "Ch. 10, The Law-Writer",
+      "imageBlank": "No public-domain contemporaneous view of the actual Took's Court / Cursitor Street exists — only modern photographs, or the wrong (grander) building; a blank is more honest than a substitute."
     },
     {
       "id": "krooks-shop",
@@ -648,7 +649,13 @@
       "note": "The Dedlocks' town house in the fashionable West End Dickens satirises. He gives no street or square, only the 'town' counterpart to Chesney Wold, so a Mayfair / St James's position is a defensible best guess.",
       "story": "The cold, grand house where Lady Dedlock keeps her freezing state — and from which, one winter night, she walks out for the last time.",
       "quote": "Lady Dedlock has come up from her place in Lincolnshire (hotly pursued by the fashionable intelligence) to pass a few days at her house in town",
-      "quoteRef": "Ch. 2, In Fashion"
+      "quoteRef": "Ch. 2, In Fashion",
+      "image": {
+        "file": "assets/images/bh-dedlock-town-house.jpg",
+        "caption": "St James's Square, London, in a 1753 engraving — the sort of grand West End square, ringed by aristocratic mansions, where the Dedlocks keep their cold town house, and from which my Lady walks out one winter night for the last time.",
+        "credit": "Thomas Bowles, 'A View of St James's Square', 1753 · Yale Center for British Art · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "greenleaf-school",

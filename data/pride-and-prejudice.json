@@ -576,7 +576,13 @@
       "note": "Best guess. Austen never gives the address of Darcy's London house, only that he keeps one — Sir William asks 'You have a house in town, I conclude?' and Darcy bows. A man of ten thousand a year kept his establishment in the fashionable West End, not at the Gardiners' Cheapside; placed in Mayfair, and deliberately distinct from Gracechurch Street.",
       "story": "Darcy's town house — his London base between Netherfield, Rosings and Pemberley, and (though the novel keeps it quiet) where he directs the secret hunt that saves Lydia.",
       "quote": "“You have a house in town, I conclude?” Mr. Darcy bowed.",
-      "quoteRef": "Sir William at the assembly"
+      "quoteRef": "Sir William at the assembly",
+      "image": {
+        "file": "assets/images/pp-darcy-london.jpg",
+        "caption": "George Street, Hanover Square, in 1812 — a fashionable Mayfair street of the kind where Darcy kept the town house Austen never names, and from which he quietly directed the hunt that saved Lydia.",
+        "credit": "Ackermann's Repository of Arts, 1812 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "hunsford",
@@ -612,7 +618,8 @@
       "note": "Textual down to the name of the inn: a real coaching house on the Hastings road, and the appointed change of horses on the way out of Kent.",
       "story": "Where Lady Catherine's condescension extends to route-planning: change horses at Bromley, mention her name at the Bell, and you will be attended to. Elizabeth and Maria duly pass this way out of Kent.",
       "quote": "Where shall you change horses? Oh, Bromley, of course. If you mention my name at the Bell, you will be attended to.",
-      "quoteRef": "Ch. 37, Lady Catherine"
+      "quoteRef": "Ch. 37, Lady Catherine",
+      "imageBlank": "The Bell inn at Bromley was demolished around 1898 and has no public-domain image; every substitute is the wrong building or a modern photograph, so this precisely-identified place keeps a logged blank."
     },
     {
       "id": "brighton",
