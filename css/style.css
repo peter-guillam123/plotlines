@@ -1269,7 +1269,7 @@ body.is-overture #captions { display: none !important; }
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 6px 16px;
+  padding: 16px 6px 12px;
   border: 1px solid rgba(46, 36, 23, 0.55);
   border-radius: 3px 6px 1px 1px;
   background:
@@ -1293,41 +1293,41 @@ body.is-overture #captions { display: none !important; }
 
 .book-title {
   writing-mode: vertical-rl;
-  max-height: 188px;
+  max-height: 176px;
   overflow: hidden;
   font-family: var(--display);
-  font-size: 16px;
-  line-height: 1.15;
-  letter-spacing: 0.04em;
+  font-size: 14.5px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
   color: var(--lettering, #e6d59a);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
 }
 
 .book-author {
   writing-mode: vertical-rl;
-  max-height: 96px;
+  max-height: 74px;
   overflow: hidden;
-  font-size: 9.5px;
-  letter-spacing: 0.06em;
+  font-size: 8.5px;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--lettering, #e6d59a);
   opacity: 0.85;
 }
 
-/* author (vertical) with a small horizontal date stamped at the foot */
+/* author (vertical), then a small horizontal date stamped low at the foot */
 .book-foot {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 9px;
+  gap: 13px;
 }
 .book-year {
   writing-mode: horizontal-tb;
-  font-size: 9px;
-  letter-spacing: 0.12em;
+  font-size: 7.5px;
+  letter-spacing: 0.14em;
   font-variant-numeric: tabular-nums;
   color: var(--lettering, #e6d59a);
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .library-book-empty {
@@ -1576,6 +1576,10 @@ body.is-overture #captions { display: none !important; }
     padding: 0 10px 10px;
     border-bottom: 10px solid #8a6a45;
     box-shadow: inset 0 -13px 0 -10px #6e5335;
+    /* fade the right edge into the card so a half-cut spine shows there —
+       the affordance that says the shelf swipes sideways for more */
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 30px), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 30px), transparent);
   }
   html.touch .shelf-row { display: contents; }
   html.touch .library-book { height: 150px; }
@@ -1585,10 +1589,14 @@ body.is-overture #captions { display: none !important; }
 
 /* ---- landscape phone: radical declutter for the journey + fixes ---- */
 @media (orientation: landscape) and (max-height: 560px) {
-  /* keep the spine text inside the shortened spines (was overflowing) */
+  /* keep the spine text inside the shortened spines (was overflowing).
+     The short spine can't carry a date too, so drop it here and give the
+     author name the reclaimed room, so long names aren't curtailed. */
   html.touch .library-book { height: 178px; padding: 10px 5px 10px; overflow: hidden; }
-  html.touch .book-title { font-size: 11px; max-height: 108px; line-height: 1.05; }
-  html.touch .book-author { font-size: 8.5px; max-height: 48px; }
+  html.touch .book-title { font-size: 11px; max-height: 90px; line-height: 1.05; }
+  html.touch .book-foot { gap: 0; }
+  html.touch .book-year { display: none; }
+  html.touch .book-author { font-size: 7.5px; max-height: 70px; letter-spacing: 0.04em; }
 
   /* the map attribution is required but must be a whisper, not a banner */
   html.touch .maplibregl-ctrl-attrib { font-size: 9px; line-height: 1.25; padding: 0 4px; }
