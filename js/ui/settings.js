@@ -4,10 +4,11 @@
 // the shelf, and the two standing pages. The top-left masthead stays clean;
 // everything optional lives here.
 
-const COG = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none"
-  stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-  <circle cx="12" cy="12" r="3.2"/>
-  <path d="M12 2.2v2.4M12 19.4v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.2 12h2.4M19.4 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/>
+// A genuine toothed gear (Material's settings glyph), not the radial-spoke
+// icon that reads as a brightness/sun symbol.
+const COG = `<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"
+  fill="currentColor" fill-rule="evenodd">
+  <path d="M19.14 12.94a7.5 7.5 0 0 0 .05-.94 7.5 7.5 0 0 0-.05-.94l2.03-1.58a.5.5 0 0 0 .12-.61l-1.92-3.32a.5.5 0 0 0-.59-.22l-2.39.96a7 7 0 0 0-1.62-.94l-.36-2.54a.5.5 0 0 0-.5-.42h-3.84a.5.5 0 0 0-.5.42l-.36 2.54a7 7 0 0 0-1.62.94l-2.39-.96a.5.5 0 0 0-.59.22L2.7 8.87a.5.5 0 0 0 .12.61l2.03 1.58a7.5 7.5 0 0 0 0 1.88l-2.03 1.58a.5.5 0 0 0-.12.61l1.92 3.32a.5.5 0 0 0 .59.22l2.39-.96a7 7 0 0 0 1.62.94l.36 2.54a.5.5 0 0 0 .5.42h3.84a.5.5 0 0 0 .5-.42l.36-2.54a7 7 0 0 0 1.62-.94l2.39.96a.5.5 0 0 0 .59-.22l1.92-3.32a.5.5 0 0 0-.12-.61l-2.03-1.58zM12 15.4A3.4 3.4 0 1 1 12 8.6a3.4 3.4 0 0 1 0 6.8z"/>
 </svg>`;
 
 export function createSettings(map, { overlay } = {}) {
@@ -36,7 +37,7 @@ export function createSettings(map, { overlay } = {}) {
   pane.innerHTML = `
     ${sliderBlock}
     <nav class="settings-links" aria-label="PlotLines">
-      <a href="./" class="settings-link">&#8617;&#8194;The library</a>
+      <a href="./" class="settings-link">The library</a>
       <a href="about.html" class="settings-link">How it works</a>
       <a href="workshop.html" class="settings-link">How it&rsquo;s made</a>
     </nav>`;

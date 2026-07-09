@@ -997,14 +997,19 @@ body.is-overture #storycard { display: none !important; }
   z-index: 5;
   margin: 0;
 }
-.settings-cog {
+/* Beat MapLibre's own `.maplibregl-ctrl-group button` rule (more specific
+   than a lone class) so the flex centring actually applies. */
+.settings-fab .settings-cog {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 29px;
+  height: 29px;
+  padding: 0;
   color: var(--ink);
 }
-.settings-cog svg { display: block; transition: transform 0.3s ease; }
-.settings-cog[aria-expanded='true'] svg { transform: rotate(60deg); }
+.settings-fab .settings-cog svg { display: block; transition: transform 0.3s ease; }
+.settings-fab .settings-cog[aria-expanded='true'] svg { transform: rotate(60deg); }
 
 .settings-pane {
   position: absolute;
