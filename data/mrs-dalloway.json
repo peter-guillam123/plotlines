@@ -207,7 +207,12 @@
       "certainty": "real",
       "story": "Clarissa walks up Bond Street for her flowers; here the morning's first convergence gathers, as a car backfires and the whole street — Clarissa, Septimus, Rezia — looks the same way at once.",
       "quote": "this astonishing and rather solemn progress with the rest of them, up Bond Street, this being Mrs. Dalloway; not even Clarissa any more; this being Mrs. Richard Dalloway.",
-      "quoteRef": "Clarissa in Bond Street"
+      "quoteRef": "Clarissa in Bond Street",
+      "image": {
+        "file": "assets/images/md-bond-street.jpg",
+        "caption": "Bond Street, Mayfair, etched by Ian Strang in 1929 — the shopping street Clarissa walks up for her flowers, where the backfiring motor car halts the whole pavement.",
+        "credit": "Ian Strang etching, 1929 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "mulberrys",
@@ -222,7 +227,8 @@
       "note": "Best guess. Mulberry's is a fictional florist, fixed by the text to the northern stretch of New Bond Street — the backfiring car drew up 'precisely opposite Mulberry's shop window', the rumour spreading 'to Oxford Street on one side, to Atkinson's scent shop on the other'. A representative shopfront; the exact door is invented. The grey motor car halts here too.",
       "story": "Clarissa buys her flowers from Miss Pym when a car backfires outside — the morning's first great convergence, and the moment she and Septimus stand unknowing in the same crowd.",
       "quote": "Nonsense, nonsense! she cried to herself, pushing through the swing doors of Mulberry’s the florists.",
-      "quoteRef": "Clarissa entering the florist"
+      "quoteRef": "Clarissa entering the florist",
+      "imageBlank": "Mulberry's the florist is invented; the one period Bond Street view is already used, and no distinct honest shopfront exists."
     },
     {
       "id": "hatchards",
@@ -236,7 +242,13 @@
       "certainty": "real",
       "story": "Clarissa stops at the bookshop window and reads the open page of Cymbeline — 'Fear no more the heat o' the sun' — the day's recurring refrain.",
       "quote": "But what was she dreaming as she looked into Hatchards’ shop window?",
-      "quoteRef": "Clarissa at the bookshop window"
+      "quoteRef": "Clarissa at the bookshop window",
+      "image": {
+        "file": "assets/images/md-hatchards.jpg",
+        "caption": "Piccadilly, the street of Hatchards' bookshop, on a postcard of about 1910 — Clarissa pauses at the shop window over an open Cymbeline, 'Fear no more the heat o' the sun'.",
+        "credit": "LL postcard, c.1910 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "regents-park",
@@ -250,7 +262,8 @@
       "certainty": "real",
       "story": "Septimus and Rezia sit on a bench while the aeroplane skywrites overhead and he sees the dead Evans; here, at the fountain, Rezia cries 'I am alone', and here Peter Walsh, dozing nearby, passes the same couple without knowing them.",
       "quote": "Lucrezia Warren Smith, sitting by her husband’s side on a seat in Regent’s Park in the Broad Walk, looked up.",
-      "quoteRef": "Septimus and Rezia in Regent's Park"
+      "quoteRef": "Septimus and Rezia in Regent's Park",
+      "imageBlank": "No period view of the Broad Walk, where the Warren Smiths sit and Peter Walsh passes, exists; the only Regent's Park candidate is already used elsewhere on the shelf, so a blank rather than a duplicate."
     },
     {
       "id": "harley-street",
@@ -264,7 +277,8 @@
       "certainty": "real",
       "story": "Septimus and Rezia walk down Harley Street to their noon appointment with Sir William Bradshaw, who condemns Septimus to a rest-home.",
       "quote": "twelve o’clock struck as Clarissa Dalloway laid her green dress on her bed, and the Warren Smiths walked down Harley Street. Twelve was the hour of their appointment.",
-      "quoteRef": "The Warren Smiths reach Bradshaw"
+      "quoteRef": "The Warren Smiths reach Bradshaw",
+      "imageBlank": "No pre-1930 view of Harley Street survives in the public domain — only modern house frontages; a blank beats an anachronistic substitute."
     },
     {
       "id": "septimus-lodging",
@@ -279,7 +293,13 @@
       "note": "Best guess. Mrs Filmer's house — the Smiths' lodging and the site of Septimus's suicide — has no address, but the text locates it twice: 'admirable lodgings off the Tottenham Court Road' and 'the large Bloomsbury-lodging house window'. Placed representatively in Bloomsbury just east of Tottenham Court Road; the exact house is invented.",
       "story": "The Smiths' rented rooms; cornered by Dr Holmes, Septimus throws himself from the window that afternoon.",
       "quote": "There remained only the window, the large Bloomsbury-lodging house window, the tiresome, the troublesome, and rather melodramatic business of opening the window and throwing himself out.",
-      "quoteRef": "Septimus at the window"
+      "quoteRef": "Septimus at the window",
+      "image": {
+        "file": "assets/images/md-septimus-lodging.jpg",
+        "caption": "The corner of Tottenham Court Road, thronged with horse omnibuses about 1901 — the Warren Smiths lodge just off this road, and from its window Septimus throws himself.",
+        "credit": "LL postcard, 1901 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "brook-street",
@@ -294,7 +314,8 @@
       "note": "Real street, no house number. Woolf sets Lady Bruton's luncheon 'in Brook Street', Mayfair; the individual house is not given.",
       "story": "Lady Bruton's Mayfair luncheon, which pointedly excludes Clarissa; Richard Dalloway and Hugh Whitbread lunch here and help draft her letter on emigration to Canada.",
       "quote": "and spread round the house in Brook Street a fine net where things lodged and were picked out accurately, instantly",
-      "quoteRef": "Lady Bruton's luncheon in Brook Street"
+      "quoteRef": "Lady Bruton's luncheon in Brook Street",
+      "imageBlank": "Brook Street, Mayfair, has no pre-1930 view in the public domain; a blank beats a generic Mayfair substitute."
     },
     {
       "id": "green-park",
@@ -308,7 +329,8 @@
       "certainty": "real",
       "story": "Richard Dalloway, carrying red and white roses home to tell Clarissa he loves her, crosses Green Park past the sprawling poor and a female vagrant.",
       "quote": "Because it is a thousand pities never to say what one feels, he thought, crossing the Green Park",
-      "quoteRef": "Richard walking home through Green Park"
+      "quoteRef": "Richard walking home through Green Park",
+      "imageBlank": "The only period view of Green Park is a Regency promenade of about 1830, a century early and wrong in costume for Richard Dalloway's 1923 crossing; a blank is more honest."
     },
     {
       "id": "buckingham-palace",
@@ -381,7 +403,8 @@
       "note": "Real shop, area-precise. Woolf names 'the Army and Navy Stores' and has Elizabeth wait 'in Victoria Street' for her omnibus straight after. The Army & Navy Co-operative Stores stood at 105 Victoria Street; pinned to that site.",
       "story": "Miss Kilman takes Elizabeth to tea and clings to her miserably; Elizabeth escapes into Victoria Street to catch a bus.",
       "quote": "It had been so stuffy in the Army and Navy Stores.",
-      "quoteRef": "Miss Kilman and Elizabeth at the Stores"
+      "quoteRef": "Miss Kilman and Elizabeth at the Stores",
+      "imageBlank": "The one period image of the Army & Navy Stores is a postcard whose public-domain status on Commons is unreliably tagged; under a strict public-domain rule, a blank beats uncertain provenance."
     },
     {
       "id": "the-strand",
@@ -415,7 +438,12 @@
       "note": "Peter Walsh's hotel is placed in Bloomsbury but never addressed; pinned to the Bloomsbury squares. It is on the walk back here, crossing toward Tottenham Court Road, that Peter hears the ambulance.",
       "story": "Peter Walsh's hotel among the lit squares; here he dines, and from here he walks to the party opening the big blade of his pocket-knife.",
       "quote": "It is Clarissa herself, he thought, with a deep emotion, and an extraordinarily clear, yet puzzling, recollection of her",
-      "quoteRef": "Peter Walsh, evening, toward the party"
+      "quoteRef": "Peter Walsh, evening, toward the party",
+      "image": {
+        "file": "assets/images/md-bloomsbury.jpg",
+        "caption": "The British Museum, at the heart of Bloomsbury, in a photochrom of the 1890s — the district of lit squares where Peter Walsh keeps his hotel and dines alone before the party.",
+        "credit": "Detroit Publishing Co. photochrom, c.1890s · Library of Congress · public domain"
+      }
     },
     {
       "id": "greenwich",
