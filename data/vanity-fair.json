@@ -161,7 +161,12 @@
       "note": "Chiswick Mall is real; the academy is fictional but explicitly sited there.",
       "story": "Miss Pinkerton's genteel academy on the real riverside street of Chiswick Mall, where the book opens: Becky and Amelia are turned out into the world, and Becky flings the presentation dictionary back into the garden.",
       "quote": "So much for the Dixonary; and, thank God, I'm out of Chiswick.",
-      "quoteRef": "Ch. 2, Becky"
+      "quoteRef": "Ch. 2, Becky",
+      "image": {
+        "file": "assets/images/vf-chiswick.jpg",
+        "caption": "Chiswick Mall from the Thames, 1829 — the riverside terrace where Miss Pinkerton's academy stood, its church and the Red Lion named along the front.",
+        "credit": "From Samuel Leigh's panorama of the Thames, 1829 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "russell-square",
@@ -170,7 +175,8 @@
       "novelName": "Russell Square",
       "coords": [-0.1257, 51.5222],
       "certainty": "real",
-      "story": "The Bloomsbury square where the wealthy Sedleys and, facing them, the Osbornes both live — the comfortable world Amelia is born into and loses when her father is ruined, and to which she gives up her son."
+      "story": "The Bloomsbury square where the wealthy Sedleys and, facing them, the Osbornes both live — the comfortable world Amelia is born into and loses when her father is ruined, and to which she gives up her son.",
+      "imageBlank": "No contemporaneous view of Russell Square itself came to hand; the Sedleys' Bloomsbury house keeps its pin rather than borrow a generic square."
     },
     {
       "id": "queens-crawley",
@@ -180,7 +186,13 @@
       "coords": [-1.2, 51.02],
       "certainty": "conjectured",
       "note": "Best guess. Queen's Crawley and its villages (Mudbury, Squashmore) are fictional; the text fixes only 'Hants', within reach of Southampton. Placed in central Hampshire and flagged conjectured.",
-      "story": "Sir Pitt Crawley's crumbling Hampshire seat, where Becky goes as governess and lays the foundations of her fortune — charming the old baronet and secretly marrying his son Rawdon. Wholly invented; the text places it in Hampshire, near a Southampton doctor."
+      "story": "Sir Pitt Crawley's crumbling Hampshire seat, where Becky goes as governess and lays the foundations of her fortune — charming the old baronet and secretly marrying his son Rawdon. Wholly invented; the text places it in Hampshire, near a Southampton doctor.",
+      "image": {
+        "file": "assets/images/vf-queens-crawley.jpg",
+        "caption": "Bramshill House, Hampshire — a great Jacobean seat of the kind imagined for Sir Pitt Crawley's shabby-grand old hall. Indicative; Queen's Crawley is invented.",
+        "credit": "Drawn by J. P. Neale, from Views of the Seats of Noblemen and Gentlemen (1818) · British Library · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "brighton",
@@ -189,7 +201,12 @@
       "novelName": "Brighton",
       "coords": [-0.1372, 50.8225],
       "certainty": "real",
-      "story": "The seaside resort of George and Amelia's honeymoon, where Becky and Rawdon join them — until Dobbin brings the order that sends the regiment abroad, and the whole party for the war."
+      "story": "The seaside resort of George and Amelia's honeymoon, where Becky and Rawdon join them — until Dobbin brings the order that sends the regiment abroad, and the whole party for the war.",
+      "image": {
+        "file": "assets/images/vf-brighton.jpg",
+        "caption": "The Chain Pier at Brighton, painted by John Constable in 1826–27 — the fashionable seafront where Rawdon and Becky take their honeymoon.",
+        "credit": "John Constable, Chain Pier, Brighton (1826–27) · Tate · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "curzon-street",
@@ -199,7 +216,8 @@
       "coords": [-0.147, 51.5065],
       "certainty": "real",
       "note": "Curzon Street is real Mayfair; the house number is invented.",
-      "story": "Becky and Rawdon's married house in Mayfair, the height of her rise — 'living well on nothing a year', received at Court, the favourite of Lord Steyne — and the scene of the scandal that brings it all down."
+      "story": "Becky and Rawdon's married house in Mayfair, the height of her rise — 'living well on nothing a year', received at Court, the favourite of Lord Steyne — and the scene of the scandal that brings it all down.",
+      "imageBlank": "No verifiable period view of Curzon Street itself; Becky's Mayfair address keeps its pin and its paragraph rather than a borrowed street scene."
     },
     {
       "id": "fulham",
@@ -208,7 +226,12 @@
       "novelName": "Fulham",
       "coords": [-0.195, 51.47],
       "certainty": "real",
-      "story": "The modest cottage where the widowed Amelia lives out her years of genteel poverty with her parents and little Georgy, before the son is given up to old Osborne's wealth."
+      "story": "The modest cottage where the widowed Amelia lives out her years of genteel poverty with her parents and little Georgy, before the son is given up to old Osborne's wealth.",
+      "image": {
+        "file": "assets/images/vf-fulham.jpg",
+        "caption": "Fulham, etched by James McNeill Whistler c.1879 — the old wooden bridge and All Saints' tower on the Thames, near Amelia's genteel poverty.",
+        "credit": "James McNeill Whistler, Fulham (c.1879) · Library of Congress · public domain"
+      }
     },
     {
       "id": "ostend",
@@ -217,7 +240,12 @@
       "novelName": "Ostend",
       "coords": [2.9286, 51.2154],
       "certainty": "real",
-      "story": "The Belgian port where the packet lands the regiment and its followers, on the road to the war — Ghent and Bruges beyond it, and Brussels at the end."
+      "story": "The Belgian port where the packet lands the regiment and its followers, on the road to the war — Ghent and Bruges beyond it, and Brussels at the end.",
+      "image": {
+        "file": "assets/images/vf-ostend.jpg",
+        "caption": "The harbour at Ostend in a squall, Andreas Achenbach, 1858 — the Belgian packet port on the road to Brussels.",
+        "credit": "Andreas Achenbach, The Harbour at Ostend (1858) · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "brussels",
@@ -226,7 +254,12 @@
       "novelName": "Brussels",
       "coords": [4.3517, 50.8503],
       "certainty": "real",
-      "story": "Where the army gathers and the English wait — the Duchess of Richmond's ball on the eve, the guns heard in the night, and Amelia praying through the day of the battle a few miles to the south."
+      "story": "Where the army gathers and the English wait — the Duchess of Richmond's ball on the eve, the guns heard in the night, and Amelia praying through the day of the battle a few miles to the south.",
+      "image": {
+        "file": "assets/images/vf-brussels.jpg",
+        "caption": "The Grand-Place, Brussels, photographed c.1875 — the city filling with English visitors on the eve of Waterloo.",
+        "credit": "Anonymous photograph, c.1875 · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "waterloo",
@@ -238,7 +271,12 @@
       "note": "The battlefield at Mont-Saint-Jean, Braine-l'Alleud; the Lion's Mound marker was raised 1820–26, after the battle.",
       "story": "The field south of Brussels where the battle is fought on 18 June 1815 — and where George Osborne is killed, a bullet through his heart, in the book's most famous line.",
       "quote": "Amelia was praying for George, who was lying on his face, dead, with a bullet through his heart.",
-      "quoteRef": "Ch. 32"
+      "quoteRef": "Ch. 32",
+      "image": {
+        "file": "assets/images/vf-waterloo.jpg",
+        "caption": "The field of Waterloo, drawn on the spot in 1816 — the quiet farmland at Mont-Saint-Jean a year after the battle that widows Amelia in a sentence.",
+        "credit": "Robert Hills, from Sketches in Flanders and Holland (1816) · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "boulogne",
@@ -249,7 +287,12 @@
       "certainty": "real",
       "story": "The French coast where Becky begins her long Continental exile after the scandal — 'Queen of British Boulogne' for a season, until the old creditors and the old stories find her out and move her on.",
       "quote": "the French coast at Boulogne, that refuge of so much exiled English.",
-      "quoteRef": "Ch. 64"
+      "quoteRef": "Ch. 64",
+      "image": {
+        "file": "assets/images/vf-boulogne.jpg",
+        "caption": "Boulogne harbour, painted by Richard Parkes Bonington c.1823 — the cheap Channel port the ruined Sedleys and old Osborne retreat to.",
+        "credit": "Richard Parkes Bonington, Boulogne Harbour (c.1823) · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "pumpernickel",
@@ -259,7 +302,13 @@
       "coords": [11.3235, 50.9795],
       "certainty": "conjectured",
       "note": "Pumpernickel is fictional; placed at Weimar, the town it is generally identified with, and flagged conjectured.",
-      "story": "Thackeray's invented little German grand-duchy, with its court and its opera — where Amelia, Dobbin and Jos come to rest at the end, and where a sunk and shabby Becky reappears to close the account. Long identified with Weimar, where Thackeray had stayed."
+      "story": "Thackeray's invented little German grand-duchy, with its court and its opera — where Amelia, Dobbin and Jos come to rest at the end, and where a sunk and shabby Becky reappears to close the account. Long identified with Weimar, where Thackeray had stayed.",
+      "image": {
+        "file": "assets/images/vf-pumpernickel.jpg",
+        "caption": "The market place at Weimar, c.1900 — the little German court-town generally taken for Thackeray's Pumpernickel, where the puppets go back into the box. Indicative.",
+        "credit": "Postcard after a Weimar view, c.1900 · Zeno.org · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     }
   ],
   "movements": [
