@@ -317,7 +317,12 @@
       "certainty": "real",
       "story": "Crossing the Danube here, Jonathan feels he is leaving the West and entering the East.",
       "quote": "The impression I had was that we were leaving the West and entering the East",
-      "quoteRef": "Ch. 1, Jonathan Harker's Journal"
+      "quoteRef": "Ch. 1, Jonathan Harker's Journal",
+      "image": {
+        "file": "assets/images/dr-budapest.jpg",
+        "caption": "The Danube at Budapest, the Chain Bridge and Buda Castle beyond, photographed in the 1890s — the crossing where Jonathan feels he is leaving the West for the East.",
+        "credit": "Fortepan / Budapest City Archives, 1890s · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "klausenburgh",
@@ -350,7 +355,12 @@
       "certainty": "real",
       "story": "The Golden Krone Hotel. The landlady begs him not to travel on the eve of St George's Day, and presses her crucifix on him.",
       "quote": "Bistritz, which is a very interesting old place",
-      "quoteRef": "Ch. 1, Jonathan Harker's Journal"
+      "quoteRef": "Ch. 1, Jonathan Harker's Journal",
+      "image": {
+        "file": "assets/images/dr-bistritz.jpg",
+        "caption": "The Saxon Evangelical church and market square of Bistrița (Bistritz), Transylvania — the town of the Golden Krone Hotel, where the landlady presses her crucifix on Jonathan.",
+        "credit": "K.u.k. Kriegspressequartier, c.1916 · Austrian National Library · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "borgo-pass",
@@ -364,7 +374,8 @@
       "certainty": "real",
       "story": "The fellow passengers cross themselves as the diligence climbs; at the summit, a calèche with a driver of prodigious strength is waiting.",
       "quote": "At the Borgo Pass my carriage will await you and will bring you to me",
-      "quoteRef": "Ch. 1, letter, Count Dracula to Jonathan Harker"
+      "quoteRef": "Ch. 1, letter, Count Dracula to Jonathan Harker",
+      "imageBlank": "No honest period image of the Borgo Pass exists; a generic Carpathian view would only duplicate the Castle Dracula picture."
     },
     {
       "id": "castle-dracula",
@@ -437,7 +448,12 @@
       "certainty": "real",
       "story": "Lucy and Mina's favourite seat among the graves. On the night of the great storm's aftermath, Mina finds Lucy here at midnight — with something long and black bending over her.",
       "quote": "This is to my mind the nicest spot in Whitby",
-      "quoteRef": "Ch. 6, Mina Murray's Journal"
+      "quoteRef": "Ch. 6, Mina Murray's Journal",
+      "image": {
+        "file": "assets/images/dr-east-cliff-churchyard.jpg",
+        "caption": "St Mary's church and its churchyard on Whitby's East Cliff, photographed c.1890 — Lucy and Mina's favourite seat among the graves, where Mina finds Lucy at midnight.",
+        "credit": "Photochrom, c.1890 · Library of Congress · public domain"
+      }
     },
     {
       "id": "tate-hill-pier",
@@ -451,7 +467,8 @@
       "certainty": "real",
       "story": "The derelict Demeter drives ashore in the storm, her dead captain lashed to the wheel — and an immense dog leaps from her bow and vanishes up the cliff.",
       "quote": "an immense dog sprang up on deck from below",
-      "quoteRef": "Ch. 7, cutting from \"The Dailygraph\""
+      "quoteRef": "Ch. 7, cutting from \"The Dailygraph\"",
+      "imageBlank": "No period photograph of Tate Hill Pier itself exists; the one candidate is a soft watercolour of the general harbour that neither shows the pier nor matches Whitby's photographic images."
     },
     {
       "id": "kings-cross",
@@ -485,7 +502,8 @@
       "note": "The hospital is Stoker's invention; this point stands in central Pest.",
       "story": "Jonathan surfaces here after his escape, six weeks gone with brain fever. Mina travels out to nurse him, and they are married at his bedside.",
       "quote": "He has been under our care for nearly six weeks, suffering from a violent brain fever",
-      "quoteRef": "Ch. 8, letter, Sister Agatha"
+      "quoteRef": "Ch. 8, letter, Sister Agatha",
+      "imageBlank": "The hospital is invented; Budapest is already pictured, and there is no honest view of this fictional building."
     },
     {
       "id": "exeter",
@@ -519,7 +537,8 @@
       "note": "The Westenra house is fictional. Stoker's geography (Hampstead Heath close by, the 17 miles to Purfleet) points to Hampstead; this point is an editorial best guess there.",
       "story": "The Westenra house. Lucy fades here despite the transfusions of four men; the wolf comes through the window; her mother dies of the shock, and Lucy follows.",
       "quote": "You are to come to lunch at Hillingham to-morrow, two o'clock, so as not to arouse any suspicion in Mrs. Westenra",
-      "quoteRef": "Ch. 9, letter, Dr. Seward to Arthur Holmwood"
+      "quoteRef": "Ch. 9, letter, Dr. Seward to Arthur Holmwood",
+      "imageBlank": "The Westenra house is fictional and cannot be honestly pictured."
     },
     {
       "id": "carfax",
@@ -534,7 +553,8 @@
       "note": "Stoker places Carfax at Purfleet, Essex, but the estate itself is invented. This point sits by the old chalk quarries at Purfleet.",
       "story": "The Count's first English lair — the estate Jonathan sold him without knowing it. The hunters' first raid finds the chapel reeking and swarming with rats, and seals its boxes one by one.",
       "quote": "At Purfleet, on a by-road, I came across just such a place as seemed to be required",
-      "quoteRef": "Ch. 2, Jonathan Harker's Journal"
+      "quoteRef": "Ch. 2, Jonathan Harker's Journal",
+      "imageBlank": "Carfax is a fictional Purfleet estate with no real place to photograph."
     },
     {
       "id": "seward-asylum",
@@ -549,7 +569,8 @@
       "note": "Fictional, but the novel is explicit that it adjoins Carfax — so it is drawn next door.",
       "story": "Dr Seward's asylum, next door to Carfax. Renfield catalogues his flies and spiders here, is broken by his master, and dies of it; Mina, sleeping under this roof, is attacked.",
       "quote": "a very large house only recently added to and formed into a private lunatic asylum",
-      "quoteRef": "Ch. 2, Jonathan Harker's Journal"
+      "quoteRef": "Ch. 2, Jonathan Harker's Journal",
+      "imageBlank": "Dr Seward's asylum is invented; no honest specific image exists."
     },
     {
       "id": "piccadilly",
@@ -584,7 +605,12 @@
       "note": "'Kingstead' is generally identified with Highgate Cemetery — close to Hampstead Heath, where the 'bloofer lady' walked.",
       "story": "Lucy's tomb. Van Helsing proves the empty coffin to unbelieving men, and Arthur — her fiancé — drives the stake at last.",
       "quote": "I want you to come with me, and to come in secret, to the churchyard at Kingstead",
-      "quoteRef": "Ch. 15, Van Helsing to Arthur Holmwood"
+      "quoteRef": "Ch. 15, Van Helsing to Arthur Holmwood",
+      "image": {
+        "file": "assets/images/dr-kingstead.jpg",
+        "caption": "The Gothic entrance to Highgate Cemetery — Stoker's 'Kingstead' — in a wood engraving of 1838, the burial ground where Van Helsing proves Lucy's empty coffin and Arthur drives the stake.",
+        "credit": "The Mirror of Literature, 1838 · British Library · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "hampstead-heath",
@@ -598,7 +624,12 @@
       "certainty": "real",
       "story": "Where the newspapers' 'bloofer lady' lures children after dark, each returned with small wounds at the throat.",
       "quote": "The neighbourhood of Hampstead is just at present exercised with a series of events",
-      "quoteRef": "Ch. 13, The Westminster Gazette, 25 September"
+      "quoteRef": "Ch. 13, The Westminster Gazette, 25 September",
+      "image": {
+        "file": "assets/images/dr-hampstead-heath.jpg",
+        "caption": "The Firs on Hampstead Heath at dusk, painted by William James Callcott in 1885 — the ground where the newspapers' 'bloofer lady' lures children after dark.",
+        "credit": "William James Callcott, 1885 · Art UK · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "chicksand-street",
@@ -612,7 +643,8 @@
       "certainty": "real",
       "story": "One of the Count's east-London depots, run to ground by Jonathan's patient detective work and sterilised on the last day in London.",
       "quote": "197, Chicksand Street, Mile End New Town",
-      "quoteRef": "Ch. 20, Jonathan Harker's Journal"
+      "quoteRef": "Ch. 20, Jonathan Harker's Journal",
+      "imageBlank": "The Count's depot at 197 Chicksand Street can't be honestly pictured, and generic Whitechapel views carry Ripper-era connotations wrong for a brief plot depot."
     },
     {
       "id": "jamaica-lane",
@@ -627,7 +659,8 @@
       "note": "Stoker's 'Jamaica Lane' is usually read as the Jamaica Road area of Bermondsey.",
       "story": "The Bermondsey depot south of the river — found, entered and sterilised the same day as Mile End.",
       "quote": "Jamaica Lane, Bermondsey",
-      "quoteRef": "Ch. 20, Jonathan Harker's Journal"
+      "quoteRef": "Ch. 20, Jonathan Harker's Journal",
+      "imageBlank": "This Bermondsey depot can't be honestly pictured; generic East End slum photography would be both generic and editorially loaded."
     },
     {
       "id": "doolittles-wharf",
@@ -642,7 +675,8 @@
       "note": "The wharf is fictional. The Czarina Catherine sailed from the Thames below the Pool; this point is an editorial best guess there.",
       "story": "The Czarina Catherine takes on a single great box here, cleared for Varna — the Count shipping himself home.",
       "quote": "she sail from Doolittle's Wharf for Varna, and thence on to other parts and up the Danube",
-      "quoteRef": "Ch. 24, Van Helsing, in Dr. Seward's Diary"
+      "quoteRef": "Ch. 24, Van Helsing, in Dr. Seward's Diary",
+      "imageBlank": "An invented Thames wharf; no specific period view exists, and a generic dock photograph would be filler."
     },
     {
       "id": "charing-cross",
@@ -675,7 +709,12 @@
       "certainty": "real",
       "story": "One night only: the places secured for them on the Orient Express.",
       "quote": "got to Paris the same night, and took the places secured for us in the Orient Express",
-      "quoteRef": "Ch. 25, Jonathan Harker's Journal"
+      "quoteRef": "Ch. 25, Jonathan Harker's Journal",
+      "image": {
+        "file": "assets/images/dr-paris.jpg",
+        "caption": "The Gare de l'Est in Paris, terminus of the Orient Express, photographed around 1900 — where the party's places east are secured for a single night.",
+        "credit": "Henri Ferrand, c.1900 · Bibliothèque nationale de France · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "amsterdam",
@@ -689,7 +728,12 @@
       "certainty": "real",
       "story": "Van Helsing's home. He shuttles back and forth for his books, his instruments and his garlic.",
       "quote": "my old friend and master, Professor Van Helsing, of Amsterdam",
-      "quoteRef": "Ch. 9, letter, Dr. Seward"
+      "quoteRef": "Ch. 9, letter, Dr. Seward",
+      "image": {
+        "file": "assets/images/dr-amsterdam.jpg",
+        "caption": "The Herengracht canal in Amsterdam, photographed c.1890 — Van Helsing's home city, which he shuttles back to for his books, his instruments and his garlic.",
+        "credit": "Photochrom, c.1890 · Library of Congress · public domain"
+      }
     },
     {
       "id": "galatz",
@@ -703,7 +747,8 @@
       "certainty": "real",
       "story": "The ship gives everyone the slip and lands here instead of Varna; the box passes into Szgany hands, and the pursuit splits into three prongs.",
       "quote": "reported entering Galatz at one o'clock to-day",
-      "quoteRef": "Ch. 25, telegram, Rufus Smith to Lord Godalming"
+      "quoteRef": "Ch. 25, telegram, Rufus Smith to Lord Godalming",
+      "imageBlank": "The only pre-1930 Galați material is a city plan and railway engineering photographs — no honest town or Danube-port view exists."
     },
     {
       "id": "veresti",
@@ -717,7 +762,8 @@
       "certainty": "real",
       "story": "Railhead of the first prong: Van Helsing and Mina leave the train here and take a carriage into the snow, making for the Borgo Pass.",
       "quote": "Veresti",
-      "quoteRef": "Ch. 26"
+      "quoteRef": "Ch. 26",
+      "imageBlank": "Verești is a tiny railhead with no period image; an indicative Carpathian view would merely duplicate the Castle Dracula picture."
     }
   ],
   "movements": [
