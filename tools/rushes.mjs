@@ -167,10 +167,19 @@ for (const f of analyseSpills(novel)) {
   warns.push(`route ${f.mode} ${f.from}->${f.to}: drawn ${medium} for ${Math.round(f.maxRun)}km (${f.pct.toFixed(0)}% of the leg) — add via points, or tag the medium`);
 }
 
+// Image coverage, surfaced here so the picture pass can't quietly drop off:
+// rushes is the gate you always run. This line is a reminder, not the gate —
+// `tools/images.mjs` is the gate that fails on an unreviewed place.
+const imaged = novel.locations.filter((l) => l.image && l.image.file).length;
+const imgBlank = novel.locations.filter((l) => typeof l.imageBlank === 'string' && l.imageBlank.trim()).length;
+const unreviewed = novel.locations.length - imaged - imgBlank;
+
 const m = Math.floor(total / 60), s = Math.round(total % 60);
 console.log(`RUSHES — ${novel.title}`);
 console.log(`  beats: ${story.length}   runtime at 1x: ${m}m${String(s).padStart(2, '0')}s`);
 console.log(`  errors: ${errors.length}   warnings: ${warns.length}`);
+console.log(`  images: ${imaged} placed · ${imgBlank} blank · ${unreviewed} unreviewed` +
+  (unreviewed ? `   → run: node tools/images.mjs ${novelPath}` : ''));
 for (const e of errors) console.log(`  E ${e}`);
 for (const w of warns) console.log(`  W ${w}`);
 process.exit(errors.length ? 1 : 0);

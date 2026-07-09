@@ -272,13 +272,26 @@ spine: **the image type tracks the place's certainty.**
 ```
 
 - **Real / identified place** → a *contemporaneous photograph or
-  engraving* of the actual place. No `indicative` flag.
+  engraving* of the actual place. No `indicative` flag. (A real place under
+  an invented name whose exact spot can't be honestly pictured — Marlott is
+  Marnhull — may use an indicative regional view instead; that's allowed.)
 - **Conjectured (imagined) place** → there is nothing to photograph, so
   use a *period painting of the real country the fiction is anchored to*
   (the Carpathians for Castle Dracula), and set `"indicative": true` — it
   gets an "Indicative" corner badge and reads as mood, never as record.
   If a fictional place has no evocative real region (a nondescript London
   villa), **use no image** rather than a generic one.
+
+**Every place is a decided question.** A location either carries an `image`,
+or records a considered blank so the decision is in the data, not lost:
+
+```jsonc
+"imageBlank": "the only period image of Galatz is a Roma genre study, not a view of the town"
+```
+
+A location with *neither* is **unreviewed** — the picture pass hasn't been
+done for it, and the book isn't finished. The gate below is what makes that
+visible instead of silently forgotten.
 
 Sourcing rules, non-negotiable:
 
@@ -306,6 +319,14 @@ if needed, and record the attribution. Sharpen a vague query with a date or
 a landmark ("Suez Canal 1869", "San Francisco 1878 panorama"). The
 assistant can view the thumbnails and do the honesty pass itself, then
 surface a shortlist for the editor to choose from.
+
+**The gate.** `node tools/images.mjs data/<slug>.json` reports, per place,
+*placed · blank · unreviewed*, and exits non-zero while anything is
+unreviewed. It also checks the files are in the repo (never hotlinked) and
+that no invented place shows a real photo of itself. Run it with no argument
+to sweep the whole shelf. `rushes` prints the same one-line tally on every
+run, so the picture step can't quietly drop off — the failure mode this gate
+exists to prevent.
 
 ---
 
@@ -341,17 +362,25 @@ The pipeline that produced the honest datasets, in order:
    non-travel one, invisible to the mechanical gates — has been *missed*
    (it is why P&P nearly shipped without Mr Collins). A novel isn't finished
    without both an honest dataset and a watchable, complete script.
-8. **Update** the About page (a diary entry + any new attribution) and add
+8. **Images** — the picture pass (§4). Give every place either an image or a
+   considered `imageBlank`; run `node tools/images.mjs data/<slug>.json`
+   until nothing is unreviewed. This is a step of the build, not an optional
+   afterthought — it lives here so it can't be skipped.
+9. **Update** the About page (a diary entry + any new attribution) and add
    the shelf entry to `data/novels.json` with first-edition spine colours.
 
-**The three hard gates** (a book that fails any does not ship): it **loads**
+**The four hard gates** (a book that fails any does not ship): it **loads**
 (`js/data.js` throws on structural slips); **rushes is clean**
-(`errors: 0`); and the **text-vs-map check** passes (a reviewer confirms
+(`errors: 0`); the **text-vs-map check** passes (a reviewer confirms
 every beat's narration matches the route the map draws — mode, land/sea,
 named places, direction, scene placement, shared-vs-solo; see
-`STORYTELLING.md`'s screening loop). The first two are deterministic and
-run headlessly; the third needs an agent's judgement and is what catches a
-walking journey drawn as a sea voyage.
+`STORYTELLING.md`'s screening loop); and **images are reviewed**
+(`tools/images.mjs` shows `0 unreviewed` — every place imaged or a logged
+blank). Three are deterministic and run headlessly; the text-vs-map check
+needs an agent's judgement, and the *content* of each image needs a human's
+eye (is it really the place, is it really public domain) — the gate enforces
+that the decision was made, not that the picture is honest. That last part is
+still yours.
 
 ---
 

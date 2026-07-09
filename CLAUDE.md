@@ -23,7 +23,7 @@ staged fan-out of subagents; the shipped result is static.
 Gold-standard exemplars to match: `data/dracula.json` (dataset shape) and
 `data/david-copperfield.json` (script + enriched routes).
 
-## The three hard gates — a book that fails any of these does NOT ship
+## The four hard gates — a book that fails any of these does NOT ship
 
 1. **It loads.** `js/data.js`'s validator must pass — it throws on bad
    coords (`[lng, lat]` order), unknown modes/certainties, character-chain
@@ -39,16 +39,24 @@ Gold-standard exemplars to match: `data/dracula.json` (dataset shape) and
    places, direction, scene placement, shared-vs-solo) and reports
    contradictions. The brief lives in `STORYTELLING.md`'s screening loop.
    rushes checks how it *plays*; this checks whether it *tells the truth*.
+4. **Images are reviewed.** `node tools/images.mjs data/<slug>.json` →
+   `0 unreviewed`. Every place is a decided question: it carries an `image`,
+   or a logged `imageBlank` reason. The gate enforces that the decision was
+   *made*; a human still confirms each picture is really the place and really
+   cleared (see the images edge below). `rushes` prints the tally too, so it
+   can't drop off the radar.
 
 Then watch it in the browser end-to-end before it goes to the editor.
 
 ## Not automatic — know the edges
 
-- **Images are a separate, human-verified pass** (see ADDING-A-NOVEL §4), not
-  part of the default build. An agent may find/filter/download
-  public-domain candidates, but a person must confirm each picture is
-  *actually the place* and *actually cleared*. Better no image than a
-  generic or mis-licensed one.
+- **Images are now a gate, but the content is still human-verified** (see
+  ADDING-A-NOVEL §4). `tools/images.mjs` guarantees every place is *decided*
+  (imaged or a logged blank) — that's what stops the step being forgotten.
+  It cannot guarantee the picture is honest: an agent may find/filter/
+  download public-domain candidates, but a person must still confirm each is
+  *actually the place* and *actually cleared*. Better a logged blank than a
+  generic or mis-licensed image.
 - **The judgement steps are guided, not railed.** The gates guarantee a book
   loads and plays and is truthful; they cannot guarantee the research or the
   prose is *good*. Keep the editor's watch-through at the end.
