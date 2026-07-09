@@ -126,6 +126,15 @@
     "spine": { "cloth": "#5e2a2a", "text": "#e8dcc0" }
   },
   {
+    "id": "huckleberry-finn",
+    "title": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "file": "data/huckleberry-finn.json",
+    "blurb": "A runaway boy and an escaped enslaved man ride a raft down the Mississippi, bound — they hope — for freedom.",
+    "spine": { "cloth": "#3a565a", "text": "#e8dcc0" }
+  },
+  {
     "id": "eighty-days",
     "title": "Around the World in Eighty Days",
     "author": "Jules Verne",
