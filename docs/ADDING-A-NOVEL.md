@@ -293,6 +293,15 @@ A location with *neither* is **unreviewed** — the picture pass hasn't been
 done for it, and the book isn't finished. The gate below is what makes that
 visible instead of silently forgotten.
 
+**Reusing an image is fine — for the same real place, across books.** If
+Regent's Park turns up in two novels and one good period view honestly serves
+both, use it in both: a reader only ever sees one book, so there's no visible
+repetition, and neither book carries a needless blank. What is *not* allowed
+is one image standing in for two *different* places, or the same image on two
+cards *within one book* — that reads as a mislabel or as filler. The gate
+flags the within-book case; the cross-book case is a positive and the gate
+leaves it alone.
+
 Sourcing rules, non-negotiable:
 
 - **Public domain only** (pre-1930, or an explicit PD/CC0 tag). Reject

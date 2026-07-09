@@ -263,7 +263,12 @@
       "story": "Septimus and Rezia sit on a bench while the aeroplane skywrites overhead and he sees the dead Evans; here, at the fountain, Rezia cries 'I am alone', and here Peter Walsh, dozing nearby, passes the same couple without knowing them.",
       "quote": "Lucrezia Warren Smith, sitting by her husband’s side on a seat in Regent’s Park in the Broad Walk, looked up.",
       "quoteRef": "Septimus and Rezia in Regent's Park",
-      "imageBlank": "No period view of the Broad Walk, where the Warren Smiths sit and Peter Walsh passes, exists; the only Regent's Park candidate is already used elsewhere on the shelf, so a blank rather than a duplicate."
+      "image": {
+        "file": "assets/images/md-regents-park.jpg",
+        "caption": "Regent's Park at Albert Terrace, on a postcard of 1905 — the park where Septimus and Rezia wait out the hours and he hears the dead Evans singing. The Broad Walk of the scene itself was never photographed for the public record; this is the park's terraced edge.",
+        "credit": "Charles Martin postcard, 1905 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     },
     {
       "id": "harley-street",

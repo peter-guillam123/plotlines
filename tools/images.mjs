@@ -69,6 +69,17 @@ for (const path of paths) {
     }
   }
 
+  // No image should sit on two different places in the same book — that reads
+  // as a mislabel or as filler. (Reusing an image across *different books* for
+  // the same real place is fine, and this per-book check never sees it.)
+  const byFile = new Map();
+  for (const l of imaged) {
+    (byFile.get(l.image.file) || byFile.set(l.image.file, []).get(l.image.file)).push(l.id);
+  }
+  for (const [file, ids] of byFile) {
+    if (ids.length > 1) warns.push(`same image on ${ids.length} places (${ids.join(', ')}): ${file} — one picture, one place`);
+  }
+
   const label = novel.title || path;
   console.log(`IMAGES — ${label}`);
   console.log(`  ${imaged.length} placed · ${blank.length} blank · ${unreviewed.length} unreviewed   (of ${locs.length})`);
