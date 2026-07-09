@@ -315,6 +315,11 @@ Sourcing rules, non-negotiable:
 - **Look at it before you commit it.** Open the downloaded file and
   confirm it depicts what the caption claims. This is the honesty check
   that can't be automated.
+- **Own a date gap in the caption.** An image later or earlier than the
+  story is fine — the historic *map* is often off-period too — but say so
+  in words ("Moutte's view (1876) is later than Victor's own day"), the
+  same honesty the map's date caveat uses. A quietly-anachronistic picture
+  passed off as contemporaneous is the thing to avoid.
 - Full attribution goes in the card `credit` **and** the About page.
 
 **A helper for the search half.** `node tools/image-candidates.mjs "<place

@@ -694,7 +694,12 @@
       "certainty": "conjectured",
       "note": "Victor follows 'the windings of the Rhone' to 'the blue Mediterranean' and takes ship after the creature; the text names no port, but the Rhone reaches the sea at Marseille.",
       "story": "Where the Rhone meets the Mediterranean, and Victor takes passage after the creature, bound for the Black Sea.",
-      "imageBlank": "The text names only 'the blue Mediterranean'; the one period candidate for the conjectured port of Marseille is a heavily-framed salon plate that would need cropping, so the place keeps its pin without a picture."
+      "image": {
+        "file": "assets/images/fr-marseille.jpg",
+        "caption": "The old port of Marseille, painted by Alphonse Moutte — indicative of the Mediterranean harbour where Victor, following the Rhone to the sea, takes ship after the creature. The novel names only 'the blue Mediterranean', and Moutte's view (1876) is later than Victor's own day.",
+        "credit": "Alphonse Moutte, Déchargement d'un brick à Marseille (1876) · Wikimedia Commons · public domain",
+        "indicative": true
+      }
     }
   ],
   "movements": [
