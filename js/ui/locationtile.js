@@ -35,7 +35,7 @@ export function createLocationTile(container, novel, timeline) {
       </span>`;
     const disc = container.querySelector('.loc-tile-disc');
     disc.style.background = CHARACTER_COLOURS[c.colour];
-    disc.textContent = characterInitial(c.name);
+    disc.textContent = characterInitial(c);
     container.querySelector('.loc-tile-name').textContent = c.name;
     builtFor = c.id;
   }

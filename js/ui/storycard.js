@@ -56,7 +56,7 @@ export function createStoryCard(container, novel, { onStep }) {
         '<span class="visually-hidden"></span>';
       const swatch = subjectEl.querySelector('.story-swatch');
       swatch.style.background = CHARACTER_COLOURS[focusChar.colour];
-      swatch.textContent = characterInitial(focusChar.name);
+      swatch.textContent = characterInitial(focusChar);
       subjectEl.querySelector('.visually-hidden').textContent = focusChar.name;
       subjectEl.title = focusChar.name;
     } else {

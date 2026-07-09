@@ -36,7 +36,14 @@ export function addCharacterMarkers(map, novel) {
     layout: {
       'text-field': ['get', 'letter'],
       'text-font': ['Noto Sans Bold'],
-      'text-size': ['case', ['get', 'selected'], 13, 10],
+      // A two-letter monogram (FD) sets a touch smaller than a lone initial
+      // so it stays inside the disc.
+      'text-size': [
+        'case',
+        ['>', ['length', ['get', 'letter']], 1],
+        ['case', ['get', 'selected'], 11, 8.5],
+        ['case', ['get', 'selected'], 13, 10],
+      ],
       'text-allow-overlap': true,
       'text-ignore-placement': true,
     },
@@ -61,7 +68,7 @@ export function updateCharacterMarkers(map, novel, positions, selectedId) {
       properties: {
         id: c.id,
         colour: CHARACTER_COLOURS[c.colour],
-        letter: characterInitial(c.name),
+        letter: characterInitial(c),
         selected: c.id === selectedId,
       },
     });

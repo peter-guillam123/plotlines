@@ -52,7 +52,7 @@ export function createOverture(container, map, novel, paths, { onStart, reducedM
       li.innerHTML = `<span class="overture-disc"></span><span class="overture-name"></span>`;
       const disc = li.querySelector('.overture-disc');
       disc.style.background = CHARACTER_COLOURS[c.colour];
-      disc.textContent = characterInitial(c.name);
+      disc.textContent = characterInitial(c);
       li.querySelector('.overture-name').textContent = c.name;
       cast.append(li);
     }

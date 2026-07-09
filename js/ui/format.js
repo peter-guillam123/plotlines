@@ -68,8 +68,19 @@ export function arrivalSentence(novel, movement, characters) {
 
 // The letter shown on a character's map marker — shared by the markers
 // and anywhere that introduces them (the overture's cast chips).
-export function characterInitial(name) {
-  return name.replace(/^(The|Professor|Count|Dr\.?)\s+/i, '')[0].toUpperCase();
+// The monogram on a character's disc. Two initials — first name + last name
+// — so Fitzwilliam Darcy reads FD, not a lonely F; a single-name character
+// (Danglars, Haydée) keeps one letter. A leading title is dropped so the
+// monogram is the person, not the honorific. A character may set an explicit
+// `initials` in the data where the automatic pair reads wrong (Lady Catherine
+// de Bourgh → LC, not CB). Accepts a character object or a bare name.
+export function characterInitial(c) {
+  if (c && typeof c === 'object' && c.initials) return c.initials;
+  const name = (typeof c === 'string' ? c : (c && c.name)) || '';
+  const cleaned = name.replace(/^(The|A|An|Mr|Mrs|Miss|Dr|Professor|Count|Sir|Lady)\.?\s+/i, '').trim();
+  const words = cleaned.split(/\s+/).filter(Boolean);
+  if (words.length <= 1) return (words[0] || name || '?').charAt(0).toUpperCase();
+  return (words[0].charAt(0) + words[words.length - 1].charAt(0)).toUpperCase();
 }
 
 const MONTHS = [
