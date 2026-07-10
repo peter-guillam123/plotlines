@@ -36,6 +36,12 @@ function touchesBritain(novel) {
 // settings pane drives — the DOM lives there, not here. Returns
 // `{ available: false }` for a book with no British ground.
 export function addNlsOverlay(map, novel = {}) {
+  // A book may explicitly refuse the 1890s survey with `overlay: false` —
+  // for a text whose action long pre-dates any map we hold (Shakespeare's
+  // 1403), the Victorian OS sheet would be a five-century anachronism, so
+  // it plays on the sepia base alone and the control auto-hides. The honest
+  // note goes in the book's `mapNote` (shown at the overture) and on About.
+  if (novel.overlay === false) return { available: false };
   if (!touchesBritain(novel)) return { available: false };
 
   // A novel may point at a different NLS series via its overlay field;

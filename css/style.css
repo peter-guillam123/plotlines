@@ -1220,6 +1220,19 @@ body.is-overture #captions { display: none !important; }
   font-size: 14px;
 }
 
+/* An honesty caption for a book whose action pre-dates any surviving map
+   (Henry IV, 1403): the period base is not period-correct, and we say so. */
+.overture-note {
+  margin: 14px auto 0;
+  max-width: 46ch;
+  padding-top: 12px;
+  border-top: 1px solid var(--paper-deep);
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
 .overture-disc {
   width: 22px;
   height: 22px;

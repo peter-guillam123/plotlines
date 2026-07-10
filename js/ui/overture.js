@@ -40,9 +40,17 @@ export function createOverture(container, map, novel, paths, { onStart, reducedM
       <div class="overture-panel" role="dialog" aria-labelledby="overture-text">
         <p class="overture-text" id="overture-text"></p>
         <ul class="overture-cast" role="list"></ul>
+        <p class="overture-note"></p>
         <button type="button" class="overture-start">Start the journey</button>
       </div>`;
     container.querySelector('.overture-text').textContent = novel.overture;
+
+    // A book whose action pre-dates any surviving map (Henry IV, 1403) owns
+    // that honestly in one line before it starts, rather than pretending the
+    // period base is period-correct.
+    const note = container.querySelector('.overture-note');
+    if (novel.mapNote) note.textContent = novel.mapNote;
+    else note.remove();
 
     const cast = container.querySelector('.overture-cast');
     for (const c of novel.characters) {
