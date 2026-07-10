@@ -31,6 +31,9 @@ export function buildPaths(novel) {
       dashed:
         from.certainty === CERTAINTY.CONJECTURED ||
         to.certainty === CERTAINTY.CONJECTURED,
+      // a flight leg draws in its own airy dotted style, whatever the
+      // certainty of its ends — the line itself says "this is not a road".
+      flight: m.mode === 'flight',
     };
   });
 }
@@ -38,7 +41,7 @@ export function buildPaths(novel) {
 export function addRouteLayers(map, novel, paths) {
   const offsets = characterOffsets(novel.characters);
 
-  const routeFeatures = paths.map(({ movement, path, dashed }) => ({
+  const routeFeatures = paths.map(({ movement, path, dashed, flight }) => ({
     type: 'Feature',
     geometry: { type: 'LineString', coordinates: path.coords },
     properties: {
@@ -46,6 +49,7 @@ export function addRouteLayers(map, novel, paths) {
       colour: CHARACTER_COLOURS[novel.charactersById[movement.character].colour],
       offset: offsets[movement.character],
       dashed,
+      flight: !!flight,
       chapter: movement.chapter,
       // route provenance, for the hover card (empty on un-enriched legs)
       routeNote: movement.routeNote || '',
@@ -69,12 +73,14 @@ export function addRouteLayers(map, novel, paths) {
     'line-opacity': 0.7,
   };
 
-  // dasharray can't be data-driven, so solid and dashed are two layers.
+  // dasharray can't be data-driven, so each line style is its own layer.
+  // Flight legs draw only in the airy dotted layer, so they're excluded
+  // from solid and dashed.
   map.addLayer({
     id: 'routes-solid',
     type: 'line',
     source: ROUTE_SOURCE,
-    filter: ['!', ['get', 'dashed']],
+    filter: ['all', ['!', ['get', 'dashed']], ['!', ['get', 'flight']]],
     layout: lineLayout,
     paint: linePaint,
   });
@@ -82,9 +88,19 @@ export function addRouteLayers(map, novel, paths) {
     id: 'routes-dashed',
     type: 'line',
     source: ROUTE_SOURCE,
-    filter: ['get', 'dashed'],
+    filter: ['all', ['get', 'dashed'], ['!', ['get', 'flight']]],
     layout: lineLayout,
     paint: { ...linePaint, 'line-dasharray': [2.2, 1.8] },
+  });
+  // Flight: a fine, airy dotted line — a bird's path, not a road or a
+  // sea-lane. Rounded caps make the dots read as soft points.
+  map.addLayer({
+    id: 'routes-flight',
+    type: 'line',
+    source: ROUTE_SOURCE,
+    filter: ['get', 'flight'],
+    layout: lineLayout,
+    paint: { ...linePaint, 'line-dasharray': [0.2, 2] },
   });
 
   // A wide, invisible companion line so the thin visible route is

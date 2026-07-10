@@ -80,6 +80,15 @@ const ICONS = {
     '<path d="M5.7 9.3 4.3 10.5M8.1 9.3 6.7 10.5M10.5 9.3 9.1 10.5" stroke="currentColor" stroke-width="0.9"/>' +
     '<path d="M4.7 9.7 2.3 6.0l-1 .5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>' +
     '<path d="M1.8 12.4q1.3-.9 2.6 0 1.3.9 2.6 0 1.3-.9 2.6 0 1.3.9 2.6 0" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>',
+  // wild goose in flight: a small head leading, a long neck-and-body, and
+  // two wings swept out in a shallow migrating V — Mårten carrying Nils the
+  // length of Sweden (The Wonderful Adventures of Nils). Seen from below, so
+  // it reads as a bird aloft, not a boat or a bird on the ground.
+  flight:
+    '<circle cx="8" cy="3.3" r="1" fill="currentColor"/>' +
+    '<path d="M8 4.3V8.2" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>' +
+    '<path d="M8 5.1 4.7 4.5 2 6.4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>' +
+    '<path d="M8 5.1 11.3 4.5 14 6.4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>',
   // Martian fighting-machine: a domed hood on three splayed striding legs,
   // a handling-tentacle hanging (The War of the Worlds)
   tripod:
@@ -104,6 +113,7 @@ const PHRASE = {
   elephant: 'by elephant',
   sledge: 'by wind-sledge',
   dogsled: 'by dog-sled',
+  flight: 'on the wing',
   tripod: 'in the fighting-machines',
   unknown: 'onward',
 };

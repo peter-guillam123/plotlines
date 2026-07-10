@@ -27,10 +27,12 @@ const PCT_FLOOR = 6;  // …and only if it's this % of the leg (cuts coastal noi
 // Land modes want land under them; `ship` wants water. Skipped entirely:
 // `unknown` (no claim), `sledge` and `dogsled` (their medium is snow and
 // frozen lake/river ice, not the land/water binary — a Klondike dog-team runs
-// the frozen Yukon by design). A `ship` leg may set `"medium": "river"` to opt
-// out (a river-boat honestly runs through land — the Rhine, the Sereth).
+// the frozen Yukon by design), and `flight` (a migrating goose crosses land
+// and sea alike — the whole point of Nils is that the map's mediums don't
+// bind it). A `ship` leg may set `"medium": "river"` to opt out (a river-boat
+// honestly runs through land — the Rhine, the Sereth).
 const LAND_MODES = new Set(['foot', 'horse', 'coach', 'omnibus', 'motor', 'train', 'elephant', 'tripod']);
-const SKIP_MODES = new Set(['unknown', 'sledge', 'dogsled']);
+const SKIP_MODES = new Set(['unknown', 'sledge', 'dogsled', 'flight']);
 
 // ---- load the land polygons, each ring-group with a bbox for prefiltering ----
 const landPath = fileURLToPath(new URL('./data/ne_50m_land.geojson', import.meta.url));
