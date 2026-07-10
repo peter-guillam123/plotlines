@@ -88,17 +88,43 @@ body {
   border-radius: 4px;
   box-shadow: var(--shadow);
 }
-.atlas-back {
-  display: inline-block;
-  margin-bottom: 6px;
+.atlas-kicker {
+  margin: 0 0 8px;
   font-family: var(--serif);
   font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
-  text-decoration: none;
 }
-.atlas-back:hover { text-decoration: underline; }
+
+/* The shared collection toggle: the shelf and the atlas are peers, and this
+   is the one control that moves between them. Same idiom as the in-book
+   Story/Explore tabs, but as links (real page navigation). */
+.view-toggle {
+  display: flex;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.view-toggle > * {
+  flex: 1;
+  min-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--serif);
+  font-size: 14px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  cursor: pointer;
+}
+.view-toggle > * + * { border-left: 1px solid var(--rule); }
+.view-toggle a:hover { background: var(--paper); }
+.view-toggle > [aria-current='page'] {
+  background: var(--ink);
+  color: var(--paper-bright);
+  cursor: default;
+}
 .atlas-masthead h1 {
   margin: 0;
   font-family: var(--display);
@@ -228,8 +254,7 @@ body {
   text-decoration: none;
 }
 .atlas-card-open:hover { background: #8e332b; }
-.library-atlas { color: var(--accent); text-decoration: none; white-space: nowrap; }
-.library-atlas:hover { text-decoration: underline; }
+.library-toggle { max-width: 300px; margin: 14px auto 10px; }
 .atlas-card-close {
   position: absolute;
   top: 7px;

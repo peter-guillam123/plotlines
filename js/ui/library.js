@@ -15,13 +15,16 @@ export function createLibrary(container, index) {
     <div class="library-card" role="dialog" aria-modal="true" aria-labelledby="library-title" tabindex="-1">
       <p class="intro-kicker">A shelf of journeys</p>
       <h1 class="library-title" id="library-title">PlotLines</h1>
+      <nav class="view-toggle library-toggle" aria-label="Views">
+        <span aria-current="page">The shelf</span>
+        <a href="atlas.html">The atlas</a>
+      </nav>
       <p class="library-sub">The classics, mapped — every journey in the book,
         drawn on a hand-tinted period map, with the real 1890s Ordnance Survey
         wherever the story walks in Britain. Take one down.</p>
       <div class="library-shelf" role="group" aria-label="The shelf"></div>
       <p class="intro-hints">Each book opens with a choice: watch the story, or
-        explore its places &middot; <a class="library-atlas" href="atlas.html">or
-        see every place at once, on the atlas &rarr;</a></p>
+        explore its places.</p>
     </div>`;
 
   const shelf = container.querySelector('.library-shelf');
