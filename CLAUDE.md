@@ -25,9 +25,13 @@ Gold-standard exemplars to match: `data/dracula.json` (dataset shape) and
 
 ## The four hard gates — a book that fails any of these does NOT ship
 
-1. **It loads.** `js/data.js`'s validator must pass — it throws on bad
-   coords (`[lng, lat]` order), unknown modes/certainties, character-chain
-   teleports, and chapterless scenes.
+1. **It loads.** `node tools/validate.mjs data/<slug>.json` → `load clean`.
+   This runs the REAL `js/data.js` validator headlessly (rushes does NOT — it
+   has its own loader), so a book can't pass the other gates and still throw
+   on load in the browser. It throws on bad coords (`[lng, lat]` order),
+   unknown modes/certainties, character-chain teleports, chapterless scenes,
+   and **non-sequential chapter numbers** (chapters must run 1..N with no
+   gaps — Kim broke the live map by skipping chapter 10).
 2. **rushes is clean.** `node tools/rushes.mjs data/<slug>.json` →
    `errors: 0` (justify every warning). Screens runtime, camera jumps,
    unreadable text, silent rewinds, uncovered movements, scene-vs-map
