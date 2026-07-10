@@ -185,6 +185,23 @@ body {
 .atlas-book-all {
   background: conic-gradient(#68809b, #a63d33, #2e4034, #d9b45a, #5f2a26, #68809b);
 }
+.atlas-note {
+  margin: 9px 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--serif);
+  font-size: 11.5px;
+  color: var(--ink-soft);
+}
+.atlas-note-ring {
+  flex: none;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #fbf6ea;
+  border: 2px solid var(--ink-soft);
+}
 
 /* the pin card: place, book, its picture (loaded only now), and a way in */
 .atlas-card {
@@ -192,7 +209,7 @@ body {
   top: 88px;
   right: 16px;
   z-index: 10;
-  width: 300px;
+  width: 360px;
   max-height: calc(100vh - 116px);
   overflow-y: auto;
   background: var(--paper-bright);
@@ -200,12 +217,39 @@ body {
   border-radius: 4px;
   box-shadow: var(--shadow);
 }
-.atlas-card-fig { margin: 0; }
+.atlas-card-fig { position: relative; margin: 0; }
 .atlas-card-img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 4px 4px 0 0;
+}
+.atlas-card-indicative {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 1px 7px 2px;
+  border-radius: 2px;
+  background: rgba(46, 36, 23, 0.78);
+  color: var(--paper-bright);
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.atlas-card-caption {
+  margin: 10px 0 0;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--ink-soft);
+}
+.atlas-card-credit {
+  margin: 3px 0 0;
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--ink-soft);
+  opacity: 0.8;
 }
 .atlas-card-body { padding: 12px 16px 14px; }
 .atlas-card-place {

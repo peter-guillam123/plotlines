@@ -79,9 +79,11 @@ fetch('data/atlas.json')
         filter: ['!', ['has', 'point_count']],
         paint: {
           'circle-radius': 5.5,
-          'circle-color': ['case', ['get', 'conjectured'], '#f3ead7', ['get', 'cloth']],
+          // conjectured places read hollow (a bright centre + a bolder ring in
+          // the book's colour) — the same "best guess" signal the books use.
+          'circle-color': ['case', ['get', 'conjectured'], '#fbf6ea', ['get', 'cloth']],
           'circle-stroke-color': ['get', 'cloth'],
-          'circle-stroke-width': 2,
+          'circle-stroke-width': ['case', ['get', 'conjectured'], 2.6, 2],
         },
       });
 
@@ -114,9 +116,15 @@ fetch('data/atlas.json')
         : pin.certainty === 'identified' ? 'Identified place' : 'Real place';
       const img = pin.image
         ? `<figure class="atlas-card-fig">
-             <img class="atlas-card-img${pin.image.indicative ? ' is-indicative' : ''}"
-                  alt="" loading="lazy" src="${pin.image.file}">
+             <img class="atlas-card-img" alt="" loading="lazy" src="${pin.image.file}">
+             ${pin.image.indicative ? '<span class="atlas-card-indicative">Indicative</span>' : ''}
            </figure>`
+        : '';
+      // Public-domain images need no permission, but naming the source is the
+      // fair thing — and it matches every book card.
+      const credit = pin.image
+        ? `${pin.image.caption ? `<p class="atlas-card-caption">${pin.image.caption}</p>` : ''}
+           ${pin.image.credit ? `<p class="atlas-card-credit">${pin.image.credit}</p>` : ''}`
         : '';
       cardEl.innerHTML = `
         ${img}
@@ -128,6 +136,7 @@ fetch('data/atlas.json')
           </p>
           ${pin.story ? `<p class="atlas-card-story">${pin.story}</p>` : ''}
           <p class="atlas-card-badge">${badge}</p>
+          ${credit}
           <a class="atlas-card-open" href="index.html?novel=${pin.book}">Open in the book &rarr;</a>
         </div>
         <button type="button" class="atlas-card-close" aria-label="Close">&times;</button>`;
