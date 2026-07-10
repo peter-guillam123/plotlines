@@ -6,25 +6,42 @@
 // divides durations, the step buttons hand over the wheel entirely.
 //
 // In scripted mode the player OWNS the camera (the ensemble director is
-// stood down): every change of place is a deliberate move — establish
-// (pull back to hold the old place and the new one together, so the
-// geography reads), then settle (push in on the new place). A journey
-// frames its whole route and lets the traveller cross it. Nothing ever
-// cuts. And the player reports a continuous progress fraction, so the
-// timeline bar always creeps forward — even through a still scene — and
-// the reader is never left wondering whether it has frozen.
+// stood down). Every beat runs as a short sequence of PHASES, so the eye
+// is never asked to read and chase at once:
+//
+//   1. MOVE   — the camera does its work first: a quick settle for a small
+//               hop, a pull-back-then-push-in for a big change of place, a
+//               whole-route framing for a journey. The peg holds still.
+//   2. CONTENT— the camera is now still (or, for the opening beat, drifting
+//               gently inward — a slow living push-in so the map breathes).
+//               A scene simply holds for its reading time; a journey lets
+//               the traveller cross the route it has just framed.
+//   3. ARRIVE — a journey then pushes in on the place reached and rests
+//               there a moment before the next beat takes over.
+//
+// So a zoom always completes before a peg starts moving, and every card
+// gets its full, unhurried reading window. Nothing ever cuts. The player
+// reports a continuous progress fraction, so the timeline bar always creeps
+// forward — even through a still scene — and never looks frozen.
 
 import {
   READ_BASE_SECONDS, READ_PER_WORD_SECONDS, BEAT_MIN_SECONDS,
 } from './constants.js';
 import { storyTime, roman } from './ui/format.js';
 
-const CAM_ESTABLISH_MS = 1600; // pull back to show old + new place
-const CAM_HOLD_MS = 550;        // let the geography be read
-const CAM_SETTLE_MS = 1500;     // push in on the new place
-const NODE_ZOOM = 11.5;         // a town on the historic survey
-const SMALL_MOVE_DEG = 0.18;    // below this, no pull-back is needed
+// Camera timings, in *content* seconds (so at 1× they line up exactly with
+// the beat clock: a peg gated to start at moveSec begins just as the
+// establishing move of moveSec finishes). A big move is a three-part
+// choreography; a small one is a single settle.
+const MOVE_ESTABLISH_SEC = 1.6;  // pull back to hold old + new (or frame a route)
+const MOVE_HOLD_SEC = 0.55;      // let the geography be read before pushing in
+const MOVE_SETTLE_SEC = 1.5;     // push in on the place
+const MOVE_SMALL_SEC = 0.9;      // a near-neighbour hop: one quick settle
+const OPENING_MOVE_SEC = 1.8;    // the opening ease from the overture into place
+const OPENING_PUSH_ZOOM = 0.7;   // how far the opening living push-in drifts in
 const ARRIVAL_DWELL_SECONDS = 2.5; // after crossing, rest on the place reached
+const NODE_ZOOM = 11.5;          // a town on the historic survey
+const SMALL_MOVE_DEG = 0.18;     // below this, no pull-back is needed
 
 export function createStoryPlayer(novel, timeline, paths, { map, director, engine, card, emphasize, onProgress }) {
   const chapterDay = (n) => novel.chapters[Math.min(Math.max(n, 1), novel.chapters.length) - 1].day ?? 0;
@@ -49,34 +66,65 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
       }
     } else if (b.kind === 'scene' || (b.kind === 'handoff' && b.chapter)) {
       // A single-day book (Mrs Dalloway) may pin a beat to an explicit
-      // fractional `day` — Big Ben's own resolution — instead of the
-      // coarser chapter day, so the hour clock never steps backward within
-      // a thread. Falls back to the chapter day when absent.
+      // fractional `day` — Big Ben's own resolution — instead of the coarser
+      // chapter day. Falls back to the chapter day when absent.
       beat.t0 = beat.t1 = typeof b.day === 'number' ? b.day : chapterDay(b.chapter) + 0.02;
     }
     return beat;
   });
 
-  // A leg beat is two acts: the crossing (long enough to read the narration
-  // and to feel the distance) and then a dwell — a beat or two rested on the
-  // place reached, so an arrival lands before anything moves on.
-  const travelDuration = (beat) => {
-    const read = readTime(beat.narration);
-    if (beat.kind === 'journey' && beat.leg) {
-      const travelFloor = Math.min(6 + beat.leg.path.totalKm / 800, 12);
-      return Math.max(read, travelFloor);
+  // ---- a static timing + camera plan for every beat ----
+  // The script order is fixed, so the place the camera comes *from* is
+  // deterministic — which lets us size every move (and the whole show's
+  // duration) up front, for the progress bar.
+  {
+    let prevPlace = null;
+    let seenPlace = false;
+    for (const beat of beats) {
+      const read = readTime(beat.narration);
+      const isLeg = (beat.kind === 'journey' || beat.kind === 'removal') && beat.leg;
+      const scenePt = (beat.kind === 'scene' || beat.kind === 'handoff') && beat.at
+        ? novel.locationsById[beat.at].coords : null;
+
+      if (isLeg) {
+        const travelFloor = Math.min(6 + beat.leg.path.totalKm / 800, 12);
+        beat.moveKind = 'leg';
+        beat.moveSec = MOVE_ESTABLISH_SEC;
+        beat.crossSec = Math.max(read, travelFloor);
+        beat.dwellSec = ARRIVAL_DWELL_SECONDS;
+        beat.dur = beat.moveSec + beat.crossSec + beat.dwellSec;
+        beat.place = novel.locationsById[beat.to].coords;
+        beat.fromPt = prevPlace;
+        prevPlace = beat.place; seenPlace = true;
+      } else if (scenePt) {
+        beat.place = scenePt;
+        beat.fromPt = prevPlace;
+        beat.readSec = read;
+        if (!seenPlace) {
+          beat.moveKind = 'opening';
+          beat.moveSec = OPENING_MOVE_SEC;
+        } else {
+          const d = prevPlace
+            ? Math.hypot(scenePt[0] - prevPlace[0], scenePt[1] - prevPlace[1]) : 0;
+          if (d < SMALL_MOVE_DEG) { beat.moveKind = 'small'; beat.moveSec = MOVE_SMALL_SEC; }
+          else { beat.moveKind = 'big'; beat.moveSec = MOVE_ESTABLISH_SEC + MOVE_HOLD_SEC + MOVE_SETTLE_SEC; }
+        }
+        beat.dur = beat.moveSec + beat.readSec;
+        prevPlace = scenePt; seenPlace = true;
+      } else {
+        // meanwhile / placeless: hold the current frame, just read.
+        beat.moveKind = 'none';
+        beat.moveSec = 0;
+        beat.readSec = read;
+        beat.dur = beat.readSec;
+        beat.place = null;
+        beat.fromPt = prevPlace;
+      }
     }
-    return read;
-  };
-  const duration = (beat) => {
-    const t = travelDuration(beat);
-    return ((beat.kind === 'journey' || beat.kind === 'removal') && beat.leg)
-      ? t + ARRIVAL_DWELL_SECONDS
-      : t;
-  };
+  }
 
   // durations + cumulative, for the continuous progress bar
-  const durs = beats.map(duration);
+  const durs = beats.map((b) => b.dur);
   const totalDur = durs.reduce((a, b) => a + b, 0) || 1;
   const cumBefore = [];
   { let acc = 0; for (const d of durs) { cumBefore.push(acc); acc += d; } }
@@ -91,13 +139,11 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     return parts.join(' · ');
   };
 
-  // ---- camera choreography ----
+  // ---- camera helpers ----
   // Desktop only. The visible map is the rectangle left of the character
   // panel and above the story card + controls — so an establishing shot
   // keeps both ends of a leg inside that rectangle, never tucked under the
-  // furniture. (See the settle offset below for single-node push-ins.)
-  // A landscape phone has far less room, and the furniture sits differently
-  // (a slim rail, a low caption strip) — so it reserves less on every side.
+  // furniture. A landscape phone reserves less on every side.
   const compact = () =>
     document.documentElement.classList.contains('touch') &&
     matchMedia('(orientation: landscape) and (max-height: 560px)').matches;
@@ -122,78 +168,37 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
   function camForBounds(coords) {
     return map.cameraForBounds(boundsFrom(coords), { padding: camPad(), maxZoom: 13 });
   }
-  // `offset` (pixels) shifts the target point within the viewport — used to
-  // seat a single node in the visible rectangle. It's a per-call nudge, so
-  // it never leaves stray padding on the map to skew the next establishing
-  // shot (which frames via cameraForBounds' own padding). Everything eases,
-  // duration 0 standing in for an instant jump, so the offset always holds.
-  function applyCam(cam, ms, offset) {
+  // `offset` (pixels) seats a single node in the visible rectangle; `linear`
+  // is for the opening living push-in, which wants a constant, unhurried
+  // drift rather than an ease. Durations are wall-clock ms; at 1× they match
+  // the beat's content clock (see the timing constants above).
+  function applyCam(cam, ms, offset, linear) {
     if (!cam) return;
     const c = cam.center;
-    const opts = { center: [c.lng ?? c[0], c.lat ?? c[1]], zoom: cam.zoom, essential: true };
+    const opts = { center: [c.lng ?? c[0], c.lat ?? c[1]], zoom: cam.zoom, essential: true, duration: Math.max(0, ms) };
     if (offset) opts.offset = offset;
-    map.easeTo({ ...opts, duration: Math.max(0, ms) });
-  }
-  function beatTarget(beat) {
-    if ((beat.kind === 'journey' || beat.kind === 'removal') && beat.leg) {
-      return { kind: 'leg', coords: beat.leg.path.coords, dest: novel.locationsById[beat.to].coords };
-    }
-    if ((beat.kind === 'scene' || beat.kind === 'handoff') && beat.at) {
-      return { kind: 'point', pt: novel.locationsById[beat.at].coords };
-    }
-    return null; // meanwhile / placeless: hold the current frame
-  }
-
-  let lastPoint = null;
-  let pendingSettle = null; // { atTs, run }
-
-  function frameBeat(beat, ts) {
-    pendingSettle = null;
-    const target = beatTarget(beat);
-    if (!target) return;
-    const instant = !playing || engine.reducedMotion();
-
-    if (target.kind === 'leg') {
-      // Frame the whole route: both ends in view (the establishing shot),
-      // and the traveller crosses it. The next beat pushes in on arrival.
-      applyCam(camForBounds(target.coords), instant ? 0 : CAM_ESTABLISH_MS);
-      lastPoint = target.dest;
-      return;
-    }
-
-    const pt = target.pt;
-    const settleCam = { center: pt, zoom: NODE_ZOOM };
-    const dist = lastPoint ? Math.hypot(pt[0] - lastPoint[0], pt[1] - lastPoint[1]) : 0;
-    if (instant || !lastPoint || dist < SMALL_MOVE_DEG) {
-      applyCam(settleCam, instant ? 0 : CAM_SETTLE_MS, nodeOffset());
-    } else {
-      // Establish, then settle: pull back to hold both places, let the
-      // eye find the new one against the geography, then push in.
-      applyCam(camForBounds([lastPoint, pt]), CAM_ESTABLISH_MS);
-      pendingSettle = {
-        after: (CAM_ESTABLISH_MS + CAM_HOLD_MS) / 1000, // seconds of beat elapsed
-        run: () => applyCam(settleCam, CAM_SETTLE_MS, nodeOffset()),
-      };
-    }
-    lastPoint = pt;
+    if (linear) opts.easing = (t) => t;
+    map.easeTo(opts);
   }
 
   // ---- playback state ----
   let idx = -1;
   let playing = false;
-  let elapsed = 0;
+  let elapsed = 0;      // content-seconds into the current beat
   let dur = 0;
-  let cross = 0;        // the crossing portion of a leg beat (dur minus dwell)
-  let arrival = null;   // { after, cam, done } — push into the place, then rest
+  let camQueue = [];    // [{ at (content-sec), run }] — camera actions, in order
   let rafId = null;
   let lastTs = null;
-  let selfT = null; // the last t we set ourselves (to spot external scrubs)
+  let selfT = null;     // the last timeline t we set ourselves (to spot external scrubs)
+
+  function runCamQueue(e) {
+    while (camQueue.length && camQueue[0].at <= e) camQueue.shift().run();
+  }
 
   function selfSeek(t) {
-    // Clamp to what the timeline will actually go to — a late scene's
-    // chapter day can sit past the last movement, and if `selfT` didn't
-    // match the clamped value the scrub-detector would mistake it for the
-    // reader taking the wheel and pause the telling.
+    // Clamp to what the timeline will actually go to — a late scene's chapter
+    // day can sit past the last movement, and a mismatch would make the
+    // scrub-detector mistake it for the reader taking the wheel.
     t = Math.min(Math.max(t, timeline.tStart), timeline.tEnd - 0.001);
     selfT = t;
     timeline.seek(t);
@@ -210,20 +215,47 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     if (playing && selfT != null && Math.abs(t - selfT) > 1e-6) pause();
   });
 
+  // Build the camera choreography for a beat as a queue of timed actions.
+  function planCamera(beat, instant) {
+    camQueue = [];
+    const off = nodeOffset();
+    const push = (at, run) => camQueue.push({ at, run });
+
+    if (beat.moveKind === 'leg') {
+      const routeCam = camForBounds(beat.leg.path.coords);
+      const destCam = { center: beat.place, zoom: NODE_ZOOM };
+      if (instant) { applyCam(routeCam, 0); return; }
+      push(0, () => applyCam(routeCam, MOVE_ESTABLISH_SEC * 1000));
+      // After the crossing, push in on the place reached.
+      push(beat.moveSec + beat.crossSec, () => applyCam(destCam, MOVE_SETTLE_SEC * 1000, off));
+    } else if (beat.moveKind === 'opening') {
+      const wide = { center: beat.place, zoom: NODE_ZOOM - OPENING_PUSH_ZOOM };
+      const tight = { center: beat.place, zoom: NODE_ZOOM };
+      if (instant) { applyCam(tight, 0, off); return; }
+      // Ease in from the overture, a little wide — then let it breathe inward
+      // slowly, in a constant drift, all through the reading.
+      push(0, () => applyCam(wide, OPENING_MOVE_SEC * 1000, off));
+      push(beat.moveSec, () => applyCam(tight, beat.readSec * 1000, off, true));
+    } else if (beat.moveKind === 'small') {
+      const settle = { center: beat.place, zoom: NODE_ZOOM };
+      if (instant) { applyCam(settle, 0, off); return; }
+      push(0, () => applyCam(settle, MOVE_SMALL_SEC * 1000, off));
+    } else if (beat.moveKind === 'big') {
+      const settle = { center: beat.place, zoom: NODE_ZOOM };
+      const estCam = camForBounds([beat.fromPt, beat.place]);
+      if (instant) { applyCam(settle, 0, off); return; }
+      push(0, () => applyCam(estCam, MOVE_ESTABLISH_SEC * 1000));
+      push(MOVE_ESTABLISH_SEC + MOVE_HOLD_SEC, () => applyCam(settle, MOVE_SETTLE_SEC * 1000, off));
+    }
+    // 'none' (meanwhile / placeless): hold the current frame — no camera work.
+  }
+
   function startBeat(i, ts) {
     idx = i;
     const beat = beats[i];
     elapsed = 0;
-    dur = durs[i];
-    // Set up the crossing / arrival split for a leg beat: cross for `cross`
-    // seconds, then at `arrival.after` push into the destination and dwell.
-    const isLeg = (beat.kind === 'journey' || beat.kind === 'removal') && beat.leg;
-    cross = isLeg ? Math.max(0.1, dur - ARRIVAL_DWELL_SECONDS) : dur;
-    arrival = null;
-    if (isLeg) {
-      const t = beatTarget(beat);
-      if (t && t.dest) arrival = { after: cross, cam: { center: t.dest, zoom: NODE_ZOOM }, done: false };
-    }
+    dur = beat.dur;
+    const instant = !playing || engine.reducedMotion();
 
     card.show(beat, {
       index: i,
@@ -233,11 +265,15 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
       mode: beat.leg ? beat.leg.movement.mode : null,
     });
     emphasize(beat.focus || null);
-    frameBeat(beat, ts ?? performance.now());
 
+    planCamera(beat, instant);
+    runCamQueue(0); // fire the opening move(s) at once
+
+    // The peg holds at the start of a leg until the establishing move is done;
+    // a stationary beat just seats the clock at its moment. Reduced motion (or
+    // a paused step) jumps a journey straight to its end.
     if (beat.t0 != null) {
-      const showEnd = (beat.kind === 'journey' || beat.kind === 'removal') &&
-        (!playing || engine.reducedMotion());
+      const showEnd = (beat.kind === 'journey' || beat.kind === 'removal') && instant;
       selfSeek(showEnd ? beat.t1 : beat.t0);
     } else {
       engine.requestRender();
@@ -252,31 +288,22 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     lastTs = ts;
     elapsed += dt * engine.speed();
 
-    if (pendingSettle && elapsed >= pendingSettle.after) {
-      pendingSettle.run();
-      pendingSettle = null;
-    }
+    runCamQueue(elapsed);
 
+    // A journey's peg waits out the establishing move, then crosses the route
+    // it has just framed — so the zoom always completes before it sets off.
     const beat = beats[idx];
     if ((beat.kind === 'journey' || beat.kind === 'removal') && beat.leg && !engine.reducedMotion()) {
-      const f = Math.min(elapsed / cross, 1); // the crossing fills `cross`, not the whole beat
-      selfSeek(beat.t0 + (beat.t1 - beat.t0) * f);
-    }
-    // Arrival: the traveller has crossed — push into the place and let the
-    // remaining dwell rest there before the next beat takes over.
-    if (arrival && !arrival.done && elapsed >= arrival.after) {
-      arrival.done = true;
-      if (!engine.reducedMotion()) applyCam(arrival.cam, CAM_SETTLE_MS, nodeOffset());
+      if (elapsed >= beat.moveSec) {
+        const f = Math.min((elapsed - beat.moveSec) / beat.crossSec, 1);
+        selfSeek(beat.t0 + (beat.t1 - beat.t0) * f);
+      }
     }
     reportProgress();
 
     if (elapsed >= dur) {
-      if (idx < beats.length - 1) {
-        startBeat(idx + 1, ts);
-      } else {
-        finish();
-        return;
-      }
+      if (idx < beats.length - 1) startBeat(idx + 1, ts);
+      else { finish(); return; }
     }
     rafId = requestAnimationFrame(frame);
   }
@@ -328,8 +355,7 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     for (let k = 0; k < beats.length; k++) {
       if (cumBefore[k] <= target) i = k; else break;
     }
-    const wasPlaying = playing;
-    if (wasPlaying) pause();
+    if (playing) pause();
     director.disarm();
     idx = i;
     startBeat(i);
@@ -338,9 +364,7 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     pause();
     idx = -1;
     selfT = null;
-    lastPoint = null;
-    pendingSettle = null;
-    arrival = null;
+    camQueue = [];
     card.hide();
     emphasize(null);
     reportProgress();

@@ -11,12 +11,21 @@ script.
 ## The first law: text gets the time it needs
 
 Every word shown on screen must be readable at a comfortable pace before
-anything changes. Beat durations are computed from reading time
+anything changes. The content of a beat is timed from reading time
 (`READ_BASE_SECONDS + READ_PER_WORD_SECONDS × words`, floor
 `BEAT_MIN_SECONDS`, in `js/constants.js`) — never from a target runtime.
 The story takes as long as it takes; pace belongs to the reader, who has
 the speed control and the step buttons. If a script feels long, cut
 words, not seconds.
+
+Each beat plays as a short sequence of **phases** (see `js/story.js`), so
+the eye is never asked to read and chase at once: the camera does its move
+*first* (a zoom always completes before a peg starts moving), *then* the
+content window opens — a scene simply holds for its reading time, a journey
+lets the traveller cross the route just framed, and a journey then pushes in
+on the place reached and dwells there a moment. The very first beat gets a
+slow "living" push-in — the map drifts gently inward through the reading, so
+an opening scene breathes rather than freezes.
 
 ## The beats
 
@@ -32,8 +41,9 @@ A novel's script is a `story` array in its JSON. Five kinds:
 
 // JOURNEY — a travel leg plays. Must match a real movement in the data
 // (same character, from, to, chapter) — the validator refuses a journey
-// that points at nothing. The travel animates across the whole beat, so
-// reading time and riding time are the same time.
+// that points at nothing. After the camera frames the route, the traveller
+// crosses it (at least as long as the narration takes to read), then the
+// camera pushes in on the place reached.
 { "kind": "journey", "character": "david", "from": "warehouse", "to": "dover", "chapter": 13,
   "narration": "Robbed before he is even out of London, David walks the whole Dover road to throw himself on the mercy of an aunt he has never met." },
 
