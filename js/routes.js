@@ -34,6 +34,13 @@ export function buildPaths(novel) {
       // a flight leg draws in its own airy dotted style, whatever the
       // certainty of its ends — the line itself says "this is not a road".
       flight: m.mode === 'flight',
+      // a leg carrying `armyStrength` (in thousands) draws as a Minard band:
+      // its width encodes the surviving numbers, so the line thins as the
+      // army dies. `armyPhase` ('advance'|'retreat') colours and offsets the
+      // two overlapping bands apart (War and Peace's Grande Armée).
+      minard: m.armyStrength != null,
+      strength: m.armyStrength ?? null,
+      phase: m.armyPhase || '',
     };
   });
 }
@@ -41,7 +48,7 @@ export function buildPaths(novel) {
 export function addRouteLayers(map, novel, paths) {
   const offsets = characterOffsets(novel.characters);
 
-  const routeFeatures = paths.map(({ movement, path, dashed, flight }) => ({
+  const routeFeatures = paths.map(({ movement, path, dashed, flight, minard, strength, phase }) => ({
     type: 'Feature',
     geometry: { type: 'LineString', coordinates: path.coords },
     properties: {
@@ -50,6 +57,9 @@ export function addRouteLayers(map, novel, paths) {
       offset: offsets[movement.character],
       dashed,
       flight: !!flight,
+      minard: !!minard,
+      strength: strength ?? 0,
+      phase,
       chapter: movement.chapter,
       // route provenance, for the hover card (empty on un-enriched legs)
       routeNote: movement.routeNote || '',
@@ -80,7 +90,7 @@ export function addRouteLayers(map, novel, paths) {
     id: 'routes-solid',
     type: 'line',
     source: ROUTE_SOURCE,
-    filter: ['all', ['!', ['get', 'dashed']], ['!', ['get', 'flight']]],
+    filter: ['all', ['!', ['get', 'dashed']], ['!', ['get', 'flight']], ['!', ['get', 'minard']]],
     layout: lineLayout,
     paint: linePaint,
   });
@@ -88,9 +98,27 @@ export function addRouteLayers(map, novel, paths) {
     id: 'routes-dashed',
     type: 'line',
     source: ROUTE_SOURCE,
-    filter: ['all', ['get', 'dashed'], ['!', ['get', 'flight']]],
+    filter: ['all', ['get', 'dashed'], ['!', ['get', 'flight']], ['!', ['get', 'minard']]],
     layout: lineLayout,
     paint: { ...linePaint, 'line-dasharray': [2.2, 1.8] },
+  });
+  // Minard band: the width carries the number of men, so the line thins as
+  // the army dies — a fat band leaving at ~400,000, a thread crawling back
+  // at ~10,000. Advance drawn in the army's own colour, retreat in ash-grey,
+  // and the retreat offset sideways so the thin return isn't swallowed by
+  // the fat advance where they share a road. `strength` is in thousands.
+  map.addLayer({
+    id: 'routes-minard',
+    type: 'line',
+    source: ROUTE_SOURCE,
+    filter: ['get', 'minard'],
+    layout: lineLayout,
+    paint: {
+      'line-color': ['case', ['==', ['get', 'phase'], 'retreat'], '#4a4238', ['get', 'colour']],
+      'line-width': ['interpolate', ['linear'], ['get', 'strength'], 10, 2, 50, 5, 150, 11, 400, 20],
+      'line-offset': ['case', ['==', ['get', 'phase'], 'retreat'], 13, 0],
+      'line-opacity': 0.82,
+    },
   });
   // Flight: a fine, airy dotted line — a bird's path, not a road or a
   // sea-lane. Rounded caps make the dots read as soft points.
@@ -235,6 +263,11 @@ export function setRouteMode(map, mode) {
   const web = mode === 'explore' ? 0.32 : mode === 'full' ? 0.5 : 0.12;
   for (const l of ['routes-solid', 'routes-dashed']) {
     map.setPaintProperty(l, 'line-opacity', web);
+  }
+  // The Minard band stays bold where its shape is meant to be read (the
+  // overture and explore), and dims during play so the moving trails carry.
+  if (map.getLayer('routes-minard')) {
+    map.setPaintProperty('routes-minard', 'line-opacity', mode === 'full' ? 0.85 : mode === 'explore' ? 0.7 : 0.2);
   }
   const vis = mode === 'explore' ? 'none' : 'visible';
   for (const l of TRAIL_LAYERS) map.setLayoutProperty(l, 'visibility', vis);
