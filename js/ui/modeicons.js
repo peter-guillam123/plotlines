@@ -30,6 +30,29 @@ const ICONS = {
     '<path d="M8.9 8.4 7.7 6.3H6.1l-.1 2.1" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/>' +
     '<circle cx="4.5" cy="11.3" r="1.4" fill="none" stroke="currentColor" stroke-width="1.2"/>' +
     '<circle cx="11" cy="11.3" r="1.4" fill="none" stroke="currentColor" stroke-width="1.2"/>',
+  // electric tram: a single-deck tramcar with a row of windows, small
+  // wheels and — the giveaway — a trolley pole reaching up to the overhead
+  // wire, sitting on a rail line. Dublin's 1904 streets (Ulysses); distinct
+  // from the omnibus by the pole and the rail beneath.
+  tram:
+    '<path d="M3 11.1V6.3c0-.7.5-1.2 1.2-1.2h7.6c.7 0 1.2.5 1.2 1.2v4.8" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>' +
+    '<path d="M3 8.2h11" stroke="currentColor" stroke-width="1"/>' +
+    '<path d="M5.3 5.2V8M8 5.2V8M10.7 5.2V8" stroke="currentColor" stroke-width="0.9"/>' +
+    '<path d="M3 11.1h11" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>' +
+    '<circle cx="5.3" cy="12.3" r="1.1" fill="none" stroke="currentColor" stroke-width="1.1"/>' +
+    '<circle cx="10.7" cy="12.3" r="1.1" fill="none" stroke="currentColor" stroke-width="1.1"/>' +
+    '<path d="M1.8 14h12.4" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>' +
+    '<path d="M8 5.1V2.5M8 2.5l3.1 1.1" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>',
+  // jaunting car (Irish outside car): one big spoked wheel, a seat-plank
+  // over it, sloping side footboards and a shaft running forward to the
+  // horse — Blazes Boylan's jingling car crossing Dublin (Ulysses).
+  jaunting:
+    '<circle cx="7.6" cy="10.6" r="2.7" fill="none" stroke="currentColor" stroke-width="1.2"/>' +
+    '<circle cx="7.6" cy="10.6" r="0.5" fill="currentColor"/>' +
+    '<path d="M3.4 7.5h7.7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>' +
+    '<path d="M11.1 7.5 13 6.2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>' +
+    '<path d="M3.4 7.5 1.3 6.3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>' +
+    '<path d="M5.1 7.7 4.1 9.8M10.1 7.7l1 2.1" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>',
   // steam locomotive: cab, boiler, a flared chimney with smoke, wheels
   train:
     '<path d="M2 11h11.4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>' +
@@ -106,6 +129,8 @@ const PHRASE = {
   horse: 'on horseback',
   coach: 'by coach',
   omnibus: 'by omnibus',
+  tram: 'by tram',
+  jaunting: 'by jaunting car',
   motor: 'by motor-car',
   train: 'by train',
   ship: 'by ship',
