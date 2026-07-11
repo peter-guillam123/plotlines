@@ -99,6 +99,15 @@
     "spine": { "cloth": "#3d5c3d", "text": "#e6d59a" }
   },
   {
+    "id": "devils-elixir",
+    "title": "The Devil's Elixir",
+    "author": "E. T. A. Hoffmann",
+    "year": 1815,
+    "file": "data/devils-elixir.json",
+    "blurb": "A monk drinks a relic-wine that unchains every buried desire, and is driven from his cloister into seduction, murder and madness — dogged the whole way by his own double, a face he cannot tell from his own. Rome to Prussia, and a family curse running under all of it.",
+    "spine": { "cloth": "#3d2a3a", "text": "#c8a24a" }
+  },
+  {
     "id": "les-miserables",
     "title": "Les Misérables",
     "author": "Victor Hugo",
