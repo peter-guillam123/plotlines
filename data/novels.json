@@ -27,6 +27,15 @@
     "spine": { "cloth": "#37506b", "text": "#e0d0a8" }
   },
   {
+    "id": "don-quixote",
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "year": 1605,
+    "file": "data/don-quixote.json",
+    "blurb": "A half-mad old gentleman of La Mancha, his head turned by books of chivalry, rides out with the squire Sancho Panza to right wrongs that aren't there — charging windmills he swears are giants, storming inns he takes for castles. Three sallies across Spain, from the plains to the beach at Barcelona, where the world at last makes him see it as it is.",
+    "spine": { "cloth": "#8f4e33", "text": "#e2cfa0" }
+  },
+  {
     "id": "heart-of-darkness",
     "title": "Heart of Darkness",
     "author": "Joseph Conrad",
