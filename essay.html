@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Large Learning Models — PlotLines</title>
+  <meta name="description" content="How an idle conversation with my daughter led to PlotLines, and why the tool itself is less important than the conversations we had with the machine that built it.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="PlotLines">
+  <meta property="og:title" content="Large Learning Models: why conversations with LLMs are an education in themselves">
+  <meta property="og:description" content="How an idle conversation with my daughter led to PlotLines, and why the tool itself is less important than the conversations we had with the machine that built it.">
+  <meta property="og:image" content="https://peter-guillam123.github.io/plotlines/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://peter-guillam123.github.io/plotlines/essay.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Essay-specific layer, sitting on top of the shared parchment base. */
+    .essay-standfirst {
+      font-family: var(--serif);
+      font-size: 1.28rem;
+      font-style: italic;
+      line-height: 1.5;
+      color: var(--ink-soft);
+      margin: 0.9rem 0 0;
+      max-width: 34rem;
+    }
+    .essay-byline {
+      margin-top: 1.1rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+    .essay-lead::first-letter {
+      font-family: var(--display);
+      float: left;
+      font-size: 3.5rem;
+      line-height: 0.78;
+      padding: 0.06em 0.09em 0 0;
+      color: var(--accent);
+    }
+    .essay-prompt {
+      margin: 1.35rem 0;
+      padding: 0.85rem 1.25rem;
+      border-left: 3px solid var(--accent);
+      background: var(--paper-bright);
+      font-style: italic;
+      line-height: 1.55;
+    }
+    .essay-list {
+      list-style: none;
+      margin: 1.1rem 0;
+      padding: 0;
+    }
+    .essay-list > li {
+      position: relative;
+      padding-left: 1.4rem;
+      margin-bottom: 0.7rem;
+    }
+    .essay-list > li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.62em;
+      width: 6px;
+      height: 6px;
+      background: var(--accent);
+    }
+    .essay-moments {
+      list-style: none;
+      margin: 1.6rem 0;
+      padding: 0;
+      counter-reset: moment;
+    }
+    .essay-moments > li {
+      counter-increment: moment;
+      position: relative;
+      padding-left: 2.9rem;
+      margin-bottom: 1.5rem;
+    }
+    .essay-moments > li::before {
+      content: counter(moment);
+      position: absolute;
+      left: 0;
+      top: -0.12em;
+      font-family: var(--display);
+      font-size: 2rem;
+      line-height: 1;
+      color: var(--accent);
+    }
+    .essay-end {
+      text-align: center;
+      color: var(--accent);
+      font-size: 1.5rem;
+      margin: 2.2rem 0 0;
+      letter-spacing: 0.3em;
+    }
+    .essay-footer {
+      margin-top: 2.4rem;
+      padding-top: 1.2rem;
+      border-top: 3px double var(--rule);
+      display: flex;
+      gap: 1.4rem;
+      flex-wrap: wrap;
+      font-style: italic;
+      color: var(--ink-soft);
+    }
+    .essay-footer a { color: var(--accent); text-decoration: none; }
+    .essay-footer a:hover, .essay-footer a:focus { text-decoration: underline; }
+  </style>
+</head>
+<body class="page-about">
+  <main class="about">
+    <header class="about-masthead">
+      <a class="about-back" href="index.html">&larr; Back to the map</a>
+      <h1>Large Learning Models: why conversations with LLMs are an education in themselves</h1>
+      <p class="essay-standfirst">How an idle conversation with my daughter led to
+      <a href="index.html" target="_blank" rel="noopener">PlotLines</a>, a beautiful
+      tool to map novels, and why the tool itself is less important than the
+      conversations we had with the machine that built it.</p>
+      <p class="essay-byline">Chris Moran</p>
+    </header>
+
+    <section>
+      <p class="essay-lead">A bit of background. I trained and started my career as
+      a teacher. I am now lucky enough at the Guardian to work with a range of
+      brilliant product managers, developers, data scientists and designers. I am
+      accustomed to the language of product building and the processes around it.
+      But I can't code myself. Over the past three years, my work has been focused
+      on using LLMs in different contexts to understand their limitations and the
+      risks associated with them. These are all very real. Any engagement with LLMs
+      requires care.</p>
+
+      <p>But too often the conversation around generative AI only focuses on risk.
+      That conversation also often assumes that personal and professional
+      responsibility is somehow automatically bypassed when it comes in contact with
+      these machines, rather than recognising the fact that any professional values,
+      codes and good practice can and must be applied in exactly the same way to LLMs
+      as any other input or tool you might use.</p>
+
+      <p>This piece isn't for people already building with LLMs. I'm far from the
+      bleeding edge. But I wanted to write it to demonstrate just how rich, educative,
+      provocative, thoughtful and valuable building with an LLM can be, rooted in a
+      practical example that I started working on just a week ago.</p>
+    </section>
+
+    <section>
+      <h2>The starting point</h2>
+
+      <p>My daughter recently studied <em>Dracula</em> at her secondary school and is
+      now reading <em>David Copperfield</em>. All of this started from a conversation
+      at breakfast about how hard it can be to get a concrete sense of the world
+      around these huge novels, and led to me suggesting that we try to trace some
+      locations and journeys on a contemporary map. We started with
+      <a href="index.html?novel=dracula" target="_blank" rel="noopener">Bram Stoker</a>.</p>
+
+      <p>I happen to use the Claude desktop app to work with Claude Code to build
+      things. If you're unfamiliar with all this, it simply means that my interaction
+      with Claude is through talking to it - just like a typical LLM. Claude Code is a
+      'harness' that lets Claude create code either on your computer or in a public
+      digital space. Many people assume that to make something impressive requires
+      hours of training or watching Youtube tutorials. These things can help. But one
+      of the most fundamental wonders of LLMs is that it's a teaching tool in itself.
+      Most of my projects start with a question along these lines:</p>
+
+      <blockquote class="essay-prompt">"I'm thinking of trying to build a map of
+      Dracula's locations and some of the journeys of the characters. I'd really love
+      to use a contemporary map. Is that possible? What things do I need to consider?
+      What's the easiest way to do it? I can't code. You will need to be super clear
+      and patient."</blockquote>
+    </section>
+
+    <section>
+      <h2>The first lessons</h2>
+
+      <p>I'm not going to go into the technical details of this project. We learned a
+      lot about the technical aspects of engineering something like this as we went,
+      but what mattered more was what we learned about the topic we were exploring.
+      Conversations about LLMs in education, especially between those that don't use
+      them much, often start and end with the idea of cheating or avoiding thinking by
+      shortcutting. I hope this example might underline why there is far more value to
+      discover.</p>
+
+      <p>Right off the bat, Claude started to highlight a bunch of things we needed to
+      consider and make calls on to shape the finished product. It found a way to lay
+      the actual Ordnance Survey of the 1890s — scanned and georeferenced by the
+      <a href="https://maps.nls.uk/" target="_blank" rel="noopener">National Library
+      of Scotland</a> — over a modern map, so that across Britain Dracula plays out on
+      the survey of its own decade. It explained where that map came from, and how we
+      were allowed to use it. It talked about why it existed (a lovely detour into
+      maps, the British empire, colonialism and Brian Friel's
+      <a href="https://en.wikipedia.org/wiki/Translations" target="_blank" rel="noopener"><em>Translations</em></a>
+      followed in person) and how we were able to use it. It also highlighted the
+      distinction between real locations and imagined ones. Tate Hill Pier is a real
+      place, identifiable to the metre. Castle Dracula is somewhere "above the Borgo
+      Pass". Claude suggested taking best guesses, building on detail from the novel,
+      and distinguishing between these things on the map.</p>
+
+      <p>Tracking the journeys of the characters felt like a simple suggestion but was
+      in fact a deep, deep well of decisions and considerations that ended up being
+      the engine of the whole idea. I told Claude that I was imagining "Indiana Jones
+      crossed with Bram Stoker". People are often dismissive of LLMs' writing
+      abilities, but a long and detailed conversation with one will generally leave
+      you reeling from just how nuanced and flexible these tools can be in inferring
+      intent and responding. That simple expression of the idea requires a huge amount
+      of decoding. Claude could immediately contextualise it and extrapolate out.</p>
+
+      <p>Building it required addressing a series of big questions:</p>
+
+      <ul class="essay-list">
+        <li>Choosing who the characters are that drive the narrative, especially
+        through movement;</li>
+        <li>Identifying all the key journeys and create a script that gave context to
+        each movement. Claude suggested double checking every quote against the
+        original text;</li>
+        <li>Thinking about how to handle timelines, chapters and flashbacks.</li>
+      </ul>
+
+      <p>All this eventually got us to a simple interactive animated map that did a
+      nice job of showing where characters travelled, went some way to articulating
+      how and why, and started to illuminate the chronology of the book. Crucially,
+      while Claude was building this for us, our involvement was not passive or
+      mindless. The process and the decisions we had to make made this a lesson in
+      itself: rich, deep and thoughtful engagement with the novel.</p>
+
+      <p>And this practical, iterative approach of starting small, watching the output
+      and adjusting meant that we could shape the user experience as we went. My
+      Indiana Jones prompt was a great way to start, but it also highlighted that
+      tightly following a single character meant that we lost the value of the context
+      of the wider map. Harker's travels from Munich to Castle Dracula made no sense
+      zoomed in. We needed a "director" that took the script and the journeys and
+      thought about how to frame each moment to deliver the geographical context.</p>
+    </section>
+
+    <section>
+      <h2>The second book</h2>
+
+      <p>It felt like what we had built could be even more interesting if the tool
+      could show a user more novels and journeys. So we went after a novel that looked
+      very different to Stoker's.
+      <a href="index.html?novel=tess" target="_blank" rel="noopener"><em>Tess of the
+      d'Urbervilles</em></a> is rural, tightly focused and, of course, operates in a
+      very different geographical reality: Hardy's Wessex is a map superimposed over a
+      real one.</p>
+
+      <p>Claude immediately identified the challenge and the need to look at Hardy's
+      own maps alongside a century of academic work pinning down the real locations of
+      his world. There remained two genuinely unsettled places; Claude made a best
+      guess and flagged them for what they were.</p>
+
+      <p>This is also where a serious conversation about copyright was initiated. I'd
+      stated at the outset that we wanted to stay well within a safe area here. Claude,
+      intuiting that this project was going to become something bigger, recommended
+      harder and faster rules. We learned about UK copyright vs US copyright and
+      elected to go with the former approach for everything that followed.</p>
+    </section>
+
+    <section>
+      <h2>The third book&hellip; and four agents</h2>
+
+      <p>With decent results on Dracula and Tess, we wanted a new challenge.
+      <a href="index.html?novel=pride-and-prejudice" target="_blank" rel="noopener">Pride
+      and Prejudice</a> was a heart pick, but one with some really interesting and
+      different challenges for the system we were building. It's set in the real
+      world, and has some specific real locations, but locating Longbourn and other
+      key places would rely on academic research and Austen's scrupulously stipulated
+      distances.</p>
+
+      <p>But one particular journey would make a huge difference to where the project
+      went next. Lizzie's curtailed trip to the Lake District with her aunt and uncle
+      leapt out on our map because Austen names the towns they travel through on their
+      way. It bends through real places and comes alive. But many of our journeys,
+      where only the start and finish were identified, were straight lines. We asked
+      Claude if it was possible to find information about contemporary coaching routes,
+      emigrant-voyage records and more to bring those lines alive in reasonable ways,
+      while always giving precedent to the authors' specifications.</p>
+
+      <p>And this is where the project and its engine became agentic. There's lot of
+      talk about agents at the moment. Most of it frankly clouds the main issue. It's
+      all very modish and too hypothetical. The easiest way to think of an agent is an
+      LLM that's been given a clearly defined job with clearly defined rules. The three
+      examples we'd worked on already meant that our conversation had become a rich set
+      of questions, rules, ideas and processes that we could easily formalise into
+      processes that could govern the transformation of any novel. I didn't really ask
+      Claude to build agents: I just asked it to capture these things as separate
+      instructions that it could follow in the future and build on as we tackled new
+      texts.</p>
+
+      <p>You can see how our agents break down in some detail
+      <a href="workshop.html" target="_blank" rel="noopener">here</a>. But broadly we
+      needed four:</p>
+
+      <ul class="essay-list">
+        <li>Research &amp; curate locations, characters and quotes;</li>
+        <li>Plan the routes according to the most relevant contemporary information;</li>
+        <li>Create a script that captures journeys and crucial narrative beats outside
+        them;</li>
+        <li>Find relevant contemporary images that could illustrate a given location.</li>
+      </ul>
+
+      <p>Each and every novel that followed was produced this way. Any important issues
+      Claude raised pre-publication. We then checked them live. Inevitably in each case
+      we saw an issue (presentational, textual, temporal or geographical) that the
+      specific novel threw up. Each time we learned something and fed that learning
+      back into the agentic system to help it cope the next time the issue occurred.</p>
+    </section>
+
+    <section>
+      <h2>Interventions and ideas</h2>
+
+      <p>I hope you can already see the ways that detailed conversations lead to both
+      participants - human and machine - bringing more and more richness to the
+      project. This isn't an obvious thing to most people. Generally discussions around
+      LLMs focus on bias and risk. But to finish off, here are just a few moments when
+      Claude initiated conversations or suggested ideas that might surprise you:</p>
+
+      <ol class="essay-moments">
+        <li>When we created a bookshelf interface for the user to choose a novel,
+        Claude rendered <em>Dracula</em> with a yellow cover and red writing. I hated
+        it and asked for less garish colours. Claude pointed out that it had chosen
+        them specifically because that was the colour scheme of the first edition.</li>
+
+        <li>The more you work on a novelistic map for this period, the more the
+        colonial background becomes clear. We wanted to try to build in books that went
+        beyond Britain and Europe. But most of those carry challenging frames, details,
+        languages and concepts. When we pushed for novels that moved into Africa, India
+        and South America, Claude specifically called this out. It led to a sensitivity
+        pass that didn't aim to sanitise characters or actions but did look for
+        real-world harms — a slur, an imperial framing — that would otherwise slip into
+        our narration unremarked.</li>
+
+        <li>Attempting to fill some of the gaps on our map also led to Claude suggesting
+        works we weren't familiar with. Spotting a void in Northern Europe, it
+        recommended <a href="index.html?novel=nils" target="_blank" rel="noopener"><em>The
+        Wonderful Adventures of Nils</em></a>, a geography primer in the form of a novel
+        by <a href="https://en.wikipedia.org/wiki/Selma_Lagerl%C3%B6f" target="_blank" rel="noopener">Selma
+        Lagerlöf</a>, the first woman to receive the Nobel Prize in Literature.</li>
+
+        <li>We held off on
+        <a href="index.html?novel=war-and-peace" target="_blank" rel="noopener"><em>War
+        and Peace</em></a> for a long time, recognising the scale of the challenge.
+        Claude's key intervention here was wonderful: treat the Grand Army as a single
+        protagonist. And once it was plotted on the map, a further refinement: it
+        recommended using something called a
+        <a href="https://en.wikipedia.org/wiki/Charles_Joseph_Minard#The_map_of_Napoleon's_Russian_campaign" target="_blank" rel="noopener">Minard
+        line</a> - where the width of the trail indicated the size of the army. That's a
+        spectacular idea that communicates in some way the scale of the losses of
+        Napoleon's grandest folly. And one that would never have occurred to me.</li>
+      </ol>
+
+      <p>So what are we left with? I think
+      <a href="index.html" target="_blank" rel="noopener">PlotLines</a> is a lovely
+      tool in and of itself. The comparisons between different novels, the telling of
+      the stories and the ability to just explore the map and the places are all joyful
+      and educative. But the real learning is exactly where most people see a blank: in
+      a conversation with a machine.</p>
+
+      <p class="essay-end">&#10087;</p>
+    </section>
+
+    <footer class="essay-footer">
+      <a href="index.html">&larr; Explore the map</a>
+      <a href="about.html">How it works</a>
+      <a href="workshop.html">How it's made</a>
+    </footer>
+  </main>
+</body>
+</html>
