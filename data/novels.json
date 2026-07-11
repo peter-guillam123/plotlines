@@ -223,5 +223,14 @@
     "file": "data/mrs-dalloway.json",
     "blurb": "One June day in London — a party, a lost soldier, and two lives that cross the same streets without ever meeting.",
     "spine": { "cloth": "#2c2b30", "text": "#d9b8a8" }
+  },
+  {
+    "id": "ulysses",
+    "title": "Ulysses",
+    "author": "James Joyce",
+    "year": 1922,
+    "file": "data/ulysses.json",
+    "blurb": "A single Dublin day from breakfast to the small hours — one wandering ad-man, one grieving poet forever just missing him on the same streets, and Molly awake on Eccles Street.",
+    "spine": { "cloth": "#3f6cae", "text": "#f4eede" }
   }
 ]
