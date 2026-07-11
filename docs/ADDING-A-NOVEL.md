@@ -443,6 +443,20 @@ still yours.
   editing JS, prime the changed files (`fetch(p,{cache:'reload'})`) before
   reloading, or verify against the *served* file with `curl` — a stale
   module will fool you into thinking a fix didn't land.
+- **Blank preview? Use `?base=blank`.** In a sandboxed preview with no
+  outbound network, the OpenFreeMap base tiles never load, so MapLibre's
+  `load` event never fires and the app — which waits for it before drawing —
+  sits on an empty skeleton. It looks like the book is broken; it isn't, the
+  base map just can't be reached (confirm by loading any known-good book — it
+  blanks too). Append **`?base=blank`** to the URL
+  (`index.html?novel=<slug>&base=blank`): it swaps the base for a local
+  parchment style with no external source (`styles/blank.json`), so `load`
+  fires at once and the book's pins, routes and script render and play on a
+  plain background. The shipped default is unchanged — only that explicit
+  parameter opts in. Text labels need glyphs (also external), so they stay
+  absent offline; pin positions, routes and the story pane do not depend on
+  them. This is the way to watch a book end-to-end where external tiles are
+  blocked.
 - **A route must match its mode and its narration.** The commonest content
   bug is a `via` copied from the wrong journey: Mr Peggotty's *walk* across
   France once carried the elopement's Gibraltar sea-track, and David's

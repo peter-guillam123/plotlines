@@ -1,0 +1,16 @@
+{
+  "version": 8,
+  "name": "PlotLines offline preview (blank base)",
+  "metadata": {
+    "plotlines:note": "A base-less parchment style for previewing a book where the OpenFreeMap tiles can't be reached (e.g. a sandboxed preview with no external network). It has no external tile source, so MapLibre's 'load' event fires at once and the book's pins, routes and story render on a plain background. Switched on with ?base=blank; the shipped default (styles/victorian.json) is unchanged. Glyphs are still pointed at OpenFreeMap and load lazily, so text labels appear only when that host is reachable — pin positions, route lines and the story pane do not depend on them."
+  },
+  "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
+  "sources": {},
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": { "background-color": "#efe4cd" }
+    }
+  ]
+}
