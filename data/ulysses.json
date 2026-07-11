@@ -96,7 +96,11 @@
       "story": "Stephen lodges in the round granite tower with the mocking Buck Mulligan and the Englishman Haines. Stung by Mulligan's jokes about his dead mother and by his sponging, Stephen hands over the key and resolves not to come back.",
       "quote": "The snotgreen sea. The scrotumtightening sea.",
       "quoteRef": "Episode 1, Telemachus",
-      "imageBlank": "No pre-1930 photograph of the Sandycove tower is in the public domain — the known period views are rights-managed, and a modern photo would be off-period."
+      "image": {
+        "file": "assets/images/ul-martello-tower.jpg",
+        "caption": "The Martello tower at Sandycove — now the James Joyce Tower and Museum — where Stephen and Buck Mulligan lodge. No period photograph of it is in the public domain, so this is a present-day view (2025); the granite tower itself stands essentially unchanged since 1904.",
+        "credit": "Karlunun, 2025 · Wikimedia Commons · CC0 (public domain dedication)"
+      }
     },
     {
       "id": "deasy-school",
