@@ -382,6 +382,10 @@ The pipeline that produced the honest datasets, in order:
    afterthought — it lives here so it can't be skipped.
 9. **Update** the About page (a diary entry + any new attribution) and add
    the shelf entry to `data/novels.json` with first-edition spine colours.
+   The library sorts the shelf itself — **author surname, then year within an
+   author** (`js/ui/library.js`) — so a new entry displays in the right place
+   wherever you drop it in the file; but keep `novels.json` in that same order
+   for tidiness (append-then-forget once left the shelf out of order twice).
 10. **Rebuild the atlas index.** `node tools/build-atlas.mjs` regenerates
     `data/atlas.json` — the one lightweight file of every place-pin across the
     whole shelf that the atlas view (`atlas.html`) draws. A new book does **not**

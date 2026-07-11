@@ -57,9 +57,21 @@ export function createLibrary(container, index) {
   slot.setAttribute('aria-hidden', 'true');
   slot.innerHTML = `<span class="book-title">more to come</span>`;
 
+  // The shelf is always in author-surname order, then chronological within an
+  // author — sorted here, so it holds regardless of the order books sit in the
+  // index file and a new book slots itself into place without being inserted by
+  // hand. (data/novels.json is kept in the same order too, for tidiness.)
+  const surname = (a) => a.trim().split(/\s+/).pop().toLowerCase();
+  const ordered = [...index].sort(
+    (a, b) =>
+      surname(a.author).localeCompare(surname(b.author)) ||
+      a.year - b.year ||
+      a.title.localeCompare(b.title),
+  );
+
   // Every spine, plus the "more to come" slot, laid out then split into
   // balanced rows — each row a shelf of its own.
-  const items = [...index.map(makeBook), slot];
+  const items = [...ordered.map(makeBook), slot];
   const rowCount = Math.ceil(items.length / MAX_PER_ROW);
   const perRow = Math.ceil(items.length / rowCount);
   for (let i = 0; i < items.length; i += perRow) {
