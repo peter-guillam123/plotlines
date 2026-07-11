@@ -52,6 +52,26 @@
       font-style: italic;
       line-height: 1.55;
     }
+    .essay-epigraph {
+      margin: 0.4rem 0 2.4rem;
+      max-width: 36rem;
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.3rem;
+      line-height: 1.5;
+      color: var(--ink);
+    }
+    .essay-epigraph cite {
+      display: block;
+      margin-top: 0.85rem;
+      font-size: 0.78rem;
+      font-style: normal;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+    .essay-epigraph cite em { font-style: italic; text-transform: none; }
+    .essay-epigraph cite a { color: inherit; text-decoration-thickness: 1px; }
     .essay-list {
       list-style: none;
       margin: 1.1rem 0;
@@ -127,6 +147,14 @@
     </header>
 
     <section>
+      <blockquote class="essay-epigraph">
+        &ldquo;What&rsquo;s at risk is nothing less than the ability to think for
+        oneself. If people become overreliant on AI to write for them, they could
+        lose the capacity to interrogate or even develop their own views. These are
+        quintessentially human capacities.&rdquo;
+        <cite>Rose Horowitz, <a href="https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/" target="_blank" rel="noopener">&lsquo;The end of reading&rsquo;</a>, <em>The Atlantic</em></cite>
+      </blockquote>
+
       <p class="essay-lead">A bit of background. I trained and started my career as
       a teacher. I am now lucky enough at the Guardian to work with a range of
       brilliant product managers, developers, data scientists and designers. I am
@@ -137,7 +165,8 @@
       requires care.</p>
 
       <p>But too often the conversation around generative AI only focuses on risk.
-      That conversation also often assumes that personal and professional
+      And in doing that we often end up considering negative change with none of the
+      potential upside. It's also often assumed that personal and professional
       responsibility is somehow automatically bypassed when it comes in contact with
       these machines, rather than recognising the fact that any professional values,
       codes and good practice can and must be applied in exactly the same way to LLMs
