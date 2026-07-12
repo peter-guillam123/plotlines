@@ -1378,25 +1378,93 @@
     {
       "character": "creature",
       "from": "montanvert",
-      "to": "evian",
-      "chapter": 24,
+      "to": "orkney-island",
+      "chapter": 21,
       "startDay": 550,
-      "days": 179,
+      "days": 80,
       "mode": "foot",
       "via": [
+        [
+          4.5,
+          47.5
+        ],
+        [
+          2.5,
+          49.5
+        ],
         {
           "at": [
-            -4,
-            57
+            0.5,
+            50.7
           ],
-          "name": "Shadowing Victor",
-          "note": "The creature follows Victor to the Orkneys and back - it is the window-face on the island, Clerval's killer in Ireland - and comes at last to Evian for the wedding night."
+          "name": "Across the Channel",
+          "note": "The creature crosses the sea after Victor as it crossed the Alps - unhindered by the water no ordinary pursuer could follow it over."
+        },
+        [
+          -1.5,
+          52.5
+        ],
+        [
+          -3.0,
+          55.5
+        ],
+        {
+          "at": [
+            -3.5,
+            58.3
+          ],
+          "name": "The Caithness shore",
+          "note": "Up the length of Britain to the northern coast, and out to the same remote Orkney rock where Victor has set up his laboratory."
         }
       ],
-      "routeNote": "From the Alpine meeting the creature shadows Victor across the whole second journey - Orkney, Ireland, home - keeping its threat ('I shall be with you on your wedding-night'), and reaches Evian to strangle Elizabeth. The path is a single illustrative thread standing for a pursuit told only glancingly.",
-      "routeSource": "The creature's threat and its killings of Clerval (Ireland) and Elizabeth (Evian) are the visible marks of a pursuit Shelley otherwise leaves off-page. Illustrative.",
+      "routeNote": "From the glacier the creature shadows Victor north the whole length of his second journey - up through France, over the Channel, and across Britain to the remotest of the Orkneys, where it watches the she-creature take shape. The thread is illustrative, standing for a pursuit Shelley leaves almost wholly off the page.",
+      "routeSource": "The creature's vow on the ice ('I shall be with you on your wedding-night') and its appearance at the Orkney window (Ch. 20) are the visible marks of a pursuit otherwise unnarrated. Illustrative.",
       "routeCertainty": "illustrative",
-      "note": "Always a step behind Victor - keeping its promise for the wedding night (The Orkney waypoint is deliberate - the creature shadows Victor everywhere; its Channel crossing is a side effect, spill-exempt.)",
+      "note": "Trailing Victor north to the Orkneys - the face that will appear at the window (its sea-crossings are a side effect of an inhuman pursuit, spill-exempt).",
+      "spillOk": true
+    },
+    {
+      "character": "creature",
+      "from": "orkney-island",
+      "to": "evian",
+      "chapter": 24,
+      "startDay": 650,
+      "days": 79,
+      "mode": "foot",
+      "via": [
+        [
+          -3.5,
+          58.3
+        ],
+        [
+          -3.0,
+          55.5
+        ],
+        [
+          -1.5,
+          52.5
+        ],
+        {
+          "at": [
+            0.5,
+            50.7
+          ],
+          "name": "Back across the Channel",
+          "note": "The female destroyed, the creature turns south again, recrossing the sea to keep its threat for the wedding night."
+        },
+        [
+          2.5,
+          49.0
+        ],
+        [
+          4.8,
+          47.0
+        ]
+      ],
+      "routeNote": "Its demand denied, the creature quits the Orkneys and travels the length of Britain and France back to Lake Geneva, reaching Evian on the wedding night to make good the threat sworn upon the ice. The thread is illustrative, standing for the off-page half of the pursuit.",
+      "routeSource": "The creature's threat and its strangling of Elizabeth at Evian (Ch. 23) are the visible marks of a return Shelley leaves unnarrated. Illustrative.",
+      "routeCertainty": "illustrative",
+      "note": "South again, vowing vengeance - carrying its promise to the wedding night (sea-crossings spill-exempt).",
       "spillOk": true
     },
     {
@@ -1880,12 +1948,42 @@
       "narration": "From there he takes a boat out to one of the remotest of the Orkneys - a bare rock of three wretched huts - and sets up his laboratory to make the she-creature the monster has demanded."
     },
     {
+      "kind": "meanwhile",
+      "narration": "The creature had not stayed behind on the ice. Wind back to the glacier where they parted, and follow the thread that kept its promise - it shadowed Victor's every mile north."
+    },
+    {
+      "kind": "journey",
+      "character": "creature",
+      "from": "montanvert",
+      "to": "orkney-island",
+      "chapter": 21,
+      "title": "The face at the window",
+      "narration": "From the Mer de Glace it trailed him across France, over the Channel, and up through England and Scotland to the same bare Orkney rock - and there it waited, watching the laboratory rise stone by stone."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Return to Victor at his bench, who has not yet looked up from the half-made thing beneath his hands, nor seen the shape gathering at the black glass behind him."
+    },
+    {
       "kind": "scene",
       "character": "victor",
       "at": "orkney-island",
       "chapter": 21,
       "title": "The female destroyed",
       "narration": "Half-finished, he thinks what a race of such beings might loose upon the world - and looks up to see the creature grinning at the window. In a passion he tears the female apart. It vanishes, vowing: 'I shall be with you on your wedding-night.'"
+    },
+    {
+      "kind": "removal",
+      "character": "creature",
+      "from": "orkney-island",
+      "to": "evian",
+      "chapter": 24,
+      "title": "South again, vowing vengeance",
+      "narration": "The female in pieces, the creature turned south again - back down through Scotland and England, across the Channel and into France - carrying its oath to Evian: it would be with him on his wedding night."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Return to Victor on the island, who rows out that night to sink the remains at sea - not knowing the watcher has already gone south ahead of him."
     },
     {
       "kind": "journey",
@@ -1954,19 +2052,6 @@
       "chapter": 24,
       "title": "The wedding night",
       "narration": "At the inn he sends Elizabeth ahead and paces the halls, listening. Too late he understands whom the vow was for: a scream from the room he has left her in, and she lies dead across the bed, the creature grinning through the open window."
-    },
-    {
-      "kind": "meanwhile",
-      "narration": "For while Victor toiled at his mate and wandered from Orkney to Ireland and home, the creature shadowed him throughout. Wind back to the glacier where they parted, and follow the thread that kept the promise made upon the ice."
-    },
-    {
-      "kind": "journey",
-      "character": "creature",
-      "from": "montanvert",
-      "to": "evian",
-      "chapter": 24,
-      "title": "Keeping its promise",
-      "narration": "From the Alpine meeting the creature had followed Victor across the whole second journey - the face at the Orkney window, the killer on the Irish shore - always a step behind, until it reached Evian and made good the threat sworn upon the ice."
     },
     {
       "kind": "meanwhile",
