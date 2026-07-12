@@ -164,7 +164,7 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     const parts = [];
     if (beat.t0 != null) {
       const clock = storyTime(novel, beat.t0);
-      if (clock) parts.push(clock.primary + (clock.secondary ? ` — ${clock.secondary}` : ''));
+      if (clock) parts.push(clock.primary + (clock.secondary ? ` - ${clock.secondary}` : ''));
     }
     if (beat.chapter) parts.push(`Ch. ${roman(beat.chapter)}`);
     return parts.join(' · ');

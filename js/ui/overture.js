@@ -48,7 +48,7 @@ export function createOverture(container, map, novel, paths, { onStart, reducedM
 
     // The scale of the thing, in miles — the overture is where the sweep lives.
     const dist = container.querySelector('.overture-distance');
-    if (totalMiles >= 1) dist.textContent = `The whole journey — ${milesAndTime(totalMiles, totalSpan)}.`;
+    if (totalMiles >= 1) dist.textContent = `The whole journey - ${milesAndTime(totalMiles, totalSpan)}.`;
     else dist.remove();
 
     // A book whose action pre-dates any surviving map (Henry IV, 1403) owns

@@ -36,8 +36,8 @@ function fillCard(el, loc) {
 const ROUTE_CERTAINTY = {
   novel: 'From the novel',
   documented: 'Documented route',
-  reconstructed: 'Reconstructed — period-plausible',
-  illustrative: 'Illustrative — the text is vague',
+  reconstructed: 'Reconstructed - period-plausible',
+  illustrative: 'Illustrative - the text is vague',
 };
 
 function routeCardHtml(p) {

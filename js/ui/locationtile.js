@@ -53,9 +53,9 @@ export function createLocationTile(container, novel, timeline) {
       return `${icon} ${modePhrase(pos.movement.mode)} to ${novel.locationsById[pos.movement.to].novelName}`;
     }
     const here = `at ${novel.locationsById[pos.atLocationId].novelName}`;
-    if (pos.restUntil >= timeline.tEnd) return `${here} — journey's end`;
+    if (pos.restUntil >= timeline.tEnd) return `${here} - journey's end`;
     const dwell = dwellPhrase(pos.restUntil - timeline.state.t);
-    return dwell ? `${here} — ${dwell}` : here;
+    return dwell ? `${here} - ${dwell}` : here;
   }
 
   function render(t, positions) {

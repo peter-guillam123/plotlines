@@ -55,7 +55,7 @@ export function createStoryCard(container, novel, { onStep, onExplore }) {
     ? `wander the ${placeCount} places at your own pace, each carrying the book's own words and, where one survives, a real period picture.`
     : `wander the ${placeCount} places at your own pace, each carrying the book's own words and the story of what happened there.`;
   const invitationText = (totalMiles, totalSpan) =>
-    `That's the whole journey told${totalMiles ? ` — ${milesAndTime(totalMiles, totalSpan)}` : ''}. Now the map is yours: ${placesClause}`;
+    `That's the whole journey told${totalMiles ? ` - ${milesAndTime(totalMiles, totalSpan)}` : ''}. Now the map is yours: ${placesClause}`;
 
   function show(beat, { index, total, clock, focusChar, mode }) {
     container.classList.remove('is-interstitial', 'is-done');
@@ -94,7 +94,7 @@ export function createStoryCard(container, novel, { onStep, onExplore }) {
       modeEl.removeAttribute('title');
       modeEl.hidden = true;
     }
-    clockEl.textContent = beat.kind === 'meanwhile' ? 'Meanwhile — the clock turns back' : (clock || '');
+    clockEl.textContent = beat.kind === 'meanwhile' ? 'Meanwhile - the clock turns back' : (clock || '');
     titleEl.textContent = beat.title || '';
     titleEl.hidden = !beat.title;
     narrationEl.textContent = beat.narration;
