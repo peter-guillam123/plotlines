@@ -1,0 +1,157 @@
+{
+  "pride-and-prejudice": {
+    "distanceKm": 1889,
+    "spanDays": 365,
+    "spanLabel": "one year"
+  },
+  "jane-eyre": {
+    "distanceKm": 526,
+    "spanDays": 4380,
+    "spanLabel": "12 years"
+  },
+  "thirty-nine-steps": {
+    "distanceKm": 1300,
+    "spanDays": 21,
+    "spanLabel": "3 weeks"
+  },
+  "my-antonia": {
+    "distanceKm": 19382,
+    "spanDays": 11700,
+    "spanLabel": "30+ years"
+  },
+  "don-quixote": {
+    "distanceKm": 1694,
+    "spanDays": 730,
+    "spanLabel": "2 years"
+  },
+  "heart-of-darkness": {
+    "distanceKm": 22531,
+    "spanDays": 150,
+    "spanLabel": "5 months"
+  },
+  "david-copperfield": {
+    "distanceKm": 40249,
+    "spanDays": 10950,
+    "spanLabel": "a lifetime"
+  },
+  "bleak-house": {
+    "distanceKm": 1563,
+    "spanDays": 900,
+    "spanLabel": "2 years"
+  },
+  "hound-of-the-baskervilles": {
+    "distanceKm": 645,
+    "spanDays": 14,
+    "spanLabel": "2 weeks"
+  },
+  "lost-world": {
+    "distanceKm": 29434,
+    "spanDays": 180,
+    "spanLabel": "6 months"
+  },
+  "monte-cristo": {
+    "distanceKm": 9406,
+    "spanDays": 8760,
+    "spanLabel": "24 years"
+  },
+  "madame-bovary": {
+    "distanceKm": 160,
+    "spanDays": 3300,
+    "spanLabel": "9 years"
+  },
+  "tess": {
+    "distanceKm": 675,
+    "spanDays": 1600,
+    "spanLabel": "4 years"
+  },
+  "devils-elixir": {
+    "distanceKm": 3009,
+    "spanDays": 9000,
+    "spanLabel": "a lifetime"
+  },
+  "les-miserables": {
+    "distanceKm": 3370,
+    "spanDays": 7000,
+    "spanLabel": "18 years"
+  },
+  "ulysses": {
+    "distanceKm": 45,
+    "spanDays": 1,
+    "spanLabel": "one day"
+  },
+  "kim": {
+    "distanceKm": 4312,
+    "spanDays": 900,
+    "spanLabel": "3 years"
+  },
+  "nils": {
+    "distanceKm": 3248,
+    "spanDays": 240,
+    "spanLabel": "8 months"
+  },
+  "call-of-the-wild": {
+    "distanceKm": 6074,
+    "spanDays": 730,
+    "spanLabel": "2 years"
+  },
+  "moby-dick": {
+    "distanceKm": 34343,
+    "spanDays": 550,
+    "spanLabel": "18 months"
+  },
+  "henry-iv": {
+    "distanceKm": 4066,
+    "spanDays": 3650,
+    "spanLabel": "10 years"
+  },
+  "frankenstein": {
+    "distanceKm": 25791,
+    "spanDays": 1095,
+    "spanLabel": "3 years"
+  },
+  "kidnapped": {
+    "distanceKm": 1112,
+    "spanDays": 120,
+    "spanLabel": "a summer"
+  },
+  "dracula": {
+    "distanceKm": 26916,
+    "spanDays": 210,
+    "spanLabel": "7 months"
+  },
+  "vanity-fair": {
+    "distanceKm": 2630,
+    "spanDays": 7300,
+    "spanLabel": "20 years"
+  },
+  "war-and-peace": {
+    "distanceKm": 10275,
+    "spanDays": 5475,
+    "spanLabel": "15 years"
+  },
+  "anna-karenina": {
+    "distanceKm": 13814,
+    "spanDays": 1500,
+    "spanLabel": "4 years"
+  },
+  "huckleberry-finn": {
+    "distanceKm": 844,
+    "spanDays": 90,
+    "spanLabel": "3 months"
+  },
+  "eighty-days": {
+    "distanceKm": 44892,
+    "spanDays": 80,
+    "spanLabel": "80 days"
+  },
+  "war-of-the-worlds": {
+    "distanceKm": 255,
+    "spanDays": 15,
+    "spanLabel": "2 weeks"
+  },
+  "mrs-dalloway": {
+    "distanceKm": 22,
+    "spanDays": 1,
+    "spanLabel": "one day"
+  }
+}

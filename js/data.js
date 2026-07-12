@@ -12,7 +12,18 @@ export async function loadNovelIndex() {
   // never skewed against fresh code by a stale HTTP cache.
   const res = await fetch('data/novels.json', { cache: 'no-cache' });
   if (!res.ok) throw new Error(`Could not load novel index (${res.status})`);
-  return res.json();
+  const index = await res.json();
+  // Merge the shelf sort-stats (distance travelled, time span) if present, so
+  // the shelf's sort control can use them. Best-effort: a missing or bad stats
+  // file just leaves those two sorts to fall back, it never breaks the index.
+  try {
+    const s = await fetch('data/shelf-stats.json', { cache: 'no-cache' });
+    if (s.ok) {
+      const stats = await s.json();
+      for (const n of index) Object.assign(n, stats[n.id] || {});
+    }
+  } catch { /* stats are optional */ }
+  return index;
 }
 
 export async function loadNovel(file) {

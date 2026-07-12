@@ -1688,6 +1688,54 @@ body.is-overture #captions { display: none !important; }
   opacity: 0.5;
 }
 
+/* the order control: a thin segmented toggle under the dek, in the view-toggle
+   family but lighter; wraps rather than overflowing on a narrow card */
+.shelf-sort {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  max-width: 32rem;
+  margin: 12px auto 2px;
+}
+.shelf-sort > button {
+  min-height: 26px;
+  padding: 3px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: transparent;
+  font-family: var(--serif);
+  font-size: 12.5px;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.shelf-sort > button:hover { background: var(--paper); }
+.shelf-sort > button[aria-pressed='true'] {
+  background: var(--ink);
+  color: var(--paper-bright);
+  border-color: var(--ink);
+  cursor: default;
+}
+
+/* the per-spine metric: shown at the foot in place of the date when the shelf
+   is ordered by distance travelled or time span */
+.book-metric {
+  writing-mode: horizontal-tb;
+  font-size: 7.5px;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+  color: var(--lettering, #e6d59a);
+  opacity: 0.62;
+  display: none;
+}
+.library-shelf[data-metric='distance'] .book-year,
+.library-shelf[data-metric='span'] .book-year { display: none; }
+.library-shelf[data-metric='distance'] .book-metric,
+.library-shelf[data-metric='span'] .book-metric { display: block; }
+
 .library-book-empty {
   background: transparent;
   border: 1px dashed var(--rule);
