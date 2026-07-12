@@ -66,8 +66,15 @@ Then watch it in the browser end-to-end before it goes to the editor.
   prose is *good*. Keep the editor's watch-through at the end.
 
 ## Conventions
-- **Desktop-only.** We stopped budgeting for mobile on this project — ignore
-  the global mobile rules here; don't add mobile-specific work.
+- **Desktop-first, landscape-mobile as best fit.** The priority is desktop.
+  But there is a designed mobile-landscape layout (see the MOBILE block in
+  `css/style.css`: "Landscape is the designed experience; portrait is sent to
+  turn", gated on `html.touch`). A portrait phone gets the rotate-to-read hint;
+  landscape gets a real layout. So: don't spend the desktop budget on mobile,
+  but any new UI must stay *usable* in mobile-landscape - it can't break or
+  become unreachable there. The heavy global mobile rules (tap-target sizes,
+  memory ceilings) are relaxed, not abolished: keep touch targets tappable and
+  don't ship a scan-all-the-things memory bomb, but skip bespoke portrait work.
 - One commit per theme; British English, sentence case. End commit messages
   with the `Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>` line.
 - Update the About **diary** with any significant change — it is the
