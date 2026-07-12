@@ -145,6 +145,7 @@ ready
     const cards = createCards(map, novel, document.getElementById('sheet'), {
       isPlaying: () => transport.isPlaying() || engine.isPlaying(),
       reducedMotion: () => engine.reducedMotion(),
+      cloth: meta.spine?.cloth || novel.spine?.cloth || '#4d5661',
     });
     createPlaces(document.getElementById('places'), map, novel, cards, engine, director);
     const locationTile = createLocationTile(
