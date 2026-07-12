@@ -1,0 +1,773 @@
+{
+  "title": "My Ántonia",
+  "author": "Willa Cather",
+  "year": 1918,
+  "gutenbergId": 242,
+  "overture": "Nebraska, the eighteen-eighties and after. An orphan boy from Virginia and the daughter of Bohemian immigrants grow up a mile apart on the raw high prairie, the Divide. Jim Burden's line spirals outward from it and thins - the town, the university, the East, a cold worldly success he never quite believes in. Ántonia Shimerda's line barely leaves it, and thickens - ruin, recovery, and a farm of her own, rooted at last into the same red grass. A third girl, Lena, slips away west and prospers. Three lives flung out from one small patch of land, and the one the book loves best is the one who never leaves.",
+  "mapHome": {
+    "bounds": [[-101.5, 39.3], [-95.5, 41.3]]
+  },
+  "timeline": {
+    "epoch": null,
+    "calendar": false,
+    "span": 11600,
+    "unit": "days"
+  },
+  "sources": [
+    "The novel is undated: Jim Burden's memoir of a boyhood on the Nebraska Divide in the eighteen-eighties and the lives it touched, told in five Books across some thirty years. The clock here runs in the stages of two lives, not in dates.",
+    "The heart of the map is tiny and real: a cluster of pins within about twenty-five miles of Red Cloud, Nebraska - the town Cather called 'Black Hawk', its depot, streets and dancing-tent all drawn from the place she grew up. The farms on the Divide are fictional in name (the Burden farm, the Shimerda dugout, the Cuzak farm), modelled on real homesteads north-east of Red Cloud, chiefly the Pavelka place that stood for Ántonia's; they are placed there and marked conjectured.",
+    "The far pins are the ends of the long thin lines the prairie flings out: Virginia and Bohemia (the two origins), Lincoln and the East (Jim's rise), Denver and San Francisco (Ántonia's ruin and Lena's fortune). Several are named in the text (Lincoln, Boston/Harvard, New York, Denver, Prague); Virginia is 'under the Blue Ridge' only, so it is placed at Cather's own origin and marked conjectured.",
+    "Editorial: Mr Shimerda's suicide is drawn as the book draws it - a death of homesickness and displacement, with the novel's own restraint, no dwelling on method. The touring Black pianist of Book II (Blind d'Arnault) is left off the map and out of the copy: Cather's portrayal of him is steeped in period racial language we will not reproduce. The immigrant families are the book's true subject and its strength; the period's casual ethnic typing is not echoed in our voice.",
+    "The inset tales are kept off the map: the two Russians' story of the wolves and the wedding-sledges, set back in Russia, and the Coronado legend, are stories told on the Divide, not journeys anyone takes. Text: Project Gutenberg #242."
+  ],
+  "regions": [
+    { "id": "virginia", "name": "Virginia" },
+    { "id": "bohemia", "name": "Bohemia" },
+    { "id": "the-divide", "name": "The Divide - the prairie farms" },
+    { "id": "black-hawk", "name": "Black Hawk (Red Cloud)" },
+    { "id": "lincoln", "name": "Lincoln - the university" },
+    { "id": "the-east", "name": "The East" },
+    { "id": "the-wider-west", "name": "The wider West" }
+  ],
+  "chapters": [
+    { "n": 1, "title": "Nothing but land", "day": 0, "when": "the journey west" },
+    { "n": 2, "title": "The two farms", "day": 200, "when": "boyhood on the Divide" },
+    { "n": 3, "title": "The hard winter", "day": 500, "when": "the first winter" },
+    { "n": 4, "title": "The hired girls", "day": 1100, "when": "the Black Hawk years" },
+    { "n": 5, "title": "The dancing tent", "day": 1500, "when": "the Black Hawk years" },
+    { "n": 6, "title": "Lincoln", "day": 3300, "when": "the university" },
+    { "n": 7, "title": "Flung out", "day": 3800, "when": "the parting of the ways" },
+    { "n": 8, "title": "The return", "day": 11000, "when": "twenty years on" }
+  ],
+  "characters": [
+    {
+      "id": "jim",
+      "name": "Jim Burden",
+      "colour": "prussian",
+      "initials": "J",
+      "role": "The orphan from Virginia, the narrator - the line that leaves the prairie for the town, the university and the East, and rises to a cold, hollow success",
+      "start": { "location": "blue-ridge-virginia", "chapter": 1 }
+    },
+    {
+      "id": "antonia",
+      "name": "Ántonia Shimerda",
+      "colour": "ochre",
+      "initials": "A",
+      "role": "The Bohemian immigrants' daughter - the line that barely leaves the Divide, is ruined and recovers, and roots itself at last into the land as its truest child",
+      "start": { "location": "bohemia-prague", "chapter": 1 }
+    },
+    {
+      "id": "lena",
+      "name": "Lena Lingard",
+      "colour": "madder",
+      "initials": "L",
+      "role": "A Norwegian farm girl of the Divide - the counter-line, who slips away to the city and prospers where Ántonia stays and falls",
+      "start": { "location": "red-cloud-black-hawk", "chapter": 4 }
+    }
+  ],
+  "locations": [
+    {
+      "id": "blue-ridge-virginia",
+      "region": "virginia",
+      "name": "under the Blue Ridge, Virginia",
+      "novelName": "under the Blue Ridge",
+      "coords": [-78.16, 39.19],
+      "certainty": "conjectured",
+      "note": "The text says only 'under the Blue Ridge'; the exact Virginia farm is unnamed. Placed near Winchester, Cather's own family origin, and marked conjectured.",
+      "story": "Where Jim is orphaned at ten and sent west to grandparents he has never met. The mountains are the horizon he loses: on the prairie he finds himself, for the first time, under a sky with no familiar ridge against it.",
+      "quote": "my Virginia relatives were sending me out to my grandparents, who lived in Nebraska.",
+      "quoteRef": "Book I",
+      "imageBlank": "Jim's origin is 'under the Blue Ridge' only, near no named place. No period photograph of that country is in the public domain; a fine 1858 painting of Virginia's Natural Bridge exists, but it is a specific landmark 150 miles off, too particular to stand in honestly. Better a blank."
+    },
+    {
+      "id": "bohemia-prague",
+      "region": "bohemia",
+      "name": "Bohemia (via Prague), the Czech lands",
+      "novelName": "Bohemia",
+      "coords": [14.4378, 50.0755],
+      "certainty": "identified",
+      "note": "Bohemia and Prague are both named; the Shimerdas' native village is never named, so the pin sits at Prague, the one fixed point Jim gives.",
+      "story": "The Shimerdas' home, and the far anchor of the transatlantic thread. A respected family here - the father a weaver and fiddler - they sell up and cross the world to the prairie. The homesickness for this place is what will kill Mr Shimerda.",
+      "quote": "Once when I was abroad I went into Bohemia, and from Prague I sent Ántonia some photographs of her native village.",
+      "quoteRef": "Book V",
+      "image": {
+        "file": "assets/images/ma-prague.jpg",
+        "caption": "The Charles Bridge, Prague, photochrom c.1890 - the one fixed point of the Shimerdas' lost country",
+        "credit": "Photoglob / Detroit Publishing Co., c.1890 · Library of Congress / Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "bremen",
+      "region": "bohemia",
+      "name": "Bremerhaven, the emigration port",
+      "novelName": "the port",
+      "coords": [8.58, 53.54],
+      "certainty": "conjectured",
+      "note": "The novel does not name the port of departure; Bremerhaven, built as Bremen's deep-water emigration harbour, was the great embarkation point for Central-European emigrants of the period, so the overland-then-sea passage is drawn through it.",
+      "story": "The North Sea port where the Shimerdas, and thousands like them, took ship for America. The last of the old world before the long crossing - and, for Mr Shimerda, the last of everything he understood.",
+      "image": {
+        "file": "assets/images/ma-bremen.jpg",
+        "caption": "Steerage passengers on the deck of a Bremen emigrant liner, c.1907 - the crossing the Shimerdas made",
+        "credit": "Bain News Service, c.1907 · Library of Congress / Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "burden-farm",
+      "region": "the-divide",
+      "name": "the Burden farm, the Divide",
+      "novelName": "my grandfather's farm",
+      "coords": [-98.48, 40.2],
+      "certainty": "conjectured",
+      "note": "Fictional, on the high farming country ('the Divide') north of Red Cloud; placed there and marked conjectured.",
+      "story": "Jim's grandparents' place, the only wooden house west of Black Hawk, and the base of his boyhood. The prairie-dog town, the great snake, the first blizzard, the whole raw new world open around it.",
+      "quote": "I had been told that ours was the only wooden house west of Black Hawk",
+      "quoteRef": "Book I",
+      "image": {
+        "file": "assets/images/ma-burden-farm.jpg",
+        "caption": "A Nebraska homestead on the Divide - the Rawding family before their sod house, a cow grazing on the roof, Custer County, 1886",
+        "credit": "Solomon D. Butcher, 1886 · Library of Congress / Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "shimerda-dugout",
+      "region": "the-divide",
+      "name": "the Shimerda dugout, the Divide",
+      "novelName": "the Shimerdas' cave",
+      "coords": [-98.52, 40.18],
+      "certainty": "conjectured",
+      "note": "Fictional, a mile or so from the Burden farm; placed on the Divide and marked conjectured.",
+      "story": "The immigrant family's first home, an earth cave dug into a bank - the wooden house and the mud cave, a mile apart, the whole gulf between the two families in miniature. Here the Shimerdas half-starve through the first winter, and here Mr Shimerda takes his own life.",
+      "quote": "It's no better than a badger hole; no proper dugout at all.",
+      "quoteRef": "Book I",
+      "imageBlank": "The Shimerdas' earth cave is the whole point of their poverty, not a settled sod house. No public-domain period photograph of a Nebraska dugout was verifiable (the real Butcher dugout photographs sit behind the archive's block), so a blank rather than a soddy that would misrepresent it."
+    },
+    {
+      "id": "red-cloud-black-hawk",
+      "region": "black-hawk",
+      "name": "Red Cloud, Nebraska ('Black Hawk')",
+      "novelName": "Black Hawk",
+      "coords": [-98.5192, 40.0891],
+      "certainty": "identified",
+      "note": "'Black Hawk' is Cather's fictional name for her home town, Red Cloud, on the Republican River; the depot, streets and dancing-tent all match.",
+      "story": "The little railroad town both families move toward: Jim's schooling, and Ántonia's years as a hired girl in other people's kitchens. the Italian showmen the Vannis and their dancing tent, the Harlings, the predatory moneylender Wick Cutter - the town where the two lives are briefly in the same place and visibly drawing apart.",
+      "quote": "we bought Preacher White's house, at the north end of Black Hawk. This was the first town house one passed driving in from the farm",
+      "quoteRef": "Book II",
+      "imageBlank": "No period photograph of Red Cloud is on the open public-domain sites; the one that exists (an 1889 view of Webster Street) is gated behind the Library of Congress's block. A blank rather than a modern street view."
+    },
+    {
+      "id": "lincoln-nebraska",
+      "region": "lincoln",
+      "name": "Lincoln, Nebraska (the university)",
+      "novelName": "Lincoln",
+      "coords": [-96.7026, 40.8136],
+      "certainty": "real",
+      "story": "The University of Nebraska, and Jim's first real step off the prairie. His tutor Gaston Cleric opens the world of books to him; and here Lena Lingard turns up too, running her own dress shop - the girl who left the Divide and thrived, briefly crossing the boy who is leaving it for good.",
+      "quote": "Gaston Cleric had arrived in Lincoln only a few weeks earlier than I, to begin his work as head of the Latin Department.",
+      "quoteRef": "Book III",
+      "imageBlank": "No public-domain period photograph of 1890s-1900s Lincoln was found on the open sites - only later shots and modern buildings. A blank until a period photochrom can be sourced and cleared."
+    },
+    {
+      "id": "cambridge-boston",
+      "region": "the-east",
+      "name": "Cambridge / Boston, Massachusetts (Harvard)",
+      "novelName": "Harvard",
+      "coords": [-71.1167, 42.377],
+      "certainty": "identified",
+      "note": "Harvard and Boston are named; pinned at Cambridge, the real seat of the college.",
+      "story": "Jim goes east to finish his studies at Harvard, following his tutor Cleric to Boston. The prairie recedes to memory. It is a stage in a rise rather than a place with scenes - the line thinning as it climbs.",
+      "quote": "Two years after I left Lincoln, I completed my academic course at Harvard.",
+      "quoteRef": "Book III",
+      "imageBlank": "Harvard is real and much-photographed, but here it is only a stage in Jim's rise, not a place with lived scenes. Left blank for now; a period Harvard Yard photochrom could be dropped in later."
+    },
+    {
+      "id": "new-york-city",
+      "region": "the-east",
+      "name": "New York City",
+      "novelName": "New York",
+      "coords": [-73.9857, 40.7484],
+      "certainty": "real",
+      "note": "New York is named as Jim's home in the frame; it is also the Shimerdas' port of entry ('lost on exchange in New York'), so the pin quietly serves both lines.",
+      "story": "The far end of the line that left. Jim is legal counsel to a great Western railway - rich, restless, ardent about big Western dreams and becalmed in a cold marriage he no longer pretends to love. His worldly summit, and his lowest ebb. It was also, long before, the door through which the Shimerdas entered the country.",
+      "quote": "He is legal counsel for one of the great Western railways, and is sometimes away from his New York office for weeks together.",
+      "quoteRef": "Introduction",
+      "image": {
+        "file": "assets/images/ma-new-york.jpg",
+        "caption": "Mulberry Street, New York, c.1900 - the teeming immigrant city the Shimerdas pass through, and Jim's cold summit years later",
+        "credit": "Detroit Publishing Co., c.1900 · Library of Congress / Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "denver-colorado",
+      "region": "the-wider-west",
+      "name": "Denver, Colorado",
+      "novelName": "Denver",
+      "coords": [-104.9903, 39.7392],
+      "certainty": "real",
+      "story": "Where Ántonia's ruin happens, off-stage. She travels here to marry the railway conductor Larry Donovan; he strings her along, spends her savings, never marries her, and deserts her. She comes home to the Divide alone and pregnant. West-flung, it mirrors Jim's eastern pins: everyone is flung out from the prairie, and only some come back.",
+      "quote": "in a few days we had a letter saying she got to Denver safe, and he was there to meet her.",
+      "quoteRef": "Book IV",
+      "image": {
+        "file": "assets/images/ma-denver.jpg",
+        "caption": "Denver, Colorado, with the Rockies beyond, 1898 - the city where Ántonia's ruin is waiting",
+        "credit": "Detroit Publishing Co., 1898 · Library of Congress / Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "san-francisco",
+      "region": "the-wider-west",
+      "name": "San Francisco, California",
+      "novelName": "San Francisco",
+      "coords": [-122.4194, 37.7749],
+      "certainty": "real",
+      "note": "Lena's final home is named; San Francisco is the far west end of the counter-line.",
+      "story": "Where Lena Lingard ends up - the leading dressmaker of the city, comfortable, independent, never married, never quite touched by any of it. The mirror of Ántonia: the one who left the prairie and prospered, against the one who stayed and rooted.",
+      "quote": "Frisco's the right field for her.",
+      "quoteRef": "Book IV",
+      "image": {
+        "file": "assets/images/ma-san-francisco.jpg",
+        "caption": "Market Street, San Francisco, 1900 - a few years before the earthquake; the far coast where Lena thrives",
+        "credit": "Detroit Publishing Co., 1900 · Library of Congress / Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "cuzak-farm",
+      "region": "the-divide",
+      "name": "the Cuzak farm, the Divide",
+      "novelName": "Ántonia's farm",
+      "coords": [-98.45, 40.28],
+      "certainty": "conjectured",
+      "note": "Ántonia's own farm, married to Anton Cuzak; fictional, on the Divide, modelled on the Pavelka homestead. Marked conjectured. Deliberately a different pin from the dugout - the same land, the misery redeemed.",
+      "story": "Ántonia's own place, twenty years on: married to the kindly Anton Cuzak, an orchard she planted herself, a fruit-cave in the bank, and ten or eleven children spilling up into the light. The earth cave that was misery in the first winter is now a larder bursting with life - the whole 'rooting into the land' made visible, and where Jim's long return finally lands.",
+      "quote": "a veritable explosion of life out of the dark cave into the sunlight",
+      "quoteRef": "Book V",
+      "image": {
+        "file": "assets/images/ma-cuzak-farm.jpg",
+        "caption": "A prosperous two-storey sod house, Custer County, Nebraska, 1886 - the kind of settled farm Ántonia's ruin becomes",
+        "credit": "Solomon D. Butcher, 1886 · Library of Congress / Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    }
+  ],
+  "movements": [
+    {
+      "character": "jim",
+      "from": "blue-ridge-virginia",
+      "to": "red-cloud-black-hawk",
+      "chapter": 1,
+      "mode": "train",
+      "startDay": 3,
+      "days": 10,
+      "via": [
+        [-87.65, 41.85],
+        [-95.9, 41.25]
+      ],
+      "routeCertainty": "illustrative",
+      "routeSource": "The text gives Virginia, a change at Chicago and a day's run across Nebraska; drawn as a gesture west by the real rail corridor to the Black Hawk siding.",
+      "note": "Orphaned in Virginia, Jim is sent west by train - across the Missouri and all day across Nebraska - to a night-time siding at Black Hawk, in the care of a farmhand, Jake Marpole. On the platform he first sees the immigrant family who will be his nearest neighbours."
+    },
+    {
+      "character": "jim",
+      "from": "red-cloud-black-hawk",
+      "to": "burden-farm",
+      "chapter": 1,
+      "mode": "coach",
+      "startDay": 14,
+      "days": 1,
+      "note": "The night wagon-ride north across the prairie to his grandparents' farm - no fences, no fields, no landmark, nothing but land under the stars, 'the material out of which countries are made'."
+    },
+    {
+      "character": "antonia",
+      "from": "bohemia-prague",
+      "to": "bremen",
+      "chapter": 1,
+      "mode": "train",
+      "startDay": 42,
+      "days": 4,
+      "note": "Overland out of Bohemia to the North Sea coast, selling everything they own to buy the passage - the first leg of the longest journey any of them will ever make."
+    },
+    {
+      "character": "antonia",
+      "from": "bremen",
+      "to": "new-york-city",
+      "chapter": 1,
+      "mode": "ship",
+      "startDay": 48,
+      "days": 16,
+      "via": [
+        [7.0, 55.0],
+        [-1.0, 59.0],
+        [-12.0, 58.0],
+        [-35.0, 50.0],
+        [-55.0, 43.0]
+      ],
+      "routeCertainty": "illustrative",
+      "routeSource": "The Atlantic crossing is undrawn in the text; routed out of the German Bight, north-about Scotland and across the open ocean to New York, keeping to deep water.",
+      "note": "The long sea crossing to New York - where, before they have even started west, a swindling countryman relieves them of much of their savings 'on exchange'."
+    },
+    {
+      "character": "antonia",
+      "from": "new-york-city",
+      "to": "shimerda-dugout",
+      "chapter": 1,
+      "mode": "train",
+      "startDay": 66,
+      "days": 8,
+      "via": [
+        [-87.65, 41.85],
+        [-95.9, 41.25]
+      ],
+      "routeCertainty": "illustrative",
+      "routeSource": "The immigrant railway car west is untraced in detail; drawn as a gesture along the same corridor Jim took, to the Divide.",
+      "note": "The long immigrant railway car west, to the raw Divide and a hole dug in a bank - all the family can afford. From a settled life in Bohemia to an earth cave on an empty prairie, half a world in one move."
+    },
+    {
+      "character": "jim",
+      "from": "burden-farm",
+      "to": "red-cloud-black-hawk",
+      "chapter": 4,
+      "mode": "coach",
+      "startDay": 1100,
+      "days": 1,
+      "note": "When Jim is thirteen the grandparents give up farming and move into Black Hawk, to a house at the north end of town, so the boy can go to school."
+    },
+    {
+      "character": "antonia",
+      "from": "shimerda-dugout",
+      "to": "red-cloud-black-hawk",
+      "chapter": 4,
+      "mode": "coach",
+      "startDay": 1160,
+      "days": 1,
+      "note": "Ántonia follows into Black Hawk not as a schoolchild but as a hired girl, cooking and minding children in the kitchen of the Harlings next door to the Burdens - the same town, a different station."
+    },
+    {
+      "character": "jim",
+      "from": "red-cloud-black-hawk",
+      "to": "lincoln-nebraska",
+      "chapter": 6,
+      "mode": "train",
+      "startDay": 3300,
+      "days": 2,
+      "note": "Jim leaves for the University at Lincoln, and for good: he will never live on the prairie again."
+    },
+    {
+      "character": "lena",
+      "from": "red-cloud-black-hawk",
+      "to": "lincoln-nebraska",
+      "chapter": 6,
+      "mode": "train",
+      "startDay": 3360,
+      "days": 2,
+      "note": "Lena, done with hired service, sets up on her own in Lincoln - her own dressmaking shop in the Raleigh Block on O Street, and doing well. The Divide girl who left, and thrived."
+    },
+    {
+      "character": "jim",
+      "from": "lincoln-nebraska",
+      "to": "shimerda-dugout",
+      "chapter": 7,
+      "mode": "train",
+      "startDay": 4100,
+      "days": 5,
+      "note": "Home from Lincoln one last summer, a student now, Jim rides out to the old Shimerda land to find Ántonia - and finds her ruined, ploughing her own corn, her baby in the house."
+    },
+    {
+      "character": "jim",
+      "from": "shimerda-dugout",
+      "to": "cambridge-boston",
+      "chapter": 7,
+      "mode": "train",
+      "startDay": 4300,
+      "days": 4,
+      "note": "Then east for good, to finish at Harvard, following his tutor Cleric to Boston. The prairie drops away behind him, and the promise with it - the line climbing, and thinning as it climbs."
+    },
+    {
+      "character": "jim",
+      "from": "cambridge-boston",
+      "to": "new-york-city",
+      "chapter": 7,
+      "mode": "train",
+      "startDay": 4450,
+      "days": 2,
+      "via": [
+        [-72.6, 41.75],
+        [-73.55, 41.12]
+      ],
+      "routeCertainty": "illustrative",
+      "routeSource": "Drawn down the real inland rail corridor through Connecticut and Westchester, keeping the line over land rather than across Long Island Sound.",
+      "note": "On to New York and the law, and a marriage he loves the idea of more than the fact - the long rise to a cold summit."
+    },
+    {
+      "character": "antonia",
+      "from": "red-cloud-black-hawk",
+      "to": "denver-colorado",
+      "chapter": 7,
+      "mode": "train",
+      "startDay": 3820,
+      "days": 3,
+      "note": "Ántonia goes west to Denver to marry the railway conductor Larry Donovan, a flashy, plausible man - her savings, her wedding clothes, and all her hope carried with her."
+    },
+    {
+      "character": "lena",
+      "from": "lincoln-nebraska",
+      "to": "san-francisco",
+      "chapter": 7,
+      "mode": "train",
+      "startDay": 3950,
+      "days": 5,
+      "note": "Lena moves further west still, to San Francisco - persuaded by her friend Tiny Soderball, back rich from the Klondike, that the city is the right field for her. She will be the leading dressmaker there, and never look back."
+    },
+    {
+      "character": "antonia",
+      "from": "denver-colorado",
+      "to": "shimerda-dugout",
+      "chapter": 7,
+      "mode": "train",
+      "startDay": 3950,
+      "days": 4,
+      "note": "Deserted and pregnant, Ántonia comes home to the old Shimerda land on the Divide, bears her daughter, and works the fields like a man, brown and silent, vowing the child will have a better chance than she did."
+    },
+    {
+      "character": "antonia",
+      "from": "shimerda-dugout",
+      "to": "cuzak-farm",
+      "chapter": 7,
+      "mode": "coach",
+      "startDay": 4400,
+      "days": 1,
+      "note": "In time she marries the kind, undersized Bohemian Anton Cuzak, and they take a farm of their own a few miles off, where the ruin turns, very slowly, back into a life."
+    },
+    {
+      "character": "jim",
+      "from": "new-york-city",
+      "to": "cuzak-farm",
+      "chapter": 8,
+      "mode": "train",
+      "startDay": 11000,
+      "days": 5,
+      "via": [
+        [-98.3898, 40.5861]
+      ],
+      "routeCertainty": "illustrative",
+      "routeSource": "Jim breaks his eastward journey at Hastings and drives the last miles out to the farm by buggy; drawn west by rail with Hastings as the last real waypoint.",
+      "note": "Twenty years on, Jim comes back at last - breaking his journey at Hastings, and driving out by open buggy over the old country to find the Cuzak farm, and Ántonia."
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "character": "jim",
+      "at": "blue-ridge-virginia",
+      "chapter": 1,
+      "title": "Orphaned under the Blue Ridge",
+      "narration": "At ten, Jim Burden loses both his parents within a year, and his Virginia relatives pack him off across the country to grandparents he has never met, on a Nebraska farm. The Blue Ridge, the only horizon he has known, drops away behind the train.",
+      "day": 0
+    },
+    {
+      "kind": "journey",
+      "character": "jim",
+      "from": "blue-ridge-virginia",
+      "to": "red-cloud-black-hawk",
+      "chapter": 1,
+      "narration": "Days of travel in the care of Jake Marpole, a farmhand, across the Missouri and all day across Nebraska, to a bare siding at Black Hawk in the dark. On the platform an immigrant family climbs down from the next car: the Shimerdas, from Bohemia."
+    },
+    {
+      "kind": "journey",
+      "character": "jim",
+      "from": "red-cloud-black-hawk",
+      "to": "burden-farm",
+      "chapter": 1,
+      "narration": "A night wagon-ride north over the prairie to the farm. No fences, no fields, no lights, no landmark of any kind - just land and sky, 'the material out of which countries are made'. The boy feels himself erased, and strangely at peace."
+    },
+    {
+      "kind": "scene",
+      "character": "jim",
+      "at": "burden-farm",
+      "chapter": 1,
+      "title": "The new world",
+      "narration": "His grandparents' place, the only wooden house for miles: red grass to every horizon, sunflowers along the wagon-tracks, a sky with no mountain against it. And a mile off, dug into a clay bank, the earth cave where the new immigrant family is trying to live.",
+      "day": 25
+    },
+    {
+      "kind": "handoff",
+      "character": "antonia",
+      "at": "bohemia-prague",
+      "chapter": 1,
+      "title": "The Shimerdas",
+      "narration": "Jim's nearest neighbours had come much further than he. In Bohemia the Shimerdas were people of some standing - the father a weaver and fiddler, gentle and courtly. This is Ántonia's story too: their eager, warm-hearted eldest girl, who will spend her whole life rooted to this ground.",
+      "day": 40
+    },
+    {
+      "kind": "journey",
+      "character": "antonia",
+      "from": "bohemia-prague",
+      "to": "bremen",
+      "chapter": 1,
+      "narration": "They sell everything they own and travel overland to the North Sea coast, out of the only country they know, to take ship for a land whose language they cannot speak."
+    },
+    {
+      "kind": "journey",
+      "character": "antonia",
+      "from": "bremen",
+      "to": "new-york-city",
+      "chapter": 1,
+      "narration": "The long crossing to New York - where, before they have even started west, a swindling countryman relieves them of much of their savings 'on exchange'."
+    },
+    {
+      "kind": "journey",
+      "character": "antonia",
+      "from": "new-york-city",
+      "to": "shimerda-dugout",
+      "chapter": 1,
+      "narration": "Then the long immigrant railway car west, to the raw Divide and the hole in the bank that is all they can afford. From a settled house in Bohemia to a mud cave on an empty prairie - half a world, in a single move."
+    },
+    {
+      "kind": "scene",
+      "character": "antonia",
+      "at": "shimerda-dugout",
+      "chapter": 2,
+      "title": "A hole in the ground",
+      "narration": "The Shimerdas' cave: a dark room dug into the clay, the family half-starving in a country they cannot read. Jim walks over most days, and he and Ántonia teach each other words - she quick, warm and hungry to learn, already half in love with the hard new world.",
+      "day": 200
+    },
+    {
+      "kind": "scene",
+      "character": "jim",
+      "at": "burden-farm",
+      "chapter": 2,
+      "title": "The snake",
+      "narration": "Out by the prairie-dog town Jim kills a huge old rattlesnake with a spade while Ántonia watches - five and a half feet, twelve rattles - and is a hero to her for it. He is honest enough, even then, to know the snake was old and slow.",
+      "day": 260
+    },
+    {
+      "kind": "scene",
+      "character": "antonia",
+      "at": "shimerda-dugout",
+      "chapter": 3,
+      "title": "Mr Shimerda",
+      "narration": "The first winter is savage, and Mr Shimerda cannot bear it - not the cold so much as the homesickness, the loss of all he was. One grey morning he shaves, puts on a clean shirt, and shoots himself in the barn: the man who could not be transplanted.",
+      "day": 520
+    },
+    {
+      "kind": "journey",
+      "character": "jim",
+      "from": "burden-farm",
+      "to": "red-cloud-black-hawk",
+      "chapter": 4,
+      "narration": "When Jim is thirteen his grandparents give up the farm and move into Black Hawk, so the boy can go to school. He leaves the Divide for the little railroad town - the first, smallest step of the line that will keep on leaving."
+    },
+    {
+      "kind": "journey",
+      "character": "antonia",
+      "from": "shimerda-dugout",
+      "to": "red-cloud-black-hawk",
+      "chapter": 4,
+      "narration": "Ántonia follows into town too, but by the kitchen door: hired out to cook and mind the children for the Harlings, the genial family next door to the Burdens. The same town as Jim now, and a different world."
+    },
+    {
+      "kind": "handoff",
+      "character": "lena",
+      "at": "red-cloud-black-hawk",
+      "chapter": 4,
+      "title": "Lena Lingard",
+      "narration": "And a third Divide girl comes to town: Lena Lingard, a soft, unhurried Norwegian beauty who herded cattle barefoot on the prairie and means never to go back to it. Where Ántonia will stay and root, Lena will leave and prosper. Watch the two of them.",
+      "day": 1200
+    },
+    {
+      "kind": "scene",
+      "character": "antonia",
+      "at": "red-cloud-black-hawk",
+      "chapter": 4,
+      "title": "The hired girls",
+      "narration": "The 'hired girls' - Ántonia, Lena and the rest, daughters of immigrant farmers - are the life of Black Hawk: strong, warm and alive, and looked down on by the careful town families whose pale daughters they quite outshine at every dance.",
+      "day": 1300
+    },
+    {
+      "kind": "scene",
+      "character": "jim",
+      "at": "red-cloud-black-hawk",
+      "chapter": 5,
+      "title": "The plough on the sun",
+      "narration": "One summer evening out by the river, the hired girls and Jim watch the sun go down. Away on the skyline a plough left standing in a field is caught in the low red light - heroic, magnified, black against the molten sun - then, as the sun drops, it shrinks back to nothing.",
+      "day": 1450
+    },
+    {
+      "kind": "scene",
+      "character": "antonia",
+      "at": "red-cloud-black-hawk",
+      "chapter": 5,
+      "title": "The dancing tent",
+      "narration": "A travelling dancing-tent pitches in town for a summer, and the whole place loses its head. Ántonia dances every night, glowing and admired - until the town talks, and the Harlings tell her to give up the tent or give up her place. She keeps dancing.",
+      "day": 1550
+    },
+    {
+      "kind": "scene",
+      "character": "antonia",
+      "at": "red-cloud-black-hawk",
+      "chapter": 5,
+      "title": "Wick Cutter",
+      "narration": "She goes instead to keep house for Wick Cutter, the town's smooth, cruel moneylender. One night he sends his wife away and creeps home to Ántonia's bed - to find Jim lying there in her place, set as a trap. The predator under the respectable town's skin.",
+      "day": 1750
+    },
+    {
+      "kind": "journey",
+      "character": "jim",
+      "from": "red-cloud-black-hawk",
+      "to": "lincoln-nebraska",
+      "chapter": 6,
+      "narration": "Jim goes up to the University at Lincoln, and this time for good: he will never again live on the prairie. His tutor, Gaston Cleric, throws open the whole world of books, and the Divide starts to become a thing remembered rather than lived.",
+      "day": 3300
+    },
+    {
+      "kind": "journey",
+      "character": "lena",
+      "from": "red-cloud-black-hawk",
+      "to": "lincoln-nebraska",
+      "chapter": 6,
+      "narration": "Lena has left service too, and set up for herself in Lincoln: her own dressmaking shop on O Street, and thriving. Careless in love and shrewd in business, she is the Divide girl who got clean away."
+    },
+    {
+      "kind": "scene",
+      "character": "jim",
+      "at": "lincoln-nebraska",
+      "chapter": 6,
+      "title": "Lincoln",
+      "narration": "For a while the two of them drift happily about Lincoln together, Jim and Lena - theatres, suppers, easy afternoons. But Cleric warns him he is wasting himself, and Jim, who always chooses the next thing over the present one, decides to follow his tutor east.",
+      "day": 3400
+    },
+    {
+      "kind": "meanwhile",
+      "chapter": 7,
+      "narration": "Now, in the same few years, the three who grew up on that one small prairie are flung apart for good - Jim climbing east, Lena drifting west to money, and Ántonia, who never goes anywhere, going down into ruin at home."
+    },
+    {
+      "kind": "journey",
+      "character": "antonia",
+      "from": "red-cloud-black-hawk",
+      "to": "denver-colorado",
+      "chapter": 7,
+      "narration": "Courted at last, Ántonia goes west to Denver to marry a plausible railway conductor, Larry Donovan - her savings, her wedding-clothes and all her hope packed into her trunk."
+    },
+    {
+      "kind": "scene",
+      "character": "antonia",
+      "at": "denver-colorado",
+      "chapter": 7,
+      "title": "Deserted",
+      "narration": "He never marries her. He spends what she has, keeps her waiting, and then simply goes, leaving her stranded and pregnant in a strange city. She sells the trunkful of finery for her fare and starts the long way home.",
+      "day": 3900
+    },
+    {
+      "kind": "journey",
+      "character": "antonia",
+      "from": "denver-colorado",
+      "to": "shimerda-dugout",
+      "chapter": 7,
+      "narration": "Home to the old Shimerda land in disgrace, where she bears her daughter and does the ploughing herself - brown, silent, unbroken - swearing the child will have a better chance than she did."
+    },
+    {
+      "kind": "journey",
+      "character": "jim",
+      "from": "lincoln-nebraska",
+      "to": "shimerda-dugout",
+      "chapter": 7,
+      "narration": "Home from Lincoln one last summer, a grown student now, Jim rides out to the old place to find her - and finds her out behind a plough in her own field, worn and ruined and somehow unbeaten, her baby indoors."
+    },
+    {
+      "kind": "scene",
+      "character": "jim",
+      "at": "shimerda-dugout",
+      "chapter": 7,
+      "title": "I'll come back",
+      "narration": "They walk out together to her father's grave in the corner of the wheatfield, and talk as the light goes. At the field's edge Jim tells her he will come back. He means it. It will be twenty years before he keeps the promise.",
+      "day": 4250
+    },
+    {
+      "kind": "journey",
+      "character": "jim",
+      "from": "shimerda-dugout",
+      "to": "cambridge-boston",
+      "chapter": 7,
+      "narration": "Then east for good, to finish at Harvard, following his tutor Cleric to Boston. The prairie drops away behind him, and the promise with it - the line climbing, and thinning as it climbs."
+    },
+    {
+      "kind": "journey",
+      "character": "jim",
+      "from": "cambridge-boston",
+      "to": "new-york-city",
+      "chapter": 7,
+      "narration": "On to New York and the law, and a brilliant marriage that turns cold: counsel to a great Western railway, a man who loves the idea of big Western dreams far more than he loves his own life."
+    },
+    {
+      "kind": "scene",
+      "character": "jim",
+      "at": "new-york-city",
+      "chapter": 7,
+      "title": "The man who left",
+      "narration": "At the top of the world he wanted, Jim is becalmed: rich, restless, childless, married to a handsome woman he no longer pretends to care for. The furthest point of the line that left the prairie, and the emptiest.",
+      "day": 4600
+    },
+    {
+      "kind": "meanwhile",
+      "chapter": 7,
+      "narration": "And the other girl who got away, Lena, was going further west than any of them - doing, from the very same beginning, the exact opposite of what the prairie was doing to Ántonia."
+    },
+    {
+      "kind": "journey",
+      "character": "lena",
+      "from": "lincoln-nebraska",
+      "to": "san-francisco",
+      "chapter": 7,
+      "narration": "Her friend Tiny Soderball, back rich from ten hard years in the Klondike, sweeps Lena off to San Francisco - the right field, she says, for a woman with Lena's gifts. Lena crosses to the coast and never looks back."
+    },
+    {
+      "kind": "scene",
+      "character": "lena",
+      "at": "san-francisco",
+      "chapter": 7,
+      "title": "The one who thrived",
+      "narration": "There she is: the counter-life. The leading dressmaker of the city, comfortable and admired, Lena never marries, never ages, never regrets - and prospers exactly as Ántonia is ruined, from the very same start.",
+      "day": 4050
+    },
+    {
+      "kind": "meanwhile",
+      "chapter": 7,
+      "narration": "And back on the Divide, through those same years, Ántonia's ruin was quietly, stubbornly turning itself back into a life."
+    },
+    {
+      "kind": "journey",
+      "character": "antonia",
+      "from": "shimerda-dugout",
+      "to": "cuzak-farm",
+      "chapter": 7,
+      "narration": "She marries the kind, undersized Bohemian Anton Cuzak, and they take a farm of their own a few miles off - and there, out of the disgrace, she begins slowly to build the thing the whole book has been waiting for."
+    },
+    {
+      "kind": "scene",
+      "character": "antonia",
+      "at": "cuzak-farm",
+      "chapter": 8,
+      "title": "Rooted",
+      "narration": "Twenty years on, the Cuzak farm on the Divide: Ántonia is broad, grey, weathered and blazing with life, with an orchard she planted herself, a fruit-cave in the bank, and a houseful of children. The earth cave of that first hard winter, turned into a larder of plenty.",
+      "day": 10900
+    },
+    {
+      "kind": "journey",
+      "character": "jim",
+      "from": "new-york-city",
+      "to": "cuzak-farm",
+      "chapter": 8,
+      "narration": "At last Jim comes back - twenty years too late, and knowing it. He breaks his eastward journey at Hastings, hires a buggy, and drives out over the old country, half-afraid of what the years will have made of her, and of it."
+    },
+    {
+      "kind": "scene",
+      "character": "jim",
+      "at": "cuzak-farm",
+      "chapter": 8,
+      "title": "The reunion",
+      "narration": "He finds her in her orchard, her children tumbling up out of the fruit-cave into the light, 'a veritable explosion of life'. He left the prairie and kept nothing; she never left it and kept everything. At the last, the map holds only the one who stayed.",
+      "day": 11100
+    }
+  ]
+}

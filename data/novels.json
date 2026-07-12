@@ -27,6 +27,15 @@
     "spine": { "cloth": "#37506b", "text": "#e0d0a8" }
   },
   {
+    "id": "my-antonia",
+    "title": "My Ántonia",
+    "author": "Willa Cather",
+    "year": 1918,
+    "file": "data/my-antonia.json",
+    "blurb": "An orphan boy from Virginia and the daughter of Bohemian immigrants grow up a mile apart on the raw Nebraska prairie. He leaves it for the university and the East and never quite feels at home again; she stays, is ruined and rises, and roots herself into the land as its truest child. A whole life measured against one stretch of red grass.",
+    "spine": { "cloth": "#8a4b32", "text": "#e8dcc0" }
+  },
+  {
     "id": "don-quixote",
     "title": "Don Quixote",
     "author": "Miguel de Cervantes",
