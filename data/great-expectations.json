@@ -1,0 +1,1889 @@
+{
+  "title": "Great Expectations",
+  "author": "Charles Dickens",
+  "year": 1861,
+  "gutenbergId": 1400,
+  "overture": "A blacksmith's boy on the Kent marshes comes into a secret fortune and goes to London to be a gentleman. He believes it flows from a great house - but the money runs the other way, up from the marsh he is ashamed of.",
+  "mapHome": {
+    "bounds": [
+      [
+        -0.42,
+        51.3
+      ],
+      [
+        0.75,
+        51.58
+      ]
+    ]
+  },
+  "timeline": {
+    "epoch": null,
+    "calendar": false,
+    "span": "about twenty-five years",
+    "duration": "25 years",
+    "unit": "year"
+  },
+  "sources": [
+    "Medway Council and the standard Dickens topographers: the marsh country on the Hoo peninsula, Cooling churchyard the opening scene",
+    "John Forster, The Life of Charles Dickens (Satis House modelled on Restoration House, Rochester)",
+    "London Fictions; the Charles Dickens Page London map (Barnard's Inn, the Temple, Little Britain, Newgate, Mill Pond Bank)",
+    "The old Dover Road coaching route (Rochester-Chatham-Gravesend-Dartford-London); convict transportation to New South Wales by sail, 1820s"
+  ],
+  "regions": [
+    {
+      "id": "the-marsh",
+      "name": "The marsh country"
+    },
+    {
+      "id": "the-town",
+      "name": "The town"
+    },
+    {
+      "id": "london",
+      "name": "London"
+    },
+    {
+      "id": "the-river",
+      "name": "Down the river"
+    },
+    {
+      "id": "beyond",
+      "name": "The wider world"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "when": "a boy on the marshes",
+      "day": 0
+    },
+    {
+      "n": 2,
+      "when": "a boy on the marshes",
+      "day": 158
+    },
+    {
+      "n": 3,
+      "when": "a boy on the marshes",
+      "day": 317
+    },
+    {
+      "n": 4,
+      "when": "a boy on the marshes",
+      "day": 475
+    },
+    {
+      "n": 5,
+      "when": "a boy on the marshes",
+      "day": 633
+    },
+    {
+      "n": 6,
+      "when": "a boy on the marshes",
+      "day": 792
+    },
+    {
+      "n": 7,
+      "when": "a boy on the marshes",
+      "day": 950
+    },
+    {
+      "n": 8,
+      "when": "a boy on the marshes",
+      "day": 1108
+    },
+    {
+      "n": 9,
+      "when": "a boy on the marshes",
+      "day": 1267
+    },
+    {
+      "n": 10,
+      "when": "a boy on the marshes",
+      "day": 1425
+    },
+    {
+      "n": 11,
+      "when": "a boy on the marshes",
+      "day": 1583
+    },
+    {
+      "n": 12,
+      "when": "a boy on the marshes",
+      "day": 1742
+    },
+    {
+      "n": 13,
+      "when": "a boy on the marshes",
+      "day": 1900
+    },
+    {
+      "n": 14,
+      "when": "apprentice, and Satis House",
+      "day": 2600
+    },
+    {
+      "n": 15,
+      "when": "apprentice, and Satis House",
+      "day": 2880
+    },
+    {
+      "n": 16,
+      "when": "apprentice, and Satis House",
+      "day": 3160
+    },
+    {
+      "n": 17,
+      "when": "apprentice, and Satis House",
+      "day": 3440
+    },
+    {
+      "n": 18,
+      "when": "apprentice, and Satis House",
+      "day": 3720
+    },
+    {
+      "n": 19,
+      "when": "apprentice, and Satis House",
+      "day": 4000
+    },
+    {
+      "n": 20,
+      "when": "a gentleman in London",
+      "day": 4100
+    },
+    {
+      "n": 21,
+      "when": "a gentleman in London",
+      "day": 4189
+    },
+    {
+      "n": 22,
+      "when": "a gentleman in London",
+      "day": 4279
+    },
+    {
+      "n": 23,
+      "when": "a gentleman in London",
+      "day": 4368
+    },
+    {
+      "n": 24,
+      "when": "a gentleman in London",
+      "day": 4458
+    },
+    {
+      "n": 25,
+      "when": "a gentleman in London",
+      "day": 4547
+    },
+    {
+      "n": 26,
+      "when": "a gentleman in London",
+      "day": 4637
+    },
+    {
+      "n": 27,
+      "when": "a gentleman in London",
+      "day": 4726
+    },
+    {
+      "n": 28,
+      "when": "a gentleman in London",
+      "day": 4816
+    },
+    {
+      "n": 29,
+      "when": "a gentleman in London",
+      "day": 4905
+    },
+    {
+      "n": 30,
+      "when": "a gentleman in London",
+      "day": 4995
+    },
+    {
+      "n": 31,
+      "when": "a gentleman in London",
+      "day": 5084
+    },
+    {
+      "n": 32,
+      "when": "a gentleman in London",
+      "day": 5174
+    },
+    {
+      "n": 33,
+      "when": "a gentleman in London",
+      "day": 5263
+    },
+    {
+      "n": 34,
+      "when": "a gentleman in London",
+      "day": 5353
+    },
+    {
+      "n": 35,
+      "when": "a gentleman in London",
+      "day": 5442
+    },
+    {
+      "n": 36,
+      "when": "a gentleman in London",
+      "day": 5532
+    },
+    {
+      "n": 37,
+      "when": "a gentleman in London",
+      "day": 5621
+    },
+    {
+      "n": 38,
+      "when": "a gentleman in London",
+      "day": 5711
+    },
+    {
+      "n": 39,
+      "when": "a gentleman in London",
+      "day": 5800
+    },
+    {
+      "n": 40,
+      "when": "the truth, and the river",
+      "day": 5900
+    },
+    {
+      "n": 41,
+      "when": "the truth, and the river",
+      "day": 5944
+    },
+    {
+      "n": 42,
+      "when": "the truth, and the river",
+      "day": 5988
+    },
+    {
+      "n": 43,
+      "when": "the truth, and the river",
+      "day": 6031
+    },
+    {
+      "n": 44,
+      "when": "the truth, and the river",
+      "day": 6075
+    },
+    {
+      "n": 45,
+      "when": "the truth, and the river",
+      "day": 6119
+    },
+    {
+      "n": 46,
+      "when": "the truth, and the river",
+      "day": 6163
+    },
+    {
+      "n": 47,
+      "when": "the truth, and the river",
+      "day": 6206
+    },
+    {
+      "n": 48,
+      "when": "the truth, and the river",
+      "day": 6250
+    },
+    {
+      "n": 49,
+      "when": "the truth, and the river",
+      "day": 6294
+    },
+    {
+      "n": 50,
+      "when": "the truth, and the river",
+      "day": 6338
+    },
+    {
+      "n": 51,
+      "when": "the truth, and the river",
+      "day": 6381
+    },
+    {
+      "n": 52,
+      "when": "the truth, and the river",
+      "day": 6425
+    },
+    {
+      "n": 53,
+      "when": "the truth, and the river",
+      "day": 6469
+    },
+    {
+      "n": 54,
+      "when": "the truth, and the river",
+      "day": 6513
+    },
+    {
+      "n": 55,
+      "when": "the truth, and the river",
+      "day": 6556
+    },
+    {
+      "n": 56,
+      "when": "the truth, and the river",
+      "day": 6600
+    },
+    {
+      "n": 57,
+      "when": "ruined, and mended",
+      "day": 6700
+    },
+    {
+      "n": 58,
+      "when": "ruined, and mended",
+      "day": 6900
+    },
+    {
+      "n": 59,
+      "when": "eleven years after",
+      "day": 10800
+    }
+  ],
+  "characters": [
+    {
+      "id": "pip",
+      "name": "Pip",
+      "colour": "madder",
+      "role": "the blacksmith’s boy raised to a gentleman by a secret hand",
+      "start": {
+        "location": "forge",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "magwitch",
+      "name": "Abel Magwitch",
+      "colour": "aubergine",
+      "role": "the convict Pip once fed on the marsh - and, in secret, the source of his fortune",
+      "start": {
+        "location": "hulks",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "estella",
+      "name": "Estella",
+      "colour": "prussian",
+      "role": "the cold beauty Pip loves, raised to break hearts - and secretly the convict’s daughter",
+      "start": {
+        "location": "satis-house",
+        "chapter": 8
+      }
+    },
+    {
+      "id": "joe",
+      "name": "Joe Gargery",
+      "colour": "bottle",
+      "role": "the gentle blacksmith, the honest home Pip grows ashamed of and returns to",
+      "start": {
+        "location": "forge",
+        "chapter": 1
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "forge",
+      "region": "the-marsh",
+      "name": "the Hoo marshes near Cooling, Kent",
+      "novelName": "the forge",
+      "coords": [
+        0.5305,
+        51.4535
+      ],
+      "certainty": "conjectured",
+      "note": "The marsh village and Joe Gargery's forge are a fictional composite - Cooling has the churchyard, Chalk (by Gad's Hill) the traditional forge site. Placed here at Cooling; a best guess.",
+      "story": "Pip's home on the Kent marshes, the forge where the gentle blacksmith Joe Gargery works and Pip's shrewish sister keeps house. The honest place Pip will grow ashamed of, and the one he comes back to.",
+      "imageBlank": "the marsh village and forge are a fictional composite; no honest specific period image."
+    },
+    {
+      "id": "churchyard",
+      "region": "the-marsh",
+      "name": "St James's churchyard, Cooling",
+      "novelName": "the churchyard",
+      "coords": [
+        0.5322,
+        51.4543
+      ],
+      "certainty": "identified",
+      "note": "The accepted model for the opening scene - the little lozenge-shaped child-graves Dickens showed visitors are the tombstones of Pip's dead brothers.",
+      "story": "Where the book opens: among his family's graves the orphan Pip is seized by an escaped convict, Magwitch, who terrifies him into stealing a file and food. The chance pity that will secretly make his fortune.",
+      "quote": "Hold your noise!",
+      "quoteRef": "Stage I, ch. 1",
+      "imageBlank": "Cooling churchyard is a tiny redundant church; no distinctive public-domain period view came to hand."
+    },
+    {
+      "id": "battery",
+      "region": "the-marsh",
+      "name": "the marsh battery, the Hoo peninsula",
+      "novelName": "the Battery",
+      "coords": [
+        0.545,
+        51.466
+      ],
+      "certainty": "conjectured",
+      "note": "The old artillery battery and sluice out on the marsh where Pip brings the convict his file and food; a fictional spot, best-guessed on the marsh between Cooling and the river wall.",
+      "story": "Out on the misty marsh Pip carries the stolen file and vittles to the shivering convict. Later the soldiers retake Magwitch here, locked in a death-grip with a second escaped man - his enemy, Compeyson.",
+      "imageBlank": "a fictional, best-guessed spot on the marsh; nothing to photograph."
+    },
+    {
+      "id": "hulks",
+      "region": "the-marsh",
+      "name": "the prison ships, the Thames estuary",
+      "novelName": "the Hulks",
+      "coords": [
+        0.58,
+        51.46
+      ],
+      "certainty": "identified",
+      "note": "Decommissioned warships moored as floating prisons, holding convicts awaiting transportation - real hulks lay off Chatham and Woolwich. A representative estuary mooring, not a surveyed berth.",
+      "story": "The prison ship off the marshes, 'like a wicked Noah's ark', from which Magwitch has escaped - and to which he is returned before being shipped to Australia. The origin of the convict, and secretly of Pip's fortune.",
+      "image": {
+        "file": "assets/images/ge-hulks.jpg",
+        "caption": "Prison hulks moored on the Thames, painted about 1814 - the decommissioned warships that held convicts awaiting transportation.",
+        "credit": "Oil painting, British School, c.1814 · Wikimedia Commons · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "satis-house",
+      "region": "the-town",
+      "name": "Restoration House, Rochester",
+      "novelName": "Satis House",
+      "coords": [
+        0.5065,
+        51.3876
+      ],
+      "certainty": "identified",
+      "note": "Miss Havisham's decaying mansion, modelled by Dickens on the Elizabethan Restoration House in Rochester ('our town'). He borrowed the name Satis House from a different real Rochester building.",
+      "story": "The stopped-clock house where the jilted Miss Havisham raises the cold, beautiful Estella to break men's hearts. Here Pip is made to feel common, falls for Estella, and comes to believe - wrongly - that his fortune and the girl are meant for him.",
+      "quote": "I saw no shadow of another parting from her",
+      "quoteRef": "Stage III, ch. 59",
+      "image": {
+        "file": "assets/images/ge-satis-house.jpg",
+        "caption": "Rochester, the novel’s unnamed “town” - the Norman castle, photochrom of the 1890s. Miss Havisham’s Satis House was modelled on the Elizabethan Restoration House nearby.",
+        "credit": "Detroit Publishing Co. photochrom · Library of Congress (LCCN 2002708076) · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "barnards-inn",
+      "region": "london",
+      "name": "Barnard's Inn, Holborn",
+      "novelName": "Barnard's Inn",
+      "coords": [
+        -0.1095,
+        51.5178
+      ],
+      "certainty": "identified",
+      "note": "A real former Inn of Chancery off Holborn; Dickens places Pip and Herbert's first chambers in its 18th-century buildings. Survives as Gresham College.",
+      "story": "Pip's first London lodging, shared with the cheerful, hopeless Herbert Pocket. Where a marsh boy sets about learning to be a gentleman - and running into debt doing it.",
+      "imageBlank": "no distinctive period image of Barnard’s Inn came to hand in the public domain."
+    },
+    {
+      "id": "little-britain",
+      "region": "london",
+      "name": "Little Britain, by Smithfield",
+      "novelName": "Mr Jaggers's office",
+      "coords": [
+        -0.099,
+        51.5172
+      ],
+      "certainty": "real",
+      "note": "The named street by Smithfield market and Newgate where the formidable lawyer Jaggers keeps his office. Real.",
+      "story": "The office of Jaggers, the growling criminal lawyer who administers Pip's unnamed benefactor's money and guards the secret of its source. Hard by Newgate and the reek of Smithfield - the law and its meat.",
+      "imageBlank": "a plain City street by Smithfield; no honest specific period image."
+    },
+    {
+      "id": "the-temple",
+      "region": "london",
+      "name": "Garden Court, the Temple",
+      "novelName": "the Temple",
+      "coords": [
+        -0.1108,
+        51.5122
+      ],
+      "certainty": "identified",
+      "note": "Garden Court in the Middle Temple, running down toward the river; Pip and Herbert's later chambers, and the stairs from which the escape sets out. Real.",
+      "story": "Pip's riverside chambers, where one stormy night the returned convict Magwitch climbs the stairs and reveals the truth: HE is the benefactor, not Miss Havisham. The gentleman was made by the marsh after all.",
+      "quote": "Yes, Pip, dear boy, I’ve made a gentleman on you!",
+      "quoteRef": "Stage III, ch. 39",
+      "imageBlank": "no clean period view of Garden Court in the Temple came to hand."
+    },
+    {
+      "id": "mill-pond",
+      "region": "london",
+      "name": "Mill Pond Bank, Rotherhithe",
+      "novelName": "Mill Pond Bank",
+      "coords": [
+        -0.048,
+        51.5015
+      ],
+      "certainty": "identified",
+      "note": "Named as 'Mill Pond Bank, Chinks's Basin' by the Pool of London; the old Rotherhithe millpond and dock district. Approximate to that riverside.",
+      "story": "The quiet Rotherhithe waterside where Magwitch is hidden, under the name Provis, while Pip and Herbert plan to row him downriver and out of England aboard a foreign steamer.",
+      "imageBlank": "the Rotherhithe millpond district is gone; no honest specific period image."
+    },
+    {
+      "id": "newgate",
+      "region": "london",
+      "name": "Newgate Prison",
+      "novelName": "Newgate",
+      "coords": [
+        -0.1017,
+        51.5155
+      ],
+      "certainty": "real",
+      "note": "The great London prison beside the criminal court; demolished 1902, the Old Bailey now stands on the site. Real.",
+      "story": "The prison whose shadow falls across the whole book. Wemmick walks Pip through it; and here, taken and mortally hurt, Magwitch is tried, condemned, and dies - his fortune forfeit to the Crown, Pip's expectations gone with it.",
+      "quote": "She is a lady and very beautiful. And I love her!",
+      "quoteRef": "Stage III, ch. 56",
+      "imageBlank": "the readily-found Newgate engraving is the older 17th-century gatehouse, not the 1780 prison of the novel’s era - better a blank than the wrong building."
+    },
+    {
+      "id": "richmond",
+      "region": "london",
+      "name": "Richmond, Surrey",
+      "novelName": "Richmond",
+      "coords": [
+        -0.304,
+        51.461
+      ],
+      "certainty": "real",
+      "note": "Dickens specifies 'Richmond in Surrey'; the genteel town up the river where Estella is placed in society. Real.",
+      "story": "Where Estella is sent to be shown off in society, and where Pip dances attendance on her, tormented, while she coolly warns him she has no heart to give - to him or anyone.",
+      "quote": "I have no heart",
+      "quoteRef": "Stage II, ch. 29",
+      "imageBlank": "no clean public-domain period view of Richmond, Surrey came to hand for this pass."
+    },
+    {
+      "id": "the-reach",
+      "region": "the-river",
+      "name": "Lower Hope Reach, the Thames estuary",
+      "novelName": "the Lower Hope",
+      "coords": [
+        0.43,
+        51.47
+      ],
+      "certainty": "identified",
+      "note": "A real named reach of the lower Thames between Kent and Essex, below Gravesend, where the broad estuary opens toward the Nore - the water where the escape is taken.",
+      "story": "Where the river escape ends. As Pip's boat waits for the Hamburg steamer, a police galley closes in; Compeyson drowns, Magwitch is seized and crushed, and the plan - and the fortune - are lost on the tide.",
+      "imageBlank": "an open reach of the Thames estuary; no honest specific period image."
+    },
+    {
+      "id": "australia",
+      "region": "beyond",
+      "name": "New South Wales, Australia",
+      "novelName": "New South Wales",
+      "coords": [
+        151.21,
+        -33.87
+      ],
+      "certainty": "identified",
+      "note": "The book says only 'New South Wales'; the penal colony and its pastoral country, centred on Sydney. A representative pin for the colony where Magwitch is transported and grows rich.",
+      "story": "The penal colony Magwitch is transported to. There the branded convict prospers as a sheep-farmer, hoarding every pound to make, in secret and from the far side of the world, a gentleman of the boy who once fed him on the marsh.",
+      "imageBlank": "the book says only New South Wales; the up-country sheep-run is unlocated, so no honest specific image."
+    },
+    {
+      "id": "cairo",
+      "region": "beyond",
+      "name": "Cairo, Egypt",
+      "novelName": "Cairo",
+      "coords": [
+        31.24,
+        30.05
+      ],
+      "certainty": "real",
+      "note": "Named; the eastern branch of Herbert's firm, Clarriker & Co, where a chastened Pip works for eleven years before returning home.",
+      "story": "The East, where the ruined and humbled Pip goes to work honestly for the firm he once secretly helped Herbert into. Eleven quiet years of clerking abroad before he comes home to the marsh and the ruins of Satis House.",
+      "imageBlank": "a passing endpoint (Pip’s eleven years abroad); no honest specific period image chosen."
+    }
+  ],
+  "movements": [
+    {
+      "character": "magwitch",
+      "from": "hulks",
+      "to": "battery",
+      "chapter": 1,
+      "mode": "foot",
+      "days": 1,
+      "note": "Escaped from the Hulks, the convict wades ashore and hides out on the marsh, a leg-iron on his ankle."
+    },
+    {
+      "character": "magwitch",
+      "from": "battery",
+      "to": "hulks",
+      "chapter": 5,
+      "startDay": 500,
+      "mode": "ship",
+      "days": 1,
+      "medium": "river",
+      "note": "Retaken on the marsh, locked in a death-grip with his enemy Compeyson, and rowed back to the prison-ship on the spring tide.",
+      "via": [
+        [
+          0.565,
+          51.462
+        ]
+      ],
+      "routeNote": "A short pull across the marsh water back to the Hulks.",
+      "routeSource": "the text: rowed back to the Hulks on a strong spring-tide.",
+      "routeCertainty": "illustrative"
+    },
+    {
+      "character": "magwitch",
+      "from": "hulks",
+      "to": "australia",
+      "chapter": 5,
+      "startDay": 640,
+      "mode": "ship",
+      "days": 120,
+      "note": "Transported to the penal colony of New South Wales - months under sail round the Cape, to the far side of the world.",
+      "via": [
+        [
+          0.7,
+          51.45
+        ],
+        [
+          1.5,
+          51
+        ],
+        [
+          -1.5,
+          50
+        ],
+        [
+          -5.5,
+          48.5
+        ],
+        [
+          -11,
+          45
+        ],
+        [
+          -14,
+          35
+        ],
+        [
+          -18,
+          20
+        ],
+        [
+          -22,
+          8
+        ],
+        [
+          -18,
+          -6
+        ],
+        [
+          -5,
+          -20
+        ],
+        [
+          10,
+          -34
+        ],
+        {
+          "at": [
+            18.42,
+            -34.36
+          ],
+          "name": "Cape of Good Hope",
+          "note": "the convict transports rounded the Cape"
+        },
+        [
+          30,
+          -37
+        ],
+        [
+          60,
+          -40
+        ],
+        [
+          95,
+          -42
+        ],
+        [
+          130,
+          -43
+        ],
+        [
+          147,
+          -44
+        ],
+        [
+          152,
+          -40
+        ],
+        [
+          152.5,
+          -34
+        ]
+      ],
+      "routeNote": "A convict transport under sail, London estuary round the Cape of Good Hope to New South Wales.",
+      "routeSource": "no route named - the 1820s sailing passage for convict transports rounded the Cape.",
+      "routeCertainty": "illustrative"
+    },
+    {
+      "character": "pip",
+      "from": "forge",
+      "to": "satis-house",
+      "chapter": 8,
+      "startDay": 1050,
+      "mode": "foot",
+      "days": 1,
+      "note": "Summoned into the town to play at Miss Havisham’s great decaying house."
+    },
+    {
+      "character": "pip",
+      "from": "satis-house",
+      "to": "forge",
+      "chapter": 14,
+      "mode": "foot",
+      "days": 1,
+      "note": "Back to the forge, apprenticed to Joe - the honest trade that now feels like a sentence."
+    },
+    {
+      "character": "pip",
+      "from": "forge",
+      "to": "barnards-inn",
+      "chapter": 19,
+      "mode": "coach",
+      "days": 1,
+      "note": "The coach up the old Dover Road to London, the world spread before him, to be made a gentleman.",
+      "via": [
+        {
+          "at": [
+            0.505,
+            51.389
+          ],
+          "name": "Rochester",
+          "note": "the town"
+        },
+        {
+          "at": [
+            0.37,
+            51.442
+          ],
+          "name": "Gravesend"
+        },
+        {
+          "at": [
+            0.219,
+            51.446
+          ],
+          "name": "Dartford"
+        }
+      ],
+      "routeNote": "The London-Dover coaching road through Rochester, Gravesend and Dartford.",
+      "routeSource": "the old Dover Road, the coaching artery through north Kent.",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": "joe",
+      "from": "forge",
+      "to": "barnards-inn",
+      "chapter": 27,
+      "mode": "coach",
+      "days": 1,
+      "note": "Joe travels up to visit Pip, twisting his hat, and is met with shame.",
+      "via": [
+        {
+          "at": [
+            0.505,
+            51.389
+          ],
+          "name": "Rochester"
+        },
+        {
+          "at": [
+            0.37,
+            51.442
+          ],
+          "name": "Gravesend"
+        },
+        {
+          "at": [
+            0.219,
+            51.446
+          ],
+          "name": "Dartford"
+        }
+      ],
+      "routeNote": "The Dover Road up to London.",
+      "routeSource": "the old Dover Road.",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": "joe",
+      "from": "barnards-inn",
+      "to": "forge",
+      "chapter": 27,
+      "startDay": 4740,
+      "mode": "coach",
+      "days": 1,
+      "note": "Joe goes quietly home the same day: they are best apart, he says, in these fine clothes.",
+      "via": [
+        {
+          "at": [
+            0.219,
+            51.446
+          ],
+          "name": "Dartford"
+        },
+        {
+          "at": [
+            0.37,
+            51.442
+          ],
+          "name": "Gravesend"
+        },
+        {
+          "at": [
+            0.505,
+            51.389
+          ],
+          "name": "Rochester"
+        }
+      ],
+      "routeNote": "The Dover Road home.",
+      "routeSource": "the old Dover Road.",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": "pip",
+      "from": "barnards-inn",
+      "to": "satis-house",
+      "chapter": 29,
+      "mode": "coach",
+      "days": 1,
+      "note": "Down to the town to see Estella again, lodging at the Blue Boar and pointedly not at the forge.",
+      "via": [
+        {
+          "at": [
+            0.219,
+            51.446
+          ],
+          "name": "Dartford"
+        },
+        {
+          "at": [
+            0.37,
+            51.442
+          ],
+          "name": "Gravesend"
+        },
+        {
+          "at": [
+            0.505,
+            51.389
+          ],
+          "name": "Rochester"
+        }
+      ],
+      "routeNote": "The Dover Road down to the town.",
+      "routeSource": "the old Dover Road.",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": [
+        "pip",
+        "estella"
+      ],
+      "from": "satis-house",
+      "to": "richmond",
+      "chapter": 33,
+      "mode": "coach",
+      "days": 1,
+      "note": "Pip escorts Estella up to Richmond, to be shown in society - loving her helplessly as she warns him she has no heart.",
+      "via": [
+        {
+          "at": [
+            0.37,
+            51.442
+          ],
+          "name": "Gravesend"
+        },
+        {
+          "at": [
+            -0.1,
+            51.5
+          ],
+          "name": "London"
+        }
+      ],
+      "routeNote": "By coach from the town through London and up the river to Richmond in Surrey.",
+      "routeSource": "no single route named - reconstructs the road via London to Richmond.",
+      "routeCertainty": "reconstructed"
+    },
+    {
+      "character": "pip",
+      "from": "richmond",
+      "to": "the-temple",
+      "chapter": 39,
+      "mode": "coach",
+      "days": 1,
+      "note": "Pip takes riverside chambers in the Temple, debts climbing, still waiting for Miss Havisham to give him Estella.",
+      "via": [
+        {
+          "at": [
+            -0.1,
+            51.5
+          ],
+          "name": "London"
+        }
+      ],
+      "routeNote": "Back down the river into London.",
+      "routeSource": "the Richmond road into town.",
+      "routeCertainty": "reconstructed"
+    },
+    {
+      "character": "magwitch",
+      "from": "australia",
+      "to": "the-temple",
+      "chapter": 39,
+      "startDay": 5750,
+      "mode": "ship",
+      "days": 120,
+      "note": "Back from Australia at the risk of his life, under the name Provis, the convict climbs Pip’s stairs and reveals the truth.",
+      "via": [
+        [
+          152.5,
+          -34
+        ],
+        [
+          152,
+          -40
+        ],
+        [
+          147,
+          -44
+        ],
+        [
+          130,
+          -43
+        ],
+        [
+          95,
+          -42
+        ],
+        [
+          60,
+          -40
+        ],
+        [
+          30,
+          -37
+        ],
+        {
+          "at": [
+            18.42,
+            -34.36
+          ],
+          "name": "Cape of Good Hope",
+          "note": "the convict transports rounded the Cape"
+        },
+        [
+          10,
+          -34
+        ],
+        [
+          -5,
+          -20
+        ],
+        [
+          -18,
+          -6
+        ],
+        [
+          -22,
+          8
+        ],
+        [
+          -18,
+          20
+        ],
+        [
+          -14,
+          35
+        ],
+        [
+          -11,
+          45
+        ],
+        [
+          -5.5,
+          48.5
+        ],
+        [
+          -1.5,
+          50
+        ],
+        [
+          1.5,
+          51
+        ],
+        [
+          0.7,
+          51.45
+        ],
+        {
+          "at": [
+            0.37,
+            51.442
+          ],
+          "name": "Gravesend"
+        },
+        {
+          "at": [
+            -0.005,
+            51.483
+          ],
+          "name": "Greenwich",
+          "note": "up the Pool of London to the Temple stairs"
+        }
+      ],
+      "routeNote": "The return sailing passage round the Cape and up the Thames to London.",
+      "routeSource": "no route named - the reverse of the transportation, arriving up the Pool of London.",
+      "routeCertainty": "illustrative"
+    },
+    {
+      "character": "magwitch",
+      "from": "the-temple",
+      "to": "mill-pond",
+      "chapter": 46,
+      "mode": "foot",
+      "days": 1,
+      "note": "His return a hanging matter, Magwitch is hidden under a false name at Mill Pond Bank, down by the river."
+    },
+    {
+      "character": "pip",
+      "from": "the-temple",
+      "to": "satis-house",
+      "chapter": 49,
+      "startDay": 6250,
+      "mode": "coach",
+      "days": 1,
+      "note": "Pip goes down to confront a remorseful Miss Havisham.",
+      "via": [
+        {
+          "at": [
+            0.219,
+            51.446
+          ],
+          "name": "Dartford"
+        },
+        {
+          "at": [
+            0.505,
+            51.389
+          ],
+          "name": "Rochester"
+        }
+      ],
+      "routeNote": "The Dover Road down to the town.",
+      "routeSource": "the old Dover Road.",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": "pip",
+      "from": "satis-house",
+      "to": "the-temple",
+      "chapter": 50,
+      "startDay": 6320,
+      "mode": "coach",
+      "days": 1,
+      "note": "Back to London, carrying a colder discovery about Estella.",
+      "via": [
+        {
+          "at": [
+            0.505,
+            51.389
+          ],
+          "name": "Rochester"
+        },
+        {
+          "at": [
+            0.219,
+            51.446
+          ],
+          "name": "Dartford"
+        }
+      ],
+      "routeNote": "The Dover Road back up.",
+      "routeSource": "the old Dover Road.",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": "pip",
+      "from": "the-temple",
+      "to": "mill-pond",
+      "chapter": 54,
+      "mode": "foot",
+      "days": 1,
+      "note": "On the chosen morning Pip goes to the riverside to take Magwitch off."
+    },
+    {
+      "character": [
+        "pip",
+        "magwitch"
+      ],
+      "from": "mill-pond",
+      "to": "the-reach",
+      "chapter": 54,
+      "startDay": 6540,
+      "mode": "ship",
+      "days": 1,
+      "medium": "river",
+      "note": "They row Magwitch down the tidal Thames past Gravesend toward the Nore, to put him aboard a Hamburg steamer - the marsh, the city and the sea joined by one river.",
+      "via": [
+        {
+          "at": [
+            -0.005,
+            51.483
+          ],
+          "name": "Greenwich"
+        },
+        {
+          "at": [
+            0.001,
+            51.508
+          ],
+          "name": "Blackwall"
+        },
+        {
+          "at": [
+            0.177,
+            51.482
+          ],
+          "name": "Erith",
+          "note": "they lie up overnight at a riverside inn"
+        },
+        {
+          "at": [
+            0.37,
+            51.442
+          ],
+          "name": "Gravesend",
+          "note": "the last town; below here the river runs broad and solitary"
+        }
+      ],
+      "routeNote": "Down the tidal Thames from the Temple stairs through the reaches to the Lower Hope.",
+      "routeSource": "the text names the reaches: Greenwich, Blackwall, Erith, Gravesend, the Lower Hope.",
+      "routeCertainty": "novel"
+    },
+    {
+      "character": [
+        "pip",
+        "magwitch"
+      ],
+      "from": "the-reach",
+      "to": "newgate",
+      "chapter": 54,
+      "startDay": 6560,
+      "mode": "coach",
+      "days": 1,
+      "note": "A police galley closes in; Compeyson drowns, Magwitch is seized and crushed, and the prisoner is taken back to London and Newgate.",
+      "via": [
+        [
+          0.42,
+          51.44
+        ],
+        {
+          "at": [
+            0.219,
+            51.446
+          ],
+          "name": "Dartford"
+        }
+      ],
+      "routeNote": "Landed on the Kent shore near Gravesend and taken up to London under custody.",
+      "routeSource": "no route named - the custody journey from the estuary to Newgate.",
+      "routeCertainty": "illustrative"
+    },
+    {
+      "character": "pip",
+      "from": "newgate",
+      "to": "the-temple",
+      "chapter": 57,
+      "mode": "foot",
+      "days": 1,
+      "note": "His benefactor dead and the fortune forfeit, Pip goes back to his chambers and falls dangerously ill."
+    },
+    {
+      "character": "joe",
+      "from": "forge",
+      "to": "the-temple",
+      "chapter": 57,
+      "startDay": 6740,
+      "mode": "coach",
+      "days": 1,
+      "note": "Joe comes up and nurses Pip through his fever, quietly paying his debts.",
+      "via": [
+        {
+          "at": [
+            0.505,
+            51.389
+          ],
+          "name": "Rochester"
+        },
+        {
+          "at": [
+            0.37,
+            51.442
+          ],
+          "name": "Gravesend"
+        },
+        {
+          "at": [
+            0.219,
+            51.446
+          ],
+          "name": "Dartford"
+        }
+      ],
+      "routeNote": "The Dover Road up to London.",
+      "routeSource": "the old Dover Road.",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": "joe",
+      "from": "the-temple",
+      "to": "forge",
+      "chapter": 57,
+      "startDay": 6820,
+      "mode": "coach",
+      "days": 1,
+      "note": "Once Pip mends, Joe slips home to the marsh - and to marry Biddy.",
+      "via": [
+        {
+          "at": [
+            0.219,
+            51.446
+          ],
+          "name": "Dartford"
+        },
+        {
+          "at": [
+            0.37,
+            51.442
+          ],
+          "name": "Gravesend"
+        },
+        {
+          "at": [
+            0.505,
+            51.389
+          ],
+          "name": "Rochester"
+        }
+      ],
+      "routeNote": "The Dover Road home.",
+      "routeSource": "the old Dover Road.",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": "pip",
+      "from": "the-temple",
+      "to": "forge",
+      "chapter": 58,
+      "mode": "coach",
+      "days": 1,
+      "note": "Pip goes home meaning to ask Biddy to marry him - and finds she has that very day married Joe. He is too late, and glad for them.",
+      "via": [
+        {
+          "at": [
+            0.219,
+            51.446
+          ],
+          "name": "Dartford"
+        },
+        {
+          "at": [
+            0.37,
+            51.442
+          ],
+          "name": "Gravesend"
+        },
+        {
+          "at": [
+            0.505,
+            51.389
+          ],
+          "name": "Rochester"
+        }
+      ],
+      "routeNote": "The Dover Road down to the marsh.",
+      "routeSource": "the old Dover Road.",
+      "routeCertainty": "documented"
+    },
+    {
+      "character": "pip",
+      "from": "forge",
+      "to": "cairo",
+      "chapter": 58,
+      "startDay": 6920,
+      "mode": "ship",
+      "days": 60,
+      "medium": "river",
+      "note": "Chastened, Pip goes East to clerk honestly for Herbert’s firm in Cairo.",
+      "via": [
+        [
+          0.7,
+          51.45
+        ],
+        [
+          -1.5,
+          50
+        ],
+        [
+          -6,
+          44
+        ],
+        [
+          -9.5,
+          36.6
+        ],
+        {
+          "at": [
+            -5.35,
+            36
+          ],
+          "name": "the Strait of Gibraltar"
+        },
+        [
+          -1,
+          36
+        ],
+        [
+          4,
+          37.6
+        ],
+        [
+          9,
+          38.6
+        ],
+        [
+          16,
+          35.6
+        ],
+        [
+          23,
+          34
+        ],
+        [
+          28,
+          32.5
+        ],
+        {
+          "at": [
+            30.4,
+            31.45
+          ],
+          "name": "the mouth of the Nile"
+        },
+        [
+          30.9,
+          30.6
+        ],
+        [
+          31.15,
+          30.15
+        ]
+      ],
+      "routeNote": "By sea through the Strait of Gibraltar and the length of the Mediterranean to the mouth of the Nile, then up the river to Cairo.",
+      "routeSource": "no route named - the sea passage to Egypt and up the Nile to the firm’s eastern branch.",
+      "routeCertainty": "illustrative"
+    },
+    {
+      "character": "pip",
+      "from": "cairo",
+      "to": "forge",
+      "chapter": 59,
+      "mode": "ship",
+      "days": 60,
+      "medium": "river",
+      "note": "After eleven years abroad, Pip comes home to the marsh, to Joe and Biddy and the boy they have named Pip.",
+      "via": [
+        [
+          31.15,
+          30.15
+        ],
+        [
+          30.9,
+          30.6
+        ],
+        {
+          "at": [
+            30.4,
+            31.45
+          ],
+          "name": "the mouth of the Nile"
+        },
+        [
+          28,
+          32.5
+        ],
+        [
+          23,
+          34
+        ],
+        [
+          16,
+          35.6
+        ],
+        [
+          9,
+          38.6
+        ],
+        [
+          4,
+          37.6
+        ],
+        [
+          -1,
+          36
+        ],
+        {
+          "at": [
+            -5.35,
+            36
+          ],
+          "name": "the Strait of Gibraltar"
+        },
+        [
+          -9.5,
+          36.6
+        ],
+        [
+          -6,
+          44
+        ],
+        [
+          -1.5,
+          50
+        ],
+        [
+          0.7,
+          51.45
+        ]
+      ],
+      "routeNote": "The sea passage home, down the Nile and the length of the Mediterranean to England.",
+      "routeSource": "the reverse of the outward voyage.",
+      "routeCertainty": "illustrative"
+    },
+    {
+      "character": "pip",
+      "from": "forge",
+      "to": "satis-house",
+      "chapter": 59,
+      "startDay": 10870,
+      "mode": "foot",
+      "days": 1,
+      "note": "And out at last to the cleared ruins of Satis House, where the fire and the years have levelled the great illusion."
+    },
+    {
+      "character": "estella",
+      "from": "richmond",
+      "to": "satis-house",
+      "chapter": 59,
+      "startDay": 10875,
+      "mode": "coach",
+      "days": 1,
+      "note": "Widowed and chastened by an unhappy marriage to the brute Bentley Drummle, Estella comes back to the ruins of the house where it began.",
+      "via": [
+        {
+          "at": [
+            -0.1,
+            51.5
+          ],
+          "name": "London"
+        },
+        {
+          "at": [
+            0.37,
+            51.442
+          ],
+          "name": "Gravesend"
+        }
+      ],
+      "routeNote": "From Richmond back down through London to the town.",
+      "routeSource": "reconstructs the road back to Rochester.",
+      "routeCertainty": "reconstructed"
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "character": "pip",
+      "at": "churchyard",
+      "chapter": 1,
+      "title": "A boy among the graves",
+      "narration": "In the churchyard on the Kent marshes, the orphan Pip spells out his dead parents’ names - and a starving escaped convict rears up among the tombstones, seizes him, and demands a file and food."
+    },
+    {
+      "kind": "journey",
+      "character": "magwitch",
+      "from": "hulks",
+      "to": "battery",
+      "chapter": 1,
+      "title": "The man from the Hulks",
+      "narration": "The man has broken from the Hulks, the prison ships out in the estuary, and hides on the marsh with a leg-iron on his ankle, waiting for the boy to bring what will keep him alive."
+    },
+    {
+      "kind": "scene",
+      "character": "pip",
+      "at": "battery",
+      "chapter": 3,
+      "title": "The file and the vittles",
+      "narration": "Before dawn, in the mist, Pip steals a file from Joe’s forge and food from the pantry and carries them out across the marsh to the shivering man - a child’s terrified pity that will one day be repaid, tenfold and terribly."
+    },
+    {
+      "kind": "journey",
+      "character": "magwitch",
+      "from": "battery",
+      "to": "hulks",
+      "chapter": 5,
+      "title": "Taken on the marsh",
+      "narration": "The soldiers hunt the convicts down. Pip’s man is caught locked in a death-grip with a second escapee he hates, Compeyson. To shield the boy, he swears he stole the food himself, and is rowed back to the Hulks."
+    },
+    {
+      "kind": "handoff",
+      "character": "magwitch",
+      "at": "hulks",
+      "chapter": 5,
+      "title": "Out of the story",
+      "narration": "For his crimes the man is sentenced to be sent to the far side of the world. We lose him now, as Pip does, for many years."
+    },
+    {
+      "kind": "journey",
+      "character": "magwitch",
+      "from": "hulks",
+      "to": "australia",
+      "chapter": 5,
+      "title": "Transported",
+      "narration": "He is shipped in irons to the penal colony of New South Wales, months under sail round the Cape - out of Pip’s life, Pip believes, for good."
+    },
+    {
+      "kind": "handoff",
+      "character": "pip",
+      "at": "forge",
+      "chapter": 7,
+      "title": "Home on the marsh",
+      "narration": "Back at the forge, Pip is brought up by hand by his fierce sister and loved by her husband, the gentle blacksmith Joe Gargery - the best of men, and the one Pip will learn, to his shame, to be embarrassed by."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "forge",
+      "to": "satis-house",
+      "chapter": 8,
+      "title": "Up to the great house",
+      "narration": "Pip is summoned to play at Satis House in the town, where the jilted Miss Havisham sits among stopped clocks in her yellowed wedding dress, everything halted at the hour her heart broke."
+    },
+    {
+      "kind": "scene",
+      "character": "pip",
+      "at": "satis-house",
+      "chapter": 8,
+      "title": "Estella, and the shame",
+      "narration": "There he meets Estella - beautiful, cold, and trained to wound - who scorns his coarse hands and thick boots and calls him common. The barb sticks. Pip begins to despise the forge, and Joe, and himself."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "satis-house",
+      "to": "forge",
+      "chapter": 14,
+      "title": "Bound to the anvil",
+      "narration": "Pip is apprenticed to Joe at the forge - the honest trade that now feels like a sentence. He works the bellows and pines for Satis House, certain his future lies with Miss Havisham and the girl."
+    },
+    {
+      "kind": "scene",
+      "character": "pip",
+      "at": "forge",
+      "chapter": 18,
+      "title": "Great expectations",
+      "narration": "Then the growling London lawyer Jaggers arrives with astounding news: Pip has \"great expectations\", a fortune from a benefactor who must not be named. Pip is sure the giver is Miss Havisham, and Estella his reward."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "forge",
+      "to": "barnards-inn",
+      "chapter": 19,
+      "title": "Up to London",
+      "narration": "As the marsh mists rise, Pip takes the coach up the old Dover Road to London, the world spread before him - and leaves Joe behind with barely a backward look."
+    },
+    {
+      "kind": "scene",
+      "character": "pip",
+      "at": "little-britain",
+      "chapter": 20,
+      "title": "Jaggers’s office",
+      "narration": "In Little Britain, by the reek of Smithfield and the wall of Newgate, Jaggers doles out the money and keeps its source locked tight. Ask no questions, Pip is told, and he obeys."
+    },
+    {
+      "kind": "scene",
+      "character": "pip",
+      "at": "barnards-inn",
+      "chapter": 22,
+      "title": "A gentleman made",
+      "narration": "At Barnard’s Inn, Pip sets up with the cheerful, penniless Herbert Pocket and learns what being a gentleman means: fine clothes, mounting debts, idle days, and a deepening shame of home."
+    },
+    {
+      "kind": "journey",
+      "character": "joe",
+      "from": "forge",
+      "to": "barnards-inn",
+      "chapter": 27,
+      "title": "Joe comes to town",
+      "narration": "Joe travels up to visit, twisting his hat and calling Pip \"sir\", and Pip is mortified by him. It is the low mark of his snobbery - the money’s corruption made plain."
+    },
+    {
+      "kind": "removal",
+      "character": "joe",
+      "from": "barnards-inn",
+      "to": "forge",
+      "chapter": 27,
+      "title": "And quietly home",
+      "narration": "Wounded but gentle, Joe goes home the same day. They are best apart, he says, while Pip wears these clothes - and he is right, which is worse."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "barnards-inn",
+      "to": "satis-house",
+      "chapter": 29,
+      "title": "Back to Satis House",
+      "narration": "Pip goes down to the town to see Estella, lodging at the Blue Boar and not at the forge. He is more in love than ever, and she warns him again, coolly, that she has no heart to give."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "pip",
+        "estella"
+      ],
+      "from": "satis-house",
+      "to": "richmond",
+      "chapter": 33,
+      "title": "Estella to Richmond",
+      "narration": "He escorts Estella up to Richmond, to be shown off in society. Torment: he loves her helplessly, and she tells him plainly she was made without a heart, for him or any man."
+    },
+    {
+      "kind": "scene",
+      "character": "joe",
+      "at": "forge",
+      "chapter": 35,
+      "title": "A grave on the marsh",
+      "narration": "Meanwhile, on the marsh, Pip’s fierce sister - long ago felled by a brutal blow to the head - dies at last, and is buried in the churchyard. Pip comes down for the funeral; and the good, plain Biddy, who came to keep the house, stays on at the forge with Joe."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "richmond",
+      "to": "the-temple",
+      "chapter": 39,
+      "title": "The Temple, by the river",
+      "narration": "Pip takes riverside chambers in the Temple, his debts climbing, still certain the silent Miss Havisham means to complete the story by giving him Estella at last."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Meanwhile, across those same years and half a world away, the convict Pip fed on the marsh has not forgotten him - and has been growing rich."
+    },
+    {
+      "kind": "journey",
+      "character": "magwitch",
+      "from": "australia",
+      "to": "the-temple",
+      "chapter": 39,
+      "title": "The benefactor returns",
+      "narration": "On a wild, stormy night a heavy figure climbs Pip’s stairs: the convict from the marsh, sailed back from Australia at the risk of his life, to look on the gentleman he has made."
+    },
+    {
+      "kind": "scene",
+      "character": "pip",
+      "at": "the-temple",
+      "chapter": 40,
+      "title": "The money runs the wrong way",
+      "narration": "Not Miss Havisham at all. \"I’ve made a gentleman on you,\" the man says. The fortune came up from the hunted creature Pip once pitied on the marsh, grown rich in the colony - everything Pip prized rooted in what he was most ashamed of."
+    },
+    {
+      "kind": "scene",
+      "character": "estella",
+      "at": "richmond",
+      "chapter": 44,
+      "title": "Estella throws herself away",
+      "narration": "And another hope dies. In society at Richmond, Estella marries the brutish Bentley Drummle - the very man Pip most dreads - throwing herself away without love, to spite the world and her own cold heart. Pip’s long dream of her is over."
+    },
+    {
+      "kind": "journey",
+      "character": "magwitch",
+      "from": "the-temple",
+      "to": "mill-pond",
+      "chapter": 46,
+      "title": "Hidden by the river",
+      "narration": "His return is a hanging matter, so Pip and Herbert hide him under a false name at Mill Pond Bank, down by the river, and plot to smuggle him abroad. Pip’s disgust turns, slowly, to love."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "the-temple",
+      "to": "satis-house",
+      "chapter": 49,
+      "title": "Satis House burns",
+      "narration": "Pip goes down to a Miss Havisham broken by remorse, begging his forgiveness. Then her rotting bridal dress catches the fire; the great illusion of Satis House goes up in flames, and she dies of the burns."
+    },
+    {
+      "kind": "scene",
+      "character": "pip",
+      "at": "satis-house",
+      "chapter": 49,
+      "title": "The convict’s daughter",
+      "narration": "And a colder truth pieced together here and in London: the proud Estella, the lady he was raised to worship, is the lost child of Magwitch and a murderess. The marsh and the great house were one blood all along."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "satis-house",
+      "to": "the-temple",
+      "chapter": 50,
+      "title": "Back to the plan",
+      "narration": "Pip carries the knowledge back to London, telling no one, and turns to the one thing left that he can do: get his convict, his second father, safely out of England."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "the-temple",
+      "to": "mill-pond",
+      "chapter": 54,
+      "title": "The morning of the escape",
+      "narration": "On the chosen morning Pip comes down to the riverside to take Magwitch off, a Hamburg steamer expected in the estuary that afternoon."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "pip",
+        "magwitch"
+      ],
+      "from": "mill-pond",
+      "to": "the-reach",
+      "chapter": 54,
+      "title": "Down the river",
+      "narration": "They row Magwitch down the tidal Thames, reach by reach past Gravesend toward the Nore, to put him aboard the steamer - the marsh, the city and the sea strung on one river at last."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "pip",
+        "magwitch"
+      ],
+      "from": "the-reach",
+      "to": "newgate",
+      "chapter": 54,
+      "title": "Taken on the tide",
+      "narration": "A police galley closes in. Compeyson drowns, Magwitch is seized and crushed under the water, and the prisoner is landed and carried up to London and Newgate. The escape, and the fortune, are lost on the tide."
+    },
+    {
+      "kind": "scene",
+      "character": "magwitch",
+      "at": "newgate",
+      "chapter": 56,
+      "title": "His second father dies",
+      "narration": "Tried and condemned, the broken convict dies in the Newgate infirmary before they can hang him - Pip at his bedside, telling him at the last that his lost daughter lives, and is a lady, and is loved."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "newgate",
+      "to": "the-temple",
+      "chapter": 57,
+      "title": "Ruined",
+      "narration": "The fortune forfeit to the Crown, Pip goes back to his emptied chambers and falls dangerously ill, hunted by fever and by debt."
+    },
+    {
+      "kind": "journey",
+      "character": "joe",
+      "from": "forge",
+      "to": "the-temple",
+      "chapter": 57,
+      "title": "Joe comes to nurse him",
+      "narration": "And Joe - the man he was ashamed of - comes up from the marsh, nurses him tenderly through the fever, quietly pays his debts, and asks nothing at all in return."
+    },
+    {
+      "kind": "removal",
+      "character": "joe",
+      "from": "the-temple",
+      "to": "forge",
+      "chapter": 57,
+      "title": "Best of men",
+      "narration": "Once Pip is out of danger, Joe slips home to the marsh rather than embarrass him, leaving only a note. \"There has been larks,\" he writes; whatever has been betwixt us, has been."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "the-temple",
+      "to": "forge",
+      "chapter": 58,
+      "title": "Home, too late",
+      "narration": "Pip goes home meaning to marry Biddy, the good, plain girl he overlooked - and finds she has that very day married Joe. Too late, and rightly so; he blesses them and asks their forgiveness."
+    },
+    {
+      "kind": "handoff",
+      "character": "pip",
+      "at": "forge",
+      "chapter": 58,
+      "title": "Away to the East",
+      "narration": "With nothing left to keep him, Pip takes ship for the East, to work off his debts and his shame clerking honestly for Herbert’s firm."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "forge",
+      "to": "cairo",
+      "chapter": 58,
+      "title": "Eleven years abroad",
+      "narration": "For eleven years he keeps the books at the firm’s branch in Cairo, an honest working man at last, the great expectations long since burned away."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Meanwhile the years go by - eleven of them. The boy who wanted so badly to be a gentleman becomes, quietly, a working man, and at last turns for home."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "cairo",
+      "to": "forge",
+      "chapter": 59,
+      "title": "Home to the marsh",
+      "narration": "At last he comes home to the marsh, to Joe and Biddy at the forge and a small boy they have named Pip - the plain, loved life he threw away, going quietly on without him."
+    },
+    {
+      "kind": "journey",
+      "character": "pip",
+      "from": "forge",
+      "to": "satis-house",
+      "chapter": 59,
+      "title": "The ruins of Satis House",
+      "narration": "And out at last to the cleared ground where Satis House stood, the fire and the years having levelled the great illusion to a quiet garden in the evening mist."
+    },
+    {
+      "kind": "journey",
+      "character": "estella",
+      "from": "richmond",
+      "to": "satis-house",
+      "chapter": 59,
+      "title": "And Estella",
+      "narration": "There, widowed and gentled by a hard marriage to the brute Drummle, Estella has come back too. They take hands and walk out of the ruins together - and Pip sees no shadow of another parting from her."
+    }
+  ]
+}

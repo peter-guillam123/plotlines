@@ -32,6 +32,7 @@ export const SPANS = {
   'don-quixote': [730, '2 years'],
   'heart-of-darkness': [150, '5 months'],
   'david-copperfield': [LIFETIME, 'a lifetime'],
+  'great-expectations': [9125, '25 years'],
   'bleak-house': [900, '2 years'],
   'hound-of-the-baskervilles': [14, '2 weeks'],
   'lost-world': [180, '6 months'],

@@ -84,6 +84,18 @@
     }
   },
   {
+    "id": "great-expectations",
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "file": "data/great-expectations.json",
+    "blurb": "A blacksmith’s boy on the Kent marshes helps a hunted convict, is summoned to a great decaying house, and comes into a secret fortune that carries him to London to be a gentleman. He is sure it flows from the cold Miss Havisham - but the money runs the other way, up from the marsh and the convict he was taught to despise.",
+    "spine": {
+      "cloth": "#563a38",
+      "text": "#cbb277"
+    }
+  },
+  {
     "id": "bleak-house",
     "title": "Bleak House",
     "author": "Charles Dickens",
