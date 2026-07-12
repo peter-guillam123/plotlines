@@ -830,12 +830,12 @@
     {
       "character": "phillotson",
       "from": "lumsdon",
-      "to": "shaston",
+      "to": "melchester",
       "chapter": 24,
-      "startDay": 4470,
+      "startDay": 4455,
       "mode": "train",
       "days": 1,
-      "note": "Phillotson takes a large boys’ school in his native hill-town of Shaston.",
+      "note": "Having taken a large school in his native hill-town of Shaston, Phillotson comes down to Melchester to be married.",
       "via": [
         {
           "at": [
@@ -846,33 +846,28 @@
         },
         {
           "at": [
-            -1.7957,
-            51.068
+            -2.1857,
+            51.26
           ],
-          "name": "Melchester"
-        },
-        {
-          "at": [
-            -2.147,
-            51.049
-          ],
-          "name": "Semley",
-          "note": "the railhead for Shaston; the last miles up the hill by cart"
+          "name": "Westbury"
         }
       ],
-      "routeNote": "Rail down toward Melchester and on to Semley, then the climb into Shaston, which has no station of its own.",
-      "routeSource": "LSWR to Semley (1859), the railhead 2.5 miles from Shaftesbury; the town itself was never railed.",
+      "routeNote": "GWR down from the Christminster country through Swindon and Westbury to Melchester.",
+      "routeSource": "GWR route to Salisbury (1856).",
       "routeCertainty": "documented"
     },
     {
-      "character": "sue",
+      "character": [
+        "phillotson",
+        "sue"
+      ],
       "from": "melchester",
       "to": "shaston",
       "chapter": 24,
       "startDay": 4486,
       "mode": "train",
       "days": 1,
-      "note": "Married at Melchester with Jude giving her away, Sue goes to Phillotson’s house at Shaston - and cannot bear him near her.",
+      "note": "Married at Melchester with Jude giving her away, the new-wedded pair go up to Phillotson’s house at Shaston - where Sue finds she cannot bear him near her.",
       "via": [
         {
           "at": [
@@ -1458,13 +1453,13 @@
       "narration": "On a country walk the cousins miss the last train and shelter, blamelessly, overnight. It is enough: the college expels Sue, and she escapes across the river to Jude."
     },
     {
-      "kind": "removal",
+      "kind": "journey",
       "character": "phillotson",
       "from": "lumsdon",
-      "to": "shaston",
+      "to": "melchester",
       "chapter": 24,
-      "title": "The schoolmaster’s town",
-      "narration": "Phillotson takes a large boys’ school in his native hill-town of Shaston, up above the vale - a town so steep the railway never reached it."
+      "title": "The schoolmaster comes down",
+      "narration": "Phillotson, who has taken a large boys’ school in his native hill-town of Shaston, comes down to Melchester to marry Sue and carry her back there as his wife."
     },
     {
       "kind": "scene",
@@ -1476,12 +1471,15 @@
     },
     {
       "kind": "journey",
-      "character": "sue",
+      "character": [
+        "phillotson",
+        "sue"
+      ],
       "from": "melchester",
       "to": "shaston",
       "chapter": 24,
       "title": "To the hill town",
-      "narration": "Sue goes to Phillotson’s house at Shaston as his wife - by rail to Semley, the railhead, then up the hill by cart - and finds she cannot bear him near her."
+      "narration": "Married, the pair go up to Phillotson’s house at Shaston - by rail to Semley, the railhead, then up the hill by cart - where Sue finds she cannot bear her husband near her."
     },
     {
       "kind": "meanwhile",
