@@ -58,6 +58,8 @@
     .gaterow { display: flex; flex-wrap: wrap; gap: 12px; }
     .gaterow .node.gate { flex: 1 1 calc(50% - 6px); min-width: 0; border-left: 5px solid #45635b; }
     .node.gate .tag { color: #3f5c55; }
+    /* the worked-example gate sits in the .pipe, not the .gaterow band */
+    .pipe > .node.gate { border-left: 5px solid #45635b; }
     .gates-foot { margin: 12px 0 0; text-align: center; font-size: 0.86rem; color: var(--ink-soft); font-style: italic; }
     .gates-foot b { color: #7a3f38; font-style: normal; }
 
@@ -228,7 +230,88 @@
       for someone about to read the real thing, not a bowdlerised stand-in for
       it - so the care goes into keeping our own voice honest, never into
       protecting a grown reader from the book.</p>
-      <p><a href="about.html">&larr; How it works</a></p>
+    </section>
+
+    <section>
+      <h2>What the agents bring back</h2>
+      <p class="lede">The diagram above is the shape. Here is one real book
+      poured through it - <em>Jude the Obscure</em>, Hardy's story of a
+      stonemason and the university city that shuts its gates on him - and
+      what each stage actually handed back.</p>
+
+      <div class="pipe">
+        <div class="node">
+          <span class="tag">the frame · chosen first</span>
+          <h4>The idea, before a word is read</h4>
+          <p>Christminster is Oxford, the city that bars a working man - so the
+          map will be Jude's orbit around a door that never opens, drawn to it
+          again and again until he dies within sound of its bells, still outside.
+          The orchestrator proposes the shape; the editor picks it. Only then do
+          the readers go out.</p>
+        </div>
+
+        <div class="link"></div>
+        <div class="node agent">
+          <span class="tag">agent · research</span>
+          <h4>What the readers brought back</h4>
+          <p>Two went out at once. One fixed every invented Wessex name to its
+          real place from Hardy's own 1912 map - Christminster is Oxford, Shaston
+          is Shaftesbury, Marygreen is the hamlet of Fawley - with coordinates
+          and the period railways. The other read the whole text for the four
+          principals' journeys and copied back fifteen quotes, word for word, to
+          be checked against Gutenberg.</p>
+        </div>
+
+        <div class="link"></div>
+        <div class="node agent">
+          <span class="tag">agent · route</span>
+          <h4>Every leg on real ground</h4>
+          <p>Shaston sits on a hill the railway never climbed, so the honest
+          route runs by train to Semley and the last miles up by cart. Arabella's
+          emigration to Australia rounds the Cape of Good Hope, steered wide of
+          the African coast and south of Tasmania so the ship never once crosses
+          land.</p>
+        </div>
+
+        <div class="link"></div>
+        <div class="node agent">
+          <span class="tag">agent · script</span>
+          <h4>The telling, and what it missed</h4>
+          <p>Forty-three narrated beats: the orbit drawn three times, the
+          children's deaths held to a single grave scene. Then a second reader
+          asked what a stranger still needs, and found two things - that Jude
+          cannot marry Sue because he is still bound to Arabella, and the fourth
+          death that tips Sue into penance. Both were folded in.</p>
+        </div>
+
+        <div class="link"></div>
+        <div class="node gate">
+          <span class="tag">the gates · pass all, or no ship</span>
+          <h4>What the gates caught</h4>
+          <p>Rushes found three seams where the clock stepped back a day between
+          two characters, and they were mended. Text-vs-map held every beat
+          against its line and passed it, catching only a road called eighteen
+          miles in one breath and twenty in the next. Two period photochroms
+          cleared - Oxford's High Street, Salisbury's spire - and honest blanks
+          logged for the downland hamlets with no period face.</p>
+        </div>
+
+        <div class="link"></div>
+        <div class="node">
+          <span class="tag">the editor · a human</span>
+          <h4>The last look</h4>
+          <p>Then a person watches the whole book play, end to end, as someone
+          who never read it - the one judgement no gate can make. Only then does
+          it reach the shelf.</p>
+        </div>
+      </div>
+
+      <p class="gates-foot" style="margin-top:20px">That is one book through the
+      line. It happens once, and then the workshop lights go out: the page you
+      read is static, the intelligence all spent before it shipped.</p>
+
+      <p><a href="about.html">&larr; How it works</a> &nbsp;&middot;&nbsp;
+      <a href="index.html?novel=jude-the-obscure">Read Jude the Obscure &rarr;</a></p>
     </section>
   </main>
 </body>
