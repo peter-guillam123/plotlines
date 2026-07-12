@@ -1,4 +1,4 @@
-// Bakes two sort-stats into data/novels.json for the shelf's sort control:
+// Bakes two sort-stats into data/shelf-stats.json for the shelf's sort control:
 //   distanceKm - computed here: the total length of every journey leg the book
 //                draws (each movement counted once, shared legs not doubled),
 //                great-circle through its via points.
@@ -6,26 +6,32 @@
 //                computed: the undated books run on an ordinal day-scale that is
 //                not real time, so a hand-checked duration per book is the only
 //                honest way to sort "one day" against "a lifetime". Add a line
-//                here when a new book ships.
+//                here when a new book ships (tools/check-shelf-stats.mjs is the
+//                gate that stops a book shipping without one).
 //
-// Run: node tools/build-shelf-stats.mjs   (rewrites data/novels.json in place)
+// Run: node tools/build-shelf-stats.mjs   (rewrites data/shelf-stats.json)
+// The helpers are exported so the checker recomputes the same numbers; the
+// write only runs when this file is invoked directly (see the bottom).
 
 import { readFileSync, writeFileSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 // Curated story time-spans. days = a rough real duration for sorting only;
-// label = what the spine shows. Order of magnitude is what matters.
-const SPANS = {
+// label = what the spine shows. Order of magnitude is what matters. "a lifetime"
+// is the grandest bucket, so it is pinned to a whole human life (~70 years):
+// it must outrank any concrete span, even a long one like "30+ years".
+const LIFETIME = 25550; // ~70 years, in days - the ceiling bucket
+export const SPANS = {
   'pride-and-prejudice': [365, 'one year'],
   'jane-eyre': [4380, '12 years'],
   'thirty-nine-steps': [21, '3 weeks'],
   'my-antonia': [11700, '30+ years'],
   'don-quixote': [730, '2 years'],
   'heart-of-darkness': [150, '5 months'],
-  'david-copperfield': [10950, 'a lifetime'],
+  'david-copperfield': [LIFETIME, 'a lifetime'],
   'bleak-house': [900, '2 years'],
   'hound-of-the-baskervilles': [14, '2 weeks'],
   'lost-world': [180, '6 months'],
@@ -33,7 +39,7 @@ const SPANS = {
   'madame-bovary': [3300, '9 years'],
   'tess': [1600, '4 years'],
   'les-miserables': [7000, '18 years'],
-  'devils-elixir': [9000, 'a lifetime'],
+  'devils-elixir': [LIFETIME, 'a lifetime'],
   'ulysses': [1, 'one day'],
   'kim': [900, '3 years'],
   'nils': [240, '8 months'],
@@ -54,7 +60,7 @@ const SPANS = {
 
 const R = 6371; // km
 const toRad = (d) => (d * Math.PI) / 180;
-function haversine([lng1, lat1], [lng2, lat2]) {
+export function haversine([lng1, lat1], [lng2, lat2]) {
   const dLat = toRad(lat2 - lat1);
   const dLng = toRad(lng2 - lng1);
   const a =
@@ -64,7 +70,7 @@ function haversine([lng1, lat1], [lng2, lat2]) {
 }
 const viaPoint = (v) => (Array.isArray(v) ? v : v.at); // [lng,lat] or {at:[...]}
 
-function bookDistanceKm(book) {
+export function bookDistanceKm(book) {
   const byId = Object.fromEntries(book.locations.map((l) => [l.id, l.coords]));
   // The ground the STORY covers: each distinct leg counted once, so several
   // characters sharing a road (Fogg and Fix, Quixote and Sancho) don't multiply it.
@@ -80,23 +86,38 @@ function bookDistanceKm(book) {
   return Math.round(total);
 }
 
-const novels = JSON.parse(readFileSync(join(root, 'data', 'novels.json'), 'utf8'));
-
-// Written to a SEPARATE file so novels.json (the hand-kept spine index) is left
-// untouched; the shelf loader merges these in. Map: id -> {distanceKm, spanDays, spanLabel}.
-const stats = {};
-const missing = [];
-for (const entry of novels) {
-  const book = JSON.parse(readFileSync(join(root, entry.file), 'utf8'));
-  const span = SPANS[entry.id];
-  stats[entry.id] = {
+// The full stats row a book should have. The builder writes it and the checker
+// recomputes it, so the two agree by construction.
+export function statsFor(book, id) {
+  const span = SPANS[id];
+  return {
     distanceKm: bookDistanceKm(book),
     spanDays: span ? span[0] : null,
     spanLabel: span ? span[1] : null,
   };
-  if (!span) missing.push(entry.id);
 }
 
-writeFileSync(join(root, 'data', 'shelf-stats.json'), JSON.stringify(stats, null, 2) + '\n');
-console.log(`shelf stats written for ${novels.length} books -> data/shelf-stats.json`);
-if (missing.length) console.log(`  !! no curated span for: ${missing.join(', ')} (add to SPANS)`);
+// ---- the build (only when run directly, so imports don't rewrite the file) ----
+if (import.meta.url === pathToFileURL(process.argv[1] || '').href) {
+  const novels = JSON.parse(readFileSync(join(root, 'data', 'novels.json'), 'utf8'));
+
+  // Written to a SEPARATE file so novels.json (the hand-kept spine index) is left
+  // untouched; the shelf loader merges these in. Map: id -> {distanceKm, spanDays, spanLabel}.
+  const stats = {};
+  const missing = [];
+  for (const entry of novels) {
+    const book = JSON.parse(readFileSync(join(root, entry.file), 'utf8'));
+    stats[entry.id] = statsFor(book, entry.id);
+    if (!SPANS[entry.id]) missing.push(entry.id);
+  }
+  // A missing span is a ship-blocker, not a warning: the book would sort silently
+  // to the bottom of the time-span order. Fail loudly and refuse to write.
+  if (missing.length) {
+    console.error(`!! no curated span for: ${missing.join(', ')}`);
+    console.error('   add a line to SPANS above (span cannot be computed - see the header) and re-run.');
+    process.exit(1);
+  }
+
+  writeFileSync(join(root, 'data', 'shelf-stats.json'), JSON.stringify(stats, null, 2) + '\n');
+  console.log(`shelf stats written for ${novels.length} books -> data/shelf-stats.json`);
+}

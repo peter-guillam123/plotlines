@@ -382,16 +382,29 @@ The pipeline that produced the honest datasets, in order:
    afterthought — it lives here so it can't be skipped.
 9. **Update** the About page (a diary entry + any new attribution) and add
    the shelf entry to `data/novels.json` with first-edition spine colours.
-   The library sorts the shelf itself — **author surname, then year within an
-   author** (`js/ui/library.js`) — so a new entry displays in the right place
-   wherever you drop it in the file; but keep `novels.json` in that same order
-   for tidiness (append-then-forget once left the shelf out of order twice).
+   The library re-sorts the shelf on demand — **by author, title, date,
+   distance travelled, or time span** (`js/ui/library.js`) — so a new entry
+   displays in the right place wherever you drop it in the file; but keep
+   `novels.json` in author order for tidiness (append-then-forget once left
+   the shelf out of order twice). The last two orders need step 11.
 10. **Rebuild the atlas index.** `node tools/build-atlas.mjs` regenerates
     `data/atlas.json` — the one lightweight file of every place-pin across the
     whole shelf that the atlas view (`atlas.html`) draws. A new book does **not**
     appear on the atlas until this is run, so it is part of shipping, not an
     afterthought. (The atlas is a separate door with its own map; it never loads
     the images eagerly — a pin's picture loads only when its card is opened.)
+11. **Rebuild the shelf sort-stats.** Two of the five shelf orders — distance
+    travelled and time span — read from `data/shelf-stats.json`, a committed
+    file. Distance is computed from the routes, but **time span is curated**:
+    add a `'<slug>': [days, 'label']` line to `SPANS` in
+    `tools/build-shelf-stats.mjs` (the undated books run on an ordinal
+    day-scale, not real time, so only a person can honestly rank "one day"
+    against "a lifetime" — which is pinned to the top of the order), then run
+    `node tools/build-shelf-stats.mjs`. Skip it and the book sorts silently to
+    the *bottom* of both orders with nothing on the page complaining — so
+    `node tools/check-shelf-stats.mjs` is a gate that refuses to pass until
+    every shelf book has a fresh, complete entry (it recomputes and compares,
+    so it also catches stats gone stale after a route edit).
 
 **The four hard gates** (a book that fails any does not ship): it **loads**
 (`node tools/validate.mjs data/<slug>.json` → `load clean` — this runs the

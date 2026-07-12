@@ -17,7 +17,10 @@ Per novel, in order: research + curate the **dataset** (real/identified/
 conjectured places, movements, verified quotes) → enrich **routes** (every
 leg on the real road / rail line / sea-lane it could have taken, with
 sources) → write the **story script** (narrated beats) → add the shelf entry
-to `data/novels.json` → a **diary** entry on the About page. Authoring is a
+to `data/novels.json` → a **diary** entry on the About page → rebuild the two
+generated indexes: `node tools/build-atlas.mjs` (atlas pins) and, after adding
+a curated time-span to `SPANS`, `node tools/build-shelf-stats.mjs` (shelf sort
+stats). `node tools/check-shelf-stats.mjs` gates the latter. Authoring is a
 staged fan-out of subagents; the shipped result is static.
 
 Gold-standard exemplars to match: `data/dracula.json` (dataset shape) and
