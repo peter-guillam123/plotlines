@@ -109,6 +109,10 @@ shared journey (the focus is the first named).
 8. **20–45 words a beat.** Under 20 usually isn't earning its stop;
    over ~60 won't be read (the rushes tool warns). Vary the rhythm:
    scene, journey, journey, scene reads better than strict alternation.
+9. **No em dashes.** A spaced hyphen carries a dash-pause ("a mill - and
+   a monster in the dark"); the em dash has become a tell of synthetic
+   writing, so keep it out of every narration, note and card. En dashes
+   for ranges (chapters 56-57, 1805-1812) are fine.
 
 ## Converging paths — narrating the near-miss
 
