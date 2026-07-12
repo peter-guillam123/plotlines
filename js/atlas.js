@@ -161,6 +161,14 @@ fetch('data/atlas.json')
     function closeCard() { cardEl.hidden = true; cardEl.innerHTML = ''; }
 
     // ---- the book legend, which doubles as a filter ----
+    // Framing a book's pins - the same move its own overture makes: everywhere
+    // the story reaches, held in one wide view. maxZoom keeps a book that sits
+    // in one town (Mrs Dalloway's London) from diving to street level.
+    const boundsOf = (feats) => {
+      const b = new maplibregl.LngLatBounds();
+      for (const f of feats) b.extend(f.geometry.coordinates);
+      return b;
+    };
     function setFilter(bookId) {
       activeBook = bookId;
       const shown = bookId ? features.filter((f) => f.properties.book === bookId) : features;
@@ -169,6 +177,13 @@ fetch('data/atlas.json')
         row.setAttribute('aria-pressed', String(row.dataset.book === (bookId || 'all')));
       }
       closeCard();
+      // Recentre: onto the chosen book's own ground, or back to the whole
+      // collection's home when the filter is cleared.
+      if (bookId && shown.length) {
+        map.fitBounds(boundsOf(shown), { padding: 80, maxZoom: 9, duration: 900 });
+      } else {
+        map.fitBounds(HOME, { padding: 40, duration: 900 });
+      }
     }
     function buildLegend() {
       const rows = [`<button type="button" class="atlas-book" data-book="all" aria-pressed="true">
