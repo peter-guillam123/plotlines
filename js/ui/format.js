@@ -40,6 +40,7 @@ const VERBS = {
   sledge: ['sails the sledge', 'sail the sledge'],
   dogsled: ['drives the dog-team', 'drive the dog-team'],
   flight: ['flies', 'fly'],
+  whale: ['runs to leeward', 'run to leeward'],
   tripod: ['stride', 'stride'],
   unknown: ['moves', 'move'],
 };

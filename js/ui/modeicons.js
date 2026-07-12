@@ -112,6 +112,13 @@ const ICONS = {
     '<path d="M8 4.3V8.2" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>' +
     '<path d="M8 5.1 4.7 4.5 2 6.4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>' +
     '<path d="M8 5.1 11.3 4.5 14 6.4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>',
+  // sperm whale's flukes, raised as it sounds: a tail-stock rising from the
+  // water and splitting into two broad flukes swept up and out, over a wavy
+  // waterline — Moby Dick, running to leeward. Reads as a whale, not a ship.
+  whale:
+    '<path d="M8 12.4V8.4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>' +
+    '<path d="M8 8.6Q4.4 4.5 1.5 6Q4.8 6.8 8 9.1Q11.2 6.8 14.5 6Q11.6 4.5 8 8.6Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>' +
+    '<path d="M1.8 13.6q1.5-.9 3 0 1.5.9 3 0 1.5-.9 3 0 1.5.9 3 0" fill="none" stroke="currentColor" stroke-width="0.9" stroke-linecap="round"/>',
   // Martian fighting-machine: a domed hood on three splayed striding legs,
   // a handling-tentacle hanging (The War of the Worlds)
   tripod:
@@ -139,6 +146,7 @@ const PHRASE = {
   sledge: 'by wind-sledge',
   dogsled: 'by dog-sled',
   flight: 'on the wing',
+  whale: 'running',
   tripod: 'in the fighting-machines',
   unknown: 'onward',
 };
