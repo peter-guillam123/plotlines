@@ -529,6 +529,26 @@
       "startDay": 494.1
     },
     {
+      "character": "anna",
+      "from": "saint-petersburg",
+      "to": "krasnoe-selo",
+      "chapter": 2,
+      "mode": "coach",
+      "days": 0.4,
+      "note": "Anna drives out from Petersburg to the races, taking her seat in the stand beside Karenin.",
+      "startDay": 493
+    },
+    {
+      "character": "anna",
+      "from": "krasnoe-selo",
+      "to": "saint-petersburg",
+      "chapter": 2,
+      "mode": "coach",
+      "days": 0.4,
+      "note": "The race over and her face already read, she drives back to the city beside her husband.",
+      "startDay": 494.5
+    },
+    {
       "character": "kitty",
       "from": "moscow",
       "to": "soden",
@@ -1038,6 +1058,14 @@
       "narration": "At the little spa she meets the saintly Varenka, tries and fails at pious self-denial, and slowly, quietly, begins to get well."
     },
     {
+      "kind": "journey",
+      "character": "anna",
+      "from": "saint-petersburg",
+      "to": "krasnoe-selo",
+      "chapter": 2,
+      "narration": "Anna drives out from Petersburg to the racecourse at Krasnoe Selo, taking her place in the stand with her husband Karenin beside her to watch the officers' steeplechase."
+    },
+    {
       "kind": "handoff",
       "character": "vronsky",
       "at": "saint-petersburg",
@@ -1060,6 +1088,14 @@
       "to": "saint-petersburg",
       "chapter": 2,
       "narration": "He rides back to the city a marked man. The secret is a secret no longer, and Karenin begins to think of what a husband must do."
+    },
+    {
+      "kind": "journey",
+      "character": "anna",
+      "from": "krasnoe-selo",
+      "to": "saint-petersburg",
+      "chapter": 2,
+      "narration": "The race over and her cry already heard, Anna drives back to Petersburg beside Karenin, the silence between them heavier now than the crowd they have left behind."
     },
     {
       "kind": "handoff",
