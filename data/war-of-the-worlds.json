@@ -7,12 +7,12 @@
   "timeline": {
     "epoch": "1898-06-02",
     "calendar": true,
-    "span": "a June, over some four weeks — day of the week and month as Wells fixes them; the year is nominal"
+    "span": "a June, over some four weeks - day of the week and month as Wells fixes them; the year is nominal"
   },
-  "overture": "Out of a calm June evening in Surrey, a cylinder falls on Horsell Common near Woking — the first of ten. What climbs out builds towering fighting-machines and turns a heat-ray on the fleeing county. Two men run: an ordinary writer, driven from his home across the Thames and buried for a fortnight in a ruined house on the edge of a dead London; and his brother, swept out of the panicking city eastward to the Essex sea. Above them the tripods stride on London — until the smallest things on earth bring them down.",
+  "overture": "Out of a calm June evening in Surrey, a cylinder falls on Horsell Common near Woking - the first of ten. What climbs out builds towering fighting-machines and turns a heat-ray on the fleeing county. Two men run: an ordinary writer, driven from his home across the Thames and buried for a fortnight in a ruined house on the edge of a dead London; and his brother, swept out of the panicking city eastward to the Essex sea. Above them the tripods stride on London - until the smallest things on earth bring them down.",
   "sources": [
     {
-      "name": "Project Gutenberg #36 — the full text, place-names verified verbatim",
+      "name": "Project Gutenberg #36 - the full text, place-names verified verbatim",
       "url": "https://www.gutenberg.org/files/36/36-0.txt"
     },
     {
@@ -44,13 +44,13 @@
     {
       "n": 1,
       "title": "The Eve of the War",
-      "dateInStory": "Thursday — a calm June evening",
+      "dateInStory": "Thursday - a calm June evening",
       "day": 0
     },
     {
       "n": 2,
       "title": "The Falling Star",
-      "dateInStory": "Thursday night — the first cylinder",
+      "dateInStory": "Thursday night - the first cylinder",
       "day": 0
     },
     {
@@ -122,13 +122,13 @@
     {
       "n": 14,
       "title": "In London",
-      "dateInStory": "Sunday and Monday — the brother",
+      "dateInStory": "Sunday and Monday - the brother",
       "day": 4
     },
     {
       "n": 15,
       "title": "What Had Happened in Surrey",
-      "dateInStory": "Sunday — the Black Smoke",
+      "dateInStory": "Sunday - the Black Smoke",
       "day": 4
     },
     {
@@ -209,7 +209,7 @@
       "id": "narrator",
       "name": "The narrator",
       "colour": "prussian",
-      "role": "An ordinary writer on philosophy at Maybury, Woking, who watches the first cylinder open and is then driven across Surrey and into a dead London — the eyes the whole invasion is seen through",
+      "role": "An ordinary writer on philosophy at Maybury, Woking, who watches the first cylinder open and is then driven across Surrey and into a dead London - the eyes the whole invasion is seen through",
       "start": {
         "location": "maybury",
         "chapter": 1
@@ -219,7 +219,7 @@
       "id": "brother",
       "name": "The narrator's brother",
       "colour": "ochre",
-      "role": "A medical student in London whose separate story tells the panic from the inside — the exodus east out of the emptying capital to the Essex sea and the ram Thunder Child",
+      "role": "A medical student in London whose separate story tells the panic from the inside - the exodus east out of the emptying capital to the Essex sea and the ram Thunder Child",
       "start": {
         "location": "regents-park",
         "chapter": 14
@@ -250,7 +250,7 @@
       "quoteRef": "Book I, Ch. 1",
       "image": {
         "file": "assets/images/wotw-maybury.jpg",
-        "caption": "Chobham Road, Woking, in a postcard of 1903 — the town below Maybury Hill, where the narrator's invented house stands.",
+        "caption": "Chobham Road, Woking, in a postcard of 1903 - the town below Maybury Hill, where the narrator's invented house stands.",
         "credit": "Postcard, 1903 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -262,8 +262,8 @@
       "novelName": "the common",
       "coords": [-0.5512, 51.3366],
       "certainty": "real",
-      "story": "The sand-pit on Horsell Common where the first cylinder falls and unscrews before a gawping crowd — and where the heat-ray first sweeps out. Ground zero of the invasion, and a real common you can still walk.",
-      "quote": "It's a cylinder—an artificial cylinder, man! And there's something inside.",
+      "story": "The sand-pit on Horsell Common where the first cylinder falls and unscrews before a gawping crowd - and where the heat-ray first sweeps out. Ground zero of the invasion, and a real common you can still walk.",
+      "quote": "It's a cylinder-an artificial cylinder, man! And there's something inside.",
       "quoteRef": "Book I, Ch. 4",
       "imageBlank": "Only a present-day photograph of the actual sandpit is on the archives; no contemporaneous view of Horsell Common was found, and a modern shot would break the period frame."
     },
@@ -275,8 +275,8 @@
       "coords": [-0.4901, 51.355],
       "certainty": "identified",
       "note": "The text places the second cylinder 'in Addlestone Golf Links'; the pin marks the links.",
-      "story": "Where the second cylinder comes down, on the golf links — one corner of the triangle of pits from which the Martians first spread.",
-      "imageBlank": "No period image of Addlestone or its golf links exists in the archives — only recent photographs."
+      "story": "Where the second cylinder comes down, on the golf links - one corner of the triangle of pits from which the Martians first spread.",
+      "imageBlank": "No period image of Addlestone or its golf links exists in the archives - only recent photographs."
     },
     {
       "id": "pyrford",
@@ -296,10 +296,10 @@
       "novelName": "Leatherhead",
       "coords": [-0.3299, 51.2954],
       "certainty": "real",
-      "story": "Where the narrator drives his wife to the safety of her cousins, twelve miles off — the last calm errand before the county comes apart. He turns straight round and heads back into it.",
+      "story": "Where the narrator drives his wife to the safety of her cousins, twelve miles off - the last calm errand before the county comes apart. He turns straight round and heads back into it.",
       "quote": "Leatherhead is about twelve miles from Maybury Hill.",
       "quoteRef": "Book I, Ch. 9",
-      "imageBlank": "The one pre-1930 Leatherhead photograph is a 1928 motor fire-engine parade — thirty years after the story and jarringly modern; nothing c.1900 of the town surfaced."
+      "imageBlank": "The one pre-1930 Leatherhead photograph is a 1928 motor fire-engine parade - thirty years after the story and jarringly modern; nothing c.1900 of the town surfaced."
     },
     {
       "id": "weybridge",
@@ -308,12 +308,12 @@
       "novelName": "Weybridge",
       "coords": [-0.4585, 51.3743],
       "certainty": "real",
-      "story": "The Thames-side towns where the narrator watches the army make its stand — and sees a fighting-machine brought down for the first time, felled into the river as it wrecks Shepperton church across the water.",
+      "story": "The Thames-side towns where the narrator watches the army make its stand - and sees a fighting-machine brought down for the first time, felled into the river as it wrecks Shepperton church across the water.",
       "quote": "It struck the tower of Shepperton Church, smashing it down as the impact of a battering ram might have done, swerved aside, blundered on and collapsed with tremendous force into the river.",
       "quoteRef": "Book I, Ch. 12",
       "image": {
         "file": "assets/images/wotw-weybridge.jpg",
-        "caption": "The Thames at Weybridge, painted by Turner around 1805 — the river the narrator watches as the artillery duel opens across the water.",
+        "caption": "The Thames at Weybridge, painted by Turner around 1805 - the river the narrator watches as the artillery duel opens across the water.",
         "credit": "J. M. W. Turner, The Thames at Weybridge (c.1805) · Tate · Wikimedia Commons · public domain"
       }
     },
@@ -325,7 +325,7 @@
       "coords": [-0.268, 51.466],
       "certainty": "conjectured",
       "note": "Best guess. Wells puts the ruined house 'where the road turns towards Mortlake', a fictional villa in real East Sheen; the pin marks that stretch.",
-      "story": "The white house where the narrator and the curate are trapped for a fortnight when the fifth cylinder falls almost on top of them — buried, half-starved, watching the Martians at their pit through a crack in the wall until the curate's nerve breaks. The house is Wells's invention; Sheen is real.",
+      "story": "The white house where the narrator and the curate are trapped for a fortnight when the fifth cylinder falls almost on top of them - buried, half-starved, watching the Martians at their pit through a crack in the wall until the curate's nerve breaks. The house is Wells's invention; Sheen is real.",
       "imageBlank": "The ruined house where the narrator lies trapped is invented, near Mortlake; no contemporaneous riverside view of Mortlake or East Sheen came to hand to stand in for it."
     },
     {
@@ -338,7 +338,7 @@
       "story": "Where the sixth star falls, and one of the hills from which the Martians press their crescent on London. The narrator's train home, at the very end, runs past its abandoned pit.",
       "image": {
         "file": "assets/images/wotw-wimbledon.jpg",
-        "caption": "Wimbledon Common and its windmill in an Edwardian postcard — the open ground the narrator crosses on the long walk east.",
+        "caption": "Wimbledon Common and its windmill in an Edwardian postcard - the open ground the narrator crosses on the long walk east.",
         "credit": "Raphael Tuck & Sons 'Oilette' postcard, c.1905 · Wikimedia Commons · public domain"
       }
     },
@@ -349,8 +349,8 @@
       "novelName": "Putney Hill",
       "coords": [-0.216, 51.456],
       "certainty": "real",
-      "story": "Climbing out of the wrecked south-west, the narrator meets the artilleryman again — full of grand, idle schemes for a resistance in the drains while he digs a hole and plays cards. The narrator leaves him to it and walks on into the silence.",
-      "imageBlank": "No period view of Putney Hill itself surfaced — only general Putney postcards of other streets — so the spot where the narrator meets the artilleryman stays blank."
+      "story": "Climbing out of the wrecked south-west, the narrator meets the artilleryman again - full of grand, idle schemes for a resistance in the drains while he digs a hole and plays cards. The narrator leaves him to it and walks on into the silence.",
+      "imageBlank": "No period view of Putney Hill itself surfaced - only general Putney postcards of other streets - so the spot where the narrator meets the artilleryman stays blank."
     },
     {
       "id": "primrose-hill",
@@ -359,8 +359,8 @@
       "novelName": "Primrose Hill",
       "coords": [-0.159, 51.5388],
       "certainty": "real",
-      "story": "The Martians' final redoubt, where the seventh cylinder fell — and where the narrator, walking a dead and silent London, climbs to find the fighting-machines fallen still and their masters dead in the pit, killed by the humblest bacteria of the earth they came to take.",
-      "quote": "it was not so much the stillness of death—it was the stillness of suspense, of expectation.",
+      "story": "The Martians' final redoubt, where the seventh cylinder fell - and where the narrator, walking a dead and silent London, climbs to find the fighting-machines fallen still and their masters dead in the pit, killed by the humblest bacteria of the earth they came to take.",
+      "quote": "it was not so much the stillness of death-it was the stillness of suspense, of expectation.",
       "quoteRef": "Book II, Ch. 8",
       "imageBlank": "No contemporaneous view of Primrose Hill's summit was found, where the Martians are found dead; a considered blank rather than a wrong-place stand-in."
     },
@@ -375,7 +375,7 @@
       "story": "The brother's lodgings, where his separate story begins: a medical student who reads of Woking on the Saturday and by Monday is running for his life. Wells names the district, not the address.",
       "image": {
         "file": "assets/images/wotw-regents-park.jpg",
-        "caption": "Albert Terrace, on the edge of Regent's Park, in 1905 — near where the narrator's brother joins the panic streaming north out of London.",
+        "caption": "Albert Terrace, on the edge of Regent's Park, in 1905 - near where the narrator's brother joins the panic streaming north out of London.",
         "credit": "Charles Martin postcard, 1905 · Wikimedia Commons · public domain"
       }
     },
@@ -386,10 +386,10 @@
       "novelName": "Barnet",
       "coords": [-0.2, 51.65],
       "certainty": "real",
-      "story": "On the road north out of London the brother is swept into the full exodus — the choked lanes, the crush at the crossroads, the whole population of the city pouring away. Here he throws in with two women in a pony-chaise and defends them from the mob.",
+      "story": "On the road north out of London the brother is swept into the full exodus - the choked lanes, the crush at the crossroads, the whole population of the city pouring away. Here he throws in with two women in a pony-chaise and defends them from the mob.",
       "image": {
         "file": "assets/images/wotw-barnet.jpg",
-        "caption": "High Barnet seen from Barnet Hill, c.1900 — the road north out of London down which the refugee crowds pour.",
+        "caption": "High Barnet seen from Barnet Hill, c.1900 - the road north out of London down which the refugee crowds pour.",
         "credit": "Postcard, c.1900 · Wikimedia Commons · public domain"
       }
     },
@@ -403,7 +403,7 @@
       "story": "Where a self-appointed 'Committee of Public Supply' seizes the party's pony for food, and the road to the coast has to be finished on foot.",
       "image": {
         "file": "assets/images/wotw-chelmsford.jpg",
-        "caption": "High Street, Chelmsford, in 1906 — an Essex market town on the refugees' road to the coast.",
+        "caption": "High Street, Chelmsford, in 1906 - an Essex market town on the refugees' road to the coast.",
         "credit": "Fred Spalding postcard, 1906 · Wikimedia Commons · public domain"
       }
     },
@@ -424,10 +424,10 @@
       "novelName": "the Blackwater",
       "coords": [0.89, 51.7],
       "certainty": "real",
-      "story": "The Essex estuary where the brother gets aboard a crowded paddle-steamer — the sea black with boats, everyone bound for the Continent, when three fighting-machines come wading out into the water after them.",
+      "story": "The Essex estuary where the brother gets aboard a crowded paddle-steamer - the sea black with boats, everyone bound for the Continent, when three fighting-machines come wading out into the water after them.",
       "image": {
         "file": "assets/images/wotw-blackwater.jpg",
-        "caption": "A crowded pleasure steamer leaving Maldon on the Blackwater, 1906 — indicative of the Essex estuary where the fleeing boats gather off the coast.",
+        "caption": "A crowded pleasure steamer leaving Maldon on the Blackwater, 1906 - indicative of the Essex estuary where the fleeing boats gather off the coast.",
         "credit": "Postcard, 1906 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -440,12 +440,12 @@
       "coords": [0.95, 51.68],
       "certainty": "identified",
       "note": "The engagement is at sea off the estuary; no fixed point is given, so the pin marks the open water beyond the ships.",
-      "story": "The open water off the Blackwater's mouth where the ironclad ram Thunder Child charges the Martians to buy the steamers their escape — and goes down doing it, the one clear victory in the whole rout.",
+      "story": "The open water off the Blackwater's mouth where the ironclad ram Thunder Child charges the Martians to buy the steamers their escape - and goes down doing it, the one clear victory in the whole rout.",
       "quote": "This was the ram Thunder Child. It was the only warship in sight.",
       "quoteRef": "Book I, Ch. 17",
       "image": {
         "file": "assets/images/wotw-thunder-child.jpg",
-        "caption": "The torpedo-ram HMS Polyphemus at sea — the Royal Navy's one true ram, of the very kind the Thunder Child was, that charges the Martians off the Essex coast.",
+        "caption": "The torpedo-ram HMS Polyphemus at sea - the Royal Navy's one true ram, of the very kind the Thunder Child was, that charges the Martians off the Essex coast.",
         "credit": "Royal Navy photograph, c.1890 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -490,7 +490,7 @@
       "mode": "coach",
       "startDay": 2.6,
       "days": 0.2,
-      "note": "He drives back the same night to return the cart — into a thunderstorm, and the first striding fighting-machine seen against the lightning."
+      "note": "He drives back the same night to return the cart - into a thunderstorm, and the first striding fighting-machine seen against the lightning."
     },
     {
       "character": "narrator",
@@ -504,7 +504,7 @@
         { "at": [-0.4757, 51.3374], "name": "Byfleet" }
       ],
       "note": "Burned out of Maybury, he flees down through Byfleet to the Thames, where the army is massing at Weybridge and Shepperton.",
-      "routeNote": "Down through Byfleet to the river at Weybridge — the towns Wells names in order.",
+      "routeNote": "Down through Byfleet to the river at Weybridge - the towns Wells names in order.",
       "routeSource": "Wells names the flight route, Book I ch. 12.",
       "routeCertainty": "novel"
     },
@@ -522,7 +522,7 @@
         { "at": [-0.3085, 51.457], "name": "Richmond Bridge", "note": "crossed 'about half past eight'" }
       ],
       "note": "Swept off the ferry when a Martian wades into the fight, he escapes downriver and works his way with the curate through Halliford and across Richmond Bridge to a house at Sheen.",
-      "routeNote": "Off the river at Shepperton, down through Halliford and over Richmond Bridge to Sheen — every turn named in the text.",
+      "routeNote": "Off the river at Shepperton, down through Halliford and over Richmond Bridge to Sheen - every turn named in the text.",
       "routeSource": "Wells names the route, Book I ch. 12-13 and Book II ch. 1.",
       "routeCertainty": "novel"
     },
@@ -540,8 +540,8 @@
         { "at": [-0.1571, 51.521], "name": "Baker Street" },
         { "at": [-0.156, 51.5313], "name": "Regent's Park" }
       ],
-      "note": "Free at last, he walks the length of a silent, emptied London — Putney Hill, South Kensington, Baker Street — drawn on toward the wailing of the Martians on Primrose Hill.",
-      "routeNote": "Across a dead London on foot: Putney Hill, South Kensington, Baker Street, Regent's Park, Primrose Hill — the streets Wells names as the narrator walks them.",
+      "note": "Free at last, he walks the length of a silent, emptied London - Putney Hill, South Kensington, Baker Street - drawn on toward the wailing of the Martians on Primrose Hill.",
+      "routeNote": "Across a dead London on foot: Putney Hill, South Kensington, Baker Street, Regent's Park, Primrose Hill - the streets Wells names as the narrator walks them.",
       "routeSource": "Wells names the walk through the dead city, Book II ch. 7-8.",
       "routeCertainty": "novel"
     },
@@ -575,7 +575,7 @@
         { "at": [-0.275, 51.613], "name": "Edgware", "note": "reached 'about seven'" }
       ],
       "note": "Failing to get a train at Chalk Farm, the brother sets out on foot, skirts the Edgware Road, and is caught up in the vast northward panic on the Barnet roads.",
-      "routeNote": "Out of London by Chalk Farm and the Edgware Road to Barnet — the exodus route Wells traces stage by stage.",
+      "routeNote": "Out of London by Chalk Farm and the Edgware Road to Barnet - the exodus route Wells traces stage by stage.",
       "routeSource": "Wells names the brother's route, Book I ch. 16.",
       "routeCertainty": "novel"
     },
@@ -619,7 +619,7 @@
       "mode": "ship",
       "startDay": 5.5,
       "days": 0.2,
-      "note": "Aboard a crowded paddle-steamer at last — when three fighting-machines wade out after the boats, and the ram Thunder Child charges them to buy the refugees their escape."
+      "note": "Aboard a crowded paddle-steamer at last - when three fighting-machines wade out after the boats, and the ram Thunder Child charges them to buy the refugees their escape."
     },
     {
       "character": "martians",
@@ -635,8 +635,8 @@
         { "at": [-0.2064, 51.4214], "name": "Wimbledon" },
         { "at": [-0.216, 51.456], "name": "Putney" }
       ],
-      "note": "From the triangle of pits the fighting-machines rise and sweep on London in a crescent — Kingston, Wimbledon, Putney — driving the Black Smoke before them, until they hold the capital and the seventh cylinder lands on Primrose Hill.",
-      "routeNote": "The crescent advance on London by the Richmond, Kingston and Wimbledon line of hills to Primrose Hill — the towns Wells names as the Martians come on.",
+      "note": "From the triangle of pits the fighting-machines rise and sweep on London in a crescent - Kingston, Wimbledon, Putney - driving the Black Smoke before them, until they hold the capital and the seventh cylinder lands on Primrose Hill.",
+      "routeNote": "The crescent advance on London by the Richmond, Kingston and Wimbledon line of hills to Primrose Hill - the towns Wells names as the Martians come on.",
       "routeSource": "Wells names the line of the advance, Book I ch. 15-17 and Book II.",
       "routeCertainty": "novel"
     }
@@ -648,7 +648,7 @@
       "at": "maybury",
       "chapter": 1,
       "title": "The eve of the war",
-      "narration": "On an ordinary June evening in Surrey, no one dreams that Mars — a cooling, dying world — has been watching the earth with envy, and is coming for it. The narrator, a writer at Maybury near Woking, sees only a shooting star fall towards the common."
+      "narration": "On an ordinary June evening in Surrey, no one dreams that Mars - a cooling, dying world - has been watching the earth with envy, and is coming for it. The narrator, a writer at Maybury near Woking, sees only a shooting star fall towards the common."
     },
     {
       "kind": "journey",
@@ -657,7 +657,7 @@
       "to": "horsell",
       "chapter": 3,
       "title": "To the common",
-      "narration": "A great cylinder lies half-buried in the sand-pit on Horsell Common. The narrator joins the curious crowd around it — and the lid begins, slowly, to unscrew."
+      "narration": "A great cylinder lies half-buried in the sand-pit on Horsell Common. The narrator joins the curious crowd around it - and the lid begins, slowly, to unscrew."
     },
     {
       "kind": "scene",
@@ -666,7 +666,7 @@
       "chapter": 5,
       "day": 1.3,
       "title": "The heat-ray",
-      "narration": "The cylinder opens and the Martians heave themselves out — and without warning a beam of heat scythes across the pit, setting men alight where they stand. The narrator, by luck, is not in its path."
+      "narration": "The cylinder opens and the Martians heave themselves out - and without warning a beam of heat scythes across the pit, setting men alight where they stand. The narrator, by luck, is not in its path."
     },
     {
       "kind": "journey",
@@ -693,7 +693,7 @@
       "to": "maybury",
       "chapter": 10,
       "title": "Into the storm",
-      "narration": "He drives back that same night to return the cart — and against the lightning of a thunderstorm sees the first thing walk: a towering fighting-machine, striding on three legs across the country."
+      "narration": "He drives back that same night to return the cart - and against the lightning of a thunderstorm sees the first thing walk: a towering fighting-machine, striding on three legs across the country."
     },
     {
       "kind": "journey",
@@ -702,7 +702,7 @@
       "to": "weybridge",
       "chapter": 12,
       "title": "The stand at Weybridge",
-      "narration": "Maybury burns. Driven out, the narrator flees down through Byfleet to the Thames, where the army has massed — and watches gunfire actually fell a fighting-machine into the river as it smashes Shepperton church across the water."
+      "narration": "Maybury burns. Driven out, the narrator flees down through Byfleet to the Thames, where the army has massed - and watches gunfire actually fell a fighting-machine into the river as it smashes Shepperton church across the water."
     },
     {
       "kind": "journey",
@@ -719,11 +719,11 @@
       "at": "sheen",
       "chapter": 20,
       "title": "Buried at Sheen",
-      "narration": "Then the fifth cylinder falls almost on top of them, and the two are buried in the ruined house for a fortnight — starving, hidden, watching the Martians feed at their pit through a crack in the wall, until the curate's cracking nerve nearly kills them both."
+      "narration": "Then the fifth cylinder falls almost on top of them, and the two are buried in the ruined house for a fortnight - starving, hidden, watching the Martians feed at their pit through a crack in the wall, until the curate's cracking nerve nearly kills them both."
     },
     {
       "kind": "meanwhile",
-      "narration": "Leave him buried there, and wind back a fortnight — to the days the rest of the country was living through while he lay trapped, when the fighting-machines came on towards London itself."
+      "narration": "Leave him buried there, and wind back a fortnight - to the days the rest of the country was living through while he lay trapped, when the fighting-machines came on towards London itself."
     },
     {
       "kind": "journey",
@@ -732,7 +732,7 @@
       "to": "primrose-hill",
       "chapter": 15,
       "title": "The machines take London",
-      "narration": "From the triangle of pits the machines rise and sweep on the capital in a crescent — through Kingston and Wimbledon and Putney — driving the Black Smoke before them, until London lies under them and the seventh cylinder falls on Primrose Hill."
+      "narration": "From the triangle of pits the machines rise and sweep on the capital in a crescent - through Kingston and Wimbledon and Putney - driving the Black Smoke before them, until London lies under them and the seventh cylinder falls on Primrose Hill."
     },
     {
       "kind": "meanwhile",
@@ -745,7 +745,7 @@
       "to": "barnet",
       "chapter": 16,
       "title": "The exodus from London",
-      "narration": "No train will run. On foot, by Chalk Farm and the Edgware Road, the brother is swept into the full exodus — the whole city pouring north up the Barnet roads in a single terrified crowd."
+      "narration": "No train will run. On foot, by Chalk Farm and the Edgware Road, the brother is swept into the full exodus - the whole city pouring north up the Barnet roads in a single terrified crowd."
     },
     {
       "kind": "journey",
@@ -772,7 +772,7 @@
       "to": "thunder-child",
       "chapter": 17,
       "title": "The Thunder Child",
-      "narration": "Aboard a crowded paddle-steamer at last — and then three fighting-machines wade out into the water after the boats. The ironclad ram Thunder Child charges straight at them, and goes down destroying two, buying the steamers their escape."
+      "narration": "Aboard a crowded paddle-steamer at last - and then three fighting-machines wade out into the water after the boats. The ironclad ram Thunder Child charges straight at them, and goes down destroying two, buying the steamers their escape."
     },
     {
       "kind": "meanwhile",
@@ -785,7 +785,7 @@
       "to": "primrose-hill",
       "chapter": 25,
       "title": "Through the dead city",
-      "narration": "He walks out into a dead and silent London — Putney Hill, where the artilleryman spins idle dreams of resistance, then South Kensington and Baker Street — drawn on by a great wailing, 'Ulla, ulla', that sinks and stops as he goes."
+      "narration": "He walks out into a dead and silent London - Putney Hill, where the artilleryman spins idle dreams of resistance, then South Kensington and Baker Street - drawn on by a great wailing, 'Ulla, ulla', that sinks and stops as he goes."
     },
     {
       "kind": "scene",
@@ -794,7 +794,7 @@
       "chapter": 25,
       "day": 20.4,
       "title": "The Martians are dead",
-      "narration": "On Primrose Hill he finds them: the fighting-machines fallen still, the Martians dead in their redoubt — killed, in the end, by the earth's smallest creatures, the bacteria against which they had no defence. The war is over, undone by a thing they never saw."
+      "narration": "On Primrose Hill he finds them: the fighting-machines fallen still, the Martians dead in their redoubt - killed, in the end, by the earth's smallest creatures, the bacteria against which they had no defence. The war is over, undone by a thing they never saw."
     },
     {
       "kind": "journey",
@@ -803,7 +803,7 @@
       "to": "maybury",
       "chapter": 27,
       "title": "Home",
-      "narration": "Weeks on, with the trains running again, he rides home to Woking — past the abandoned pit at Wimbledon, up the road to Maybury — and finds his wife, whom he had long mourned for dead, alive."
+      "narration": "Weeks on, with the trains running again, he rides home to Woking - past the abandoned pit at Wimbledon, up the road to Maybury - and finds his wife, whom he had long mourned for dead, alive."
     }
   ]
 }

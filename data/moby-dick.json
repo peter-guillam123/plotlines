@@ -3,7 +3,7 @@
   "author": "Herman Melville",
   "year": 1851,
   "gutenbergId": 2701,
-  "overture": "New England, and then the whole turning world. Ishmael ships aboard the Nantucket whaler Pequod under Captain Ahab, who has bent the whole voyage to one purpose: to hunt down the white whale that took his leg. Ahab's obsession draws a single line eastward across three oceans — down the Atlantic, round the Cape of Good Hope, through the East Indies and up into the Pacific — while the whale itself stays a rumour, unseen and unplotted, until it surfaces at last on the Line for the three-day chase. One ship, one man's will, and the thing at the end of it.",
+  "overture": "New England, and then the whole turning world. Ishmael ships aboard the Nantucket whaler Pequod under Captain Ahab, who has bent the whole voyage to one purpose: to hunt down the white whale that took his leg. Ahab's obsession draws a single line eastward across three oceans - down the Atlantic, round the Cape of Good Hope, through the East Indies and up into the Pacific - while the whale itself stays a rumour, unseen and unplotted, until it surfaces at last on the Line for the three-day chase. One ship, one man's will, and the thing at the end of it.",
   "mapHome": {
     "bounds": [[-82, -50], [180, 46]]
   },
@@ -15,18 +15,18 @@
   },
   "sources": [
     "The novel is undated: a single whaling voyage of the 1840s that runs about a year and a half, from a 'short, cold Christmas' sailing to the following season on the equator. The clock here runs in stages of the voyage, not in dates.",
-    "Melville charts the voyage with real, named waters — Nantucket, the Cape of Good Hope, the Straits of Sunda, the Bashee Isles, the Japanese grounds — but almost never gives a latitude or longitude. So the named waypoints are pinned hard; the open-ocean legs between them are honest gestures, marked illustrative.",
-    "The one place the map most wants to fix — where the three-day chase and the wreck happen — is the one place the book refuses to fix. It is 'the Line', the equatorial Pacific, reached in the 'Season-on-the-Line'; but Melville gives no longitude anywhere, and in Ch. 134 openly mocks the idea of a whaler's exact position. The chase is plotted candidly on the equator and marked conjectured; the fuzz is the point.",
+    "Melville charts the voyage with real, named waters - Nantucket, the Cape of Good Hope, the Straits of Sunda, the Bashee Isles, the Japanese grounds - but almost never gives a latitude or longitude. So the named waypoints are pinned hard; the open-ocean legs between them are honest gestures, marked illustrative.",
+    "The one place the map most wants to fix - where the three-day chase and the wreck happen - is the one place the book refuses to fix. It is 'the Line', the equatorial Pacific, reached in the 'Season-on-the-Line'; but Melville gives no longitude anywhere, and in Ch. 134 openly mocks the idea of a whaler's exact position. The chase is plotted candidly on the equator and marked conjectured; the fuzz is the point.",
     "The cetology and philosophy chapters (Cetology, The Whiteness of the Whale, the whale-anatomy essays) are timeless, placeless digressions and are kept off the map, as interpolated essays.",
     "The period racial language around the harpooneers is left in the book, not in our voice: Queequeg, Ishmael's 'bosom friend', is the moral centre of the story and is drawn here with the equality Melville gives him. English text: the standard Project Gutenberg edition (#2701)."
   ],
   "regions": [
-    { "id": "new-england", "name": "New England — the whaling ports" },
+    { "id": "new-england", "name": "New England - the whaling ports" },
     { "id": "atlantic", "name": "The Atlantic, and the Cape" },
     { "id": "indian-ocean", "name": "The Indian Ocean" },
-    { "id": "east-indies", "name": "The East Indies — the Sunda Strait" },
-    { "id": "pacific", "name": "The Pacific — the Japan grounds" },
-    { "id": "the-line", "name": "The Line — the equatorial Pacific" }
+    { "id": "east-indies", "name": "The East Indies - the Sunda Strait" },
+    { "id": "pacific", "name": "The Pacific - the Japan grounds" },
+    { "id": "the-line", "name": "The Line - the equatorial Pacific" }
   ],
   "chapters": [
     { "n": 1, "title": "New Bedford", "day": 0, "when": "a damp, drizzly November of the soul" },
@@ -44,7 +44,7 @@
       "name": "Captain Ahab",
       "colour": "madder",
       "initials": "A",
-      "role": "The Pequod's monomaniac master — the single obsessive line drawn eastward across three oceans, to the whale that took his leg",
+      "role": "The Pequod's monomaniac master - the single obsessive line drawn eastward across three oceans, to the whale that took his leg",
       "start": { "location": "nantucket", "chapter": 2 }
     },
     {
@@ -52,7 +52,7 @@
       "name": "Ishmael",
       "colour": "prussian",
       "initials": "I",
-      "role": "The wandering narrator, aboard the whole voyage — and the one soul who lives to tell it",
+      "role": "The wandering narrator, aboard the whole voyage - and the one soul who lives to tell it",
       "start": { "location": "new-bedford", "chapter": 1 }
     },
     {
@@ -60,7 +60,7 @@
       "name": "Moby Dick",
       "colour": "slate",
       "initials": "MD",
-      "role": "The white whale — a rumour and a ghost the whole voyage long, unplotted until it erupts at last on the Line",
+      "role": "The white whale - a rumour and a ghost the whole voyage long, unplotted until it erupts at last on the Line",
       "start": { "location": "the-line", "chapter": 8 }
     }
   ],
@@ -72,7 +72,7 @@
       "novelName": "New Bedford",
       "coords": [-70.934, 41.635],
       "certainty": "real",
-      "story": "Where Ishmael, sick of the land, comes to go whaling. At the Spouter-Inn he is made to share a bed with the tattooed Polynesian harpooneer Queequeg — and the two become, in Queequeg's phrase, bosom friends; the friendship is the warm heart of the book. He hears Father Mapple preach the story of Jonah and the whale.",
+      "story": "Where Ishmael, sick of the land, comes to go whaling. At the Spouter-Inn he is made to share a bed with the tattooed Polynesian harpooneer Queequeg - and the two become, in Queequeg's phrase, bosom friends; the friendship is the warm heart of the book. He hears Father Mapple preach the story of Jonah and the whale.",
       "quote": "Entering that gable-ended Spouter-Inn, you found yourself in a wide, low, straggling entry with old-fashioned wainscots",
       "quoteRef": "ch. 3",
       "image": {
@@ -88,12 +88,12 @@
       "novelName": "Nantucket",
       "coords": [-70.1, 41.283],
       "certainty": "real",
-      "story": "The lonely sand-island that sends its men to every ocean. Ishmael and Queequeg sign aboard the Pequod — a weathered, bone-decked whaler — while her captain, Ahab, stays unseen in his cabin. On a short, cold Christmas the ship warps out into the wintry Atlantic.",
+      "story": "The lonely sand-island that sends its men to every ocean. Ishmael and Queequeg sign aboard the Pequod - a weathered, bone-decked whaler - while her captain, Ahab, stays unseen in his cabin. On a short, cold Christmas the ship warps out into the wintry Atlantic.",
       "quote": "See what a real corner of the world it occupies; how it stands there, away off shore, more lonely than the Eddystone lighthouse.",
       "quoteRef": "ch. 14",
       "image": {
         "file": "assets/images/md-nantucket.jpg",
-        "caption": "Nantucket harbour, c.1908 — a generation after the whaling heyday",
+        "caption": "Nantucket harbour, c.1908 - a generation after the whaling heyday",
         "credit": "M. W. Boyer, 1908 · Library of Congress / Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -106,10 +106,10 @@
       "coords": [-8.0, -22.0],
       "certainty": "conjectured",
       "note": "Open water. The Atlantic descent is given as a string of named cruising-grounds (the Azores, Cape Verde, the Plate, the Carrol Ground); the exact track and the equator-crossing are never staged. Placed representatively in the South Atlantic, off St Helena.",
-      "story": "The long slide south down the Atlantic. Here Ahab at last climbs to the quarter-deck, nails a gold doubloon to the mast, and declares the voyage's true errand — the white whale — swearing the whole crew to the hunt. By night a silvery 'spirit-spout' lures the ship on.",
+      "story": "The long slide south down the Atlantic. Here Ahab at last climbs to the quarter-deck, nails a gold doubloon to the mast, and declares the voyage's true errand - the white whale - swearing the whole crew to the hunt. By night a silvery 'spirit-spout' lures the ship on.",
       "quote": "the Carrol Ground, an unstaked, watery locality, southerly from St. Helena.",
       "quoteRef": "ch. 51",
-      "imageBlank": "Open ocean — a representative patch of the South Atlantic, not a place you can photograph; a generic seascape would only pretend to be this stretch of the whaling grounds."
+      "imageBlank": "Open ocean - a representative patch of the South Atlantic, not a place you can photograph; a generic seascape would only pretend to be this stretch of the whaling grounds."
     },
     {
       "id": "cape-of-good-hope",
@@ -118,12 +118,12 @@
       "novelName": "The Cape of Good Hope",
       "coords": [18.474, -34.357],
       "certainty": "real",
-      "story": "The Pequod claws round the southern tip of Africa through a black gale — Ahab going the long way east, round the Cape rather than the Horn, to reach the equator in the right season. Storm-ravens perch on the stays; Starbuck watches his captain sleep bolt upright over his charts.",
+      "story": "The Pequod claws round the southern tip of Africa through a black gale - Ahab going the long way east, round the Cape rather than the Horn, to reach the equator in the right season. Storm-ravens perch on the stays; Starbuck watches his captain sleep bolt upright over his charts.",
       "quote": "Cape of Good Hope, do they call ye? Rather Cape Tormentoso, as called of yore",
       "quoteRef": "ch. 51",
       "image": {
         "file": "assets/images/md-cape.jpg",
-        "caption": "Cape Town from Table Bay — the landfall a whaler saw rounding the Cape; watercolour, 1867",
+        "caption": "Cape Town from Table Bay - the landfall a whaler saw rounding the Cape; watercolour, 1867",
         "credit": "Lt James Henry Butt, 1867 · Royal Museums Greenwich / Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -139,7 +139,7 @@
       "story": "In the cold Indian Ocean the rumours of Moby Dick begin to gather. Three ships are spoken here: the weather-bleached Goney, whose hail fails on the wind; the Town-Ho, with 'strong news' of the white whale; and the plague-struck Jeroboam, whose mad prophet Gabriel shrieks a warning against the hunt.",
       "quote": "South-eastward from the Cape, off the distant Crozetts, a good cruising ground for Right Whalemen",
       "quoteRef": "ch. 52",
-      "imageBlank": "A named whaling ground, but open Indian Ocean — there is no honest period image of this stretch of empty sea, and a whaling print would be scene-art, not the place."
+      "imageBlank": "A named whaling ground, but open Indian Ocean - there is no honest period image of this stretch of empty sea, and a whaling print would be scene-art, not the place."
     },
     {
       "id": "sunda-strait",
@@ -148,10 +148,10 @@
       "novelName": "The Straits of Sunda",
       "coords": [105.2, -6.1],
       "certainty": "real",
-      "story": "Standing in the great gate between Sumatra and Java, the Pequod runs into an immense, panicked herd of whales — the Grand Armada — wheeling in a vast ring, while she herself is chased through the strait by the piratical proas of the Malays. A giant squid has already risen on the run east, pale as a spectre.",
+      "story": "Standing in the great gate between Sumatra and Java, the Pequod runs into an immense, panicked herd of whales - the Grand Armada - wheeling in a vast ring, while she herself is chased through the strait by the piratical proas of the Malays. A giant squid has already risen on the run east, pale as a spectre.",
       "quote": "Those narrow straits of Sunda divide Sumatra from Java; and standing midway in that vast rampart of islands, buttressed by that bold green promontory, known to seamen as Java Head",
       "quoteRef": "ch. 87",
-      "imageBlank": "Honest period views of the strait exist — KITLV photographs of Java Head and the Anjer light — but every one is tagged CC-BY, not public domain; a blank under the strict PD rule rather than a licence we can't stand behind."
+      "imageBlank": "Honest period views of the strait exist - KITLV photographs of Java Head and the Anjer light - but every one is tagged CC-BY, not public domain; a blank under the strict PD rule rather than a licence we can't stand behind."
     },
     {
       "id": "bashee-isles",
@@ -173,20 +173,20 @@
       "coords": [145.0, 34.0],
       "certainty": "conjectured",
       "note": "A real, named whaling region, but pinned in open water south-east of Japan; no fix is given.",
-      "story": "In the resplendent Japanese seas the direst of storms strikes head-on. In the typhoon the masts burn with St Elmo's fire — 'the Candles' — and Ahab, gripping the flames, defies the corposants; the lightning reverses the compass, and by morning he forges a new needle and points the prow for the equator. Two ships pass: the Samuel Enderby, whose captain lost an arm to Moby Dick and only laughs, and the joy-drunk, homeward-bound Bachelor.",
+      "story": "In the resplendent Japanese seas the direst of storms strikes head-on. In the typhoon the masts burn with St Elmo's fire - 'the Candles' - and Ahab, gripping the flames, defies the corposants; the lightning reverses the compass, and by morning he forges a new needle and points the prow for the equator. Two ships pass: the Samuel Enderby, whose captain lost an arm to Moby Dick and only laughs, and the joy-drunk, homeward-bound Bachelor.",
       "quote": "in these resplendent Japanese seas the mariner encounters the direst of all storms, the Typhoon.",
       "quoteRef": "ch. 119",
-      "imageBlank": "Open Pacific off Japan — a cruising-ground, not a place; no honest period image exists, and the typhoon is a scene, not a view."
+      "imageBlank": "Open Pacific off Japan - a cruising-ground, not a place; no honest period image exists, and the typhoon is a scene, not a view."
     },
     {
       "id": "the-line",
       "region": "the-line",
-      "name": "The Line — the equatorial Pacific",
+      "name": "The Line - the equatorial Pacific",
       "novelName": "The Line",
       "coords": [178.0, 0.0],
       "certainty": "conjectured",
-      "note": "The crux of the map, honestly unfixable. The chase happens on 'the Line' — the equator, somewhere in the Pacific — but Melville gives NO longitude anywhere, and openly mocks such precision (ch. 134). Plotted candidly on the equator near the dateline; the exact spot is unknowable, and that refusal is the book's point.",
-      "story": "The equator at last, where Ahab has willed the whole voyage to end. Two Nantucket ships bring the final omens: the Rachel, which met the whale only yesterday and lost a boat — and the captain's own son — and begs Ahab to help search; he refuses and sails on. Then the Delight, a wrecked boat on her shears and a corpse being sewn into its hammock. The next dawn, the white whale is raised.",
+      "note": "The crux of the map, honestly unfixable. The chase happens on 'the Line' - the equator, somewhere in the Pacific - but Melville gives NO longitude anywhere, and openly mocks such precision (ch. 134). Plotted candidly on the equator near the dateline; the exact spot is unknowable, and that refusal is the book's point.",
+      "story": "The equator at last, where Ahab has willed the whole voyage to end. Two Nantucket ships bring the final omens: the Rachel, which met the whale only yesterday and lost a boat - and the captain's own son - and begs Ahab to help search; he refuses and sails on. Then the Delight, a wrecked boat on her shears and a corpse being sewn into its hammock. The next dawn, the white whale is raised.",
       "quote": "he found himself hard by the very latitude and longitude where his tormenting wound had been inflicted",
       "quoteRef": "ch. 130",
       "imageBlank": "The equator in the open Pacific, and deliberately unfixable at that: there is nothing here to photograph, and nothing honest a picture could add to a spot the book itself refuses to place."
@@ -202,7 +202,7 @@
       "story": "The end of the three-day chase. On the third day the white whale turns at last on the ship herself, and smites the Pequod's bow till she founders; Ahab, darting his final harpoon, is caught round the neck by the running line and dragged down with her. The sea closes over. One man is left, floating on a coffin.",
       "quote": "smote the ship's starboard bow, till men and timbers reeled",
       "quoteRef": "ch. 135",
-      "imageBlank": "Open ocean — the unmarked spot where the Pequod goes down; the sea keeps no record of it, and neither honestly can the map."
+      "imageBlank": "Open ocean - the unmarked spot where the Pequod goes down; the sea keeps no record of it, and neither honestly can the map."
     }
   ],
   "movements": [
@@ -230,7 +230,7 @@
       ],
       "routeCertainty": "illustrative",
       "routeSource": "The Atlantic descent is given only as a string of named grounds (Azores, Cape Verde, the Plate, the Carrol Ground); drawn as an honest gesture south down the ocean.",
-      "note": "The Pequod runs south down the whole length of the Atlantic — past the Azores, Cape Verde and the River Plate — and somewhere on the way, un-narrated, crosses the equator."
+      "note": "The Pequod runs south down the whole length of the Atlantic - past the Azores, Cape Verde and the River Plate - and somewhere on the way, un-narrated, crosses the equator."
     },
     {
       "character": ["ahab", "ishmael"],
@@ -311,7 +311,7 @@
       "days": 45,
       "routeCertainty": "illustrative",
       "routeSource": "The run down to the equator; the destination water is named ('the Line') but no longitude is given, so drawn as an honest gesture south-east onto the equator.",
-      "note": "His prow set for the equator, Ahab drives the ship down onto the Line — the season, and the place, he has waited a whole voyage to reach."
+      "note": "His prow set for the equator, Ahab drives the ship down onto the Line - the season, and the place, he has waited a whole voyage to reach."
     },
     {
       "character": "moby-dick",
@@ -321,7 +321,7 @@
       "mode": "whale",
       "startDay": 410,
       "days": 3,
-      "note": "The white whale, raised at last, runs straight to leeward for three days, towing the fast boats behind him on the planted harpoon-lines — the ghost of the whole voyage made suddenly, terribly real."
+      "note": "The white whale, raised at last, runs straight to leeward for three days, towing the fast boats behind him on the planted harpoon-lines - the ghost of the whole voyage made suddenly, terribly real."
     },
     {
       "character": ["ahab", "ishmael"],
@@ -331,7 +331,7 @@
       "mode": "ship",
       "startDay": 410,
       "days": 3,
-      "note": "The Pequod and her boats chase the whale to leeward for three days — to the spot where the ship goes down, and where the one survivor is left afloat."
+      "note": "The Pequod and her boats chase the whale to leeward for three days - to the spot where the ship goes down, and where the one survivor is left afloat."
     }
   ],
   "story": [
@@ -341,7 +341,7 @@
       "at": "new-bedford",
       "chapter": 1,
       "title": "A damp, drizzly November",
-      "narration": "Whenever it is a damp, drizzly November in his soul, Ishmael goes to sea. In New Bedford he is put to share a bed at the Spouter-Inn with a tattooed harpooneer, Queequeg — and by morning the two are, in Queequeg's own phrase, bosom friends.",
+      "narration": "Whenever it is a damp, drizzly November in his soul, Ishmael goes to sea. In New Bedford he is put to share a bed at the Spouter-Inn with a tattooed harpooneer, Queequeg - and by morning the two are, in Queequeg's own phrase, bosom friends.",
       "day": 0
     },
     {
@@ -350,7 +350,7 @@
       "from": "new-bedford",
       "to": "nantucket",
       "chapter": 2,
-      "narration": "The two friends cross to Nantucket — the lonely sand-island, away off shore, that sends its men to hunt whales in every ocean of the world — to find a ship to sail in."
+      "narration": "The two friends cross to Nantucket - the lonely sand-island, away off shore, that sends its men to hunt whales in every ocean of the world - to find a ship to sail in."
     },
     {
       "kind": "scene",
@@ -367,7 +367,7 @@
       "from": "nantucket",
       "to": "carrol-ground",
       "chapter": 3,
-      "narration": "The Pequod runs south down the whole length of the Atlantic. For days Ahab is only a presence felt below deck — until one morning he is there at the rail, tall and scarred, a leg of whale-ivory fitted to the planks, saying nothing."
+      "narration": "The Pequod runs south down the whole length of the Atlantic. For days Ahab is only a presence felt below deck - until one morning he is there at the rail, tall and scarred, a leg of whale-ivory fitted to the planks, saying nothing."
     },
     {
       "kind": "scene",
@@ -375,7 +375,7 @@
       "at": "carrol-ground",
       "chapter": 3,
       "title": "The quarter-deck",
-      "narration": "Then Ahab musters the crew, nails a gold doubloon to the mast, and names the voyage's true errand: not oil, but one whale — Moby Dick, the white whale that reaped away his leg. He makes them all drink to its death. The hunt is sworn.",
+      "narration": "Then Ahab musters the crew, nails a gold doubloon to the mast, and names the voyage's true errand: not oil, but one whale - Moby Dick, the white whale that reaped away his leg. He makes them all drink to its death. The hunt is sworn.",
       "day": 58
     },
     {
@@ -384,7 +384,7 @@
       "at": "carrol-ground",
       "chapter": 3,
       "title": "The spirit-spout",
-      "narration": "Night after night a single silvery spout is glimpsed far off in the moonlight, and lost — the ghost of a whale, luring the ship on and south. The thing Ahab hunts stays exactly this: unseen, unplotted, a rumour on the water.",
+      "narration": "Night after night a single silvery spout is glimpsed far off in the moonlight, and lost - the ghost of a whale, luring the ship on and south. The thing Ahab hunts stays exactly this: unseen, unplotted, a rumour on the water.",
       "day": 62
     },
     {
@@ -393,7 +393,7 @@
       "from": "carrol-ground",
       "to": "cape-of-good-hope",
       "chapter": 4,
-      "narration": "On round the tip of Africa — the Cape of Good Hope that old sailors called Cape Tormentoso, the cape of storms — clawing east through a black gale into the Indian Ocean."
+      "narration": "On round the tip of Africa - the Cape of Good Hope that old sailors called Cape Tormentoso, the cape of storms - clawing east through a black gale into the Indian Ocean."
     },
     {
       "kind": "scene",
@@ -401,7 +401,7 @@
       "at": "cape-of-good-hope",
       "chapter": 4,
       "title": "Over the charts",
-      "narration": "Sleepless in his cabin, Ahab pores over his sea-charts, threading together every current and season and record of the sperm whale's wanderings — hunting one animal across the blank of a whole ocean. Starbuck, his first mate, watches, and is afraid.",
+      "narration": "Sleepless in his cabin, Ahab pores over his sea-charts, threading together every current and season and record of the sperm whale's wanderings - hunting one animal across the blank of a whole ocean. Starbuck, his first mate, watches, and is afraid.",
       "day": 95
     },
     {
@@ -410,7 +410,7 @@
       "from": "cape-of-good-hope",
       "to": "crozet-grounds",
       "chapter": 5,
-      "narration": "Eastward into the cold grey Indian Ocean, to the right-whale grounds off the distant Crozets — and here, ship by ship, the rumours of the white whale begin to come aboard."
+      "narration": "Eastward into the cold grey Indian Ocean, to the right-whale grounds off the distant Crozets - and here, ship by ship, the rumours of the white whale begin to come aboard."
     },
     {
       "kind": "scene",
@@ -427,7 +427,7 @@
       "from": "crozet-grounds",
       "to": "sunda-strait",
       "chapter": 6,
-      "narration": "North-east across the whole Indian Ocean toward Java. On the way a vast pale shape heaves up alongside — not the whale, but a giant squid, an acre of ghostly arms — and sinks again, an omen no one can read."
+      "narration": "North-east across the whole Indian Ocean toward Java. On the way a vast pale shape heaves up alongside - not the whale, but a giant squid, an acre of ghostly arms - and sinks again, an omen no one can read."
     },
     {
       "kind": "scene",
@@ -435,7 +435,7 @@
       "at": "sunda-strait",
       "chapter": 6,
       "title": "The Grand Armada",
-      "narration": "In the narrow gate between Sumatra and Java the Pequod drives into a vast, panicked herd of whales wheeling in a mile-wide ring — while she herself is chased through the strait by the low proas of Malay pirates. At the herd's still heart, mothers and calves.",
+      "narration": "In the narrow gate between Sumatra and Java the Pequod drives into a vast, panicked herd of whales wheeling in a mile-wide ring - while she herself is chased through the strait by the low proas of Malay pirates. At the herd's still heart, mothers and calves.",
       "day": 205
     },
     {
@@ -452,7 +452,7 @@
       "at": "bashee-isles",
       "chapter": 7,
       "title": "My dear Pacific",
-      "narration": "Ishmael greets the great South Sea with love — its long rolling swells, its calm that seems the very surface of the round earth's soul. Ahab sees none of it; his eye is fixed only on the grounds ahead, and the season on the Line.",
+      "narration": "Ishmael greets the great South Sea with love - its long rolling swells, its calm that seems the very surface of the round earth's soul. Ahab sees none of it; his eye is fixed only on the grounds ahead, and the season on the Line.",
       "day": 255
     },
     {
@@ -461,7 +461,7 @@
       "at": "bashee-isles",
       "chapter": 7,
       "title": "Queequeg's coffin",
-      "narration": "Out here Queequeg sickens, and has the carpenter build him a coffin — then, mending, keeps it as a sea-chest. Caulked and pitched, it is later hung astern as the ship's life-buoy: the thing, though none yet knows it, that will one day bear Ishmael home.",
+      "narration": "Out here Queequeg sickens, and has the carpenter build him a coffin - then, mending, keeps it as a sea-chest. Caulked and pitched, it is later hung astern as the ship's life-buoy: the thing, though none yet knows it, that will one day bear Ishmael home.",
       "day": 258
     },
     {
@@ -470,7 +470,7 @@
       "from": "bashee-isles",
       "to": "japan-grounds",
       "chapter": 7,
-      "narration": "East across the western Pacific to the Japanese cruising-ground — where, in the resplendent Japanese seas, the direst of all storms is waiting for them."
+      "narration": "East across the western Pacific to the Japanese cruising-ground - where, in the resplendent Japanese seas, the direst of all storms is waiting for them."
     },
     {
       "kind": "scene",
@@ -487,7 +487,7 @@
       "at": "japan-grounds",
       "chapter": 7,
       "title": "The Candles",
-      "narration": "The typhoon strikes head-on, and the three masts burn from truck to deck with St Elmo's fire — the corposants. Ahab grips the flames and defies them; the lightning turns the compass false, and at dawn he forges a new needle himself and points the prow for the equator.",
+      "narration": "The typhoon strikes head-on, and the three masts burn from truck to deck with St Elmo's fire - the corposants. Ahab grips the flames and defies them; the lightning turns the compass false, and at dawn he forges a new needle himself and points the prow for the equator.",
       "day": 310
     },
     {
@@ -496,7 +496,7 @@
       "from": "japan-grounds",
       "to": "the-line",
       "chapter": 8,
-      "narration": "South and east, down onto the Line — the stretch of the equator Ahab has bent the whole long voyage to reach, in the one season the white whale is said to cruise there."
+      "narration": "South and east, down onto the Line - the stretch of the equator Ahab has bent the whole long voyage to reach, in the one season the white whale is said to cruise there."
     },
     {
       "kind": "scene",
@@ -504,7 +504,7 @@
       "at": "the-line",
       "chapter": 8,
       "title": "The Rachel, and the Delight",
-      "narration": "The omens close in. The Rachel met Moby Dick only yesterday and lost a boat's crew — the captain's own son among them — and begs Ahab to help search. He refuses, and drives on. Then the Delight passes: a stove boat on her rail, a corpse ready for the deep.",
+      "narration": "The omens close in. The Rachel met Moby Dick only yesterday and lost a boat's crew - the captain's own son among them - and begs Ahab to help search. He refuses, and drives on. Then the Delight passes: a stove boat on her rail, a corpse ready for the deep.",
       "day": 400
     },
     {
@@ -522,7 +522,7 @@
       "at": "the-line",
       "chapter": 8,
       "title": "There she blows",
-      "narration": "And then, on a fine clear morning, Ahab himself raises it from the masthead — a great white hump on the calm blue, a snow-hill on the sea. Moby Dick. The rumour of a whole voyage rears up at last into something terribly real.",
+      "narration": "And then, on a fine clear morning, Ahab himself raises it from the masthead - a great white hump on the calm blue, a snow-hill on the sea. Moby Dick. The rumour of a whole voyage rears up at last into something terribly real.",
       "day": 408
     },
     {
@@ -540,12 +540,12 @@
       "from": "the-line",
       "to": "the-wreck",
       "chapter": 8,
-      "narration": "On the second day the whale is found again, and runs — straight to leeward, hour on hour, towing the fast boats behind him on their harpoon-lines, smashing two to splinters and drowning the shadowy Parsee, Fedallah, tangled in the ropes."
+      "narration": "On the second day the whale is found again, and runs - straight to leeward, hour on hour, towing the fast boats behind him on their harpoon-lines, smashing two to splinters and drowning the shadowy Parsee, Fedallah, tangled in the ropes."
     },
     {
       "kind": "meanwhile",
       "chapter": 8,
-      "narration": "And still the Pequod crowds on all sail behind him, Ahab lashed to the chase — following the running whale down the leeward sea toward the one spot where it will all end."
+      "narration": "And still the Pequod crowds on all sail behind him, Ahab lashed to the chase - following the running whale down the leeward sea toward the one spot where it will all end."
     },
     {
       "kind": "journey",
@@ -561,7 +561,7 @@
       "at": "the-wreck",
       "chapter": 8,
       "title": "The third day",
-      "narration": "On the third day the whale turns on the ship herself and drives his whole white bulk against the Pequod's bow, till she staves and fills and founders. Ahab darts his last harpoon — and the flying line catches him round the neck and snatches him under with her.",
+      "narration": "On the third day the whale turns on the ship herself and drives his whole white bulk against the Pequod's bow, till she staves and fills and founders. Ahab darts his last harpoon - and the flying line catches him round the neck and snatches him under with her.",
       "day": 414
     },
     {
@@ -570,7 +570,7 @@
       "at": "the-wreck",
       "chapter": 8,
       "title": "And I only am escaped",
-      "narration": "The sea closes over ship, crew, captain and whale alike. One man is left: flung clear, and buoyed up by Queequeg's coffin, Ishmael floats a day and a night on the calm — until a sail draws near. The Rachel, still seeking her own lost children, finds another orphan.",
+      "narration": "The sea closes over ship, crew, captain and whale alike. One man is left: flung clear, and buoyed up by Queequeg's coffin, Ishmael floats a day and a night on the calm - until a sail draws near. The Rachel, still seeking her own lost children, finds another orphan.",
       "day": 416
     }
   ]

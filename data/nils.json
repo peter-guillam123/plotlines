@@ -4,15 +4,15 @@
   "year": 1906,
   "gutenbergId": 10935,
   "quotesVerified": "The Wonderful Adventures of Nils, Velma Swanston Howard's translation, Project Gutenberg #10935. Quotes preserve the source's inconsistent spellings ('Skane', 'Gottland').",
-  "overture": "A lazy farm boy in the far south of Sweden is shrunk to thumb-size, and carried off on the back of a white gander when the wild geese fly north for the spring. From Skåne to Lapland and home again, he sees the whole length of his country from the air — and is made kind by it.",
+  "overture": "A lazy farm boy in the far south of Sweden is shrunk to thumb-size, and carried off on the back of a white gander when the wild geese fly north for the spring. From Skåne to Lapland and home again, he sees the whole length of his country from the air - and is made kind by it.",
   "mapHome": { "bounds": [[10.5, 55], [21, 68.6]] },
   "timeline": { "epoch": null, "calendar": false, "span": "one spring, summer and autumn", "duration": "a spring and summer", "unit": "month" },
   "sources": [
-    "The journey is a curated spine of the flock's real, named landfalls — Vittskövle, Glimmingehus, Kullaberg, Karlskrona, Öland, Gotland, Skansen, Kebnekaise — out of the dozens of provinces the book visits as a geography primer.",
+    "The journey is a curated spine of the flock's real, named landfalls - Vittskövle, Glimmingehus, Kullaberg, Karlskrona, Öland, Gotland, Skansen, Kebnekaise - out of the dozens of provinces the book visits as a geography primer.",
     "The migration is drawn as flight: a bird crosses land and sea alike, so the routes are illustrative arcs following the book's south-to-north-and-home arc, not surveyed lines. Vineta, the sunken city, is a legend and is not pinned; Visby stands for the Gotland landfall."
   ],
   "regions": [
-    { "id": "skane", "name": "Skåne — the south" },
+    { "id": "skane", "name": "Skåne - the south" },
     { "id": "islands", "name": "The Blekinge coast and the Baltic islands" },
     { "id": "north", "name": "Up country to Lapland" }
   ],
@@ -38,65 +38,65 @@
     {
       "id": "home", "region": "skane", "name": "Västra Vemmenhög, Skåne", "novelName": "West Vemminghög", "coords": [13.4724, 55.4270], "certainty": "real",
       "note": "Nils's home farm, in a real hamlet in southernmost Skåne; the village is named and locatable, the particular farm commemorated today as Nils Holgerssongården.",
-      "story": "The flat Scanian farm where an idle boy torments a tomte, is shrunk to thumb-size, and is swept off after the wild geese — and where, one November, he lands again and is made whole.",
+      "story": "The flat Scanian farm where an idle boy torments a tomte, is shrunk to thumb-size, and is swept off after the wild geese - and where, one November, he lands again and is made whole.",
       "quote": "the boy lived in West Vemminghög Township, down in Southern Skane, where the spring was already in full swing.", "quoteRef": "'The Boy'",
-      "image": { "file": "assets/images/ni-home.jpg", "caption": "A Scanian farm cottage among its trees, drawn 1924 — an indicative view of the humble southern farmland where Nils begins, and ends.", "credit": "Ferdinand Boberg, 1924 · Nordiska museet · Wikimedia Commons · public domain", "indicative": true }
+      "image": { "file": "assets/images/ni-home.jpg", "caption": "A Scanian farm cottage among its trees, drawn 1924 - an indicative view of the humble southern farmland where Nils begins, and ends.", "credit": "Ferdinand Boberg, 1924 · Nordiska museet · Wikimedia Commons · public domain", "indicative": true }
     },
     {
       "id": "vittskovle", "region": "skane", "name": "Vittskövle, Skåne", "novelName": "Vittskövle", "coords": [14.1333, 55.8528], "certainty": "real",
       "note": "A real moated Renaissance castle in eastern Skåne, near which the wild flock first lights.",
-      "story": "The meadow by Vittskövle manor where the wild geese roost and Akka first weighs the tame gander and the useless boy — and where the fox Smirre makes his first raid.",
+      "story": "The meadow by Vittskövle manor where the wild geese roost and Akka first weighs the tame gander and the useless boy - and where the fox Smirre makes his first raid.",
       "quote": "A flock of wild geese came flying one morning, and lit on a meadow down in Eastern Skåne not very far from Vittskövle manor.", "quoteRef": "'Vittskövle'",
-      "image": { "file": "assets/images/ni-vittskovle.jpg", "caption": "Vittskövle castle, engraved 1680 — the moated Renaissance manor by whose meadows the wild flock first lights.", "credit": "After Gerhard von Burman, 1680 (published by Abraham Fischer, 1756) · Wikimedia Commons · public domain" }
+      "image": { "file": "assets/images/ni-vittskovle.jpg", "caption": "Vittskövle castle, engraved 1680 - the moated Renaissance manor by whose meadows the wild flock first lights.", "credit": "After Gerhard von Burman, 1680 (published by Abraham Fischer, 1756) · Wikimedia Commons · public domain" }
     },
     {
       "id": "glimmingehus", "region": "skane", "name": "Glimmingehus, Skåne", "novelName": "Glimminge castle", "coords": [14.2312, 55.5006], "certainty": "real",
-      "note": "A real medieval stone keep near Hammenhög in south-eastern Skåne — the best-preserved in Scandinavia.",
+      "note": "A real medieval stone keep near Hammenhög in south-eastern Skåne - the best-preserved in Scandinavia.",
       "story": "The grim old keep where storks nest on the roof and grey rats have overrun the halls, until Nils pipes the whole horde of them out of the gates and away.",
       "quote": "In south-eastern Skåne--not far from the sea there is an old castle called Glimminge.", "quoteRef": "'Glimminge Castle'",
-      "image": { "file": "assets/images/ni-glimmingehus.jpg", "caption": "Glimmingehus, engraved 1680 — the great medieval stone keep from which Nils pipes the rats.", "credit": "After Gerhard von Burman, 1680 (published by Abraham Fischer, 1756) · Wikimedia Commons · public domain" }
+      "image": { "file": "assets/images/ni-glimmingehus.jpg", "caption": "Glimmingehus, engraved 1680 - the great medieval stone keep from which Nils pipes the rats.", "credit": "After Gerhard von Burman, 1680 (published by Abraham Fischer, 1756) · Wikimedia Commons · public domain" }
     },
     {
       "id": "kullaberg", "region": "skane", "name": "Kullaberg, Skåne", "novelName": "Kullaberg", "coords": [12.4515, 56.3010], "certainty": "real",
       "note": "A real headland ridge on the Skåne coast, marked at its cape by Kullen lighthouse; the crane dance is set on its broad heath, anchored here at the point.",
-      "story": "The headland where, once a year, the animals keep a truce to watch the grey cranes dance — and where Smirre the fox breaks the peace, and is cast out for it.",
+      "story": "The headland where, once a year, the animals keep a truce to watch the grey cranes dance - and where Smirre the fox breaks the peace, and is cast out for it.",
       "quote": "Although there are many magnificent buildings in Skåne, it must be acknowledged that there's not one among them that has such pretty walls as old Kullaberg.", "quoteRef": "'The Great Crane Dance on Kullaberg'",
-      "image": { "file": "assets/images/ni-kullaberg.jpg", "caption": "The lighthouse on Kullen, the Kullaberg cape in Skåne — a 19th-century engraving of the headland where the animals keep their yearly truce.", "credit": "'Fyrtornet på Kullen i Skåne', 19th-century wood-engraving · Wikimedia Commons · public domain" }
+      "image": { "file": "assets/images/ni-kullaberg.jpg", "caption": "The lighthouse on Kullen, the Kullaberg cape in Skåne - a 19th-century engraving of the headland where the animals keep their yearly truce.", "credit": "'Fyrtornet på Kullen i Skåne', 19th-century wood-engraving · Wikimedia Commons · public domain" }
     },
     {
       "id": "karlskrona", "region": "islands", "name": "Karlskrona, Blekinge", "novelName": "Karlskrona", "coords": [15.5866, 56.1611], "certainty": "real",
       "note": "The real naval city of Blekinge; the bronze statue of King Karl XI stands on Stortorget, the wooden Rosenbom poor-box by the Admiralty Church.",
-      "story": "The moonlit naval town where cheeky Nils mocks the bronze king on the square — who climbs down and chases him through the streets, the wooden almsman Rosenbom caught up in the hunt.",
+      "story": "The moonlit naval town where cheeky Nils mocks the bronze king on the square - who climbs down and chases him through the streets, the wooden almsman Rosenbom caught up in the hunt.",
       "quote": "It was a moonlight evening in Karlskrona--calm and beautiful.", "quoteRef": "'Karlskrona'",
-      "image": { "file": "assets/images/ni-karlskrona.jpg", "caption": "Stortorget, Karlskrona, 1901 — the great square and the bronze statue of King Karl XI, who climbs down to chase Nils through the streets.", "credit": "Gustav Adolph Johnson, stereograph, 1901 · Riksantikvarieämbetet · Wikimedia Commons · public domain" }
+      "image": { "file": "assets/images/ni-karlskrona.jpg", "caption": "Stortorget, Karlskrona, 1901 - the great square and the bronze statue of King Karl XI, who climbs down to chase Nils through the streets.", "credit": "Gustav Adolph Johnson, stereograph, 1901 · Riksantikvarieämbetet · Wikimedia Commons · public domain" }
     },
     {
       "id": "oland", "region": "islands", "name": "Ottenby, Öland", "novelName": "Öland's southern point", "coords": [16.3988, 56.1980], "certainty": "real",
-      "note": "The real royal demesne of Ottenby at the southern cape of the island of Öland, marked by the Långe Jan lighthouse — a famous staging ground for migrating birds.",
+      "note": "The real royal demesne of Ottenby at the southern cape of the island of Öland, marked by the Långe Jan lighthouse - a famous staging ground for migrating birds.",
       "story": "The bare southern heath of Öland, where the flock rests among a great gathering of migrating birds before the leap out over the open Baltic.",
       "quote": "On the most southerly part of Öland lies a royal demesne, which is called Ottenby.", "quoteRef": "'Öland's Southern Point'",
-      "imageBlank": "No clean public-domain period view of Öland's southern point (Ottenby / the Långe Jan lighthouse) surfaced — the available photographs are all modern and licensed. Better a logged blank than a doubtful one."
+      "imageBlank": "No clean public-domain period view of Öland's southern point (Ottenby / the Långe Jan lighthouse) surfaced - the available photographs are all modern and licensed. Better a logged blank than a doubtful one."
     },
     {
       "id": "gotland", "region": "islands", "name": "Visby, Gotland", "novelName": "Visby, and sunken Vineta", "coords": [18.2948, 57.6348], "certainty": "real",
-      "note": "The real walled town of Visby on Gotland — 'the city of ruins and roses'. Its counterpart in the chapter, the drowned city of Vineta, is a legend and is not given coordinates.",
-      "story": "The walled island town where Nils walks the streets of Vineta, a sunken city risen for one hour in a hundred years, and cannot find the coin that would save it — so it sinks again, and living Visby stands.",
+      "note": "The real walled town of Visby on Gotland - 'the city of ruins and roses'. Its counterpart in the chapter, the drowned city of Vineta, is a legend and is not given coordinates.",
+      "story": "The walled island town where Nils walks the streets of Vineta, a sunken city risen for one hour in a hundred years, and cannot find the coin that would save it - so it sinks again, and living Visby stands.",
       "quote": "then they are more happy over the Visby that exists, than over a magnificent Vineta at the bottom of the sea.", "quoteRef": "'Two Cities'",
-      "image": { "file": "assets/images/ni-visby.jpg", "caption": "Visby from the north, watercolour c.1820 — the walled 'city of ruins and roses' on Gotland, set against the legend of drowned Vineta.", "credit": "Lars Cedergren, c.1816–1830 · Riksantikvarieämbetet · Wikimedia Commons · public domain" }
+      "image": { "file": "assets/images/ni-visby.jpg", "caption": "Visby from the north, watercolour c.1820 - the walled 'city of ruins and roses' on Gotland, set against the legend of drowned Vineta.", "credit": "Lars Cedergren, c.1816–1830 · Riksantikvarieämbetet · Wikimedia Commons · public domain" }
     },
     {
       "id": "stockholm", "region": "north", "name": "Skansen, Stockholm", "novelName": "Skansen", "coords": [18.1034, 59.3260], "certainty": "real",
-      "note": "The real open-air museum on Djurgården in Stockholm, founded 1891 — 'the great park just outside of Stockholm'.",
+      "note": "The real open-air museum on Djurgården in Stockholm, founded 1891 - 'the great park just outside of Stockholm'.",
       "story": "The park where Sweden is gathered in miniature, and where Nils is caught and held; by night the still figures wake, and he wins the friendship of the eagle who will one day carry him back to the geese.",
       "quote": "A few years ago, at Skansen--the great park just outside of Stockholm where they have collected so many wonderful things--there lived a little old man, named Clement Larsson.", "quoteRef": "'Skansen'",
-      "image": { "file": "assets/images/ni-skansen.jpg", "caption": "Stockholm seen from the heights of Skansen, painted 1889 — the great park just outside the capital where Nils is caught and held.", "credit": "Karl Nordström, 1889 · Nationalmuseum · Wikimedia Commons · public domain", "indicative": true }
+      "image": { "file": "assets/images/ni-skansen.jpg", "caption": "Stockholm seen from the heights of Skansen, painted 1889 - the great park just outside the capital where Nils is caught and held.", "credit": "Karl Nordström, 1889 · Nationalmuseum · Wikimedia Commons · public domain", "indicative": true }
     },
     {
       "id": "kebnekaise", "region": "north", "name": "Kebnekaise, Lappland", "novelName": "Mount Kebnekaise", "coords": [18.5136, 67.9017], "certainty": "real",
-      "note": "Sweden's highest mountain, in Lapland — the named home of Akka and the wild flock. The geese summer across the fells broadly; the peak is the single mappable anchor.",
+      "note": "Sweden's highest mountain, in Lapland - the named home of Akka and the wild flock. The geese summer across the fells broadly; the peak is the single mappable anchor.",
       "story": "The roof of Sweden, above the glaciers in the Lapland light, where the wild geese come down at last to nest and raise their young through the brief bright summer.",
       "quote": "He had stood on snow-capped Mount Kebnekaise, had looked down at the glaciers and visited many high cliffs seldom tramped by human feet.", "quoteRef": "'With the Laplanders'",
-      "image": { "file": "assets/images/ni-kebnekaise.jpg", "caption": "Roped climbers on the glacier ice of Kebnekaise, early 20th century — the snow-capped roof of Sweden where the wild geese summer.", "credit": "Ernst Herrmann, c.1900–1940 · Nordiska museet · Wikimedia Commons · public domain" }
+      "image": { "file": "assets/images/ni-kebnekaise.jpg", "caption": "Roped climbers on the glacier ice of Kebnekaise, early 20th century - the snow-capped roof of Sweden where the wild geese summer.", "credit": "Ernst Herrmann, c.1900–1940 · Nordiska museet · Wikimedia Commons · public domain" }
     }
   ],
   "movements": [
@@ -137,52 +137,52 @@
   ],
   "story": [
     { "kind": "scene", "character": "nils", "at": "home", "chapter": 1, "title": "The boy who was shrunk",
-      "narration": "In a farmyard in the far south of Sweden, an idle boy torments a tomte and is shrunk to thumb-size for it. When the wild geese pass over, the farm's white gander springs up to join them — and Nils, clinging to his neck, is swept into the sky." },
+      "narration": "In a farmyard in the far south of Sweden, an idle boy torments a tomte and is shrunk to thumb-size for it. When the wild geese pass over, the farm's white gander springs up to join them - and Nils, clinging to his neck, is swept into the sky." },
     { "kind": "journey", "character": ["nils", "morten", "akka"], "from": "home", "to": "vittskovle", "chapter": 2, "title": "Off with the wild geese",
-      "narration": "The gander Mårten carries him north to the flock's first roost in eastern Skåne, led by the ancient grey goose Akka of Kebnekaise — who has no use at all for a tame bird or a useless boy." },
+      "narration": "The gander Mårten carries him north to the flock's first roost in eastern Skåne, led by the ancient grey goose Akka of Kebnekaise - who has no use at all for a tame bird or a useless boy." },
     { "kind": "scene", "character": "smirre", "at": "vittskovle", "chapter": 2, "day": 4.5, "title": "Smirre's grudge",
       "narration": "In the night Smirre the fox creeps up on the sleeping geese. Nils wakes them just in time, and the fox is left with a single tail-feather and a grudge that will chase them clean across Skåne." },
     { "kind": "journey", "character": ["nils", "morten", "akka"], "from": "vittskovle", "to": "glimmingehus", "chapter": 3, "title": "The stone keep",
-      "narration": "On south-east to a grim old keep beside the sea — Glimmingehus, where the storks nest on the roof and something has gone badly wrong in the halls below." },
+      "narration": "On south-east to a grim old keep beside the sea - Glimmingehus, where the storks nest on the roof and something has gone badly wrong in the halls below." },
     { "kind": "scene", "character": "nils", "at": "glimmingehus", "chapter": 3, "title": "The magic pipe",
-      "narration": "Grey rats have overrun the castle. Nils borrows a little pipe and pipes the whole marching horde of them out of the gates and away — and for the first time the boy is not useless, but needed." },
+      "narration": "Grey rats have overrun the castle. Nils borrows a little pipe and pipes the whole marching horde of them out of the gates and away - and for the first time the boy is not useless, but needed." },
     { "kind": "journey", "character": ["nils", "morten", "akka"], "from": "glimmingehus", "to": "kullaberg", "chapter": 4, "title": "West to the headland",
       "narration": "West across the whole breadth of Skåne to the great cliff of Kullaberg, where once a year the animals keep a truce and gather to watch the cranes dance." },
     { "kind": "scene", "character": "nils", "at": "kullaberg", "chapter": 4, "title": "The crane dance",
-      "narration": "On the heath the birds and beasts hold their yearly peace, crowned by the grave, wheeling dance of the grey cranes — the strangest and finest thing Nils has yet seen, from the air or the ground." },
+      "narration": "On the heath the birds and beasts hold their yearly peace, crowned by the grave, wheeling dance of the grey cranes - the strangest and finest thing Nils has yet seen, from the air or the ground." },
     { "kind": "meanwhile",
-      "narration": "And the fox? Wind back. Smirre has not given up — all this while he has been running the ground below, keeping the flock in sight." },
+      "narration": "And the fox? Wind back. Smirre has not given up - all this while he has been running the ground below, keeping the flock in sight." },
     { "kind": "removal", "character": "smirre", "from": "vittskovle", "to": "glimmingehus", "chapter": 3, "title": "The ground pursuit",
       "narration": "Overland from the roost, across ploughland and beech-wood, always a field behind the geese." },
     { "kind": "removal", "character": "smirre", "from": "glimmingehus", "to": "kullaberg", "chapter": 4, "title": "To the edge of the truce",
       "narration": "On to Kullaberg itself, slinking up among the gathered animals to the very edge of their sacred peace." },
     { "kind": "scene", "character": "smirre", "at": "kullaberg", "chapter": 4, "day": 14.5, "title": "Cast out",
-      "narration": "There, maddened, Smirre breaks the truce to snatch at Nils — and for that the assembled animals cast him out for good. The flock is free of him at last." },
+      "narration": "There, maddened, Smirre breaks the truce to snatch at Nils - and for that the assembled animals cast him out for good. The flock is free of him at last." },
     { "kind": "journey", "character": ["nils", "morten", "akka"], "from": "kullaberg", "to": "karlskrona", "chapter": 5, "title": "East along the coast",
       "narration": "East along the shore into Blekinge, to the naval city of Karlskrona, asleep under the moon." },
     { "kind": "scene", "character": "nils", "at": "karlskrona", "chapter": 5, "title": "The bronze king",
-      "narration": "Cheeky Nils mocks the bronze statue of old King Karl on the square — who climbs down in a fury and chases him through the streets, with the wooden almsman Rosenbom swept up into the hunt." },
+      "narration": "Cheeky Nils mocks the bronze statue of old King Karl on the square - who climbs down in a fury and chases him through the streets, with the wooden almsman Rosenbom swept up into the hunt." },
     { "kind": "journey", "character": ["nils", "morten", "akka"], "from": "karlskrona", "to": "oland", "chapter": 6, "title": "Out to Öland",
       "narration": "Out across the water to the long limestone island of Öland, and its bare southern heath where the migrating birds mass in their thousands." },
     { "kind": "scene", "character": "nils", "at": "oland", "chapter": 6, "title": "The gathering of the birds",
       "narration": "At Ottenby, the old royal demesne at the island's foot, the flock rests among a vast gathering of birds before the leap out over the open Baltic." },
     { "kind": "journey", "character": ["nils", "morten", "akka"], "from": "oland", "to": "gotland", "chapter": 7, "title": "Over the Baltic",
-      "narration": "Blown east over the open sea to Gotland, and the walled town of Visby — the city of ruins and roses." },
+      "narration": "Blown east over the open sea to Gotland, and the walled town of Visby - the city of ruins and roses." },
     { "kind": "scene", "character": "nils", "at": "gotland", "chapter": 7, "title": "The sunken city",
-      "narration": "Here Nils walks the streets of Vineta, a drowned city that rises for one hour in a hundred years; a shopman begs him to buy the smallest thing and break the spell, but the penniless boy cannot — and the city sinks again." },
+      "narration": "Here Nils walks the streets of Vineta, a drowned city that rises for one hour in a hundred years; a shopman begs him to buy the smallest thing and break the spell, but the penniless boy cannot - and the city sinks again." },
     { "kind": "journey", "character": ["nils", "morten", "akka"], "from": "gotland", "to": "stockholm", "chapter": 8, "title": "North to the capital",
       "narration": "North up the coast to Stockholm, the capital spread on its islands and its water." },
     { "kind": "scene", "character": "nils", "at": "stockholm", "chapter": 8, "title": "Skansen wakes",
       "narration": "At Skansen, the park where all Sweden is gathered in miniature, Nils is caught and held; by night the still figures wake, and he wins a friend in the great eagle who will one day carry him back to the geese." },
     { "kind": "journey", "character": ["nils", "morten", "akka"], "from": "stockholm", "to": "kebnekaise", "chapter": 9, "title": "The long flight north",
-      "narration": "And then the long haul north — over forest and lake and the widening fells, day after day, to the roof of Sweden." },
+      "narration": "And then the long haul north - over forest and lake and the widening fells, day after day, to the roof of Sweden." },
     { "kind": "scene", "character": "akka", "at": "kebnekaise", "chapter": 9, "day": 120, "title": "The summer in Lapland",
       "narration": "At Akka's own mountain, Kebnekaise, above the glaciers in the Lapland light, the wild geese come down at last to nest and raise their young through the brief bright summer." },
     { "kind": "handoff", "character": ["nils", "morten", "akka"], "at": "kebnekaise", "chapter": 9, "day": 180, "title": "Summer ends",
-      "narration": "The young geese are grown and can fly. When the first cold comes, the whole flock lifts from the fells and turns south — the long way home." },
+      "narration": "The young geese are grown and can fly. When the first cold comes, the whole flock lifts from the fells and turns south - the long way home." },
     { "kind": "journey", "character": ["nils", "morten", "akka"], "from": "kebnekaise", "to": "home", "chapter": 10, "title": "The whole way home",
       "narration": "When the summer ends the whole flock turns south again, down the length of the country the boy has now seen entire, home to the farm where it all began." },
     { "kind": "scene", "character": "nils", "at": "home", "chapter": 10, "day": 233, "title": "Home at last",
-      "narration": "His parents are about to kill the fattened gander. Nils breaks cover to save Mårten — and the selfless act lifts the spell: he stands up a full-grown boy again, made kind, the journey closed exactly where it opened." }
+      "narration": "His parents are about to kill the fattened gander. Nils breaks cover to save Mårten - and the selfless act lifts the spell: he stands up a full-grown boy again, made kind, the journey closed exactly where it opened." }
   ]
 }

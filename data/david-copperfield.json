@@ -11,18 +11,18 @@
     "duration": "30 years",
     "unit": "year"
   },
-  "overture": "David Copperfield lives a whole life across this map, from a Suffolk churchyard where he is born to a Swiss valley where he learns to bear his griefs. Between them lie the boat-house at Yarmouth, the blacking warehouse and the courts of London, the long boy's walk to Dover, the quiet of Canterbury — and, at the map's far edges, Naples and a new world in Australia.",
+  "overture": "David Copperfield lives a whole life across this map, from a Suffolk churchyard where he is born to a Swiss valley where he learns to bear his griefs. Between them lie the boat-house at Yarmouth, the blacking warehouse and the courts of London, the long boy's walk to Dover, the quiet of Canterbury - and, at the map's far edges, Naples and a new world in Australia.",
   "sources": [
     {
-      "name": "The Charles Dickens Page — David Copperfield",
+      "name": "The Charles Dickens Page - David Copperfield",
       "url": "https://www.charlesdickenspage.com/charles-dickens-david-copperfield.html"
     },
     {
-      "name": "Blundeston — the village and the Copperfield connection (Kent / Suffolk parish records)",
+      "name": "Blundeston - the village and the Copperfield connection (Kent / Suffolk parish records)",
       "url": "https://en.wikipedia.org/wiki/Blundeston"
     },
     {
-      "name": "The Victorian Web — Doctors' Commons and the law in Dickens",
+      "name": "The Victorian Web - Doctors' Commons and the law in Dickens",
       "url": "https://victorianweb.org/authors/dickens/dc/index.html"
     },
     {
@@ -33,7 +33,7 @@
   "regions": [
     {
       "id": "east-anglia",
-      "name": "East Anglia — the Suffolk coast"
+      "name": "East Anglia - the Suffolk coast"
     },
     {
       "id": "london",
@@ -141,27 +141,27 @@
     },
     {
       "n": 14,
-      "title": "rescued — Dover and Canterbury",
+      "title": "rescued - Dover and Canterbury",
       "day": 4380,
-      "when": "rescued — Dover and Canterbury"
+      "when": "rescued - Dover and Canterbury"
     },
     {
       "n": 15,
-      "title": "rescued — Dover and Canterbury",
+      "title": "rescued - Dover and Canterbury",
       "day": 4550,
-      "when": "rescued — Dover and Canterbury"
+      "when": "rescued - Dover and Canterbury"
     },
     {
       "n": 16,
-      "title": "rescued — Dover and Canterbury",
+      "title": "rescued - Dover and Canterbury",
       "day": 4700,
-      "when": "rescued — Dover and Canterbury"
+      "when": "rescued - Dover and Canterbury"
     },
     {
       "n": 17,
-      "title": "rescued — Dover and Canterbury",
+      "title": "rescued - Dover and Canterbury",
       "day": 4850,
-      "when": "rescued — Dover and Canterbury"
+      "when": "rescued - Dover and Canterbury"
     },
     {
       "n": 18,
@@ -423,27 +423,27 @@
     },
     {
       "n": 61,
-      "title": "home, at last — Agnes",
+      "title": "home, at last - Agnes",
       "day": 10200,
-      "when": "home, at last — Agnes"
+      "when": "home, at last - Agnes"
     },
     {
       "n": 62,
-      "title": "home, at last — Agnes",
+      "title": "home, at last - Agnes",
       "day": 10333,
-      "when": "home, at last — Agnes"
+      "when": "home, at last - Agnes"
     },
     {
       "n": 63,
-      "title": "home, at last — Agnes",
+      "title": "home, at last - Agnes",
       "day": 10467,
-      "when": "home, at last — Agnes"
+      "when": "home, at last - Agnes"
     },
     {
       "n": 64,
-      "title": "home, at last — Agnes",
+      "title": "home, at last - Agnes",
       "day": 10600,
-      "when": "home, at last — Agnes"
+      "when": "home, at last - Agnes"
     }
   ],
   "characters": [
@@ -451,7 +451,7 @@
       "id": "david",
       "name": "David Copperfield",
       "colour": "prussian",
-      "role": "The narrator, telling his own life from birth: Blunderstone boy, warehouse drudge, Canterbury scholar, London proctor, and at last a writer — the thread the whole map is strung on",
+      "role": "The narrator, telling his own life from birth: Blunderstone boy, warehouse drudge, Canterbury scholar, London proctor, and at last a writer - the thread the whole map is strung on",
       "start": {
         "location": "blunderstone",
         "chapter": 1
@@ -461,7 +461,7 @@
       "id": "emly",
       "name": "Little Em'ly",
       "colour": "ochre",
-      "role": "Mr Peggotty's niece, David's boyhood sweetheart — the fisher-girl who dreams of being a lady, elopes with Steerforth to her ruin, is found and reclaimed, and sails for a new life in Australia",
+      "role": "Mr Peggotty's niece, David's boyhood sweetheart - the fisher-girl who dreams of being a lady, elopes with Steerforth to her ruin, is found and reclaimed, and sails for a new life in Australia",
       "start": {
         "location": "yarmouth",
         "chapter": 3
@@ -491,7 +491,7 @@
       "id": "micawbers",
       "name": "The Micawbers",
       "colour": "sienna",
-      "role": "Wilkins Micawber and his loyal wife — genteel, indebted, endlessly hopeful; from London lodgings to Heep's clerkship in Canterbury, and finally to unlikely eminence in Australia",
+      "role": "Wilkins Micawber and his loyal wife - genteel, indebted, endlessly hopeful; from London lodgings to Heep's clerkship in Canterbury, and finally to unlikely eminence in Australia",
       "start": {
         "location": "windsor-terrace",
         "chapter": 11
@@ -515,7 +515,7 @@
       "quoteRef": "Ch. 1",
       "image": {
         "file": "assets/images/dc-blunderstone.jpg",
-        "caption": "A Suffolk village under its church tower — John Constable, 'Brightwell Church and Village', 1815",
+        "caption": "A Suffolk village under its church tower - John Constable, 'Brightwell Church and Village', 1815",
         "credit": "John Constable, 1815 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -530,7 +530,7 @@
         52.61
       ],
       "certainty": "real",
-      "note": "Great Yarmouth is a real town. The Peggottys' home — an upturned barge beached on the Denes, made into a house — is Dickens's invention on the real flats east of the town.",
+      "note": "Great Yarmouth is a real town. The Peggottys' home - an upturned barge beached on the Denes, made into a house - is Dickens's invention on the real flats east of the town.",
       "story": "The flat, sea-smelling town where Peggotty's family live in a black boat drawn up on the shore. David is happiest here as a boy; it is the home of Little Em'ly and Ham, and the harbour Mr Peggotty keeps returning to. It is also where the storm comes, at the very end.",
       "quote": "There was a black barge, or some other kind of superannuated boat, not far off, high and dry on the ground, with an iron funnel sticking out of it for a chimney and smoking very cosily",
       "quoteRef": "Ch. 3",
@@ -556,7 +556,7 @@
       "quoteRef": "Ch. 5",
       "image": {
         "file": "assets/images/dc-salem-house.jpg",
-        "caption": "Blackheath, south-east London, engraved in 1808 — open heath and a windmill, the edge-of-town kind of spot where Mr Creakle's Salem House is placed.",
+        "caption": "Blackheath, south-east London, engraved in 1808 - open heath and a windmill, the edge-of-town kind of spot where Mr Creakle's Salem House is placed.",
         "credit": "Samuel Noble, 1808 · Yale Center for British Art · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -571,13 +571,13 @@
         51.511
       ],
       "certainty": "real",
-      "note": "A real quarter of riverside London. The wine-bottling warehouse is modelled closely on Warren's Blacking factory at Hungerford Stairs, where the twelve-year-old Dickens himself was sent to labour — the buried wound of his own childhood.",
+      "note": "A real quarter of riverside London. The wine-bottling warehouse is modelled closely on Warren's Blacking factory at Hungerford Stairs, where the twelve-year-old Dickens himself was sent to labour - the buried wound of his own childhood.",
       "story": "The riverside warehouse where the ten-year-old David is set to washing and labelling bottles among rough boys, lodging with the Micawbers. It is the pit of the novel: shameful, hopeless drudgery that David never quite forgives, and the source of Dickens's own lifelong grievance.",
       "quote": "Murdstone and Grinby's warehouse was at the waterside. It was down in\nBlackfriars.",
       "quoteRef": "Ch. 11",
       "image": {
         "file": "assets/images/dc-warehouse.jpg",
-        "caption": "The working Thames at Blackfriars in 1828 — wharves and barges below St Paul's, the riverside London of Murdstone and Grinby's bottling warehouse.",
+        "caption": "The working Thames at Blackfriars in 1828 - wharves and barges below St Paul's, the riverside London of Murdstone and Grinby's bottling warehouse.",
         "credit": "Thomas H. Shepherd, Metropolitan Improvements, 1828 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -593,12 +593,12 @@
       ],
       "certainty": "real",
       "note": "City Road is a real London street; the Micawbers' particular lodging is Dickens's placing, folded onto it here.",
-      "story": "The Micawbers' shabby-genteel lodging, where David boards during the warehouse days. Mr Micawber waits here, magnificently, for something to turn up, dodging creditors between bursts of oratory — before debt carries him off to the King's Bench prison.",
+      "story": "The Micawbers' shabby-genteel lodging, where David boards during the warehouse days. Mr Micawber waits here, magnificently, for something to turn up, dodging creditors between bursts of oratory - before debt carries him off to the King's Bench prison.",
       "quote": "My address,' said Mr. Micawber, 'is Windsor Terrace, City Road.",
       "quoteRef": "Ch. 11",
       "image": {
         "file": "assets/images/dc-windsor-terrace.jpg",
-        "caption": "The City Road Basin in 1828, at the head of the City Road where the Micawbers took their Windsor Terrace lodging — canal barges and warehouses.",
+        "caption": "The City Road Basin in 1828, at the head of the City Road where the Micawbers took their Windsor Terrace lodging - canal barges and warehouses.",
         "credit": "Thomas H. Shepherd, Metropolitan Improvements, 1828 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -614,7 +614,7 @@
       ],
       "certainty": "real",
       "note": "A real cathedral city. Mr Wickfield's house and Dr Strong's school are inventions placed within it.",
-      "story": "The gentle counterweight to London — though David first comes through it wayworn and ragged on his walk to Dover. Later Betsey Trotwood sends him to school at Dr Strong's here, boarding with the lawyer Mr Wickfield and his daughter Agnes, the quiet centre of David's whole life. It is also where the writhing clerk Uriah Heep spins his web, and where the Micawbers come as his tools.",
+      "story": "The gentle counterweight to London - though David first comes through it wayworn and ragged on his walk to Dover. Later Betsey Trotwood sends him to school at Dr Strong's here, boarding with the lawyer Mr Wickfield and his daughter Agnes, the quiet centre of David's whole life. It is also where the writhing clerk Uriah Heep spins his web, and where the Micawbers come as his tools.",
       "quote": "some of the boys had seen me coming through\nCanterbury, wayworn and ragged",
       "quoteRef": "Ch. 16",
       "image": {
@@ -633,8 +633,8 @@
         51.129
       ],
       "certainty": "real",
-      "note": "The text places Betsey Trotwood 'near Dover'. The cliff-top cottage itself is invented; Dickens is generally thought to have drawn it from 2 Nuckell's Place at Broadstairs, further up the Kent coast — so the town is Dover, but the real-world model is elsewhere. The map trusts the text.",
-      "story": "The end of David's desperate walk from London: footsore and ragged, he finds his aunt Betsey Trotwood in her neat cottage above the sea. She takes him in, sees off the pursuing Murdstones, and — for the first time since his mother died — he is safe.",
+      "note": "The text places Betsey Trotwood 'near Dover'. The cliff-top cottage itself is invented; Dickens is generally thought to have drawn it from 2 Nuckell's Place at Broadstairs, further up the Kent coast - so the town is Dover, but the real-world model is elsewhere. The map trusts the text.",
+      "story": "The end of David's desperate walk from London: footsore and ragged, he finds his aunt Betsey Trotwood in her neat cottage above the sea. She takes him in, sees off the pursuing Murdstones, and - for the first time since his mother died - he is safe.",
       "quote": "I am going to Dover,",
       "quoteRef": "Ch. 13",
       "image": {
@@ -659,7 +659,7 @@
       "quoteRef": "Ch. 20",
       "image": {
         "file": "assets/images/dc-highgate.jpg",
-        "caption": "Highgate on its hill north of London, in a view after Chatelain — the real village onto which David sets the Steerforths' house and, later, his cottage with Dora.",
+        "caption": "Highgate on its hill north of London, in a view after Chatelain - the real village onto which David sets the Steerforths' house and, later, his cottage with Dora.",
         "credit": "From Old and New London, 1873, after Chatelain (1745) · British Library · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -674,7 +674,7 @@
         51.513
       ],
       "certainty": "real",
-      "note": "A real legal quarter near St Paul's, the seat of the ecclesiastical and admiralty courts. It was a genuine institution, wound up and demolished in 1867 — Dickens describes it as an antique survival even in the 1840s.",
+      "note": "A real legal quarter near St Paul's, the seat of the ecclesiastical and admiralty courts. It was a genuine institution, wound up and demolished in 1867 - Dickens describes it as an antique survival even in the 1840s.",
       "story": "The 'lazy old nook' of church-law courts where David is articled as a proctor, buying his way into a profession. Here he falls headlong for Dora Spenlow, his employer's daughter, and here he later scrapes for a living when his aunt's fortune collapses.",
       "quote": "some faded courts held in Doctors' Commons,--a lazy old nook near St.\nPaul's Churchyard",
       "quoteRef": "Ch. 23",
@@ -700,7 +700,7 @@
       "quoteRef": "Ch. 38",
       "image": {
         "file": "assets/images/dc-putney.jpg",
-        "caption": "Putney across the Thames — St Mary's tower and the old timber bridge, etched in 1738 — the riverside district where Dora's aunts keep house.",
+        "caption": "Putney across the Thames - St Mary's tower and the old timber bridge, etched in 1738 - the riverside district where Dora's aunts keep house.",
         "credit": "Thomas Preist, 1738 · Yale Center for British Art · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -716,12 +716,12 @@
       ],
       "certainty": "real",
       "note": "A real coaching inn at Charing Cross, terminus of the Dover road. The original was demolished in 1827 to clear the way for Trafalgar Square; Dickens writes it as the 'mouldy' establishment of an earlier day.",
-      "story": "The coaching inn where David, now seventeen, puts up on returning to London a young gentleman — and by chance meets the grown-up Steerforth again, the friendship rekindling just as it will lead them both to Yarmouth, and to ruin.",
+      "story": "The coaching inn where David, now seventeen, puts up on returning to London a young gentleman - and by chance meets the grown-up Steerforth again, the friendship rekindling just as it will lead them both to Yarmouth, and to ruin.",
       "quote": "We went to the Golden Cross at Charing Cross, then a mouldy sort of\nestablishment in a close neighbourhood.",
       "quoteRef": "Ch. 19",
       "image": {
         "file": "assets/images/dc-golden-cross.jpg",
-        "caption": "Charing Cross and the entry to the Strand in 1842, by the Charles I statue — the junction where the Golden Cross coaching inn stood, from which David takes the Dover road.",
+        "caption": "Charing Cross and the entry to the Strand in 1842, by the Charles I statue - the junction where the Golden Cross coaching inn stood, from which David takes the Dover road.",
         "credit": "Thomas Shotter Boys, 1842 · British Museum · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -737,7 +737,7 @@
       ],
       "certainty": "real",
       "note": "The real city. The text is explicit: Steerforth and Em'ly keep a villa 'in the neighbourhood of Naples', and it is from there that he abandons her.",
-      "story": "The bright southern shore where Steerforth carries Little Em'ly after their elopement, and where — grown tired of her — he leaves her, coldly offering her in marriage to his servant. It is the far point of her ruin, and the turn from which she begins the long road home.",
+      "story": "The bright southern shore where Steerforth carries Little Em'ly after their elopement, and where - grown tired of her - he leaves her, coldly offering her in marriage to his servant. It is the far point of her ruin, and the turn from which she begins the long road home.",
       "quote": "from the neighbourhood of\nNaples, where we had a villa",
       "quoteRef": "Ch. 46",
       "image": {
@@ -757,12 +757,12 @@
       ],
       "certainty": "real",
       "note": "A real town on the Thames estuary, the traditional point where emigrant ships took on passengers below London.",
-      "story": "The Thames-side port where the emigrant ship lies waiting. Here David watches the whole broken company he loves — Mr Peggotty and the reclaimed Em'ly, the Micawbers, and Martha, the fallen girl who helped find Em'ly — go aboard to sail for Australia and a new life, and waves them out towards the sea.",
+      "story": "The Thames-side port where the emigrant ship lies waiting. Here David watches the whole broken company he loves - Mr Peggotty and the reclaimed Em'ly, the Micawbers, and Martha, the fallen girl who helped find Em'ly - go aboard to sail for Australia and a new life, and waves them out towards the sea.",
       "quote": "my old nurse and I went down to\nGravesend. We found the ship in the river",
       "quoteRef": "Ch. 57",
       "image": {
         "file": "assets/images/dc-gravesend.jpg",
-        "caption": "A three-masted merchantman under tow on the Thames off Gravesend — Samuel Walters, 1839",
+        "caption": "A three-masted merchantman under tow on the Thames off Gravesend - Samuel Walters, 1839",
         "credit": "Samuel Walters, 1839 · Wikimedia Commons · public domain"
       }
     },
@@ -776,8 +776,8 @@
         -37.814
       ],
       "certainty": "conjectured",
-      "note": "Dickens's invented Australian port. Scholars place it in the Melbourne region by consensus — the colony to which mid-century emigrants of this kind sailed — but the novel never fixes it, so this point stands at Melbourne.",
-      "story": "The far side of the world, where the emigrants make good. Mr Peggotty and Em'ly settle to a hard, honest life; and Mr Micawber, of all men, comes into his own at last — 'Port Middlebay District Magistrate', toasted at a public dinner, the eternal debtor turned pillar of a colony.",
+      "note": "Dickens's invented Australian port. Scholars place it in the Melbourne region by consensus - the colony to which mid-century emigrants of this kind sailed - but the novel never fixes it, so this point stands at Melbourne.",
+      "story": "The far side of the world, where the emigrants make good. Mr Peggotty and Em'ly settle to a hard, honest life; and Mr Micawber, of all men, comes into his own at last - 'Port Middlebay District Magistrate', toasted at a public dinner, the eternal debtor turned pillar of a colony.",
       "quote": "WILKINS MICAWBER, ESQUIRE, Port Middlebay District Magistrate",
       "quoteRef": "Ch. 63",
       "image": {
@@ -798,12 +798,12 @@
       ],
       "certainty": "conjectured",
       "note": "The text names only 'a valley' in the Swiss Alps, reached over one of the great passes out of Italy; it is never located. Geneva is the association most often drawn by scholars, so this point stands in the Alps south of it. An honest approximation.",
-      "story": "Where David, crushed by Dora's death and the drowning of Steerforth and Ham, wanders in grief for months. In a still mountain valley, opening a bundle of letters from Agnes, his numbness finally breaks — and he begins, slowly, to live again, and to write.",
+      "story": "Where David, crushed by Dora's death and the drowning of Steerforth and Ham, wanders in grief for months. In a still mountain valley, opening a bundle of letters from Agnes, his numbness finally breaks - and he begins, slowly, to live again, and to write.",
       "quote": "I was in Switzerland. I had come out of Italy, over one of the great\npasses of the Alps",
       "quoteRef": "Ch. 58",
       "image": {
         "file": "assets/images/dc-switzerland.jpg",
-        "caption": "A valley in the Bernese Alps — Alexandre Calame, 'The Jungfrau, Switzerland', c.1853–55",
+        "caption": "A valley in the Bernese Alps - Alexandre Calame, 'The Jungfrau, Switzerland', c.1853–55",
         "credit": "Alexandre Calame, c.1853–55 · Walters Art Museum · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -817,7 +817,7 @@
       "chapter": 3,
       "mode": "coach",
       "days": 1,
-      "note": "The childhood fortnight with Peggotty's family — Barkis's cart down to the sea",
+      "note": "The childhood fortnight with Peggotty's family - Barkis's cart down to the sea",
       "via": [
         {
           "at": [
@@ -839,7 +839,7 @@
       "chapter": 4,
       "mode": "coach",
       "days": 1,
-      "note": "Home again — to find his mother married to Mr Murdstone in his absence",
+      "note": "Home again - to find his mother married to Mr Murdstone in his absence",
       "via": [
         {
           "at": [
@@ -915,7 +915,7 @@
       "chapter": 8,
       "mode": "coach",
       "days": 1,
-      "note": "Home for the holidays — and, soon after, for his mother's death and the breaking-up of the house",
+      "note": "Home for the holidays - and, soon after, for his mother's death and the breaking-up of the house",
       "via": [
         {
           "at": [
@@ -1050,7 +1050,7 @@
             51.389
           ],
           "name": "Rochester",
-          "note": "over the Medway bridge — 'three-and-twenty miles' from London"
+          "note": "over the Medway bridge - 'three-and-twenty miles' from London"
         },
         {
           "at": [
@@ -1077,7 +1077,7 @@
           51.199
         ]
       ],
-      "routeNote": "David's runaway walk to his aunt at Dover — robbed in London at the very outset, then down the old Dover Road through Kent, sleeping by his old school at Blackheath, over Rochester bridge and a battery at Chatham, on past Canterbury to Dover on the sixth day.",
+      "routeNote": "David's runaway walk to his aunt at Dover - robbed in London at the very outset, then down the old Dover Road through Kent, sleeping by his old school at Blackheath, over Rochester bridge and a battery at Chatham, on past Canterbury to Dover on the sixth day.",
       "routeSource": "Dickens narrates the walk stage by stage, chs. 12-13: robbed at the King's Bench prison wall before he is even clear of London; Blackheath, Rochester bridge, the battery at Chatham, the grey cathedral of Canterbury, and Dover on the sixth day.",
       "routeCertainty": "novel",
       "note": "The famous flight: robbed on the first day, he walks the whole Dover road, over Rochester bridge and into Chatham, through Canterbury and out onto the downs, selling his clothes as he goes"
@@ -1101,7 +1101,7 @@
         }
       ],
       "routeNote": "The Dover Road (Watling Street) inland from Dover, climbing over Barham Downs to Canterbury.",
-      "routeSource": "The Dover Road (Watling Street) — the London–Canterbury–Dover coaching route.",
+      "routeSource": "The Dover Road (Watling Street) - the London–Canterbury–Dover coaching route.",
       "routeCertainty": "documented"
     },
     {
@@ -1210,7 +1210,7 @@
       "routeNote": "The old Norwich road out of London - through Romford, Chelmsford, Colchester and Ipswich to Norwich, then east to Great Yarmouth on the coast.",
       "routeSource": "Cary's New Itinerary / the London-Colchester-Ipswich-Norwich-Yarmouth coaching route, the standard road to East Anglia.",
       "routeCertainty": "documented",
-      "note": "He takes Steerforth down to Yarmouth to meet the Peggottys — the fateful introduction"
+      "note": "He takes Steerforth down to Yarmouth to meet the Peggottys - the fateful introduction"
     },
     {
       "character": "david",
@@ -1262,7 +1262,7 @@
           "note": "out of London on the Great Essex Road"
         }
       ],
-      "routeNote": "Back down the old Norwich road — Norwich, Ipswich, Colchester, Chelmsford and Romford — into London.",
+      "routeNote": "Back down the old Norwich road - Norwich, Ipswich, Colchester, Chelmsford and Romford - into London.",
       "routeSource": "Cary's New Itinerary / the London-Colchester-Ipswich-Norwich-Yarmouth coaching route, the standard road to East Anglia.",
       "routeCertainty": "documented"
     },
@@ -1317,7 +1317,7 @@
       "chapter": 57,
       "mode": "coach",
       "days": 1,
-      "note": "After Dora's death, he sees the emigrants aboard their ship — and, half-broken, resolves to leave England himself",
+      "note": "After Dora's death, he sees the emigrants aboard their ship - and, half-broken, resolves to leave England himself",
       "via": [
         {
           "at": [
@@ -1345,7 +1345,7 @@
         }
       ],
       "routeNote": "Down from Highgate through Islington and across London, then out on the Dover Road (Watling Street) through New Cross and Dartford to Gravesend.",
-      "routeSource": "The Dover Road (Watling Street) — the London–Canterbury–Dover coaching route.",
+      "routeSource": "The Dover Road (Watling Street) - the London–Canterbury–Dover coaching route.",
       "routeCertainty": "documented"
     },
     {
@@ -1454,7 +1454,7 @@
       "routeNote": "The return: down out of the Bernese Alps through Dijon and Paris to Calais, across the Channel to Dover, then the short road inland to Canterbury.",
       "routeSource": "No route named in the text - reconstructs the standard mid-century Alps-Paris-Channel tourist itinerary in reverse. Dickens brings David home to England.",
       "routeCertainty": "reconstructed",
-      "note": "Home at last, three years on, to Agnes at Canterbury — the settled end"
+      "note": "Home at last, three years on, to Agnes at Canterbury - the settled end"
     },
     {
       "character": "steerforth",
@@ -1463,7 +1463,7 @@
       "chapter": 21,
       "mode": "coach",
       "days": 1,
-      "note": "Down to Yarmouth with David, where the Peggottys take him to their hearts — and he fixes on Em'ly",
+      "note": "Down to Yarmouth with David, where the Peggottys take him to their hearts - and he fixes on Em'ly",
       "via": [
         {
           "at": [
@@ -1912,7 +1912,7 @@
       "routeNote": "Her own long way home: up through Italy and over the Alps, in service and hiding across France, then by sea from the coast to the Thames.",
       "routeSource": "Dickens gives France and 'service abroad', then the sea passage to the Thames; the overland line to a Channel port follows the novel's own order.",
       "routeCertainty": "illustrative",
-      "note": "Abandoned, she makes her way back alone — France, and service abroad — until Martha and Mr Peggotty find her hidden in London and bring her to the emigrant ship"
+      "note": "Abandoned, she makes her way back alone - France, and service abroad - until Martha and Mr Peggotty find her hidden in London and bring her to the emigrant ship"
     },
     {
       "character": "mrpeggotty",
@@ -2015,10 +2015,10 @@
           41.49
         ]
       ],
-      "routeNote": "Across the Channel into France, and overland on foot — Paris, Lyon, over the Alps by the Mont Cenis pass, then Turin, Genoa and Rome — town by town toward Naples.",
+      "routeNote": "Across the Channel into France, and overland on foot - Paris, Lyon, over the Alps by the Mont Cenis pass, then Turin, Genoa and Rome - town by town toward Naples.",
       "routeSource": "The novel names only France, Italy and 'the mountains'; the line follows the historic overland road to Italy (Paris–Lyon–Mont Cenis–Turin–Rome).",
       "routeCertainty": "illustrative",
-      "note": "The years-long search on foot: across-channel to France 'as if I'd fell down from the sky', then over into Italy, town by town, as far as the Swiss mountains — the path here is illustrative, the novel naming only France, Italy and the mountains"
+      "note": "The years-long search on foot: across-channel to France 'as if I'd fell down from the sky', then over into Italy, town by town, as far as the Swiss mountains - the path here is illustrative, the novel naming only France, Italy and the mountains"
     },
     {
       "character": "mrpeggotty",
@@ -2101,7 +2101,7 @@
           "note": "the Channel hop, then by sea for the Thames"
         }
       ],
-      "routeNote": "Home close behind her — back through Italy and over the Alps, across France, and by sea to the Thames.",
+      "routeNote": "Home close behind her - back through Italy and over the Alps, across France, and by sea to the Thames.",
       "routeSource": "Follows Em'ly's continental way home, the road Mr Peggotty had walked in his years of searching.",
       "routeCertainty": "illustrative",
       "note": "Home to London with the found Em'ly, and on to the emigrant ship at Gravesend"
@@ -2165,7 +2165,7 @@
         }
       ],
       "routeNote": "Out of London on the Dover Road (Watling Street) through Dartford, Gravesend, Rochester, Chatham, Sittingbourne and Faversham to Canterbury.",
-      "routeSource": "The Dover Road (Watling Street) — the London–Canterbury–Dover coaching route.",
+      "routeSource": "The Dover Road (Watling Street) - the London–Canterbury–Dover coaching route.",
       "routeCertainty": "documented"
     },
     {
@@ -2175,7 +2175,7 @@
       "chapter": 52,
       "mode": "coach",
       "days": 3,
-      "note": "He turns on his master in a scene of glorious denunciation, exposing Heep's frauds — then, ruined creditors settled, joins the emigrants",
+      "note": "He turns on his master in a scene of glorious denunciation, exposing Heep's frauds - then, ruined creditors settled, joins the emigrants",
       "via": [
         {
           "at": [
@@ -2211,7 +2211,7 @@
         }
       ],
       "routeNote": "Back along the Dover Road (Watling Street) west from Canterbury through Faversham, Sittingbourne, Chatham and Rochester to Gravesend.",
-      "routeSource": "The Dover Road (Watling Street) — the London–Canterbury–Dover coaching route.",
+      "routeSource": "The Dover Road (Watling Street) - the London–Canterbury–Dover coaching route.",
       "routeCertainty": "documented"
     },
     {
@@ -2422,7 +2422,7 @@
       "character": "david",
       "at": "canterbury",
       "chapter": 17,
-      "title": "Agnes — and Uriah",
+      "title": "Agnes - and Uriah",
       "narration": "Calm years: school, and Agnes Wickfield, the quiet centre of David's life. In the same house coils Uriah Heep, a 'humble' clerk with plans. David grows up."
     },
     {
@@ -2452,7 +2452,7 @@
       "at": "yarmouth",
       "chapter": 22,
       "title": "The charmer",
-      "narration": "Steerforth charms the boat-house whole — stays for weeks, buys a boat, is taken to every heart. Em'ly, newly engaged to her cousin Ham, cannot stop watching him."
+      "narration": "Steerforth charms the boat-house whole - stays for weeks, buys a boat, is taken to every heart. Em'ly, newly engaged to her cousin Ham, cannot stop watching him."
     },
     {
       "kind": "journey",
@@ -2468,7 +2468,7 @@
       "character": "david",
       "at": "doctors-commons",
       "chapter": 35,
-      "title": "Dora — and ruin",
+      "title": "Dora - and ruin",
       "narration": "Young manhood: David falls helplessly for Dora Spenlow, his employer's childish, pretty daughter. Then his aunt's fortune collapses: mornings at shorthand, courting on nothing."
     },
     {
@@ -2485,7 +2485,7 @@
       "to": "naples",
       "chapter": 31,
       "title": "The elopement",
-      "narration": "Em'ly is gone with Steerforth — 'to come back a lady', her letter pleads, or never — carried by sea to a villa near Naples. Ham is left at the altar's edge; her uncle sits all night by the fire."
+      "narration": "Em'ly is gone with Steerforth - 'to come back a lady', her letter pleads, or never - carried by sea to a villa near Naples. Ham is left at the altar's edge; her uncle sits all night by the fire."
     },
     {
       "kind": "removal",

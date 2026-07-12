@@ -9,7 +9,7 @@
     "calendar": true,
     "span": "3 May – 6 November 1893"
   },
-  "overture": "Beginning with a solicitor's clerk riding into the Carpathians, Dracula sweeps from Transylvania to the Yorkshire coast and back — by calèche, schooner, goods train and steam launch — until the hunt turns east and closes at the Borgo Pass. Six journeys run at once; the map plays them together, chapter by chapter.",
+  "overture": "Beginning with a solicitor's clerk riding into the Carpathians, Dracula sweeps from Transylvania to the Yorkshire coast and back - by calèche, schooner, goods train and steam launch - until the hunt turns east and closes at the Borgo Pass. Six journeys run at once; the map plays them together, chapter by chapter.",
   "regions": [
     {
       "id": "road-east",
@@ -67,7 +67,7 @@
     },
     {
       "n": 5,
-      "title": "Letters — Lucy and Mina",
+      "title": "Letters - Lucy and Mina",
       "dateInStory": "9–26 May",
       "day": 40
     },
@@ -91,7 +91,7 @@
     },
     {
       "n": 9,
-      "title": "Letters — Mina to Lucy",
+      "title": "Letters - Mina to Lucy",
       "dateInStory": "24 August – 3 September",
       "day": 107
     },
@@ -301,7 +301,7 @@
         "caption": "The Ringstrasse and Parliament, Vienna, photographed 1890",
         "credit": "Victor Angerer, 1890 · Wikimedia Commons · public domain"
       },
-      "story": "An early-morning stop on Jonathan's outbound journey — the train already running late.",
+      "story": "An early-morning stop on Jonathan's outbound journey - the train already running late.",
       "quote": "should have arrived at 6:46, but train was an hour late",
       "quoteRef": "Ch. 1, Jonathan Harker's Journal"
     },
@@ -320,7 +320,7 @@
       "quoteRef": "Ch. 1, Jonathan Harker's Journal",
       "image": {
         "file": "assets/images/dr-budapest.jpg",
-        "caption": "The Danube at Budapest, the Chain Bridge and Buda Castle beyond, photographed in the 1890s — the crossing where Jonathan feels he is leaving the West for the East.",
+        "caption": "The Danube at Budapest, the Chain Bridge and Buda Castle beyond, photographed in the 1890s - the crossing where Jonathan feels he is leaving the West for the East.",
         "credit": "Fortepan / Budapest City Archives, 1890s · Wikimedia Commons · public domain"
       }
     },
@@ -358,7 +358,7 @@
       "quoteRef": "Ch. 1, Jonathan Harker's Journal",
       "image": {
         "file": "assets/images/dr-bistritz.jpg",
-        "caption": "The Saxon Evangelical church and market square of Bistrița (Bistritz), Transylvania — the town of the Golden Krone Hotel, where the landlady presses her crucifix on Jonathan.",
+        "caption": "The Saxon Evangelical church and market square of Bistrița (Bistritz), Transylvania - the town of the Golden Krone Hotel, where the landlady presses her crucifix on Jonathan.",
         "credit": "K.u.k. Kriegspressequartier, c.1916 · Austrian National Library · Wikimedia Commons · public domain"
       }
     },
@@ -389,12 +389,12 @@
       "certainty": "conjectured",
       "image": {
         "file": "assets/images/carpathians.jpg",
-        "caption": "The Carpathian mountains behind the Count's castle — the Tatra range, painted c.1860",
+        "caption": "The Carpathian mountains behind the Count's castle - the Tatra range, painted c.1860",
         "credit": "Gusztáv Kelety, c.1860 · Herman Ottó Museum · public domain",
         "indicative": true
       },
       "note": "Stoker never fixes the castle beyond 'on the very edge of a terrible precipice' east of the Borgo Pass. This point is an editorial best guess in the mountains just beyond the pass.",
-      "story": "Jonathan is the Count's guest, then his prisoner — the missing reflection, the three sisters, the crawl down the castle wall. In the final chapter the Count is overtaken and destroyed just below its walls, at the cost of Quincey Morris's life.",
+      "story": "Jonathan is the Count's guest, then his prisoner - the missing reflection, the three sisters, the crawl down the castle wall. In the final chapter the Count is overtaken and destroyed just below its walls, at the cost of Quincey Morris's life.",
       "quote": "a vast ruined castle, from whose tall black windows came no ray of light",
       "quoteRef": "Ch. 1, Jonathan Harker's Journal"
     },
@@ -413,7 +413,7 @@
         "caption": "The old fortress wall and gate at Varna, on the Black Sea, photographed c.1890",
         "credit": "Bulgarian Archives State Agency (BASA), c.1890 · Wikimedia Commons · public domain"
       },
-      "story": "The Demeter sails from here with fifty boxes of earth. Months later the hunters wait here to ambush the returning Count — and the ship slips past them.",
+      "story": "The Demeter sails from here with fifty boxes of earth. Months later the hunters wait here to ambush the returning Count - and the ship slips past them.",
       "quote": "the schooner is a Russian from Varna",
       "quoteRef": "Ch. 7, cutting from \"The Dailygraph\""
     },
@@ -446,12 +446,12 @@
         54.4885
       ],
       "certainty": "real",
-      "story": "Lucy and Mina's favourite seat among the graves. On the night of the great storm's aftermath, Mina finds Lucy here at midnight — with something long and black bending over her.",
+      "story": "Lucy and Mina's favourite seat among the graves. On the night of the great storm's aftermath, Mina finds Lucy here at midnight - with something long and black bending over her.",
       "quote": "This is to my mind the nicest spot in Whitby",
       "quoteRef": "Ch. 6, Mina Murray's Journal",
       "image": {
         "file": "assets/images/dr-east-cliff-churchyard.jpg",
-        "caption": "St Mary's church and its churchyard on Whitby's East Cliff, photographed c.1890 — Lucy and Mina's favourite seat among the graves, where Mina finds Lucy at midnight.",
+        "caption": "St Mary's church and its churchyard on Whitby's East Cliff, photographed c.1890 - Lucy and Mina's favourite seat among the graves, where Mina finds Lucy at midnight.",
         "credit": "Photochrom, c.1890 · Library of Congress · public domain"
       }
     },
@@ -465,7 +465,7 @@
         54.4895
       ],
       "certainty": "real",
-      "story": "The derelict Demeter drives ashore in the storm, her dead captain lashed to the wheel — and an immense dog leaps from her bow and vanishes up the cliff.",
+      "story": "The derelict Demeter drives ashore in the storm, her dead captain lashed to the wheel - and an immense dog leaps from her bow and vanishes up the cliff.",
       "quote": "an immense dog sprang up on deck from below",
       "quoteRef": "Ch. 7, cutting from \"The Dailygraph\"",
       "imageBlank": "No period photograph of Tate Hill Pier itself exists; the one candidate is a soft watercolour of the general harbour that neither shows the pier nor matches Whitby's photographic images."
@@ -520,7 +520,7 @@
         "caption": "The west front of Exeter Cathedral, photographed c.1890",
         "credit": "Photochrom Print Collection, c.1890 · Library of Congress · Wikimedia Commons · public domain"
       },
-      "story": "Mr Hawkins's town, and the Harkers' married home. When Hawkins dies, Jonathan inherits the practice — and the means to fight.",
+      "story": "Mr Hawkins's town, and the Harkers' married home. When Hawkins dies, Jonathan inherits the practice - and the means to fight.",
       "quote": "You come to me not alone as agent of my friend Peter Hawkins, of Exeter",
       "quoteRef": "Ch. 2, Count Dracula to Jonathan Harker"
     },
@@ -551,7 +551,7 @@
       ],
       "certainty": "conjectured",
       "note": "Stoker places Carfax at Purfleet, Essex, but the estate itself is invented. This point sits by the old chalk quarries at Purfleet.",
-      "story": "The Count's first English lair — the estate Jonathan sold him without knowing it. The hunters' first raid finds the chapel reeking and swarming with rats, and seals its boxes one by one.",
+      "story": "The Count's first English lair - the estate Jonathan sold him without knowing it. The hunters' first raid finds the chapel reeking and swarming with rats, and seals its boxes one by one.",
       "quote": "At Purfleet, on a by-road, I came across just such a place as seemed to be required",
       "quoteRef": "Ch. 2, Jonathan Harker's Journal",
       "imageBlank": "Carfax is a fictional Purfleet estate with no real place to photograph."
@@ -566,7 +566,7 @@
         51.487
       ],
       "certainty": "conjectured",
-      "note": "Fictional, but the novel is explicit that it adjoins Carfax — so it is drawn next door.",
+      "note": "Fictional, but the novel is explicit that it adjoins Carfax - so it is drawn next door.",
       "story": "Dr Seward's asylum, next door to Carfax. Renfield catalogues his flies and spiders here, is broken by his master, and dies of it; Mina, sleeping under this roof, is attacked.",
       "quote": "a very large house only recently added to and formed into a private lunatic asylum",
       "quoteRef": "Ch. 2, Jonathan Harker's Journal",
@@ -588,7 +588,7 @@
         "credit": "Detroit Publishing Co. photochrom · Library of Congress · public domain"
       },
       "note": "The street is real; No. 347 is Stoker's invention. This point stands mid-Piccadilly, near Green Park.",
-      "story": "Jonathan sees the Count in daylight here — grown young. At the house numbered 347 the hunters finally corner him; he bursts through the window and is gone.",
+      "story": "Jonathan sees the Count in daylight here - grown young. At the house numbered 347 the hunters finally corner him; he bursts through the window and is gone.",
       "quote": "It is the man himself!",
       "quoteRef": "Ch. 13, Mina Harker's Journal"
     },
@@ -602,13 +602,13 @@
         51.5665
       ],
       "certainty": "identified",
-      "note": "'Kingstead' is generally identified with Highgate Cemetery — close to Hampstead Heath, where the 'bloofer lady' walked.",
-      "story": "Lucy's tomb. Van Helsing proves the empty coffin to unbelieving men, and Arthur — her fiancé — drives the stake at last.",
+      "note": "'Kingstead' is generally identified with Highgate Cemetery - close to Hampstead Heath, where the 'bloofer lady' walked.",
+      "story": "Lucy's tomb. Van Helsing proves the empty coffin to unbelieving men, and Arthur - her fiancé - drives the stake at last.",
       "quote": "I want you to come with me, and to come in secret, to the churchyard at Kingstead",
       "quoteRef": "Ch. 15, Van Helsing to Arthur Holmwood",
       "image": {
         "file": "assets/images/dr-kingstead.jpg",
-        "caption": "The Gothic entrance to Highgate Cemetery — Stoker's 'Kingstead' — in a wood engraving of 1838, the burial ground where Van Helsing proves Lucy's empty coffin and Arthur drives the stake.",
+        "caption": "The Gothic entrance to Highgate Cemetery - Stoker's 'Kingstead' - in a wood engraving of 1838, the burial ground where Van Helsing proves Lucy's empty coffin and Arthur drives the stake.",
         "credit": "The Mirror of Literature, 1838 · British Library · Wikimedia Commons · public domain"
       }
     },
@@ -627,7 +627,7 @@
       "quoteRef": "Ch. 13, The Westminster Gazette, 25 September",
       "image": {
         "file": "assets/images/dr-hampstead-heath.jpg",
-        "caption": "The Firs on Hampstead Heath at dusk, painted by William James Callcott in 1885 — the ground where the newspapers' 'bloofer lady' lures children after dark.",
+        "caption": "The Firs on Hampstead Heath at dusk, painted by William James Callcott in 1885 - the ground where the newspapers' 'bloofer lady' lures children after dark.",
         "credit": "William James Callcott, 1885 · Art UK · Wikimedia Commons · public domain"
       }
     },
@@ -657,7 +657,7 @@
       ],
       "certainty": "identified",
       "note": "Stoker's 'Jamaica Lane' is usually read as the Jamaica Road area of Bermondsey.",
-      "story": "The Bermondsey depot south of the river — found, entered and sterilised the same day as Mile End.",
+      "story": "The Bermondsey depot south of the river - found, entered and sterilised the same day as Mile End.",
       "quote": "Jamaica Lane, Bermondsey",
       "quoteRef": "Ch. 20, Jonathan Harker's Journal",
       "imageBlank": "This Bermondsey depot can't be honestly pictured; generic East End slum photography would be both generic and editorially loaded."
@@ -673,7 +673,7 @@
       ],
       "certainty": "conjectured",
       "note": "The wharf is fictional. The Czarina Catherine sailed from the Thames below the Pool; this point is an editorial best guess there.",
-      "story": "The Czarina Catherine takes on a single great box here, cleared for Varna — the Count shipping himself home.",
+      "story": "The Czarina Catherine takes on a single great box here, cleared for Varna - the Count shipping himself home.",
       "quote": "she sail from Doolittle's Wharf for Varna, and thence on to other parts and up the Danube",
       "quoteRef": "Ch. 24, Van Helsing, in Dr. Seward's Diary",
       "imageBlank": "An invented Thames wharf; no specific period view exists, and a generic dock photograph would be filler."
@@ -712,7 +712,7 @@
       "quoteRef": "Ch. 25, Jonathan Harker's Journal",
       "image": {
         "file": "assets/images/dr-paris.jpg",
-        "caption": "The Gare de l'Est in Paris, terminus of the Orient Express, photographed around 1900 — where the party's places east are secured for a single night.",
+        "caption": "The Gare de l'Est in Paris, terminus of the Orient Express, photographed around 1900 - where the party's places east are secured for a single night.",
         "credit": "Henri Ferrand, c.1900 · Bibliothèque nationale de France · Wikimedia Commons · public domain"
       }
     },
@@ -731,7 +731,7 @@
       "quoteRef": "Ch. 9, letter, Dr. Seward",
       "image": {
         "file": "assets/images/dr-amsterdam.jpg",
-        "caption": "The Herengracht canal in Amsterdam, photographed c.1890 — Van Helsing's home city, which he shuttles back to for his books, his instruments and his garlic.",
+        "caption": "The Herengracht canal in Amsterdam, photographed c.1890 - Van Helsing's home city, which he shuttles back to for his books, his instruments and his garlic.",
         "credit": "Photochrom, c.1890 · Library of Congress · public domain"
       }
     },
@@ -748,7 +748,7 @@
       "story": "The ship gives everyone the slip and lands here instead of Varna; the box passes into Szgany hands, and the pursuit splits into three prongs.",
       "quote": "reported entering Galatz at one o'clock to-day",
       "quoteRef": "Ch. 25, telegram, Rufus Smith to Lord Godalming",
-      "imageBlank": "The only pre-1930 Galați material is a city plan and railway engineering photographs — no honest town or Danube-port view exists."
+      "imageBlank": "The only pre-1930 Galați material is a city plan and railway engineering photographs - no honest town or Danube-port view exists."
     },
     {
       "id": "veresti",
@@ -856,7 +856,7 @@
             47.14
           ],
           "name": "Szamosújvár (Gherla)",
-          "note": "North-east up the Szamos (Someș) valley — the branch line's course toward the Bistritz country."
+          "note": "North-east up the Szamos (Someș) valley - the branch line's course toward the Bistritz country."
         },
         {
           "at": [
@@ -867,7 +867,7 @@
           "note": "The line bends east off the Szamos to reach Bistritz, the last town before the road to the pass."
         }
       ],
-      "routeNote": "The single-track branch north-east from Kolozsvár up the Szamos valley through Szamosújvár, then east into Bistritz — the railhead from which Jonathan takes the diligence on to the Borgo Pass.",
+      "routeNote": "The single-track branch north-east from Kolozsvár up the Szamos valley through Szamosújvár, then east into Bistritz - the railhead from which Jonathan takes the diligence on to the Borgo Pass.",
       "routeSource": "1890s Hungarian State Railways (MAV) Kolozsvár–Beszterce branch, up the Szamos (Someș) valley; Jonathan reaches Bistritz by rail before the coach (Ch. 1).",
       "routeCertainty": "documented"
     },
@@ -940,7 +940,7 @@
           "note": "On the North Eastern line, where the branch turns north-east for the Esk valley and Whitby."
         }
       ],
-      "routeNote": "In from Hampstead to King's Cross, then the East Coast main line — Grantham, York — and the North Eastern branch through Malton and down the Esk valley to Whitby.",
+      "routeNote": "In from Hampstead to King's Cross, then the East Coast main line - Grantham, York - and the North Eastern branch through Malton and down the Esk valley to Whitby.",
       "routeSource": "1890s Great Northern King's Cross–Grantham–York East Coast main line, then North Eastern Railway York–Malton–Whitby; the standard London-to-Whitby journey.",
       "routeCertainty": "documented",
       "note": "To Whitby with her mother for the summer"
@@ -977,7 +977,7 @@
           "note": "On the North Eastern line, where the branch turns north-east for the Esk valley and Whitby."
         }
       ],
-      "routeNote": "The East Coast main line out of King's Cross — Grantham, York — then the North Eastern branch through Malton and down the Esk valley to Whitby.",
+      "routeNote": "The East Coast main line out of King's Cross - Grantham, York - then the North Eastern branch through Malton and down the Esk valley to Whitby.",
       "routeSource": "1890s Great Northern King's Cross–Grantham–York East Coast main line, then North Eastern Railway York–Malton–Whitby; the standard London-to-Whitby journey.",
       "routeCertainty": "documented"
     },
@@ -1031,7 +1031,7 @@
             40.15
           ],
           "name": "The Dardanelles",
-          "note": "12 July: 'through Dardanelles ... At dark passed into Archipelago' — out of the Marmara into the Aegean."
+          "note": "12 July: 'through Dardanelles ... At dark passed into Archipelago' - out of the Marmara into the Aegean."
         },
         {
           "at": [
@@ -1123,7 +1123,7 @@
             48.4
           ],
           "name": "The Bay of Biscay, off Ushant",
-          "note": "24 July: 'entering on the Bay of Biscay with wild weather ahead' — four days in 'a sort of maelstrom.'"
+          "note": "24 July: 'entering on the Bay of Biscay with wild weather ahead' - four days in 'a sort of maelstrom.'"
         },
         [
           -1.9,
@@ -1135,7 +1135,7 @@
             51.15
           ],
           "name": "The Straits of Dover, off the North Foreland",
-          "note": "1-2 Aug: hoped to signal 'when in the English Channel'; 2 Aug the mate glimpses North Foreland through lifting fog — 'we are now off in the North Sea.'"
+          "note": "1-2 Aug: hoped to signal 'when in the English Channel'; 2 Aug the mate glimpses North Foreland through lifting fog - 'we are now off in the North Sea.'"
         },
         [
           2.3,
@@ -1207,7 +1207,7 @@
           47.3
         ]
       ],
-      "note": "The escape down the castle wall — six weeks of brain fever later, he is in Buda-Pesth"
+      "note": "The escape down the castle wall - six weeks of brain fever later, he is in Buda-Pesth"
     },
     {
       "character": "dracula",
@@ -1238,10 +1238,10 @@
             51.5308
           ],
           "name": "King's Cross",
-          "note": "Ch. 8: 'The goods leave by the train at 9:30 to-night, and will be due at King's Cross at 4:30' — thence carted east to Carfax at Purfleet."
+          "note": "Ch. 8: 'The goods leave by the train at 9:30 to-night, and will be due at King's Cross at 4:30' - thence carted east to Carfax at Purfleet."
         }
       ],
-      "routeNote": "The fifty boxes travelled Whitby-York (North Eastern), York-Doncaster-King's Cross (Great Northern), then out of London to Purfleet — exactly the East Coast line the novel names.",
+      "routeNote": "The fifty boxes travelled Whitby-York (North Eastern), York-Doncaster-King's Cross (Great Northern), then out of London to Purfleet - exactly the East Coast line the novel names.",
       "routeSource": "Stoker names 'Great Northern Railway' and 'King's Cross' (Ch. 8); the 1890s NER Whitby-York and GNR York-Doncaster-King's Cross East Coast route.",
       "routeCertainty": "documented",
       "note": "Fifty boxes of common earth by Great Northern Railway to King's Cross, thence to Carfax"
@@ -1293,7 +1293,7 @@
       ],
       "note": "To nurse Jonathan; they marry at his bedside",
       "routeCertainty": "documented",
-      "routeSource": "The Continental boat-train route — the Channel at Dover-Calais, then the great European rail junctions (Paris/Brussels, Frankfurt, Vienna) to Buda-Pesth."
+      "routeSource": "The Continental boat-train route - the Channel at Dover-Calais, then the great European rail junctions (Paris/Brussels, Frankfurt, Vienna) to Buda-Pesth."
     },
     {
       "character": "lucy",
@@ -1335,7 +1335,7 @@
           "note": "The London terminus, and out again to Hampstead."
         }
       ],
-      "routeNote": "The return down the East Coast route — the North Eastern branch through Malton to York, then the Great Northern via Grantham to King's Cross, and out to Hampstead.",
+      "routeNote": "The return down the East Coast route - the North Eastern branch through Malton to York, then the Great Northern via Grantham to King's Cross, and out to Hampstead.",
       "routeSource": "1890s North Eastern Whitby–Malton–York, then Great Northern York–Grantham–King's Cross East Coast main line.",
       "routeCertainty": "documented"
     },
@@ -1387,7 +1387,7 @@
           "note": "as far up the tideway as she can swim"
         }
       ],
-      "routeNote": "Van Helsing most plausibly came by the Hook of Holland-Harwich night packet and boat-train, not a Thames sail — faster and the standard 1890s Amsterdam-to-London route; then across town to Hampstead.",
+      "routeNote": "Van Helsing most plausibly came by the Hook of Holland-Harwich night packet and boat-train, not a Thames sail - faster and the standard 1890s Amsterdam-to-London route; then across town to Hampstead.",
       "routeSource": "1890s Great Eastern Railway Hook of Holland-Harwich packet (opened 1893) plus boat-train; Stoker only says 'boat and boat-train' (implied by the wire summoning him, Ch. 9).",
       "routeCertainty": "reconstructed",
       "note": "Summoned by Seward's wire; boat and boat-train"
@@ -1440,10 +1440,10 @@
           "note": "down the North Sea Canal to the Dutch coast"
         }
       ],
-      "routeNote": "Van Helsing most plausibly came by the Hook of Holland-Harwich night packet and boat-train, not a Thames sail — faster and the standard 1890s Amsterdam-to-London route; then across town to Hampstead.",
+      "routeNote": "Van Helsing most plausibly came by the Hook of Holland-Harwich night packet and boat-train, not a Thames sail - faster and the standard 1890s Amsterdam-to-London route; then across town to Hampstead.",
       "routeSource": "1890s Great Eastern Railway Hook of Holland-Harwich packet (opened 1893) plus boat-train; Stoker only says 'boat and boat-train' (implied by the wire summoning him, Ch. 9).",
       "routeCertainty": "reconstructed",
-      "note": "Back for his books — and his garlic"
+      "note": "Back for his books - and his garlic"
     },
     {
       "character": "vanhelsing",
@@ -1493,7 +1493,7 @@
           "note": "as far up the tideway as she can swim"
         }
       ],
-      "routeNote": "Van Helsing most plausibly came by the Hook of Holland-Harwich night packet and boat-train, not a Thames sail — faster and the standard 1890s Amsterdam-to-London route; then across town to Hampstead.",
+      "routeNote": "Van Helsing most plausibly came by the Hook of Holland-Harwich night packet and boat-train, not a Thames sail - faster and the standard 1890s Amsterdam-to-London route; then across town to Hampstead.",
       "routeSource": "1890s Great Eastern Railway Hook of Holland-Harwich packet (opened 1893) plus boat-train; Stoker only says 'boat and boat-train' (implied by the wire summoning him, Ch. 9).",
       "routeCertainty": "reconstructed"
     },
@@ -1566,7 +1566,7 @@
       ],
       "note": "Home, married, to Mr. Hawkins's house",
       "routeCertainty": "documented",
-      "routeSource": "The Continental boat-train route — the Channel at Dover-Calais, then the great European rail junctions (Paris/Brussels, Frankfurt, Vienna) to Buda-Pesth."
+      "routeSource": "The Continental boat-train route - the Channel at Dover-Calais, then the great European rail junctions (Paris/Brussels, Frankfurt, Vienna) to Buda-Pesth."
     },
     {
       "character": "lucy",
@@ -1626,10 +1626,10 @@
           "note": "The Great Western terminus, a short way west of Piccadilly."
         }
       ],
-      "routeNote": "The Great Western main line up from Exeter — Taunton, Reading — to Paddington, then across to Piccadilly.",
+      "routeNote": "The Great Western main line up from Exeter - Taunton, Reading - to Paddington, then across to Piccadilly.",
       "routeSource": "1890s Great Western Railway Exeter–Taunton–Reading–Paddington main line, the standard London–Exeter route.",
       "routeCertainty": "documented",
-      "note": "Up for Mr. Hawkins's funeral — and there, outside Giuliano's, the Count, grown young"
+      "note": "Up for Mr. Hawkins's funeral - and there, outside Giuliano's, the Count, grown young"
     },
     {
       "character": [
@@ -1666,7 +1666,7 @@
           "note": "The last great junction before the line drops down to Exeter."
         }
       ],
-      "routeNote": "Back down the Great Western main line — Paddington, Reading, Taunton — to Exeter.",
+      "routeNote": "Back down the Great Western main line - Paddington, Reading, Taunton - to Exeter.",
       "routeSource": "1890s Great Western Railway Paddington–Reading–Taunton–Exeter main line, the standard London–Exeter route.",
       "routeCertainty": "documented"
     },
@@ -1717,7 +1717,7 @@
           "note": "The last great junction before the line drops down to Exeter."
         }
       ],
-      "routeNote": "From Hampstead to Paddington, then the Great Western main line — Reading, Taunton — down to Exeter.",
+      "routeNote": "From Hampstead to Paddington, then the Great Western main line - Reading, Taunton - down to Exeter.",
       "routeSource": "1890s Great Western Railway Paddington–Reading–Taunton–Exeter main line, the standard London–Exeter route.",
       "routeCertainty": "documented",
       "note": "To read Mina's transcript of Jonathan's journal"
@@ -1754,7 +1754,7 @@
           "note": "The Great Western terminus; thence north across town to the churchyard at Highgate."
         }
       ],
-      "routeNote": "Back up the Great Western main line — Taunton, Reading — to Paddington, then across town to Kingstead (Highgate).",
+      "routeNote": "Back up the Great Western main line - Taunton, Reading - to Paddington, then across town to Kingstead (Highgate).",
       "routeSource": "1890s Great Western Railway Exeter–Taunton–Reading–Paddington main line, the standard London–Exeter route.",
       "routeCertainty": "documented",
       "note": "Back to town; the churchyard work begins"
@@ -1824,7 +1824,7 @@
           "note": "Out east of London on the London, Tilbury & Southend line down the north bank of the Thames."
         }
       ],
-      "routeNote": "The Great Western main line up from Exeter — Taunton, Reading — to Paddington, then across town and out on the Tilbury line through Barking to Purfleet.",
+      "routeNote": "The Great Western main line up from Exeter - Taunton, Reading - to Paddington, then across town and out on the Tilbury line through Barking to Purfleet.",
       "routeSource": "1890s Great Western Exeter–Paddington main line, then the London, Tilbury & Southend Railway east through Barking to Purfleet.",
       "routeCertainty": "documented",
       "note": "The whole company gathers under Seward's roof"
@@ -1858,7 +1858,7 @@
       "to": "seward-asylum",
       "chapter": 21,
       "mode": "unknown",
-      "note": "As mist, through Renfield's window — the attack on Mina"
+      "note": "As mist, through Renfield's window - the attack on Mina"
     },
     {
       "character": [
@@ -1977,7 +1977,7 @@
             51.05
           ],
           "name": "The Straits of Dover",
-          "note": "out through the Channel narrows — the reverse of the Demeter's last leg in."
+          "note": "out through the Channel narrows - the reverse of the Demeter's last leg in."
         },
         [
           1.4,
@@ -2093,7 +2093,7 @@
             41.05
           ],
           "name": "The Bosphorus, off Constantinople",
-          "note": "through the Bosphorus into the Black Sea — the Demeter's outbound route run backwards."
+          "note": "through the Bosphorus into the Black Sea - the Demeter's outbound route run backwards."
         },
         [
           29.1,
@@ -2105,7 +2105,7 @@
             43
           ],
           "name": "The western Black Sea",
-          "note": "standing north up the coast — past Varna, where the hunters wait in vain."
+          "note": "standing north up the coast - past Varna, where the hunters wait in vain."
         },
         [
           30,
@@ -2127,7 +2127,7 @@
       "routeNote": "The Czarina Catherine's passage down the Channel, through Gibraltar and the length of the Mediterranean, up the Dardanelles and Bosphorus into the Black Sea, then past Varna to the Danube and Galatz.",
       "routeSource": "The reverse of the Demeter's named track (Ch. 7), confirmed by the ship's course as Mina tracks it under hypnosis (Ch. 24-25): Channel, Gibraltar, Bosphorus, and landing at Galatz on the lower Danube rather than Varna.",
       "routeCertainty": "reconstructed",
-      "note": "In a box aboard the Czarina Catherine, cleared for Varna — but she slips past to Galatz"
+      "note": "In a box aboard the Czarina Catherine, cleared for Varna - but she slips past to Galatz"
     },
     {
       "character": [
@@ -2204,7 +2204,7 @@
             48.137
           ],
           "name": "Munich",
-          "note": "Across southern Germany — the same city where Jonathan's own journey began."
+          "note": "Across southern Germany - the same city where Jonathan's own journey began."
         },
         {
           "at": [
@@ -2231,10 +2231,10 @@
           "note": "The Roumanian capital, where the line turns for the Black Sea coast at Varna."
         }
       ],
-      "routeNote": "The Orient Express across Europe — Strasbourg, Munich, Vienna, Buda-Pesth, Bucharest — down to the Black Sea at Varna.",
-      "routeSource": "Stoker names the Orient Express (Ch. 25) and its stops — 'Munich, Vienna, Buda-Pesth, Bucharest' — running to Varna; the 1890s Compagnie Internationale des Wagons-Lits route via Strasbourg.",
+      "routeNote": "The Orient Express across Europe - Strasbourg, Munich, Vienna, Buda-Pesth, Bucharest - down to the Black Sea at Varna.",
+      "routeSource": "Stoker names the Orient Express (Ch. 25) and its stops - 'Munich, Vienna, Buda-Pesth, Bucharest' - running to Varna; the 1890s Compagnie Internationale des Wagons-Lits route via Strasbourg.",
       "routeCertainty": "novel",
-      "note": "The Orient Express — to Varna, to wait for the Count's ship"
+      "note": "The Orient Express - to Varna, to wait for the Count's ship"
     },
     {
       "character": [
@@ -2289,7 +2289,7 @@
           "note": "On the Siret, the principal Moldavian junction on the northward run toward Bukovina."
         }
       ],
-      "routeNote": "North-west up through Moldavia — Tecuci, Roman — to Verești, the nearest railhead to the Borgo Pass.",
+      "routeNote": "North-west up through Moldavia - Tecuci, Roman - to Verești, the nearest railhead to the Borgo Pass.",
       "routeSource": "1890s Roumanian railways Galatz–Tecuci–Roman–Verești up the Siret valley; Van Helsing and Mina 'take the railway as far as Verești' (Ch. 26).",
       "routeCertainty": "documented",
       "note": "The first prong: by rail, then carriage, to close the Borgo Pass"
@@ -2314,7 +2314,7 @@
           "note": "Up the Bistritza valley into the Carpathians, the last town before the road climbs to the Borgo Pass."
         }
       ],
-      "routeNote": "The mountain road south-west from Verești up the Bistritza valley through Dorna Watra and on to the Borgo Pass — carriage and changes of horses, deep into the snow.",
+      "routeNote": "The mountain road south-west from Verești up the Bistritza valley through Dorna Watra and on to the Borgo Pass - carriage and changes of horses, deep into the snow.",
       "routeSource": "The Bukovina–Transylvania post road over the Borgo/Tihuța Pass; Van Helsing and Mina go on 'by carriage and changes of horses' from Verești (Ch. 27).",
       "routeCertainty": "reconstructed",
       "note": "Carriage and changes of horses, into the snow"
@@ -2426,7 +2426,7 @@
           47.35
         ]
       ],
-      "note": "Up the river with the Szgany, in the last box of earth — overtaken as the sun sets"
+      "note": "Up the river with the Szgany, in the last box of earth - overtaken as the sun sets"
     }
   ],
   "story": [
@@ -2435,7 +2435,7 @@
       "character": "jonathan",
       "at": "munich",
       "title": "Bound east",
-      "narration": "This is Jonathan Harker's story first — a young English solicitor's clerk who sets out from Munich by the evening train. His errand is dull: to settle a property purchase for a client he has never met, a Count in the far Carpathians."
+      "narration": "This is Jonathan Harker's story first - a young English solicitor's clerk who sets out from Munich by the evening train. His errand is dull: to settle a property purchase for a client he has never met, a Count in the far Carpathians."
     },
     {
       "kind": "journey",
@@ -2453,7 +2453,7 @@
       "to": "budapest",
       "chapter": 1,
       "title": "Leaving the West",
-      "narration": "Down the Danube to Buda-Pesth. Crossing the great river, Harker feels he is leaving the West and entering the East — the ordered world of railways giving way to something older and less sure of itself."
+      "narration": "Down the Danube to Buda-Pesth. Crossing the great river, Harker feels he is leaving the West and entering the East - the ordered world of railways giving way to something older and less sure of itself."
     },
     {
       "kind": "journey",
@@ -2471,7 +2471,7 @@
       "to": "bistritz",
       "chapter": 1,
       "title": "The Golden Krone",
-      "narration": "On to Bistritz, and the Golden Krone Hotel. The landlady, hearing where he is bound, begs him not to travel on the eve of St George's Day, when evil holds full sway — and presses her own crucifix around his neck."
+      "narration": "On to Bistritz, and the Golden Krone Hotel. The landlady, hearing where he is bound, begs him not to travel on the eve of St George's Day, when evil holds full sway - and presses her own crucifix around his neck."
     },
     {
       "kind": "journey",
@@ -2489,7 +2489,7 @@
       "to": "castle-dracula",
       "chapter": 2,
       "title": "The castle",
-      "narration": "The calèche carries him up a terrible road, wolves howling alongside, to a vast ruined castle above a precipice. Count Dracula receives him courteously at the door — tall, white-moustached, cold-handed — and Harker is, at last, a guest."
+      "narration": "The calèche carries him up a terrible road, wolves howling alongside, to a vast ruined castle above a precipice. Count Dracula receives him courteously at the door - tall, white-moustached, cold-handed - and Harker is, at last, a guest."
     },
     {
       "kind": "scene",
@@ -2497,7 +2497,7 @@
       "at": "castle-dracula",
       "chapter": 3,
       "title": "The prisoner",
-      "narration": "Guest becomes prisoner. The Count casts no reflection, scales the sheer wall like a lizard, and keeps three beautiful, dreadful women from their feast. Harker realises the property he has just sold — Carfax, in England — is to be this thing's road out."
+      "narration": "Guest becomes prisoner. The Count casts no reflection, scales the sheer wall like a lizard, and keeps three beautiful, dreadful women from their feast. Harker realises the property he has just sold - Carfax, in England - is to be this thing's road out."
     },
     {
       "kind": "handoff",
@@ -2527,11 +2527,11 @@
       "to": "tate-hill-pier",
       "chapter": 7,
       "title": "The voyage of the Demeter",
-      "narration": "She sails, and the log tells the rest: through the Bosphorus and Dardanelles, past Cape Matapan, out at Gibraltar, into a Biscay maelstrom — and one by one the crew vanish overboard, until only the dead captain is left, lashed to his wheel."
+      "narration": "She sails, and the log tells the rest: through the Bosphorus and Dardanelles, past Cape Matapan, out at Gibraltar, into a Biscay maelstrom - and one by one the crew vanish overboard, until only the dead captain is left, lashed to his wheel."
     },
     {
       "kind": "meanwhile",
-      "narration": "Wind the clock back to early summer, and cross to England — to Lucy Westenra, dearest friend of Harker's fiancée Mina, and the first that this quiet horror will reach."
+      "narration": "Wind the clock back to early summer, and cross to England - to Lucy Westenra, dearest friend of Harker's fiancée Mina, and the first that this quiet horror will reach."
     },
     {
       "kind": "journey",
@@ -2540,11 +2540,11 @@
       "to": "whitby-crescent",
       "chapter": 6,
       "title": "To Whitby",
-      "narration": "Lucy — nineteen, warm, just engaged to Arthur Holmwood — takes rooms with her mother for the summer at the Crescent in Whitby, on the Yorkshire coast under its ruined abbey. She has lately taken, again, to walking in her sleep."
+      "narration": "Lucy - nineteen, warm, just engaged to Arthur Holmwood - takes rooms with her mother for the summer at the Crescent in Whitby, on the Yorkshire coast under its ruined abbey. She has lately taken, again, to walking in her sleep."
     },
     {
       "kind": "meanwhile",
-      "narration": "And up from London, on the same days, comes Mina Murray to join her — Harker's own betrothed, and soon the memory that will hold this whole enterprise together."
+      "narration": "And up from London, on the same days, comes Mina Murray to join her - Harker's own betrothed, and soon the memory that will hold this whole enterprise together."
     },
     {
       "kind": "journey",
@@ -2561,7 +2561,7 @@
       "at": "whitby-crescent",
       "chapter": 7,
       "title": "The storm",
-      "narration": "A great storm breaks over Whitby. Out of it a derelict schooner drives straight onto the sands below the churchyard — her captain dead at the wheel, and a huge dog that leaps from her bow and bounds up the cliff into the dark. The Demeter has arrived."
+      "narration": "A great storm breaks over Whitby. Out of it a derelict schooner drives straight onto the sands below the churchyard - her captain dead at the wheel, and a huge dog that leaps from her bow and bounds up the cliff into the dark. The Demeter has arrived."
     },
     {
       "kind": "journey",
@@ -2592,7 +2592,7 @@
       "to": "east-cliff-churchyard",
       "chapter": 8,
       "title": "After her",
-      "narration": "Mina runs through the town and over the bridge to the churchyard, and finds Lucy on their bench, pale and half-swooning — and something long and black bending over her, that lifts its head at her cry and is gone."
+      "narration": "Mina runs through the town and over the bridge to the churchyard, and finds Lucy on their bench, pale and half-swooning - and something long and black bending over her, that lifts its head at her cry and is gone."
     },
     {
       "kind": "removal",
@@ -2600,7 +2600,7 @@
       "from": "east-cliff-churchyard",
       "to": "whitby-crescent",
       "chapter": 8,
-      "narration": "She wraps Lucy in her own shawl and walks her back to the Crescent, and keeps watch, and worries — over Lucy, and over the silence from the East where Jonathan should be."
+      "narration": "She wraps Lucy in her own shawl and walks her back to the Crescent, and keeps watch, and worries - over Lucy, and over the silence from the East where Jonathan should be."
     },
     {
       "kind": "meanwhile",
@@ -2613,7 +2613,7 @@
       "to": "buda-pesth-hospital",
       "chapter": 8,
       "title": "Down the wall",
-      "narration": "With the Count gone ahead of his cargo, Harker climbs down the sheer outer wall over the abyss and stumbles out of the mountains — surfacing weeks later in a Buda-Pesth hospital, raving with a brain fever, a nun writing for him to the Mina whose name he repeats."
+      "narration": "With the Count gone ahead of his cargo, Harker climbs down the sheer outer wall over the abyss and stumbles out of the mountains - surfacing weeks later in a Buda-Pesth hospital, raving with a brain fever, a nun writing for him to the Mina whose name he repeats."
     },
     {
       "kind": "meanwhile",
@@ -2625,7 +2625,7 @@
       "at": "tate-hill-pier",
       "chapter": 8,
       "title": "The boxes go south",
-      "narration": "Fifty boxes of common earth are entered as goods and put on the rails — the Count, in effect, posting himself down to London, still as cargo, still unseen, while his one witness lies fevered abroad."
+      "narration": "Fifty boxes of common earth are entered as goods and put on the rails - the Count, in effect, posting himself down to London, still as cargo, still unseen, while his one witness lies fevered abroad."
     },
     {
       "kind": "journey",
@@ -2634,7 +2634,7 @@
       "to": "carfax",
       "chapter": 8,
       "title": "To Carfax",
-      "narration": "By the North Eastern and Great Northern railways the boxes run down the East Coast line to King's Cross, and are carted on to Carfax at Purfleet, on the Thames east of London — the very estate Harker, unknowing, had sold him."
+      "narration": "By the North Eastern and Great Northern railways the boxes run down the East Coast line to King's Cross, and are carted on to Carfax at Purfleet, on the Thames east of London - the very estate Harker, unknowing, had sold him."
     },
     {
       "kind": "meanwhile",
@@ -2660,7 +2660,7 @@
       "to": "hillingham",
       "chapter": 9,
       "title": "Home to Hillingham",
-      "narration": "Lucy is taken back to Hillingham no better than she came — pale, languid, sleeping ill. Her doctor and rejected suitor, John Seward, cannot account for the bloodlessness of a girl with no wound he can find, and sends for the one man who might."
+      "narration": "Lucy is taken back to Hillingham no better than she came - pale, languid, sleeping ill. Her doctor and rejected suitor, John Seward, cannot account for the bloodlessness of a girl with no wound he can find, and sends for the one man who might."
     },
     {
       "kind": "meanwhile",
@@ -2673,7 +2673,7 @@
       "to": "hillingham",
       "chapter": 9,
       "title": "Van Helsing",
-      "narration": "Professor Van Helsing — Seward's old master, physician and metaphysician — comes by the night packet from the Hook of Holland to Harwich and up to Hillingham. He examines Lucy, says little, and orders the first of four transfusions: Arthur's blood into her veins."
+      "narration": "Professor Van Helsing - Seward's old master, physician and metaphysician - comes by the night packet from the Hook of Holland to Harwich and up to Hillingham. He examines Lucy, says little, and orders the first of four transfusions: Arthur's blood into her veins."
     },
     {
       "kind": "journey",
@@ -2682,7 +2682,7 @@
       "to": "amsterdam",
       "chapter": 10,
       "title": "Back for his books",
-      "narration": "The rally never holds. Van Helsing crosses back to Amsterdam for the books and instruments — and the garlic — that London medicine cannot supply him, certain now of an enemy he dares not yet name to the others."
+      "narration": "The rally never holds. Van Helsing crosses back to Amsterdam for the books and instruments - and the garlic - that London medicine cannot supply him, certain now of an enemy he dares not yet name to the others."
     },
     {
       "kind": "journey",
@@ -2712,7 +2712,7 @@
       "to": "hillingham",
       "chapter": 11,
       "title": "The visitor",
-      "narration": "Behind the wolf stands the Count, roused in his boxes at Purfleet. Night after night he crosses the seven miles to the window at Hillingham, taking a little more of Lucy each time — the visitor the garlic was meant to keep out."
+      "narration": "Behind the wolf stands the Count, roused in his boxes at Purfleet. Night after night he crosses the seven miles to the window at Hillingham, taking a little more of Lucy each time - the visitor the garlic was meant to keep out."
     },
     {
       "kind": "removal",
@@ -2724,7 +2724,7 @@
     },
     {
       "kind": "meanwhile",
-      "narration": "And while Lucy sinks, wind forward a little to Buda-Pesth, where the married Harkers turn homeward — carrying, sealed, the one account that could have warned anyone."
+      "narration": "And while Lucy sinks, wind forward a little to Buda-Pesth, where the married Harkers turn homeward - carrying, sealed, the one account that could have warned anyone."
     },
     {
       "kind": "journey",
@@ -2736,7 +2736,7 @@
       "to": "exeter",
       "chapter": 12,
       "title": "Married, and home",
-      "narration": "Jonathan and Mina travel back across the continent to Exeter, to the house of his employer Mr Hawkins. When the old man dies soon after, Jonathan inherits the practice — and, without yet knowing it, the standing and the means to fight."
+      "narration": "Jonathan and Mina travel back across the continent to Exeter, to the house of his employer Mr Hawkins. When the old man dies soon after, Jonathan inherits the practice - and, without yet knowing it, the standing and the means to fight."
     },
     {
       "kind": "meanwhile",
@@ -2748,7 +2748,7 @@
       "at": "hillingham",
       "chapter": 13,
       "title": "The three who loved her",
-      "narration": "Lucy dies. Her three suitors are left to their grief: Arthur Holmwood, her betrothed; Quincey Morris, the American; and Dr Seward, her doctor. Rivals once, they are friends now in loss — and about to become soldiers in a stranger war."
+      "narration": "Lucy dies. Her three suitors are left to their grief: Arthur Holmwood, her betrothed; Quincey Morris, the American; and Dr Seward, her doctor. Rivals once, they are friends now in loss - and about to become soldiers in a stranger war."
     },
     {
       "kind": "journey",
@@ -2765,11 +2765,11 @@
       "from": "kingstead",
       "to": "seward-asylum",
       "chapter": 13,
-      "narration": "From the graveside the three go down to Seward's asylum at Purfleet, next door to Carfax — where, though none of them yet knows it, their enemy lies sleeping in his boxes across the wall."
+      "narration": "From the graveside the three go down to Seward's asylum at Purfleet, next door to Carfax - where, though none of them yet knows it, their enemy lies sleeping in his boxes across the wall."
     },
     {
       "kind": "meanwhile",
-      "narration": "Wind back to Lucy herself, sealed in the vault. For the war is no longer over the dead — it is over the undead."
+      "narration": "Wind back to Lucy herself, sealed in the vault. For the war is no longer over the dead - it is over the undead."
     },
     {
       "kind": "journey",
@@ -2778,7 +2778,7 @@
       "to": "kingstead",
       "chapter": 13,
       "title": "The guarded coffin",
-      "narration": "Lucy is laid beside her mother in the Kingstead tomb — but Van Helsing, alone among them, would not let Arthur kiss her at the last, and leaves garlic and a strange guard about the coffin, saying nothing he cannot yet prove."
+      "narration": "Lucy is laid beside her mother in the Kingstead tomb - but Van Helsing, alone among them, would not let Arthur kiss her at the last, and leaves garlic and a strange guard about the coffin, saying nothing he cannot yet prove."
     },
     {
       "kind": "meanwhile",
@@ -2791,7 +2791,7 @@
       "to": "hampstead-heath",
       "chapter": 14,
       "title": "The bloofer lady",
-      "narration": "For Lucy has risen. Night after night she leaves the vault and walks out onto Hampstead Heath — the papers' 'bloofer lady', no longer the girl who loved Arthur but a white, sweet-voiced thing that feeds on the children who follow her voice in the dark."
+      "narration": "For Lucy has risen. Night after night she leaves the vault and walks out onto Hampstead Heath - the papers' 'bloofer lady', no longer the girl who loved Arthur but a white, sweet-voiced thing that feeds on the children who follow her voice in the dark."
     },
     {
       "kind": "removal",
@@ -2799,11 +2799,11 @@
       "from": "hampstead-heath",
       "to": "kingstead",
       "chapter": 14,
-      "narration": "And before each dawn she returns to her tomb at Kingstead and lies down whole and rosy in her coffin — the proof Van Helsing needs to make the grieving men believe what he has feared all along."
+      "narration": "And before each dawn she returns to her tomb at Kingstead and lies down whole and rosy in her coffin - the proof Van Helsing needs to make the grieving men believe what he has feared all along."
     },
     {
       "kind": "meanwhile",
-      "narration": "But first the professor arms himself with the truth. Wind back a little to Van Helsing, still at Hillingham, when a packet of papers reached him from the West — Mina's transcript of Jonathan's journal, sent because Van Helsing had been Lucy's doctor."
+      "narration": "But first the professor arms himself with the truth. Wind back a little to Van Helsing, still at Hillingham, when a packet of papers reached him from the West - Mina's transcript of Jonathan's journal, sent because Van Helsing had been Lucy's doctor."
     },
     {
       "kind": "journey",
@@ -2812,7 +2812,7 @@
       "to": "exeter",
       "chapter": 14,
       "title": "The journal read",
-      "narration": "He reads it in one sitting, and the castle, the boxes, the marks on Lucy's throat lock into one shape. Then he goes down to Exeter to read it again against Jonathan's own face — the one living witness who has stood in the Count's hall and come out."
+      "narration": "He reads it in one sitting, and the castle, the boxes, the marks on Lucy's throat lock into one shape. Then he goes down to Exeter to read it again against Jonathan's own face - the one living witness who has stood in the Count's hall and come out."
     },
     {
       "kind": "journey",
@@ -2833,7 +2833,7 @@
       "at": "seward-asylum",
       "chapter": 15,
       "title": "Made to believe",
-      "narration": "Van Helsing takes the mourners in hand. First Seward, then the others, must be shown, not told — for what he means to ask of them, no man will do on a professor's word alone."
+      "narration": "Van Helsing takes the mourners in hand. First Seward, then the others, must be shown, not told - for what he means to ask of them, no man will do on a professor's word alone."
     },
     {
       "kind": "journey",
@@ -2842,7 +2842,7 @@
       "to": "kingstead",
       "chapter": 15,
       "title": "The empty coffin",
-      "narration": "By night he leads them back to the tomb, opens Lucy's coffin — and it is empty. They wait among the graves until a white shape drifts in with a child in its arms; it is Lucy's face, and it is not Lucy. Even Arthur is convinced."
+      "narration": "By night he leads them back to the tomb, opens Lucy's coffin - and it is empty. They wait among the graves until a white shape drifts in with a child in its arms; it is Lucy's face, and it is not Lucy. Even Arthur is convinced."
     },
     {
       "kind": "removal",
@@ -2850,7 +2850,7 @@
       "from": "kingstead",
       "to": "seward-asylum",
       "chapter": 17,
-      "narration": "They go back to the asylum to steady themselves for the next night's work — the thing no love should have to do, and that only love can do rightly."
+      "narration": "They go back to the asylum to steady themselves for the next night's work - the thing no love should have to do, and that only love can do rightly."
     },
     {
       "kind": "meanwhile",
@@ -2863,11 +2863,11 @@
       "to": "seward-asylum",
       "chapter": 17,
       "title": "Lucy freed",
-      "narration": "It must be Arthur, her betrothed, whose hand frees her — driving the stake home while Van Helsing reads, until the writhing thing is still and Lucy's own face returns, at peace. Then the professor comes back with them to the asylum, one victim beyond the enemy's reach at last."
+      "narration": "It must be Arthur, her betrothed, whose hand frees her - driving the stake home while Van Helsing reads, until the writhing thing is still and Lucy's own face returns, at peace. Then the professor comes back with them to the asylum, one victim beyond the enemy's reach at last."
     },
     {
       "kind": "meanwhile",
-      "narration": "Now the scattered threads must become one. Wind west to Exeter, and bring the Harkers in — Jonathan's journal, Mina's method and the rest joining Seward's asylum, Arthur's money and Quincey's nerve into a single hunting party."
+      "narration": "Now the scattered threads must become one. Wind west to Exeter, and bring the Harkers in - Jonathan's journal, Mina's method and the rest joining Seward's asylum, Arthur's money and Quincey's nerve into a single hunting party."
     },
     {
       "kind": "journey",
@@ -2879,7 +2879,7 @@
       "to": "seward-asylum",
       "chapter": 17,
       "title": "Under one roof",
-      "narration": "Van Helsing sends for them, and the Harkers come up from Exeter to the asylum. The whole company is gathered at last under Seward's roof — next door, all unknowing, to the Count's own English lair at Carfax. All roads now lead to Purfleet."
+      "narration": "Van Helsing sends for them, and the Harkers come up from Exeter to the asylum. The whole company is gathered at last under Seward's roof - next door, all unknowing, to the Count's own English lair at Carfax. All roads now lead to Purfleet."
     },
     {
       "kind": "meanwhile",
@@ -2895,7 +2895,7 @@
       "to": "piccadilly",
       "chapter": 13,
       "title": "The man himself",
-      "narration": "Walking in Piccadilly, Jonathan stops dead. In the crowd outside a shop stands the Count — but grown young, his moustache dark, staring hungrily at a pretty girl. 'It is the man himself.' The thing from the castle is here, in England, and thriving."
+      "narration": "Walking in Piccadilly, Jonathan stops dead. In the crowd outside a shop stands the Count - but grown young, his moustache dark, staring hungrily at a pretty girl. 'It is the man himself.' The thing from the castle is here, in England, and thriving."
     },
     {
       "kind": "removal",
@@ -2906,7 +2906,7 @@
       "from": "piccadilly",
       "to": "exeter",
       "chapter": 13,
-      "narration": "Shaken, the Harkers had gone home to Exeter with their secret, and their proof — Jonathan's castle real, then, and here; and Mina, who had read his sealed journal, knowing it too. Now, summoned, they leave that quiet house for good."
+      "narration": "Shaken, the Harkers had gone home to Exeter with their secret, and their proof - Jonathan's castle real, then, and here; and Mina, who had read his sealed journal, knowing it too. Now, summoned, they leave that quiet house for good."
     },
     {
       "kind": "scene",
@@ -2927,7 +2927,7 @@
       "to": "carfax",
       "chapter": 19,
       "title": "The first raid",
-      "narration": "By night the men cross the wall into Carfax. The old chapel reeks of the grave; rats pour up in their thousands at the Count's unseen command. But the boxes are here — and Van Helsing lays a fragment of the Host in each, poisoning the earth against its owner."
+      "narration": "By night the men cross the wall into Carfax. The old chapel reeks of the grave; rats pour up in their thousands at the Count's unseen command. But the boxes are here - and Van Helsing lays a fragment of the Host in each, poisoning the earth against its owner."
     },
     {
       "kind": "removal",
@@ -2939,7 +2939,7 @@
       "from": "carfax",
       "to": "seward-asylum",
       "chapter": 19,
-      "narration": "They count the boxes and find the tally short: only twenty-nine of fifty are here. The rest have gone out into London, no one knows where — and the men go back to the asylum knowing the hunt has hardly begun."
+      "narration": "They count the boxes and find the tally short: only twenty-nine of fifty are here. The rest have gone out into London, no one knows where - and the men go back to the asylum knowing the hunt has hardly begun."
     },
     {
       "kind": "meanwhile",
@@ -2952,14 +2952,14 @@
       "to": "seward-asylum",
       "chapter": 21,
       "title": "The attack on Mina",
-      "narration": "While the men count his boxes, the Count comes from Carfax through the window of Renfield, his fly-eating thrall in the asylum, to Mina's bed. Three nights running he drinks from her and makes her drink from him, binding her to him — so that what befell Lucy is now working, night by night, in Mina."
+      "narration": "While the men count his boxes, the Count comes from Carfax through the window of Renfield, his fly-eating thrall in the asylum, to Mina's bed. Three nights running he drinks from her and makes her drink from him, binding her to him - so that what befell Lucy is now working, night by night, in Mina."
     },
     {
       "kind": "handoff",
       "character": "mina",
       "at": "seward-asylum",
       "title": "The brand",
-      "narration": "The men break in too late; the Count is gone as mist. This is Mina's peril now: his blood on her lips, and a red scar burning where Van Helsing's blessed wafer touches her forehead — marked as his, the hunt become a race against her own change."
+      "narration": "The men break in too late; the Count is gone as mist. This is Mina's peril now: his blood on her lips, and a red scar burning where Van Helsing's blessed wafer touches her forehead - marked as his, the hunt become a race against her own change."
     },
     {
       "kind": "journey",
@@ -2972,7 +2972,7 @@
       "to": "carfax",
       "chapter": 22,
       "title": "Sterilising Carfax",
-      "narration": "Now it is war to the knife. The men return to Carfax and sterilise the boxes there one by one, sealing the earth so the Count can never rest in it again — driving him, box by box, out of every refuge in England."
+      "narration": "Now it is war to the knife. The men return to Carfax and sterilise the boxes there one by one, sealing the earth so the Count can never rest in it again - driving him, box by box, out of every refuge in England."
     },
     {
       "kind": "journey",
@@ -2997,11 +2997,11 @@
       "from": "seward-asylum",
       "to": "piccadilly",
       "chapter": 22,
-      "narration": "He too is drawn to Piccadilly, where the bulk of his scattered earth now lies. Master and hunters converge on the house from opposite ends of London — the men to destroy his soil, the Count to save it, both reaching it within the same hour."
+      "narration": "He too is drawn to Piccadilly, where the bulk of his scattered earth now lies. Master and hunters converge on the house from opposite ends of London - the men to destroy his soil, the Count to save it, both reaching it within the same hour."
     },
     {
       "kind": "meanwhile",
-      "narration": "The same day, the party splits to close the trap. While the others hold the Piccadilly house, follow Arthur — now Lord Godalming — and Morris out to run down the last two depots the boxes were carted to — south of the river, and out in the East End."
+      "narration": "The same day, the party splits to close the trap. While the others hold the Piccadilly house, follow Arthur - now Lord Godalming - and Morris out to run down the last two depots the boxes were carted to - south of the river, and out in the East End."
     },
     {
       "kind": "journey",
@@ -3010,7 +3010,7 @@
       "to": "jamaica-lane",
       "chapter": 23,
       "title": "Bermondsey",
-      "narration": "First to Jamaica Lane in Bermondsey, south of the Thames, where a consignment of the boxes was traced. They find them, sterilise them, and cross the river again — one more of the Count's beds put beyond use."
+      "narration": "First to Jamaica Lane in Bermondsey, south of the Thames, where a consignment of the boxes was traced. They find them, sterilise them, and cross the river again - one more of the Count's beds put beyond use."
     },
     {
       "kind": "journey",
@@ -3019,7 +3019,7 @@
       "to": "chicksand-street",
       "chapter": 23,
       "title": "Mile End",
-      "narration": "Then east to Chicksand Street in Mile End, the last depot on Jonathan's list. The boxes here too are found and blessed against their owner, until only the Piccadilly earth is left to him — and the men racing back to it."
+      "narration": "Then east to Chicksand Street in Mile End, the last depot on Jonathan's list. The boxes here too are found and blessed against their owner, until only the Piccadilly earth is left to him - and the men racing back to it."
     },
     {
       "kind": "removal",
@@ -3027,7 +3027,7 @@
       "from": "chicksand-street",
       "to": "piccadilly",
       "chapter": 23,
-      "narration": "Godalming and Morris hurry back to Piccadilly in time for the Count — for all the threads of the day are drawing to the one house where the last of his English soil, and his enemies, now wait."
+      "narration": "Godalming and Morris hurry back to Piccadilly in time for the Count - for all the threads of the day are drawing to the one house where the last of his English soil, and his enemies, now wait."
     },
     {
       "kind": "meanwhile",
@@ -3040,7 +3040,7 @@
       "to": "doolittles-wharf",
       "chapter": 23,
       "title": "Cornered",
-      "narration": "The men fall on him but are half a heartbeat slow; he flings the last of his gold, breaks clean through the window and is gone. One box of unpolluted earth remains, and he means to carry it home — down to Doolittle's Wharf and a vessel already clearing for the Black Sea."
+      "narration": "The men fall on him but are half a heartbeat slow; he flings the last of his gold, breaks clean through the window and is gone. One box of unpolluted earth remains, and he means to carry it home - down to Doolittle's Wharf and a vessel already clearing for the Black Sea."
     },
     {
       "kind": "meanwhile",
@@ -3063,7 +3063,7 @@
       "from": "piccadilly",
       "to": "seward-asylum",
       "chapter": 23,
-      "narration": "Godalming, Morris and Seward return too, to take stock. If the Count has fled England, then the hunt must leave England after him — and quickly, before Mina is wholly his."
+      "narration": "Godalming, Morris and Seward return too, to take stock. If the Count has fled England, then the hunt must leave England after him - and quickly, before Mina is wholly his."
     },
     {
       "kind": "meanwhile",
@@ -3076,7 +3076,7 @@
       "to": "galatz",
       "chapter": 24,
       "title": "Homeward, by sea",
-      "narration": "The Czarina Catherine bears him down the Channel and through Gibraltar toward the Danube. Van Helsing hypnotises Mina at dawn and dusk; through the bond she hears lapping water and creaking timber, and tracks the ship — until at the last it slips past Varna and lands, instead, at Galatz."
+      "narration": "The Czarina Catherine bears him down the Channel and through Gibraltar toward the Danube. Van Helsing hypnotises Mina at dawn and dusk; through the bond she hears lapping water and creaking timber, and tracks the ship - until at the last it slips past Varna and lands, instead, at Galatz."
     },
     {
       "kind": "meanwhile",
@@ -3094,7 +3094,7 @@
       "to": "charing-cross",
       "chapter": 25,
       "title": "The company sets out",
-      "narration": "On 12 October the whole party — the Harkers, Van Helsing, Godalming, Morris and Seward — leaves the asylum for Charing Cross, to race a sailing ship across a continent by rail, and reach Varna before it."
+      "narration": "On 12 October the whole party - the Harkers, Van Helsing, Godalming, Morris and Seward - leaves the asylum for Charing Cross, to race a sailing ship across a continent by rail, and reach Varna before it."
     },
     {
       "kind": "journey",
@@ -3122,7 +3122,7 @@
       "to": "varna",
       "chapter": 25,
       "title": "To Varna",
-      "narration": "The Orient Express carries them across Europe — Munich, Vienna, Buda-Pesth, Bucharest — to Varna, where they settle to wait for the Czarina Catherine and lay their ambush at the harbour mouth."
+      "narration": "The Orient Express carries them across Europe - Munich, Vienna, Buda-Pesth, Bucharest - to Varna, where they settle to wait for the Czarina Catherine and lay their ambush at the harbour mouth."
     },
     {
       "kind": "journey",
@@ -3136,11 +3136,11 @@
       "to": "galatz",
       "chapter": 26,
       "title": "Given the slip",
-      "narration": "But the ship never comes to Varna. Word arrives that she has entered Galatz instead, well up the coast — the Count outguessing them to the last. The party breaks camp and hurries north to Galatz, a day behind their quarry."
+      "narration": "But the ship never comes to Varna. Word arrives that she has entered Galatz instead, well up the coast - the Count outguessing them to the last. The party breaks camp and hurries north to Galatz, a day behind their quarry."
     },
     {
       "kind": "meanwhile",
-      "narration": "At Galatz the box has already passed into Szgany hands and started up the rivers for the castle. The hunters split into three to catch it between them — and we follow the first prong, Van Helsing and Mina, overland."
+      "narration": "At Galatz the box has already passed into Szgany hands and started up the rivers for the castle. The hunters split into three to catch it between them - and we follow the first prong, Van Helsing and Mina, overland."
     },
     {
       "kind": "journey",
@@ -3152,7 +3152,7 @@
       "to": "veresti",
       "chapter": 26,
       "title": "The overland prong",
-      "narration": "Van Helsing and Mina take the railway as far as Verești, the nearest railhead to the Borgo Pass. Mina is failing now, sleeping by day, her teeth sharpening — the professor guarding her as jealously as he hunts the thing that is claiming her."
+      "narration": "Van Helsing and Mina take the railway as far as Verești, the nearest railhead to the Borgo Pass. Mina is failing now, sleeping by day, her teeth sharpening - the professor guarding her as jealously as he hunts the thing that is claiming her."
     },
     {
       "kind": "journey",
@@ -3164,7 +3164,7 @@
       "to": "borgo-pass",
       "chapter": 27,
       "title": "Into the snow",
-      "narration": "From Verești they go on by carriage and changes of horses into the deepening snow, up toward the Borgo Pass and the castle beyond it — Van Helsing racing to reach the Count's own ground before the last day's sun can set."
+      "narration": "From Verești they go on by carriage and changes of horses into the deepening snow, up toward the Borgo Pass and the castle beyond it - Van Helsing racing to reach the Count's own ground before the last day's sun can set."
     },
     {
       "kind": "journey",
@@ -3180,7 +3180,7 @@
     },
     {
       "kind": "meanwhile",
-      "narration": "Wind back to Galatz, where the second quarry — the box itself, with the Count helpless inside it — began its own race up the same rivers for home."
+      "narration": "Wind back to Galatz, where the second quarry - the box itself, with the Count helpless inside it - began its own race up the same rivers for home."
     },
     {
       "kind": "journey",
@@ -3189,11 +3189,11 @@
       "to": "castle-dracula",
       "chapter": 27,
       "title": "The last box",
-      "narration": "In the last box, helpless in the daylight, the Count is carried by the Szgany up the Sereth and the Bistritza toward the castle, racing for the safety of his own walls before the light fails — the three prongs of the hunt closing on the same road."
+      "narration": "In the last box, helpless in the daylight, the Count is carried by the Szgany up the Sereth and the Bistritza toward the castle, racing for the safety of his own walls before the light fails - the three prongs of the hunt closing on the same road."
     },
     {
       "kind": "meanwhile",
-      "narration": "Wind back once more to Galatz, and take up the two river prongs — the launch on the water, the riders on the bank — both driving for that same cart, and the same sunset."
+      "narration": "Wind back once more to Galatz, and take up the two river prongs - the launch on the water, the riders on the bank - both driving for that same cart, and the same sunset."
     },
     {
       "kind": "journey",
@@ -3206,7 +3206,7 @@
     },
     {
       "kind": "meanwhile",
-      "narration": "And on the bank beside them, the same days, the third prong — Morris and Seward, riding hard with the horses."
+      "narration": "And on the bank beside them, the same days, the third prong - Morris and Seward, riding hard with the horses."
     },
     {
       "kind": "journey",
@@ -3222,7 +3222,7 @@
       "character": "jonathan",
       "at": "castle-dracula",
       "title": "At sunset",
-      "narration": "In the red last light all three prongs fall on the cart together and scatter the Szgany. Jonathan shears through the Count's throat, Morris drives his knife into the heart — and the Count crumbles to dust as the sun goes down. Quincey Morris dies of his wound; Mina's scar fades clean; the hunt is over."
+      "narration": "In the red last light all three prongs fall on the cart together and scatter the Szgany. Jonathan shears through the Count's throat, Morris drives his knife into the heart - and the Count crumbles to dust as the sun goes down. Quincey Morris dies of his wound; Mina's scar fades clean; the hunt is over."
     }
   ]
 }

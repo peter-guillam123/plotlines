@@ -9,7 +9,7 @@
     "calendar": true,
     "span": "one antebellum summer (the year is approximate; Twain sets the story 'forty to fifty years ago', when slavery was still law along the river)"
   },
-  "overture": "One summer down the Mississippi on a raft — a runaway boy and Jim, an enslaved man running for his freedom — drawn on the real river, from a Missouri town to the deep South and the choice that damns Huck to save his friend.",
+  "overture": "One summer down the Mississippi on a raft - a runaway boy and Jim, an enslaved man running for his freedom - drawn on the real river, from a Missouri town to the deep South and the choice that damns Huck to save his friend.",
   "sources": "Mark Twain, Adventures of Huckleberry Finn (1884), Project Gutenberg #76; the Mississippi centreline from Natural Earth; St Petersburg = Hannibal, Missouri (standard Twain scholarship).",
   "regions": [
     {
@@ -226,7 +226,7 @@
       "id": "jim",
       "name": "Jim",
       "colour": "prussian",
-      "role": "An enslaved man fleeing sale away from his wife and children — and the truest heart on the raft.",
+      "role": "An enslaved man fleeing sale away from his wife and children - and the truest heart on the raft.",
       "start": {
         "location": "st-petersburg",
         "chapter": 1
@@ -245,12 +245,12 @@
       ],
       "certainty": "identified",
       "note": "Huck's fictional home town, universally identified with Twain's own boyhood Hannibal, Missouri, on the Mississippi; coordinates are Hannibal.",
-      "story": "Huck's home, and the trap he flees. Newly rich from treasure and half-heartedly 'sivilized' by the Widow Douglas, he is stalked by his drunken Pap — who wants the money, and locks the boy up. Huck fakes his own murder to get free.",
+      "story": "Huck's home, and the trap he flees. Newly rich from treasure and half-heartedly 'sivilized' by the Widow Douglas, he is stalked by his drunken Pap - who wants the money, and locks the boy up. Huck fakes his own murder to get free.",
       "quote": "You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter.",
       "quoteRef": "Ch. 1",
       "image": {
         "file": "assets/images/hf-st-petersburg.jpg",
-        "caption": "Hannibal, Missouri, from across the river, c.1904 — the real town behind Twain's St Petersburg.",
+        "caption": "Hannibal, Missouri, from across the river, c.1904 - the real town behind Twain's St Petersburg.",
         "credit": "Detroit Publishing Co., 1904 · Library of Congress · public domain"
       }
     },
@@ -265,10 +265,10 @@
       ],
       "certainty": "identified",
       "note": "The wooded island in the Mississippi a couple of miles below the town where Huck hides; modelled on the real Glasscock's Island. Placed out on a real island in the channel, not the bank.",
-      "story": "The hiding place, and the meeting. Here Huck lies low — and finds Jim, who has run from Miss Watson rather than be sold away from his family. The two make the island home until the hunt closes in, then take to a raft.",
+      "story": "The hiding place, and the meeting. Here Huck lies low - and finds Jim, who has run from Miss Watson rather than be sold away from his family. The two make the island home until the hunt closes in, then take to a raft.",
       "image": {
         "file": "assets/images/hf-raft.jpg",
-        "caption": "A Mississippi lumber raft riding the current between wooded shores — the kind of raft Huck and Jim build and slip away on. From Twain's own 'Life on the Mississippi', 1883.",
+        "caption": "A Mississippi lumber raft riding the current between wooded shores - the kind of raft Huck and Jim build and slip away on. From Twain's own 'Life on the Mississippi', 1883.",
         "credit": "E. H. Garrett, 1883 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -284,12 +284,12 @@
       ],
       "certainty": "real",
       "note": "A real, named city the raft drifts past in the dark on the fifth night down; coordinates are the St Louis riverfront.",
-      "story": "The big city, passed by night — a blaze of lights on the black water, and gone. The raft keeps to the current, hiding by day and floating by night, bound for Cairo.",
+      "story": "The big city, passed by night - a blaze of lights on the black water, and gone. The raft keeps to the current, hiding by day and floating by night, bound for Cairo.",
       "quote": "The fifth night we passed St. Louis, and it was like the whole world lit up.",
       "quoteRef": "Ch. 12",
       "image": {
         "file": "assets/images/hf-st-louis.jpg",
-        "caption": "The levee at St Louis, 1890 — wagons, cordwood and moored sternwheelers, the Eads Bridge beyond. The city the raft drifts past in the dark.",
+        "caption": "The levee at St Louis, 1890 - wagons, cordwood and moored sternwheelers, the Eads Bridge beyond. The city the raft drifts past in the dark.",
         "credit": "Robert Benecke, 1890 · Wikimedia Commons · public domain"
       }
     },
@@ -303,11 +303,11 @@
         36.99
       ],
       "certainty": "real",
-      "note": "The real town at the confluence where the Ohio meets the Mississippi — 'the bottom of Illinois, where the Ohio River comes in'. Their planned turn-off, missed in the fog.",
-      "story": "The turning point they never reach. Here the Ohio joins the Mississippi, and here Huck and Jim mean to sell the raft and steam up the Ohio to the free States. In a thick fog they slip past Cairo unseeing — and Jim's road to freedom goes with it.",
+      "note": "The real town at the confluence where the Ohio meets the Mississippi - 'the bottom of Illinois, where the Ohio River comes in'. Their planned turn-off, missed in the fog.",
+      "story": "The turning point they never reach. Here the Ohio joins the Mississippi, and here Huck and Jim mean to sell the raft and steam up the Ohio to the free States. In a thick fog they slip past Cairo unseeing - and Jim's road to freedom goes with it.",
       "quote": "We would sell the raft and get on a steamboat and go way up the Ohio amongst the free States, and then be out of trouble.",
       "quoteRef": "Ch. 15",
-      "imageBlank": "No dignified period view of Cairo, Illinois surfaced through the search; the missed confluence — the turning-point they never reach — keeps a logged blank rather than a mislabel."
+      "imageBlank": "No dignified period view of Cairo, Illinois surfaced through the search; the missed confluence - the turning-point they never reach - keeps a logged blank rather than a mislabel."
     },
     {
       "id": "grangerford-place",
@@ -320,10 +320,10 @@
       ],
       "certainty": "conjectured",
       "note": "The genteel feuding family's house is unlocated in the text; because the raft has overshot Cairo, scholars place it just below the Ohio's mouth. Point set on the river in that stretch.",
-      "story": "The aristocratic house where Huck is taken in after a steamboat runs down the raft. Kind, cultured people locked in a murderous feud with the Shepherdsons — which ends before Huck's eyes in a riverbank killing. He flees back to the mended raft and to Jim.",
+      "story": "The aristocratic house where Huck is taken in after a steamboat runs down the raft. Kind, cultured people locked in a murderous feud with the Shepherdsons - which ends before Huck's eyes in a riverbank killing. He flees back to the mended raft and to Jim.",
       "image": {
         "file": "assets/images/hf-steamboat.jpg",
-        "caption": "A lower-Mississippi sternwheeler under way, c.1900 — a boat like the one that smashes through the raft in the dark near here, and parts Huck from Jim.",
+        "caption": "A lower-Mississippi sternwheeler under way, c.1900 - a boat like the one that smashes through the raft in the dark near here, and parts Huck from Jim.",
         "credit": "Detroit Publishing Co., c.1900 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -339,10 +339,10 @@
       ],
       "certainty": "conjectured",
       "note": "A fictional 'one-horse' Arkansas river town; Twain sets it plainly on the Arkansas bank. Point placed on the river at a plausible Arkansas reach (~34.5N).",
-      "story": "A shabby Arkansas town where the two con men who have seized the raft — a self-styled duke and king — fleece the crowd with a crooked show. In the same dusty street Huck watches a harmless drunk shot dead for his taunts.",
+      "story": "A shabby Arkansas town where the two con men who have seized the raft - a self-styled duke and king - fleece the crowd with a crooked show. In the same dusty street Huck watches a harmless drunk shot dead for his taunts.",
       "image": {
         "file": "assets/images/hf-levee.jpg",
-        "caption": "The working riverfront of a lower-Mississippi levee town, c.1900 (Vicksburg) — the kind of shabby river town where the frauds put on their show.",
+        "caption": "The working riverfront of a lower-Mississippi levee town, c.1900 (Vicksburg) - the kind of shabby river town where the frauds put on their show.",
         "credit": "Detroit Publishing Co., c.1900 · Library of Congress · public domain",
         "indicative": true
       }
@@ -361,7 +361,7 @@
       "story": "Here the frauds try their cruellest swindle: posing as the English brothers of a dead man to rob his orphaned nieces of their inheritance. Sickened, Huck turns against the pair, helps expose them, and barely escapes back to the raft.",
       "image": {
         "file": "assets/images/hf-bluffs.jpg",
-        "caption": "Wooded bluffs above the lower Mississippi — the wild river country the raft slips through between the towns. Joseph Rusling Meeker, 1881.",
+        "caption": "Wooded bluffs above the lower Mississippi - the wild river country the raft slips through between the towns. Joseph Rusling Meeker, 1881.",
         "credit": "Joseph Rusling Meeker, 1881 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -376,8 +376,8 @@
         33.5
       ],
       "certainty": "conjectured",
-      "note": "Silas and Sally Phelps's small cotton farm, 'two mile below' the fictional village of Pikesville — the novel's deepest-south point. Placed on the river near the Arkansas–Louisiana line (~33.5N).",
-      "story": "The end of the road. The king sells Jim here for forty dollars; Huck, alone, decides to damn himself rather than betray his friend — and, by chance, walks into the farm of Tom Sawyer's own relatives, who take him for Tom.",
+      "note": "Silas and Sally Phelps's small cotton farm, 'two mile below' the fictional village of Pikesville - the novel's deepest-south point. Placed on the river near the Arkansas–Louisiana line (~33.5N).",
+      "story": "The end of the road. The king sells Jim here for forty dollars; Huck, alone, decides to damn himself rather than betray his friend - and, by chance, walks into the farm of Tom Sawyer's own relatives, who take him for Tom.",
       "quote": "All right, then, I'll go to hell",
       "quoteRef": "Ch. 31",
       "imageBlank": "A small cotton farm deep in slave country; the honest period images of such places are the plantation-labour genre scenes this project deliberately keeps out, so the farm is a logged blank and the narration carries it."
@@ -416,7 +416,7 @@
         ]
       ],
       "medium": "river",
-      "note": "Jim has run too — from Miss Watson, who means to sell him down the river — and hides on the same island, where Huck finds him."
+      "note": "Jim has run too - from Miss Watson, who means to sell him down the river - and hides on the same island, where Huck finds him."
     },
     {
       "character": [
@@ -456,7 +456,7 @@
         ]
       ],
       "medium": "river",
-      "note": "The two set off downriver on a raft, hiding by day and floating by night — free and easy on the water — bound for Cairo and the Ohio.",
+      "note": "The two set off downriver on a raft, hiding by day and floating by night - free and easy on the water - bound for Cairo and the Ohio.",
       "routeCertainty": "novel",
       "routeNote": "Down the Mississippi past St Louis toward Cairo, exactly as the raft goes in the text.",
       "routeSource": "Down the real Mississippi, traced from Natural Earth's river centreline; Twain narrates the drift south, naming St Louis, the Ohio's mouth at Cairo, and the Arkansas bank."
@@ -485,7 +485,7 @@
       "medium": "river",
       "note": "In the fog they miss Cairo, and are carried on below it; a steamboat smashes the raft in the dark and the two are parted.",
       "routeCertainty": "novel",
-      "routeNote": "Below Cairo, deeper into slave country — the wrong way for Jim.",
+      "routeNote": "Below Cairo, deeper into slave country - the wrong way for Jim.",
       "routeSource": "Down the real Mississippi, traced from Natural Earth's river centreline; Twain narrates the drift south, naming St Louis, the Ohio's mouth at Cairo, and the Arkansas bank."
     },
     {
@@ -522,7 +522,7 @@
         ]
       ],
       "medium": "river",
-      "note": "Reunited, they push off again — until a duke and a king paddle out, seize the raft, and turn it to their swindling.",
+      "note": "Reunited, they push off again - until a duke and a king paddle out, seize the raft, and turn it to their swindling.",
       "routeCertainty": "documented",
       "routeNote": "On down the Mississippi into Arkansas; the towns below Cairo are Twain's inventions, placed on the real river.",
       "routeSource": "Down the real Mississippi, traced from Natural Earth's river centreline; Twain narrates the drift south, naming St Louis, the Ohio's mouth at Cairo, and the Arkansas bank."
@@ -587,7 +587,7 @@
       "at": "st-petersburg",
       "chapter": 1,
       "title": "A boy in a river town",
-      "narration": "Meet Huck Finn — poor, unschooled, and good-hearted — in the little Mississippi town of St Petersburg. Newly rich from a treasure and half-heartedly being 'sivilized' by the Widow Douglas, he is hunted by his drunken father, who wants the money and locks him up.",
+      "narration": "Meet Huck Finn - poor, unschooled, and good-hearted - in the little Mississippi town of St Petersburg. Newly rich from a treasure and half-heartedly being 'sivilized' by the Widow Douglas, he is hunted by his drunken father, who wants the money and locks him up.",
       "day": 0
     },
     {
@@ -604,7 +604,7 @@
       "from": "st-petersburg",
       "to": "jacksons-island",
       "chapter": 8,
-      "narration": "On the island he finds Jim, who has run from Miss Watson rather than be sold south, away from his wife and children. Two runaways, they throw in together — and it is a hanging matter to help him."
+      "narration": "On the island he finds Jim, who has run from Miss Watson rather than be sold south, away from his wife and children. Two runaways, they throw in together - and it is a hanging matter to help him."
     },
     {
       "kind": "scene",
@@ -612,7 +612,7 @@
       "at": "jacksons-island",
       "chapter": 11,
       "title": "The hunt closes in",
-      "narration": "They make the island home — until Huck, slipping into town in disguise, hears that men mean to hunt the island for Jim that very night. They load a raft and shove off into the dark current.",
+      "narration": "They make the island home - until Huck, slipping into town in disguise, hears that men mean to hunt the island for Jim that very night. They load a raft and shove off into the dark current.",
       "day": 6
     },
     {
@@ -624,7 +624,7 @@
       "from": "jacksons-island",
       "to": "cairo",
       "chapter": 15,
-      "narration": "Downriver they go, hiding by day, floating by night — no home like a raft, and the two of them free and easy on the water. The plan: reach Cairo, sell the raft, and take a steamboat up the Ohio to the free States."
+      "narration": "Downriver they go, hiding by day, floating by night - no home like a raft, and the two of them free and easy on the water. The plan: reach Cairo, sell the raft, and take a steamboat up the Ohio to the free States."
     },
     {
       "kind": "scene",
@@ -632,7 +632,7 @@
       "at": "cairo",
       "chapter": 16,
       "title": "Cairo, missed in the fog",
-      "narration": "But a thick fog swallows the river, and they slip past Cairo without ever seeing it. With the Ohio's mouth goes Jim's road north — and the current carries them on, the wrong way, deeper into slave country.",
+      "narration": "But a thick fog swallows the river, and they slip past Cairo without ever seeing it. With the Ohio's mouth goes Jim's road north - and the current carries them on, the wrong way, deeper into slave country.",
       "day": 21
     },
     {
@@ -652,7 +652,7 @@
       "at": "grangerford-place",
       "chapter": 18,
       "title": "The feud",
-      "narration": "The Grangerfords take him in — courtly, cultured, and locked in a generations-old feud with the Shepherdsons that ends, before Huck's eyes, in a killing on the riverbank. Sick at heart, he finds Jim and the mended raft, and they slip away.",
+      "narration": "The Grangerfords take him in - courtly, cultured, and locked in a generations-old feud with the Shepherdsons that ends, before Huck's eyes, in a killing on the riverbank. Sick at heart, he finds Jim and the mended raft, and they slip away.",
       "day": 25.4
     },
     {
@@ -664,7 +664,7 @@
       "from": "grangerford-place",
       "to": "bricksville",
       "chapter": 21,
-      "narration": "Back to the river and its peace — until two con men, a self-styled duke and a lost 'king', paddle out, climb aboard, and make the raft their own."
+      "narration": "Back to the river and its peace - until two con men, a self-styled duke and a lost 'king', paddle out, climb aboard, and make the raft their own."
     },
     {
       "kind": "scene",
@@ -692,7 +692,7 @@
       "at": "wilks-town",
       "chapter": 28,
       "title": "Huck turns",
-      "narration": "Sickened by their cruelty to the kind Wilks girls, Huck turns against the frauds, hides the stolen gold, and helps expose them — then barely makes it back to the raft as the town boils over.",
+      "narration": "Sickened by their cruelty to the kind Wilks girls, Huck turns against the frauds, hides the stolen gold, and helps expose them - then barely makes it back to the raft as the town boils over.",
       "day": 41.4
     },
     {
@@ -704,7 +704,7 @@
       "from": "wilks-town",
       "to": "phelps-farm",
       "chapter": 31,
-      "narration": "Then the king does the unforgivable and sells Jim for forty dollars. Huck traces him to the Phelps farm, deep in the cotton country — and there, alone, he must choose."
+      "narration": "Then the king does the unforgivable and sells Jim for forty dollars. Huck traces him to the Phelps farm, deep in the cotton country - and there, alone, he must choose."
     },
     {
       "kind": "scene",
@@ -712,7 +712,7 @@
       "at": "phelps-farm",
       "chapter": 31,
       "title": "'I'll go to hell'",
-      "narration": "Huck writes the letter that would hand Jim back to slavery — then remembers Jim's watch-keeping and kindness on the river, tears it up, and chooses his friend over his own soul: 'All right, then, I'll go to hell.' It is the moral heart of the book.",
+      "narration": "Huck writes the letter that would hand Jim back to slavery - then remembers Jim's watch-keeping and kindness on the river, tears it up, and chooses his friend over his own soul: 'All right, then, I'll go to hell.' It is the moral heart of the book.",
       "day": 52
     },
     {
@@ -721,7 +721,7 @@
       "at": "phelps-farm",
       "chapter": 43,
       "title": "Free, and lighting out",
-      "narration": "By chance the farm belongs to Tom Sawyer's relatives, who take Huck for Tom. Tom turns Jim's rescue into a game — until word comes that Miss Watson had freed Jim in her will. Huck, dreading being 'sivilized' again, means to light out for the Territory.",
+      "narration": "By chance the farm belongs to Tom Sawyer's relatives, who take Huck for Tom. Tom turns Jim's rescue into a game - until word comes that Miss Watson had freed Jim in her will. Huck, dreading being 'sivilized' again, means to light out for the Territory.",
       "day": 60
     }
   ]

@@ -3,7 +3,7 @@
   "author": "Miguel de Cervantes",
   "year": 1605,
   "gutenbergId": 996,
-  "overture": "Spain, the turn of the seventeenth century. An elderly gentleman of La Mancha reads so many books of chivalry that his wits dry up, and he rides out as a knight-errant — 'Don Quixote' — to revive a golden age that never was, with the farm-labourer Sancho Panza as his squire. He charges windmills he swears are giants and storms inns he takes for castles. The map can only ever draw what is really there, and so becomes the sane witness to his madness: three sallies across Spain, from the plains of La Mancha to the beach at Barcelona, and home at last to see the world as it is.",
+  "overture": "Spain, the turn of the seventeenth century. An elderly gentleman of La Mancha reads so many books of chivalry that his wits dry up, and he rides out as a knight-errant - 'Don Quixote' - to revive a golden age that never was, with the farm-labourer Sancho Panza as his squire. He charges windmills he swears are giants and storms inns he takes for castles. The map can only ever draw what is really there, and so becomes the sane witness to his madness: three sallies across Spain, from the plains of La Mancha to the beach at Barcelona, and home at last to see the world as it is.",
   "mapHome": {
     "bounds": [[-4.7, 38.2], [2.7, 42.1]]
   },
@@ -15,16 +15,16 @@
   },
   "sources": [
     "The novel is undated: two Parts (1605, 1615) that play out over the course of the knight's three sallies, with no calendar to anchor them. The clock here runs in stages of the journey, not in years.",
-    "Cervantes writes a deliberately doubled geography. The famous places are pinned to real, nameable ground — El Toboso, the Sierra Morena, the river Ebro, Barcelona — while the home village is pointedly left un-named ('the name of which I have no desire to call to mind') and the inns and the Duke's palace are generic or withheld.",
+    "Cervantes writes a deliberately doubled geography. The famous places are pinned to real, nameable ground - El Toboso, the Sierra Morena, the river Ebro, Barcelona - while the home village is pointedly left un-named ('the name of which I have no desire to call to mind') and the inns and the Duke's palace are generic or withheld.",
     "Where the text refuses a name, the map uses the standing scholarly identifications and marks them conjectured or identified: Argamasilla de Alba for the home village; the windmills of Campo de Criptana for 'the giants'; the Cueva de Montesinos near Ossa de Montiel; Alcalá de Ebro for Sancho's landlocked 'island' of Barataria; the Villahermosa lands near Pedrola for the Duke's palace.",
-    "The point of the book, and of this map, is the gap between what the knight perceives and what is really there. Wherever the map can draw the truth under his delusion — the windmills beneath 'the giants', the inn beneath 'the castle', the barber's basin beneath 'Mambrino's helmet' — it does, and the place-card carries both.",
+    "The point of the book, and of this map, is the gap between what the knight perceives and what is really there. Wherever the map can draw the truth under his delusion - the windmills beneath 'the giants', the inn beneath 'the castle', the barber's basin beneath 'Mambrino's helmet' - it does, and the place-card carries both.",
     "The interpolated inn-told tales (Cardenio and Dorotea, the Curious Impertinent, the Captive's tale) are story-within-story digressions, not journeys, and are kept off the map. English text: John Ormsby's 1885 translation (Project Gutenberg #996)."
   ],
   "regions": [
-    { "id": "la-mancha", "name": "La Mancha — the plains of home" },
+    { "id": "la-mancha", "name": "La Mancha - the plains of home" },
     { "id": "sierra-morena", "name": "The Sierra Morena" },
-    { "id": "aragon", "name": "Aragon — the Ebro and the Duke" },
-    { "id": "catalonia", "name": "Catalonia — the sea, and the reckoning" }
+    { "id": "aragon", "name": "Aragon - the Ebro and the Duke" },
+    { "id": "catalonia", "name": "Catalonia - the sea, and the reckoning" }
   ],
   "chapters": [
     { "n": 1, "title": "The first sally", "day": 0, "when": "the gentleman turns knight" },
@@ -42,7 +42,7 @@
       "name": "Don Quixote",
       "colour": "sienna",
       "initials": "Q",
-      "role": "The gentleman of La Mancha turned knight-errant — who sees giants, castles and armies where the map can only draw windmills, inns and sheep",
+      "role": "The gentleman of La Mancha turned knight-errant - who sees giants, castles and armies where the map can only draw windmills, inns and sheep",
       "start": { "location": "quixote-home-village", "chapter": 1 }
     },
     {
@@ -50,7 +50,7 @@
       "name": "Sancho Panza",
       "colour": "ochre",
       "initials": "S",
-      "role": "The farm-labourer he takes as his squire — earthbound, proverb-stuffed, and forever telling his master what is really there",
+      "role": "The farm-labourer he takes as his squire - earthbound, proverb-stuffed, and forever telling his master what is really there",
       "start": { "location": "quixote-home-village", "chapter": 2 }
     }
   ],
@@ -62,8 +62,8 @@
       "novelName": "A village of La Mancha",
       "coords": [-3.098, 39.129],
       "certainty": "conjectured",
-      "note": "Cervantes pointedly refuses to name the village. Argamasilla de Alba is the long-standing traditional identification, hence conjectured — the refusal to name it is itself the first joke of the book.",
-      "story": "The knight's starting and ending point. He rides out from here on each of his three sallies, and is carried back here each time — the last time to regain his wits and die.",
+      "note": "Cervantes pointedly refuses to name the village. Argamasilla de Alba is the long-standing traditional identification, hence conjectured - the refusal to name it is itself the first joke of the book.",
+      "story": "The knight's starting and ending point. He rides out from here on each of his three sallies, and is carried back here each time - the last time to regain his wits and die.",
       "quote": "In a village of La Mancha, the name of which I have no desire to call to mind",
       "quoteRef": "Part I, ch. 1",
       "imageBlank": "Cervantes refuses to name the village, and Argamasilla is only the traditional guess; a photograph of any real town would give a false precision to a place the book keeps deliberately blank."
@@ -79,7 +79,7 @@
       "story": "On the first sally, alone, he mistakes a common inn for a castle and its serving-girls for noble ladies; the amused innkeeper 'dubs' him a knight in a mock ceremony over the horse-trough.",
       "quote": "the moment he saw the inn he pictured it to himself as a castle with its four turrets",
       "quoteRef": "Part I, ch. 2",
-      "imageBlank": "An unnamed, unlocated common inn; there is no real building to photograph, and a stock venta would fake a specificity the text withholds — the whole point is that the castle exists only in his head."
+      "imageBlank": "An unnamed, unlocated common inn; there is no real building to photograph, and a stock venta would fake a specificity the text withholds - the whole point is that the castle exists only in his head."
     },
     {
       "id": "campo-de-criptana",
@@ -89,10 +89,10 @@
       "coords": [-3.126, 39.406],
       "certainty": "identified",
       "note": "The plain of Campo de Criptana is the long-standing identification for the 'thirty or forty windmills' of the most famous scene; the windmills still stand.",
-      "story": "The defining delusion. He charges the windmills as monstrous giants, and a turning sail catches his lance and flings him and Rocinante across the plain — while Sancho, beside him, sees only windmills.",
+      "story": "The defining delusion. He charges the windmills as monstrous giants, and a turning sail catches his lance and flings him and Rocinante across the plain - while Sancho, beside him, sees only windmills.",
       "quote": "where thirty or more monstrous giants present themselves, all of whom I mean to engage in battle",
       "quoteRef": "Part I, ch. 8",
-      "imageBlank": "The windmills are the one image everyone pictures — but no public-domain period photograph of them exists; every photograph of the Campo de Criptana or Consuegra mills is modern. Better an honest blank than a picture of something else (the one period option, a 1901 Vierge drawing, shows the town square, not the mills)."
+      "imageBlank": "The windmills are the one image everyone pictures - but no public-domain period photograph of them exists; every photograph of the Campo de Criptana or Consuegra mills is modern. Better an honest blank than a picture of something else (the one period option, a 1901 Vierge drawing, shows the town square, not the mills)."
     },
     {
       "id": "puerto-lapice",
@@ -101,7 +101,7 @@
       "novelName": "Puerto Lápice",
       "coords": [-3.49, 39.331],
       "certainty": "real",
-      "note": "A real named pass and waypoint they make for straight after the windmills; the map's anchor for the great Part I inn — the one Quixote insists is a castle — and the road of the sheep-armies and the barber's-basin dispute.",
+      "note": "A real named pass and waypoint they make for straight after the windmills; the map's anchor for the great Part I inn - the one Quixote insists is a castle - and the road of the sheep-armies and the barber's-basin dispute.",
       "story": "The road and inn where the delusions come thick: two flocks of sheep he takes for warring armies, a barber's brass basin he wins and wears as Mambrino's golden helmet, and an inn he insists to the last is a castle.",
       "quote": "it looks exactly like a regular barber's basin",
       "quoteRef": "Part I, ch. 21",
@@ -115,7 +115,7 @@
       "coords": [-3.65, 38.95],
       "certainty": "conjectured",
       "note": "The batanes episode happens by an unnamed stream in the dark; no spot is given. Placed on the road south from Puerto Lápice toward the Sierra Morena.",
-      "story": "The purest form of the whole joke, after the windmills. In pitch dark a terrible rhythmic pounding stops the pair cold; Quixote arms for a monstrous battle and the terrified Sancho hobbles Rocinante so he cannot charge. At dawn the monster is revealed — six wooden fulling-hammers, thumping cloth in a mill.",
+      "story": "The purest form of the whole joke, after the windmills. In pitch dark a terrible rhythmic pounding stops the pair cold; Quixote arms for a monstrous battle and the terrified Sancho hobbles Rocinante so he cannot charge. At dawn the monster is revealed - six wooden fulling-hammers, thumping cloth in a mill.",
       "quote": "six fulling hammers which by their alternate strokes made all the din",
       "quoteRef": "Part I, ch. 20",
       "imageBlank": "The batanes episode happens by an unnamed stream in the dark; there is no real spot to photograph, and any mill would only pretend to be the one that terrified them."
@@ -128,12 +128,12 @@
       "coords": [-3.8, 38.55],
       "certainty": "real",
       "note": "The real mountain range; the exact spot of the penance is unnamed. A representative point is placed in the heart of the sierra.",
-      "story": "The wild mountains where Quixote strips to his shirt and does mad love-penance in imitation of Amadís of Gaul — and sends Sancho off with a letter to Dulcinea, the first time master and squire part.",
+      "story": "The wild mountains where Quixote strips to his shirt and does mad love-penance in imitation of Amadís of Gaul - and sends Sancho off with a letter to Dulcinea, the first time master and squire part.",
       "quote": "they reached the very heart of the Sierra Morena",
       "quoteRef": "Part I, ch. 23",
       "image": {
         "file": "assets/images/dq-sierra-morena.jpg",
-        "caption": "The Despeñaperros pass through the Sierra Morena — Carlos de Haes, c.1862",
+        "caption": "The Despeñaperros pass through the Sierra Morena - Carlos de Haes, c.1862",
         "credit": "Carlos de Haes, c.1862 · Museo del Prado / Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -146,7 +146,7 @@
       "coords": [-3.006, 39.516],
       "certainty": "real",
       "note": "A real La Mancha village, the supposed home of the imagined lady Dulcinea.",
-      "story": "The home of Quixote's invented lady. In Part II they hunt for her palace by night and find only a peasant girl on a donkey — whom Sancho, this time, passes off as the enchanted Dulcinea. Here the squire manufactures the delusion.",
+      "story": "The home of Quixote's invented lady. In Part II they hunt for her palace by night and find only a peasant girl on a donkey - whom Sancho, this time, passes off as the enchanted Dulcinea. Here the squire manufactures the delusion.",
       "quote": "the peerless Dulcinea del Toboso",
       "quoteRef": "Part I, ch. 25",
       "image": {
@@ -163,7 +163,7 @@
       "coords": [-2.867, 38.933],
       "certainty": "identified",
       "note": "A real cave in the Lagunas de Ruidera district, near Ossa de Montiel, which the text names directly.",
-      "story": "Lowered on a long rope into a real cave, he comes up claiming an enchanted underground vision of Montesinos, Durandarte and a spellbound Dulcinea. The one delusion the book itself will not resolve — dream, invention, or true — and the one with no witness to correct him.",
+      "story": "Lowered on a long rope into a real cave, he comes up claiming an enchanted underground vision of Montesinos, Durandarte and a spellbound Dulcinea. The one delusion the book itself will not resolve - dream, invention, or true - and the one with no witness to correct him.",
       "quote": "the sweetest and most delightful existence and spectacle that ever human being enjoyed or beheld",
       "quoteRef": "Part II, ch. 23",
       "image": {
@@ -185,7 +185,7 @@
       "quoteRef": "Part II, ch. 29",
       "image": {
         "file": "assets/images/dq-ebro.jpg",
-        "caption": "The river Ebro at Zaragoza, a boat at the bank below the basilica of El Pilar — photochrom, c.1900",
+        "caption": "The river Ebro at Zaragoza, a boat at the bank below the basilica of El Pilar - photochrom, c.1900",
         "credit": "Photoglob Co., c.1900 · Library of Congress / Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -197,8 +197,8 @@
       "novelName": "The Duke's castle",
       "coords": [-1.22, 41.77],
       "certainty": "conjectured",
-      "note": "Cervantes never names the estate; scholars link the bored aristocrats to the Villahermosa lands near Pedrola. The one 'castle' in the book that really is a great house — so here the map has nothing to correct.",
-      "story": "The Aragonese palace where two bored aristocrats, who have read Part I, stage elaborate jokes on the pair: the wooden flying-horse Clavileño, the 'disenchantment' of Dulcinea, the feigned love of Altisidora — and the promise of an island for Sancho to govern.",
+      "note": "Cervantes never names the estate; scholars link the bored aristocrats to the Villahermosa lands near Pedrola. The one 'castle' in the book that really is a great house - so here the map has nothing to correct.",
+      "story": "The Aragonese palace where two bored aristocrats, who have read Part I, stage elaborate jokes on the pair: the wooden flying-horse Clavileño, the 'disenchantment' of Dulcinea, the feigned love of Altisidora - and the promise of an island for Sancho to govern.",
       "quote": "he thoroughly felt and believed himself to be a knight-errant in reality and not merely in fancy",
       "quoteRef": "Part II, ch. 31",
       "imageBlank": "Cervantes never names the estate; the Pedrola identification is scholarly conjecture, so a photograph of any real palace would over-fix an invented one."
@@ -223,13 +223,13 @@
       "novelName": "Barcelona",
       "coords": [2.173, 41.385],
       "certainty": "real",
-      "note": "The journey's easternmost point, and the end of knight-errantry; all of it — the sea, the city, the beach — real and named.",
-      "story": "On the shore, Quixote is unhorsed by the 'Knight of the White Moon' — his neighbour Sansón Carrasco in disguise — and bound by oath to lay down his arms and go home for a year. The first place the map has nothing left to correct.",
+      "note": "The journey's easternmost point, and the end of knight-errantry; all of it - the sea, the city, the beach - real and named.",
+      "story": "On the shore, Quixote is unhorsed by the 'Knight of the White Moon' - his neighbour Sansón Carrasco in disguise - and bound by oath to lay down his arms and go home for a year. The first place the map has nothing left to correct.",
       "quote": "he hurled Don Quixote and Rocinante to the earth, a perilous fall",
       "quoteRef": "Part II, ch. 64",
       "image": {
         "file": "assets/images/dq-barcelona.jpg",
-        "caption": "Barcelona's harbour front at the Plaça de la Pau, the Columbus monument and the customs house — photochrom, c.1900",
+        "caption": "Barcelona's harbour front at the Plaça de la Pau, the Columbus monument and the customs house - photochrom, c.1900",
         "credit": "Photoglob Co., c.1900 · Library of Congress / Wikimedia Commons · public domain"
       }
     }
@@ -263,7 +263,7 @@
       "mode": "horse",
       "startDay": 45,
       "days": 3,
-      "note": "The second sally, and the real one: knight and squire ride out together onto the plain — Quixote on Rocinante, Sancho on his ass, dreaming of the island he has been promised."
+      "note": "The second sally, and the real one: knight and squire ride out together onto the plain - Quixote on Rocinante, Sancho on his ass, dreaming of the island he has been promised."
     },
     {
       "character": ["quixote", "sancho"],
@@ -288,7 +288,7 @@
       ],
       "routeCertainty": "illustrative",
       "routeSource": "The second-sally road south is only loosely traceable; drawn as a gesture off the Camino Real into wilder country toward the sierra.",
-      "note": "Off the main road into emptier country, making for the passes of the Sierra Morena — and a night camp by a stream in the dark."
+      "note": "Off the main road into emptier country, making for the passes of the Sierra Morena - and a night camp by a stream in the dark."
     },
     {
       "character": ["quixote", "sancho"],
@@ -303,7 +303,7 @@
       ],
       "routeCertainty": "illustrative",
       "routeSource": "Drawn as a gesture on up into the range; the galley-slaves adventure falls on this stretch.",
-      "note": "Climbing on toward the heights, where he frees a chain of convicts bound for the king's galleys as though they were oppressed knights — and, freed, they stone and rob him."
+      "note": "Climbing on toward the heights, where he frees a chain of convicts bound for the king's galleys as though they were oppressed knights - and, freed, they stone and rob him."
     },
     {
       "character": "sancho",
@@ -313,7 +313,7 @@
       "mode": "horse",
       "startDay": 85,
       "days": 13,
-      "note": "The first parting: Sancho is sent down toward El Toboso with a love-letter for Dulcinea, leaving his master half-naked among the rocks. But he never reaches it — the curate and barber intercept him on the road and bring him to the inn, where the threads knot together again. In the book he gets no further than the inn."
+      "note": "The first parting: Sancho is sent down toward El Toboso with a love-letter for Dulcinea, leaving his master half-naked among the rocks. But he never reaches it - the curate and barber intercept him on the road and bring him to the inn, where the threads knot together again. In the book he gets no further than the inn."
     },
     {
       "character": "quixote",
@@ -333,7 +333,7 @@
       "mode": "coach",
       "startDay": 120,
       "days": 5,
-      "note": "Convinced he is under an enchantment, Quixote lets himself be shut in a wooden cage on an ox-cart and hauled home — the strangest homecoming in the book, and the end of the first Part."
+      "note": "Convinced he is under an enchantment, Quixote lets himself be shut in a wooden cage on an ox-cart and hauled home - the strangest homecoming in the book, and the end of the first Part."
     },
     {
       "character": ["quixote", "sancho"],
@@ -343,7 +343,7 @@
       "mode": "horse",
       "startDay": 305,
       "days": 3,
-      "note": "The third sally. Out again, eastward, to seek the blessing of the lady Dulcinea before any new adventures — starting with the village of El Toboso itself."
+      "note": "The third sally. Out again, eastward, to seek the blessing of the lady Dulcinea before any new adventures - starting with the village of El Toboso itself."
     },
     {
       "character": ["quixote", "sancho"],
@@ -399,7 +399,7 @@
       "mode": "horse",
       "startDay": 392,
       "days": 4,
-      "note": "Ten days of shrewd, plain-spoken justice, a night of manufactured 'war', and Sancho has had enough of governing. He gives it up and rides back — meeting on the road his old neighbour Ricote, a Morisco stealing home from exile."
+      "note": "Ten days of shrewd, plain-spoken justice, a night of manufactured 'war', and Sancho has had enough of governing. He gives it up and rides back - meeting on the road his old neighbour Ricote, a Morisco stealing home from exile."
     },
     {
       "character": ["quixote", "sancho"],
@@ -414,8 +414,8 @@
         [1.2, 41.5]
       ],
       "routeCertainty": "illustrative",
-      "routeSource": "They ride east to the coast 'without touching upon Saragossa' (Part II, ch. 59) — Cervantes swerving his hero away from a counterfeit sequel. Drawn as a gesture across Aragon into Catalonia and down to the sea.",
-      "note": "Reunited, they turn east — deliberately avoiding Saragossa — and cross into Catalonia, coming down at last out of the hills to the sea and the city of Barcelona."
+      "routeSource": "They ride east to the coast 'without touching upon Saragossa' (Part II, ch. 59) - Cervantes swerving his hero away from a counterfeit sequel. Drawn as a gesture across Aragon into Catalonia and down to the sea.",
+      "note": "Reunited, they turn east - deliberately avoiding Saragossa - and cross into Catalonia, coming down at last out of the hills to the sea and the city of Barcelona."
     },
     {
       "character": ["quixote", "sancho"],
@@ -432,7 +432,7 @@
       ],
       "routeCertainty": "illustrative",
       "routeSource": "The defeated ride home retraces the way west across Aragon and back into La Mancha; untraced in detail, drawn as a gesture.",
-      "note": "Beaten and bound by his oath, Quixote rides the long road home a broken man — and reaches his village only to take to his bed, shed the madness, and die himself again as plain Alonso Quixano."
+      "note": "Beaten and bound by his oath, Quixote rides the long road home a broken man - and reaches his village only to take to his bed, shed the madness, and die himself again as plain Alonso Quixano."
     }
   ],
   "story": [
@@ -451,7 +451,7 @@
       "from": "quixote-home-village",
       "to": "knighting-inn",
       "chapter": 1,
-      "narration": "At dawn, alone and unannounced, he sets out across the plain — fretting, as he goes, that he has never actually been dubbed a knight, and so can right no wrongs until someone makes him one."
+      "narration": "At dawn, alone and unannounced, he sets out across the plain - fretting, as he goes, that he has never actually been dubbed a knight, and so can right no wrongs until someone makes him one."
     },
     {
       "kind": "scene",
@@ -468,7 +468,7 @@
       "from": "knighting-inn",
       "to": "quixote-home-village",
       "chapter": 1,
-      "narration": "Riding out to right his first wrong, he is set upon by a party of merchants who take offence at his ravings, and beaten senseless — then found in the dust and carried home across a neighbour's donkey."
+      "narration": "Riding out to right his first wrong, he is set upon by a party of merchants who take offence at his ravings, and beaten senseless - then found in the dust and carried home across a neighbour's donkey."
     },
     {
       "kind": "scene",
@@ -476,7 +476,7 @@
       "at": "quixote-home-village",
       "chapter": 1,
       "title": "The books burned",
-      "narration": "While he sleeps off his bruises, the village curate and barber ransack his library and burn the books of chivalry they blame for his madness — then wall up the room and tell him an enchanter has spirited it away.",
+      "narration": "While he sleeps off his bruises, the village curate and barber ransack his library and burn the books of chivalry they blame for his madness - then wall up the room and tell him an enchanter has spirited it away.",
       "day": 15
     },
     {
@@ -494,7 +494,7 @@
       "from": "quixote-home-village",
       "to": "campo-de-criptana",
       "chapter": 2,
-      "narration": "The second sally, and the real one. Knight and squire ride out together onto the plain of Montiel — Quixote on Rocinante, Sancho on his grey ass — the two of them side by side on the same road at last."
+      "narration": "The second sally, and the real one. Knight and squire ride out together onto the plain of Montiel - Quixote on Rocinante, Sancho on his grey ass - the two of them side by side on the same road at last."
     },
     {
       "kind": "scene",
@@ -502,7 +502,7 @@
       "at": "campo-de-criptana",
       "chapter": 2,
       "title": "The giants",
-      "narration": "He sees thirty or forty monstrous giants across the plain and charges, lance couched. Sancho shouts that they are windmills — and a turning sail catches the lance and hurls horse and man across the field. On the map: the windmills of Campo de Criptana.",
+      "narration": "He sees thirty or forty monstrous giants across the plain and charges, lance couched. Sancho shouts that they are windmills - and a turning sail catches the lance and hurls horse and man across the field. On the map: the windmills of Campo de Criptana.",
       "day": 50
     },
     {
@@ -511,7 +511,7 @@
       "from": "campo-de-criptana",
       "to": "puerto-lapice",
       "chapter": 2,
-      "narration": "Battered but undaunted — a wizard, he explains, turned the giants to windmills at the last moment to cheat him of glory — he rides on with Sancho toward the pass of Puerto Lápice."
+      "narration": "Battered but undaunted - a wizard, he explains, turned the giants to windmills at the last moment to cheat him of glory - he rides on with Sancho toward the pass of Puerto Lápice."
     },
     {
       "kind": "scene",
@@ -528,7 +528,7 @@
       "from": "puerto-lapice",
       "to": "fulling-mills",
       "chapter": 3,
-      "narration": "They turn south-west off the main road into wilder, emptier country, making for the passes of the Sierra Morena — and are caught by night beside a stream, in pitch darkness, by a terrible rhythmic pounding out of the black."
+      "narration": "They turn south-west off the main road into wilder, emptier country, making for the passes of the Sierra Morena - and are caught by night beside a stream, in pitch darkness, by a terrible rhythmic pounding out of the black."
     },
     {
       "kind": "scene",
@@ -545,7 +545,7 @@
       "from": "fulling-mills",
       "to": "sierra-morena",
       "chapter": 3,
-      "narration": "Climbing on toward the heights, he frees a chain of convicts bound for the king's galleys, taking them for oppressed gentlemen — and, freed, they stone and rob him, and the two flee up into the sierra."
+      "narration": "Climbing on toward the heights, he frees a chain of convicts bound for the king's galleys, taking them for oppressed gentlemen - and, freed, they stone and rob him, and the two flee up into the sierra."
     },
     {
       "kind": "scene",
@@ -553,7 +553,7 @@
       "at": "sierra-morena",
       "chapter": 3,
       "title": "The penance",
-      "narration": "Deep in the mountains, Quixote decides a true knight must go mad for love. He strips to his shirt, turns cartwheels among the rocks, and settles to frenzied penance for Dulcinea — a lady he has scarcely met, and who has never heard his name.",
+      "narration": "Deep in the mountains, Quixote decides a true knight must go mad for love. He strips to his shirt, turns cartwheels among the rocks, and settles to frenzied penance for Dulcinea - a lady he has scarcely met, and who has never heard his name.",
       "day": 80
     },
     {
@@ -562,12 +562,12 @@
       "from": "sierra-morena",
       "to": "puerto-lapice",
       "chapter": 3,
-      "narration": "The first parting. He sends Sancho down out of the sierra toward El Toboso with a letter for Dulcinea, and stays alone among the rocks. On the map the threads pull apart for the first time — though Sancho, in the event, gets no further than the inn."
+      "narration": "The first parting. He sends Sancho down out of the sierra toward El Toboso with a letter for Dulcinea, and stays alone among the rocks. On the map the threads pull apart for the first time - though Sancho, in the event, gets no further than the inn."
     },
     {
       "kind": "meanwhile",
       "chapter": 4,
-      "narration": "Meanwhile, the curate and barber set out to fetch their neighbour home — and fall in with Dorotea, a wronged girl who agrees to play a distressed princess and lure the knight down out of the mountains. On the road they turn Sancho back to the inn too."
+      "narration": "Meanwhile, the curate and barber set out to fetch their neighbour home - and fall in with Dorotea, a wronged girl who agrees to play a distressed princess and lure the knight down out of the mountains. On the road they turn Sancho back to the inn too."
     },
     {
       "kind": "journey",
@@ -575,7 +575,7 @@
       "from": "sierra-morena",
       "to": "puerto-lapice",
       "chapter": 4,
-      "narration": "It works. Persuaded that a princess in distress needs his sword, Quixote comes down out of the sierra and rides with the disguised party back toward the inn at Puerto Lápice — where Sancho is waiting."
+      "narration": "It works. Persuaded that a princess in distress needs his sword, Quixote comes down out of the sierra and rides with the disguised party back toward the inn at Puerto Lápice - where Sancho is waiting."
     },
     {
       "kind": "scene",
@@ -583,7 +583,7 @@
       "at": "puerto-lapice",
       "chapter": 4,
       "title": "The inn, again",
-      "narration": "At the inn the strands all knot together — curate, barber, princess, squire. In the night Quixote does battle with a monstrous giant and beheads him; by morning it is a punctured wineskin, and the floor swims with red wine.",
+      "narration": "At the inn the strands all knot together - curate, barber, princess, squire. In the night Quixote does battle with a monstrous giant and beheads him; by morning it is a punctured wineskin, and the floor swims with red wine.",
       "day": 110
     },
     {
@@ -592,7 +592,7 @@
       "from": "puerto-lapice",
       "to": "quixote-home-village",
       "chapter": 4,
-      "narration": "There is only one way to get him home. Convinced he is enchanted, Quixote submits to being shut in a wooden cage on a slow ox-cart, and is trundled back across La Mancha — where the first Part of his history ends."
+      "narration": "There is only one way to get him home. Convinced he is enchanted, Quixote submits to being shut in a wooden cage on a slow ox-cart, and is trundled back across La Mancha - where the first Part of his history ends."
     },
     {
       "kind": "scene",
@@ -600,7 +600,7 @@
       "at": "quixote-home-village",
       "chapter": 4,
       "title": "The end of the first Part",
-      "narration": "Home, caged and 'enchanted', he is put to bed to mend, and for a while the madness sleeps. Thus the first Part closes — the knight defeated only by his own friends, and only for his own good.",
+      "narration": "Home, caged and 'enchanted', he is put to bed to mend, and for a while the madness sleeps. Thus the first Part closes - the knight defeated only by his own friends, and only for his own good.",
       "day": 130
     },
     {
@@ -609,7 +609,7 @@
       "at": "quixote-home-village",
       "chapter": 5,
       "title": "Out a third time",
-      "narration": "A month or more later the fire returns. A young graduate, Sansón Carrasco — who has, absurdly, read the printed history of Part One — eggs him on, meaning to follow in disguise and defeat him home. Quixote and Sancho saddle up a third time.",
+      "narration": "A month or more later the fire returns. A young graduate, Sansón Carrasco - who has, absurdly, read the printed history of Part One - eggs him on, meaning to follow in disguise and defeat him home. Quixote and Sancho saddle up a third time.",
       "day": 300
     },
     {
@@ -618,7 +618,7 @@
       "from": "quixote-home-village",
       "to": "el-toboso",
       "chapter": 5,
-      "narration": "Out again, north-east. This time he means to do the proper thing first, and seek his lady's blessing before any adventure — so they ride straight for the village of El Toboso itself."
+      "narration": "Out again, north-east. This time he means to do the proper thing first, and seek his lady's blessing before any adventure - so they ride straight for the village of El Toboso itself."
     },
     {
       "kind": "scene",
@@ -626,7 +626,7 @@
       "at": "el-toboso",
       "chapter": 5,
       "title": "Looking for Dulcinea",
-      "narration": "By night they hunt for Dulcinea's palace and find only dark alleys and a church. Cornered, Sancho points at the first farm-girl to pass on a donkey and swears she is Dulcinea, enchanted into coarseness — and the master, for once, is the one deceived.",
+      "narration": "By night they hunt for Dulcinea's palace and find only dark alleys and a church. Cornered, Sancho points at the first farm-girl to pass on a donkey and swears she is Dulcinea, enchanted into coarseness - and the master, for once, is the one deceived.",
       "day": 310
     },
     {
@@ -635,7 +635,7 @@
       "from": "el-toboso",
       "to": "cave-of-montesinos",
       "chapter": 5,
-      "narration": "Troubled by his lady's 'enchantment', he rides on — making a keeper open a caged lion bound for the King, which only yawns and turns away. Newly self-styled 'Knight of the Lions', he comes to the cave of Montesinos, and is lowered into the dark on a rope."
+      "narration": "Troubled by his lady's 'enchantment', he rides on - making a keeper open a caged lion bound for the King, which only yawns and turns away. Newly self-styled 'Knight of the Lions', he comes to the cave of Montesinos, and is lowered into the dark on a rope."
     },
     {
       "kind": "scene",
@@ -643,7 +643,7 @@
       "at": "cave-of-montesinos",
       "chapter": 5,
       "title": "The cave",
-      "narration": "He comes up an hour later with a marvel: a crystal palace underground, the enchanted knight Montesinos, a spellbound Dulcinea who sends to borrow six reals. A dream? Even the book will not say — the one delusion with no one there to correct it.",
+      "narration": "He comes up an hour later with a marvel: a crystal palace underground, the enchanted knight Montesinos, a spellbound Dulcinea who sends to borrow six reals. A dream? Even the book will not say - the one delusion with no one there to correct it.",
       "day": 320
     },
     {
@@ -652,7 +652,7 @@
       "from": "cave-of-montesinos",
       "to": "ebro-enchanted-boat",
       "chapter": 6,
-      "narration": "Riding north-east toward the Ebro, they stop where a showman works a puppet-play of a Christian escape from the Moors. So swept up he forgets it is pasteboard, Quixote draws his sword and hacks the whole little cast to splinters — then pays, ruefully, for the wreckage."
+      "narration": "Riding north-east toward the Ebro, they stop where a showman works a puppet-play of a Christian escape from the Moors. So swept up he forgets it is pasteboard, Quixote draws his sword and hacks the whole little cast to splinters - then pays, ruefully, for the wreckage."
     },
     {
       "kind": "scene",
@@ -660,7 +660,7 @@
       "at": "ebro-enchanted-boat",
       "chapter": 6,
       "title": "The enchanted bark",
-      "narration": "On the bank of the Ebro he finds a fisherman's boat and declares it an enchanted bark, sent to carry him to a captive knight. He casts off — and the current bears them toward the roaring water-mills he takes for a fortress, until the millers fish them out half-drowned.",
+      "narration": "On the bank of the Ebro he finds a fisherman's boat and declares it an enchanted bark, sent to carry him to a captive knight. He casts off - and the current bears them toward the roaring water-mills he takes for a fortress, until the millers fish them out half-drowned.",
       "day": 350
     },
     {
@@ -669,7 +669,7 @@
       "from": "ebro-enchanted-boat",
       "to": "dukes-palace",
       "chapter": 6,
-      "narration": "Dripping and undefeated, they ride on into Aragon — toward the country palace of a Duke and Duchess who have read the history of their adventures, and are waiting, a whole household briefed, to make sport of them."
+      "narration": "Dripping and undefeated, they ride on into Aragon - toward the country palace of a Duke and Duchess who have read the history of their adventures, and are waiting, a whole household briefed, to make sport of them."
     },
     {
       "kind": "scene",
@@ -677,7 +677,7 @@
       "at": "dukes-palace",
       "chapter": 6,
       "title": "The Duke's castle",
-      "narration": "Here, for once, the castle is real. The bored aristocrats stage marvels — a wooden flying-horse, a bearded 'enchantress', a lovesick maid — and Quixote, taken seriously by great folk at last, is happier and more deluded than ever. Here the map has nothing to correct.",
+      "narration": "Here, for once, the castle is real. The bored aristocrats stage marvels - a wooden flying-horse, a bearded 'enchantress', a lovesick maid - and Quixote, taken seriously by great folk at last, is happier and more deluded than ever. Here the map has nothing to correct.",
       "day": 360
     },
     {
@@ -694,7 +694,7 @@
       "at": "barataria",
       "chapter": 7,
       "title": "Governor Sancho",
-      "narration": "His 'island' is a walled inland town — no sea for miles, the whole thing a prank. But Sancho governs it so shrewdly, judging cases with plain peasant sense, that the joke curdles into something like respect. The map draws a town on dry land.",
+      "narration": "His 'island' is a walled inland town - no sea for miles, the whole thing a prank. But Sancho governs it so shrewdly, judging cases with plain peasant sense, that the joke curdles into something like respect. The map draws a town on dry land.",
       "day": 380
     },
     {
@@ -703,7 +703,7 @@
       "at": "dukes-palace",
       "chapter": 7,
       "title": "Meanwhile, at the palace",
-      "narration": "Meanwhile, back at the palace, Quixote is left to the Duchess's games — a night besieged by a sackful of yowling cats, the maid Altisidora feigning love-sickness for him. Alone without his squire, he is more mocked than honoured.",
+      "narration": "Meanwhile, back at the palace, Quixote is left to the Duchess's games - a night besieged by a sackful of yowling cats, the maid Altisidora feigning love-sickness for him. Alone without his squire, he is more mocked than honoured.",
       "day": 385
     },
     {
@@ -712,7 +712,7 @@
       "from": "barataria",
       "to": "dukes-palace",
       "chapter": 7,
-      "narration": "Ten days of it is enough. Sancho lays down his governorship — 'naked I came to it, and naked I leave it' — and rides back, meeting on the road his old neighbour Ricote, a Morisco slipping home from the exile the King has decreed."
+      "narration": "Ten days of it is enough. Sancho lays down his governorship - 'naked I came to it, and naked I leave it' - and rides back, meeting on the road his old neighbour Ricote, a Morisco slipping home from the exile the King has decreed."
     },
     {
       "kind": "scene",
@@ -729,7 +729,7 @@
       "from": "dukes-palace",
       "to": "barcelona",
       "chapter": 8,
-      "narration": "They turn east for the coast — pointedly avoiding Saragossa, to give the lie to a counterfeit sequel then in the shops — and cross out of Aragon into Catalonia, coming down at last to the sea, and the city of Barcelona."
+      "narration": "They turn east for the coast - pointedly avoiding Saragossa, to give the lie to a counterfeit sequel then in the shops - and cross out of Aragon into Catalonia, coming down at last to the sea, and the city of Barcelona."
     },
     {
       "kind": "scene",
@@ -737,7 +737,7 @@
       "at": "barcelona",
       "chapter": 8,
       "title": "The Knight of the White Moon",
-      "narration": "On the beach a strange knight — the Knight of the White Moon — challenges him and, in a single pass, hurls him and Rocinante to the sand. It is Sansón Carrasco in armour; the price of defeat is that Quixote go home and lay down his arms for a year.",
+      "narration": "On the beach a strange knight - the Knight of the White Moon - challenges him and, in a single pass, hurls him and Rocinante to the sand. It is Sansón Carrasco in armour; the price of defeat is that Quixote go home and lay down his arms for a year.",
       "day": 430
     },
     {
@@ -746,7 +746,7 @@
       "from": "barcelona",
       "to": "quixote-home-village",
       "chapter": 8,
-      "narration": "There is no arguing with a lance. Beaten and bound by his word, Quixote turns for home — the long road back across Aragon and into La Mancha — growing quieter with every mile, the knight-errantry draining out of him."
+      "narration": "There is no arguing with a lance. Beaten and bound by his word, Quixote turns for home - the long road back across Aragon and into La Mancha - growing quieter with every mile, the knight-errantry draining out of him."
     },
     {
       "kind": "scene",
@@ -754,7 +754,7 @@
       "at": "quixote-home-village",
       "chapter": 8,
       "title": "Alonso Quixano",
-      "narration": "Home, he takes to his bed, and the madness lifts like a mist. He is plain Alonso Quixano again — sane, gentle, sorry for the whole business — and, having made his will, he dies. The map, which never once saw a giant, has the last word.",
+      "narration": "Home, he takes to his bed, and the madness lifts like a mist. He is plain Alonso Quixano again - sane, gentle, sorry for the whole business - and, having made his will, he dies. The map, which never once saw a giant, has the last word.",
       "day": 460
     }
   ]

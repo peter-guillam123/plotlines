@@ -7,10 +7,10 @@
   "timeline": {
     "epoch": null,
     "calendar": false,
-    "span": "the 17—s, across roughly three years",
+    "span": "the 17-s, across roughly three years",
     "duration": "3 years"
   },
-  "overture": "A ship's captain, frozen in the Arctic ice, takes aboard a dying man with a story to tell. From a house in Geneva to a laboratory in Ingolstadt, across the Alps and down the Rhine, up through England and Scotland to a bare rock in the Orkneys, and at last onto the frozen sea itself — Frankenstein follows a maker and the thing he made, each chasing the other to the top of the world. Two threads run the length of the book; the map plays them together.",
+  "overture": "A ship's captain, frozen in the Arctic ice, takes aboard a dying man with a story to tell. From a house in Geneva to a laboratory in Ingolstadt, across the Alps and down the Rhine, up through England and Scotland to a bare rock in the Orkneys, and at last onto the frozen sea itself - Frankenstein follows a maker and the thing he made, each chasing the other to the top of the world. Two threads run the length of the book; the map plays them together.",
   "regions": [
     {
       "id": "geneva-alps",
@@ -48,159 +48,159 @@
   "chapters": [
     {
       "n": 1,
-      "title": "Letters I–IV — Walton to his sister",
-      "dateInStory": "11 Dec – Aug, 17—",
+      "title": "Letters I–IV - Walton to his sister",
+      "dateInStory": "11 Dec – Aug, 17-",
       "when": "the frame opens",
       "day": 0
     },
     {
       "n": 2,
-      "title": "Chapter 1 — Victor's family; Elizabeth",
+      "title": "Chapter 1 - Victor's family; Elizabeth",
       "when": "his childhood",
       "day": 20
     },
     {
       "n": 3,
-      "title": "Chapter 2 — Boyhood at Belrive; the lightning-struck oak",
+      "title": "Chapter 2 - Boyhood at Belrive; the lightning-struck oak",
       "when": "boyhood",
       "day": 40
     },
     {
       "n": 4,
-      "title": "Chapter 3 — His mother's death; leaving for Ingolstadt",
+      "title": "Chapter 3 - His mother's death; leaving for Ingolstadt",
       "when": "at seventeen",
       "day": 60
     },
     {
       "n": 5,
-      "title": "Chapter 4 — The university; the secret of life",
+      "title": "Chapter 4 - The university; the secret of life",
       "when": "two years of study",
       "day": 120
     },
     {
       "n": 6,
-      "title": "Chapter 5 — A dreary night of November: the creature wakes",
+      "title": "Chapter 5 - A dreary night of November: the creature wakes",
       "when": "the making",
       "day": 180
     },
     {
       "n": 7,
-      "title": "Chapter 6 — Clerval nurses him; Elizabeth's letter",
+      "title": "Chapter 6 - Clerval nurses him; Elizabeth's letter",
       "when": "the fever",
       "day": 210
     },
     {
       "n": 8,
-      "title": "Chapter 7 — Word of William's murder; home to Geneva",
+      "title": "Chapter 7 - Word of William's murder; home to Geneva",
       "when": "the news",
       "day": 400
     },
     {
       "n": 9,
-      "title": "Chapter 8 — Justine's trial and execution",
+      "title": "Chapter 8 - Justine's trial and execution",
       "when": "the trial",
       "day": 410
     },
     {
       "n": 10,
-      "title": "Chapter 9 — Grief; retreat to Belrive",
+      "title": "Chapter 9 - Grief; retreat to Belrive",
       "when": "mourning",
       "day": 430
     },
     {
       "n": 11,
-      "title": "Chapter 10 — Chamounix; the creature on the Mer de Glace",
+      "title": "Chapter 10 - Chamounix; the creature on the Mer de Glace",
       "when": "the meeting",
       "day": 450
     },
     {
       "n": 12,
-      "title": "Chapter 11 — The creature's tale: awakening in the woods",
+      "title": "Chapter 11 - The creature's tale: awakening in the woods",
       "when": "the creature's telling",
       "day": 200
     },
     {
       "n": 13,
-      "title": "Chapter 12 — The De Lacey cottage; learning to be human",
+      "title": "Chapter 12 - The De Lacey cottage; learning to be human",
       "when": "the cottage months",
       "day": 260
     },
     {
       "n": 14,
-      "title": "Chapter 13 — Safie; learning language and history",
+      "title": "Chapter 13 - Safie; learning language and history",
       "when": "the cottage months",
       "day": 290
     },
     {
       "n": 15,
-      "title": "Chapter 14 — The De Laceys' story",
+      "title": "Chapter 14 - The De Laceys' story",
       "when": "the cottage months",
       "day": 300
     },
     {
       "n": 16,
-      "title": "Chapter 15 — Reading; the attempt at friendship",
+      "title": "Chapter 15 - Reading; the attempt at friendship",
       "when": "the cottage months",
       "day": 320
     },
     {
       "n": 17,
-      "title": "Chapter 16 — Rejection; the fire; the road to Geneva; William",
+      "title": "Chapter 16 - Rejection; the fire; the road to Geneva; William",
       "when": "the turn",
       "day": 360
     },
     {
       "n": 18,
-      "title": "Chapter 17 — The demand: make me a companion",
+      "title": "Chapter 17 - The demand: make me a companion",
       "when": "the bargain",
       "day": 452
     },
     {
       "n": 19,
-      "title": "Chapter 18 — Consent; the journey to England begins",
+      "title": "Chapter 18 - Consent; the journey to England begins",
       "when": "setting out",
       "day": 500
     },
     {
       "n": 20,
-      "title": "Chapter 19 — Down the Rhine; London; north to Scotland",
+      "title": "Chapter 19 - Down the Rhine; London; north to Scotland",
       "when": "the second journey",
       "day": 560
     },
     {
       "n": 21,
-      "title": "Chapter 20 — The Orkney island; the female destroyed; adrift to Ireland",
+      "title": "Chapter 20 - The Orkney island; the female destroyed; adrift to Ireland",
       "when": "the breaking",
       "day": 640
     },
     {
       "n": 22,
-      "title": "Chapter 21 — Ireland: accused of Clerval's murder",
+      "title": "Chapter 21 - Ireland: accused of Clerval's murder",
       "when": "the accusation",
       "day": 645
     },
     {
       "n": 23,
-      "title": "Chapter 22 — Acquitted; home; the wedding planned",
+      "title": "Chapter 22 - Acquitted; home; the wedding planned",
       "when": "the return",
       "day": 700
     },
     {
       "n": 24,
-      "title": "Chapter 23 — The wedding night at Evian; Elizabeth killed",
+      "title": "Chapter 23 - The wedding night at Evian; Elizabeth killed",
       "when": "the wedding",
       "day": 730
     },
     {
       "n": 25,
-      "title": "Chapter 24 — The vow of vengeance; the pursuit north",
+      "title": "Chapter 24 - The vow of vengeance; the pursuit north",
       "when": "the pursuit",
       "day": 760
     },
     {
       "n": 26,
-      "title": "Walton, in continuation — the ice; Victor's death; the creature's farewell",
-      "dateInStory": "26 Aug – 12 Sept, 17—",
+      "title": "Walton, in continuation - the ice; Victor's death; the creature's farewell",
+      "dateInStory": "26 Aug – 12 Sept, 17-",
       "when": "the frame closes",
       "day": 1000
     }
@@ -220,7 +220,7 @@
       "id": "creature",
       "name": "The creature",
       "colour": "slate",
-      "role": "The being made at Ingolstadt. It has its own journey — to a cottage in Germany, to Geneva, and at last onto the ice, always a step ahead of its maker",
+      "role": "The being made at Ingolstadt. It has its own journey - to a cottage in Germany, to Geneva, and at last onto the ice, always a step ahead of its maker",
       "start": {
         "location": "ingolstadt",
         "chapter": 6
@@ -240,7 +240,7 @@
       "id": "clerval",
       "name": "Henry Clerval",
       "colour": "ochre",
-      "role": "Victor's dearest friend, who nurses him at Ingolstadt and travels with him to England and Scotland — and is murdered for it",
+      "role": "Victor's dearest friend, who nurses him at Ingolstadt and travels with him to England and Scotland - and is murdered for it",
       "start": {
         "location": "ingolstadt",
         "chapter": 7
@@ -250,7 +250,7 @@
       "id": "elizabeth",
       "name": "Elizabeth Lavenza",
       "colour": "aubergine",
-      "role": "Victor's adopted cousin and bride, who waits at Geneva through every absence — and is killed on their wedding night",
+      "role": "Victor's adopted cousin and bride, who waits at Geneva through every absence - and is killed on their wedding night",
       "start": {
         "location": "geneva",
         "chapter": 2
@@ -273,7 +273,7 @@
       "quoteRef": "Ch. 1",
       "image": {
         "file": "assets/images/fr-geneva.jpg",
-        "caption": "Geneva and the Pont du Mont-Blanc, with the Salève beyond — steel engraving, c.1850",
+        "caption": "Geneva and the Pont du Mont-Blanc, with the Salève beyond - steel engraving, c.1850",
         "credit": "Ludwig Rohbock (del.) & Fr. Müller (sc.), pub. G. G. Lange, Darmstadt, c.1850 · Swiss National Library / Wikimedia Commons · public domain"
       }
     },
@@ -293,7 +293,7 @@
       "quoteRef": "Ch. 6",
       "image": {
         "file": "assets/images/fr-belrive.jpg",
-        "caption": "A villa on the shore of Lake Geneva, the Alps beyond — steel engraving 'Lake of Geneva', 1840",
+        "caption": "A villa on the shore of Lake Geneva, the Alps beyond - steel engraving 'Lake of Geneva', 1840",
         "credit": "William Miller after D. McKenzie, 1840 · Wikimedia Commons · public domain"
       }
     },
@@ -307,7 +307,7 @@
         46.195
       ],
       "certainty": "real",
-      "story": "The open ground just outside the old city walls where little William is found strangled — and where, in a flash of lightning that night, Victor first glimpses the creature he made and knows at once who the murderer is.",
+      "story": "The open ground just outside the old city walls where little William is found strangled - and where, in a flash of lightning that night, Victor first glimpses the creature he made and knows at once who the murderer is.",
       "quote": "the murderer of my brother",
       "quoteRef": "Ch. 7",
       "imageBlank": "The only contemporaneous view of the Plaine de Plainpalais is a festive fête, tonally wrong for the open ground where little William is found strangled; a blank is more honest."
@@ -322,12 +322,12 @@
         45.923
       ],
       "certainty": "real",
-      "story": "The Alpine valley Victor flees to in his grief. From here he climbs to Montanvert, hoping the sublime scenery will quiet his mind — and instead finds the creature waiting for him on the ice.",
+      "story": "The Alpine valley Victor flees to in his grief. From here he climbs to Montanvert, hoping the sublime scenery will quiet his mind - and instead finds the creature waiting for him on the ice.",
       "quote": "entered the valley of Chamounix",
       "quoteRef": "Ch. 9",
       "image": {
         "file": "assets/images/fr-chamounix.jpg",
-        "caption": "The Mer de Glace above the Chamonix valley — photochrom, c.1900",
+        "caption": "The Mer de Glace above the Chamonix valley - photochrom, c.1900",
         "credit": "Detroit Publishing Co. photochrom, c.1900 · Library of Congress / Wikimedia Commons · public domain"
       }
     },
@@ -341,12 +341,12 @@
         45.93
       ],
       "certainty": "real",
-      "story": "The glacier viewpoint above Chamonix, over the great river of ice. Here the creature bounds across the crevasses to meet its maker face to face, and — for the length of nine chapters — tells its own story: the cottage, the rejection, the murder of William.",
+      "story": "The glacier viewpoint above Chamonix, over the great river of ice. Here the creature bounds across the crevasses to meet its maker face to face, and - for the length of nine chapters - tells its own story: the cottage, the rejection, the murder of William.",
       "quote": "vast river of ice, wound among its dependent mountains",
       "quoteRef": "Ch. 10",
       "image": {
         "file": "assets/images/fr-montanvert.jpg",
-        "caption": "The Mer de Glace from Montanvert, with the hut on the moraine — hand-coloured view, c.1781",
+        "caption": "The Mer de Glace from Montanvert, with the hut on the moraine - hand-coloured view, c.1781",
         "credit": "Carl Ludwig Hackert, c.1781 · Wikimedia Commons · public domain"
       }
     },
@@ -360,12 +360,12 @@
         46.401
       ],
       "certainty": "real",
-      "story": "The little town on the far shore of Lake Geneva where Victor and Elizabeth stop on their wedding night. Sure the creature's threatened vengeance is meant for him, Victor keeps watch — and hears Elizabeth scream in the room he has left her in.",
+      "story": "The little town on the far shore of Lake Geneva where Victor and Elizabeth stop on their wedding night. Sure the creature's threatened vengeance is meant for him, Victor keeps watch - and hears Elizabeth scream in the room he has left her in.",
       "quote": "sleeping that night at Evian and continuing our voyage on the following day",
       "quoteRef": "Ch. 23",
       "image": {
         "file": "assets/images/fr-evian.jpg",
-        "caption": "Évian-les-Bains from the lake, the mountains behind — photochrom, c.1900",
+        "caption": "Évian-les-Bains from the lake, the mountains behind - photochrom, c.1900",
         "credit": "Photoglob Zürich / Photochrom Print Collection, c.1900 · Wikimedia Commons · public domain"
       }
     },
@@ -379,12 +379,12 @@
         48.766
       ],
       "certainty": "real",
-      "story": "The Bavarian university where Victor studies natural philosophy and, on a dreary night of November, gives his creature life — then flees the room in horror. When he returns, it is gone. Years later he comes back to buy the instruments for a second, female creature.",
+      "story": "The Bavarian university where Victor studies natural philosophy and, on a dreary night of November, gives his creature life - then flees the room in horror. When he returns, it is gone. Years later he comes back to buy the instruments for a second, female creature.",
       "quote": "It was on a dreary night of November that I beheld the accomplishment of my toils",
       "quoteRef": "Ch. 5",
       "image": {
         "file": "assets/images/fr-ingolstadt.jpg",
-        "caption": "Ingolstadt from the fields, the Liebfrauenmünster rising over the town — hand-coloured lithograph, 1823",
+        "caption": "Ingolstadt from the fields, the Liebfrauenmünster rising over the town - hand-coloured lithograph, 1823",
         "credit": "Adolph Kunike, 1823 · Wikimedia Commons · public domain"
       }
     },
@@ -398,13 +398,13 @@
         49.4
       ],
       "certainty": "conjectured",
-      "note": "The novel never fixes the cottage — the creature wanders from Ingolstadt through woods and fields for some days before finding it, so it lies somewhere in the German countryside beyond the city. This point is an editorial best guess in the country north-east of Ingolstadt; the position is not the novel's.",
-      "story": "The hovel where the creature shelters, watching a poor blind man and his children through a chink in the wall. Here it learns to speak, to read, to hope for kindness — and, when it finally shows itself, is beaten and driven out. Its rejection here turns it toward revenge.",
+      "note": "The novel never fixes the cottage - the creature wanders from Ingolstadt through woods and fields for some days before finding it, so it lies somewhere in the German countryside beyond the city. This point is an editorial best guess in the country north-east of Ingolstadt; the position is not the novel's.",
+      "story": "The hovel where the creature shelters, watching a poor blind man and his children through a chink in the wall. Here it learns to speak, to read, to hope for kindness - and, when it finally shows itself, is beaten and driven out. Its rejection here turns it toward revenge.",
       "quote": "The name of the old man was De Lacey.",
       "quoteRef": "Ch. 11",
       "image": {
         "file": "assets/images/fr-delacey-cottage.jpg",
-        "caption": "The Bavarian countryside on the Danube, near Ingolstadt — oil painting, 1863",
+        "caption": "The Bavarian countryside on the Danube, near Ingolstadt - oil painting, 1863",
         "credit": "Pieter Franciscus Peters, 1863 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -424,7 +424,7 @@
       "quoteRef": "Ch. 18",
       "image": {
         "file": "assets/images/fr-strasbourg.jpg",
-        "caption": "The old Maison Kammerzell, Strasbourg — photochrom, c.1895",
+        "caption": "The old Maison Kammerzell, Strasbourg - photochrom, c.1895",
         "credit": "Photochrom Print Collection, c.1895 · Library of Congress / Wikimedia Commons · public domain"
       }
     },
@@ -443,7 +443,7 @@
       "quoteRef": "Ch. 18",
       "image": {
         "file": "assets/images/fr-rotterdam.jpg",
-        "caption": "The Leuvehaven, Rotterdam, thick with sailing barges — photochrom, c.1900",
+        "caption": "The Leuvehaven, Rotterdam, thick with sailing barges - photochrom, c.1900",
         "credit": "Photochrom Print Collection, c.1900 · Library of Congress / Wikimedia Commons · public domain"
       }
     },
@@ -462,7 +462,7 @@
       "quoteRef": "Ch. 18",
       "image": {
         "file": "assets/images/fr-london.jpg",
-        "caption": "London from the Thames, St Paul's towering over the shipping — oil painting, c.1850",
+        "caption": "London from the Thames, St Paul's towering over the shipping - oil painting, c.1850",
         "credit": "John Gendall, c.1850 · Wikimedia Commons · public domain"
       }
     },
@@ -476,12 +476,12 @@
         51.752
       ],
       "certainty": "real",
-      "story": "A stop on the leisurely tour north — Windsor, Oxford, Matlock, the lakes. Clerval is happy among the ancient colleges; Victor walks the same streets 'a blasted tree', the bolt already in his soul.",
+      "story": "A stop on the leisurely tour north - Windsor, Oxford, Matlock, the lakes. Clerval is happy among the ancient colleges; Victor walks the same streets 'a blasted tree', the bolt already in his soul.",
       "quote": "From thence we proceeded to Oxford.",
       "quoteRef": "Ch. 19",
       "image": {
         "file": "assets/images/fr-oxford.jpg",
-        "caption": "Oxford, the High Street and the spires and domes beyond — photochrom, c.1895",
+        "caption": "Oxford, the High Street and the spires and domes beyond - photochrom, c.1895",
         "credit": "Photoglob Zürich / Detroit Publishing Co. photochrom, c.1895 · Library of Congress / Wikimedia Commons · public domain"
       }
     },
@@ -495,12 +495,12 @@
         56.397
       ],
       "certainty": "real",
-      "story": "Where a Scottish acquaintance expects the two friends. Victor leaves Clerval here to make 'the tour of Scotland alone' — really to finish his loathsome work in solitude — with Perth set as their rendezvous.",
+      "story": "Where a Scottish acquaintance expects the two friends. Victor leaves Clerval here to make 'the tour of Scotland alone' - really to finish his loathsome work in solitude - with Perth set as their rendezvous.",
       "quote": "along the banks of the Tay, to Perth, where our friend expected us",
       "quoteRef": "Ch. 19",
       "image": {
         "file": "assets/images/fr-perth.jpg",
-        "caption": "Perth and the River Tay from Bridgend — photochrom, c.1900",
+        "caption": "Perth and the River Tay from Bridgend - photochrom, c.1900",
         "credit": "Photochrom Print Collection, c.1900 · Library of Congress / Wikimedia Commons · public domain"
       }
     },
@@ -514,13 +514,13 @@
         59.15
       ],
       "certainty": "conjectured",
-      "note": "Shelley names only 'one of the remotest of the Orkneys' — a bare rock of five inhabitants, three huts, five miles from the mainland. No specific island is given; this point sits among the outer northern isles of Orkney as an editorial best guess. The position is not the novel's.",
-      "story": "The bleak rock where Victor sets up his laboratory to build the female creature. Half-finished, appalled at what a race of them might do, he tears the thing apart — and looks up to see the creature watching at the window. That night he rows out and sinks her remains at sea, and is carried off course.",
+      "note": "Shelley names only 'one of the remotest of the Orkneys' - a bare rock of five inhabitants, three huts, five miles from the mainland. No specific island is given; this point sits among the outer northern isles of Orkney as an editorial best guess. The position is not the novel's.",
+      "story": "The bleak rock where Victor sets up his laboratory to build the female creature. Half-finished, appalled at what a race of them might do, he tears the thing apart - and looks up to see the creature watching at the window. That night he rows out and sinks her remains at sea, and is carried off course.",
       "quote": "one of the remotest of the Orkneys as the scene of my labours",
       "quoteRef": "Ch. 20",
       "image": {
         "file": "assets/images/fr-orkney-island.jpg",
-        "caption": "The Old Man of Hoy, a bare sea-stack among the remotest of the Orkneys, in a Daniell aquatint of 1817 — the kind of desolate rock where Victor sets up his second laboratory.",
+        "caption": "The Old Man of Hoy, a bare sea-stack among the remotest of the Orkneys, in a Daniell aquatint of 1817 - the kind of desolate rock where Victor sets up his second laboratory.",
         "credit": "William Daniell, 'The Old Man of Hoy', 1817 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -536,12 +536,12 @@
       ],
       "certainty": "conjectured",
       "note": "The town is unnamed; the text says only that Victor, adrift from Orkney, is blown to an Irish coast and hauled before the magistrate Mr. Kirwin. Scholarship places the landfall on Ireland's north-west (the plausible drift from Orkney). This point sits on that coast as a best guess; the position is not the novel's.",
-      "story": "Cast adrift from the Orkneys, Victor drifts to an Irish harbour — where the townsfolk, hostile from the start, accuse him of a murder committed the night before. The body is Clerval's, the fingermarks on its throat the creature's signature. He is imprisoned, falls into fever, and is at last acquitted.",
+      "story": "Cast adrift from the Orkneys, Victor drifts to an Irish harbour - where the townsfolk, hostile from the start, accuse him of a murder committed the night before. The body is Clerval's, the fingermarks on its throat the creature's signature. He is imprisoned, falls into fever, and is at last acquitted.",
       "quote": "it is the custom of the Irish to hate villains",
       "quoteRef": "Ch. 20",
       "image": {
         "file": "assets/images/fr-ireland-town.jpg",
-        "caption": "The wild west coast of Ireland under a breaking sky — oil painting, 1913",
+        "caption": "The wild west coast of Ireland under a breaking sky - oil painting, 1913",
         "credit": "Robert Henri, 'West Coast of Ireland', 1913 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -561,7 +561,7 @@
       "quoteRef": "Letter 1",
       "image": {
         "file": "assets/images/fr-st-petersburg.jpg",
-        "caption": "St Petersburg, the Admiralty and the Neva — photochrom, c.1895",
+        "caption": "St Petersburg, the Admiralty and the Neva - photochrom, c.1895",
         "credit": "Photochrom Print Collection, c.1895 · Library of Congress / Wikimedia Commons · public domain"
       }
     },
@@ -580,7 +580,7 @@
       "quoteRef": "Letter 2, Archangel",
       "image": {
         "file": "assets/images/fr-archangel.jpg",
-        "caption": "The White Sea port of Archangel, tall ships at anchor — photograph, c.1900",
+        "caption": "The White Sea port of Archangel, tall ships at anchor - photograph, c.1900",
         "credit": "Unknown photographer, c.1900 · Wikimedia Commons · public domain"
       }
     },
@@ -594,12 +594,12 @@
         43.5
       ],
       "certainty": "real",
-      "story": "Following the creature down the Rhône to the Mediterranean, Victor watches it board a ship for the Black Sea by night and takes passage in the same vessel — the hinge where the pursuit leaves western Europe and turns toward Russia and the ice.",
+      "story": "Following the creature down the Rhône to the Mediterranean, Victor watches it board a ship for the Black Sea by night and takes passage in the same vessel - the hinge where the pursuit leaves western Europe and turns toward Russia and the ice.",
       "quote": "I saw the fiend enter by night and hide himself in a vessel bound for the Black Sea",
       "quoteRef": "Ch. 24",
       "image": {
         "file": "assets/images/fr-black-sea.jpg",
-        "caption": "Ships on the Black Sea at dusk, painted by Ivan Aivazovsky in 1871 — the sea Victor's creature sails for, taking passage in the same vessel.",
+        "caption": "Ships on the Black Sea at dusk, painted by Ivan Aivazovsky in 1871 - the sea Victor's creature sails for, taking passage in the same vessel.",
         "credit": "Ivan Aivazovsky, 1871 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -614,13 +614,13 @@
         68.5
       ],
       "certainty": "conjectured",
-      "note": "The novel gives no name — only 'a wretched hamlet on the seashore' at the far edge of Tartary and Russia, where the creature seizes a dog-sledge and drives out onto the frozen ocean, Victor a day behind. This point stands on the Russian Arctic coast as an illustrative anchor; the position is not the novel's.",
+      "note": "The novel gives no name - only 'a wretched hamlet on the seashore' at the far edge of Tartary and Russia, where the creature seizes a dog-sledge and drives out onto the frozen ocean, Victor a day behind. This point stands on the Russian Arctic coast as an illustrative anchor; the position is not the novel's.",
       "story": "The last land. Victor reaches a poor coastal hamlet to learn the creature has stolen a sledge and a drove of dogs and struck out across the sea ice the night before. He exchanges his land-sledge for one built for the Frozen Ocean, stocks it, and follows onto the ice.",
       "quote": "I exchanged my land-sledge for one fashioned for the inequalities of the Frozen Ocean",
       "quoteRef": "Ch. 24",
       "image": {
         "file": "assets/images/fr-arctic-coast.jpg",
-        "caption": "A hut on a bleak Arctic shore, ice and a ship offshore — 'Coast of Nova Zembla', 1841",
+        "caption": "A hut on a bleak Arctic shore, ice and a ship offshore - 'Coast of Nova Zembla', 1841",
         "credit": "François-Auguste Biard, 'Côte de la Nouvelle-Zemble', 1841 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -635,13 +635,13 @@
         79
       ],
       "certainty": "conjectured",
-      "note": "The novel's ending drifts on pack ice north of Archangel toward the pole, with no fixed position — the ship is beset, Victor dies, the creature vanishes north. This point is an illustrative anchor out on the Arctic ice; the position is not the novel's.",
+      "note": "The novel's ending drifts on pack ice north of Archangel toward the pole, with no fixed position - the ship is beset, Victor dies, the creature vanishes north. This point is an illustrative anchor out on the Arctic ice; the position is not the novel's.",
       "story": "Where the two threads finally meet. Walton's ship is frozen fast; out of the white a dog-sledge brings a dying Victor aboard. He tells the whole story and dies; the creature comes to the cabin to mourn its maker, then springs from the window onto an ice raft and is 'lost in darkness and distance'.",
       "quote": "I seek the everlasting ices of the north, where you will feel the misery of cold and frost, to which I am impassive",
       "quoteRef": "Ch. 24",
       "image": {
         "file": "assets/images/fr-arctic-ice.jpg",
-        "caption": "A ship beset and crushed in the Arctic pack ice by moonlight — oil painting, c.1846",
+        "caption": "A ship beset and crushed in the Arctic pack ice by moonlight - oil painting, c.1846",
         "credit": "W. H. Smyth, 'Perilous Position of HMS Terror, 1837', c.1846 · Royal Museums Greenwich / Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -660,7 +660,7 @@
       "story": "The north coast of Scotland, where Victor takes a boat out to the remotest of the Orkneys.",
       "image": {
         "file": "assets/images/fr-thurso.jpg",
-        "caption": "Thurso across its bay from Holborn Head, in a William Daniell aquatint of c.1820 — the Caithness coast where Victor takes a boat out to the remote Orkneys.",
+        "caption": "Thurso across its bay from Holborn Head, in a William Daniell aquatint of c.1820 - the Caithness coast where Victor takes a boat out to the remote Orkneys.",
         "credit": "William Daniell, from A Voyage Round Great Britain, c.1820 · Wikimedia Commons · public domain"
       }
     },
@@ -679,7 +679,7 @@
       "quoteRef": "leaving Ireland",
       "image": {
         "file": "assets/images/fr-le-havre.jpg",
-        "caption": "The port of Le Havre, painted by Claude Monet in 1874 — where Victor and his father land from Ireland on the road home to Geneva.",
+        "caption": "The port of Le Havre, painted by Claude Monet in 1874 - where Victor and his father land from Ireland on the road home to Geneva.",
         "credit": "Claude Monet, 'Port of Le Havre', 1874 · Wikimedia Commons · public domain"
       }
     },
@@ -697,7 +697,7 @@
       "story": "Where the Rhone meets the Mediterranean, and Victor takes passage after the creature, bound for the Black Sea.",
       "image": {
         "file": "assets/images/fr-marseille.jpg",
-        "caption": "The old port of Marseille, painted by Alphonse Moutte — indicative of the Mediterranean harbour where Victor, following the Rhone to the sea, takes ship after the creature. The novel names only 'the blue Mediterranean', and Moutte's view (1876) is later than Victor's own day.",
+        "caption": "The old port of Marseille, painted by Alphonse Moutte - indicative of the Mediterranean harbour where Victor, following the Rhone to the sea, takes ship after the creature. The novel names only 'the blue Mediterranean', and Moutte's view (1876) is later than Victor's own day.",
         "credit": "Alphonse Moutte, Déchargement d'un brick à Marseille (1876) · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -721,7 +721,7 @@
           "note": "The winter post-road across Russia, the sledges flying 'quickly over the snow' toward the White Sea."
         }
       ],
-      "routeNote": "Walton travels overland from St Petersburg to Archangel by the winter post-road — the same road Victor calls 'the post-road between St. Petersburgh and Archangel' — the horses drawing sledges over the snow.",
+      "routeNote": "Walton travels overland from St Petersburg to Archangel by the winter post-road - the same road Victor calls 'the post-road between St. Petersburgh and Archangel' - the horses drawing sledges over the snow.",
       "routeSource": "No town-by-town route is named; Shelley has Walton write from St Petersburg (Letter 1) then Archangel (Letter 2) and mentions 'the post-road between St. Petersburgh and Archangel'. Reconstructs the standard overland winter route.",
       "routeCertainty": "reconstructed",
       "note": "By sledge over the snow, to fit out his ship"
@@ -775,7 +775,7 @@
           "note": "The higher latitudes, where the ship is at last beset and frozen fast."
         }
       ],
-      "routeNote": "Walton sails north from Archangel out of the White Sea and up into the Arctic pack ice, where his ship is frozen in and the sledges appear on the horizon. The exact track is undrawn in the text — a gesture northward.",
+      "routeNote": "Walton sails north from Archangel out of the White Sea and up into the Arctic pack ice, where his ship is frozen in and the sledges appear on the horizon. The exact track is undrawn in the text - a gesture northward.",
       "routeSource": "No course is charted in the text; Walton sets out from Archangel toward the pole (Letters 2–4) and is beset by ice. Illustrative northward voyage.",
       "routeCertainty": "illustrative",
       "note": "North toward the pole, until the ice closes round the ship"
@@ -789,7 +789,7 @@
       "to": "geneva",
       "chapter": 3,
       "mode": "unknown",
-      "note": "Childhood and boyhood at Geneva and Belrive — the still centre before everything"
+      "note": "Childhood and boyhood at Geneva and Belrive - the still centre before everything"
     },
     {
       "character": "victor",
@@ -819,7 +819,7 @@
       "routeNote": "Victor's 'long and fatiguing' journey from Geneva to Ingolstadt, up through Switzerland and across the German states to Bavaria. The path is not itemised; this reconstructs the natural overland route by Strasbourg and the Rhine.",
       "routeSource": "Shelley says only the journey was 'long and fatiguing' (Ch. 3). Reconstructs the standard Geneva–Bavaria overland route.",
       "routeCertainty": "reconstructed",
-      "note": "To the university, at seventeen — the road to the making"
+      "note": "To the university, at seventeen - the road to the making"
     },
     {
       "character": "creature",
@@ -868,10 +868,10 @@
           "note": "Arriving after dark to find the city gates shut; he must wait out a storm on the lakeshore."
         }
       ],
-      "routeNote": "Word of William's murder brings Victor home by the same overland route in reverse — the German states and Switzerland to Geneva, where he arrives to a locked city and a thunderstorm over the lake.",
+      "routeNote": "Word of William's murder brings Victor home by the same overland route in reverse - the German states and Switzerland to Geneva, where he arrives to a locked city and a thunderstorm over the lake.",
       "routeSource": "Shelley has Victor summoned home by Elizabeth's letter (Ch. 7); the return traces the Ingolstadt–Geneva road. Reconstructs the overland route.",
       "routeCertainty": "reconstructed",
-      "note": "Home to a murdered brother — and, in the lightning, the creature"
+      "note": "Home to a murdered brother - and, in the lightning, the creature"
     },
     {
       "character": "creature",
@@ -890,10 +890,10 @@
           "note": "After the De Laceys flee and it burns their cottage, the creature travels toward Geneva, seeking its maker."
         }
       ],
-      "routeNote": "Rejected and enraged, the creature quits the burnt cottage and travels across country to Geneva, where it comes upon and strangles the child William at Plainpalais. The overland path is unstated — a gesture south to Switzerland.",
+      "routeNote": "Rejected and enraged, the creature quits the burnt cottage and travels across country to Geneva, where it comes upon and strangles the child William at Plainpalais. The overland path is unstated - a gesture south to Switzerland.",
       "routeSource": "The creature's account (Ch. 16) of travelling toward Geneva and killing William at Plainpalais. No route named; illustrative.",
       "routeCertainty": "illustrative",
-      "note": "To Geneva, and the murder of William — the first blood"
+      "note": "To Geneva, and the murder of William - the first blood"
     },
     {
       "character": "victor",
@@ -924,7 +924,7 @@
       "chapter": 11,
       "days": 1,
       "mode": "foot",
-      "note": "The climb to the Mer de Glace — where the creature is waiting"
+      "note": "The climb to the Mer de Glace - where the creature is waiting"
     },
     {
       "character": "creature",
@@ -998,7 +998,7 @@
       "routeNote": "Victor sets out for England, travelling from Geneva to Strasbourg where he has arranged to meet Clerval. The overland leg down to the Rhine is reconstructed.",
       "routeSource": "Shelley: 'it was arranged that Clerval should join me at Strasburgh' (Ch. 18). Reconstructs the Geneva–Strasbourg road.",
       "routeCertainty": "reconstructed",
-      "note": "Setting out for England — to build the mate"
+      "note": "Setting out for England - to build the mate"
     },
     {
       "character": "clerval",
@@ -1051,9 +1051,9 @@
         [6.9756, 50.8399],
         [7.0514, 50.8908],
         [6.9856, 50.9017],
-        { "at": [6.9627, 50.9427], "name": "Cologne", "note": "'Beyond Cologne we descended to the plains of Holland' — the last of the gorge country." }
+        { "at": [6.9627, 50.9427], "name": "Cologne", "note": "'Beyond Cologne we descended to the plains of Holland' - the last of the gorge country." }
       ],
-      "routeNote": "Victor and Clerval descend the Rhine by boat from Strasbourg through Mainz and Cologne to the plains of Holland and Rotterdam — the very towns Shelley names as they pass.",
+      "routeNote": "Victor and Clerval descend the Rhine by boat from Strasbourg through Mainz and Cologne to the plains of Holland and Rotterdam - the very towns Shelley names as they pass.",
       "routeSource": "Shelley, Ch. 18: 'descend the Rhine in a boat from Strasburgh to Rotterdam', naming Mainz, Cologne and the plains of Holland.",
       "routeCertainty": "novel",
       "note": "Down the Rhine, past the ruined castles",
@@ -1096,13 +1096,13 @@
             51.49
           ],
           "name": "Tilbury Fort",
-          "note": "'We saw Tilbury Fort and remembered the Spanish Armada' — up the Thames toward London."
+          "note": "'We saw Tilbury Fort and remembered the Spanish Armada' - up the Thames toward London."
         }
       ],
-      "routeNote": "By sea from Rotterdam across the Channel and up the Thames to London — past the white cliffs, Tilbury Fort, Gravesend, Woolwich and Greenwich, every landmark Shelley names on the river approach.",
+      "routeNote": "By sea from Rotterdam across the Channel and up the Thames to London - past the white cliffs, Tilbury Fort, Gravesend, Woolwich and Greenwich, every landmark Shelley names on the river approach.",
       "routeSource": "Shelley, Ch. 18: 'proceeded by sea to England… the banks of the Thames… Tilbury Fort… Gravesend, Woolwich, and Greenwich… the numerous steeples of London'.",
       "routeCertainty": "novel",
-      "note": "Up the Thames to London — a rest of several months"
+      "note": "Up the Thames to London - a rest of several months"
     },
     {
       "character": [
@@ -1124,7 +1124,7 @@
           "note": "'We quitted London on the 27th of March and remained a few days at Windsor, rambling in its beautiful forest.'"
         }
       ],
-      "routeNote": "The tour north begins Windsor then Oxford, exactly as Shelley itemises the route — 'Windsor, Oxford, Matlock, and the Cumberland lakes'.",
+      "routeNote": "The tour north begins Windsor then Oxford, exactly as Shelley itemises the route - 'Windsor, Oxford, Matlock, and the Cumberland lakes'.",
       "routeSource": "Shelley, Ch. 19: 'to visit Windsor, Oxford, Matlock, and the Cumberland lakes'; 'We quitted London on the 27th of March and remained a few days at Windsor… From thence we proceeded to Oxford.'",
       "routeCertainty": "novel",
       "note": "The leisurely tour north begins"
@@ -1146,7 +1146,7 @@
             53.135
           ],
           "name": "Matlock",
-          "note": "'We left Oxford with regret and proceeded to Matlock' — its caves recalling the collections at Chamounix."
+          "note": "'We left Oxford with regret and proceeded to Matlock' - its caves recalling the collections at Chamounix."
         },
         {
           "at": [
@@ -1162,7 +1162,7 @@
             55.953
           ],
           "name": "Edinburgh",
-          "note": "'I visited Edinburgh with languid eyes and mind' — Arthur's Seat, the new town, the castle."
+          "note": "'I visited Edinburgh with languid eyes and mind' - Arthur's Seat, the new town, the castle."
         },
         {
           "at": [
@@ -1173,7 +1173,7 @@
           "note": "'passing through Coupar, St. Andrew’s, and along the banks of the Tay, to Perth.'"
         }
       ],
-      "routeNote": "Oxford, Matlock, the Cumberland lakes, Edinburgh, Coupar, St Andrews and the Tay to Perth — the whole northward itinerary comes straight from Shelley's own list of stops.",
+      "routeNote": "Oxford, Matlock, the Cumberland lakes, Edinburgh, Coupar, St Andrews and the Tay to Perth - the whole northward itinerary comes straight from Shelley's own list of stops.",
       "routeSource": "Shelley, Ch. 19: Matlock, Cumberland and Westmorland, Edinburgh, then 'through Coupar, St. Andrew’s, and along the banks of the Tay, to Perth, where our friend expected us.'",
       "routeCertainty": "novel",
       "note": "Up through the lakes and Scotland to Perth"
@@ -1242,7 +1242,7 @@
       "routeNote": "Adrift from Orkney after sinking the female creature's remains, Victor is blown south-west across open sea and lands on an Irish coast. Shelley gives only 'the land had a wild and rocky appearance' and the town of magistrate Kirwin; the drift and Irish landfall are reconstructed toward the conjectured Irish town.",
       "routeSource": "Shelley, Ch. 20–21: Victor cast adrift, then landing at an unnamed Irish town before Mr. Kirwin. No course given; reconstructs the drift from Orkney to Ireland.",
       "routeCertainty": "reconstructed",
-      "note": "Cast adrift — and landed to a charge of murder: Clerval's"
+      "note": "Cast adrift - and landed to a charge of murder: Clerval's"
     },
     {
       "character": "clerval",
@@ -1277,10 +1277,10 @@
           55.3
         ]
       ],
-      "routeNote": "Clerval leaves Perth to rejoin Victor and is murdered by the creature; his body turns up on the Irish coast where Victor lands. The path is entirely off-page — drawn only as a gesture to the place his corpse is found.",
+      "routeNote": "Clerval leaves Perth to rejoin Victor and is murdered by the creature; his body turns up on the Irish coast where Victor lands. The path is entirely off-page - drawn only as a gesture to the place his corpse is found.",
       "routeSource": "Shelley, Ch. 21: the murdered man is Clerval, found on the Irish shore. His route is unnarrated; illustrative.",
       "routeCertainty": "illustrative",
-      "note": "To rejoin Victor — strangled by the creature on the way"
+      "note": "To rejoin Victor - strangled by the creature on the way"
     },
     {
       "character": "victor",
@@ -1315,7 +1315,7 @@
         ]
       ],
       "routeCertainty": "novel",
-      "routeSource": "'We took our passage on board a vessel bound for Havre-de-Grace' — round the south of Ireland and up the Channel.",
+      "routeSource": "'We took our passage on board a vessel bound for Havre-de-Grace' - round the south of Ireland and up the Channel.",
       "note": "Acquitted, Victor sails from Ireland with his father, bound for Havre-de-Grace."
     },
     {
@@ -1338,7 +1338,7 @@
         ]
       ],
       "routeCertainty": "novel",
-      "routeSource": "'we landed at Havre-de-Grace… towards Paris' — then overland to Geneva.",
+      "routeSource": "'we landed at Havre-de-Grace… towards Paris' - then overland to Geneva.",
       "note": "Home overland through France, by way of Paris, to Geneva."
     },
     {
@@ -1361,10 +1361,10 @@
           "note": "'commence our journey by water… we passed the river Drance', coasting under Mont Salêve and the Jura toward Evian."
         }
       ],
-      "routeNote": "Victor and Elizabeth cross Lake Geneva by boat on their wedding evening to Evian, past Mont Salêve, the Drance and the amphitheatre of mountains — the shoreline Shelley describes as they sail.",
+      "routeNote": "Victor and Elizabeth cross Lake Geneva by boat on their wedding evening to Evian, past Mont Salêve, the Drance and the amphitheatre of mountains - the shoreline Shelley describes as they sail.",
       "routeSource": "Shelley, Ch. 22–23: 'commence our journey by water, sleeping that night at Evian'; the lake passage past the Drance and the eastern mountains.",
       "routeCertainty": "novel",
-      "note": "The wedding voyage across the lake — where Elizabeth dies"
+      "note": "The wedding voyage across the lake - where Elizabeth dies"
     },
     {
       "character": "victor",
@@ -1373,7 +1373,7 @@
       "chapter": 25,
       "days": 1,
       "mode": "ship",
-      "note": "Racing back with Elizabeth's body to warn his father — who dies of the grief"
+      "note": "Racing back with Elizabeth's body to warn his father - who dies of the grief"
     },
     {
       "character": "creature",
@@ -1390,13 +1390,13 @@
             57
           ],
           "name": "Shadowing Victor",
-          "note": "The creature follows Victor to the Orkneys and back — it is the window-face on the island, Clerval's killer in Ireland — and comes at last to Evian for the wedding night."
+          "note": "The creature follows Victor to the Orkneys and back - it is the window-face on the island, Clerval's killer in Ireland - and comes at last to Evian for the wedding night."
         }
       ],
-      "routeNote": "From the Alpine meeting the creature shadows Victor across the whole second journey — Orkney, Ireland, home — keeping its threat ('I shall be with you on your wedding-night'), and reaches Evian to strangle Elizabeth. The path is a single illustrative thread standing for a pursuit told only glancingly.",
+      "routeNote": "From the Alpine meeting the creature shadows Victor across the whole second journey - Orkney, Ireland, home - keeping its threat ('I shall be with you on your wedding-night'), and reaches Evian to strangle Elizabeth. The path is a single illustrative thread standing for a pursuit told only glancingly.",
       "routeSource": "The creature's threat and its killings of Clerval (Ireland) and Elizabeth (Evian) are the visible marks of a pursuit Shelley otherwise leaves off-page. Illustrative.",
       "routeCertainty": "illustrative",
-      "note": "Always a step behind Victor — keeping its promise for the wedding night (The Orkney waypoint is deliberate — the creature shadows Victor everywhere; its Channel crossing is a side effect, spill-exempt.)",
+      "note": "Always a step behind Victor - keeping its promise for the wedding night (The Orkney waypoint is deliberate - the creature shadows Victor everywhere; its Channel crossing is a side effect, spill-exempt.)",
       "spillOk": true
     },
     {
@@ -1509,7 +1509,7 @@
         ]
       ],
       "routeCertainty": "novel",
-      "routeSource": "By sea after the creature — through the Mediterranean and the straits into the Black Sea.",
+      "routeSource": "By sea after the creature - through the Mediterranean and the straits into the Black Sea.",
       "note": "He takes passage after the creature by night, through the Mediterranean and the straits to the Black Sea."
     },
     {
@@ -1537,7 +1537,7 @@
           "note": "Ever northward as the snows thicken, guided by the marks the creature leaves cut in stone and bark."
         }
       ],
-      "routeNote": "From the Black Sea Victor pursues the creature overland across Tartary and Russia to the Arctic seashore — much of it by dog-sledge over the snow ('quickly over the snow in their sledges'). Shelley names the regions but no towns; reconstructs the northward line.",
+      "routeNote": "From the Black Sea Victor pursues the creature overland across Tartary and Russia to the Arctic seashore - much of it by dog-sledge over the snow ('quickly over the snow in their sledges'). Shelley names the regions but no towns; reconstructs the northward line.",
       "routeSource": "Shelley, Ch. 24: 'Amidst the wilds of Tartary and Russia… I have ever followed in his track… the print of his huge step on the white plain', reaching a hamlet on the northern seashore. Dog-sledge per Ch. 24.",
       "routeCertainty": "reconstructed",
       "note": "By dog-sledge across Tartary and Russia, following the prints in the snow"
@@ -1556,7 +1556,7 @@
             50
           ],
           "name": "Eastward across Europe",
-          "note": "The creature leads Victor on, leaving marks and food to keep the chase alive — 'you live, and my power is complete. Follow me.'"
+          "note": "The creature leads Victor on, leaving marks and food to keep the chase alive - 'you live, and my power is complete. Follow me.'"
         },
         {
           "at": [
@@ -1567,10 +1567,10 @@
           "note": "By dog-sledge across the snow toward the Frozen Ocean, always a day ahead."
         }
       ],
-      "routeNote": "The creature draws Victor the length of Europe and across Russia to the Arctic coast, taunting him with inscriptions and leaving food so the pursuit will not fail — a dog-sledge over the snow, seizing dogs and provisions at the last hamlet. The path stands in for a route Shelley gives only in gestures.",
+      "routeNote": "The creature draws Victor the length of Europe and across Russia to the Arctic coast, taunting him with inscriptions and leaving food so the pursuit will not fail - a dog-sledge over the snow, seizing dogs and provisions at the last hamlet. The path stands in for a route Shelley gives only in gestures.",
       "routeSource": "Shelley, Ch. 24: the creature's inscriptions ('Follow me… I seek the everlasting ices of the north') and its theft of a sledge and dogs at the coastal hamlet. Illustrative eastward line.",
       "routeCertainty": "illustrative",
-      "note": "Leading its maker north — a dog-sledge, always one day ahead"
+      "note": "Leading its maker north - a dog-sledge, always one day ahead"
     },
     {
       "character": [
@@ -1590,13 +1590,13 @@
             73
           ],
           "name": "Onto the Frozen Ocean",
-          "note": "Both take dog-sledges out across the mountainous sea ice, the creature a day ahead, Victor gaining — until the ice breaks between them."
+          "note": "Both take dog-sledges out across the mountainous sea ice, the creature a day ahead, Victor gaining - until the ice breaks between them."
         }
       ],
-      "routeNote": "Creature and pursuer both drive dog-sledges out from the coast onto the Frozen Ocean, north toward the pole, until the breaking ice cuts Victor off and Walton's ship finds him. The track across the pack ice is undrawable — an illustrative line north.",
+      "routeNote": "Creature and pursuer both drive dog-sledges out from the coast onto the Frozen Ocean, north toward the pole, until the breaking ice cuts Victor off and Walton's ship finds him. The track across the pack ice is undrawable - an illustrative line north.",
       "routeSource": "Shelley, Ch. 24: 'I exchanged my land-sledge for one fashioned for the inequalities of the Frozen Ocean… I departed from land'; the creature's sledge a day ahead. Illustrative.",
       "routeCertainty": "illustrative",
-      "note": "Dog-sledges across the mountainous ice, toward the pole — where Walton's ship lies beset"
+      "note": "Dog-sledges across the mountainous ice, toward the pole - where Walton's ship lies beset"
     }
   ],
   "story": [
@@ -1606,7 +1606,7 @@
       "at": "arctic-ice",
       "chapter": 1,
       "title": "A stranger on the ice",
-      "narration": "The story reaches us third-hand. Robert Walton, an English explorer whose ship lies frozen fast in the Arctic, takes aboard a dying man found adrift on the pack ice — and writes down every word of the tale he tells."
+      "narration": "The story reaches us third-hand. Robert Walton, an English explorer whose ship lies frozen fast in the Arctic, takes aboard a dying man found adrift on the pack ice - and writes down every word of the tale he tells."
     },
     {
       "kind": "journey",
@@ -1632,11 +1632,11 @@
       "at": "geneva",
       "chapter": 2,
       "title": "The maker's tale",
-      "narration": "This is his story now. Victor Frankenstein was born to a good family in Geneva, and raised beside Elizabeth Lavenza, an orphan cousin taken in as a child — the sister he would come to love, and mean one day to marry."
+      "narration": "This is his story now. Victor Frankenstein was born to a good family in Geneva, and raised beside Elizabeth Lavenza, an orphan cousin taken in as a child - the sister he would come to love, and mean one day to marry."
     },
     {
       "kind": "meanwhile",
-      "narration": "Wind the clock back, then, to the beginning of it all — to a Geneva boyhood years before the ice, when nothing had gone wrong yet and the whole ruinous story was still only a boy's idle curiosity about the workings of the world."
+      "narration": "Wind the clock back, then, to the beginning of it all - to a Geneva boyhood years before the ice, when nothing had gone wrong yet and the whole ruinous story was still only a boy's idle curiosity about the workings of the world."
     },
     {
       "kind": "journey",
@@ -1648,7 +1648,7 @@
       "to": "geneva",
       "chapter": 3,
       "title": "A Geneva boyhood",
-      "narration": "The childhood is idyllic — the city house, the lakeside place at Belrive, his friend Henry Clerval. Then a storm splits an oak before the boy's eyes, and he turns his mind to the hidden forces of nature that will one day undo him."
+      "narration": "The childhood is idyllic - the city house, the lakeside place at Belrive, his friend Henry Clerval. Then a storm splits an oak before the boy's eyes, and he turns his mind to the hidden forces of nature that will one day undo him."
     },
     {
       "kind": "journey",
@@ -1657,7 +1657,7 @@
       "to": "ingolstadt",
       "chapter": 4,
       "title": "To the university",
-      "narration": "At seventeen, his mother newly dead of scarlet fever, Victor leaves for the university at Ingolstadt in Bavaria — a long, fatiguing road up out of Switzerland and across the German states to the study of natural philosophy."
+      "narration": "At seventeen, his mother newly dead of scarlet fever, Victor leaves for the university at Ingolstadt in Bavaria - a long, fatiguing road up out of Switzerland and across the German states to the study of natural philosophy."
     },
     {
       "kind": "scene",
@@ -1665,7 +1665,7 @@
       "at": "ingolstadt",
       "chapter": 6,
       "title": "The making",
-      "narration": "Two years he labours in secret, and learns the terrible thing: how to bestow life on dead matter. On a dreary night of November the creature opens its dull yellow eye — and, appalled by what he has made, Victor flees the room."
+      "narration": "Two years he labours in secret, and learns the terrible thing: how to bestow life on dead matter. On a dreary night of November the creature opens its dull yellow eye - and, appalled by what he has made, Victor flees the room."
     },
     {
       "kind": "scene",
@@ -1673,7 +1673,7 @@
       "at": "ingolstadt",
       "chapter": 7,
       "title": "The fever, and a letter",
-      "narration": "When he dares return, the room is empty; the creature is gone. Victor collapses into months of brain fever, nursed by the newly arrived Clerval — until a letter comes from home with news that turns the tale to horror."
+      "narration": "When he dares return, the room is empty; the creature is gone. Victor collapses into months of brain fever, nursed by the newly arrived Clerval - until a letter comes from home with news that turns the tale to horror."
     },
     {
       "kind": "journey",
@@ -1682,7 +1682,7 @@
       "to": "geneva",
       "chapter": 8,
       "title": "Home to a murder",
-      "narration": "His young brother William has been strangled. Victor hurries home the long road in reverse, and reaches Geneva in a night storm — in whose lightning, on the open ground of Plainpalais, he glimpses the creature and knows at once who the murderer is."
+      "narration": "His young brother William has been strangled. Victor hurries home the long road in reverse, and reaches Geneva in a night storm - in whose lightning, on the open ground of Plainpalais, he glimpses the creature and knows at once who the murderer is."
     },
     {
       "kind": "scene",
@@ -1690,7 +1690,7 @@
       "at": "geneva",
       "chapter": 9,
       "title": "Justine hanged",
-      "narration": "But the law fastens on Justine, the family's gentle servant, on the strength of a trinket found on her. She is condemned and hanged for a killing Victor knows she did not do — and cannot say so without being thought mad."
+      "narration": "But the law fastens on Justine, the family's gentle servant, on the strength of a trinket found on her. She is condemned and hanged for a killing Victor knows she did not do - and cannot say so without being thought mad."
     },
     {
       "kind": "journey",
@@ -1708,7 +1708,7 @@
       "to": "montanvert",
       "chapter": 11,
       "title": "On the Mer de Glace",
-      "narration": "He climbs alone to the great glacier above the valley. There, bounding across the crevasses with a speed no man could match, the creature comes down to meet its maker face to face — and demands, at last, to be heard."
+      "narration": "He climbs alone to the great glacier above the valley. There, bounding across the crevasses with a speed no man could match, the creature comes down to meet its maker face to face - and demands, at last, to be heard."
     },
     {
       "kind": "handoff",
@@ -1716,7 +1716,7 @@
       "at": "montanvert",
       "chapter": 12,
       "title": "The creature speaks",
-      "narration": "Now the maker must listen. The creature tells its own story — of waking alone at Ingolstadt, abandoned by the man who made it, knowing nothing, wanted by no one, driven out into the German countryside to learn cold and hunger for itself."
+      "narration": "Now the maker must listen. The creature tells its own story - of waking alone at Ingolstadt, abandoned by the man who made it, knowing nothing, wanted by no one, driven out into the German countryside to learn cold and hunger for itself."
     },
     {
       "kind": "journey",
@@ -1742,11 +1742,11 @@
       "to": "plainpalais",
       "chapter": 17,
       "title": "The first blood",
-      "narration": "It travels across country toward Geneva, seeking the maker it has learned to name. On the ground at Plainpalais it comes upon a beautiful child — Victor's brother William — and, learning whose he is, strangles him, and frames the sleeping Justine for the deed."
+      "narration": "It travels across country toward Geneva, seeking the maker it has learned to name. On the ground at Plainpalais it comes upon a beautiful child - Victor's brother William - and, learning whose he is, strangles him, and frames the sleeping Justine for the deed."
     },
     {
       "kind": "meanwhile",
-      "narration": "Wind back a little, to the days after that murder — before the creature ever came down to the glacier. From William's body it climbed into the high Alps, where no man could follow, and waited there for the maker it meant to confront."
+      "narration": "Wind back a little, to the days after that murder - before the creature ever came down to the glacier. From William's body it climbed into the high Alps, where no man could follow, and waited there for the maker it meant to confront."
     },
     {
       "kind": "journey",
@@ -1755,7 +1755,7 @@
       "to": "montanvert",
       "chapter": 11,
       "title": "Up to the ice",
-      "narration": "Keeping to the glaciers and the heights, the creature shadowed Victor's own grieving journey into the mountains, and came down onto the Mer de Glace to meet him — which is where its telling began, and where its demand now falls."
+      "narration": "Keeping to the glaciers and the heights, the creature shadowed Victor's own grieving journey into the mountains, and came down onto the Mer de Glace to meet him - which is where its telling began, and where its demand now falls."
     },
     {
       "kind": "scene",
@@ -1771,7 +1771,7 @@
       "at": "montanvert",
       "chapter": 18,
       "title": "The bargain",
-      "narration": "Victor takes the tale back into his own hands. Half in pity, half in dread, he consents to make the thing a mate — and the two part on the ice, the maker bound now to a promise he already loathes."
+      "narration": "Victor takes the tale back into his own hands. Half in pity, half in dread, he consents to make the thing a mate - and the two part on the ice, the maker bound now to a promise he already loathes."
     },
     {
       "kind": "journey",
@@ -1780,7 +1780,7 @@
       "to": "chamounix",
       "chapter": 18,
       "title": "Down from the glacier",
-      "narration": "He descends from the Mer de Glace to Chamounix, the bargain sealed and the weight of it already settling on him — a second creature to be built, and a race of them, perhaps, to follow."
+      "narration": "He descends from the Mer de Glace to Chamounix, the bargain sealed and the weight of it already settling on him - a second creature to be built, and a race of them, perhaps, to follow."
     },
     {
       "kind": "journey",
@@ -1802,7 +1802,7 @@
     },
     {
       "kind": "meanwhile",
-      "narration": "And on the same days, from the university, Clerval sets out for the rendezvous — the one friend still at Victor's side, glad of the tour, knowing nothing of the true and dreadful purpose behind it."
+      "narration": "And on the same days, from the university, Clerval sets out for the rendezvous - the one friend still at Victor's side, glad of the tour, knowing nothing of the true and dreadful purpose behind it."
     },
     {
       "kind": "journey",
@@ -1823,7 +1823,7 @@
       "to": "rotterdam",
       "chapter": 20,
       "title": "Down the Rhine",
-      "narration": "The two take a boat down the Rhine — past Mainz and Cologne and the ruined castles above the gorge, down at last to the flat plains of Holland and Rotterdam. Clerval is happy; Victor carries his instruments and his dread."
+      "narration": "The two take a boat down the Rhine - past Mainz and Cologne and the ruined castles above the gorge, down at last to the flat plains of Holland and Rotterdam. Clerval is happy; Victor carries his instruments and his dread."
     },
     {
       "kind": "journey",
@@ -1835,7 +1835,7 @@
       "to": "london",
       "chapter": 20,
       "title": "Up the Thames",
-      "narration": "By sea across the Channel and up the Thames to London — past the white cliffs, Tilbury Fort, the steeples of the city. They rest here some months; Clerval delights in it while Victor quietly gathers materials for the second creature."
+      "narration": "By sea across the Channel and up the Thames to London - past the white cliffs, Tilbury Fort, the steeples of the city. They rest here some months; Clerval delights in it while Victor quietly gathers materials for the second creature."
     },
     {
       "kind": "journey",
@@ -1847,7 +1847,7 @@
       "to": "oxford",
       "chapter": 20,
       "title": "The tour north begins",
-      "narration": "They quit London in the spring for a leisurely tour — Windsor first, then Oxford, where Clerval is happy among the ancient colleges and Victor walks the same streets like a blasted tree, the bolt already in his soul."
+      "narration": "They quit London in the spring for a leisurely tour - Windsor first, then Oxford, where Clerval is happy among the ancient colleges and Victor walks the same streets like a blasted tree, the bolt already in his soul."
     },
     {
       "kind": "journey",
@@ -1859,7 +1859,7 @@
       "to": "perth",
       "chapter": 20,
       "title": "Through the lakes to Scotland",
-      "narration": "On through Matlock, the Cumberland lakes, Edinburgh and St Andrews to Perth, where a friend expects them. Among the mountains Victor is almost cheated into happiness — but the work still waits, and it must be done alone."
+      "narration": "On through Matlock, the Cumberland lakes, Edinburgh and St Andrews to Perth, where a friend expects them. Among the mountains Victor is almost cheated into happiness - but the work still waits, and it must be done alone."
     },
     {
       "kind": "journey",
@@ -1877,7 +1877,7 @@
       "to": "orkney-island",
       "chapter": 21,
       "title": "A bare rock",
-      "narration": "From there he takes a boat out to one of the remotest of the Orkneys — a bare rock of three wretched huts — and sets up his laboratory to make the she-creature the monster has demanded."
+      "narration": "From there he takes a boat out to one of the remotest of the Orkneys - a bare rock of three wretched huts - and sets up his laboratory to make the she-creature the monster has demanded."
     },
     {
       "kind": "scene",
@@ -1885,7 +1885,7 @@
       "at": "orkney-island",
       "chapter": 21,
       "title": "The female destroyed",
-      "narration": "Half-finished, he thinks what a race of such beings might loose upon the world — and looks up to see the creature grinning at the window. In a passion he tears the female apart. It vanishes, vowing: 'I shall be with you on your wedding-night.'"
+      "narration": "Half-finished, he thinks what a race of such beings might loose upon the world - and looks up to see the creature grinning at the window. In a passion he tears the female apart. It vanishes, vowing: 'I shall be with you on your wedding-night.'"
     },
     {
       "kind": "journey",
@@ -1894,7 +1894,7 @@
       "to": "ireland-town",
       "chapter": 21,
       "title": "Cast adrift",
-      "narration": "That night he rows out and sinks the remains at sea, then sleeps in the boat and wakes far from land, a rising wind carrying him he knows not where. He makes a small Irish harbour — and is seized by a hostile crowd."
+      "narration": "That night he rows out and sinks the remains at sea, then sleeps in the boat and wakes far from land, a rising wind carrying him he knows not where. He makes a small Irish harbour - and is seized by a hostile crowd."
     },
     {
       "kind": "handoff",
@@ -1915,7 +1915,7 @@
       "to": "ireland-town",
       "chapter": 22,
       "title": "To rejoin his friend",
-      "narration": "From Perth, Clerval set out to catch up with Victor — until the creature's hands closed on his throat, and his body was carried to the very Irish coast where his friend, days later, would come ashore accused of the murder."
+      "narration": "From Perth, Clerval set out to catch up with Victor - until the creature's hands closed on his throat, and his body was carried to the very Irish coast where his friend, days later, would come ashore accused of the murder."
     },
     {
       "kind": "journey",
@@ -1933,7 +1933,7 @@
       "to": "geneva",
       "chapter": 23,
       "title": "Home to a wedding",
-      "narration": "They land in France and travel home overland by way of Paris to Geneva — where a wedding to Elizabeth is waiting, and the creature's promise to be with him on his wedding night."
+      "narration": "They land in France and travel home overland by way of Paris to Geneva - where a wedding to Elizabeth is waiting, and the creature's promise to be with him on his wedding night."
     },
     {
       "kind": "journey",
@@ -1966,7 +1966,7 @@
       "to": "evian",
       "chapter": 24,
       "title": "Keeping its promise",
-      "narration": "From the Alpine meeting the creature had followed Victor across the whole second journey — the face at the Orkney window, the killer on the Irish shore — always a step behind, until it reached Evian and made good the threat sworn upon the ice."
+      "narration": "From the Alpine meeting the creature had followed Victor across the whole second journey - the face at the Orkney window, the killer on the Irish shore - always a step behind, until it reached Evian and made good the threat sworn upon the ice."
     },
     {
       "kind": "meanwhile",
@@ -1997,7 +1997,7 @@
       "to": "black-sea",
       "chapter": 25,
       "title": "Out to sea, after him",
-      "narration": "At the coast he sees the creature slip aboard a ship by night, bound for the Black Sea, and takes passage after it — through the Mediterranean and the straits, always a day behind."
+      "narration": "At the coast he sees the creature slip aboard a ship by night, bound for the Black Sea, and takes passage after it - through the Mediterranean and the straits, always a day behind."
     },
     {
       "kind": "journey",
@@ -2006,11 +2006,11 @@
       "to": "arctic-coast",
       "chapter": 25,
       "title": "Across Tartary and Russia",
-      "narration": "Across the wilds of Tartary and Russia the chase runs north, much of it by dog-sledge over the snow — Victor reading the print of the creature's huge step on the white plain, guided on by taunts it leaves cut in bark and stone."
+      "narration": "Across the wilds of Tartary and Russia the chase runs north, much of it by dog-sledge over the snow - Victor reading the print of the creature's huge step on the white plain, guided on by taunts it leaves cut in bark and stone."
     },
     {
       "kind": "meanwhile",
-      "narration": "The two are so bound now they might be one journey. Wind back to the creature's own line east across Europe and Russia — the quarry that drew its hunter on, leaving marks and even food so the pursuit should never fail."
+      "narration": "The two are so bound now they might be one journey. Wind back to the creature's own line east across Europe and Russia - the quarry that drew its hunter on, leaving marks and even food so the pursuit should never fail."
     },
     {
       "kind": "journey",
@@ -2019,11 +2019,11 @@
       "to": "arctic-coast",
       "chapter": 25,
       "title": "Leading its maker north",
-      "narration": "From Evian the creature drew Victor the length of Europe and across Russia to the Arctic shore — always a day ahead, taunting him onward: 'You live, and my power is complete. Follow me; I seek the everlasting ices of the north.'"
+      "narration": "From Evian the creature drew Victor the length of Europe and across Russia to the Arctic shore - always a day ahead, taunting him onward: 'You live, and my power is complete. Follow me; I seek the everlasting ices of the north.'"
     },
     {
       "kind": "meanwhile",
-      "narration": "And at the last hamlet on the seashore the two threads finally run together, out onto the frozen ocean itself — the creature a day ahead on a stolen sledge, Victor close behind, Walton's beset ship somewhere in the white beyond."
+      "narration": "And at the last hamlet on the seashore the two threads finally run together, out onto the frozen ocean itself - the creature a day ahead on a stolen sledge, Victor close behind, Walton's beset ship somewhere in the white beyond."
     },
     {
       "kind": "journey",
@@ -2035,7 +2035,7 @@
       "to": "arctic-ice",
       "chapter": 25,
       "title": "Onto the frozen sea",
-      "narration": "The creature seizes a sledge and dogs and strikes out onto the Frozen Ocean; Victor trades his land-sledge for one built for the ice and follows. Both drive north across the pack — until the ice breaks between them, and Walton's ship lies dead ahead."
+      "narration": "The creature seizes a sledge and dogs and strikes out onto the Frozen Ocean; Victor trades his land-sledge for one built for the ice and follows. Both drive north across the pack - until the ice breaks between them, and Walton's ship lies dead ahead."
     },
     {
       "kind": "handoff",
@@ -2051,7 +2051,7 @@
       "at": "arctic-ice",
       "chapter": 26,
       "title": "Lost in darkness and distance",
-      "narration": "That night the creature comes to mourn its maker, grieving with a wretchedness no one thought it could feel. Then it springs from the window onto an ice-raft and is borne away, to seek its own end in fire — 'lost in darkness and distance'."
+      "narration": "That night the creature comes to mourn its maker, grieving with a wretchedness no one thought it could feel. Then it springs from the window onto an ice-raft and is borne away, to seek its own end in fire - 'lost in darkness and distance'."
     }
   ]
 }

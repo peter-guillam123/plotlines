@@ -4,12 +4,12 @@
   "year": 1901,
   "gutenbergId": 2226,
   "quotesVerified": "Kim, Project Gutenberg #2226. Quotes are chosen to be about place, landscape, journey and the lama's search; the novel's slurs and imperial framing are kept out of the narration and the pulled quotes.",
-  "overture": "An orphaned Irish boy of the Lahore bazaars falls in with an old Tibetan lama searching for a holy river, and follows him down the Grand Trunk Road and up into the Himalayas — even as the British draw the boy into the spying they call the Great Game. A book about a road, and a friendship on it.",
-  "mapNote": "Kim is a novel of the British Raj, told from inside the imperial worldview of 1901. This telling follows the road and the friendship at its heart, and holds the politics — and the language — of empire at arm's length.",
+  "overture": "An orphaned Irish boy of the Lahore bazaars falls in with an old Tibetan lama searching for a holy river, and follows him down the Grand Trunk Road and up into the Himalayas - even as the British draw the boy into the spying they call the Great Game. A book about a road, and a friendship on it.",
+  "mapNote": "Kim is a novel of the British Raj, told from inside the imperial worldview of 1901. This telling follows the road and the friendship at its heart, and holds the politics - and the language - of empire at arm's length.",
   "mapHome": { "bounds": [[73.5, 24.5], [83.5, 32]] },
   "timeline": { "epoch": null, "calendar": false, "span": "a boyhood on the road", "duration": "about three years", "unit": "year" },
   "sources": [
-    "The journey is a curated spine of Kim's real, named landfalls — Lahore, Umballa (Ambala), Benares (Varanasi), Lucknow, Simla, Saharunpore (Saharanpur) — with the Grand Trunk Road and the high hills as the connective tissue. Shamlegh is Kipling's invention, placed conjecturally near the real Chini (Kalpa) valley.",
+    "The journey is a curated spine of Kim's real, named landfalls - Lahore, Umballa (Ambala), Benares (Varanasi), Lucknow, Simla, Saharunpore (Saharanpur) - with the Grand Trunk Road and the high hills as the connective tissue. Shamlegh is Kipling's invention, placed conjecturally near the real Chini (Kalpa) valley.",
     "The Great Game (the British intelligence plot) is drawn as a cool, separate thread and narrated factually, without valorising the espionage or the Survey. The barracks chapter's language is left out; the schooling is told as Kim's separation from the lama."
   ],
   "regions": [
@@ -35,74 +35,74 @@
     { "n": 15, "title": "The River", "day": 456, "when": "the Search ended" }
   ],
   "characters": [
-    { "id": "kim", "name": "Kim", "colour": "sienna", "initials": "K", "role": "Kimball O'Hara — the orphaned son of an Irish soldier, raised in the Lahore bazaars, 'Little Friend of all the World', torn between the lama's search and the British Game.", "start": { "location": "lahore", "chapter": 1 } },
+    { "id": "kim", "name": "Kim", "colour": "sienna", "initials": "K", "role": "Kimball O'Hara - the orphaned son of an Irish soldier, raised in the Lahore bazaars, 'Little Friend of all the World', torn between the lama's search and the British Game.", "start": { "location": "lahore", "chapter": 1 } },
     { "id": "lama", "name": "Teshoo Lama", "colour": "madder", "initials": "TL", "role": "The old Tibetan abbot searching for his River of the Arrow; Kim's master and the book's gentle moral centre.", "start": { "location": "lahore", "chapter": 1 } },
     { "id": "mahbub", "name": "Mahbub Ali", "colour": "bottle", "initials": "MA", "role": "The Afghan horse-trader from the North, secretly an agent of the Survey, who sets Kim off with a coded message.", "start": { "location": "lahore", "chapter": 1 } },
-    { "id": "game", "name": "The Great Game", "colour": "slate", "initials": "GG", "role": "The British intelligence machinery — Colonel Creighton the spymaster and Hurree Babu the Bengali surveyor — into which Kim is drawn. Kept cool and at arm's length here.", "start": { "location": "umballa", "chapter": 3 } }
+    { "id": "game", "name": "The Great Game", "colour": "slate", "initials": "GG", "role": "The British intelligence machinery - Colonel Creighton the spymaster and Hurree Babu the Bengali surveyor - into which Kim is drawn. Kept cool and at arm's length here.", "start": { "location": "umballa", "chapter": 3 } }
   ],
   "locations": [
     {
       "id": "lahore", "region": "punjab", "name": "Lahore, Punjab", "novelName": "the Wonder House, and the Zam-Zammah gun", "coords": [74.3080, 31.5679], "certainty": "real",
-      "note": "Kim's home city (in present-day Pakistan). The great bronze gun Zam-Zammah still stands on the Mall opposite the Lahore Museum — Kipling's father was its curator, the 'Wonder House' of the opening.",
-      "story": "Where Kim, astride the great gun, meets the old lama at the museum door and becomes his chela — and where the horse-trader Mahbub Ali hands him a message that draws him toward the Game.",
+      "note": "Kim's home city (in present-day Pakistan). The great bronze gun Zam-Zammah still stands on the Mall opposite the Lahore Museum - Kipling's father was its curator, the 'Wonder House' of the opening.",
+      "story": "Where Kim, astride the great gun, meets the old lama at the museum door and becomes his chela - and where the horse-trader Mahbub Ali hands him a message that draws him toward the Game.",
       "quote": "Who hold Zam-Zammah, that “fire-breathing dragon”, hold the Punjab, for the great green-bronze piece is always first of the conqueror’s loot.", "quoteRef": "Ch. 1",
-      "image": { "file": "assets/images/ki-lahore.jpg", "caption": "The Zam-Zammah gun before the Lahore Museum — 'the Wonder House' — late 19th century; the great bronze piece on which Kim sits at the story's opening.", "credit": "Photographer unknown, late 19th century · Wikimedia Commons · public domain" }
+      "image": { "file": "assets/images/ki-lahore.jpg", "caption": "The Zam-Zammah gun before the Lahore Museum - 'the Wonder House' - late 19th century; the great bronze piece on which Kim sits at the story's opening.", "credit": "Photographer unknown, late 19th century · Wikimedia Commons · public domain" }
     },
     {
       "id": "umballa", "region": "punjab", "name": "Ambala, Haryana", "novelName": "Umballa", "coords": [76.8343, 30.3496], "certainty": "real",
       "note": "Ambala, in present-day Haryana; 'Umballa City Station' in the text. Colonel Creighton's bungalow, where Kim delivers Mahbub Ali's message.",
       "story": "Where Kim slips the coded message to the Colonel and, hidden, overhears the cold machinery of the Great Game begin to turn.",
-      "quote": "And at last—tired, sleepy, and dusty—they reached Umballa City Station.", "quoteRef": "Ch. 2",
-      "image": { "file": "assets/images/ki-umballa.jpg", "caption": "St Paul's Church in the Ambala cantonment, c.1868 — a period view of the garrison town where Kim carries Mahbub Ali's message to the Colonel.", "credit": "Bourne & Shepherd, c.1868 · Wikimedia Commons · public domain", "indicative": true }
+      "quote": "And at last-tired, sleepy, and dusty-they reached Umballa City Station.", "quoteRef": "Ch. 2",
+      "image": { "file": "assets/images/ki-umballa.jpg", "caption": "St Paul's Church in the Ambala cantonment, c.1868 - a period view of the garrison town where Kim carries Mahbub Ali's message to the Colonel.", "credit": "Bourne & Shepherd, c.1868 · Wikimedia Commons · public domain", "indicative": true }
     },
     {
       "id": "grand-trunk-road", "region": "the-road", "name": "The Grand Trunk Road", "novelName": "the Grand Trunk Road", "coords": [77.55, 29.55], "certainty": "conjectured",
-      "note": "The great artery running south-east from Umballa toward Delhi and Benares. Not a single place — this is a representative point on the road, the setting of the book's central image.",
-      "story": "The 'river of life' down which Kim and the lama walk among all the peoples of India — and where the army finds Kim, a soldier's son, and takes both the road and the lama from him.",
-      "quote": "And truly the Grand Trunk Road is a wonderful spectacle. It runs straight, bearing without crowding India’s traffic for fifteen hundred miles—such a river of life as nowhere else exists in the world.", "quoteRef": "Ch. 3",
-      "imageBlank": "The best public-domain candidate for the road was a posed ethnographic group from the wrong province (Bengal, not the Punjab). Rather than use a demeaning 'types of India' plate for the book's central image, this is left a considered blank — the road speaks for itself in the quote."
+      "note": "The great artery running south-east from Umballa toward Delhi and Benares. Not a single place - this is a representative point on the road, the setting of the book's central image.",
+      "story": "The 'river of life' down which Kim and the lama walk among all the peoples of India - and where the army finds Kim, a soldier's son, and takes both the road and the lama from him.",
+      "quote": "And truly the Grand Trunk Road is a wonderful spectacle. It runs straight, bearing without crowding India’s traffic for fifteen hundred miles-such a river of life as nowhere else exists in the world.", "quoteRef": "Ch. 3",
+      "imageBlank": "The best public-domain candidate for the road was a posed ethnographic group from the wrong province (Bengal, not the Punjab). Rather than use a demeaning 'types of India' plate for the book's central image, this is left a considered blank - the road speaks for itself in the quote."
     },
     {
       "id": "benares", "region": "punjab", "name": "Varanasi (Benares), Uttar Pradesh", "novelName": "Kashi (Benares)", "coords": [82.9739, 25.3176], "certainty": "real",
       "note": "The holy city on the Ganges, the lama's first destination and his resting-place among the Jain priests through the long years of Kim's schooling.",
       "story": "Where the lama waits in a Jain temple, and where Kim, grown and half-trained for the Survey, comes down the country to find his master again.",
       "quote": "First to Kashi [Benares]: where else? There I shall meet one of the pure faith in a Jain temple of that city.", "quoteRef": "Ch. 1",
-      "image": { "file": "assets/images/ki-benares.jpg", "caption": "The ghats of Benares on the Ganges, 1890s — the holy city where the lama waits among the Jain priests, and to which Kim comes down the country to find him.", "credit": "Photographer unknown, 1890s · Wikimedia Commons · public domain" }
+      "image": { "file": "assets/images/ki-benares.jpg", "caption": "The ghats of Benares on the Ganges, 1890s - the holy city where the lama waits among the Jain priests, and to which Kim comes down the country to find him.", "credit": "Photographer unknown, 1890s · Wikimedia Commons · public domain" }
     },
     {
-      "id": "lucknow", "region": "punjab", "name": "Lucknow, Uttar Pradesh", "novelName": "Nucklao — St Xavier's", "coords": [80.9462, 26.8467], "certainty": "real",
+      "id": "lucknow", "region": "punjab", "name": "Lucknow, Uttar Pradesh", "novelName": "Nucklao - St Xavier's", "coords": [80.9462, 26.8467], "certainty": "real",
       "note": "The city where Kim is schooled at 'St Xavier's' (an invented school, modelled on La Martinière). A real, named city; the school is fiction.",
       "story": "Where Kim spends three years being made a 'Sahib' against his heart, slipping back to the road at every holiday and counting the days until he is free of the classroom.",
-      "quote": "There is no city—except Bombay, the queen of all—more beautiful in her garish style than Lucknow, whether you see her from the bridge over the river, or from the top of the Imambara looking down on the gilt umbrellas of the Chutter Munzil, and the trees in which the town is bedded.", "quoteRef": "Ch. 7",
-      "image": { "file": "assets/images/ki-lucknow.jpg", "caption": "The Chattar Manzil across the Gomti at Lucknow, 1895 — the domes and 'gilt umbrellas' of the book's own described skyline, the city of Kim's schooling.", "credit": "G. W. Lawrie & Co., 1895 · Wikimedia Commons · public domain" }
+      "quote": "There is no city-except Bombay, the queen of all-more beautiful in her garish style than Lucknow, whether you see her from the bridge over the river, or from the top of the Imambara looking down on the gilt umbrellas of the Chutter Munzil, and the trees in which the town is bedded.", "quoteRef": "Ch. 7",
+      "image": { "file": "assets/images/ki-lucknow.jpg", "caption": "The Chattar Manzil across the Gomti at Lucknow, 1895 - the domes and 'gilt umbrellas' of the book's own described skyline, the city of Kim's schooling.", "credit": "G. W. Lawrie & Co., 1895 · Wikimedia Commons · public domain" }
     },
     {
       "id": "simla", "region": "the-hills", "name": "Shimla, Himachal Pradesh", "novelName": "Simla", "coords": [77.1734, 31.1048], "certainty": "real",
       "note": "The hill station, summer capital of the Raj. Lurgan Sahib's shop, 'the healer of sick pearls', where Kim is trained in observation and memory for the Survey.",
-      "story": "Where, in the holidays, Kim is quietly groomed for the Great Game — the jewel-memory drills of Lurgan Sahib — as the machinery closes its hand around him.",
+      "story": "Where, in the holidays, Kim is quietly groomed for the Great Game - the jewel-memory drills of Lurgan Sahib - as the machinery closes its hand around him.",
       "quote": "Kim will remember till he dies that long, lazy journey from Umballa, through Kalka and the Pinjore Gardens near by, up to Simla.", "quoteRef": "Ch. 8",
-      "image": { "file": "assets/images/ki-simla.jpg", "caption": "Simla, the Raj's summer capital scattered on its wooded ridge, 1850s — where Kim is quietly trained for the Game in the school holidays.", "credit": "Unknown photographer, 1850s · Metropolitan Museum of Art · CC0" }
+      "image": { "file": "assets/images/ki-simla.jpg", "caption": "Simla, the Raj's summer capital scattered on its wooded ridge, 1850s - where Kim is quietly trained for the Game in the school holidays.", "credit": "Unknown photographer, 1850s · Metropolitan Museum of Art · CC0" }
     },
     {
       "id": "saharanpur", "region": "the-hills", "name": "Saharanpur, Uttar Pradesh", "novelName": "behind Saharunpore", "coords": [77.5460, 29.9680], "certainty": "identified",
-      "note": "A real town at the foot of the Siwalik hills; the sharp-tongued old woman of Kulu keeps her house 'among the fruit-trees behind' it. The exact house is Kipling's, not a surveyed point — and it is here, at the journey's end, that the lama finds his River.",
-      "story": "The old woman's house among the fruit-trees, where the travellers rest on the road to the hills — and where, at the very end, the lama's River of the Arrow breaks forth at their feet.",
+      "note": "A real town at the foot of the Siwalik hills; the sharp-tongued old woman of Kulu keeps her house 'among the fruit-trees behind' it. The exact house is Kipling's, not a surveyed point - and it is here, at the journey's end, that the lama finds his River.",
+      "story": "The old woman's house among the fruit-trees, where the travellers rest on the road to the hills - and where, at the very end, the lama's River of the Arrow breaks forth at their feet.",
       "quote": "So thus the Search is ended. For the merit that I have acquired, the River of the Arrow is here. It broke forth at our feet, as I have said. I have found it.", "quoteRef": "Ch. 15",
-      "imageBlank": "No clean, sensitivity-appropriate public-domain image of Saharanpur surfaced — the only period holdings were posed ethnographic 'type' portraits, which this project refuses. A considered blank."
+      "imageBlank": "No clean, sensitivity-appropriate public-domain image of Saharanpur surfaced - the only period holdings were posed ethnographic 'type' portraits, which this project refuses. A considered blank."
     },
     {
       "id": "hills", "region": "the-hills", "name": "The Himalayan foothills", "novelName": "the high hills", "coords": [77.63, 31.45], "certainty": "conjectured",
-      "note": "The ascent north-east of Simla toward the old Tibetan border — an unnamed stretch of climbing. A representative point, not a fixed location.",
+      "note": "The ascent north-east of Simla toward the old Tibetan border - an unnamed stretch of climbing. A representative point, not a fixed location.",
       "story": "The high country where the old lama, born to the mountains, grows strong again, and stretches his hands toward the snows of the horizon.",
       "quote": "or, halting in the neck of some uplifted pass that gave on Spiti and Kulu, would stretch out his hands yearningly towards the high snows of the horizon.", "quoteRef": "Ch. 13",
-      "image": { "file": "assets/images/ki-hills.jpg", "caption": "The high snows and glaciers of the Sutlej Himalaya, 1863 — the horizon of Kinnaur the old lama stretches his hands toward, near the end of his Search.", "credit": "Samuel Bourne, 1863 · British Library · Wikimedia Commons · public domain", "indicative": true }
+      "image": { "file": "assets/images/ki-hills.jpg", "caption": "The high snows and glaciers of the Sutlej Himalaya, 1863 - the horizon of Kinnaur the old lama stretches his hands toward, near the end of his Search.", "credit": "Samuel Bourne, 1863 · British Library · Wikimedia Commons · public domain", "indicative": true }
     },
     {
       "id": "shamlegh", "region": "the-hills", "name": "Shamlegh-under-the-Snow", "novelName": "Shamlegh", "coords": [78.25, 31.55], "certainty": "conjectured",
-      "note": "An invented mountain hamlet, placed conjecturally near the real Chini (Kalpa) valley, close to the old Tibetan border — the home of the strong, kindly Woman of Shamlegh.",
+      "note": "An invented mountain hamlet, placed conjecturally near the real Chini (Kalpa) valley, close to the old Tibetan border - the home of the strong, kindly Woman of Shamlegh.",
       "story": "The mountain village where a foreign agent strikes the lama and tears his sacred drawing of the Wheel, and where the Woman of Shamlegh shelters the travellers and helps them away.",
       "quote": "“These,” he said slowly, “are indeed my Hills. Thus should a man abide, perched above the world, separated from delights, considering vast matters.”", "quoteRef": "Ch. 14",
-      "image": { "file": "assets/images/ki-shamlegh.jpg", "caption": "Chini (Kalpa) above the Sutlej, 1866 — a real Kinnaur village standing for invented Shamlegh-under-the-Snow, perched above the world near the old Tibetan border.", "credit": "Samuel Bourne, 1866 · British Library · Wikimedia Commons · public domain", "indicative": true }
+      "image": { "file": "assets/images/ki-shamlegh.jpg", "caption": "Chini (Kalpa) above the Sutlej, 1866 - a real Kinnaur village standing for invented Shamlegh-under-the-Snow, perched above the world near the old Tibetan border.", "credit": "Samuel Bourne, 1866 · British Library · Wikimedia Commons · public domain", "indicative": true }
     }
   ],
   "movements": [
@@ -148,11 +148,11 @@
   ],
   "story": [
     { "kind": "scene", "character": "kim", "at": "lahore", "chapter": 1, "title": "Little Friend of all the World",
-      "narration": "In Lahore, an orphaned bazaar boy — Kimball O'Hara, an Irish soldier's son raised as much Indian as Irish in the streets — sits astride the great bronze gun. An old Tibetan lama comes to the museum seeking a river that washes away sin; Kim, enchanted, makes himself the old man's disciple." },
+      "narration": "In Lahore, an orphaned bazaar boy - Kimball O'Hara, an Irish soldier's son raised as much Indian as Irish in the streets - sits astride the great bronze gun. An old Tibetan lama comes to the museum seeking a river that washes away sin; Kim, enchanted, makes himself the old man's disciple." },
     { "kind": "scene", "character": "mahbub", "at": "lahore", "chapter": 1, "day": 0.5, "title": "The horse-trader's errand",
       "narration": "Mahbub Ali, a horse-trader from the North who is more than he seems, hands Kim a folded paper to carry secretly to a man in Umballa. It is Kim's first small turn of the wheel the British call the Great Game." },
     { "kind": "journey", "character": ["kim", "lama"], "from": "lahore", "to": "umballa", "chapter": 2, "title": "Down to Umballa",
-      "narration": "Master and disciple take the railway south, the hidden message sewn into Kim's charm-case, until — tired, sleepy and dusty — they reach Umballa City Station." },
+      "narration": "Master and disciple take the railway south, the hidden message sewn into Kim's charm-case, until - tired, sleepy and dusty - they reach Umballa City Station." },
     { "kind": "meanwhile",
       "narration": "And the horse-trader? Mahbub Ali rode the same way south with his string of horses, by his own road, to the great fair at Umballa." },
     { "kind": "removal", "character": "mahbub", "from": "lahore", "to": "umballa", "chapter": 2, "title": "The road south",
@@ -162,19 +162,19 @@
     { "kind": "journey", "character": ["kim", "lama"], "from": "umballa", "to": "grand-trunk-road", "chapter": 4, "title": "Onto the great road",
       "narration": "They leave the town on foot and come out onto the Grand Trunk Road, the fifteen-hundred-mile artery of India, and set their faces south-east along it." },
     { "kind": "scene", "character": "kim", "at": "grand-trunk-road", "chapter": 4, "title": "The river of life",
-      "narration": "All India moves on the road at once — pilgrims and soldiers, bankers and bullock-carts, holy men and horse-copers — 'such a river of life as nowhere else exists in the world'. Here the boy and the old man are wholly at home, and wholly happy." },
+      "narration": "All India moves on the road at once - pilgrims and soldiers, bankers and bullock-carts, holy men and horse-copers - 'such a river of life as nowhere else exists in the world'. Here the boy and the old man are wholly at home, and wholly happy." },
     { "kind": "handoff", "character": "kim", "at": "grand-trunk-road", "chapter": 5, "day": 11, "title": "Taken from the road",
-      "narration": "But on the road a marching regiment knows Kim for a dead comrade's son. He is seized, to be made a Sahib and sent to school — and so the road, and the lama, are taken from him at a stroke." },
+      "narration": "But on the road a marching regiment knows Kim for a dead comrade's son. He is seized, to be made a Sahib and sent to school - and so the road, and the lama, are taken from him at a stroke." },
     { "kind": "meanwhile",
-      "narration": "The lama would not stop for it. Alone now, he went on down the road toward Benares and his River — and paid, unknown to Kim, for the boy's schooling." },
+      "narration": "The lama would not stop for it. Alone now, he went on down the road toward Benares and his River - and paid, unknown to Kim, for the boy's schooling." },
     { "kind": "journey", "character": "lama", "from": "grand-trunk-road", "to": "benares", "chapter": 5, "title": "The lama goes on alone",
       "narration": "The old man walks the long road to Kashi by himself, to wait among the Jain priests through all the years of the boy's absence." },
     { "kind": "meanwhile",
-      "narration": "And Kim was swept the other way — not down the road at all, but off it, into the hands of the school." },
+      "narration": "And Kim was swept the other way - not down the road at all, but off it, into the hands of the school." },
     { "kind": "journey", "character": "kim", "from": "grand-trunk-road", "to": "lucknow", "chapter": 6, "title": "Away to school",
-      "narration": "Kim is carried off the road to St Xavier's at Lucknow — the classroom in exchange for the open country." },
+      "narration": "Kim is carried off the road to St Xavier's at Lucknow - the classroom in exchange for the open country." },
     { "kind": "scene", "character": "kim", "at": "lucknow", "chapter": 7, "day": 200, "title": "Three years a Sahib",
-      "narration": "For three years Kim is schooled into a Sahib against his own heart — a beautiful, garish city seen from a classroom window — and every holiday he slips back to the dust of the road, and pines for the lama." },
+      "narration": "For three years Kim is schooled into a Sahib against his own heart - a beautiful, garish city seen from a classroom window - and every holiday he slips back to the dust of the road, and pines for the lama." },
     { "kind": "journey", "character": "kim", "from": "lucknow", "to": "simla", "chapter": 8, "title": "Up to Simla",
       "narration": "In the long holidays he goes up to Simla, through Kalka and the Pinjore gardens, into the cool of the hills." },
     { "kind": "meanwhile",
@@ -182,23 +182,23 @@
     { "kind": "removal", "character": "game", "from": "umballa", "to": "simla", "chapter": 8, "title": "The Game moves up",
       "narration": "Creighton's quiet machinery follows the boy north into the hills." },
     { "kind": "scene", "character": "kim", "at": "simla", "chapter": 8, "day": 380, "title": "The jewel game",
-      "narration": "At Lurgan Sahib's shop Kim is trained in memory and observation — the tray of jewels glimpsed and recalled — and groomed, cool and deliberate, to be a player in the Great Game." },
+      "narration": "At Lurgan Sahib's shop Kim is trained in memory and observation - the tray of jewels glimpsed and recalled - and groomed, cool and deliberate, to be a player in the Great Game." },
     { "kind": "journey", "character": "kim", "from": "simla", "to": "benares", "chapter": 9, "title": "Back to the lama",
-      "narration": "And then, free for a season, Kim goes down the whole country again, drawn by the one thing school could not train out of him — to find the old man." },
+      "narration": "And then, free for a season, Kim goes down the whole country again, drawn by the one thing school could not train out of him - to find the old man." },
     { "kind": "scene", "character": "lama", "at": "benares", "chapter": 9, "title": "The reunion",
-      "narration": "He finds the lama waiting in the Jain temple, unchanged, overjoyed. Master and disciple are made one again — 'Son of my Soul' — and the Search takes up where it left off." },
+      "narration": "He finds the lama waiting in the Jain temple, unchanged, overjoyed. Master and disciple are made one again - 'Son of my Soul' - and the Search takes up where it left off." },
     { "kind": "journey", "character": ["kim", "lama"], "from": "benares", "to": "saharanpur", "chapter": 11, "title": "North to the hills",
       "narration": "Together once more, they travel north across the plain toward the mountains, to the fruit-trees behind Saharunpore where a sharp-tongued old woman of Kulu keeps her house." },
     { "kind": "scene", "character": "kim", "at": "saharanpur", "chapter": 11, "day": 424, "title": "The old woman's house",
       "narration": "They rest among the orchards, in the care of the fierce, kindly old lady who honours the lama as a saint, and gather themselves for the climb into the high country." },
     { "kind": "journey", "character": ["kim", "lama"], "from": "saharanpur", "to": "hills", "chapter": 12, "title": "Into the foothills",
-      "narration": "Up out of the plains into the Himalayan foothills, where the old lama — born to the mountains — grows young and strong again with every thousand feet." },
+      "narration": "Up out of the plains into the Himalayan foothills, where the old lama - born to the mountains - grows young and strong again with every thousand feet." },
     { "kind": "meanwhile",
-      "narration": "And behind them the Game climbed too — Hurree Babu, the brave Bengali surveyor, shadowing two foreign agents up into the same passes." },
+      "narration": "And behind them the Game climbed too - Hurree Babu, the brave Bengali surveyor, shadowing two foreign agents up into the same passes." },
     { "kind": "removal", "character": "game", "from": "simla", "to": "hills", "chapter": 12, "title": "The Game in the hills",
       "narration": "The Survey's man follows the strangers into the mountains, a cold thread through the high country." },
     { "kind": "scene", "character": "lama", "at": "hills", "chapter": 13, "day": 438, "title": "His own hills",
-      "narration": "In the neck of a high pass, looking out over Spiti and Kulu, the lama stretches his hands toward the snows of the horizon — home, and near, he feels, to the end of his Search." },
+      "narration": "In the neck of a high pass, looking out over Spiti and Kulu, the lama stretches his hands toward the snows of the horizon - home, and near, he feels, to the end of his Search." },
     { "kind": "journey", "character": ["kim", "lama"], "from": "hills", "to": "shamlegh", "chapter": 13, "title": "To Shamlegh",
       "narration": "Higher still, to the mountain hamlet of Shamlegh-under-the-Snow, perched above the world." },
     { "kind": "scene", "character": "kim", "at": "shamlegh", "chapter": 14, "day": 446, "title": "The desecration",
@@ -206,6 +206,6 @@
     { "kind": "journey", "character": ["kim", "lama"], "from": "shamlegh", "to": "saharanpur", "chapter": 15, "title": "Down to the plains",
       "narration": "The long descent from the snows, the boy carrying the exhausted old man, back down to the orchards and the old woman's house on the plains." },
     { "kind": "scene", "character": "lama", "at": "saharanpur", "chapter": 15, "day": 458, "title": "The River of the Arrow",
-      "narration": "And there the lama finds it: his River, broken forth at their very feet. Standing at the threshold of the freedom he has sought all his life, he turns back from it — to draw his beloved chela after him into salvation. 'Son of my Soul,' he says. 'Come!'" }
+      "narration": "And there the lama finds it: his River, broken forth at their very feet. Standing at the threshold of the freedom he has sought all his life, he turns back from it - to draw his beloved chela after him into salvation. 'Son of my Soul,' he says. 'Come!'" }
   ]
 }

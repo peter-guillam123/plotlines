@@ -11,18 +11,18 @@
     "duration": "2 years",
     "unit": "year"
   },
-  "overture": "Bleak House is a fog of a story, and its journeys keep circling back to one iron gate. From the Court of Chancery at Lincoln's Inn the threads run out to a kindly house near St Albans, to a cold ancestral seat down in Lincolnshire, and to the garrison town of Deal on the Kent coast — until, on a snow-bound winter night, a detective and a daughter chase a fleeing woman north up the Great North Road and all the way back again, to a pauper's grave in London.",
+  "overture": "Bleak House is a fog of a story, and its journeys keep circling back to one iron gate. From the Court of Chancery at Lincoln's Inn the threads run out to a kindly house near St Albans, to a cold ancestral seat down in Lincolnshire, and to the garrison town of Deal on the Kent coast - until, on a snow-bound winter night, a detective and a daughter chase a fleeing woman north up the Great North Road and all the way back again, to a pauper's grave in London.",
   "sources": [
     {
-      "name": "The Charles Dickens Page — Bleak House",
+      "name": "The Charles Dickens Page - Bleak House",
       "url": "https://www.charlesdickenspage.com/charles-dickens-bleak-house.html"
     },
     {
-      "name": "Rockingham Castle — the model for Chesney Wold",
+      "name": "Rockingham Castle - the model for Chesney Wold",
       "url": "https://www.rockinghamcastle.com/"
     },
     {
-      "name": "COVE Collective — Locating Tom-all-Alone's",
+      "name": "COVE Collective - Locating Tom-all-Alone's",
       "url": "https://editions.covecollective.org/"
     },
     {
@@ -33,15 +33,15 @@
   "regions": [
     {
       "id": "london",
-      "name": "London — Chancery and the fog"
+      "name": "London - Chancery and the fog"
     },
     {
       "id": "hertfordshire",
-      "name": "Hertfordshire — Bleak House"
+      "name": "Hertfordshire - Bleak House"
     },
     {
       "id": "lincolnshire",
-      "name": "Lincolnshire — Chesney Wold"
+      "name": "Lincolnshire - Chesney Wold"
     },
     {
       "id": "elsewhere",
@@ -469,7 +469,7 @@
       "id": "esther-summerson",
       "name": "Esther Summerson",
       "colour": "prussian",
-      "role": "The narrator-spine: Jarndyce's ward, and — though she does not know it — Lady Dedlock's secret daughter. Almost every real journey passes through her.",
+      "role": "The narrator-spine: Jarndyce's ward, and - though she does not know it - Lady Dedlock's secret daughter. Almost every real journey passes through her.",
       "start": {
         "location": "greenleaf-school",
         "chapter": 3
@@ -489,7 +489,7 @@
       "id": "inspector-bucket",
       "name": "Inspector Bucket",
       "colour": "slate",
-      "role": "The detective — the story's tracking intelligence, who reads the snow and conducts the final pursuit.",
+      "role": "The detective - the story's tracking intelligence, who reads the snow and conducts the final pursuit.",
       "start": {
         "location": "lincolns-inn-chancery",
         "chapter": 22
@@ -509,7 +509,7 @@
       "id": "jo",
       "name": "Jo",
       "colour": "sienna",
-      "role": "The crossing-sweeper of Tom-all-Alone's, forever 'moved on' — the human thread that links the great and the wretched, and the one who carries the fever out of the slum.",
+      "role": "The crossing-sweeper of Tom-all-Alone's, forever 'moved on' - the human thread that links the great and the wretched, and the one who carries the fever out of the slum.",
       "start": {
         "location": "tom-all-alones",
         "chapter": 16
@@ -551,7 +551,7 @@
       "story": "Where Mr Snagsby the law-stationer pursues his lawful calling, and copies of a certain law-writer's hand set the whole secret in motion.",
       "quote": "On the eastern borders of Chancery Lane, that is to say, more particularly in Cook's Court, Cursitor Street, Mr. Snagsby, law-stationer, pursues his lawful calling.",
       "quoteRef": "Ch. 10, The Law-Writer",
-      "imageBlank": "No public-domain contemporaneous view of the actual Took's Court / Cursitor Street exists — only modern photographs, or the wrong (grander) building; a blank is more honest than a substitute."
+      "imageBlank": "No public-domain contemporaneous view of the actual Took's Court / Cursitor Street exists - only modern photographs, or the wrong (grander) building; a blank is more honest than a substitute."
     },
     {
       "id": "krooks-shop",
@@ -563,13 +563,13 @@
         51.5155
       ],
       "certainty": "conjectured",
-      "note": "A fictional shop, but firmly sited: Miss Flite leads the wards straight from the Court to 'courts and lanes immediately outside the wall of the inn' — the tangle west of Lincoln's Inn, long localised to the Chichester Rents / Star Yard warren. The exact court is Dickens's invention, so the pin is a best guess within the real district.",
-      "story": "The rag-and-bottle shop where Nemo lodges and where Krook, its gin-soaked master, dies by spontaneous combustion — the most notorious death in Dickens.",
+      "note": "A fictional shop, but firmly sited: Miss Flite leads the wards straight from the Court to 'courts and lanes immediately outside the wall of the inn' - the tangle west of Lincoln's Inn, long localised to the Chichester Rents / Star Yard warren. The exact court is Dickens's invention, so the pin is a best guess within the real district.",
+      "story": "The rag-and-bottle shop where Nemo lodges and where Krook, its gin-soaked master, dies by spontaneous combustion - the most notorious death in Dickens.",
       "quote": "She had stopped at a shop over which was written KROOK, RAG AND BOTTLE WAREHOUSE.",
       "quoteRef": "Ch. 5, A Morning Adventure",
       "image": {
         "file": "assets/images/bh-krooks-shop.jpg",
-        "caption": "Old timber houses at the corner of Chancery Lane — the mouldering district of Krook's rag-and-bottle shop — wood engraving from Old and New London, 1873",
+        "caption": "Old timber houses at the corner of Chancery Lane - the mouldering district of Krook's rag-and-bottle shop - wood engraving from Old and New London, 1873",
         "credit": "Old and New London (1873), after J. T. Smith · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -578,19 +578,19 @@
       "id": "burying-ground-nemo",
       "region": "london",
       "name": "A pestilential pauper burial ground (best-fit: Russell Court, off Drury Lane)",
-      "novelName": "the hemmed-in churchyard — the archway, the step, the iron gate",
+      "novelName": "the hemmed-in churchyard - the archway, the step, the iron gate",
       "coords": [
         -0.1205,
         51.5128
       ],
       "certainty": "conjectured",
-      "note": "The pauper graveyard where Nemo/Captain Hawdon is buried and where Lady Dedlock is found dead at the iron gate. Dickens drew on the notorious overcrowded grounds behind Drury Lane — the most-cited model is Russell Court, closed in 1853 — but the text never names it, so the position is a best guess.",
+      "note": "The pauper graveyard where Nemo/Captain Hawdon is buried and where Lady Dedlock is found dead at the iron gate. Dickens drew on the notorious overcrowded grounds behind Drury Lane - the most-cited model is Russell Court, closed in 1853 - but the text never names it, so the position is a best guess.",
       "story": "The iron gate the whole novel circles back to. Nemo is 'sown in corruption' here; Jo leads the veiled Lady Dedlock to it; and here, in the snow, she dies on the step.",
       "quote": "they lower our dear brother down a foot or two, here sow him in corruption",
       "quoteRef": "Ch. 11, Our Dear Brother",
       "image": {
         "file": "assets/images/bh-enon-chapel.jpg",
-        "caption": "Enon Chapel — a notorious London burial pit with a dance hall above the bodies, the pestilential kind of ground Dickens was attacking",
+        "caption": "Enon Chapel - a notorious London burial pit with a dance hall above the bodies, the pestilential kind of ground Dickens was attacking",
         "credit": "The Poor Man's Guardian, 1847 · London Museum · public domain",
         "indicative": true
       }
@@ -605,13 +605,13 @@
         51.5152
       ],
       "certainty": "conjectured",
-      "note": "The novel's great ruinous slum, tied into the Jarndyce suit as a decaying property. Dickens never names a real district and built it as a composite of the mid-century rookeries; scholarship makes St Giles-in-the-Fields the leading candidate, with Field Lane and Clare Market also proposed. No single site is agreed — hence a best guess.",
+      "note": "The novel's great ruinous slum, tied into the Jarndyce suit as a decaying property. Dickens never names a real district and built it as a composite of the mid-century rookeries; scholarship makes St Giles-in-the-Fields the leading candidate, with Field Lane and Clare Market also proposed. No single site is agreed - hence a best guess.",
       "story": "The black, tumbledown street where Jo lives, and where the fever breeds that will climb out of the slum and reach even the great house.",
-      "quote": "Jo lives—that is to say, Jo has not yet died—in a ruinous place known to the like of him by the name of Tom-all-Alone's.",
+      "quote": "Jo lives-that is to say, Jo has not yet died-in a ruinous place known to the like of him by the name of Tom-all-Alone's.",
       "quoteRef": "Ch. 16, Tom-all-Alone's",
       "image": {
         "file": "assets/images/bh-seven-dials.jpg",
-        "caption": "Dudley Street, Seven Dials — the St Giles rookery behind Tom-all-Alone's, engraved by Gustave Doré, 1872",
+        "caption": "Dudley Street, Seven Dials - the St Giles rookery behind Tom-all-Alone's, engraved by Gustave Doré, 1872",
         "credit": "Gustave Doré, London: A Pilgrimage, 1872 · public domain",
         "indicative": true
       }
@@ -626,13 +626,13 @@
         51.5108
       ],
       "certainty": "conjectured",
-      "note": "Trooper George keeps his shooting gallery in the raffish quarter around the Haymarket and Leicester Square — Dickens names the neighbourhood precisely, but the gallery itself is a fictional establishment, so the pin is a best guess within the named district.",
-      "story": "The old trooper's gallery, a refuge on the edge of the respectable world — where Jo is hidden, and where he dies with Woodcourt beside him.",
+      "note": "Trooper George keeps his shooting gallery in the raffish quarter around the Haymarket and Leicester Square - Dickens names the neighbourhood precisely, but the gallery itself is a fictional establishment, so the pin is a best guess within the named district.",
+      "story": "The old trooper's gallery, a refuge on the edge of the respectable world - where Jo is hidden, and where he dies with Woodcourt beside him.",
       "quote": "that curious region lying about the Haymarket and Leicester Square which is a centre of attraction to indifferent foreign hotels",
       "quoteRef": "Ch. 21, The Smallweed Family",
       "image": {
         "file": "assets/images/bh-mr-george-shooting-gallery.jpg",
-        "caption": "Harmony in Leicester Square — street musicians before Jaunay's Hotel in the raffish foreign-hotel quarter of Mr George's gallery, lithograph, 1848",
+        "caption": "Harmony in Leicester Square - street musicians before Jaunay's Hotel in the raffish foreign-hotel quarter of Mr George's gallery, lithograph, 1848",
         "credit": "Lithograph after H. Mörner, printed by Graf & Soret, 1848 · British Museum · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -648,12 +648,12 @@
       ],
       "certainty": "conjectured",
       "note": "The Dedlocks' town house in the fashionable West End Dickens satirises. He gives no street or square, only the 'town' counterpart to Chesney Wold, so a Mayfair / St James's position is a defensible best guess.",
-      "story": "The cold, grand house where Lady Dedlock keeps her freezing state — and from which, one winter night, she walks out for the last time.",
+      "story": "The cold, grand house where Lady Dedlock keeps her freezing state - and from which, one winter night, she walks out for the last time.",
       "quote": "Lady Dedlock has come up from her place in Lincolnshire (hotly pursued by the fashionable intelligence) to pass a few days at her house in town",
       "quoteRef": "Ch. 2, In Fashion",
       "image": {
         "file": "assets/images/bh-dedlock-town-house.jpg",
-        "caption": "St James's Square, London, in a 1753 engraving — the sort of grand West End square, ringed by aristocratic mansions, where the Dedlocks keep their cold town house, and from which my Lady walks out one winter night for the last time.",
+        "caption": "St James's Square, London, in a 1753 engraving - the sort of grand West End square, ringed by aristocratic mansions, where the Dedlocks keep their cold town house, and from which my Lady walks out one winter night for the last time.",
         "credit": "Thomas Bowles, 'A View of St James's Square', 1753 · Yale Center for British Art · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -668,13 +668,13 @@
         51.4543
       ],
       "certainty": "conjectured",
-      "note": "Esther's childhood school. The text places it firmly in the Reading area — she is sent by stagecoach to Reading and spends six years there — but the house is fictional, so the pin is anchored on Reading town, the place Dickens names.",
+      "note": "Esther's childhood school. The text places it firmly in the Reading area - she is sent by stagecoach to Reading and spends six years there - but the house is fictional, so the pin is anchored on Reading town, the place Dickens names.",
       "story": "Where the lonely, unwanted Esther is quietly schooled for six years, until the letter comes that summons her to London and the story.",
       "quote": "I left it, inside the stagecoach, for Reading.",
       "quoteRef": "Ch. 3, A Progress",
       "image": {
         "file": "assets/images/bh-greenleaf-school.jpg",
-        "caption": "The Market Place at Reading — the town where Esther is schooled — one of the earliest photographs, a calotype by Fox Talbot, c.1845",
+        "caption": "The Market Place at Reading - the town where Esther is schooled - one of the earliest photographs, a calotype by Fox Talbot, c.1845",
         "credit": "William Henry Fox Talbot, c.1845 · Reading Borough Libraries · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -690,12 +690,12 @@
       ],
       "certainty": "conjectured",
       "note": "John Jarndyce's house, explicitly placed 'in Hertfordshire' and reached just past St Albans. The house is fictional; a house in Folly Lane, St Albans, was called 'Bleak House' after publication and is often cited as the inspiration, though Fort House in Broadstairs (where Dickens did much of the writing) was also later renamed. Best-guess position just outside St Albans.",
-      "story": "Jarndyce's rambling, kindly house — the one warm centre of the book, and Esther's home. Jo is found feverish at the brick-kilns nearby; it is the fixed point all her journeys return to.",
+      "story": "Jarndyce's rambling, kindly house - the one warm centre of the book, and Esther's home. Jo is found feverish at the brick-kilns nearby; it is the fixed point all her journeys return to.",
       "quote": "the long night had closed in before we came to St. Albans, near to which town Bleak House was, we knew.",
       "quoteRef": "Ch. 6, Quite at Home",
       "image": {
         "file": "assets/images/bh-bleak-house.jpg",
-        "caption": "High Street, St Albans — the old market town Bleak House lies just beyond — hand-coloured aquatint, c.1807",
+        "caption": "High Street, St Albans - the old market town Bleak House lies just beyond - hand-coloured aquatint, c.1807",
         "credit": "Engraved from a drawing by G. Shepherd for The Beauties of England and Wales, c.1807 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -703,20 +703,20 @@
     {
       "id": "chesney-wold",
       "region": "lincolnshire",
-      "name": "Chesney Wold — a Lincolnshire seat (fictional; atmosphere drawn from Rockingham Castle)",
+      "name": "Chesney Wold - a Lincolnshire seat (fictional; atmosphere drawn from Rockingham Castle)",
       "novelName": "Chesney Wold",
       "coords": [
         -0.45,
         52.95
       ],
       "certainty": "conjectured",
-      "note": "The Dedlocks' country seat, which the novel places unambiguously 'in Lincolnshire' ('down in Lincolnshire', 'the place in Lincolnshire'). The atmosphere — the Ghost's Walk, the long gallery, the tower room — Dickens drew from Rockingham Castle in Northamptonshire, home of his friends the Watsons ('many bits, chiefly about trees and shadows'). Pinned in Lincolnshire, where the story sends its travellers; Rockingham is the real house behind the mood.",
-      "story": "The great, damp, ancestral house where Lady Dedlock is bored to death and the rain falls for ever on the Ghost's Walk — the cold pole of the story, opposite Bleak House's warmth.",
-      "quote": "The rain is ever falling—drip, drip, drip—by day and night upon the broad flagged terrace-pavement, the Ghost's Walk.",
+      "note": "The Dedlocks' country seat, which the novel places unambiguously 'in Lincolnshire' ('down in Lincolnshire', 'the place in Lincolnshire'). The atmosphere - the Ghost's Walk, the long gallery, the tower room - Dickens drew from Rockingham Castle in Northamptonshire, home of his friends the Watsons ('many bits, chiefly about trees and shadows'). Pinned in Lincolnshire, where the story sends its travellers; Rockingham is the real house behind the mood.",
+      "story": "The great, damp, ancestral house where Lady Dedlock is bored to death and the rain falls for ever on the Ghost's Walk - the cold pole of the story, opposite Bleak House's warmth.",
+      "quote": "The rain is ever falling-drip, drip, drip-by day and night upon the broad flagged terrace-pavement, the Ghost's Walk.",
       "quoteRef": "Ch. 2, In Fashion",
       "image": {
         "file": "assets/images/bh-rockingham.jpg",
-        "caption": "Rockingham Castle — the real house whose mood Dickens gave Chesney Wold, not the imagined seat itself",
+        "caption": "Rockingham Castle - the real house whose mood Dickens gave Chesney Wold, not the imagined seat itself",
         "credit": "J. P. Neale, 1818 · British Library · public domain",
         "indicative": true
       }
@@ -732,7 +732,7 @@
       ],
       "certainty": "real",
       "note": "A real Kentish seaport, named and unchanged. Richard is quartered here with his regiment; Esther travels down to plead with him, and sees Woodcourt land from the East Indiaman.",
-      "story": "The windy garrison town on the Kent coast where Richard, in uniform now, is quartered — and where Esther, come to reason with him, watches Allan Woodcourt come ashore from a shipwreck.",
+      "story": "The windy garrison town on the Kent coast where Richard, in uniform now, is quartered - and where Esther, come to reason with him, watches Allan Woodcourt come ashore from a shipwreck.",
       "quote": "I should go down to Deal, where Richard was then stationed, and see him, and try if it were possible to avert the worst.",
       "quoteRef": "Ch. 45, In Trust",
       "image": {
@@ -788,7 +788,7 @@
         }
       ],
       "routeNote": "Down from Lincolnshire to town by the Great North Road.",
-      "routeSource": "Cary's New Itinerary — the Great North Road; 'come up from her place in Lincolnshire', Ch. 2.",
+      "routeSource": "Cary's New Itinerary - the Great North Road; 'come up from her place in Lincolnshire', Ch. 2.",
       "routeCertainty": "documented",
       "note": "The Dedlocks migrate to town for the season; here Lady Dedlock recognises a law-writer's hand on a document, and the long unravelling begins."
     },
@@ -816,7 +816,7 @@
         }
       ],
       "routeNote": "The old Bath road from Reading into London, through Maidenhead and Hounslow.",
-      "routeSource": "Cary's New Itinerary — the London–Bath–Bristol road; Esther travels 'inside the stagecoach, for Reading', Ch. 3.",
+      "routeSource": "Cary's New Itinerary - the London–Bath–Bristol road; Esther travels 'inside the stagecoach, for Reading', Ch. 3.",
       "routeCertainty": "documented",
       "note": "Summoned by letter ('I omit the date') to be Ada's companion; the coach up from Reading to London."
     },
@@ -855,7 +855,7 @@
           "note": "the long night has closed in before they reach it; Bleak House lies just beyond"
         }
       ],
-      "routeNote": "The old coaching road out of London to St Albans, by Highgate — the Whittington stone Esther recalls — and Barnet.",
+      "routeNote": "The old coaching road out of London to St Albans, by Highgate - the Whittington stone Esther recalls - and Barnet.",
       "routeSource": "Cary's New Itinerary; the road 'an old acquaintance of yours', as Bucket later says (Ch. 57).",
       "routeCertainty": "documented",
       "note": "The three wards ride down together to Jarndyce; Esther, remembering Whittington, watches the milestones and rick-yards go by, and Richard rides beside her full of bright hopes of the suit."
@@ -867,7 +867,7 @@
       "chapter": 16,
       "mode": "foot",
       "days": 1,
-      "note": "Disguised as her maid, Lady Dedlock has Jo lead her by night to Nemo's grave — a rehearsal, unknowing, of her own last walk to the same gate."
+      "note": "Disguised as her maid, Lady Dedlock has Jo lead her by night to Nemo's grave - a rehearsal, unknowing, of her own last walk to the same gate."
     },
     {
       "character": "lady-dedlock",
@@ -885,7 +885,7 @@
       "chapter": 16,
       "mode": "foot",
       "days": 1,
-      "note": "Jo leads the veiled great lady to Nemo's grave — the knowledge that makes a crossing-sweeper dangerous to the powerful."
+      "note": "Jo leads the veiled great lady to Nemo's grave - the knowledge that makes a crossing-sweeper dangerous to the powerful."
     },
     {
       "character": "jo",
@@ -928,10 +928,10 @@
           "note": "down the hill into the London fog"
         }
       ],
-      "routeNote": "Back down the old St Albans coaching road to London — Barnet and Highgate — into the fog and the court.",
+      "routeNote": "Back down the old St Albans coaching road to London - Barnet and Highgate - into the fog and the court.",
       "routeSource": "Cary's New Itinerary; the London–Barnet–St Albans coaching road (the Great North Road as far as Barnet, then the St Albans branch), reversed.",
       "routeCertainty": "documented",
-      "note": "Back to town to try medicine, then law — restless, as each new career fails him."
+      "note": "Back to town to try medicine, then law - restless, as each new career fails him."
     },
     {
       "character": "esther-summerson",
@@ -977,8 +977,8 @@
           "name": "Grantham"
         }
       ],
-      "routeNote": "North on the Great North Road into Lincolnshire — Barnet, Hatfield, Stevenage, then Stamford and Grantham.",
-      "routeSource": "Cary's New Itinerary / Paterson's Roads — the Great North Road; the seat is 'down in Lincolnshire' (Ch. 2).",
+      "routeNote": "North on the Great North Road into Lincolnshire - Barnet, Hatfield, Stevenage, then Stamford and Grantham.",
+      "routeSource": "Cary's New Itinerary / Paterson's Roads - the Great North Road; the seat is 'down in Lincolnshire' (Ch. 2).",
       "routeCertainty": "documented",
       "note": "A convalescent summer visit to Mr Boythorn, whose grounds adjoin Chesney Wold; Esther first sees Lady Dedlock at the Ghost's Walk and feels, without understanding, the resemblance."
     },
@@ -1013,7 +1013,7 @@
           "name": "St Albans"
         }
       ],
-      "routeNote": "On foot up the St Albans road — the 'Stolbuns Road' Jo names — by Highgate and Barnet.",
+      "routeNote": "On foot up the St Albans road - the 'Stolbuns Road' Jo names - by Highgate and Barnet.",
       "routeSource": "Cary's New Itinerary; Jo's own words, Ch. 31: 'I took the Stolbuns Road. It's as good as another.'",
       "routeCertainty": "documented",
       "note": "Hounded past endurance, Jo leaves London on foot up the 'Stolbuns Road' and is found feverish at the brick-kilns near Bleak House, carrying the smallpox with him."
@@ -1063,7 +1063,7 @@
         }
       ],
       "routeNote": "The Great North Road back south out of Lincolnshire.",
-      "routeSource": "Cary's New Itinerary — the Great North Road, reversed.",
+      "routeSource": "Cary's New Itinerary - the Great North Road, reversed.",
       "routeCertainty": "documented",
       "note": "Home again to Bleak House as the summer ends."
     },
@@ -1097,8 +1097,8 @@
           "name": "Canterbury"
         }
       ],
-      "routeNote": "Round London and down the old Dover Road through Kent — Dartford, Rochester and Canterbury — on to Deal.",
-      "routeSource": "Cary's New Itinerary / Paterson's Roads — the London–Dover turnpike.",
+      "routeNote": "Round London and down the old Dover Road through Kent - Dartford, Rochester and Canterbury - on to Deal.",
+      "routeSource": "Cary's New Itinerary / Paterson's Roads - the London–Dover turnpike.",
       "routeCertainty": "documented",
       "note": "Esther and Charley go down to the Kent coast to beg Richard, now with his regiment, to give up the ruinous suit."
     },
@@ -1133,7 +1133,7 @@
         }
       ],
       "routeNote": "The Dover Road back up to London.",
-      "routeSource": "Cary's New Itinerary — the Dover Road, reversed.",
+      "routeSource": "Cary's New Itinerary - the Dover Road, reversed.",
       "routeCertainty": "documented",
       "note": "Back to London with Richard, who cannot keep away from Chancery."
     },
@@ -1168,9 +1168,9 @@
         }
       ],
       "routeNote": "The old Dover Road through Kent to the Deal garrison.",
-      "routeSource": "Cary's New Itinerary / Paterson's Roads — the London–Dover turnpike.",
+      "routeSource": "Cary's New Itinerary / Paterson's Roads - the London–Dover turnpike.",
       "routeCertainty": "documented",
-      "note": "He buys a commission and is quartered at Deal — one more escape from a life the suit has hollowed out."
+      "note": "He buys a commission and is quartered at Deal - one more escape from a life the suit has hollowed out."
     },
     {
       "character": "richard-carstone",
@@ -1203,7 +1203,7 @@
         }
       ],
       "routeNote": "The Dover Road back to London.",
-      "routeSource": "Cary's New Itinerary — the Dover Road, reversed.",
+      "routeSource": "Cary's New Itinerary - the Dover Road, reversed.",
       "routeCertainty": "documented",
       "note": "He sells out and comes back to London and the suit, which at the last takes everything, and him."
     },
@@ -1238,9 +1238,9 @@
         }
       ],
       "routeNote": "Back down the St Albans road to London on foot.",
-      "routeSource": "Cary's New Itinerary — the St Albans road, reversed; 'Stop Him!', Ch. 46.",
+      "routeSource": "Cary's New Itinerary - the St Albans road, reversed; 'Stop Him!', Ch. 46.",
       "routeCertainty": "documented",
-      "note": "Moved on once more, Jo drifts all the way back to London, where Trooper George takes him in — the last shelter before the last move of all."
+      "note": "Moved on once more, Jo drifts all the way back to London, where Trooper George takes him in - the last shelter before the last move of all."
     },
     {
       "character": "inspector-bucket",
@@ -1287,7 +1287,7 @@
         }
       ],
       "routeNote": "North to Lincolnshire on the Great North Road.",
-      "routeSource": "Cary's New Itinerary — the Great North Road.",
+      "routeSource": "Cary's New Itinerary - the Great North Road.",
       "routeCertainty": "documented",
       "note": "On the track of Tulkinghorn's murderer, Bucket ranges up to Lincolnshire and back."
     },
@@ -1336,7 +1336,7 @@
         }
       ],
       "routeNote": "The Great North Road back to town.",
-      "routeSource": "Cary's New Itinerary — the Great North Road, reversed.",
+      "routeSource": "Cary's New Itinerary - the Great North Road, reversed.",
       "routeCertainty": "documented",
       "note": "Back to London, where he springs the mine and arrests the real murderer."
     },
@@ -1368,7 +1368,7 @@
       "routeNote": "Her flight north to the Highgate toll and the St Albans road, the clothes-swap, and the turn back to the burying-ground.",
       "routeSource": "Dickens, Chs. 55, 57 & 59: seen 'at the archway toll, over at Highgate'; the decoy on the St Albans road ('one returned, and one went on'); dead at 'an archway, and a step, and an iron gate.'",
       "routeCertainty": "novel",
-      "note": "THE FINAL FLIGHT. She walks out in her own clothes into the snow, is seen at the Highgate toll, swaps clothes with Jenny on the St Albans road to throw off pursuit, then turns back to London in rags — and dies on the step of the burying-ground's iron gate."
+      "note": "THE FINAL FLIGHT. She walks out in her own clothes into the snow, is seen at the Highgate toll, swaps clothes with Jenny on the St Albans road to throw off pursuit, then turns back to London in rags - and dies on the step of the burying-ground's iron gate."
     },
     {
       "character": [
@@ -1403,13 +1403,13 @@
             51.752
           ],
           "name": "St Albans",
-          "note": "the far turn — where Bucket reads the decoy and doubles back"
+          "note": "the far turn - where Bucket reads the decoy and doubles back"
         }
       ],
-      "routeNote": "Bucket and Esther drive north up the Great North Road to St Albans and back again — the route the novel tracks turnpike by turnpike.",
-      "routeSource": "Dickens, Chs. 56–57: 'I heard of her first at the archway toll, over at Highgate'; 'At Barnet fresh horses were ready for us'; 'We were soon in Saint Albans'; then the doubling-back — 'I'll follow the other.'",
+      "routeNote": "Bucket and Esther drive north up the Great North Road to St Albans and back again - the route the novel tracks turnpike by turnpike.",
+      "routeSource": "Dickens, Chs. 56–57: 'I heard of her first at the archway toll, over at Highgate'; 'At Barnet fresh horses were ready for us'; 'We were soon in Saint Albans'; then the doubling-back - 'I'll follow the other.'",
       "routeCertainty": "novel",
-      "note": "THE PURSUIT. Roused near two in the morning, Esther is driven by Bucket north out of London through the snow — Highgate, fresh horses at Barnet, on toward St Albans — until he reads the clothes-swap for the decoy it is, doubles back, and tears all the way south again to the iron gate."
+      "note": "THE PURSUIT. Roused near two in the morning, Esther is driven by Bucket north out of London through the snow - Highgate, fresh horses at Barnet, on toward St Albans - until he reads the clothes-swap for the decoy it is, doubles back, and tears all the way south again to the iron gate."
     }
   ],
   "story": [
@@ -1418,7 +1418,7 @@
       "at": "lincolns-inn-chancery",
       "chapter": 1,
       "title": "In Chancery",
-      "narration": "London, in November fog. At the heart of it sits the Court of Chancery, grinding through Jarndyce and Jarndyce — a suit about a will so old that no one living remembers what it means, and that has already ruined everyone it touches."
+      "narration": "London, in November fog. At the heart of it sits the Court of Chancery, grinding through Jarndyce and Jarndyce - a suit about a will so old that no one living remembers what it means, and that has already ruined everyone it touches."
     },
     {
       "kind": "handoff",
@@ -1426,7 +1426,7 @@
       "at": "chesney-wold",
       "chapter": 2,
       "title": "In fashion",
-      "narration": "Far from the fog, at Chesney Wold in Lincolnshire, lives Lady Dedlock — beautiful, bored, and frozen at the very top of the fashionable world. She has a secret, though even she does not yet know how much it will cost her."
+      "narration": "Far from the fog, at Chesney Wold in Lincolnshire, lives Lady Dedlock - beautiful, bored, and frozen at the very top of the fashionable world. She has a secret, though even she does not yet know how much it will cost her."
     },
     {
       "kind": "removal",
@@ -1435,7 +1435,7 @@
       "to": "dedlock-town-house",
       "chapter": 2,
       "title": "The law-writer's hand",
-      "narration": "The Dedlocks come up to their town house for the season. Reading a legal paper, Lady Dedlock freezes at the handwriting on it — she knows the hand — and faints. The long unravelling has begun."
+      "narration": "The Dedlocks come up to their town house for the season. Reading a legal paper, Lady Dedlock freezes at the handwriting on it - she knows the hand - and faints. The long unravelling has begun."
     },
     {
       "kind": "handoff",
@@ -1452,7 +1452,7 @@
       "to": "lincolns-inn-chancery",
       "chapter": 3,
       "title": "Summoned to London",
-      "narration": "A letter calls her to London: she is to be companion to Ada Clare, a ward in the great suit. The coach carries her up from Reading into the fog, to Chancery — where she meets Ada and her cousin Richard Carstone, wards both."
+      "narration": "A letter calls her to London: she is to be companion to Ada Clare, a ward in the great suit. The coach carries her up from Reading into the fog, to Chancery - where she meets Ada and her cousin Richard Carstone, wards both."
     },
     {
       "kind": "journey",
@@ -1464,11 +1464,11 @@
       "to": "bleak-house",
       "chapter": 6,
       "title": "Down to Bleak House",
-      "narration": "Their guardian, John Jarndyce — kind, shy, and sick of the suit that bears his name — takes the young people down to Bleak House, near St Albans. Esther is made its housekeeper, and finds, at last, a home."
+      "narration": "Their guardian, John Jarndyce - kind, shy, and sick of the suit that bears his name - takes the young people down to Bleak House, near St Albans. Esther is made its housekeeper, and finds, at last, a home."
     },
     {
       "kind": "meanwhile",
-      "narration": "Richard rode down beside her — cousin to Ada, ward like her, and the young man this story will follow to his ruin. Turn a moment to him."
+      "narration": "Richard rode down beside her - cousin to Ada, ward like her, and the young man this story will follow to his ruin. Turn a moment to him."
     },
     {
       "kind": "scene",
@@ -1476,7 +1476,7 @@
       "at": "bleak-house",
       "chapter": 14,
       "title": "Richard's bright hopes",
-      "narration": "Richard arrives in love with Ada and dizzy with hope, certain Jarndyce and Jarndyce will make him rich any day now. Watch that certainty — it is the thing that will slowly eat him alive, through profession after abandoned profession."
+      "narration": "Richard arrives in love with Ada and dizzy with hope, certain Jarndyce and Jarndyce will make him rich any day now. Watch that certainty - it is the thing that will slowly eat him alive, through profession after abandoned profession."
     },
     {
       "kind": "meanwhile",
@@ -1488,7 +1488,7 @@
       "at": "tom-all-alones",
       "chapter": 16,
       "title": "Jo the crossing-sweeper",
-      "narration": "In the rotting rookery of Tom-all-Alone's lives Jo, a crossing-sweeper who knows nothing — not his letters, not his own history — and is forever told by the police to 'move on'. He is the thread that ties the great to the wretched."
+      "narration": "In the rotting rookery of Tom-all-Alone's lives Jo, a crossing-sweeper who knows nothing - not his letters, not his own history - and is forever told by the police to 'move on'. He is the thread that ties the great to the wretched."
     },
     {
       "kind": "journey",
@@ -1506,7 +1506,7 @@
       "to": "tom-all-alones",
       "chapter": 16,
       "title": "Move on",
-      "narration": "Jo takes his coins and slips back to his crossing and his corner of Tom-all-Alone's. He cannot know it, but the knowledge he now carries — the face behind the veil — has made a penniless boy dangerous to the most powerful people in England."
+      "narration": "Jo takes his coins and slips back to his crossing and his corner of Tom-all-Alone's. He cannot know it, but the knowledge he now carries - the face behind the veil - has made a penniless boy dangerous to the most powerful people in England."
     },
     {
       "kind": "meanwhile",
@@ -1532,7 +1532,7 @@
     },
     {
       "kind": "meanwhile",
-      "narration": "Back at Bleak House the seasons turned. Richard, restless, gave up medicine and went up to town again to try the law, while Esther kept the house — until a convalescent summer took her into Lincolnshire, to Lady Dedlock's own country."
+      "narration": "Back at Bleak House the seasons turned. Richard, restless, gave up medicine and went up to town again to try the law, while Esther kept the house - until a convalescent summer took her into Lincolnshire, to Lady Dedlock's own country."
     },
     {
       "kind": "removal",
@@ -1541,7 +1541,7 @@
       "to": "lincolns-inn-chancery",
       "chapter": 17,
       "title": "A restless start",
-      "narration": "Richard cannot settle to anything. He tires of medicine, drifts up to London to try the law, and lets the suit fill the space where a career should be — always half-certain the great case will one day keep him without his lifting a hand."
+      "narration": "Richard cannot settle to anything. He tires of medicine, drifts up to London to try the law, and lets the suit fill the space where a career should be - always half-certain the great case will one day keep him without his lifting a hand."
     },
     {
       "kind": "journey",
@@ -1550,7 +1550,7 @@
       "to": "chesney-wold",
       "chapter": 18,
       "title": "The Ghost's Walk",
-      "narration": "Esther goes to stay with Jarndyce's neighbour Mr Boythorn, whose grounds adjoin Chesney Wold. Sheltering from rain, she first sees Lady Dedlock — and feels, without understanding why, that the great lady's face is strangely, painfully like her own."
+      "narration": "Esther goes to stay with Jarndyce's neighbour Mr Boythorn, whose grounds adjoin Chesney Wold. Sheltering from rain, she first sees Lady Dedlock - and feels, without understanding why, that the great lady's face is strangely, painfully like her own."
     },
     {
       "kind": "scene",
@@ -1558,7 +1558,7 @@
       "at": "chesney-wold",
       "chapter": 30,
       "title": "A likeness felt",
-      "narration": "The visit haunts her. There is something in Lady Dedlock's voice and look that stirs a memory Esther cannot place — a chord struck somewhere far back in her loveless childhood. Neither woman yet knows that they are mother and daughter."
+      "narration": "The visit haunts her. There is something in Lady Dedlock's voice and look that stirs a memory Esther cannot place - a chord struck somewhere far back in her loveless childhood. Neither woman yet knows that they are mother and daughter."
     },
     {
       "kind": "journey",
@@ -1571,7 +1571,7 @@
     },
     {
       "kind": "meanwhile",
-      "narration": "Meanwhile — wind back to the city. Jo, hounded from corner to corner and 'moved on' past all endurance, had left London on foot, carrying a sickness with him."
+      "narration": "Meanwhile - wind back to the city. Jo, hounded from corner to corner and 'moved on' past all endurance, had left London on foot, carrying a sickness with him."
     },
     {
       "kind": "journey",
@@ -1580,7 +1580,7 @@
       "to": "bleak-house",
       "chapter": 31,
       "title": "The fever walks north",
-      "narration": "Jo trudges up the St Albans road and collapses, feverish, at the brick-kilns near Bleak House. Taken in and nursed, he carries the smallpox into the house — Esther catches it from him, and rises from her sickbed with her face scarred for life."
+      "narration": "Jo trudges up the St Albans road and collapses, feverish, at the brick-kilns near Bleak House. Taken in and nursed, he carries the smallpox into the house - Esther catches it from him, and rises from her sickbed with her face scarred for life."
     },
     {
       "kind": "journey",
@@ -1589,7 +1589,7 @@
       "to": "mr-george-shooting-gallery",
       "chapter": 46,
       "title": "The last move but one",
-      "narration": "Recovered enough to be turned out, Jo is moved on once more, drifting the whole way back to London. There the old soldier Trooper George takes the dying boy into his shooting-gallery — the first real shelter of his life, and the last."
+      "narration": "Recovered enough to be turned out, Jo is moved on once more, drifting the whole way back to London. There the old soldier Trooper George takes the dying boy into his shooting-gallery - the first real shelter of his life, and the last."
     },
     {
       "kind": "scene",
@@ -1597,7 +1597,7 @@
       "at": "mr-george-shooting-gallery",
       "chapter": 47,
       "title": "Jo's will",
-      "narration": "Jo dies in the gallery, taught the Lord's Prayer a line at a time by the doctor at his side, getting only as far as 'Hallowed be — thy —' before the light goes out. He is one of thousands, dying so, every day."
+      "narration": "Jo dies in the gallery, taught the Lord's Prayer a line at a time by the doctor at his side, getting only as far as 'Hallowed be - thy -' before the light goes out. He is one of thousands, dying so, every day."
     },
     {
       "kind": "meanwhile",
@@ -1618,7 +1618,7 @@
       "to": "deal",
       "chapter": 45,
       "title": "A commission at Deal",
-      "narration": "For a while he tries the army: he buys a commission and is quartered with his regiment at Deal, on the Kent coast. It is one more escape from a life the endless case has hollowed out — and it will not hold him either."
+      "narration": "For a while he tries the army: he buys a commission and is quartered with his regiment at Deal, on the Kent coast. It is one more escape from a life the endless case has hollowed out - and it will not hold him either."
     },
     {
       "kind": "meanwhile",
@@ -1640,11 +1640,11 @@
       "to": "lincolns-inn-chancery",
       "chapter": 45,
       "title": "Back to the court",
-      "narration": "He sells out of the army and comes back to London and to Chancery, unable to keep away. The suit is all he has now — and at the very last it will take everything from him, and him with it."
+      "narration": "He sells out of the army and comes back to London and to Chancery, unable to keep away. The suit is all he has now - and at the very last it will take everything from him, and him with it."
     },
     {
       "kind": "meanwhile",
-      "narration": "Esther followed him back to town, close behind, helpless to save him from himself. And the winter came on — and with it the darkest turn of the whole story."
+      "narration": "Esther followed him back to town, close behind, helpless to save him from himself. And the winter came on - and with it the darkest turn of the whole story."
     },
     {
       "kind": "journey",
@@ -1653,7 +1653,7 @@
       "to": "lincolns-inn-chancery",
       "chapter": 45,
       "title": "Following him home",
-      "narration": "She returns to London as the snow begins. A lawyer lies murdered in his chambers, a buried secret is about to break open, and a detective is already on the scent — the pieces are gathering now toward one iron gate."
+      "narration": "She returns to London as the snow begins. A lawyer lies murdered in his chambers, a buried secret is about to break open, and a detective is already on the scent - the pieces are gathering now toward one iron gate."
     },
     {
       "kind": "handoff",
@@ -1661,7 +1661,7 @@
       "at": "lincolns-inn-chancery",
       "chapter": 53,
       "title": "Inspector Bucket",
-      "narration": "Enter Inspector Bucket of the Detective — stout, genial, tireless, with a fat forefinger that seems to point the way to every hidden thing. Mr Tulkinghorn has been shot dead in his chambers, and Bucket means to find who did it."
+      "narration": "Enter Inspector Bucket of the Detective - stout, genial, tireless, with a fat forefinger that seems to point the way to every hidden thing. Mr Tulkinghorn has been shot dead in his chambers, and Bucket means to find who did it."
     },
     {
       "kind": "journey",
@@ -1679,7 +1679,7 @@
       "to": "lincolns-inn-chancery",
       "chapter": 54,
       "title": "Springing the mine",
-      "narration": "Bucket returns to London and springs his mine. He clears Lady Dedlock of the murder — but names, before her husband Sir Leicester — a proud old baronet who worships her — the whole of her buried past: her dead lover Nemo, and the daughter she bore and believed long dead. Esther."
+      "narration": "Bucket returns to London and springs his mine. He clears Lady Dedlock of the murder - but names, before her husband Sir Leicester - a proud old baronet who worships her - the whole of her buried past: her dead lover Nemo, and the daughter she bore and believed long dead. Esther."
     },
     {
       "kind": "meanwhile",
@@ -1692,7 +1692,7 @@
       "to": "burying-ground-nemo",
       "chapter": 55,
       "title": "The flight into the snow",
-      "narration": "She walks out into a snowstorm in her own clothes, seen at the Highgate toll going north. On the St Albans road she swaps clothes with a poor brickmaker's wife to throw off pursuit — then, in rags, turns and steals back toward London."
+      "narration": "She walks out into a snowstorm in her own clothes, seen at the Highgate toll going north. On the St Albans road she swaps clothes with a poor brickmaker's wife to throw off pursuit - then, in rags, turns and steals back toward London."
     },
     {
       "kind": "handoff",
@@ -1712,7 +1712,7 @@
       "to": "burying-ground-nemo",
       "chapter": 57,
       "title": "The midnight pursuit",
-      "narration": "North out of London they drive through the snow — the Highgate toll, fresh horses at Barnet, on toward St Albans — Bucket reading every clue by lamplight. Then he grasps the clothes-swap for the decoy it is, wheels the carriage round, and tears south again."
+      "narration": "North out of London they drive through the snow - the Highgate toll, fresh horses at Barnet, on toward St Albans - Bucket reading every clue by lamplight. Then he grasps the clothes-swap for the decoy it is, wheels the carriage round, and tears south again."
     },
     {
       "kind": "scene",
@@ -1723,7 +1723,7 @@
       "at": "burying-ground-nemo",
       "chapter": 59,
       "title": "The iron gate",
-      "narration": "At dawn they reach the pauper burying-ground where Nemo lies. A figure lies cold against the iron gate, in a brickmaker's rags. Esther lifts the head — and it is her mother, Lady Dedlock, dead on the step, come home at last to her lover's grave."
+      "narration": "At dawn they reach the pauper burying-ground where Nemo lies. A figure lies cold against the iron gate, in a brickmaker's rags. Esther lifts the head - and it is her mother, Lady Dedlock, dead on the step, come home at last to her lover's grave."
     },
     {
       "kind": "handoff",
@@ -1731,7 +1731,7 @@
       "at": "lincolns-inn-chancery",
       "chapter": 65,
       "title": "The suit dies",
-      "narration": "The great case ends as it must: Jarndyce and Jarndyce collapses, the whole disputed fortune eaten up in its own costs, and Richard — ruined, undeceived at last — dies with Ada's hand in his, their child unborn. The fog over Chancery lifts on nothing."
+      "narration": "The great case ends as it must: Jarndyce and Jarndyce collapses, the whole disputed fortune eaten up in its own costs, and Richard - ruined, undeceived at last - dies with Ada's hand in his, their child unborn. The fog over Chancery lifts on nothing."
     },
     {
       "kind": "scene",

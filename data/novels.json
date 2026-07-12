@@ -14,7 +14,7 @@
     "author": "Charlotte Brontë",
     "year": 1847,
     "file": "data/jane-eyre.json",
-    "blurb": "An orphan, a charity school, a governess's post at a house with a secret — and a destitute walk across the moor.",
+    "blurb": "An orphan, a charity school, a governess's post at a house with a secret - and a destitute walk across the moor.",
     "spine": { "cloth": "#7a3b34", "text": "#e6d59a" }
   },
   {
@@ -23,7 +23,7 @@
     "author": "John Buchan",
     "year": 1915,
     "file": "data/thirty-nine-steps.json",
-    "blurb": "A dead man's secret, a milkman's disguise, and one hunted man run the length of Britain — Galloway moor to a chalk stair on the Channel, on the eve of the war.",
+    "blurb": "A dead man's secret, a milkman's disguise, and one hunted man run the length of Britain - Galloway moor to a chalk stair on the Channel, on the eve of the war.",
     "spine": { "cloth": "#37506b", "text": "#e0d0a8" }
   },
   {
@@ -32,7 +32,7 @@
     "author": "Miguel de Cervantes",
     "year": 1605,
     "file": "data/don-quixote.json",
-    "blurb": "A half-mad old gentleman of La Mancha, his head turned by books of chivalry, rides out with the squire Sancho Panza to right wrongs that aren't there — charging windmills he swears are giants, storming inns he takes for castles. Three sallies across Spain, from the plains to the beach at Barcelona, where the world at last makes him see it as it is.",
+    "blurb": "A half-mad old gentleman of La Mancha, his head turned by books of chivalry, rides out with the squire Sancho Panza to right wrongs that aren't there - charging windmills he swears are giants, storming inns he takes for castles. Three sallies across Spain, from the plains to the beach at Barcelona, where the world at last makes him see it as it is.",
     "spine": { "cloth": "#8f4e33", "text": "#e2cfa0" }
   },
   {
@@ -41,7 +41,7 @@
     "author": "Joseph Conrad",
     "year": 1899,
     "file": "data/heart-of-darkness.json",
-    "blurb": "A steamer up the Congo, after a Company agent gone silent — and the hollow man at the end of the river.",
+    "blurb": "A steamer up the Congo, after a Company agent gone silent - and the hollow man at the end of the river.",
     "spine": { "cloth": "#1b2a24", "text": "#c9b98d" }
   },
   {
@@ -50,7 +50,7 @@
     "author": "Charles Dickens",
     "year": 1850,
     "file": "data/david-copperfield.json",
-    "blurb": "A whole life — a Suffolk churchyard, the road to Dover, and the far side of the world.",
+    "blurb": "A whole life - a Suffolk churchyard, the road to Dover, and the far side of the world.",
     "spine": { "cloth": "#2e6e6a", "text": "#e6d59a" }
   },
   {
@@ -77,7 +77,7 @@
     "author": "Arthur Conan Doyle",
     "year": 1912,
     "file": "data/lost-world.json",
-    "blurb": "A reporter, a raging genius, a sceptic and a hunter go up the Amazon to a plateau where the age of dinosaurs never ended — and the bridge is toppled behind them.",
+    "blurb": "A reporter, a raging genius, a sceptic and a hunter go up the Amazon to a plateau where the age of dinosaurs never ended - and the bridge is toppled behind them.",
     "spine": { "cloth": "#1f4a44", "text": "#d8c8a2" }
   },
   {
@@ -86,7 +86,7 @@
     "author": "Alexandre Dumas",
     "year": 1846,
     "file": "data/monte-cristo.json",
-    "blurb": "Buried without trial in the Château d'If, an innocent sailor escapes with a hidden fortune and returns — as the Count of Monte Cristo — to ruin the three men who destroyed him. Marseille to Rome to Paris, and east across the sea.",
+    "blurb": "Buried without trial in the Château d'If, an innocent sailor escapes with a hidden fortune and returns - as the Count of Monte Cristo - to ruin the three men who destroyed him. Marseille to Rome to Paris, and east across the sea.",
     "spine": { "cloth": "#203a54", "text": "#d3b06a" }
   },
   {
@@ -95,7 +95,7 @@
     "author": "Gustave Flaubert",
     "year": 1856,
     "file": "data/madame-bovary.json",
-    "blurb": "A farmer's daughter, fed on romantic novels, dreams of Paris and passion and never gets further than Rouen — a whole life, and its ruin, inside forty miles of Normandy.",
+    "blurb": "A farmer's daughter, fed on romantic novels, dreams of Paris and passion and never gets further than Rouen - a whole life, and its ruin, inside forty miles of Normandy.",
     "spine": { "cloth": "#c4ad5e", "text": "#33301f" }
   },
   {
@@ -113,7 +113,7 @@
     "author": "E. T. A. Hoffmann",
     "year": 1815,
     "file": "data/devils-elixir.json",
-    "blurb": "A monk drinks a relic-wine that unchains every buried desire, and is driven from his cloister into seduction, murder and madness — dogged the whole way by his own double, a face he cannot tell from his own. Rome to Prussia, and a family curse running under all of it.",
+    "blurb": "A monk drinks a relic-wine that unchains every buried desire, and is driven from his cloister into seduction, murder and madness - dogged the whole way by his own double, a face he cannot tell from his own. Rome to Prussia, and a family curse running under all of it.",
     "spine": { "cloth": "#3d2a3a", "text": "#c8a24a" }
   },
   {
@@ -122,7 +122,7 @@
     "author": "Victor Hugo",
     "year": 1862,
     "file": "data/les-miserables.json",
-    "blurb": "A convict remade by one act of mercy, and his road across France to the Paris barricade — hunted every mile.",
+    "blurb": "A convict remade by one act of mercy, and his road across France to the Paris barricade - hunted every mile.",
     "spine": { "cloth": "#5a2733", "text": "#e6d8bf" }
   },
   {
@@ -131,7 +131,7 @@
     "author": "James Joyce",
     "year": 1922,
     "file": "data/ulysses.json",
-    "blurb": "A single Dublin day from breakfast to the small hours — one wandering ad-man, one grieving poet forever just missing him on the same streets, and Molly awake on Eccles Street.",
+    "blurb": "A single Dublin day from breakfast to the small hours - one wandering ad-man, one grieving poet forever just missing him on the same streets, and Molly awake on Eccles Street.",
     "spine": { "cloth": "#3f6cae", "text": "#f4eede" }
   },
   {
@@ -140,7 +140,7 @@
     "author": "Rudyard Kipling",
     "year": 1901,
     "file": "data/kim.json",
-    "blurb": "A bazaar orphan and an old lama walk the Grand Trunk Road together — the boy's search for a soldier's Red Bull, the lama's for a holy river.",
+    "blurb": "A bazaar orphan and an old lama walk the Grand Trunk Road together - the boy's search for a soldier's Red Bull, the lama's for a holy river.",
     "spine": { "cloth": "#9c6b2f", "text": "#efe2c2" }
   },
   {
@@ -149,7 +149,7 @@
     "author": "Selma Lagerlöf",
     "year": 1906,
     "file": "data/nils.json",
-    "blurb": "A boy shrunk to thumb-size is carried the length of Sweden on the back of a wild goose — Skåne to Lapland and home, and made kind by the journey.",
+    "blurb": "A boy shrunk to thumb-size is carried the length of Sweden on the back of a wild goose - Skåne to Lapland and home, and made kind by the journey.",
     "spine": { "cloth": "#3a5877", "text": "#d8c07a" }
   },
   {
@@ -158,7 +158,7 @@
     "author": "Jack London",
     "year": 1903,
     "file": "data/call-of-the-wild.json",
-    "blurb": "A ranch dog stolen from sunlit California to the Klondike traces — and the long road back into a wolf.",
+    "blurb": "A ranch dog stolen from sunlit California to the Klondike traces - and the long road back into a wolf.",
     "spine": { "cloth": "#2e4034", "text": "#dcd2ac" }
   },
   {
@@ -167,7 +167,7 @@
     "author": "Herman Melville",
     "year": 1851,
     "file": "data/moby-dick.json",
-    "blurb": "Ishmael ships aboard a Nantucket whaler under Captain Ahab, who has bent the whole three-year voyage to one purpose: to kill the white whale that took his leg. One man's obsession drawn across three oceans, with the whale itself a rumour until it surfaces at last on the equator — for the three-day chase that sinks them all, and leaves one man to tell it.",
+    "blurb": "Ishmael ships aboard a Nantucket whaler under Captain Ahab, who has bent the whole three-year voyage to one purpose: to kill the white whale that took his leg. One man's obsession drawn across three oceans, with the whale itself a rumour until it surfaces at last on the equator - for the three-day chase that sinks them all, and leaves one man to tell it.",
     "spine": { "cloth": "#1b2a35", "text": "#e8e0cf" }
   },
   {
@@ -176,7 +176,7 @@
     "author": "William Shakespeare",
     "year": 1597,
     "file": "data/henry-iv.json",
-    "blurb": "A truant prince, a fat knight, and a crown in doubt — from the Boar's Head tavern to the field at Shrewsbury, and a rebellion carried the length of England.",
+    "blurb": "A truant prince, a fat knight, and a crown in doubt - from the Boar's Head tavern to the field at Shrewsbury, and a rebellion carried the length of England.",
     "spine": { "cloth": "#6b2222", "text": "#d9b45a" }
   },
   {
@@ -212,7 +212,7 @@
     "author": "William Makepeace Thackeray",
     "year": 1848,
     "file": "data/vanity-fair.json",
-    "blurb": "Two girls leave school and part at the gate — clever, penniless Becky Sharp climbing to Mayfair and a scandal, gentle Amelia Sedley ruined and widowed at Waterloo. London, the battlefield, and the Continent, and a whole world in it.",
+    "blurb": "Two girls leave school and part at the gate - clever, penniless Becky Sharp climbing to Mayfair and a scandal, gentle Amelia Sedley ruined and widowed at Waterloo. London, the battlefield, and the Continent, and a whole world in it.",
     "spine": { "cloth": "#6b2f3c", "text": "#e6d2a8" }
   },
   {
@@ -221,7 +221,7 @@
     "author": "Leo Tolstoy",
     "year": 1869,
     "file": "data/war-and-peace.json",
-    "blurb": "Five lives and an army: the Petersburg salons and the country estates, and then Napoleon's half-million pouring over the Niemen to Moscow — and crawling back a thread.",
+    "blurb": "Five lives and an army: the Petersburg salons and the country estates, and then Napoleon's half-million pouring over the Niemen to Moscow - and crawling back a thread.",
     "spine": { "cloth": "#5a4130", "text": "#d3b877" }
   },
   {
@@ -230,7 +230,7 @@
     "author": "Leo Tolstoy",
     "year": 1878,
     "file": "data/anna-karenina.json",
-    "blurb": "Two loves running opposite ways down one dead-straight Russian railway — and the train at the end of it.",
+    "blurb": "Two loves running opposite ways down one dead-straight Russian railway - and the train at the end of it.",
     "spine": { "cloth": "#5e2a2a", "text": "#e8dcc0" }
   },
   {
@@ -239,7 +239,7 @@
     "author": "Mark Twain",
     "year": 1884,
     "file": "data/huckleberry-finn.json",
-    "blurb": "A runaway boy and an escaped enslaved man ride a raft down the Mississippi, bound — they hope — for freedom.",
+    "blurb": "A runaway boy and an escaped enslaved man ride a raft down the Mississippi, bound - they hope - for freedom.",
     "spine": { "cloth": "#3a565a", "text": "#e8dcc0" }
   },
   {
@@ -248,7 +248,7 @@
     "author": "Jules Verne",
     "year": 1873,
     "file": "data/eighty-days.json",
-    "blurb": "A wager at a London club, eighty days, and the whole turning world — by steamer, rail, elephant and sledge.",
+    "blurb": "A wager at a London club, eighty days, and the whole turning world - by steamer, rail, elephant and sledge.",
     "spine": { "cloth": "#b25a2e", "text": "#f0e0b8" }
   },
   {
@@ -257,7 +257,7 @@
     "author": "H. G. Wells",
     "year": 1898,
     "file": "data/war-of-the-worlds.json",
-    "blurb": "A cylinder falls on a Surrey common and the Martians turn a heat-ray on England — one man's flight across the Thames into a dead London, his brother's escape to the sea, and the tripods' march on the city.",
+    "blurb": "A cylinder falls on a Surrey common and the Martians turn a heat-ray on England - one man's flight across the Thames into a dead London, his brother's escape to the sea, and the tripods' march on the city.",
     "spine": { "cloth": "#7e2f22", "text": "#e4d3ad" }
   },
   {
@@ -266,7 +266,7 @@
     "author": "Virginia Woolf",
     "year": 1925,
     "file": "data/mrs-dalloway.json",
-    "blurb": "One June day in London — a party, a lost soldier, and two lives that cross the same streets without ever meeting.",
+    "blurb": "One June day in London - a party, a lost soldier, and two lives that cross the same streets without ever meeting.",
     "spine": { "cloth": "#2c2b30", "text": "#d9b8a8" }
   }
 ]

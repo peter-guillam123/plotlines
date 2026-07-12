@@ -3,7 +3,7 @@
   "author": "Gustave Flaubert",
   "year": 1856,
   "gutenbergId": 2413,
-  "overture": "Normandy, the 1840s. Emma Rouault, a farmer's daughter raised on romantic novels, marries a dull country doctor and spends her whole short life longing for a grander, more passionate world — Paris, Italy, love like the books, 'forests of citron trees and cathedrals of white marble' — while never once getting further than Rouen. A whole life inside forty miles, and the ruin it comes to.",
+  "overture": "Normandy, the 1840s. Emma Rouault, a farmer's daughter raised on romantic novels, marries a dull country doctor and spends her whole short life longing for a grander, more passionate world - Paris, Italy, love like the books, 'forests of citron trees and cathedrals of white marble' - while never once getting further than Rouen. A whole life inside forty miles, and the ruin it comes to.",
   "mapHome": {
     "bounds": [[0.82, 49.39], [1.44, 49.83]]
   },
@@ -14,10 +14,10 @@
     "unit": "days"
   },
   "sources": [
-    "Flaubert gives no calendar years for the action; he plants era-markers of the July Monarchy (Louis-Philippe, 1830–48) — the market hall 'rebuilt in the last years of Charles X', and the one hard floor, 'up to 1835 there was no practicable road for getting to Yonville'. The timeline is therefore played as life-stages, not dates; 'the late 1830s–1840s' is the defensible frame.",
+    "Flaubert gives no calendar years for the action; he plants era-markers of the July Monarchy (Louis-Philippe, 1830–48) - the market hall 'rebuilt in the last years of Charles X', and the one hard floor, 'up to 1835 there was no practicable road for getting to Yonville'. The timeline is therefore played as life-stages, not dates; 'the late 1830s–1840s' is the defensible frame.",
     "The real anchors are solid: Tostes is the real village of Tôtes; Yonville-l'Abbaye is Ry, east of Rouen (the standard identification, though Flaubert renames its river 'the Rieule' and inflates the distances); Rouen is itself, named street by street in the cab ride.",
     "The fictional estates are placed where the story sends people, with the real models credited: Les Bertaux lies north-west of Tostes on the road the text names (Longueville, Saint-Victor); La Vaubyessard is a carriage-ride from Tostes (Flaubert's own model was the Château du Héron near Ry, where he danced as a boy in 1836); La Huchette sits just outside Yonville.",
-    "Topography cross-checked against the Centre Gustave Flaubert (Université de Rouen) and Les Amis de Flaubert et de Maupassant. Flaubert deliberately scrambled the map — the scholar Bonaccorso calls the coach road 'impossible to orient oneself' by — so the escape routes are drawn honestly and their displacements noted; the trap itself is exact."
+    "Topography cross-checked against the Centre Gustave Flaubert (Université de Rouen) and Les Amis de Flaubert et de Maupassant. Flaubert deliberately scrambled the map - the scholar Bonaccorso calls the coach road 'impossible to orient oneself' by - so the escape routes are drawn honestly and their displacements noted; the trap itself is exact."
   ],
   "regions": [
     { "id": "caux", "name": "The Pays de Caux" },
@@ -38,7 +38,7 @@
       "id": "emma",
       "name": "Emma Bovary",
       "colour": "madder",
-      "role": "The doctor's wife, consumed by romantic longing — a whole life spent dreaming past the few miles she is given",
+      "role": "The doctor's wife, consumed by romantic longing - a whole life spent dreaming past the few miles she is given",
       "start": { "location": "les-bertaux", "chapter": 1 }
     },
     {
@@ -52,14 +52,14 @@
       "id": "rodolphe",
       "name": "Rodolphe Boulanger",
       "colour": "bottle",
-      "role": "The practised squire of La Huchette — her first lover, who seduces her and jilts her by letter",
+      "role": "The practised squire of La Huchette - her first lover, who seduces her and jilts her by letter",
       "start": { "location": "la-huchette", "chapter": 5 }
     },
     {
       "id": "leon",
       "name": "Léon Dupuis",
       "colour": "prussian",
-      "role": "The young law-clerk — her second lover, in Rouen, and the affair that finishes the ruin",
+      "role": "The young law-clerk - her second lover, in Rouen, and the affair that finishes the ruin",
       "start": { "location": "yonville", "chapter": 4 }
     }
   ],
@@ -67,17 +67,17 @@
     {
       "id": "les-bertaux",
       "region": "caux",
-      "name": "Les Bertaux — Rouault's farm",
+      "name": "Les Bertaux - Rouault's farm",
       "novelName": "the Bertaux",
       "coords": [1.06, 49.79],
       "certainty": "conjectured",
-      "note": "Best guess. A fictional farm; the text fixes only a direction and a distance from Tostes — 'eighteen miles across country by way of Longueville and Saint-Victor', north into the Pays de Caux — so it is placed out toward Longueville. Flaubert's own family farm near Vassonville lay in exactly this zone.",
+      "note": "Best guess. A fictional farm; the text fixes only a direction and a distance from Tostes - 'eighteen miles across country by way of Longueville and Saint-Victor', north into the Pays de Caux - so it is placed out toward Longueville. Flaubert's own family farm near Vassonville lay in exactly this zone.",
       "story": "Charles Bovary, a dull widower country doctor, rides out before dawn to set old Rouault's broken leg and meets the farmer's daughter, Emma. He finds excuses to keep returning; when his first wife dies, he courts and marries Emma here.",
       "quote": "Now from Tostes to the Bertaux was a good eighteen miles across country by way of Longueville and Saint-Victor.",
       "quoteRef": "Part I",
       "image": {
         "file": "assets/images/bov-ferme-cauchoise.jpg",
-        "caption": "A Pays de Caux farmstead — thatched cob, cart-shed, a woman with the milk-pails — of the kind the invented Bertaux would have been, photographed about 1910.",
+        "caption": "A Pays de Caux farmstead - thatched cob, cart-shed, a woman with the milk-pails - of the kind the invented Bertaux would have been, photographed about 1910.",
         "credit": "Ferme cauchoise, c.1910 · Bibliothèque nationale de France · public domain",
         "indicative": true
       }
@@ -90,29 +90,29 @@
       "coords": [1.043, 49.684],
       "certainty": "real",
       "note": "The real village of Tôtes, on the old Rouen–Dieppe road; 'Tostes' is simply the period spelling.",
-      "story": "Charles's first practice and the couple's first home. Emma decorates, waits for the passion the novels promised her, and sinks into boredom and a nervous illness of longing — dreaming of Paris among the flower-vases and Pompadour clocks. Her listlessness is what finally moves them away.",
+      "story": "Charles's first practice and the couple's first home. Emma decorates, waits for the passion the novels promised her, and sinks into boredom and a nervous illness of longing - dreaming of Paris among the flower-vases and Pompadour clocks. Her listlessness is what finally moves them away.",
       "quote": "Monsieur and Madame Charles arrived at Tostes about six o'clock.",
       "quoteRef": "Part I",
       "image": {
         "file": "assets/images/bov-totes.jpg",
-        "caption": "Tôtes — the novel's Tostes — on the old Rouen–Dieppe coaching road, in a watercolour by Henri Rivière of 1925; later than the story, but the village was little changed.",
+        "caption": "Tôtes - the novel's Tostes - on the old Rouen–Dieppe coaching road, in a watercolour by Henri Rivière of 1925; later than the story, but the village was little changed.",
         "credit": "Henri Rivière watercolour, 1925 · Bibliothèque nationale de France · public domain"
       }
     },
     {
       "id": "vaubyessard",
       "region": "caux",
-      "name": "La Vaubyessard — the Marquis's château",
+      "name": "La Vaubyessard - the Marquis's château",
       "novelName": "Vaubyessard",
       "coords": [0.92, 49.6],
       "certainty": "conjectured",
-      "note": "Best guess. A fictional château, placed a carriage-ride from Tostes as the novel sites it (no direction is given). Flaubert's acknowledged real model was the Château du Héron near Ry — where he danced at a ball as a boy of sixteen, in 1836 — but that lies away east, near the Bovarys' future home, not where the story puts the ball; the model is credited, the pin follows the book.",
-      "story": "Emma and Charles attend a single aristocratic ball. She waltzes with a viscount and glimpses real wealth and elegance for the only time in her life — and comes away permanently poisoned. The memory of Vaubyessard becomes the yardstick that makes everything real, Charles and Tostes and Yonville alike, unbearably shabby.",
+      "note": "Best guess. A fictional château, placed a carriage-ride from Tostes as the novel sites it (no direction is given). Flaubert's acknowledged real model was the Château du Héron near Ry - where he danced at a ball as a boy of sixteen, in 1836 - but that lies away east, near the Bovarys' future home, not where the story puts the ball; the model is credited, the pin follows the book.",
+      "story": "Emma and Charles attend a single aristocratic ball. She waltzes with a viscount and glimpses real wealth and elegance for the only time in her life - and comes away permanently poisoned. The memory of Vaubyessard becomes the yardstick that makes everything real, Charles and Tostes and Yonville alike, unbearably shabby.",
       "quote": "she was invited by the Marquis d'Andervilliers to Vaubyessard.",
       "quoteRef": "Part I",
       "image": {
         "file": "assets/images/bov-chateau.jpg",
-        "caption": "A grand Norman château of the period — the Château de Navarre, near Évreux — standing in for the invented Vaubyessard and the one aristocratic night that poisons Emma with longing.",
+        "caption": "A grand Norman château of the period - the Château de Navarre, near Évreux - standing in for the invented Vaubyessard and the one aristocratic night that poisons Emma with longing.",
         "credit": "19th-century painting of the Château de Navarre · via Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -124,25 +124,25 @@
       "novelName": "Yonville-l'Abbaye",
       "coords": [1.342, 49.471],
       "certainty": "identified",
-      "note": "The village of Ry, in the Crevon valley east of Rouen, is the near-universal identification — its single street of shops and its river valley match. Flaubert renames it, invents its river ('the Rieule'), and inflates the distance ('twenty-four miles from Rouen', where Ry is about twelve), so the pin is on the real model, not a surveyed claim.",
-      "story": "The Bovarys' second and final home — Homais's pharmacy, the Lion d'Or inn, the young clerk Léon, and the whole machinery of Emma's ruin: the affair with Rodolphe, the mounting debts to Lheureux the draper, and, at the last, her suicide by the arsenic from Homais's shelves.",
+      "note": "The village of Ry, in the Crevon valley east of Rouen, is the near-universal identification - its single street of shops and its river valley match. Flaubert renames it, invents its river ('the Rieule'), and inflates the distance ('twenty-four miles from Rouen', where Ry is about twelve), so the pin is on the real model, not a surveyed claim.",
+      "story": "The Bovarys' second and final home - Homais's pharmacy, the Lion d'Or inn, the young clerk Léon, and the whole machinery of Emma's ruin: the affair with Rodolphe, the mounting debts to Lheureux the draper, and, at the last, her suicide by the arsenic from Homais's shelves.",
       "quote": "a market-town twenty-four miles from Rouen, between the Abbeville and Beauvais roads, at the foot of a valley watered by the Rieule, a little river that runs into the Andelle.",
       "quoteRef": "Part II",
       "image": {
         "file": "assets/images/bov-ry-street.jpg",
-        "caption": "The single main street of Ry — the real village behind Yonville-l'Abbaye — with its Hôtel de France, photographed about 1900; little changed from Emma's day.",
+        "caption": "The single main street of Ry - the real village behind Yonville-l'Abbaye - with its Hôtel de France, photographed about 1900; little changed from Emma's day.",
         "credit": "Louis Feuquière photograph, c.1900 · Bibliothèque nationale de France · public domain"
       }
     },
     {
       "id": "la-huchette",
       "region": "yonville",
-      "name": "La Huchette — Rodolphe's estate",
+      "name": "La Huchette - Rodolphe's estate",
       "novelName": "La Huchette",
       "coords": [1.355, 49.462],
       "certainty": "conjectured",
-      "note": "Best guess. A fictional estate 'near Yonville'; local tradition attaches it to hamlets just south-east of Ry (Villers, or the château de Gratianville). Placed just outside the Yonville pin on that side — the short ride the text describes.",
-      "story": "Home of Rodolphe Boulanger, a wealthy, practised seducer. He picks Emma out at the Yonville agricultural show, seduces her on a ride in the woods, and carries the affair on here and in her own garden — until he jilts her, by letter, on the very eve of the elopement they had planned.",
+      "note": "Best guess. A fictional estate 'near Yonville'; local tradition attaches it to hamlets just south-east of Ry (Villers, or the château de Gratianville). Placed just outside the Yonville pin on that side - the short ride the text describes.",
+      "story": "Home of Rodolphe Boulanger, a wealthy, practised seducer. He picks Emma out at the Yonville agricultural show, seduces her on a ride in the woods, and carries the affair on here and in her own garden - until he jilts her, by letter, on the very eve of the elopement they had planned.",
       "quote": "La Huchette, in fact, was an estate near Yonville, where he had just bought the château and two farms.",
       "quoteRef": "Part II",
       "imageBlank": "La Huchette is Rodolphe's invented estate; an indicative period Norman château is already used for Vaubyessard, so a blank is more honest here than repeating the register."
@@ -154,13 +154,13 @@
       "novelName": "Rouen",
       "coords": [1.0948, 49.4402],
       "certainty": "real",
-      "note": "Pinned at the cathedral, the emotional centre of Emma's Rouen — the opera, the cathedral scene, and the closed cab that starts from its north porch.",
-      "story": "Emma's nearest taste of the wider world. At the opera she re-meets the clerk Léon; at the cathedral the affair reignites, and the closed cab drives nowhere for hours while it is consummated. Thereafter she comes every Thursday, on the Hirondelle, for 'piano lessons' that are really Léon and the Hôtel de Boulogne — and the debts that destroy her.",
+      "note": "Pinned at the cathedral, the emotional centre of Emma's Rouen - the opera, the cathedral scene, and the closed cab that starts from its north porch.",
+      "story": "Emma's nearest taste of the wider world. At the opera she re-meets the clerk Léon; at the cathedral the affair reignites, and the closed cab drives nowhere for hours while it is consummated. Thereafter she comes every Thursday, on the Hirondelle, for 'piano lessons' that are really Léon and the Hôtel de Boulogne - and the debts that destroy her.",
       "quote": "by taking her to the theatre at Rouen to hear the illustrious tenor, Lagardy.",
       "quoteRef": "Part II",
       "image": {
         "file": "assets/images/bov-rouen-cathedral.jpg",
-        "caption": "The west front of Notre-Dame de Rouen — where the cab ride begins — photographed in 1881, its central spire still under scaffolding.",
+        "caption": "The west front of Notre-Dame de Rouen - where the cab ride begins - photographed in 1881, its central spire still under scaffolding.",
         "credit": "Neurdein photograph, 1881 · via Wikimedia Commons · public domain"
       }
     }
@@ -174,7 +174,7 @@
       "mode": "horse",
       "startDay": 10,
       "days": 1,
-      "note": "Charles rides out before dawn to set old Rouault's leg — and then keeps inventing reasons to ride the eighteen miles back to the farm, and to Emma."
+      "note": "Charles rides out before dawn to set old Rouault's leg - and then keeps inventing reasons to ride the eighteen miles back to the farm, and to Emma."
     },
     {
       "character": ["emma", "charles"],
@@ -184,7 +184,7 @@
       "mode": "coach",
       "startDay": 200,
       "days": 1,
-      "note": "Married from the farm, Emma is carried home to Charles's house at Tostes — to the life she has imagined so differently."
+      "note": "Married from the farm, Emma is carried home to Charles's house at Tostes - to the life she has imagined so differently."
     },
     {
       "character": "emma",
@@ -204,7 +204,7 @@
       "mode": "coach",
       "startDay": 403,
       "days": 1,
-      "note": "Back to Tostes the next day — and she never climbs that high again. The ball becomes the measure by which everything else is found wanting."
+      "note": "Back to Tostes the next day - and she never climbs that high again. The ball becomes the measure by which everything else is found wanting."
     },
     {
       "character": ["emma", "charles"],
@@ -214,7 +214,7 @@
       "mode": "coach",
       "startDay": 900,
       "days": 1,
-      "note": "For Emma's health — her nerves, her boredom — the Bovarys give up the Tostes practice and move east, across Rouen's shadow, to Yonville."
+      "note": "For Emma's health - her nerves, her boredom - the Bovarys give up the Tostes practice and move east, across Rouen's shadow, to Yonville."
     },
     {
       "character": "leon",
@@ -224,7 +224,7 @@
       "mode": "coach",
       "startDay": 1400,
       "days": 1,
-      "note": "The young clerk Léon — Emma's first, unspoken infatuation at Yonville — leaves to study law in Rouen, and the thing between them is left unsaid."
+      "note": "The young clerk Léon - Emma's first, unspoken infatuation at Yonville - leaves to study law in Rouen, and the thing between them is left unsaid."
     },
     {
       "character": "rodolphe",
@@ -244,7 +244,7 @@
       "mode": "horse",
       "startDay": 1660,
       "days": 1,
-      "note": "The rides in the woods with Rodolphe — the affair, half at his château, half in her own garden. She is, for a while, wildly happy, and plans to run away with him."
+      "note": "The rides in the woods with Rodolphe - the affair, half at his château, half in her own garden. She is, for a while, wildly happy, and plans to run away with him."
     },
     {
       "character": "emma",
@@ -254,7 +254,7 @@
       "mode": "horse",
       "startDay": 1900,
       "days": 1,
-      "note": "Home again — to wait for the elopement that never comes. Rodolphe's farewell reaches her in a basket of apricots, and she is ill for weeks."
+      "note": "Home again - to wait for the elopement that never comes. Rodolphe's farewell reaches her in a basket of apricots, and she is ill for weeks."
     },
     {
       "character": "emma",
@@ -270,9 +270,9 @@
         { "at": [1.0975, 49.4497], "name": "the Croix-Rouge, Place Beauvoisine", "note": "the old galleried inn where the Hirondelle sets down" }
       ],
       "routeCertainty": "reconstructed",
-      "routeSource": "The coach ('the Hirondelle') and its Rouen terminus (the Croix-Rouge, in the Place Beauvoisine) are named; Flaubert deliberately scrambles the road between them — he names Quincampoix, which in fact lies north, off the route — so the direct Ry–Rouen road is drawn and the displacement noted.",
+      "routeSource": "The coach ('the Hirondelle') and its Rouen terminus (the Croix-Rouge, in the Place Beauvoisine) are named; Flaubert deliberately scrambles the road between them - he names Quincampoix, which in fact lies north, off the route - so the direct Ry–Rouen road is drawn and the displacement noted.",
       "routeNote": "Every Thursday morning, the worn line of Part III. The boy Hivert drives the yellow coach and runs the villagers' errands in the city.",
-      "note": "The weekly trip to Rouen and Léon, under the fiction of piano lessons — the same road, worn smooth by repetition, that carries her deeper into debt each time."
+      "note": "The weekly trip to Rouen and Léon, under the fiction of piano lessons - the same road, worn smooth by repetition, that carries her deeper into debt each time."
     },
     {
       "character": ["emma", "leon"],
@@ -318,7 +318,7 @@
       "at": "tostes",
       "chapter": 1,
       "title": "A country doctor",
-      "narration": "A doctor's house in the little town of Tostes, in the flat Norman country. Charles Bovary — a widower, kindly, dull and dim — practises medicine here without ever quite understanding it, or, as it will turn out, anything else.",
+      "narration": "A doctor's house in the little town of Tostes, in the flat Norman country. Charles Bovary - a widower, kindly, dull and dim - practises medicine here without ever quite understanding it, or, as it will turn out, anything else.",
       "day": 0
     },
     {
@@ -327,7 +327,7 @@
       "from": "tostes",
       "to": "les-bertaux",
       "chapter": 1,
-      "narration": "One winter night he is called eighteen miles across country to set a farmer's broken leg. At the farm he meets the farmer's daughter, Emma — and afterwards keeps finding reasons to make the long ride back."
+      "narration": "One winter night he is called eighteen miles across country to set a farmer's broken leg. At the farm he meets the farmer's daughter, Emma - and afterwards keeps finding reasons to make the long ride back."
     },
     {
       "kind": "handoff",
@@ -335,7 +335,7 @@
       "at": "les-bertaux",
       "chapter": 1,
       "title": "Emma",
-      "narration": "This is her story now. Emma Rouault — convent-raised, and raised more truly on romantic novels — aches for passion, elegance, a life grander than a muddy Norman farm can hold. In dull, adoring Charles she thinks she has found the way out.",
+      "narration": "This is her story now. Emma Rouault - convent-raised, and raised more truly on romantic novels - aches for passion, elegance, a life grander than a muddy Norman farm can hold. In dull, adoring Charles she thinks she has found the way out.",
       "day": 100
     },
     {
@@ -344,7 +344,7 @@
       "from": "les-bertaux",
       "to": "tostes",
       "chapter": 2,
-      "narration": "They marry, and Emma is carried home to Tostes — into married life, and the slow discovery that it is nothing like the books: no rapture, no viscounts, only Charles chewing his dinner across the table."
+      "narration": "They marry, and Emma is carried home to Tostes - into married life, and the slow discovery that it is nothing like the books: no rapture, no viscounts, only Charles chewing his dinner across the table."
     },
     {
       "kind": "scene",
@@ -369,7 +369,7 @@
       "character": "emma",
       "at": "vaubyessard",
       "chapter": 3,
-      "narration": "She waltzes with a viscount; she breathes candle-wax and hothouse flowers and real wealth — the one night of her life that matches the novels. She comes away poisoned by it, and it never leaves her.",
+      "narration": "She waltzes with a viscount; she breathes candle-wax and hothouse flowers and real wealth - the one night of her life that matches the novels. She comes away poisoned by it, and it never leaves her.",
       "day": 402
     },
     {
@@ -378,7 +378,7 @@
       "from": "vaubyessard",
       "to": "tostes",
       "chapter": 3,
-      "narration": "Back to Tostes the next grey morning. From now the ball is the yardstick she measures everything against — and finds Charles, the town, the whole of her given life, unbearably shabby. She sickens with wanting."
+      "narration": "Back to Tostes the next grey morning. From now the ball is the yardstick she measures everything against - and finds Charles, the town, the whole of her given life, unbearably shabby. She sickens with wanting."
     },
     {
       "kind": "journey",
@@ -387,14 +387,14 @@
       "to": "yonville",
       "chapter": 4,
       "title": "Yonville",
-      "narration": "For her nerves — the fainting, the wasting, the silence — Charles gives up the Tostes practice and moves them east, past the shadow of Rouen, to the smaller town of Yonville. It is here that everything will come apart."
+      "narration": "For her nerves - the fainting, the wasting, the silence - Charles gives up the Tostes practice and moves them east, past the shadow of Rouen, to the smaller town of Yonville. It is here that everything will come apart."
     },
     {
       "kind": "scene",
       "character": "emma",
       "at": "yonville",
       "chapter": 4,
-      "narration": "A new town, the same smallness: the pharmacist Homais holding forth, the Lion d'Or, the mud. But there is also Léon, a young law-clerk who loves the same poems she does — a tender thing, and for now unspoken.",
+      "narration": "A new town, the same smallness: the pharmacist Homais holding forth, the Lion d'Or, the mud. But there is also Léon, a young law-clerk who loves the same poems she does - a tender thing, and for now unspoken.",
       "day": 950
     },
     {
@@ -403,7 +403,7 @@
       "at": "yonville",
       "chapter": 4,
       "title": "Berthe",
-      "narration": "She bears a daughter, Berthe. Having wanted a son — a boy might at least have been free — she cannot make herself love the girl; the child is put out to a nurse and, thereafter, barely noticed. It is the first small cruelty of her longing.",
+      "narration": "She bears a daughter, Berthe. Having wanted a son - a boy might at least have been free - she cannot make herself love the girl; the child is put out to a nurse and, thereafter, barely noticed. It is the first small cruelty of her longing.",
       "day": 1100
     },
     {
@@ -412,7 +412,7 @@
       "from": "yonville",
       "to": "rouen",
       "chapter": 5,
-      "narration": "Nothing is ever said. Hopeless, Léon leaves to study law in Rouen, and Emma is left more restless than before — virtuous only because no one has yet asked her not to be."
+      "narration": "Nothing is ever said. Hopeless, Léon leaves to study law in Rouen, and Emma is left more restless than before - virtuous only because no one has yet asked her not to be."
     },
     {
       "kind": "handoff",
@@ -420,7 +420,7 @@
       "at": "la-huchette",
       "chapter": 5,
       "title": "Rodolphe",
-      "narration": "And here is the man who will ask. Rodolphe Boulanger, squire of the estate of La Huchette — rich, bored, thirty-four, and a cold, practised seducer who looks at the doctor's pretty wife and sees an easy afternoon's work.",
+      "narration": "And here is the man who will ask. Rodolphe Boulanger, squire of the estate of La Huchette - rich, bored, thirty-four, and a cold, practised seducer who looks at the doctor's pretty wife and sees an easy afternoon's work.",
       "day": 1605
     },
     {
@@ -430,7 +430,7 @@
       "to": "yonville",
       "chapter": 5,
       "title": "The show",
-      "narration": "He picks his moment at the Yonville agricultural show: while the officials drone and the prize cattle low, he murmurs love into her ear, the sublime and the manure rising together — Flaubert's cruellest, funniest scene."
+      "narration": "He picks his moment at the Yonville agricultural show: while the officials drone and the prize cattle low, he murmurs love into her ear, the sublime and the manure rising together - Flaubert's cruellest, funniest scene."
     },
     {
       "kind": "journey",
@@ -439,7 +439,7 @@
       "to": "la-huchette",
       "chapter": 5,
       "title": "The first affair",
-      "narration": "Soon she is riding out to the woods with him — the affair half at his château, half in her own garden at dawn. For a season she is wildly, recklessly happy; and, to dress the part, she begins to buy on credit from the draper Lheureux — the first thread of the net that will strangle her."
+      "narration": "Soon she is riding out to the woods with him - the affair half at his château, half in her own garden at dawn. For a season she is wildly, recklessly happy; and, to dress the part, she begins to buy on credit from the draper Lheureux - the first thread of the net that will strangle her."
     },
     {
       "kind": "scene",
@@ -456,7 +456,7 @@
       "from": "la-huchette",
       "to": "yonville",
       "chapter": 5,
-      "narration": "She wants to run away with him — to Genoa, to Italy, to anywhere but here. They fix the night. On its eve his farewell reaches her at the bottom of a basket of apricots: he has thought better of it. She falls into a fever for weeks."
+      "narration": "She wants to run away with him - to Genoa, to Italy, to anywhere but here. They fix the night. On its eve his farewell reaches her at the bottom of a basket of apricots: he has thought better of it. She falls into a fever for weeks."
     },
     {
       "kind": "journey",
@@ -465,7 +465,7 @@
       "to": "rouen",
       "chapter": 6,
       "title": "Léon again",
-      "narration": "To rouse her, Charles takes her to the opera in Rouen — and there, in the next box, is Léon. The old feeling reignites, grown up now; and Emma begins to travel every Thursday into the city on the Hirondelle, under the fiction of piano lessons."
+      "narration": "To rouse her, Charles takes her to the opera in Rouen - and there, in the next box, is Léon. The old feeling reignites, grown up now; and Emma begins to travel every Thursday into the city on the Hirondelle, under the fiction of piano lessons."
     },
     {
       "kind": "scene",
@@ -483,7 +483,7 @@
       "to": "rouen",
       "chapter": 6,
       "title": "The cab",
-      "narration": "'Where you like,' he tells the driver — and the cab, blinds down, wanders the whole of Rouen for hours: the quays, the isles, the hills at Déville, the churches, the cemetery, the coachman despairing. Inside, unseen and undescribed, the affair is sealed."
+      "narration": "'Where you like,' he tells the driver - and the cab, blinds down, wanders the whole of Rouen for hours: the quays, the isles, the hills at Déville, the churches, the cemetery, the coachman despairing. Inside, unseen and undescribed, the affair is sealed."
     },
     {
       "kind": "scene",
@@ -491,7 +491,7 @@
       "at": "rouen",
       "chapter": 6,
       "title": "The Hôtel de Boulogne",
-      "narration": "Now every Thursday is Léon, in a room at the Hôtel de Boulogne by the harbour. And every Thursday, to keep it all — the room, the clothes, the dream — she signs another of the draper Lheureux's ruinous notes.",
+      "narration": "Now every Thursday is Léon, in a room at the Hôtel de Boulogne by the harbour. And every Thursday, to keep it all - the room, the clothes, the dream - she signs another of the draper Lheureux's ruinous notes.",
       "day": 2700
     },
     {
@@ -509,7 +509,7 @@
       "at": "yonville",
       "chapter": 7,
       "title": "Arsenic",
-      "narration": "She goes begging — to Léon, to Rodolphe, to the notary — and every man who wanted her body refuses her the money. Cornered and ruined, she swallows a fistful of arsenic from Homais's jars, and dies badly, over days.",
+      "narration": "She goes begging - to Léon, to Rodolphe, to the notary - and every man who wanted her body refuses her the money. Cornered and ruined, she swallows a fistful of arsenic from Homais's jars, and dies badly, over days.",
       "day": 3120
     },
     {
@@ -517,7 +517,7 @@
       "character": "charles",
       "at": "yonville",
       "chapter": 7,
-      "narration": "And Charles, who never understood her living, understands nothing of her dead — until he finds the letters. He lets himself go, and dies too; and their small daughter is sent to earn her keep in a cotton-mill. That is the whole of it.",
+      "narration": "And Charles, who never understood her living, understands nothing of her dead - until he finds the letters. He lets himself go, and dies too; and their small daughter is sent to earn her keep in a cotton-mill. That is the whole of it.",
       "day": 3200
     }
   ]

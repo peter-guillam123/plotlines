@@ -3,7 +3,7 @@
   "author": "James Joyce",
   "year": 1922,
   "gutenbergId": 4300,
-  "overture": "Dublin, Thursday 16 June 1904 — one ordinary day, walked in full. Leopold Bloom, an advertising canvasser, drifts across the city from breakfast to the small hours, criss-crossing the path of a grieving young poet, Stephen Dedalus, until at last the two men meet. Homer's Odyssey retold on eighteen hours of Dublin pavement — and at the still centre of it, Bloom's wife Molly, waiting in the bed on Eccles Street.",
+  "overture": "Dublin, Thursday 16 June 1904 - one ordinary day, walked in full. Leopold Bloom, an advertising canvasser, drifts across the city from breakfast to the small hours, criss-crossing the path of a grieving young poet, Stephen Dedalus, until at last the two men meet. Homer's Odyssey retold on eighteen hours of Dublin pavement - and at the still centre of it, Bloom's wife Molly, waiting in the bed on Eccles Street.",
   "mapHome": {
     "bounds": [[-6.305, 53.265], [-6.10, 53.375]]
   },
@@ -16,8 +16,8 @@
   },
   "sources": [
     "The topography follows the standard scholarship: Clive Hart & Leo Knuth, A Topographical Guide to James Joyce's Ulysses, and Ian Gunn & Clive Hart, James Joyce's Dublin: A Topographical Guide, cross-checked against Don Gifford's Ulysses Annotated and the Boston College Walking Ulysses maps.",
-    "The clock is Joyce's own: the Gilbert/Linati schema assigns each episode an hour. Stephen's first three episodes (Telemachus, Nestor, Proteus) run in parallel with Bloom's first three (Calypso, Lotus Eaters, Hades), 8–11 a.m.; the day then runs continuously to the small hours of the 17th. Penelope has no hour in the schema — Molly lies awake from roughly a quarter to three.",
-    "The funeral route (Hades) is reconstructed from the text and the JJON / Gunn & Hart topography: it runs Sandymount — Irishtown — Ringsend — Great Brunswick Street — D'Olier Street — O'Connell Bridge — Sackville Street — Rutland Square — Dunphy's corner — the Royal Canal — Finglas Road to Glasnevin. It touches the Liffey only at the bridge; it does not run along the quays.",
+    "The clock is Joyce's own: the Gilbert/Linati schema assigns each episode an hour. Stephen's first three episodes (Telemachus, Nestor, Proteus) run in parallel with Bloom's first three (Calypso, Lotus Eaters, Hades), 8–11 a.m.; the day then runs continuously to the small hours of the 17th. Penelope has no hour in the schema - Molly lies awake from roughly a quarter to three.",
+    "The funeral route (Hades) is reconstructed from the text and the JJON / Gunn & Hart topography: it runs Sandymount - Irishtown - Ringsend - Great Brunswick Street - D'Olier Street - O'Connell Bridge - Sackville Street - Rutland Square - Dunphy's corner - the Royal Canal - Finglas Road to Glasnevin. It touches the Liffey only at the bridge; it does not run along the quays.",
     "7 Eccles Street was a real house, empty in 1904, which Joyce gave to the Blooms; it was demolished in 1967 and the Mater Private Hospital stands on the site. 'Nighttown' is Joyce's name for the Monto district off Amiens Street; Bella Cohen's brothel is placed on Tyrone Street Lower (renamed Railway Street in 1911).",
     "Two travel legs are period-plausible but not narrated: Bloom's tram out to Sandymount before Nausicaa, and Stephen's train from Dalkey before Proteus. Both are the standard scholarly reading (Gunn & Hart); the firmly stated shared vehicle is the Westland Row–Amiens Street train into Nighttown."
   ],
@@ -98,7 +98,7 @@
       "quoteRef": "Episode 1, Telemachus",
       "image": {
         "file": "assets/images/ul-martello-tower.jpg",
-        "caption": "The Martello tower at Sandycove — now the James Joyce Tower and Museum — where Stephen and Buck Mulligan lodge. No period photograph of it is in the public domain, so this is a present-day view (2025); the granite tower itself stands essentially unchanged since 1904.",
+        "caption": "The Martello tower at Sandycove - now the James Joyce Tower and Museum - where Stephen and Buck Mulligan lodge. No period photograph of it is in the public domain, so this is a present-day view (2025); the granite tower itself stands essentially unchanged since 1904.",
         "credit": "Karlunun, 2025 · Wikimedia Commons · CC0 (public domain dedication)"
       }
     },
@@ -115,7 +115,7 @@
       "quoteRef": "Episode 2, Nestor",
       "image": {
         "file": "assets/images/ul-dalkey.jpg",
-        "caption": "Killiney and Dalkey, Co. Dublin, c.1900 — the leafy coastal suburb where Mr Deasy's school is set; the exact schoolhouse on Dalkey Avenue is not pictured.",
+        "caption": "Killiney and Dalkey, Co. Dublin, c.1900 - the leafy coastal suburb where Mr Deasy's school is set; the exact schoolhouse on Dalkey Avenue is not pictured.",
         "credit": "Detroit Publishing Co. photochrom, c.1900 · Library of Congress · public domain",
         "indicative": true
       }
@@ -140,11 +140,11 @@
       "novelName": "7 Eccles street",
       "coords": [-6.2673, 53.3597],
       "certainty": "real",
-      "note": "A real house, standing empty in 1904, which Joyce gave to the Blooms; demolished 1967, its site now under the Mater Private Hospital. Home to three episodes — Calypso at the start of the day, Ithaca and Penelope at the end.",
-      "story": "Bloom makes breakfast, buys a kidney from the butcher, brings Molly her tea and post — including the note from Boylan he pretends not to notice. At day's end he brings Stephen home for cocoa, climbs in over the railings, and gets into bed beside a wakeful Molly, who has the last word.",
+      "note": "A real house, standing empty in 1904, which Joyce gave to the Blooms; demolished 1967, its site now under the Mater Private Hospital. Home to three episodes - Calypso at the start of the day, Ithaca and Penelope at the end.",
+      "story": "Bloom makes breakfast, buys a kidney from the butcher, brings Molly her tea and post - including the note from Boylan he pretends not to notice. At day's end he brings Stephen home for cocoa, climbs in over the railings, and gets into bed beside a wakeful Molly, who has the last word.",
       "quote": "Mr Leopold Bloom ate with relish the inner organs of beasts and fowls.",
       "quoteRef": "Episode 4, Calypso",
-      "imageBlank": "7 Eccles Street was demolished in 1967 and no period image survives; only the salvaged front door, reinstalled elsewhere, is photographed — not the house in situ."
+      "imageBlank": "7 Eccles Street was demolished in 1967 and no period image survives; only the salvaged front door, reinstalled elsewhere, is photographed - not the house in situ."
     },
     {
       "id": "swenys",
@@ -158,7 +158,7 @@
       "quoteRef": "Episode 5, Lotus Eaters",
       "image": {
         "file": "assets/images/ul-college-green.jpg",
-        "caption": "College Green and the front of Trinity College, c.1900 — a few hundred yards from Sweny's chemist in Lincoln Place; a jaunting car and a tram wait in the road.",
+        "caption": "College Green and the front of Trinity College, c.1900 - a few hundred yards from Sweny's chemist in Lincoln Place; a jaunting car and a tram wait in the road.",
         "credit": "Detroit Publishing Co. photochrom, c.1900 · Library of Congress · public domain",
         "indicative": true
       }
@@ -220,12 +220,12 @@
       "novelName": "the national library",
       "coords": [-6.2547, 53.3409],
       "certainty": "real",
-      "story": "In the librarian's office Stephen spins his elaborate theory that Shakespeare is the ghost in Hamlet, not the prince, sparring with the poet AE and the librarians. Bloom passes through on his own errand — and on the steps, leaving, comes physically between Stephen and Mulligan.",
+      "story": "In the librarian's office Stephen spins his elaborate theory that Shakespeare is the ghost in Hamlet, not the prince, sparring with the poet AE and the librarians. Bloom passes through on his own errand - and on the steps, leaving, comes physically between Stephen and Mulligan.",
       "quote": "Urbane, to comfort them, the quaker librarian purred:",
       "quoteRef": "Episode 9, Scylla and Charybdis",
       "image": {
         "file": "assets/images/ul-national-library.jpg",
-        "caption": "The National Library of Ireland, Kildare Street, in a print of about 1900 — the domed reading room where Stephen holds forth on Shakespeare.",
+        "caption": "The National Library of Ireland, Kildare Street, in a print of about 1900 - the domed reading room where Stephen holds forth on Shakespeare.",
         "credit": "Halftone print, c.1900 (from Nordisk familjebok) · via Wikimedia Commons · public domain"
       }
     },
@@ -236,13 +236,13 @@
       "novelName": "the streets of the city",
       "coords": [-6.2592, 53.3474],
       "certainty": "real",
-      "note": "Wandering Rocks has no single location — nineteen short scenes are tracked at once across the whole city, framed by a priest walking north and the Viceroy's cavalcade riding east. O'Connell Bridge, the hinge of Dublin where so many paths cross, stands in for the citywide episode.",
-      "story": "The city itself is the protagonist. A cross-section of Dubliners is followed simultaneously — priests and beggars, Bloom at a bookcart, Stephen meeting his starving sister, and Boylan buying fruit for Molly — all of them bracketed by Church and State, crossing and just missing one another all afternoon.",
+      "note": "Wandering Rocks has no single location - nineteen short scenes are tracked at once across the whole city, framed by a priest walking north and the Viceroy's cavalcade riding east. O'Connell Bridge, the hinge of Dublin where so many paths cross, stands in for the citywide episode.",
+      "story": "The city itself is the protagonist. A cross-section of Dubliners is followed simultaneously - priests and beggars, Bloom at a bookcart, Stephen meeting his starving sister, and Boylan buying fruit for Molly - all of them bracketed by Church and State, crossing and just missing one another all afternoon.",
       "quote": "The superior, the very reverend John Conmee S. J. reset his smooth watch in his interior pocket as he came down the presbytery steps.",
       "quoteRef": "Episode 10, Wandering Rocks",
       "image": {
         "file": "assets/images/ul-sackville-street.jpg",
-        "caption": "Sackville Street (now O'Connell Street) and O'Connell Bridge, with Nelson's Pillar and the O'Connell monument, photographed c.1900 — the hinge of the city where the day's paths cross, trams and jaunting cars and all.",
+        "caption": "Sackville Street (now O'Connell Street) and O'Connell Bridge, with Nelson's Pillar and the O'Connell monument, photographed c.1900 - the hinge of the city where the day's paths cross, trams and jaunting cars and all.",
         "credit": "Detroit Publishing Co. photochrom, c.1900 · Library of Congress · public domain"
       }
     },
@@ -254,12 +254,12 @@
       "coords": [-6.2596, 53.3407],
       "certainty": "identified",
       "note": "Real shop, area-precise. Thornton's, fruiterers and florists, stood at 63 Grafton Street; Boylan orders a basket of fruit and flowers sent round to Molly.",
-      "story": "Blazes Boylan flirts with the shopgirl while he chooses a basket of fruit and a pot of flowers to be sent ahead to Eccles Street — the courtship gift, dispatched hours before he arrives to keep his appointment with Molly.",
+      "story": "Blazes Boylan flirts with the shopgirl while he chooses a basket of fruit and a pot of flowers to be sent ahead to Eccles Street - the courtship gift, dispatched hours before he arrives to keep his appointment with Molly.",
       "quote": "A young pullet.",
       "quoteRef": "Episode 10, Wandering Rocks",
       "image": {
         "file": "assets/images/ul-grafton-street.jpg",
-        "caption": "Grafton Street, Dublin, on a Raphael Tuck 'Oilette' postcard of 1903 — the shopping street where Boylan buys Molly's fruit at Thornton's.",
+        "caption": "Grafton Street, Dublin, on a Raphael Tuck 'Oilette' postcard of 1903 - the shopping street where Boylan buys Molly's fruit at Thornton's.",
         "credit": "Raphael Tuck & Sons 'Oilette' postcard, 1903 · Newberry Library · public domain"
       }
     },
@@ -275,7 +275,7 @@
       "quoteRef": "Episode 11, Sirens",
       "image": {
         "file": "assets/images/ul-ormond-quay.jpg",
-        "caption": "Ormond Quay and Grattan Bridge on the Liffey, c.1898 — the north-bank quay the Ormond Hotel stood on; the hotel itself is out of frame to the right.",
+        "caption": "Ormond Quay and Grattan Bridge on the Liffey, c.1898 - the north-bank quay the Ormond Hotel stood on; the hotel itself is out of frame to the right.",
         "credit": "R. A. H. L'Estrange photograph, c.1898 · Queensland University of Technology · public domain (CC0)",
         "indicative": true
       }
@@ -293,7 +293,7 @@
       "quoteRef": "Episode 12, Cyclops",
       "image": {
         "file": "assets/images/ul-little-britain-street.jpg",
-        "caption": "Little Britain Street, Dublin, 1899 — the working north-inner-city street on which Barney Kiernan's public house stood.",
+        "caption": "Little Britain Street, Dublin, 1899 - the working north-inner-city street on which Barney Kiernan's public house stood.",
         "credit": "Photograph, 1899 · via Wikimedia Commons · public domain"
       }
     },
@@ -308,7 +308,7 @@
       "story": "As the summer light fades and a church service drifts across the sand, the young Gerty MacDowell shows herself off on the rocks; Bloom, watching from a distance, quietly gratifies himself as fireworks rise over the bazaar. Then the fancy collapses into his tired, tender thoughts of home.",
       "quote": "The summer evening had begun to fold the world in its mysterious embrace.",
       "quoteRef": "Episode 13, Nausicaa",
-      "imageBlank": "No period public-domain view of Sandymount strand survives — the same gap as the Proteus pin at the other end of the beach."
+      "imageBlank": "No period public-domain view of Sandymount strand survives - the same gap as the Proteus pin at the other end of the beach."
     },
     {
       "id": "holles-street",
@@ -329,11 +329,11 @@
       "novelName": "nighttown",
       "coords": [-6.2497, 53.3512],
       "certainty": "identified",
-      "note": "The Monto brothel quarter off Amiens Street, entered from Mabbot Street (now James Joyce Street). 'Nighttown' is Joyce's name; Bella Cohen's house — a real madam — is placed on Tyrone Street Lower (renamed Railway Street in 1911). The pin marks the Mabbot Street entrance.",
-      "story": "Written as a hallucinatory play, the night follows the drunk Stephen and a watchful Bloom through the brothels, where guilt and desire erupt as apparitions. When a soldier knocks Stephen down in the street, Bloom stands over him — and in the boy's unconscious face sees a vision of his own dead son.",
+      "note": "The Monto brothel quarter off Amiens Street, entered from Mabbot Street (now James Joyce Street). 'Nighttown' is Joyce's name; Bella Cohen's house - a real madam - is placed on Tyrone Street Lower (renamed Railway Street in 1911). The pin marks the Mabbot Street entrance.",
+      "story": "Written as a hallucinatory play, the night follows the drunk Stephen and a watchful Bloom through the brothels, where guilt and desire erupt as apparitions. When a soldier knocks Stephen down in the street, Bloom stands over him - and in the boy's unconscious face sees a vision of his own dead son.",
       "quote": "The Mabbot street entrance of nighttown, before which stretches an uncobbled tramsiding set with skeleton tracks",
       "quoteRef": "Episode 15, Circe",
-      "imageBlank": "No period view of the Monto — the Mabbot and Tyrone Street brothel quarter — is in the public domain, and a posed or prurient stand-in would be the wrong thing; a blank is the honest record."
+      "imageBlank": "No period view of the Monto - the Mabbot and Tyrone Street brothel quarter - is in the public domain, and a posed or prurient stand-in would be the wrong thing; a blank is the honest record."
     },
     {
       "id": "cabmans-shelter",
@@ -348,7 +348,7 @@
       "quoteRef": "Episode 16, Eumaeus",
       "image": {
         "file": "assets/images/ul-custom-house-butt-bridge.jpg",
-        "caption": "The Custom House and Butt Bridge, where the cabman's shelter stood — photographed while the earlier swing bridge was still in place (1879–91), a little before Bloom's night, and before the Loop Line viaduct.",
+        "caption": "The Custom House and Butt Bridge, where the cabman's shelter stood - photographed while the earlier swing bridge was still in place (1879–91), a little before Bloom's night, and before the Loop Line viaduct.",
         "credit": "Photograph c.1880s · via Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -386,12 +386,12 @@
       "startDay": 0.462,
       "days": 0.03,
       "via": [
-        { "at": [-6.2340, 53.3405], "name": "Ringsend", "note": "walks in from the strand through Ringsend — the way the funeral carriage is passing at the very same hour" },
+        { "at": [-6.2340, 53.3405], "name": "Ringsend", "note": "walks in from the strand through Ringsend - the way the funeral carriage is passing at the very same hour" },
         [-6.2500, 53.3440]
       ],
       "routeCertainty": "reconstructed",
       "routeSource": "No turn-by-turn route in the text; reconstructs Stephen's walk from the strand into the city through Ringsend and Great Brunswick Street.",
-      "note": "Stephen walks off the strand and into town to place Deasy's letter at the newspaper — crossing, near Ringsend, the very ground the mourning carriage rolls over minutes later."
+      "note": "Stephen walks off the strand and into town to place Deasy's letter at the newspaper - crossing, near Ringsend, the very ground the mourning carriage rolls over minutes later."
     },
     {
       "character": "stephen",
@@ -411,7 +411,7 @@
       "mode": "foot",
       "startDay": 0.88,
       "days": 0.035,
-      "note": "The afternoon's drinking carries Stephen, by evening, to the maternity hospital and the rowdy medical students — where Bloom is already sitting."
+      "note": "The afternoon's drinking carries Stephen, by evening, to the maternity hospital and the rowdy medical students - where Bloom is already sitting."
     },
     {
       "character": "stephen",
@@ -426,7 +426,7 @@
       ],
       "routeCertainty": "novel",
       "routeSource": "The text names the way: Stephen and Lynch take the train from Westland Row to Amiens Street, and walk on into Nighttown.",
-      "note": "Drunk and reckless, Stephen leads the way to Nighttown by the Amiens Street train — Bloom hurrying after him."
+      "note": "Drunk and reckless, Stephen leads the way to Nighttown by the Amiens Street train - Bloom hurrying after him."
     },
     {
       "character": "bloom",
@@ -464,17 +464,17 @@
         [-6.2400, 53.3400],
         { "at": [-6.2500, 53.3440], "name": "Great Brunswick Street", "note": "past the theatres, the timberyard, the cab-hazard" },
         [-6.2588, 53.3466],
-        { "at": [-6.2592, 53.3473], "name": "O'Connell Bridge", "note": "past the Liberator's monument — the third of the day's four waters, the Liffey" },
+        { "at": [-6.2592, 53.3473], "name": "O'Connell Bridge", "note": "past the Liberator's monument - the third of the day's four waters, the Liffey" },
         { "at": [-6.2603, 53.3498], "name": "Nelson's Pillar", "note": "up Sackville Street past the Pillar" },
         { "at": [-6.2635, 53.3535], "name": "Rutland Square", "note": "'Rattle his bones. Over the stones.'" },
         [-6.2665, 53.3565],
         { "at": [-6.2720, 53.3595], "name": "Dunphy's corner", "note": "mourning coaches drawn up; the carriage turns for Phibsborough" },
         { "at": [-6.2740, 53.3640], "name": "The Royal Canal", "note": "the last of the four waters, roaring through the sluices" },
-        { "at": [-6.2775, 53.3700], "name": "Finglas Road", "note": "the stonecutter's yard on the right — 'last lap'" }
+        { "at": [-6.2775, 53.3700], "name": "Finglas Road", "note": "the stonecutter's yard on the right - 'last lap'" }
       ],
       "routeCertainty": "novel",
       "routeSource": "The text names the way: Cunningham calls the route 'Irishtown, Ringsend. Brunswick street', and the carriage passes the Liberator's monument, Nelson's Pillar, Rutland Square ('Rattle his bones'), Dunphy's corner, the Royal Canal and the stonecutter's yard on the Finglas road.",
-      "routeNote": "The one great cross-city journey of the book, and its recurring motif is water: the carriage crosses the Dodder, the Grand Canal, the Liffey and the Royal Canal — Hades' four rivers of the dead. It turns up D'Olier Street to the bridge and does not run along the quays.",
+      "routeNote": "The one great cross-city journey of the book, and its recurring motif is water: the carriage crosses the Dodder, the Grand Canal, the Liffey and the Royal Canal - Hades' four rivers of the dead. It turns up D'Olier Street to the bridge and does not run along the quays.",
       "note": "The funeral carriage carries Bloom the length of the city, from the sea at Sandymount to the graves at Glasnevin."
     },
     {
@@ -501,7 +501,7 @@
         { "at": [-6.2592, 53.3473], "name": "O'Connell Bridge", "note": "stops to feed the gulls a Banbury cake over the river" }
       ],
       "routeCertainty": "reconstructed",
-      "routeSource": "No turn-by-turn route in the text; reconstructs Bloom's walk from the named landmarks — O'Connell Bridge, Westmoreland Street, Grafton Street, Duke Street.",
+      "routeSource": "No turn-by-turn route in the text; reconstructs Bloom's walk from the named landmarks - O'Connell Bridge, Westmoreland Street, Grafton Street, Duke Street.",
       "note": "Hungry, Bloom walks down over O'Connell Bridge and up towards Grafton Street, looking for somewhere he can bear to eat."
     },
     {
@@ -513,7 +513,7 @@
       "startDay": 0.565,
       "days": 0.018,
       "via": [
-        { "at": [-6.2546, 53.3402], "name": "the National Museum", "note": "takes a straw hat and tan shoes up Kildare Street for Boylan's — 'It is. It is.' — and swerves in through the museum gates to be safe" }
+        { "at": [-6.2546, 53.3402], "name": "the National Museum", "note": "takes a straw hat and tan shoes up Kildare Street for Boylan's - 'It is. It is.' - and swerves in through the museum gates to be safe" }
       ],
       "routeCertainty": "reconstructed",
       "routeSource": "The text names the swerve: to dodge Boylan on Kildare Street, Bloom turns in at the museum gates beside the library.",
@@ -527,7 +527,7 @@
       "mode": "foot",
       "startDay": 0.64,
       "days": 0.025,
-      "note": "Bloom crosses the river to the Ormond, and takes a late meal there — a few yards and a wall away from Boylan, whom he would rather not be seen by."
+      "note": "Bloom crosses the river to the Ormond, and takes a late meal there - a few yards and a wall away from Boylan, whom he would rather not be seen by."
     },
     {
       "character": "bloom",
@@ -537,7 +537,7 @@
       "mode": "foot",
       "startDay": 0.69,
       "days": 0.018,
-      "note": "On up towards the markets and Barney Kiernan's, to look for Cunningham about the Dignam widow's insurance — and into an argument."
+      "note": "On up towards the markets and Barney Kiernan's, to look for Cunningham about the Dignam widow's insurance - and into an argument."
     },
     {
       "character": "bloom",
@@ -561,7 +561,7 @@
       "days": 0.035,
       "routeCertainty": "reconstructed",
       "routeSource": "Not narrated as a journey; Bloom comes in from the strand to the maternity hospital to ask after Mrs Purefoy.",
-      "note": "From the strand Bloom comes back in to Holles Street to ask after Mina Purefoy, three days in her labour — and finds Stephen there."
+      "note": "From the strand Bloom comes back in to Holles Street to ask after Mina Purefoy, three days in her labour - and finds Stephen there."
     },
     {
       "character": "bloom",
@@ -596,7 +596,7 @@
       "mode": "foot",
       "startDay": 1.05,
       "days": 0.03,
-      "note": "The two walk on through the sleeping city to Eccles Street — Odysseus bringing home a stray son."
+      "note": "The two walk on through the sleeping city to Eccles Street - Odysseus bringing home a stray son."
     },
     {
       "character": "boylan",
@@ -620,7 +620,7 @@
       "days": 0.015,
       "routeCertainty": "reconstructed",
       "routeSource": "The text gives the destination and the hour: Boylan leaves the Ormond at four, his car jingling north to Eccles Street and Molly.",
-      "note": "At four o'clock exactly the jaunting-car jingles north to Eccles Street and Molly — the appointment Bloom has spent all day not thinking about."
+      "note": "At four o'clock exactly the jaunting-car jingles north to Eccles Street and Molly - the appointment Bloom has spent all day not thinking about."
     }
   ],
   "story": [
@@ -630,7 +630,7 @@
       "at": "martello-tower",
       "chapter": 1,
       "title": "Telemachus",
-      "narration": "Eight in the morning, atop a granite tower above the sea at Sandycove. Stephen Dedalus — a young poet and teacher, back from Paris and grieving his mother — breakfasts with the mocking Buck Mulligan and an Englishman, Haines. Slighted in his own home, he hands over the key and goes.",
+      "narration": "Eight in the morning, atop a granite tower above the sea at Sandycove. Stephen Dedalus - a young poet and teacher, back from Paris and grieving his mother - breakfasts with the mocking Buck Mulligan and an Englishman, Haines. Slighted in his own home, he hands over the key and goes.",
       "day": 0.333
     },
     {
@@ -647,11 +647,11 @@
       "from": "deasy-school",
       "to": "proteus-strand",
       "chapter": 3,
-      "narration": "Rather than go straight into town, Stephen takes the train back to the shore and walks out alone along Sandymount strand — thinking of sight and time and the sea, and of the mother at whose deathbed he would not kneel to pray."
+      "narration": "Rather than go straight into town, Stephen takes the train back to the shore and walks out alone along Sandymount strand - thinking of sight and time and the sea, and of the mother at whose deathbed he would not kneel to pray."
     },
     {
       "kind": "meanwhile",
-      "narration": "Meanwhile — rewind to eight o'clock, right across the city. While Stephen breakfasts in his tower, another man is frying his in a basement kitchen on Eccles Street: Leopold Bloom, whose ordinary day this really is."
+      "narration": "Meanwhile - rewind to eight o'clock, right across the city. While Stephen breakfasts in his tower, another man is frying his in a basement kitchen on Eccles Street: Leopold Bloom, whose ordinary day this really is."
     },
     {
       "kind": "scene",
@@ -659,7 +659,7 @@
       "at": "eccles-street",
       "chapter": 4,
       "title": "Calypso",
-      "narration": "Leopold Bloom — a good-natured advertising canvasser — makes breakfast, buys a kidney, and carries the tea up to his wife Molly, a concert singer still in bed. Among her post is a note he pretends not to see: from Blazes Boylan, who is coming at four.",
+      "narration": "Leopold Bloom - a good-natured advertising canvasser - makes breakfast, buys a kidney, and carries the tea up to his wife Molly, a concert singer still in bed. Among her post is a note he pretends not to see: from Blazes Boylan, who is coming at four.",
       "day": 0.333
     },
     {
@@ -685,19 +685,19 @@
       "to": "glasnevin",
       "chapter": 6,
       "title": "Hades",
-      "narration": "The mourning carriage carries Bloom the length of Dublin — Irishtown, Ringsend, over the canals and the Liffey, up Sackville Street past Nelson's Pillar to the graves at Glasnevin. It crosses four waters on the way — the Dodder, the Grand Canal, the Liffey, the Royal Canal — Hades' four rivers of the dead."
+      "narration": "The mourning carriage carries Bloom the length of Dublin - Irishtown, Ringsend, over the canals and the Liffey, up Sackville Street past Nelson's Pillar to the graves at Glasnevin. It crosses four waters on the way - the Dodder, the Grand Canal, the Liffey, the Royal Canal - Hades' four rivers of the dead."
     },
     {
       "kind": "scene",
       "character": "bloom",
       "at": "glasnevin",
       "chapter": 6,
-      "narration": "At the graveside Bloom stands a little apart and thinks his way around death — his father, who took his own life, and his baby son Rudy, dead at eleven days. Then the living close the earth over Dignam and go back to their day.",
+      "narration": "At the graveside Bloom stands a little apart and thinks his way around death - his father, who took his own life, and his baby son Rudy, dead at eleven days. Then the living close the earth over Dignam and go back to their day.",
       "day": 0.492
     },
     {
       "kind": "meanwhile",
-      "narration": "Noon. By different roads the two men are closing on the same few streets — and will spend the whole afternoon a room, a doorway, a minute apart, and never quite meet."
+      "narration": "Noon. By different roads the two men are closing on the same few streets - and will spend the whole afternoon a room, a doorway, a minute apart, and never quite meet."
     },
     {
       "kind": "journey",
@@ -705,7 +705,7 @@
       "from": "proteus-strand",
       "to": "freemans-journal",
       "chapter": 7,
-      "narration": "Stephen walks in off the strand through Ringsend — crossing, all unknowing, the very track the funeral carriage rolled over an hour before. Had either man looked up, Bloom and Stephen would have seen each other: the day's first near-miss, unmarked. He carries Deasy's dull letter to the newspaper offices."
+      "narration": "Stephen walks in off the strand through Ringsend - crossing, all unknowing, the very track the funeral carriage rolled over an hour before. Had either man looked up, Bloom and Stephen would have seen each other: the day's first near-miss, unmarked. He carries Deasy's dull letter to the newspaper offices."
     },
     {
       "kind": "journey",
@@ -714,7 +714,7 @@
       "to": "freemans-journal",
       "chapter": 7,
       "title": "Aeolus",
-      "narration": "Back from the cemetery, Bloom comes to the same newspaper offices to chase an advertisement, in and out of the windy clatter of the presses. He and Stephen are under one roof within the hour — and never speak."
+      "narration": "Back from the cemetery, Bloom comes to the same newspaper offices to chase an advertisement, in and out of the windy clatter of the presses. He and Stephen are under one roof within the hour - and never speak."
     },
     {
       "kind": "journey",
@@ -723,14 +723,14 @@
       "to": "davy-byrnes",
       "chapter": 8,
       "title": "Lestrygonians",
-      "narration": "Hungry now, Bloom crosses O'Connell Bridge — pausing to feed the gulls — and up towards Grafton Street. Sickened by the sight of men gorging in one restaurant, he settles for a quiet gorgonzola sandwich and a glass of burgundy at Davy Byrne's."
+      "narration": "Hungry now, Bloom crosses O'Connell Bridge - pausing to feed the gulls - and up towards Grafton Street. Sickened by the sight of men gorging in one restaurant, he settles for a quiet gorgonzola sandwich and a glass of burgundy at Davy Byrne's."
     },
     {
       "kind": "scene",
       "character": "bloom",
       "at": "davy-byrnes",
       "chapter": 8,
-      "narration": "Over the burgundy his mind slips back years, to a day on Howth Head: Molly lying in the sun, passing him seedcake warm from her own mouth — the day he asked her, and she said yes. The best of it, and it aches now, with four o'clock coming.",
+      "narration": "Over the burgundy his mind slips back years, to a day on Howth Head: Molly lying in the sun, passing him seedcake warm from her own mouth - the day he asked her, and she said yes. The best of it, and it aches now, with four o'clock coming.",
       "day": 0.55
     },
     {
@@ -739,7 +739,7 @@
       "from": "freemans-journal",
       "to": "national-library",
       "chapter": 9,
-      "narration": "Stephen, for his part, leads the drinking talk out of the office and on towards the National Library, turning over the theory he means to perform there — that Shakespeare is the ghost in Hamlet, not the prince."
+      "narration": "Stephen, for his part, leads the drinking talk out of the office and on towards the National Library, turning over the theory he means to perform there - that Shakespeare is the ghost in Hamlet, not the prince."
     },
     {
       "kind": "journey",
@@ -747,7 +747,7 @@
       "from": "davy-byrnes",
       "to": "national-library",
       "chapter": 9,
-      "narration": "Walking to the library on the same errand, Bloom catches sight up Kildare Street of a straw hat and tan shoes he takes for Boylan's — 'It is. It is.' — and rather than chance the meeting swerves in at the museum gates. Safe."
+      "narration": "Walking to the library on the same errand, Bloom catches sight up Kildare Street of a straw hat and tan shoes he takes for Boylan's - 'It is. It is.' - and rather than chance the meeting swerves in at the museum gates. Safe."
     },
     {
       "kind": "scene",
@@ -755,7 +755,7 @@
       "at": "national-library",
       "chapter": 9,
       "title": "Scylla and Charybdis",
-      "narration": "Inside, Stephen performs his Shakespeare theory to the sceptical librarians. As the talk breaks up, Bloom crosses the library portico on his way out — passing within arm's reach of the very young man he does not yet know he is looking for. Neither of them turns.",
+      "narration": "Inside, Stephen performs his Shakespeare theory to the sceptical librarians. As the talk breaks up, Bloom crosses the library portico on his way out - passing within arm's reach of the very young man he does not yet know he is looking for. Neither of them turns.",
       "day": 0.583
     },
     {
@@ -773,7 +773,7 @@
       "from": "thorntons",
       "to": "ormond",
       "chapter": 11,
-      "narration": "His outside car jingles away across the city — the sound that will run through Bloom's head all afternoon — and pulls up at the Ormond Hotel, where Boylan stops for a drink before the last short leg to Eccles Street."
+      "narration": "His outside car jingles away across the city - the sound that will run through Bloom's head all afternoon - and pulls up at the Ormond Hotel, where Boylan stops for a drink before the last short leg to Eccles Street."
     },
     {
       "kind": "journey",
@@ -782,14 +782,14 @@
       "to": "ormond",
       "chapter": 11,
       "title": "Sirens",
-      "narration": "Bloom crosses the river to the Ormond and takes a late meal there — by chance in the very hotel where Boylan sits drinking, a wall away. He keeps out of sight, and writes a sly letter back to his own pen-friend."
+      "narration": "Bloom crosses the river to the Ormond and takes a late meal there - by chance in the very hotel where Boylan sits drinking, a wall away. He keeps out of sight, and writes a sly letter back to his own pen-friend."
     },
     {
       "kind": "scene",
       "character": "bloom",
       "at": "ormond",
       "chapter": 11,
-      "narration": "Four o'clock. In a room full of song, Bloom hears the jingle of Boylan's car setting off again — north, to his own house and his own wife — and sits very still with the knowledge, letting it happen, doing nothing.",
+      "narration": "Four o'clock. In a room full of song, Bloom hears the jingle of Boylan's car setting off again - north, to his own house and his own wife - and sits very still with the knowledge, letting it happen, doing nothing.",
       "day": 0.667
     },
     {
@@ -798,7 +798,7 @@
       "from": "ormond",
       "to": "eccles-street",
       "chapter": 11,
-      "narration": "Across the city the jaunting-car jingles north and draws up at 7 Eccles Street. Boylan's bright line reaches the still point Molly has held all day — the appointment the whole book turns on, and which Bloom, miles off, has let come."
+      "narration": "Across the city the jaunting-car jingles north and draws up at 7 Eccles Street. Boylan's bright line reaches the still point Molly has held all day - the appointment the whole book turns on, and which Bloom, miles off, has let come."
     },
     {
       "kind": "journey",
@@ -807,14 +807,14 @@
       "to": "barney-kiernans",
       "chapter": 12,
       "title": "Cyclops",
-      "narration": "Bloom walks up to Barney Kiernan's pub to see a man about the Dignam widow's insurance, and falls among drinkers — chief of them a belligerent nationalist known only as 'the Citizen'."
+      "narration": "Bloom walks up to Barney Kiernan's pub to see a man about the Dignam widow's insurance, and falls among drinkers - chief of them a belligerent nationalist known only as 'the Citizen'."
     },
     {
       "kind": "scene",
       "character": "bloom",
       "at": "barney-kiernans",
       "chapter": 12,
-      "narration": "The Citizen turns on him with open anti-Semitism. Bloom, for once, answers back — that force and hatred are no life for a man, that the opposite of it is love — and leaves to jeers, standing his ground as a Jew and an Irishman both.",
+      "narration": "The Citizen turns on him with open anti-Semitism. Bloom, for once, answers back - that force and hatred are no life for a man, that the opposite of it is love - and leaves to jeers, standing his ground as a Jew and an Irishman both.",
       "day": 0.708
     },
     {
@@ -824,7 +824,7 @@
       "to": "sandymount-strand",
       "chapter": 13,
       "title": "Nausicaa",
-      "narration": "To calm himself he rides a tram out to Sandymount — the same strand Stephen walked at dawn — and sits as the summer evening comes down and a church service drifts across the sand."
+      "narration": "To calm himself he rides a tram out to Sandymount - the same strand Stephen walked at dawn - and sits as the summer evening comes down and a church service drifts across the sand."
     },
     {
       "kind": "scene",
@@ -853,7 +853,7 @@
       "to": "holles-street",
       "chapter": 14,
       "title": "Oxen of the Sun",
-      "narration": "Bloom comes in from the strand to ask after the labouring Mrs Purefoy — and finds Stephen there, drunk among the students. At last, in the same room, the two men truly meet, and something in Bloom fastens on the reckless boy."
+      "narration": "Bloom comes in from the strand to ask after the labouring Mrs Purefoy - and finds Stephen there, drunk among the students. At last, in the same room, the two men truly meet, and something in Bloom fastens on the reckless boy."
     },
     {
       "kind": "journey",
@@ -877,7 +877,7 @@
       "character": "bloom",
       "at": "nighttown",
       "chapter": 15,
-      "narration": "In the brothels the night turns hallucinatory, every guilt and desire walking the stage as flesh. Out in the street a soldier knocks Stephen flat; Bloom stands over him — and in the unconscious boy's face sees his own dead son, Rudy, at the age he never reached.",
+      "narration": "In the brothels the night turns hallucinatory, every guilt and desire walking the stage as flesh. Out in the street a soldier knocks Stephen flat; Bloom stands over him - and in the unconscious boy's face sees his own dead son, Rudy, at the age he never reached.",
       "day": 1.0
     },
     {
@@ -896,7 +896,7 @@
       "to": "eccles-street",
       "chapter": 17,
       "title": "Ithaca",
-      "narration": "In the small hours the two walk on together to Eccles Street. Under 'the heaventree of stars' Bloom brings Stephen into his kitchen and makes him cocoa — Odysseus, home at last, with a stray son beside him."
+      "narration": "In the small hours the two walk on together to Eccles Street. Under 'the heaventree of stars' Bloom brings Stephen into his kitchen and makes him cocoa - Odysseus, home at last, with a stray son beside him."
     },
     {
       "kind": "scene",
@@ -912,7 +912,7 @@
       "at": "eccles-street",
       "chapter": 18,
       "title": "Penelope",
-      "narration": "And the last word is Molly's. Lying beside her returned husband she runs back over her whole life in one long unpunctuated rush — Boylan, old lovers, Gibraltar, and that same day on Howth when she said yes to Bloom — and ends, and ends the book, on a rising, unqualified Yes.",
+      "narration": "And the last word is Molly's. Lying beside her returned husband she runs back over her whole life in one long unpunctuated rush - Boylan, old lovers, Gibraltar, and that same day on Howth when she said yes to Bloom - and ends, and ends the book, on a rising, unqualified Yes.",
       "day": 1.115
     }
   ]

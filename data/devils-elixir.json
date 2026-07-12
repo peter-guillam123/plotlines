@@ -3,7 +3,7 @@
   "author": "E. T. A. Hoffmann",
   "year": 1815,
   "gutenbergId": 36494,
-  "overture": "Germany, the late eighteenth century. Brother Medardus, a Capuchin monk, drinks a relic-elixir that unchains every buried desire, and is driven out of his cloister into a wandering life of seduction, murder and madness — dogged the whole way by his own double, the mad Count Victorin, whom neither he nor anyone can tell apart from himself. Two identical men on the same roads; an old family curse of blood and incest running beneath, migrating north out of Italy; and one woman, Aurelie, caught between them.",
+  "overture": "Germany, the late eighteenth century. Brother Medardus, a Capuchin monk, drinks a relic-elixir that unchains every buried desire, and is driven out of his cloister into a wandering life of seduction, murder and madness - dogged the whole way by his own double, the mad Count Victorin, whom neither he nor anyone can tell apart from himself. Two identical men on the same roads; an old family curse of blood and incest running beneath, migrating north out of Italy; and one woman, Aurelie, caught between them.",
   "mapHome": {
     "bounds": [[9.8, 41.2], [22.0, 54.6]]
   },
@@ -14,18 +14,18 @@
     "unit": "days"
   },
   "sources": [
-    "The novel is undated — a spiritual autobiography told in life-stages (childhood by the Saale, the years in the cloister, then the wandering), not calendar years. The era is Hoffmann's own near-past, the later eighteenth century of small princely Residenzen and Capuchin monasteries; written 1814–15.",
-    "Hoffmann built a deliberate dream-geography: the two ends are pinned to real, nameable places — the convent of the Holy Lime-Tree (Heilige Linde / Święta Lipka) in East Prussia at the start, and Rome at the penitential climax — while the whole German middle floats in a lightly-initialled Thuringian never-never-land of invented -burg / -wald / -thurm names.",
+    "The novel is undated - a spiritual autobiography told in life-stages (childhood by the Saale, the years in the cloister, then the wandering), not calendar years. The era is Hoffmann's own near-past, the later eighteenth century of small princely Residenzen and Capuchin monasteries; written 1814–15.",
+    "Hoffmann built a deliberate dream-geography: the two ends are pinned to real, nameable places - the convent of the Holy Lime-Tree (Heilige Linde / Święta Lipka) in East Prussia at the start, and Rome at the penitential climax - while the whole German middle floats in a lightly-initialled Thuringian never-never-land of invented -burg / -wald / -thurm names.",
     "The one firm thread through the German settings is the real river Saale and the 'Thuringian mountains' (the Thüringer Wald), so the conjectured German pins are clustered along the upper Saale where it meets the uplands; the exact points are honestly unlocatable, and are marked so.",
-    "One inconsistency is Hoffmann's own, not ours: the Baron's castle is 'von R----' in the painter's inset tale and 'von F----' in the frame narrative — the text garbles its own initial.",
+    "One inconsistency is Hoffmann's own, not ours: the Baron's castle is 'von R----' in the painter's inset tale and 'von F----' in the frame narrative - the text garbles its own initial.",
     "The English text is R. P. Gillies's anonymous 1824 translation, in two Project Gutenberg volumes (#36494, #37005), which spells the count 'Victorin' and the order 'Cistertian'. Topography cross-checked against the standard scholarship on the novel and the real site of Święta Lipka."
   ],
   "regions": [
-    { "id": "prussia", "name": "Prussia — the curse's northern pole" },
-    { "id": "saale", "name": "The Saale — the monasteries" },
+    { "id": "prussia", "name": "Prussia - the curse's northern pole" },
+    { "id": "saale", "name": "The Saale - the monasteries" },
     { "id": "thuringia", "name": "The Thuringian mountains" },
     { "id": "residenz", "name": "The princely Residenz" },
-    { "id": "rome", "name": "Rome — the curse's source" }
+    { "id": "rome", "name": "Rome - the curse's source" }
   ],
   "chapters": [
     { "n": 1, "title": "The Holy Lime-Tree", "day": 0, "when": "born of the curse" },
@@ -43,7 +43,7 @@
       "name": "Medardus",
       "colour": "madder",
       "initials": "M",
-      "role": "The Capuchin monk undone by the elixir — the living line of the curse, driven through seduction, murder and madness",
+      "role": "The Capuchin monk undone by the elixir - the living line of the curse, driven through seduction, murder and madness",
       "start": { "location": "holy-lime-tree", "chapter": 1 }
     },
     {
@@ -51,7 +51,7 @@
       "name": "Count Victorin",
       "colour": "aubergine",
       "initials": "V",
-      "role": "Medardus's identical half-brother and mad shadow — the darkened reflection, forever on the same road",
+      "role": "Medardus's identical half-brother and mad shadow - the darkened reflection, forever on the same road",
       "start": { "location": "devils-abyss", "chapter": 4 }
     },
     {
@@ -59,7 +59,7 @@
       "name": "Aurelie",
       "colour": "prussian",
       "initials": "A",
-      "role": "The woman Medardus is obsessed with — later the nun Rosalia; the still point the two reds pursue, and the curse's last victim",
+      "role": "The woman Medardus is obsessed with - later the nun Rosalia; the still point the two reds pursue, and the curse's last victim",
       "start": { "location": "castle", "chapter": 5 }
     }
   ],
@@ -75,7 +75,7 @@
       "story": "Where the curse comes to rest and Medardus is born. His father, doing penance for a mortal sin on a pilgrimage north out of Italy, dies here; the child is born and stays his first months, marked from the cradle as the promised, cursed son.",
       "quote": "the convent of the Holy Lime-Tree in Prussia",
       "quoteRef": "Vol. I",
-      "imageBlank": "The one real German anchor — the Baroque pilgrimage church of Święta Lipka does survive and could be shown. Left blank so a lone real photograph doesn't break the invented dream-geography around it; a period view could be added if wanted."
+      "imageBlank": "The one real German anchor - the Baroque pilgrimage church of Święta Lipka does survive and could be shown. Left blank so a lone real photograph doesn't break the invented dream-geography around it; a period view could be added if wanted."
     },
     {
       "id": "kreuzberg",
@@ -85,10 +85,10 @@
       "coords": [11.34, 50.65],
       "certainty": "conjectured",
       "note": "Best guess. The river Saale is real; a Cistercian 'Kreuzberg' on it is Hoffmann's invention, anchored only by the named river in the Thuringian country. Placed on the upper Saale.",
-      "story": "Medardus's childhood home from the age of four, beside the convent his grandmother the Abbess presides over and his widowed mother serves. Here his piety — and the family's watchful, doomed love — are formed.",
+      "story": "Medardus's childhood home from the age of four, beside the convent his grandmother the Abbess presides over and his widowed mother serves. Here his piety - and the family's watchful, doomed love - are formed.",
       "quote": "on the banks of the river Saale, near the Cistertian Monastery of Kreuzberg",
       "quoteRef": "Vol. I",
-      "imageBlank": "An invented Cistercian house on the real Saale — there is no such building to photograph, and a stock convent view would only pretend to a place Hoffmann never fixed."
+      "imageBlank": "An invented Cistercian house on the real Saale - there is no such building to photograph, and a stock convent view would only pretend to a place Hoffmann never fixed."
     },
     {
       "id": "konigswald",
@@ -97,8 +97,8 @@
       "novelName": "Königswald",
       "coords": [11.2, 50.7],
       "certainty": "conjectured",
-      "note": "Best guess. An invented Thuringian town ('king's-forest'), but firmly localised by the text's sightlines — from the monastery one sees 'the wanderings of the Saale' and the Thuringian mountains. Placed on the Saale near the uplands.",
-      "story": "Where Medardus takes his vows and grows into a celebrated preacher — and where, guarding the relic of St Anthony, he drinks the Devil's elixir, is unchained, and flees the cloister into the world. He returns here, at the last, to do his penance and die.",
+      "note": "Best guess. An invented Thuringian town ('king's-forest'), but firmly localised by the text's sightlines - from the monastery one sees 'the wanderings of the Saale' and the Thuringian mountains. Placed on the Saale near the uplands.",
+      "story": "Where Medardus takes his vows and grows into a celebrated preacher - and where, guarding the relic of St Anthony, he drinks the Devil's elixir, is unchained, and flees the cloister into the world. He returns here, at the last, to do his penance and die.",
       "quote": "right before the eastern gates of Königswald",
       "quoteRef": "Vol. I",
       "imageBlank": "Königswald ('king's-forest') is Hoffmann's invention; no real town answers to it, so any photograph would be a false anchor for a place that exists only in the book."
@@ -110,8 +110,8 @@
       "novelName": "the devil's chair",
       "coords": [10.7, 50.63],
       "certainty": "conjectured",
-      "note": "Best guess. An invented local legend-spot — a precipice with a projecting rock, 'the devil's chair', on a by-road through the Thuringian mountains (explicitly not the Alps); the region is fixed, the exact point unlocatable.",
-      "story": "The hinge of the whole book. Medardus finds Count Victorin asleep on the rock-ledge above the chasm; a cry, a fall, and Victorin is gone into the gulf — and Medardus takes his very name, and the letters at his side, and walks on as another man.",
+      "note": "Best guess. An invented local legend-spot - a precipice with a projecting rock, 'the devil's chair', on a by-road through the Thuringian mountains (explicitly not the Alps); the region is fixed, the exact point unlocatable.",
+      "story": "The hinge of the whole book. Medardus finds Count Victorin asleep on the rock-ledge above the chasm; a cry, a fall, and Victorin is gone into the gulf - and Medardus takes his very name, and the letters at his side, and walks on as another man.",
       "quote": "and the projecting promontory of the rock the devil's chair.",
       "quoteRef": "Vol. I",
       "imageBlank": "A local legend-spot Hoffmann made up; no real precipice is meant, and a generic ravine would fake a specificity the text deliberately withholds."
@@ -123,8 +123,8 @@
       "novelName": "the Castle of the Baron von F----",
       "coords": [10.72, 50.61],
       "certainty": "conjectured",
-      "note": "Best guess. An invented castle among the Thuringian mountains, near the Devil's Abyss. (Hoffmann's own text garbles the name — 'von R----' in the inset painter's tale, 'von F----' in the frame.)",
-      "story": "Passing as the dead Victorin, Medardus enters the Baron's household — repels the scheming Baroness Euphemie, conceives his fatal obsession with the ward Aurelie, murders her mad brother Hermogen with a stiletto, and flees as Euphemie dies of the poison she had meant for him.",
+      "note": "Best guess. An invented castle among the Thuringian mountains, near the Devil's Abyss. (Hoffmann's own text garbles the name - 'von R----' in the inset painter's tale, 'von F----' in the frame.)",
+      "story": "Passing as the dead Victorin, Medardus enters the Baron's household - repels the scheming Baroness Euphemie, conceives his fatal obsession with the ward Aurelie, murders her mad brother Hermogen with a stiletto, and flees as Euphemie dies of the poison she had meant for him.",
       "quote": "at the Castle of the Baron von R----, among the Thuringian mountains.",
       "quoteRef": "Vol. I",
       "imageBlank": "An invented castle among the mountains, its very name garbled in Hoffmann's own text (R---- / F----); there is nothing real to picture."
@@ -136,11 +136,11 @@
       "novelName": "the Prince's residenz",
       "coords": [11.03, 50.98],
       "certainty": "conjectured",
-      "note": "Best guess. Never named as a city — only 'the Prince's residenz', 'the capital' — an invented central-German princely seat of the kind Hoffmann himself served in. Placed in the Thuringian orbit, north of the castle; not a real capital.",
-      "story": "Reinvented as the polished 'Herr Leonard', Medardus rises at court — until Aurelie arrives, knows him, and he is arrested for the castle murders. His mad double is dragged in bearing the same cruciform scar and confesses in his place; freed and betrothed to Aurelie, Medardus goes mad on the wedding-eve and stabs her.",
+      "note": "Best guess. Never named as a city - only 'the Prince's residenz', 'the capital' - an invented central-German princely seat of the kind Hoffmann himself served in. Placed in the Thuringian orbit, north of the castle; not a real capital.",
+      "story": "Reinvented as the polished 'Herr Leonard', Medardus rises at court - until Aurelie arrives, knows him, and he is arrested for the castle murders. His mad double is dragged in bearing the same cruciform scar and confesses in his place; freed and betrothed to Aurelie, Medardus goes mad on the wedding-eve and stabs her.",
       "quote": "Irresistibly I felt myself drawn towards the Prince's residenz.",
       "quoteRef": "Vol. II",
-      "imageBlank": "Never a named city — only 'the Prince's residenz', a stand-in court of the kind Hoffmann served in; there is no real capital to photograph honestly."
+      "imageBlank": "Never a named city - only 'the Prince's residenz', a stand-in court of the kind Hoffmann served in; there is no real capital to photograph honestly."
     },
     {
       "id": "rome",
@@ -150,10 +150,10 @@
       "coords": [12.4534, 41.9022],
       "certainty": "real",
       "note": "Pinned at St Peter's. The text sends Medardus to 'the Capuchin Convent … near to Rome' and to 'the church of St Peter'; the specific Roman house is unnamed, so the basilica is the safe landmark.",
-      "story": "The curse's source, and the place of penance. Medardus scourges himself in a Roman Capuchin convent, is nearly canonised in error, and resists the returning madness before the Pope — and here, in the painter Francesco's parchment, the whole bloody family history is at last laid bare.",
+      "story": "The curse's source, and the place of penance. Medardus scourges himself in a Roman Capuchin convent, is nearly canonised in error, and resists the returning madness before the Pope - and here, in the painter Francesco's parchment, the whole bloody family history is at last laid bare.",
       "quote": "onwards to the church of St Peter!",
       "quoteRef": "Vol. II",
-      "imageBlank": "St Peter's is real and endlessly pictured; left blank for tonal consistency — a lone Roman photograph among five invented-place blanks would over-anchor a book built as dream-geography. A period view could be added if wanted."
+      "imageBlank": "St Peter's is real and endlessly pictured; left blank for tonal consistency - a lone Roman photograph among five invented-place blanks would over-anchor a book built as dream-geography. A period view could be added if wanted."
     }
   ],
   "movements": [
@@ -165,7 +165,7 @@
       "mode": "coach",
       "startDay": 60,
       "days": 12,
-      "note": "The widow carries her child the long way south out of Prussia to the Saale — the curse travelling on, north-to-central, as it had travelled north out of Italy a generation before."
+      "note": "The widow carries her child the long way south out of Prussia to the Saale - the curse travelling on, north-to-central, as it had travelled north out of Italy a generation before."
     },
     {
       "character": "medardus",
@@ -185,7 +185,7 @@
       "mode": "foot",
       "startDay": 2100,
       "days": 4,
-      "note": "Unchained by the elixir, and sent by the Prior on an errand toward Rome to get him out of the cloister, Medardus walks up into the Thuringian mountains — toward the precipice, and his double."
+      "note": "Unchained by the elixir, and sent by the Prior on an errand toward Rome to get him out of the cloister, Medardus walks up into the Thuringian mountains - toward the precipice, and his double."
     },
     {
       "character": "medardus",
@@ -228,7 +228,7 @@
       ],
       "routeCertainty": "illustrative",
       "routeSource": "The text names no road south, only the destination; drawn as an honest gesture over the Alps and down the Italian peninsula to Rome.",
-      "note": "Broken and wounded, Medardus makes the long penitential journey south, over the mountains and down into Italy, to Rome — toward the source of the curse."
+      "note": "Broken and wounded, Medardus makes the long penitential journey south, over the mountains and down into Italy, to Rome - toward the source of the curse."
     },
     {
       "character": "medardus",
@@ -245,7 +245,7 @@
       ],
       "routeCertainty": "illustrative",
       "routeSource": "The penitential return north is unnarrated as a route; drawn as a gesture retracing the way, back up over the Alps to the Saale.",
-      "note": "His penance done and the family history known, Medardus walks the whole weary way back north to his own monastery — for the last catastrophe."
+      "note": "His penance done and the family history known, Medardus walks the whole weary way back north to his own monastery - for the last catastrophe."
     },
     {
       "character": "victorin",
@@ -257,7 +257,7 @@
       "days": 20,
       "routeCertainty": "illustrative",
       "routeSource": "The double's mad wandering is untraced in the text; drawn as a gesture from the abyss toward the Residenz, where he resurfaces.",
-      "note": "Not dead after all — broken and driven mad by the fall, Victorin resurfaces as a raving monk, dogging Medardus, and is carried at last to the same Residenz."
+      "note": "Not dead after all - broken and driven mad by the fall, Victorin resurfaces as a raving monk, dogging Medardus, and is carried at last to the same Residenz."
     },
     {
       "character": "victorin",
@@ -269,7 +269,7 @@
       "days": 25,
       "routeCertainty": "illustrative",
       "routeSource": "Untraced; the double's path north to the finale drawn as a gesture.",
-      "note": "The double follows the same road north to the monastery — to do, with his own hand, the murder Medardus's lust had only dreamed of."
+      "note": "The double follows the same road north to the monastery - to do, with his own hand, the murder Medardus's lust had only dreamed of."
     },
     {
       "character": "aurelie",
@@ -285,7 +285,7 @@
       ],
       "routeCertainty": "illustrative",
       "routeSource": "Her road is untraced in the text; drawn to coincide with Medardus's own flight-route so the two threads share the same ground.",
-      "note": "Aurelie, orphaned by the castle murders, comes to the Residenz by the very road Medardus took — and there, in the polished 'Herr Leonard', recognises the monk who killed her brother."
+      "note": "Aurelie, orphaned by the castle murders, comes to the Residenz by the very road Medardus took - and there, in the polished 'Herr Leonard', recognises the monk who killed her brother."
     },
     {
       "character": "aurelie",
@@ -295,7 +295,7 @@
       "mode": "coach",
       "startDay": 2855,
       "days": 25,
-      "note": "Having survived his knife, Aurelie goes north to take the veil at the convent as Sister Rosalia — the saint's name that has haunted the family from the first."
+      "note": "Having survived his knife, Aurelie goes north to take the veil at the convent as Sister Rosalia - the saint's name that has haunted the family from the first."
     }
   ],
   "story": [
@@ -305,7 +305,7 @@
       "at": "holy-lime-tree",
       "chapter": 1,
       "title": "Born of the curse",
-      "narration": "A pilgrim from Italy dies doing penance at the Prussian convent of the Holy Lime-Tree, and his son is born — marked, the monks whisper, by an old family sin of blood and lust that has walked north with the father.",
+      "narration": "A pilgrim from Italy dies doing penance at the Prussian convent of the Holy Lime-Tree, and his son is born - marked, the monks whisper, by an old family sin of blood and lust that has walked north with the father.",
       "day": 0
     },
     {
@@ -314,7 +314,7 @@
       "from": "holy-lime-tree",
       "to": "kreuzberg",
       "chapter": 2,
-      "narration": "The widow carries her child the long way south, out of Prussia to the river Saale — the curse travelling on, as it had once travelled north out of Italy in the father's blood."
+      "narration": "The widow carries her child the long way south, out of Prussia to the river Saale - the curse travelling on, as it had once travelled north out of Italy in the father's blood."
     },
     {
       "kind": "scene",
@@ -322,7 +322,7 @@
       "at": "kreuzberg",
       "chapter": 2,
       "title": "A boy by the Saale",
-      "narration": "He grows up devout beside the Cistercian convent of Kreuzberg, where his grandmother is Abbess and his mother serves — a childhood of relics and visions, and a watchful, doomed tenderness folded all around him.",
+      "narration": "He grows up devout beside the Cistercian convent of Kreuzberg, where his grandmother is Abbess and his mother serves - a childhood of relics and visions, and a watchful, doomed tenderness folded all around him.",
       "day": 400
     },
     {
@@ -348,7 +348,7 @@
       "at": "konigswald",
       "chapter": 3,
       "title": "The elixir",
-      "narration": "One day, alone with the casket, he breaks the seal and drinks. The wine wakes every buried desire at once. His preaching turns wild, his vows loosen — and the Prior, alarmed, sends him off toward Rome to be rid of him.",
+      "narration": "One day, alone with the casket, he breaks the seal and drinks. The wine wakes every buried desire at once. His preaching turns wild, his vows loosen - and the Prior, alarmed, sends him off toward Rome to be rid of him.",
       "day": 1990
     },
     {
@@ -357,7 +357,7 @@
       "from": "konigswald",
       "to": "devils-abyss",
       "chapter": 4,
-      "narration": "Unchained and half his own master, Medardus climbs the road up into the Thuringian mountains — and comes, on a lonely by-way, to a precipice the country people call the Devil's Abyss."
+      "narration": "Unchained and half his own master, Medardus climbs the road up into the Thuringian mountains - and comes, on a lonely by-way, to a precipice the country people call the Devil's Abyss."
     },
     {
       "kind": "handoff",
@@ -365,7 +365,7 @@
       "at": "devils-abyss",
       "chapter": 4,
       "title": "The double",
-      "narration": "On the very lip of the chasm a man lies sleeping in an officer's cloak — and his sleeping face is Medardus's own, feature for feature. This is Count Victorin, and from here the two share one road and one face.",
+      "narration": "On the very lip of the chasm a man lies sleeping in an officer's cloak - and his sleeping face is Medardus's own, feature for feature. This is Count Victorin, and from here the two share one road and one face.",
       "day": 2104
     },
     {
@@ -374,7 +374,7 @@
       "at": "devils-abyss",
       "chapter": 4,
       "title": "The swap",
-      "narration": "Medardus starts, the sleeper wakes with a cry, and pitches over the edge into the gulf. Shaken, Medardus takes the dead man's name and the portefeuille of letters at his side — and walks down the far side of the mountain as Count Victorin.",
+      "narration": "Medardus starts, the sleeper wakes with a cry, and pitches over the edge into the gulf. Shaken, Medardus takes the dead man's name and the portefeuille of letters at his side - and walks down the far side of the mountain as Count Victorin.",
       "day": 2108
     },
     {
@@ -383,7 +383,7 @@
       "from": "devils-abyss",
       "to": "castle",
       "chapter": 5,
-      "narration": "Wearing another man's life, he comes down to the Baron's castle among the mountains, where — by some plot he only half-grasps — 'Count Victorin' is expected and welcomed in."
+      "narration": "Wearing another man's life, he comes down to the Baron's castle among the mountains, where - by some plot he only half-grasps - 'Count Victorin' is expected and welcomed in."
     },
     {
       "kind": "handoff",
@@ -391,7 +391,7 @@
       "at": "castle",
       "chapter": 5,
       "title": "Aurelie",
-      "narration": "In the castle is the Baron's ward, Aurelie — young, grave, unmistakably the living image of a saint from a picture that has haunted Medardus since childhood. His whole unchained hunger fixes on her at once.",
+      "narration": "In the castle is the Baron's ward, Aurelie - young, grave, unmistakably the living image of a saint from a picture that has haunted Medardus since childhood. His whole unchained hunger fixes on her at once.",
       "day": 2140
     },
     {
@@ -417,14 +417,14 @@
       "at": "residenz",
       "chapter": 6,
       "title": "Herr Leonard",
-      "narration": "At the little princely court Herr Leonard is a sensation — witty, elegant, unplaceable. For a while the elixir seems mastered, the monk buried. He lets himself believe he has walked out of his own story clean.",
+      "narration": "At the little princely court Herr Leonard is a sensation - witty, elegant, unplaceable. For a while the elixir seems mastered, the monk buried. He lets himself believe he has walked out of his own story clean.",
       "day": 2260
     },
     {
       "kind": "meanwhile",
       "character": "aurelie",
       "chapter": 6,
-      "narration": "Meanwhile, back at the ruined castle: Aurelie has not stayed. Orphaned by the murders and taken up by the Prince, she is already travelling to the same court — the one witness who has seen the monk's true face."
+      "narration": "Meanwhile, back at the ruined castle: Aurelie has not stayed. Orphaned by the murders and taken up by the Prince, she is already travelling to the same court - the one witness who has seen the monk's true face."
     },
     {
       "kind": "journey",
@@ -440,14 +440,14 @@
       "at": "residenz",
       "chapter": 6,
       "title": "Recognised",
-      "narration": "She arrives, and knows him instantly: not Herr Leonard, but the murderer of her brother. Medardus is seized and thrown into the court prison, and the wandering face is caught at last — or so it seems.",
+      "narration": "She arrives, and knows him instantly: not Herr Leonard, but the murderer of her brother. Medardus is seized and thrown into the court prison, and the wandering face is caught at last - or so it seems.",
       "day": 2285
     },
     {
       "kind": "meanwhile",
       "character": "victorin",
       "chapter": 6,
-      "narration": "Meanwhile — rewind to the Devil's Abyss. Victorin did not die. Broken and raving, the real count crawled out of the mountains as a mad monk, and has dogged Medardus's every mile since."
+      "narration": "Meanwhile - rewind to the Devil's Abyss. Victorin did not die. Broken and raving, the real count crawled out of the mountains as a mad monk, and has dogged Medardus's every mile since."
     },
     {
       "kind": "journey",
@@ -455,7 +455,7 @@
       "from": "devils-abyss",
       "to": "residenz",
       "chapter": 6,
-      "narration": "Now the law drags him, too, along the same roads, to the very same Residenz — one more identical face, converging on the court."
+      "narration": "Now the law drags him, too, along the same roads, to the very same Residenz - one more identical face, converging on the court."
     },
     {
       "kind": "scene",
@@ -463,7 +463,7 @@
       "at": "residenz",
       "chapter": 6,
       "title": "The double confesses",
-      "narration": "Hauled before the court, the madman bears the same face and the same cross-shaped scar, and raves out the castle murders as his own. The judges free Herr Leonard, and he is betrothed to Aurelie — saved, he thinks, and clean at last.",
+      "narration": "Hauled before the court, the madman bears the same face and the same cross-shaped scar, and raves out the castle murders as his own. The judges free Herr Leonard, and he is betrothed to Aurelie - saved, he thinks, and clean at last.",
       "day": 2310
     },
     {
@@ -472,7 +472,7 @@
       "at": "residenz",
       "chapter": 6,
       "title": "The wedding",
-      "narration": "They are to wed at the altar of St Rosalia, Aurelie robed as the saint. But on the wedding morning, the sight of his double dragged past to the scaffold snaps the old madness — he knifes his bride at the altar, and runs.",
+      "narration": "They are to wed at the altar of St Rosalia, Aurelie robed as the saint. But on the wedding morning, the sight of his double dragged past to the scaffold snaps the old madness - he knifes his bride at the altar, and runs.",
       "day": 2320
     },
     {
@@ -481,7 +481,7 @@
       "at": "residenz",
       "chapter": 6,
       "title": "The double on his back",
-      "narration": "Fleeing into the forest, he is leapt on by the mad double, who clamps to his shoulders — 'Ever I am with thee!' — and rides him, raving, for weeks, until a stranger bears the senseless monk away over the mountains.",
+      "narration": "Fleeing into the forest, he is leapt on by the mad double, who clamps to his shoulders - 'Ever I am with thee!' - and rides him, raving, for weeks, until a stranger bears the senseless monk away over the mountains.",
       "day": 2340
     },
     {
@@ -490,7 +490,7 @@
       "from": "residenz",
       "to": "rome",
       "chapter": 7,
-      "narration": "Carried senseless over the Alps, Medardus wakes three months later, cured, in an Italian convent of the brethren of charity — and goes on, a true penitent now, down the peninsula to Rome, toward the buried source of the curse."
+      "narration": "Carried senseless over the Alps, Medardus wakes three months later, cured, in an Italian convent of the brethren of charity - and goes on, a true penitent now, down the peninsula to Rome, toward the buried source of the curse."
     },
     {
       "kind": "scene",
@@ -498,7 +498,7 @@
       "at": "rome",
       "chapter": 7,
       "title": "Penance",
-      "narration": "In a Roman Capuchin house he scourges himself half to death, is so fervent the brothers half take him for a living saint, and — brought before the Pope himself — fights down the elixir one last raging time.",
+      "narration": "In a Roman Capuchin house he scourges himself half to death, is so fervent the brothers half take him for a living saint, and - brought before the Pope himself - fights down the elixir one last raging time.",
       "day": 2600
     },
     {
@@ -516,7 +516,7 @@
       "from": "rome",
       "to": "konigswald",
       "chapter": 8,
-      "narration": "Purged and knowing at last who he is, Medardus walks the whole weary length of the road back north — over the Alps, down to the Saale — to end where he began, at his own monastery of Königswald."
+      "narration": "Purged and knowing at last who he is, Medardus walks the whole weary length of the road back north - over the Alps, down to the Saale - to end where he began, at his own monastery of Königswald."
     },
     {
       "kind": "journey",
@@ -524,13 +524,13 @@
       "from": "residenz",
       "to": "konigswald",
       "chapter": 8,
-      "narration": "Aurelie survived his knife. Now she too travels north to Königswald, to take the veil as Sister Rosalia — carrying, in that saint's name, the very curse the family has never once escaped."
+      "narration": "Aurelie survived his knife. Now she too travels north to Königswald, to take the veil as Sister Rosalia - carrying, in that saint's name, the very curse the family has never once escaped."
     },
     {
       "kind": "meanwhile",
       "character": "victorin",
       "chapter": 8,
-      "narration": "Meanwhile, one step behind as ever: rewind to the Residenz gates. The mad count is loose again and on the northern road himself — the shadow that has never once let Medardus walk alone."
+      "narration": "Meanwhile, one step behind as ever: rewind to the Residenz gates. The mad count is loose again and on the northern road himself - the shadow that has never once let Medardus walk alone."
     },
     {
       "kind": "journey",
@@ -538,7 +538,7 @@
       "from": "residenz",
       "to": "konigswald",
       "chapter": 8,
-      "narration": "And the double follows, as the double always does — the mad count taking the same road north to the same cloister, to do at last, with his own hand, the murder Medardus's lust had only dreamed."
+      "narration": "And the double follows, as the double always does - the mad count taking the same road north to the same cloister, to do at last, with his own hand, the murder Medardus's lust had only dreamed."
     },
     {
       "kind": "scene",
@@ -546,7 +546,7 @@
       "at": "konigswald",
       "chapter": 8,
       "title": "The veil, and the knife",
-      "narration": "At Rosalia's veiling all three threads meet on one spot of ground. As she kneels, Victorin bursts in raving, and drives the stiletto home — the deed and the weapon both Medardus's own, done by the face that is his.",
+      "narration": "At Rosalia's veiling all three threads meet on one spot of ground. As she kneels, Victorin bursts in raving, and drives the stiletto home - the deed and the weapon both Medardus's own, done by the face that is his.",
       "day": 2900
     },
     {
@@ -555,7 +555,7 @@
       "at": "konigswald",
       "chapter": 8,
       "title": "The curse spent",
-      "narration": "The double is taken and dies; Aurelie forgives Medardus and dies; and Medardus, sane and whole at last, sets down the whole confession you have been reading and quietly follows them — the curse, after generations, finally spent.",
+      "narration": "The double is taken and dies; Aurelie forgives Medardus and dies; and Medardus, sane and whole at last, sets down the whole confession you have been reading and quietly follows them - the curse, after generations, finally spent.",
       "day": 2930
     }
   ]

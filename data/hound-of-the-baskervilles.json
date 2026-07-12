@@ -9,7 +9,7 @@
     "calendar": true,
     "span": "a few weeks of one autumn (the year is undated in the text; c.1889 by the usual reckoning)"
   },
-  "overture": "A curse, a moor and a hound: from Baker Street down to Dartmoor, Dr Watson guards the last of the Baskervilles while Sherlock Holmes watches, unseen, from the moor — and the trap closes on the edge of the great Grimpen Mire.",
+  "overture": "A curse, a moor and a hound: from Baker Street down to Dartmoor, Dr Watson guards the last of the Baskervilles while Sherlock Holmes watches, unseen, from the moor - and the trap closes on the edge of the great Grimpen Mire.",
   "sources": "Arthur Conan Doyle, The Hound of the Baskervilles (1902), Project Gutenberg #2852; the real Dartmoor anchors of Doyle's composite moor (Fox Tor Mire, Whiteworks, Grimspound, Princetown) and the Great Western route to Devon.",
   "regions": [
     {
@@ -125,7 +125,7 @@
       "id": "henry",
       "name": "Sir Henry Baskerville",
       "colour": "sienna",
-      "role": "The heir home from Canada to claim the Hall — and the quarry the Hound is set on.",
+      "role": "The heir home from Canada to claim the Hall - and the quarry the Hound is set on.",
       "start": {
         "location": "221b-baker-street",
         "chapter": 4
@@ -154,10 +154,10 @@
       ],
       "certainty": "real",
       "note": "Holmes's rooms in Marylebone; the case opens here.",
-      "story": "Where the case begins. Dr Mortimer lays before Holmes a walking-stick, an old manuscript of the Baskerville curse, and the fresh death of Sir Charles Baskerville on his own moor — beside the print of a gigantic hound.",
+      "story": "Where the case begins. Dr Mortimer lays before Holmes a walking-stick, an old manuscript of the Baskerville curse, and the fresh death of Sir Charles Baskerville on his own moor - beside the print of a gigantic hound.",
       "quote": "Mr. Holmes, they were the footprints of a gigantic hound!",
       "quoteRef": "Ch. 2",
-      "imageBlank": "No honest period view of Baker Street surfaced — only modern tube photographs and unrelated portraits; the London rooms keep a logged blank."
+      "imageBlank": "No honest period view of Baker Street surfaced - only modern tube photographs and unrelated portraits; the London rooms keep a logged blank."
     },
     {
       "id": "devon-wayside-station",
@@ -169,11 +169,11 @@
         50.4917
       ],
       "certainty": "conjectured",
-      "note": "Unnamed in the text; placed at Yelverton, the Great Western junction where the Princetown branch left the main line — the logical alighting point for a Hall set near Princetown. The moor's composite geography means no single station is certain.",
+      "note": "Unnamed in the text; placed at Yelverton, the Great Western junction where the Princetown branch left the main line - the logical alighting point for a Hall set near Princetown. The moor's composite geography means no single station is certain.",
       "story": "Where Watson and Sir Henry leave the train and the soft country ends. A wagonette waits to carry them up onto the moor, and armed soldiers watch the roads for an escaped convict.",
       "image": {
         "file": "assets/images/hob-moor.jpg",
-        "caption": "Mist lifting off the open moor — the brooding Dartmoor the train delivers them to. Edmund Morison Wimperis, 1896.",
+        "caption": "Mist lifting off the open moor - the brooding Dartmoor the train delivers them to. Edmund Morison Wimperis, 1896.",
         "credit": "Edmund Morison Wimperis, 1896 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -194,7 +194,7 @@
       "quoteRef": "Ch. 2",
       "image": {
         "file": "assets/images/hob-hall.jpg",
-        "caption": "A gaunt gothic manor of the period, standing for Doyle's invented Baskerville Hall — Newlands Manor, photographed by Francis Frith, c.1900.",
+        "caption": "A gaunt gothic manor of the period, standing for Doyle's invented Baskerville Hall - Newlands Manor, photographed by Francis Frith, c.1900.",
         "credit": "Francis Frith, c.1900 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -209,11 +209,11 @@
         50.54
       ],
       "certainty": "conjectured",
-      "note": "Doyle's fictional moor hamlet — Mortimer's practice, the post office, the telegraph; the name echoes real Grimspound. Placed on the moor a little north of the mire.",
-      "story": "The scatter of moor cottages that serves the Hall — the doctor's house, the little post office through which a crucial telegram is traced, and the folk who know the moor and fear it.",
+      "note": "Doyle's fictional moor hamlet - Mortimer's practice, the post office, the telegraph; the name echoes real Grimspound. Placed on the moor a little north of the mire.",
+      "story": "The scatter of moor cottages that serves the Hall - the doctor's house, the little post office through which a crucial telegram is traced, and the folk who know the moor and fear it.",
       "image": {
         "file": "assets/images/hob-grimpen.jpg",
-        "caption": "The moor near Princetown at dusk — the kind of country the scattered hamlet of Grimpen sits in.",
+        "caption": "The moor near Princetown at dusk - the kind of country the scattered hamlet of Grimpen sits in.",
         "credit": "Postcard, c.1903 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -228,8 +228,8 @@
         50.5258
       ],
       "certainty": "conjectured",
-      "note": "Stapleton's house 'on the very edge' of the mire; the usual real-world seed is Whiteworks, the ruined tin-mining settlement on the northern lip of Fox Tor Mire — an isolated dwelling against the bog.",
-      "story": "The naturalist Stapleton's lonely house against the mire — and the trap at the centre of the plot. From here the Hound is loosed; here Sir Henry is asked to dine and sent home alone across the dark moor.",
+      "note": "Stapleton's house 'on the very edge' of the mire; the usual real-world seed is Whiteworks, the ruined tin-mining settlement on the northern lip of Fox Tor Mire - an isolated dwelling against the bog.",
+      "story": "The naturalist Stapleton's lonely house against the mire - and the trap at the centre of the plot. From here the Hound is loosed; here Sir Henry is asked to dine and sent home alone across the dark moor.",
       "imageBlank": "Stapleton's house is Doyle's invention, a lonely dwelling on the mire's edge; no specific period view exists, so a logged blank."
     },
     {
@@ -242,13 +242,13 @@
         50.5145
       ],
       "certainty": "identified",
-      "note": "Universally identified with Fox Tor Mire (Foxtor Mires), the great blanket bog south of Princetown — the moor's most notorious mire and the obvious model for the bog that swallows pony and man.",
-      "story": "The deadly green bog that only Stapleton knows how to cross, its safe path marked by wands. It swallows the moor ponies whole — and, in the end, takes the murderer himself, and keeps him.",
+      "note": "Universally identified with Fox Tor Mire (Foxtor Mires), the great blanket bog south of Princetown - the moor's most notorious mire and the obvious model for the bog that swallows pony and man.",
+      "story": "The deadly green bog that only Stapleton knows how to cross, its safe path marked by wands. It swallows the moor ponies whole - and, in the end, takes the murderer himself, and keeps him.",
       "quote": "It's a bad place, the great Grimpen Mire.",
       "quoteRef": "Ch. 7",
       "image": {
         "file": "assets/images/hob-mire.jpg",
-        "caption": "A Dartmoor mire (Taw Marsh) — the treacherous bog country of the moor; Doyle's Grimpen Mire is Fox Tor Mire, a little to the south.",
+        "caption": "A Dartmoor mire (Taw Marsh) - the treacherous bog country of the moor; Doyle's Grimpen Mire is Fox Tor Mire, a little to the south.",
         "credit": "Postcard, c.1903 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -264,12 +264,12 @@
       ],
       "certainty": "identified",
       "note": "Holmes's hideout is a real Bronze-Age hut circle; Grimspound, the celebrated walled hut settlement on the eastern moor, is the standard exemplar and gives a defensible point.",
-      "story": "The grey Neolithic huts of the ancient moor-dwellers — and the secret residence of Sherlock Holmes, who never went back to London at all, but watched the whole affair unseen from the heart of the moor.",
-      "quote": "It is murder, Watson—refined, cold-blooded, deliberate murder.",
+      "story": "The grey Neolithic huts of the ancient moor-dwellers - and the secret residence of Sherlock Holmes, who never went back to London at all, but watched the whole affair unseen from the heart of the moor.",
+      "quote": "It is murder, Watson-refined, cold-blooded, deliberate murder.",
       "quoteRef": "Ch. 11",
       "image": {
         "file": "assets/images/hob-grimspound.jpg",
-        "caption": "The Bronze-Age hut circles at Grimspound — the real 'stone huts' of the moor that Holmes's hideout is drawn from.",
+        "caption": "The Bronze-Age hut circles at Grimspound - the real 'stone huts' of the moor that Holmes's hideout is drawn from.",
         "credit": "From S. Baring-Gould, 'A Book of Dartmoor', 1907 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -285,7 +285,7 @@
       ],
       "certainty": "conjectured",
       "note": "Doyle's fictional market town where Laura Lyons lives, a drive off the moor; near-universally linked to Bovey Tracey on the moor's eastern edge (the shared '-Tracey', the right distance and character).",
-      "story": "The little town off the moor where Laura Lyons lives — the woman who was lured into writing to Sir Charles on the night he died, and whose story unlocks the plot.",
+      "story": "The little town off the moor where Laura Lyons lives - the woman who was lured into writing to Sir Charles on the night he died, and whose story unlocks the plot.",
       "imageBlank": "Doyle's fictional market town, off the moor; no honest period view came to hand, so a logged blank."
     },
     {
@@ -299,10 +299,10 @@
       ],
       "certainty": "real",
       "note": "The real convict prison (HMP Dartmoor) at Princetown, from which the murderer Selden has escaped; its lights and the warders' searches run through the plot.",
-      "story": "The great prison on the moor. From it the murderer Selden has escaped, and is hiding among the tors — a second hunted thing on the moor, and the cause of a death mistaken for another.",
+      "story": "The great prison on the moor. From it the murderer Selden has escaped, and is hiding among the tors - a second hunted thing on the moor, and the cause of a death mistaken for another.",
       "image": {
         "file": "assets/images/hob-prison.jpg",
-        "caption": "The gate of Dartmoor Prison at Princetown, c.1900, with a convict work-gang — the prison the murderer Selden has escaped from.",
+        "caption": "The gate of Dartmoor Prison at Princetown, c.1900, with a convict work-gang - the prison the murderer Selden has escaped from.",
         "credit": "Postcard, c.1900 · Wikimedia Commons · public domain"
       }
     },
@@ -317,10 +317,10 @@
       ],
       "certainty": "identified",
       "note": "Doyle names Black Tor as the tor where the watching figure is silhouetted against the moon; there are several real Black Tors on Dartmoor, this one near Princetown a defensible representative.",
-      "story": "The granite tor where, one moonlit night, Watson sees a tall, thin figure standing motionless against the sky — the mysterious man on the moor, who is not the enemy at all.",
+      "story": "The granite tor where, one moonlit night, Watson sees a tall, thin figure standing motionless against the sky - the mysterious man on the moor, who is not the enemy at all.",
       "image": {
         "file": "assets/images/hob-tor.jpg",
-        "caption": "A weathered granite tor of the moor (Vixen Tor) — the kind of tor Watson sees the mysterious figure stand upon.",
+        "caption": "A weathered granite tor of the moor (Vixen Tor) - the kind of tor Watson sees the mysterious figure stand upon.",
         "credit": "From S. Baring-Gould, 'A Book of Dartmoor', 1900 · Wikimedia Commons · public domain",
         "indicative": true
       }
@@ -466,7 +466,7 @@
           50.6
         ]
       ],
-      "note": "Tracking the mysterious man of the moor to his hut, Watson finds not the enemy — but Holmes himself.",
+      "note": "Tracking the mysterious man of the moor to his hut, Watson finds not the enemy - but Holmes himself.",
       "routeCertainty": "illustrative",
       "routeNote": "Back across the moor to the hut circles.",
       "routeSource": "The Hound of the Baskervilles, ch. 11."
@@ -485,7 +485,7 @@
           50.529
         ]
       ],
-      "note": "That night Sir Henry dines at Merripit House and sets off alone across the dark moor toward home — the bait in Holmes's trap.",
+      "note": "That night Sir Henry dines at Merripit House and sets off alone across the dark moor toward home - the bait in Holmes's trap.",
       "routeCertainty": "illustrative",
       "routeSource": "The Hound of the Baskervilles, ch. 14."
     },
@@ -536,7 +536,7 @@
       "at": "221b-baker-street",
       "chapter": 2,
       "title": "The footprints of a gigantic hound",
-      "narration": "The case opens at 221B Baker Street. Dr Mortimer brings Holmes an old manuscript — the curse of a spectral hound that has hunted the Baskervilles since one wicked Hugo was struck down on the moor — and the fresh news that Sir Charles has been found dead there, beside the print of a gigantic hound.",
+      "narration": "The case opens at 221B Baker Street. Dr Mortimer brings Holmes an old manuscript - the curse of a spectral hound that has hunted the Baskervilles since one wicked Hugo was struck down on the moor - and the fresh news that Sir Charles has been found dead there, beside the print of a gigantic hound.",
       "day": 0
     },
     {
@@ -544,7 +544,7 @@
       "character": "henry",
       "at": "221b-baker-street",
       "chapter": 4,
-      "narration": "Sir Henry Baskerville, the last of the line, arrives from Canada to claim the Hall. Already he is being watched in London — shadowed by a stranger, and warned in an anonymous note to keep away from the moor.",
+      "narration": "Sir Henry Baskerville, the last of the line, arrives from Canada to claim the Hall. Already he is being watched in London - shadowed by a stranger, and warned in an anonymous note to keep away from the moor.",
       "day": 2
     },
     {
@@ -567,7 +567,7 @@
       "from": "devon-wayside-station",
       "to": "baskerville-hall",
       "chapter": 6,
-      "narration": "A wagonette carries them up onto the open moor to Baskerville Hall — a grim grey pile ringed by the brooding waste, the lights of Princetown gaol winking far off across it."
+      "narration": "A wagonette carries them up onto the open moor to Baskerville Hall - a grim grey pile ringed by the brooding waste, the lights of Princetown gaol winking far off across it."
     },
     {
       "kind": "scene",
@@ -584,7 +584,7 @@
       "at": "baskerville-hall",
       "chapter": 7,
       "title": "The naturalist Stapleton",
-      "narration": "The naturalist Stapleton, of Merripit House, calls at the Hall and befriends Watson — and warns him off the great Grimpen Mire, the green, treacherous bog nearby that swallows moor-pony and man alike, crossable only by a secret path he alone seems to know.",
+      "narration": "The naturalist Stapleton, of Merripit House, calls at the Hall and befriends Watson - and warns him off the great Grimpen Mire, the green, treacherous bog nearby that swallows moor-pony and man alike, crossable only by a secret path he alone seems to know.",
       "day": 6
     },
     {
@@ -601,7 +601,7 @@
       "from": "221b-baker-street",
       "to": "neolithic-stone-huts",
       "chapter": 6,
-      "narration": "He has slipped secretly down to Dartmoor and taken up residence in one of the ancient stone huts on the moor, watching the whole affair unseen — the mysterious second figure Watson keeps glimpsing against the sky."
+      "narration": "He has slipped secretly down to Dartmoor and taken up residence in one of the ancient stone huts on the moor, watching the whole affair unseen - the mysterious second figure Watson keeps glimpsing against the sky."
     },
     {
       "kind": "handoff",
@@ -625,7 +625,7 @@
       "from": "coombe-tracey",
       "to": "neolithic-stone-huts",
       "chapter": 11,
-      "narration": "Then, tracking the mysterious man of the moor to his hut, Watson finds — not the enemy — but Holmes himself, who has solved it: Stapleton is a hidden Baskerville, and the Hound is his weapon."
+      "narration": "Then, tracking the mysterious man of the moor to his hut, Watson finds - not the enemy - but Holmes himself, who has solved it: Stapleton is a hidden Baskerville, and the Hound is his weapon."
     },
     {
       "kind": "scene",
@@ -633,7 +633,7 @@
       "at": "neolithic-stone-huts",
       "chapter": 11,
       "title": "'Refined, cold-blooded murder'",
-      "narration": "'It is murder, Watson—refined, cold-blooded, deliberate murder,' says Holmes from the ancient hut. Stapleton means to kill Sir Henry with a real hound, painted with phosphorus to seem a demon, and inherit the Baskerville estate. The trap is nearly ready.",
+      "narration": "'It is murder, Watson-refined, cold-blooded, deliberate murder,' says Holmes from the ancient hut. Stapleton means to kill Sir Henry with a real hound, painted with phosphorus to seem a demon, and inherit the Baskerville estate. The trap is nearly ready.",
       "day": 16.2
     },
     {
@@ -650,7 +650,7 @@
       "from": "baskerville-hall",
       "to": "merripit-house",
       "chapter": 14,
-      "narration": "He sets off into a rising fog, over the dark moor-path, exactly as Stapleton has planned — and does not know that other men are waiting."
+      "narration": "He sets off into a rising fog, over the dark moor-path, exactly as Stapleton has planned - and does not know that other men are waiting."
     },
     {
       "kind": "journey",
@@ -669,7 +669,7 @@
       "at": "merripit-house",
       "chapter": 14,
       "title": "The Hound",
-      "narration": "Out of the fog bursts the Hound — an enormous black creature, its muzzle and hackles flickering with cold fire. Holmes and Watson empty their revolvers into it and it falls dead. It was flesh and blood after all; Sir Henry is saved.",
+      "narration": "Out of the fog bursts the Hound - an enormous black creature, its muzzle and hackles flickering with cold fire. Holmes and Watson empty their revolvers into it and it falls dead. It was flesh and blood after all; Sir Henry is saved.",
       "day": 18.9
     },
     {
