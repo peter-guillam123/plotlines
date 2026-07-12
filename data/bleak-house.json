@@ -879,6 +879,26 @@
       "note": "Back to the cold state of the town house, her secret one step nearer the light."
     },
     {
+      "character": "lady-dedlock",
+      "from": "dedlock-town-house",
+      "to": "chesney-wold",
+      "chapter": 17,
+      "startDay": 160,
+      "days": 2,
+      "mode": "coach",
+      "note": "Bored to death in town, my Lady Dedlock removes with Sir Leicester to the family seat in Lincolnshire for the wet season."
+    },
+    {
+      "character": "lady-dedlock",
+      "from": "chesney-wold",
+      "to": "dedlock-town-house",
+      "chapter": 34,
+      "startDay": 340,
+      "days": 2,
+      "mode": "coach",
+      "note": "The Dedlocks close up Chesney Wold and go back to the town house."
+    },
+    {
       "character": "jo",
       "from": "tom-all-alones",
       "to": "burying-ground-nemo",
@@ -1065,7 +1085,8 @@
       "routeNote": "The Great North Road back south out of Lincolnshire.",
       "routeSource": "Cary's New Itinerary - the Great North Road, reversed.",
       "routeCertainty": "documented",
-      "note": "Home again to Bleak House as the summer ends."
+      "note": "Home again to Bleak House as the summer ends.",
+      "startDay": 300
     },
     {
       "character": "esther-summerson",
@@ -1544,6 +1565,15 @@
       "narration": "Richard cannot settle to anything. He tires of medicine, drifts up to London to try the law, and lets the suit fill the space where a career should be - always half-certain the great case will one day keep him without his lifting a hand."
     },
     {
+      "kind": "removal",
+      "character": "lady-dedlock",
+      "from": "dedlock-town-house",
+      "to": "chesney-wold",
+      "chapter": 17,
+      "title": "My Lady to Lincolnshire",
+      "narration": "My Lady Dedlock, perishing of boredom in town, removes with Sir Leicester to the great house at Chesney Wold - the seat whose Ghost’s Walk the next beats belong to."
+    },
+    {
       "kind": "journey",
       "character": "esther-summerson",
       "from": "bleak-house",
@@ -1558,7 +1588,8 @@
       "at": "chesney-wold",
       "chapter": 30,
       "title": "A likeness felt",
-      "narration": "The visit haunts her. There is something in Lady Dedlock's voice and look that stirs a memory Esther cannot place - a chord struck somewhere far back in her loveless childhood. Neither woman yet knows that they are mother and daughter."
+      "narration": "The visit haunts her. There is something in Lady Dedlock's voice and look that stirs a memory Esther cannot place - a chord struck somewhere far back in her loveless childhood. Neither woman yet knows that they are mother and daughter.",
+      "day": 220
     },
     {
       "kind": "journey",
@@ -1581,6 +1612,15 @@
       "chapter": 31,
       "title": "The fever walks north",
       "narration": "Jo trudges up the St Albans road and collapses, feverish, at the brick-kilns near Bleak House. Taken in and nursed, he carries the smallpox into the house - Esther catches it from him, and rises from her sickbed with her face scarred for life."
+    },
+    {
+      "kind": "removal",
+      "character": "lady-dedlock",
+      "from": "chesney-wold",
+      "to": "dedlock-town-house",
+      "chapter": 34,
+      "title": "Back to town",
+      "narration": "Restless as ever, my Lady closes up Chesney Wold and returns to the London town house, carrying with her the secret Mr Tulkinghorn has begun, patiently, to unpick."
     },
     {
       "kind": "journey",
