@@ -418,5 +418,17 @@
       "cloth": "#3a2529",
       "text": "#c2b9a6"
     }
+  },
+  {
+    "id": "persuasion",
+    "title": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "file": "data/persuasion.json",
+    "blurb": "Eight years after she let herself be persuaded to give up a penniless sailor, Anne Elliot watches him return from the war a rich man. As her spendthrift father lets the family seat to the very navy the Elliots look down on, Anne is carried from the cold country house to the sea at Lyme, and on to Bath, and a slow, aching second chance at the love she was talked out of.",
+    "spine": {
+      "cloth": "#3f5560",
+      "text": "#dfd2b4"
+    }
   }
 ]

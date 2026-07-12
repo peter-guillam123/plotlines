@@ -173,5 +173,10 @@
     "distanceKm": 3135,
     "spanDays": 14,
     "spanLabel": "a fortnight"
+  },
+  "persuasion": {
+    "distanceKm": 404,
+    "spanDays": 2920,
+    "spanLabel": "eight years"
   }
 }

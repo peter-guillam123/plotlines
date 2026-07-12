@@ -60,6 +60,7 @@ export const SPANS = {
   'mrs-dalloway': [1, 'one day'],
   'great-gatsby': [100, 'one summer'],
   'crime-and-punishment': [14, 'a fortnight'],
+  'persuasion': [2920, 'eight years'],
 };
 
 const R = 6371; // km

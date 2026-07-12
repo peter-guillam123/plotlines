@@ -1,0 +1,959 @@
+{
+  "title": "Persuasion",
+  "author": "Jane Austen",
+  "year": 1817,
+  "gutenbergId": 105,
+  "overture": "Eight years after she was persuaded to give up a penniless sailor, Anne Elliot watches him return from the war a rich man - and follows the current that is carrying her whole world from the failing country estate, through the sea at Lyme, to Bath, and a second chance at the love she was talked out of.",
+  "mapHome": {
+    "bounds": [
+      [
+        -3.05,
+        50.68
+      ],
+      [
+        -2.28,
+        51.44
+      ]
+    ]
+  },
+  "timeline": {
+    "epoch": null,
+    "calendar": false,
+    "span": "eight years",
+    "duration": "eight years",
+    "unit": "year"
+  },
+  "sources": [
+    "Kellynch and Uppercross are fictional; sited by Austen’s stated distances (3 miles Kellynch-Uppercross, 17 to Lyme, 50 to Bath) and anchored to the scholar-favoured models Barrington Court and Hinton St George.",
+    "Lyme Regis (the Cobb) and Bath (Camden Place, the Pump Room, Milsom Street, the White Hart, the gravel walk, Westgate Buildings) are real and street-precise; Austen knew both first-hand.",
+    "The Bath road follows the Fosse Way (Crewkerne-Ilchester-Shepton Mallet), matching Austen’s “fifty miles”.",
+    "Sources: the \"Between Worlds\" Kellynch siting; the Jane Austen Gazetteer’s Bath maps; the Lyme Regis Cobb / \"Granny’s Teeth\" scholarship."
+  ],
+  "regions": [
+    {
+      "id": "the-country",
+      "name": "The country"
+    },
+    {
+      "id": "the-sea",
+      "name": "The sea"
+    },
+    {
+      "id": "bath",
+      "name": "Bath"
+    }
+  ],
+  "locations": [
+    {
+      "id": "kellynch-hall",
+      "region": "the-country",
+      "name": "Barrington Court, near Crewkerne, Somerset (the scholar-favoured model)",
+      "novelName": "Kellynch Hall",
+      "coords": [
+        -2.8686,
+        50.9548
+      ],
+      "certainty": "conjectured",
+      "note": "Fictional Elliot seat, best-guess sited on Barrington Court within Austen’s stated distances (3 miles to Uppercross, 17 to Lyme, 50 to Bath); the name and exact spot are invented.",
+      "story": "The Elliot family seat, and the vanity that beggars it: Sir Walter Elliot, too proud and too extravagant to live within his rank, must let the great house to strangers and retreat to cheaper Bath. Here too, eight years before, Anne loved and gave up Frederick Wentworth. The old landed order, quietly failing.",
+      "imageBlank": "Kellynch Hall is fictional (best-guessed at Barrington Court); no honest picture can claim to be the Elliot seat."
+    },
+    {
+      "id": "uppercross",
+      "region": "the-country",
+      "name": "Hinton St George, Somerset (the model); three miles from Kellynch",
+      "novelName": "Uppercross",
+      "coords": [
+        -2.836,
+        50.906
+      ],
+      "certainty": "conjectured",
+      "note": "Fictional Musgrove village, three miles from Kellynch and seventeen from Lyme; anchored to Hinton St George. Holds both the Cottage (Mary and Charles) and the Great House (the elder Musgroves).",
+      "story": "The warm, noisy, unbookish Musgrove world where Anne is sent to be useful - to nurse her sister Mary’s complaints and watch Captain Wentworth court the two lively Musgrove girls, Henrietta and Louisa, as if Anne were already old and finished at seven-and-twenty.",
+      "imageBlank": "Uppercross is a fictional village; nothing specific to photograph honestly."
+    },
+    {
+      "id": "winthrop",
+      "region": "the-country",
+      "name": "the Hayters’ farm, near Uppercross",
+      "novelName": "Winthrop",
+      "coords": [
+        -2.808,
+        50.898
+      ],
+      "certainty": "conjectured",
+      "note": "The Hayters’ farm, “two miles” from Uppercross over a hill; no real-house consensus, placed on the described walk east of the village.",
+      "story": "The plain down-a-valley farm of the Hayter cousins, reached by the long autumn nutting-walk. In the hedgerow above it Anne overhears Wentworth praising Louisa’s firmness of mind - a speech that sounds, painfully, like a reproach of Anne’s own long-ago yielding.",
+      "imageBlank": "Winthrop is a fictional farm; nothing specific to photograph."
+    },
+    {
+      "id": "lyme-cobb",
+      "region": "the-sea",
+      "name": "the Cobb, Lyme Regis, Dorset",
+      "novelName": "the Cobb",
+      "coords": [
+        -2.936,
+        50.7186
+      ],
+      "certainty": "real",
+      "note": "The stone harbour breakwater; the fall marker sits at the seaward high wall of the Lower Cobb (the famous “Granny’s Teeth” steps were built after 1816, so are not the spot).",
+      "story": "The great curving sea-wall where the whole book turns. Headstrong Louisa Musgrove, in high spirits, insists on being “jumped down” the steep steps, misjudges it, and is taken up senseless on the pavement. In the panic it is quiet Anne who keeps her head - and Wentworth, watching, begins to understand what he threw away.",
+      "image": {
+        "file": "assets/images/persuasion-lyme-cobb.jpg",
+        "caption": "Lyme Regis and its harbour, the Cobb and its shipping across the bay; W. B. Cooke’s 1814 line engraving after J. M. W. Turner - exactly Anne Elliot’s day.",
+        "credit": "Library of Congress · Cooke after Turner, 1814 · LCCN 2005696464 · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "lyme-seafront",
+      "region": "the-sea",
+      "name": "Marine Parade, Lyme Regis",
+      "novelName": "the Harvilles’ lodgings",
+      "coords": [
+        -2.9345,
+        50.7205
+      ],
+      "certainty": "real",
+      "note": "The Harvilles’ small house “close to the sea” by the foot of the Cobb; traditionally the seafront cottage on Marine Parade.",
+      "story": "The snug, thrifty seaside home of Captain Harville - a wounded officer making a warm life on little money, the navy’s domestic virtue set against the Elliots’ cold splendour. Here grieving Captain Benwick reads his poetry, and here Louisa recovers - and, in the end, quietly attaches herself to Benwick, setting Wentworth free.",
+      "image": {
+        "file": "assets/images/persuasion-lyme-seafront.jpg",
+        "caption": "Lyme Regis from the shore in a squall, the town and its sea wall; Thomas Jeavons’s 1836 engraving after Turner.",
+        "credit": "Yale Center for British Art · Jeavons after Turner, 1836 · B1977.14.13406 · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "plymouth",
+      "region": "the-sea",
+      "name": "Plymouth, Devon (the naval port)",
+      "novelName": "Plymouth",
+      "coords": [
+        -4.1427,
+        50.3715
+      ],
+      "certainty": "real",
+      "note": "The West-Country naval station; the concrete anchor for the Crofts arriving “from the sea”. Their exact prior port is unnamed, so the leg from here is illustrative.",
+      "story": "The naval world the Crofts come from - Admiral Croft fresh off years afloat in the war just ended. That the sailors’ first home ashore is Kellynch Hall itself, rented from the ruined baronet, is the whole social argument of the book in a single move: the sea taking the land.",
+      "image": {
+        "file": "assets/images/persuasion-plymouth.jpg",
+        "caption": "Plymouth Sound crowded with the fleet, August 1815; John James Chalon’s 1816 painting - the naval world the Crofts came home from.",
+        "credit": "National Maritime Museum, Greenwich · John James Chalon, 1816 · BHC3227 · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "camden-place",
+      "region": "bath",
+      "name": "Camden Crescent, Bath",
+      "novelName": "Camden Place",
+      "coords": [
+        -2.3548,
+        51.3907
+      ],
+      "certainty": "real",
+      "note": "The Elliots’ “lofty, dignified” Bath house, high on the hill north-east of the centre; now Camden Crescent.",
+      "story": "The grand Bath address Sir Walter takes to keep up appearances he can no longer afford at home - perched high on the hill, all show and no comfort. Anne dreads it as an imprisonment; her father cares only that the rooms are large and the street fashionable.",
+      "image": {
+        "file": "assets/images/persuasion-camden-place.jpg",
+        "caption": "Bath seen from Camden Place, the terraces stepping down toward the Abbey; an 1841 engraving, a little later than Anne’s own day.",
+        "credit": "Samborne, “The Poetic Guide to Clifton and Bristol” (1841) · via Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "pump-room",
+      "region": "bath",
+      "name": "the Pump Room, Bath",
+      "novelName": "the Pump Room",
+      "coords": [
+        -2.3594,
+        51.3813
+      ],
+      "certainty": "real",
+      "note": "The social hub by the Abbey where fashionable Bath parades and takes the waters; stands in here for the concert rooms too.",
+      "story": "The great rooms by the Abbey where all Bath is seen and sees - where the Elliots display their recovered consequence, where the smooth, calculating Mr Elliot presses his suit on Anne, and where, at a concert, Wentworth’s plain jealousy tells her at last that he loves her still.",
+      "image": {
+        "file": "assets/images/persuasion-pump-room.jpg",
+        "caption": "The Pump Room, Bath, with company taking the waters; a coloured aquatint published 1804, exactly Anne Elliot’s period.",
+        "credit": "Rijksmuseum · aquatint “Bath: Pump-Room”, 1804 · RP-P-2015-26-1493 · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "milsom-street",
+      "region": "bath",
+      "name": "Milsom Street, Bath",
+      "novelName": "Milsom Street",
+      "coords": [
+        -2.362,
+        51.3847
+      ],
+      "certainty": "real",
+      "note": "The fashionable shopping street; the rainy meeting at Molland’s the confectioner is placed on it.",
+      "story": "The busy shopping street where Anne, sheltering from a shower in Molland’s, comes suddenly face to face with Wentworth, arrived in Bath at last - and the long, tense, hopeful courtship-in-public begins, watched by all the wrong people.",
+      "image": {
+        "file": "assets/images/persuasion-milsom-street.jpg",
+        "caption": "Milsom Street, Bath, the fashionable shopping street with promenaders and a carriage; Thomas Malton’s 1784 aquatint.",
+        "credit": "National Gallery of Art (open access) · Thomas Malton the Younger, 1784 · NGA 76353 · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "white-hart",
+      "region": "bath",
+      "name": "the White Hart inn, Stall Street, Bath",
+      "novelName": "the White Hart",
+      "coords": [
+        -2.3601,
+        51.381
+      ],
+      "certainty": "real",
+      "note": "The coaching inn opposite the Pump Room where the Musgroves lodge; the climactic letter is written here (the inn was demolished in 1867).",
+      "story": "The inn where, as Anne argues to Captain Harville that women love longest “when all hope is gone”, Wentworth sits writing at the next table - and pours it all into a letter, then lays it before her and flees. “You pierce my soul. I am half agony, half hope.”",
+      "image": {
+        "file": "assets/images/persuasion-white-hart.jpg",
+        "caption": "The White Hart inn, Bath, coaches in its forecourt beneath the stag; John Charles Maggs’s coaching scene of the inn (demolished 1867).",
+        "credit": "Victoria Art Gallery, Bath (via Art UK) · John Charles Maggs · BATVG P 1984.41 · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "gravel-walk",
+      "region": "bath",
+      "name": "the Gravel Walk, Bath",
+      "novelName": "the gravel walk",
+      "coords": [
+        -2.366,
+        51.3853
+      ],
+      "certainty": "real",
+      "note": "The quiet paved path below the Royal Crescent and the Circus, between Queen Square and the Crescent, where the pair finally re-engage.",
+      "story": "The quiet gravelled walk, apart from the crowd at last, where Anne and Wentworth say everything eight years had left unsaid, and settle the second chance the world had all but taken from them. The happiest, most sensible walk in Bath.",
+      "image": {
+        "file": "assets/images/persuasion-gravel-walk.jpg",
+        "caption": "The Royal Crescent, Bath; the gravel walk runs along the foot of its lawn, where Anne and Wentworth are reconciled. Thomas Malton’s 1780 aquatint.",
+        "credit": "Thomas Malton the Younger, 1780 · via Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "westgate-buildings",
+      "region": "bath",
+      "name": "Westgate Buildings, Bath",
+      "novelName": "Westgate Buildings",
+      "coords": [
+        -2.3618,
+        51.3803
+      ],
+      "certainty": "real",
+      "note": "The cheap lodging near the baths where the widowed, crippled Mrs Smith lives; the class counterpoint, low in the town, to Camden Place high on the hill.",
+      "story": "The poor lodging, low by the baths, of Anne’s old schoolfriend Mrs Smith - widowed, ill and penniless. Sir Walter is appalled that Anne would visit so mean an address; but it is here Anne learns the truth about Mr Elliot, a cold fortune-hunter behind the charm.",
+      "imageBlank": "Bath’s poor lower town by the baths is barely depicted in period prints; only modern photographs of Westgate Buildings exist, and a generic Georgian street would misrepresent Mrs Smith’s honest slum."
+    }
+  ],
+  "characters": [
+    {
+      "id": "anne",
+      "name": "Anne Elliot",
+      "colour": "madder",
+      "start": {
+        "location": "kellynch-hall",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "wentworth",
+      "name": "Frederick Wentworth",
+      "colour": "bottle",
+      "start": {
+        "location": "kellynch-hall",
+        "chapter": 5
+      }
+    },
+    {
+      "id": "crofts",
+      "name": "The Crofts",
+      "colour": "slate",
+      "start": {
+        "location": "plymouth",
+        "chapter": 3
+      }
+    },
+    {
+      "id": "sir-walter",
+      "name": "Sir Walter Elliot",
+      "colour": "aubergine",
+      "start": {
+        "location": "kellynch-hall",
+        "chapter": 2
+      }
+    },
+    {
+      "id": "louisa",
+      "name": "Louisa Musgrove",
+      "colour": "sienna",
+      "start": {
+        "location": "uppercross",
+        "chapter": 5
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "day": 0,
+      "when": "eight years before, at Kellynch"
+    },
+    {
+      "n": 2,
+      "day": 2900,
+      "when": "the Baronetage, and the debts"
+    },
+    {
+      "n": 3,
+      "day": 2910,
+      "when": "the estate let to the navy"
+    },
+    {
+      "n": 4,
+      "day": 2920,
+      "when": "the families part"
+    },
+    {
+      "n": 5,
+      "day": 2935,
+      "when": "Wentworth returns"
+    },
+    {
+      "n": 6,
+      "day": 2950,
+      "when": "the walk to Winthrop"
+    },
+    {
+      "n": 7,
+      "day": 2965,
+      "when": "the excursion to Lyme"
+    },
+    {
+      "n": 8,
+      "day": 2967,
+      "when": "the fall on the Cobb"
+    },
+    {
+      "n": 9,
+      "day": 2995,
+      "when": "to Bath"
+    },
+    {
+      "n": 10,
+      "day": 3010,
+      "when": "Bath: the meeting on Milsom Street"
+    },
+    {
+      "n": 11,
+      "day": 3018,
+      "when": "the concert"
+    },
+    {
+      "n": 12,
+      "day": 3024,
+      "when": "Mrs Smith’s warning"
+    },
+    {
+      "n": 13,
+      "day": 3030,
+      "when": "the White Hart, and the letter"
+    },
+    {
+      "n": 14,
+      "day": 3031,
+      "when": "the gravel walk"
+    }
+  ],
+  "movements": [
+    {
+      "character": "sir-walter",
+      "from": "kellynch-hall",
+      "to": "camden-place",
+      "chapter": 4,
+      "mode": "coach",
+      "days": 3,
+      "note": "Too vain to retrench at home, Sir Walter shuts up Kellynch and carries his eldest daughter Elizabeth off to a lofty rented house in Bath - keeping up the show of consequence on the cheap. “The last office of the four carriage-horses was to draw Sir Walter to Bath.”",
+      "via": [
+        {
+          "at": [
+            -2.7957,
+            50.8828
+          ],
+          "name": "Crewkerne",
+          "note": "the town the Musgroves’ chaises come from"
+        },
+        {
+          "at": [
+            -2.682,
+            51.002
+          ],
+          "name": "Ilchester"
+        },
+        {
+          "at": [
+            -2.546,
+            51.19
+          ],
+          "name": "Shepton Mallet"
+        }
+      ],
+      "routeCertainty": "documented",
+      "routeSource": "ch5: Sir Walter, Elizabeth and Mrs Clay drive to Camden Place, Bath; the Fosse Way coaching road, ~50 miles."
+    },
+    {
+      "character": "crofts",
+      "from": "plymouth",
+      "to": "kellynch-hall",
+      "chapter": 4,
+      "mode": "coach",
+      "days": 4,
+      "note": "And into the emptied seat move the tenants: Admiral Croft and his wife, fresh from years afloat in the war just ended, their fortune made at sea. The sailors take the baronet’s own house - the whole social turn of the book in one arrival.",
+      "via": [],
+      "startDay": 2920,
+      "routeCertainty": "illustrative",
+      "routeSource": "ch3-5: the Crofts take Kellynch at Michaelmas as the Elliots leave; they come off the sea (Plymouth stands in for the unnamed port)."
+    },
+    {
+      "character": "anne",
+      "from": "kellynch-hall",
+      "to": "uppercross",
+      "chapter": 4,
+      "mode": "coach",
+      "days": 1,
+      "note": "Anne, valued by nobody at home, is handed on to Uppercross three miles off, to be useful to the Musgroves - while her father and sister sweep away to Bath without a backward look at her.",
+      "via": [],
+      "startDay": 2924,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch5-6: Anne is set down at Uppercross Cottage."
+    },
+    {
+      "character": "wentworth",
+      "from": "kellynch-hall",
+      "to": "uppercross",
+      "chapter": 5,
+      "mode": "coach",
+      "days": 1,
+      "note": "Frederick Wentworth comes back to the country a made man - a captain, rich with prize-money, everything he was not when Anne was persuaded to refuse him. He settles among the Musgroves at Uppercross and lets himself be courted by their daughters, Anne pointedly forgotten.",
+      "via": [],
+      "startDay": 2937,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch7-8: Wentworth arrives via the Crofts and is much at Uppercross."
+    },
+    {
+      "character": [
+        "anne",
+        "wentworth",
+        "louisa"
+      ],
+      "from": "uppercross",
+      "to": "winthrop",
+      "chapter": 6,
+      "mode": "foot",
+      "days": 0.3,
+      "note": "A long autumn walk over the hills to the Hayters’ farm at Winthrop. Anne, walking a little apart, overhears Wentworth and Louisa in the hedgerow - his praise of a firm, decided mind, and his low view of anyone who is too easily persuaded. It lands on Anne like a judgement.",
+      "via": [],
+      "routeCertainty": "documented",
+      "routeSource": "ch10: the walk to Winthrop; Anne overhears Wentworth and Louisa."
+    },
+    {
+      "character": [
+        "anne",
+        "wentworth",
+        "louisa"
+      ],
+      "from": "winthrop",
+      "to": "uppercross",
+      "chapter": 6,
+      "mode": "foot",
+      "days": 0.3,
+      "note": "The walk home - Anne handed, at the last, into Admiral Croft’s gig for the final mile, a small kindness she feels keenly.",
+      "via": [],
+      "startDay": 2951,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch10: the party walks back; the Crofts give Anne a lift in the gig."
+    },
+    {
+      "character": [
+        "anne",
+        "wentworth",
+        "louisa"
+      ],
+      "from": "uppercross",
+      "to": "lyme-cobb",
+      "chapter": 7,
+      "mode": "coach",
+      "days": 1,
+      "note": "The whole party drives seventeen miles to the sea at Lyme - to see Wentworth’s navy friends, the Harvilles and grieving Captain Benwick, whose warm thrifty seaside life shows Anne everything her father’s world is not.",
+      "via": [],
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch11: the Lyme excursion, ~17 miles from Uppercross."
+    },
+    {
+      "character": [
+        "louisa",
+        "wentworth"
+      ],
+      "from": "lyme-cobb",
+      "to": "lyme-seafront",
+      "chapter": 8,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "The senseless Louisa is carried the little way to the Harvilles’ house by the sea, Wentworth stricken with guilt at having encouraged her wilfulness - “Oh God! that I had not given way to her at the fatal moment!” He stays on at Lyme through her slow recovery.",
+      "via": [],
+      "startDay": 2968,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch12: Louisa carried to the Harvilles’; Wentworth remains at Lyme."
+    },
+    {
+      "character": "anne",
+      "from": "lyme-cobb",
+      "to": "uppercross",
+      "chapter": 9,
+      "mode": "coach",
+      "days": 1,
+      "note": "After the disaster on the Cobb, Anne - who alone kept her head - is carried back to Uppercross with the shattered family, the excursion ended in horror.",
+      "via": [],
+      "startDay": 2985,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch12-13: the party returns to Uppercross."
+    },
+    {
+      "character": "anne",
+      "from": "uppercross",
+      "to": "kellynch-hall",
+      "chapter": 9,
+      "mode": "coach",
+      "days": 1,
+      "note": "Then back to the Kellynch neighbourhood and Lady Russell - the friend who, eight years ago, talked her out of her one chance of happiness, and is about to carry her off to Bath.",
+      "via": [],
+      "startDay": 2990,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch13: Anne rejoins Lady Russell near Kellynch."
+    },
+    {
+      "character": "anne",
+      "from": "kellynch-hall",
+      "to": "camden-place",
+      "chapter": 9,
+      "mode": "coach",
+      "days": 3,
+      "note": "And so Anne too is drawn to Bath at last, up the long course of streets to Camden Place - dreading the cold, showy house and the father who will barely notice she has come.",
+      "via": [
+        {
+          "at": [
+            -2.7957,
+            50.8828
+          ],
+          "name": "Crewkerne",
+          "note": "the town the Musgroves’ chaises come from"
+        },
+        {
+          "at": [
+            -2.682,
+            51.002
+          ],
+          "name": "Ilchester"
+        },
+        {
+          "at": [
+            -2.546,
+            51.19
+          ],
+          "name": "Shepton Mallet"
+        }
+      ],
+      "startDay": 2995,
+      "routeCertainty": "documented",
+      "routeSource": "ch14: Anne travels with Lady Russell to Bath, “to Camden Place.”"
+    },
+    {
+      "character": "wentworth",
+      "from": "lyme-seafront",
+      "to": "milsom-street",
+      "chapter": 10,
+      "mode": "coach",
+      "days": 3,
+      "note": "When Louisa, recovering, turns instead to Benwick, Wentworth is suddenly free - and after weeks apart at his brother’s in Shropshire, he follows Anne to Bath, and finds her on Milsom Street.",
+      "via": [],
+      "startDay": 3009,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch18-19: freed by Louisa’s engagement to Benwick, Wentworth comes to Bath (via Shropshire, narrated)."
+    },
+    {
+      "character": "anne",
+      "from": "camden-place",
+      "to": "milsom-street",
+      "chapter": 10,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "One rainy morning, sheltering in Molland’s on Milsom Street, Anne turns and sees him: Wentworth, come to Bath. Eight years and a whole country’s width, and here they are on a wet pavement, both unable to speak plainly.",
+      "via": [],
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch19: Anne meets Wentworth at Molland’s, Milsom Street."
+    },
+    {
+      "character": "crofts",
+      "from": "kellynch-hall",
+      "to": "pump-room",
+      "chapter": 11,
+      "mode": "coach",
+      "days": 3,
+      "note": "Later the Crofts too come to Bath for the winter - the Admiral strolling the streets with his easy good humour, stopping at print-shop windows, the happiest marriage in the book and the plainest rebuke to the Elliots’ cold grandeur.",
+      "via": [
+        {
+          "at": [
+            -2.7957,
+            50.8828
+          ],
+          "name": "Crewkerne",
+          "note": "the town the Musgroves’ chaises come from"
+        },
+        {
+          "at": [
+            -2.682,
+            51.002
+          ],
+          "name": "Ilchester"
+        },
+        {
+          "at": [
+            -2.546,
+            51.19
+          ],
+          "name": "Shepton Mallet"
+        }
+      ],
+      "startDay": 3015,
+      "routeCertainty": "documented",
+      "routeSource": "ch18: the Crofts winter in Bath."
+    },
+    {
+      "character": "wentworth",
+      "from": "milsom-street",
+      "to": "pump-room",
+      "chapter": 11,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "He is at the concert too, and cannot hide what he feels when Mr Elliot bends so attentively over Anne.",
+      "via": [],
+      "startDay": 3017.9,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch20: Wentworth at the concert."
+    },
+    {
+      "character": "anne",
+      "from": "milsom-street",
+      "to": "pump-room",
+      "chapter": 11,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "At a concert in the Rooms, Wentworth’s jealousy of the attentive Mr Elliot breaks through his reserve - “there is nothing worth my staying for” - and Anne understands, with a leap of hope, that he loves her still.",
+      "via": [],
+      "startDay": 3018,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch20: the concert; Wentworth’s jealousy."
+    },
+    {
+      "character": "anne",
+      "from": "pump-room",
+      "to": "westgate-buildings",
+      "chapter": 12,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "Down the hill to the poor lodging of her old friend Mrs Smith - the visit her father sneers at - where Anne learns what Mr Elliot really is: a cold, scheming fortune-hunter who ruined Mrs Smith’s husband. The false suitor falls away.",
+      "via": [],
+      "startDay": 3024,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch21: Mrs Smith exposes Mr Elliot at Westgate Buildings."
+    },
+    {
+      "character": "wentworth",
+      "from": "pump-room",
+      "to": "white-hart",
+      "chapter": 13,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "And at the White Hart, pen in hand, he hears Anne declare that a woman’s love outlasts all hope - and answers the only way he can.",
+      "via": [],
+      "startDay": 3029,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch23: Wentworth writes the letter at the White Hart."
+    },
+    {
+      "character": "anne",
+      "from": "westgate-buildings",
+      "to": "white-hart",
+      "chapter": 13,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "At the White Hart, among the Musgroves come to Bath, Anne falls into talk with Captain Harville about whether man or woman loves the longer - not knowing Wentworth, writing at the next table, can hear every word.",
+      "via": [],
+      "startDay": 3030,
+      "routeCertainty": "documented",
+      "routeSource": "ch23: the White Hart; the constancy debate and the letter."
+    },
+    {
+      "character": [
+        "anne",
+        "wentworth"
+      ],
+      "from": "white-hart",
+      "to": "gravel-walk",
+      "chapter": 14,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "His letter read, Anne finds him again in Union Street, and they turn together up the quiet gravel walk - and there, apart from the world at last, say everything eight years had left unsaid. The second chance, kept.",
+      "via": [],
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch23: the reconciliation walk, Union Street up the gravel walk."
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "chapter": 1,
+      "at": "kellynch-hall",
+      "character": "anne",
+      "title": "eight years before",
+      "narration": "Eight years ago at Kellynch, Anne Elliot, nineteen, fell deeply in love with a brilliant, penniless naval officer, Frederick Wentworth - and was persuaded to give him up by her trusted friend Lady Russell, backed by her father’s cold disdain. She has regretted it ever since.",
+      "quote": {
+        "text": "She had been forced into prudence in her youth, she learned romance as she grew older: the natural sequel of an unnatural beginning.",
+        "source": "Persuasion, ch4"
+      }
+    },
+    {
+      "kind": "handoff",
+      "chapter": 2,
+      "character": "anne",
+      "title": "eight years on",
+      "narration": "Eight years on. Anne is twenty-seven and reckoned past her bloom; her father, the vain and spendthrift baronet Sir Walter Elliot, has run Kellynch so deep into debt that the family must let the great house and retrench. The old landed order can no longer pay for itself.",
+      "day": 2900,
+      "quote": {
+        "text": "Vanity was the beginning and the end of Sir Walter Elliot’s character; vanity of person and of situation.",
+        "source": "Persuasion, ch1"
+      }
+    },
+    {
+      "kind": "scene",
+      "chapter": 3,
+      "at": "kellynch-hall",
+      "character": "anne",
+      "title": "the estate let to the navy",
+      "narration": "The tenants who take Kellynch are the navy - the Crofts, made rich at sea in the war just ended. Sir Walter sneers at a profession that raises men above their birth, but the debts decide it. Anne walks the grove, thinking of one sailor.",
+      "day": 2912,
+      "quote": {
+        "text": "A few months more, and _he_, perhaps, may be walking here.",
+        "source": "Persuasion, ch3"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 4,
+      "from": "kellynch-hall",
+      "to": "camden-place",
+      "character": "sir-walter",
+      "title": "the gentry to Bath",
+      "narration": "So the Elliots go: Sir Walter and Elizabeth sweep off to a lofty, showy house in Bath, keeping up appearances they can no longer afford at home. The seat is vacated."
+    },
+    {
+      "kind": "meanwhile",
+      "chapter": 4,
+      "character": "crofts",
+      "title": "the exchange",
+      "narration": "And here is the whole book in one moment: at the very hour the Elliots drive away to Bath, the navy arrives to take their place."
+    },
+    {
+      "kind": "journey",
+      "chapter": 4,
+      "from": "plymouth",
+      "to": "kellynch-hall",
+      "character": "crofts",
+      "title": "the navy moves in",
+      "narration": "And as they leave, the Crofts arrive off the sea to take their place - the sailors installed in the baronet’s own hall. Aristocracy out, meritocracy in: the map makes the book’s argument in one crossing."
+    },
+    {
+      "kind": "journey",
+      "chapter": 4,
+      "from": "kellynch-hall",
+      "to": "uppercross",
+      "character": "anne",
+      "title": "Anne to Uppercross",
+      "narration": "Anne, wanted by no one at Camden Place, is sent instead three miles to Uppercross, to nurse her hypochondriac sister Mary and be quietly useful among the warm, careless Musgroves."
+    },
+    {
+      "kind": "journey",
+      "chapter": 5,
+      "from": "kellynch-hall",
+      "to": "uppercross",
+      "character": "wentworth",
+      "title": "Wentworth returns",
+      "narration": "Then he returns. Captain Wentworth - Mrs Croft’s brother - comes back to the country rich and celebrated, everything he was not when Anne refused him. He is much at Uppercross, courting the lively Musgrove girls, and treats Anne with cold, distant civility. They can hardly be in a room together."
+    },
+    {
+      "kind": "journey",
+      "chapter": 6,
+      "from": "uppercross",
+      "to": "winthrop",
+      "character": [
+        "anne",
+        "wentworth",
+        "louisa"
+      ],
+      "title": "the walk to Winthrop",
+      "narration": "On a long autumn walk to Winthrop, Anne overhears Wentworth in the hedgerow, praising Louisa’s firm, decided character - and scorning the kind of mind that is too easily talked out of its own happiness. He means her, and it stings.",
+      "quote": {
+        "text": "My first wish for all whom I am interested in, is that they should be firm.",
+        "source": "Persuasion, ch10"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 7,
+      "from": "uppercross",
+      "to": "lyme-cobb",
+      "character": [
+        "anne",
+        "wentworth",
+        "louisa"
+      ],
+      "title": "the excursion to Lyme",
+      "narration": "The party drives seventeen miles to the sea at Lyme, to Wentworth’s navy friends - the warm, wounded Captain Harville and grieving Captain Benwick. On the Cobb a passing stranger admires Anne, and Wentworth, seeing it, looks at her as he has not looked in eight years."
+    },
+    {
+      "kind": "scene",
+      "chapter": 8,
+      "at": "lyme-cobb",
+      "character": "louisa",
+      "title": "the fall on the Cobb",
+      "narration": "On the steep steps of the Cobb, high-spirited Louisa insists on being “jumped down” by Wentworth once more - springs too soon - and is dashed senseless on the pavement below. In the terror that follows, everyone loses their head but Anne, who calmly directs the rescue. Wentworth sees, at last, whose steadiness he should have prized.",
+      "day": 2967,
+      "quote": {
+        "text": "she was too precipitate by half a second, she fell on the pavement on the Lower Cobb, and was taken up lifeless! There was no wound, no blood, no visible bruise; but her eyes were closed, she breathed not, her face was like death.",
+        "source": "Persuasion, ch12"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 8,
+      "from": "lyme-cobb",
+      "to": "lyme-seafront",
+      "character": [
+        "louisa",
+        "wentworth"
+      ],
+      "title": "carried to the Harvilles",
+      "narration": "Louisa is carried the little way to the Harvilles’ house by the sea, and Wentworth, sick with guilt at having encouraged her wildness, stays on at Lyme through her long recovery.",
+      "quote": {
+        "text": "Oh God! that I had not given way to her at the fatal moment!",
+        "source": "Persuasion, ch12"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 9,
+      "from": "kellynch-hall",
+      "to": "camden-place",
+      "character": "anne",
+      "title": "Anne to Bath",
+      "narration": "Anne is carried back to the Kellynch neighbourhood, and then, with Lady Russell, up the long streets to Camden Place - into the cold, glittering, tiresome Bath she has always dreaded."
+    },
+    {
+      "kind": "journey",
+      "chapter": 10,
+      "from": "camden-place",
+      "to": "milsom-street",
+      "character": "anne",
+      "title": "Milsom Street",
+      "narration": "And then, one rainy morning in Molland’s on Milsom Street, she turns and there he is: Wentworth, come to Bath at last - free, for Louisa has quietly attached herself to Benwick. Eight years fall away, and neither can say a word that matters."
+    },
+    {
+      "kind": "journey",
+      "chapter": 11,
+      "from": "milsom-street",
+      "to": "pump-room",
+      "character": "anne",
+      "title": "the concert",
+      "narration": "At a concert in the Rooms, the smooth Mr Elliot - the heir to Kellynch, and a suitor now for Anne - bends attentively over her; and Wentworth, unable to bear it, gets up and leaves. His jealousy tells Anne everything his reserve will not.",
+      "quote": {
+        "text": "“No!” he replied impressively, “there is nothing worth my staying for;” and he was gone directly.",
+        "source": "Persuasion, ch20"
+      }
+    },
+    {
+      "kind": "scene",
+      "chapter": 12,
+      "at": "westgate-buildings",
+      "character": "anne",
+      "title": "Mrs Smith’s warning",
+      "narration": "Down among the poor lodgings by the baths, Anne’s crippled, widowed old friend Mrs Smith tells her the truth about Mr Elliot: a cold, calculating fortune-hunter who ruined her own husband and now schemes over Kellynch. The false suitor is finished.",
+      "day": 3024.5,
+      "quote": {
+        "text": "Mr Elliot is a man without heart or conscience; a designing, wary, cold-blooded being, who thinks only of himself",
+        "source": "Persuasion, ch21"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 13,
+      "from": "westgate-buildings",
+      "to": "white-hart",
+      "character": "anne",
+      "title": "the White Hart",
+      "narration": "At the White Hart, Anne argues gently with Captain Harville: which sex loves the longer, and truest, when all hope is gone? She speaks for her own eight years without knowing it - and without knowing that Wentworth, writing at the next table, has heard every word.",
+      "quote": {
+        "text": "All the privilege I claim for my own sex (it is not a very enviable one; you need not covet it), is that of loving longest, when existence or when hope is gone.",
+        "source": "Persuasion, ch23"
+      }
+    },
+    {
+      "kind": "scene",
+      "chapter": 13,
+      "at": "white-hart",
+      "character": "wentworth",
+      "title": "the letter",
+      "narration": "He can bear it no longer. Wentworth folds a hurried, desperate letter, presses it before her with a look, and hurries out - leaving her his whole heart on the page.",
+      "day": 3030.5,
+      "quote": {
+        "text": "I can listen no longer in silence. I must speak to you by such means as are within my reach. You pierce my soul. I am half agony, half hope.",
+        "source": "Persuasion, ch23"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 14,
+      "from": "white-hart",
+      "to": "gravel-walk",
+      "character": [
+        "anne",
+        "wentworth"
+      ],
+      "title": "the gravel walk",
+      "narration": "She finds him in the street, and they turn up the quiet gravel walk together, apart from the world at last, and undo eight years of misunderstanding in half an hour. Anne, who was persuaded out of him once, will not be persuaded again.",
+      "quote": {
+        "text": "I have loved none but you. Unjust I may have been, weak and resentful I have been, but never inconstant.",
+        "source": "Persuasion, ch23"
+      }
+    },
+    {
+      "kind": "scene",
+      "chapter": 14,
+      "at": "gravel-walk",
+      "character": "anne",
+      "title": "a sailor’s wife",
+      "narration": "And so Anne Elliot, who gave up the navy once to please her rank, marries into it for good - trading the cold splendour of Kellynch for a warmer, braver world, and glorying, for all its anxieties, in being a sailor’s wife.",
+      "day": 3031.5,
+      "quote": {
+        "text": "She gloried in being a sailor’s wife, but she must pay the tax of quick alarm for belonging to that profession",
+        "source": "Persuasion, ch24"
+      }
+    }
+  ]
+}
