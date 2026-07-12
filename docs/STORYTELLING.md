@@ -159,6 +159,20 @@ A script is never shipped on the first draft:
      the route (endpoints or `via`);
    - **direction** — the from→to geography matches the narration;
    - **scene placement** — a `scene` beat's `at` matches its narration;
+   - **named presence** — *every character the narration places at the beat's
+     spot is actually there on that day, not only the beat's focus character.*
+     rushes checks where the focus character is; it cannot see that a **named
+     third party** the line puts at the scene is elsewhere on the map. This is
+     how Phillotson was once "married to Sue at Melchester" while his own marker
+     was still riding to Shaston. If the line says X marries / watches / meets /
+     dies beside someone at a place, X's marker must rest at (or be arriving at)
+     that place then. Fix by routing X there when the presence is real and
+     essential (a wedding, a duel, a deathbed), or by rewording so the line
+     stops claiming a presence the map denies (a mention, a thought, a "he
+     longed to reach her" is fine). `node tools/presence-check.mjs
+     [data/<slug>.json]` lists candidates — every beat that names a character
+     whose marker is elsewhere — but it can't tell a real assertion from a mere
+     mention, so judge each; most candidates are innocent.
    - **shared-vs-solo** — a movement's `character` array matches who the
      narration says travels together; a companion the narration names isn't
      dropped, and a solo flight isn't drawn as a shared line.
