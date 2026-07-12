@@ -162,6 +162,15 @@
     "spine": { "cloth": "#2e4034", "text": "#dcd2ac" }
   },
   {
+    "id": "moby-dick",
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "year": 1851,
+    "file": "data/moby-dick.json",
+    "blurb": "Ishmael ships aboard a Nantucket whaler under Captain Ahab, who has bent the whole three-year voyage to one purpose: to kill the white whale that took his leg. One man's obsession drawn across three oceans, with the whale itself a rumour until it surfaces at last on the equator — for the three-day chase that sinks them all, and leaves one man to tell it.",
+    "spine": { "cloth": "#1b2a35", "text": "#e8e0cf" }
+  },
+  {
     "id": "henry-iv",
     "title": "Henry IV, Parts I & II",
     "author": "William Shakespeare",
