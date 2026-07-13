@@ -442,5 +442,17 @@
       "cloth": "#4a5560",
       "text": "#d6c9ad"
     }
+  },
+  {
+    "id": "book-of-khalid",
+    "title": "The Book of Khalid",
+    "author": "Ameen Rihani",
+    "year": 1911,
+    "file": "data/book-of-khalid.json",
+    "blurb": "The first novel in English by an Arab writer, illustrated by Kahlil Gibran. A donkey-boy from the ruins of Baalbek and his poet friend sail steerage to New York, peddle false Holy-Land trinkets from a flooding cellar, and come home changed - Khalid to preach a gospel of East and West that gets him excommunicated, gaoled and stoned, before he walks into the Egyptian desert and is gone.",
+    "spine": {
+      "cloth": "#a9762f",
+      "text": "#f0e2c0"
+    }
   }
 ]

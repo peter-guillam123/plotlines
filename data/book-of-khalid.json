@@ -1,0 +1,976 @@
+{
+  "title": "The Book of Khalid",
+  "author": "Ameen Rihani",
+  "year": 1911,
+  "gutenbergId": 29257,
+  "overture": "A donkey-boy from the ruins of Baalbek and his poet friend sail steerage to New York, peddle false Holy-Land trinkets from a flooding cellar for five years, and come home transformed - Khalid to preach a gospel of East and West that gets him excommunicated, gaoled and stoned, before he walks into the Egyptian desert and is never seen again.",
+  "mapHome": {
+    "bounds": [[35.3, 33.3], [36.55, 34.4]]
+  },
+  "timeline": {
+    "epoch": null,
+    "calendar": false,
+    "span": "a dozen years",
+    "duration": "a dozen years",
+    "unit": "year"
+  },
+  "sources": [
+    "The dataset follows the text of Ameen Rihani's The Book of Khalid (1911) - the first novel in English by an Arab author, illustrated by Kahlil Gibran - public domain, Project Gutenberg #29257.",
+    "Baalbek, the Cedars, Beirut, Marseilles, Ellis Island, the Syrian colony, Damascus, Cairo and Helwan are all named or unmistakably identified in the text. The emigrant sea-route (Messageries Maritimes, Beirut-Marseille; then the Fabre Line, Marseille-New York) and the final flight (the DHP railway via Riak, the Austrian Lloyd steamer to Port-Said - both named in Book III ch. X - then the Egyptian State Railway to Helwan) are period-documented reconstructions.",
+    "New York's 'Little Syria' ran along Washington Street from Battery Place to Rector Street, c.1880s-1940s; the quarter was largely destroyed for the Brooklyn-Battery Tunnel approach (late 1940s) and later Financial-District development, leaving only St George's Syrian Catholic Church and two neighbours. The prison is identified as the Tombs from Rihani's 'Bridge of Sighs' (the skywalk from the Criminal Courts Building); 'the Wigwam' is Tammany Hall's 14th-Street building.",
+    "The historic OS overlay covers Great Britain only, so this book sits on the plain sepia base throughout. The base map is modern - not a period map of the Levant, New York or Egypt."
+  ],
+  "regions": [
+    { "id": "the-old-world", "name": "The old world: Mount Lebanon & Syria" },
+    { "id": "the-new-world", "name": "The new world: New York" },
+    { "id": "the-desert", "name": "The desert: Egypt" }
+  ],
+  "chapters": [
+    { "n": 1, "day": 0, "when": "a donkey-boy in Baalbek" },
+    { "n": 2, "day": 30, "when": "the call of the sundown" },
+    { "n": 3, "day": 60, "when": "the Via Dolorosa" },
+    { "n": 4, "day": 100, "when": "the wharf of enchantment" },
+    { "n": 5, "day": 150, "when": "five years in the cellar" },
+    { "n": 6, "day": 1950, "when": "the Wigwam and the gaol" },
+    { "n": 7, "day": 2050, "when": "the return east" },
+    { "n": 8, "day": 2250, "when": "Baalbek again: Najma" },
+    { "n": 9, "day": 2450, "when": "the ban and the prison" },
+    { "n": 10, "day": 2650, "when": "the cloister in the pines" },
+    { "n": 11, "day": 3050, "when": "the reformer of Damascus" },
+    { "n": 12, "day": 3200, "when": "the stoning and flight" },
+    { "n": 13, "day": 3350, "when": "the desert" }
+  ],
+  "locations": [
+    {
+      "id": "baalbek",
+      "region": "the-old-world",
+      "name": "Baalbek (the temple ruins), Lebanon",
+      "novelName": "the City of Baal",
+      "coords": [36.2039, 34.0069],
+      "certainty": "real",
+      "note": "Khalid's home town in the Beqaa valley, in the shadow of the great Roman acropolis - the temples of Jupiter and Bacchus. The text places it 'a day's march from either Damascus or Beirut'.",
+      "story": "Where Khalid grows up a runaway donkey-boy, sleeping in the portico of the ruined Temple of Zeus, trading up from donkey to mule to camel to a fine Arab mare, and loving his cousin Najma. He comes back here twice: once from America, to be excommunicated for wanting to marry her; and once at the very end, broken and stoned, on his way to the desert.",
+      "quote": "The City of Baal, or Baalbek, is between the desert and the deep sea.",
+      "quoteRef": "Book I, ch. II",
+      "image": {
+        "file": "assets/images/kh-baalbek.jpg",
+        "caption": "The great temple at Baalbek - the well-preserved one old prints label 'Jupiter', now usually called the Temple of Bacchus - among the ruins of the acropolis; photochrom, c.1890-1900.",
+        "credit": "Photoglob Zürich photochrom, c.1890-1900 · Library of Congress · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "cedars",
+      "region": "the-old-world",
+      "name": "the Cedars of Lebanon, above Bsharri",
+      "novelName": "the Cedars",
+      "coords": [36.0490, 34.2430],
+      "certainty": "real",
+      "note": "The ancient cedar grove ('the Cedars of God') high above Bsharri in north Lebanon; from the ridge of Dahr'ul-Qadhib above it, the two friends watch the sun set into the Mediterranean and resolve to follow it west.",
+      "story": "Following some tourists up the mountain-road to the Cedars, Khalid and Shakib stand on the heights and see the sun go down into the western sea - and take it, half in earnest, as a summons. It is the moment they decide to emigrate to America. The Cedars will be named again in New York harbour, as the one thing back home 'as famous' as the Statue of Liberty.",
+      "quote": "the sun called to us, and we obeyed.",
+      "quoteRef": "Book I, ch. II",
+      "image": {
+        "file": "assets/images/kh-cedars.jpg",
+        "caption": "The ancient cedar grove of Lebanon on the mountainside above Bsharri, below the bare ridge; photochrom, c.1890-1900.",
+        "credit": "Photoglob Zürich photochrom, c.1890-1900 · Library of Congress · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "beirut",
+      "region": "the-old-world",
+      "name": "the port of Beirut",
+      "novelName": "the port of Beirut",
+      "coords": [35.5150, 33.9020],
+      "certainty": "real",
+      "note": "The Ottoman Levant's great emigrant port. Having no passports, the two lads bribe the boatmen and officials and are rowed out to the steamer under cover of dark - the first of the three 'stations' of the emigrant's Via Dolorosa.",
+      "story": "The first station of the emigrant's road of sorrows. Smuggled aboard at night, the two Baalbekians watch the dusky peaks of the Lebanons recede, and sail 'on the high sea of hope and joy' for a New World they picture as paradise.",
+      "quote": "Shakib and Khalid are smuggled through the port of Beirut at night, and safely rowed to the steamer.",
+      "quoteRef": "Book I, ch. III",
+      "image": {
+        "file": "assets/images/kh-beirut.jpg",
+        "caption": "Beirut, the town sloping to its harbour, sailing ships and a steamer in the roadstead; photochrom, c.1890-1900.",
+        "credit": "Photoglob Zürich photochrom, c.1890-1900 · Library of Congress · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "marseilles",
+      "region": "the-new-world",
+      "name": "Marseilles",
+      "novelName": "Marseilles",
+      "coords": [5.3690, 43.2965],
+      "certainty": "real",
+      "note": "The second station of the Via Dolorosa. Emigrants off the Levant steamer were held here a fortnight or more and fleeced by 'sharpers' - stripped of their baggy trousers, sold shoddy suits, and talked into buying boxes of trinketry 'made in the Holy Land' to peddle in America.",
+      "story": "Where the emigrant's purse is opened, act by act, until it is empty: a suit of linsey-woolsey, a fortnight in a verminous hostelry, a fourth-class passage, and a box of false Holy-Land gewgaws to carry across the sea. Khalid's droll stolidity is shaken here for the first time, by the sheer greed of the place.",
+      "quote": "These brokers, like rapacious bats, hover around the emigrant and before his purse is opened for the fourth time, the trick is done.",
+      "quoteRef": "Book I, ch. III",
+      "image": {
+        "file": "assets/images/kh-marseilles.jpg",
+        "caption": "The Vieux-Port of Marseille, tall-masted ships along the quay - the emigrant's fortnight of being fleeced; photochrom, c.1890-1900.",
+        "credit": "Detroit Publishing Co. photochrom, c.1890-1900 · Library of Congress · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "ellis-island",
+      "region": "the-new-world",
+      "name": "Ellis Island, New York",
+      "novelName": "the Island of Ellis",
+      "coords": [-74.0397, 40.6995],
+      "certainty": "real",
+      "note": "The federal immigrant-inspection station (opened 1892) - Rihani's 'Juhannam of Ellis Island', the third and last station of the Via Dolorosa, where the doctor pries the eyes and the officer the purse.",
+      "story": "The last gate before paradise, and it nearly shuts on them: both fail inspection, their eyes granulated with trachoma from the crossing, their purses emptied at Marseilles. Shakib is ordered deported but slips ashore among the Italians; then, a few greenbacks to a hospital porter, and Khalid is spirited out too. They enter America as smugglers of themselves.",
+      "quote": "the Port of Beirut, the verminous hostelries of Marseilles, the Island of Ellis in New York, are the three stations thereof.",
+      "quoteRef": "Book I, ch. III",
+      "image": {
+        "file": "assets/images/kh-ellis-island.jpg",
+        "caption": "Immigrants crossing the gangway at Ellis Island, the main hall behind; photograph, 1902.",
+        "credit": "Photograph, 1902 · Library of Congress · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "syrian-quarter",
+      "region": "the-new-world",
+      "name": "Washington Street, the Syrian colony, Lower Manhattan",
+      "novelName": "the cellar in the Syrian Quarter",
+      "coords": [-74.0143, 40.7086],
+      "certainty": "identified",
+      "note": "New York's first Arabic-speaking neighbourhood - the 'Syrian colony' - ran up Washington Street from Battery Place, c.1880s-1940s; Rihani's own milieu, the home ground of the Gibran circle. The exact flooding cellar is fiction; the colony is documented. It was later erased - the core demolished for the Brooklyn-Battery Tunnel approach in the late 1940s, the rest by Financial-District development - leaving only St George's Syrian Catholic Church and two neighbours on Washington Street.",
+      "story": "Home for five years and more: a cellar 'as deep and dark and damp as could be found', shop in front and beds behind, that floods to the knees every winter. From here the two shoulder the peddling-box out to the pious country dames, who tear their coats for a sacred token from the Holy Land - and come back every Saturday to a dish of lentils and the lute. Khalid broods that the soul, like them, is kept in the sub-cellar while the high places stand empty.",
+      "quote": "We rented a cellar, as deep and dark and damp as could be found.",
+      "quoteRef": "Book I, ch. IV",
+      "image": {
+        "file": "assets/images/kh-gibran-cellar.png",
+        "caption": "Kahlil Gibran's drawing of a soul curled in a dark sphere while the sun rides outside - his own illustration for the New York chapters, 'the Cellar of the Soul'. The real Syrian colony on Washington Street was later erased, for the Brooklyn-Battery Tunnel approach and the downtown towers.",
+        "credit": "Kahlil Gibran, illustration from the first edition of The Book of Khalid (Dodd, Mead, 1911) · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "battery-park",
+      "region": "the-new-world",
+      "name": "Battery Park, Lower Manhattan",
+      "novelName": "Battery Park",
+      "coords": [-74.0170, 40.7033],
+      "certainty": "real",
+      "note": "The green at Manhattan's southern tip, a two-minute walk from the colony's cellars and facing the immigrant-ship anchorage - the book's open-air counterweight to the sunless cellar, where the peddlers take the air, watch the harbour and read on the benches.",
+      "story": "The 'wharf of enchantment', where Khalid first gazes on the New World: the skyscrapers 'tickling heaven's sides', the Brooklyn Bridge, the torch-bearing goddess. Shakib is dazzled; Khalid leans on the rail and thinks only of another harbour, the City of Love back home. He will come here to loaf for years, carving his name on a bench.",
+      "quote": "There is the Brooklyn Bridge, and here is the Statue of Liberty which people speak of, and which are as famous as the Cedars of Lebanon.",
+      "quoteRef": "Book I, ch. IV",
+      "image": {
+        "file": "assets/images/kh-battery-park.jpg",
+        "caption": "The port of New York from the Battery, looking south - Castle Garden in the green, the Statue of Liberty in the bay, the whole harbour of ships: the immigrant's first sight of the city; Currier & Ives lithograph, 1892.",
+        "credit": "Currier & Ives colour lithograph, 1892 · Library of Congress · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "tammany-wigwam",
+      "region": "the-new-world",
+      "name": "Tammany Hall (the Wigwam), 14th Street",
+      "novelName": "the Wigwam",
+      "coords": [-73.9880, 40.7343],
+      "certainty": "identified",
+      "note": "The Tammany Society's hall on East 14th Street by Union Square - the political machine of the day, which Rihani names by its own nickname, 'the Wigwam'. The 'great Boss' with the founding fathers on his wall is the Tammany chieftain.",
+      "story": "Khalid's brush with American democracy from the inside: taken up by the Boss as a Tammany agent to the Syrian newspapers, he sees the machine's gilded office - Washington and Jefferson on the wall beside Boss Tweed - and the votes bought below. It ends, as it must, in a falling-out.",
+      "quote": "On the walls are pictures of Washington, Jefferson, and the great Boss Tweed",
+      "quoteRef": "Book II, ch. I",
+      "image": {
+        "file": "assets/images/kh-tammany.jpg",
+        "caption": "Tammany Hall, the 'Wigwam' on East 14th Street, the sachem in its pediment above the '1868' date; photograph, 19th century.",
+        "credit": "Photograph, 19th century · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "the-tombs",
+      "region": "the-new-world",
+      "name": "The Tombs (the City Prison), Centre Street",
+      "novelName": "gaol",
+      "coords": [-74.0018, 40.7166],
+      "certainty": "identified",
+      "note": "Rihani never names the jail, but has Khalid walked 'across the Bridge of Sighs to gaol' - the enclosed skywalk that crossed Franklin Street from the Criminal Courts Building to the City Prison, 'the Tombs'. Blackwell's Island had no such bridge, so the phrase identifies the Tombs.",
+      "story": "The first of Khalid's two prisons - the New World's. Charged with misappropriating public funds after the break with the Boss, he is walked over the Bridge of Sighs for ten days and nights, to brood on Democracy behind bars. It rhymes, later, with the stone gaol of Damascus.",
+      "quote": "he is delivered unto an officer who escorts him across the Bridge of Sighs to gaol.",
+      "quoteRef": "Book II, ch. I",
+      "image": {
+        "file": "assets/images/kh-tombs.jpg",
+        "caption": "The Tombs, the Egyptian-Revival Halls of Justice on Centre Street - the New York city prison until 1902, and the one Khalid would have known; photograph, c.1890s.",
+        "credit": "Photograph, c.1890s · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "cloister",
+      "region": "the-old-world",
+      "name": "the cloister in the pines, Mount Lebanon",
+      "novelName": "my cloister in the pines",
+      "coords": [35.7900, 33.9400],
+      "certainty": "conjectured",
+      "note": "Khalid's year-long hermit retreat, a booth under an almond tree in the pine wilderness beside the Hermitage of Father Abd'ul-Messiah 'at the foot of Mt. Sanneen'. The mountain is real; the exact spot of his cloister is not located, so the pin is a best guess on Sannine's flank.",
+      "story": "After the Damascus prison Khalid renounces the world for a year in the pines - 'the Kaaba of Solitude' - sleeping under the open sky, sparring with a shrewd hermit-monk over faith and anarchy and the buried disease in his lungs. He leaves the cloister not to return to the Church, but to go down and preach a gospel of his own.",
+      "quote": "I have been going through such an exercise for a year, and soon I shall leave my cloister in the pines.",
+      "quoteRef": "Book III, ch. I",
+      "image": {
+        "file": "assets/images/kh-gibran-vision.png",
+        "caption": "Kahlil Gibran's visionary figure amid the cosmos, from the first edition - standing in for Khalid's hermit year in the pines, a place the novel never fixes on any map.",
+        "credit": "Kahlil Gibran, illustration from the first edition of The Book of Khalid (Dodd, Mead, 1911) · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "damascus",
+      "region": "the-old-world",
+      "name": "Damascus",
+      "novelName": "Damascus",
+      "coords": [36.3070, 33.5110],
+      "certainty": "real",
+      "note": "The great city of the Syrian interior - twice Khalid's prison and his pulpit. First he is carried here by Ottoman troops to the velayet gaol; later he returns of his own will to preach reform, in the heady first days of the Young-Turk 'Union and Progress'.",
+      "story": "First a cell: after a riot in Baalbek the troops march Khalid to the velayet prison for a month of silence. Later a pulpit: he comes back a would-be prophet, preaching a union of East and West and a faith beyond all sects to Damascene crowds - until the mob turns, stones him, and he must flee for his life. His 'scrub-oak' sermon is the last of his rhapsodies the Editor will print.",
+      "quote": "I am but a scrub-oak in this forest of giants, my Brothers. A scrub-oak which you might cut down, but not uproot.",
+      "quoteRef": "Book III, ch. IX",
+      "image": {
+        "file": "assets/images/kh-damascus.jpg",
+        "caption": "Damascus, the Street called Straight, a minaret closing the long bazaar; photochrom, c.1890-1900.",
+        "credit": "Photoglob Zürich photochrom, c.1890-1900 · Library of Congress · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "port-said",
+      "region": "the-desert",
+      "name": "Port Said, Egypt",
+      "novelName": "Port-Said",
+      "coords": [32.3020, 31.2600],
+      "certainty": "real",
+      "note": "The Suez Canal port where the fugitives land in Egypt. The text names their carrier - 'the Austrian Liner for Port-Said' (Austrian Lloyd) - out of Beirut, whence they take the railway up to Cairo and Helwan.",
+      "story": "Egypt's gate. Fleeing Syria for good after the stoning, Khalid and his little party come down by rail to Beirut and board the Austrian Lloyd steamer for Port Said - the threshold of the desert where the story will end.",
+      "quote": "they board in the afternoon the Austrian Liner for Port-Said",
+      "quoteRef": "Book III, ch. X",
+      "image": {
+        "file": "assets/images/kh-port-said.jpg",
+        "caption": "Port Said at the mouth of the Suez Canal, a steamer coaling among the barges - the fugitives' gate into Egypt; colour postcard, before 1914.",
+        "credit": "Photochrom postcard, before 1914 · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "cairo",
+      "region": "the-desert",
+      "name": "Cairo (the Khedivial Library; the Mena House)",
+      "novelName": "Cairo",
+      "coords": [31.2460, 30.0480],
+      "certainty": "real",
+      "note": "The frame of the whole book. The Editor finds Khalid's Arabic manuscript in the Khedivial Library of Cairo, and hears the rest from the poet Shakib - by now a pasha's laureate - out at the Mena House, in the shadow of the Pyramids.",
+      "story": "Where the tale is assembled and where it closes. A manuscript surfaces in the Khedivial Library; a sand-diviner and a hasheesh-den point the Editor to Shakib, weeping into his whiskey at the desert's gate over a Master who has 'disappeared some ten days ago, and I know not whither'. Shakib settles here at the end, poet-laureate to a pasha.",
+      "quote": "In the Khedivial Library of Cairo, among the Papyri of the Scribe of Amen-Ra and the beautifully illuminated copies of the Korân, the modern Arabic Manuscript which forms the subject of this Book, was found.",
+      "quoteRef": "Al-Fatihah (the Opening)",
+      "image": {
+        "file": "assets/images/kh-cairo.jpg",
+        "caption": "The Mena House hotel at the foot of the Giza pyramids - the novel's frame, where the editor hears Shakib's tale over a whisky; photograph, c.1880-1900.",
+        "credit": "Photograph, c.1880-1900 · Rijksmuseum, Amsterdam · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "helwan",
+      "region": "the-desert",
+      "name": "Helwan, the desert south of Cairo",
+      "novelName": "the desert",
+      "coords": [31.3340, 29.8500],
+      "certainty": "real",
+      "note": "The spa town some 25km south of Cairo, on the edge of the Libyan desert - the text lands them 'within wind of Helwan', by the Al-Hayat hotel, where they pitch their tents. The last act.",
+      "story": "On the sands at the desert's edge, Khalid camps with the consumptive Najma and her child Najib. The boy dies of meningitis and is buried in the sand; Najma, wasting with grief, follows within a fortnight. And Khalid, his tears frozen, walks out into the desert one moonlit night and is never seen again - 'appearance in disappearance', as he dreamed on the emigrant ship long before.",
+      "quote": "he is not now on the outskirts of the desert: deeper to this side or to that he must have passed.",
+      "quoteRef": "Al-Khatimah (the Closing)",
+      "image": {
+        "file": "assets/images/kh-gibran-desert.png",
+        "caption": "Kahlil Gibran's tailpiece to the novel: a figure folded in a shell of sand and light, reaching into the sun - 'appearance in the disappearance', the desert into which Khalid walks and is gone.",
+        "credit": "Kahlil Gibran, illustration from the first edition of The Book of Khalid (Dodd, Mead, 1911) · public domain",
+        "indicative": true
+      }
+    }
+  ],
+  "characters": [
+    {
+      "id": "khalid",
+      "name": "Khalid",
+      "colour": "madder",
+      "role": "The Baalbek donkey-boy turned peddler, prophet and outcast, forever crossing between East and West and at home in neither",
+      "start": { "location": "baalbek", "chapter": 1 }
+    },
+    {
+      "id": "shakib",
+      "name": "Shakib",
+      "colour": "bottle",
+      "role": "Khalid's poet friend and faithful biographer, whose 'Histoire Intime' is half the source of the tale",
+      "start": { "location": "baalbek", "chapter": 1 }
+    },
+    {
+      "id": "najma",
+      "name": "Najma",
+      "colour": "prussian",
+      "role": "Khalid's cousin, the 'star' he loves in Baalbek; married off by the Church, then abandoned when her husband flees the country, and dying of consumption, she follows him to the Egyptian desert",
+      "start": { "location": "baalbek", "chapter": 8 }
+    }
+  ],
+  "movements": [
+    {
+      "character": ["khalid", "shakib"],
+      "from": "baalbek",
+      "to": "cedars",
+      "chapter": 2,
+      "mode": "horse",
+      "days": 1,
+      "note": "Following some tourists up the mountain-road to the Cedars - the excursion on which, watching the sun drop into the western sea, the two boys resolve to emigrate.",
+      "via": [[36.15, 34.13]],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book I, ch. II names 'the mountain-road to the Cedars of Lebanon' and the trip to Dahr'ul-Qadhib; the precise path is reconstructed."
+    },
+    {
+      "character": ["khalid", "shakib"],
+      "from": "cedars",
+      "to": "beirut",
+      "chapter": 3,
+      "mode": "coach",
+      "days": 1,
+      "note": "Down from the mountains to the coast and the emigrant port - a last look at the Lebanons before the sea.",
+      "via": [[35.85, 34.10], [35.62, 33.98]],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book I, ch. III: the departure from Beirut; the descent route from the Cedars is reconstructed."
+    },
+    {
+      "character": ["khalid", "shakib"],
+      "from": "beirut",
+      "to": "marseilles",
+      "chapter": 3,
+      "mode": "ship",
+      "days": 8,
+      "note": "Huddled 'like sheep on deck from Beirut to Marseilles' - the Levant mail-steamer threading the straits of Messina and Bonifacio to the western Mediterranean.",
+      "via": [
+        [34.40, 34.40],
+        { "at": [33.05, 34.40], "name": "south of Cyprus", "note": "passing below the island" },
+        [30.00, 35.20],
+        { "at": [28.00, 35.90], "name": "off Rhodes", "note": "the Aegean gateway" },
+        { "at": [22.48, 36.20], "name": "off Cape Matapan", "note": "the southern tip of the Peloponnese" },
+        [18.50, 37.20],
+        [15.60, 37.90],
+        { "at": [15.63, 38.22], "name": "Strait of Messina", "note": "between Sicily and the mainland" },
+        [15.55, 38.45],
+        [13.00, 39.60],
+        [11.00, 40.60],
+        [9.70, 41.20],
+        { "at": [9.25, 41.38], "name": "Strait of Bonifacio", "note": "between Corsica and Sardinia" },
+        [8.50, 41.60],
+        [6.80, 42.60],
+        [5.70, 43.15]
+      ],
+      "routeCertainty": "documented",
+      "routeSource": "Messageries Maritimes, ligne de Syrie (Marseille-Beyrouth); Book I, ch. III names only Beirut, Marseilles and 'a fortnight' there. Waypoints follow the line's known straits."
+    },
+    {
+      "character": ["khalid", "shakib"],
+      "from": "marseilles",
+      "to": "ellis-island",
+      "chapter": 4,
+      "mode": "ship",
+      "days": 14,
+      "note": "'Like cattle transported under hatches across the Atlantic' - a fortnight of the steerage on a fourth-class ship out of Marseilles, by way of Gibraltar and the Azores.",
+      "via": [
+        [3.00, 42.00],
+        [0.00, 39.00],
+        [-2.50, 36.60],
+        [-5.20, 36.05],
+        { "at": [-5.60, 35.95], "name": "Strait of Gibraltar", "note": "the exit from the Mediterranean" },
+        [-6.50, 36.05],
+        [-9.50, 36.80],
+        { "at": [-25.60, 37.50], "name": "the Azores (off Ponta Delgada)", "note": "the mid-Atlantic coaling call" },
+        [-40.00, 39.00],
+        [-55.00, 40.00],
+        [-68.00, 40.20],
+        [-72.50, 40.10],
+        { "at": [-74.00, 40.47], "name": "Sandy Hook", "note": "the harbour approach" },
+        [-74.045, 40.606]
+      ],
+      "routeCertainty": "documented",
+      "routeSource": "Fabre Line (Cie Cyprien Fabre), Marseille-New York emigrant service; Book I, ch. III-IV names only Marseilles and New York / Ellis Island. Waypoints follow the line's track via Gibraltar and the Azores."
+    },
+    {
+      "character": ["khalid", "shakib"],
+      "from": "ellis-island",
+      "to": "syrian-quarter",
+      "chapter": 4,
+      "mode": "foot",
+      "days": 0.2,
+      "startDay": 130,
+      "note": "Cleared at last after a detention on the island, they settle 'in the Syrian Quarter directly after clearing their merchandise', and are shriven by the Maronite priest of the Colony before they go down into their cellar.",
+      "via": [],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book I, ch. IV: they settle in the Syrian Quarter (Washington Street) off the Battery."
+    },
+    {
+      "character": "khalid",
+      "from": "syrian-quarter",
+      "to": "battery-park",
+      "chapter": 5,
+      "mode": "foot",
+      "days": 0.02,
+      "note": "A few steps from the cellar to the green at the water's edge, to take the air, watch the harbour and the women, and loaf on the benches.",
+      "via": [],
+      "startDay": 200,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book I, ch. IV-V: Battery Park as the peddlers' open-air haunt, a short walk from the colony."
+    },
+    {
+      "character": "khalid",
+      "from": "battery-park",
+      "to": "tammany-wigwam",
+      "chapter": 6,
+      "mode": "foot",
+      "days": 0.1,
+      "note": "Up Manhattan to the Wigwam, drawn into the Tammany machine as an agent to the Syrian newspapers - his lesson in the underside of American democracy.",
+      "via": [],
+      "startDay": 1950,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book II, ch. I: Khalid taken up by the Tammany Boss at the Wigwam (14th Street)."
+    },
+    {
+      "character": "khalid",
+      "from": "tammany-wigwam",
+      "to": "the-tombs",
+      "chapter": 6,
+      "mode": "foot",
+      "days": 0.1,
+      "note": "The falling-out with the Boss, a charge of misappropriating public funds, and the walk 'across the Bridge of Sighs to gaol' - ten days in the Tombs.",
+      "via": [],
+      "startDay": 1970,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book II, ch. I: Khalid tried and gaoled after the break with Tammany."
+    },
+    {
+      "character": "khalid",
+      "from": "the-tombs",
+      "to": "syrian-quarter",
+      "chapter": 7,
+      "mode": "foot",
+      "days": 0.1,
+      "note": "Out of gaol and sick of the New World, he goes back to the cellar and to Shakib, and the two resolve at last to sail home.",
+      "via": [],
+      "startDay": 1990,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book II: after the gaol and the disillusion, Khalid and Shakib prepare to leave New York."
+    },
+    {
+      "character": ["khalid", "shakib"],
+      "from": "syrian-quarter",
+      "to": "beirut",
+      "chapter": 7,
+      "mode": "ship",
+      "days": 20,
+      "note": "'We bid New York farewell' - the long crossing home, the skyscrapers and the Statue of Liberty receding, back through the straits to the Levant.",
+      "via": [
+        [-74.045, 40.606],
+        { "at": [-74.00, 40.47], "name": "Sandy Hook", "note": "putting out to sea" },
+        [-68.00, 40.20],
+        [-55.00, 40.00],
+        [-40.00, 39.00],
+        { "at": [-25.60, 37.50], "name": "the Azores", "note": "the mid-Atlantic call" },
+        [-9.50, 36.80],
+        [-6.50, 36.05],
+        { "at": [-5.60, 35.95], "name": "Strait of Gibraltar", "note": "re-entering the Mediterranean" },
+        [-5.20, 36.05],
+        [1.00, 38.50],
+        [7.00, 40.50],
+        [8.50, 41.60],
+        { "at": [9.25, 41.38], "name": "Strait of Bonifacio", "note": "Corsica and Sardinia" },
+        [11.00, 40.00],
+        { "at": [15.63, 38.22], "name": "Strait of Messina", "note": "Sicily and the mainland" },
+        [18.50, 37.20],
+        { "at": [22.48, 36.20], "name": "off Cape Matapan", "note": "the southern Peloponnese" },
+        [28.00, 35.90],
+        { "at": [33.05, 34.40], "name": "south of Cyprus", "note": "passing below the island" },
+        [34.40, 34.40]
+      ],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book II: 'we bid New York farewell'. No ports are named on the return; the passage reverses the outbound Fabre and Messageries route."
+    },
+    {
+      "character": ["khalid", "shakib"],
+      "from": "beirut",
+      "to": "baalbek",
+      "chapter": 7,
+      "mode": "coach",
+      "days": 1,
+      "note": "Up from the coast over the Lebanon and across the Beqaa, home to Baalbek - Khalid changed, restless, no longer the placid donkey-boy who left.",
+      "via": [
+        { "at": [35.60, 33.83], "name": "Aley", "note": "on the Beirut-Damascus carriage road" },
+        { "at": [35.76, 33.79], "name": "Dahr al-Baydar", "note": "the road's crest over Mount Lebanon" },
+        { "at": [35.86, 33.82], "name": "Chtaura", "note": "the Beqaa staging post" }
+      ],
+      "routeCertainty": "reconstructed",
+      "routeSource": "The Beirut-Damascus carriage road (1863) up over the Dahr al-Baydar pass and across the Beqaa; the text gives only 'a day's march' from Beirut."
+    },
+    {
+      "character": "khalid",
+      "from": "baalbek",
+      "to": "damascus",
+      "chapter": 9,
+      "mode": "train",
+      "days": 0.5,
+      "note": "After the riot over his forbidden marriage, the Ottoman troops carry Khalid off - by the railway junction at Riak and down the Barada gorge - to a month in the velayet prison.",
+      "via": [
+        { "at": [35.99, 33.855], "name": "Rayak (Riak) junction", "note": "the DHP railway junction" },
+        { "at": [36.10, 33.72], "name": "Zebdani", "note": "on the Rayak-Damascus rack line" },
+        { "at": [36.24, 33.57], "name": "the Barada gorge", "note": "the line follows the river down to the city" }
+      ],
+      "routeCertainty": "documented",
+      "routeSource": "Chemin de fer Beyrouth-Damas / DHP (Rayak-Damascus 1895); Book II, ch. VII: Khalid taken to 'the velayet prison in Damascus'."
+    },
+    {
+      "character": "khalid",
+      "from": "damascus",
+      "to": "cloister",
+      "chapter": 10,
+      "mode": "horse",
+      "days": 3,
+      "note": "Freed, and done with the world, he rides back over the ranges into the pine wilderness of Mount Lebanon, to a hermit's booth under an almond tree at the foot of Mt Sanneen.",
+      "via": [
+        { "at": [36.10, 33.72], "name": "Zebdani", "note": "climbing out of the Barada valley" },
+        { "at": [35.99, 33.855], "name": "Rayak (Riak)", "note": "the Beqaa junction" },
+        [35.90, 33.88]
+      ],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book II, ch. VIII-X / III, ch. I: the 'Kaaba of Solitude' hermitage at the foot of Mt Sanneen; the route from Damascus is reconstructed."
+    },
+    {
+      "character": "khalid",
+      "from": "cloister",
+      "to": "beirut",
+      "chapter": 11,
+      "mode": "foot",
+      "days": 4,
+      "note": "'On the Open Highway' - a year in the pines behind him, Khalid takes up his staff and tramps down out of the mountains, through the Kisrawan and the old Phoenician coast, to Beirut.",
+      "via": [
+        [35.72, 34.02],
+        { "at": [35.6478, 34.1208], "name": "Byblus (Jbail)", "note": "the old Phoenician port on the coast road" },
+        [35.55, 33.98]
+      ],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book III, ch. IV ('On the Open Highway'): Khalid leaves the cloister on foot, tramping down through Kisrawan and Byblus to the coast, and takes the train the last stretch into Beirut."
+    },
+    {
+      "character": "khalid",
+      "from": "beirut",
+      "to": "damascus",
+      "chapter": 11,
+      "mode": "train",
+      "days": 0.5,
+      "note": "After months in Beirut - writing, lecturing - the Young Turks' 'Union and Progress' deputies recruit Khalid for a speaking tour, and he takes the railway up over the Lebanon to Damascus.",
+      "via": [
+        { "at": [35.60, 33.83], "name": "Aley", "note": "the rack railway climbing Mount Lebanon" },
+        { "at": [35.76, 33.79], "name": "Dahr al-Baydar", "note": "the crest" },
+        { "at": [35.99, 33.855], "name": "Rayak (Riak) junction", "note": "change onto the Damascus line" },
+        { "at": [36.10, 33.72], "name": "Zebdani", "note": "the rack line into the Anti-Lebanon" },
+        { "at": [36.24, 33.57], "name": "the Barada gorge", "note": "down to the city" }
+      ],
+      "routeCertainty": "documented",
+      "routeSource": "Book III, ch. V ('Union and Progress'): recruited in Beirut for the Unionist tour ('in a fortnight we shall be in Damascus'). DHP Beirut-Damascus railway."
+    },
+    {
+      "character": "khalid",
+      "from": "damascus",
+      "to": "baalbek",
+      "chapter": 12,
+      "mode": "horse",
+      "days": 1.5,
+      "note": "Stoned by the mob and talked out of martyrdom, Khalid flees Damascus that same night. The morning train is too late and the carriage road ruined, so 'only on horseback can we fly' - the moonlit ride north up the road to Baalbek.",
+      "via": [
+        { "at": [36.30, 33.66], "name": "north out of Damascus", "note": "the old road toward the Beqaa" },
+        [36.24, 33.82],
+        [36.22, 33.94]
+      ],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book III, ch. IX ('The Stoning and Flight'): 'The one train for Baalbek leaves in the morning; the carriage road is ruined from disuse; and only on horseback can we fly' - the night ride to Baalbek. Road reconstructed."
+    },
+    {
+      "character": ["khalid", "najma", "shakib"],
+      "from": "baalbek",
+      "to": "beirut",
+      "chapter": 13,
+      "mode": "train",
+      "days": 0.5,
+      "note": "Done with Syria for good, the little party - Khalid, the dying Najma with her child, and faithful Shakib - takes the railway down to the coast to find a ship for Egypt.",
+      "via": [
+        { "at": [35.99, 33.855], "name": "Rayak (Riak) junction", "note": "change for the Beirut line" },
+        { "at": [35.76, 33.79], "name": "Dahr al-Baydar", "note": "the rack-railway crest over Mount Lebanon" },
+        [35.62, 33.83]
+      ],
+      "routeCertainty": "documented",
+      "routeSource": "Book III, ch. X: 'for Riak, and thence by train for Beirut'. DHP railway."
+    },
+    {
+      "character": ["khalid", "najma", "shakib"],
+      "from": "beirut",
+      "to": "port-said",
+      "chapter": 13,
+      "mode": "ship",
+      "days": 2,
+      "note": "Aboard 'the Austrian Liner for Port-Said', down the Levant coast past Tyre and Jaffa and along the top of the Nile delta to Egypt.",
+      "via": [
+        [35.30, 33.50],
+        { "at": [35.15, 33.25], "name": "off Tyre", "note": "the Levant coast" },
+        [34.90, 32.80],
+        { "at": [34.65, 32.05], "name": "off Jaffa", "note": "the Palestinian coast" },
+        [33.50, 31.70],
+        [32.00, 31.65]
+      ],
+      "routeCertainty": "documented",
+      "routeSource": "Book III, ch. X names 'the Austrian Liner for Port-Said' (Austrian Lloyd's Levant service). Waypoints hug the coast north of the Nile delta."
+    },
+    {
+      "character": ["khalid", "najma", "shakib"],
+      "from": "port-said",
+      "to": "helwan",
+      "chapter": 13,
+      "mode": "train",
+      "days": 0.5,
+      "note": "Up from the canal by the Egyptian railway, through Cairo, out to the sanatorium spa of Helwan on the desert's edge - where the tents are pitched and the last act plays.",
+      "via": [
+        { "at": [32.27, 30.59], "name": "Ismailia", "note": "the Suez Canal junction" },
+        { "at": [31.50, 30.59], "name": "Zagazig", "note": "a delta rail junction" },
+        { "at": [31.246, 30.048], "name": "Cairo", "note": "the main-line terminus" },
+        [31.29, 29.92]
+      ],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book III, ch. X lands them 'within wind of Helwan' by the Al-Hayat hotel; the Egyptian State Railway route (via Ismailia and Cairo) is reconstructed."
+    },
+    {
+      "character": "shakib",
+      "from": "helwan",
+      "to": "cairo",
+      "chapter": 13,
+      "mode": "train",
+      "days": 0.1,
+      "note": "A fortnight after the graves are filled, Shakib leaves the desert camp for Cairo, to be poet-laureate to a pasha - and to tell, one day, the whole of his Master's tale.",
+      "via": [[31.29, 29.92]],
+      "startDay": 3390,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Book III, ch. X: 'Shakib leaves the camp to live in Cairo. He is now become poet-laureate to one of the big pashas.'"
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "chapter": 1,
+      "at": "baalbek",
+      "character": "khalid",
+      "title": "the donkey-boy of Baal",
+      "narration": "Baalbek, in the shadow of its great Roman ruins. Khalid, a runaway donkey-boy who sleeps in a fallen temple and loves his cousin Najma, trades his way up from donkey to a fine Arab mare, sells it to a tourist, and dreams of the sea."
+    },
+    {
+      "kind": "journey",
+      "chapter": 2,
+      "from": "baalbek",
+      "to": "cedars",
+      "character": ["khalid", "shakib"],
+      "title": "the call of the sundown",
+      "narration": "With his bookish friend Shakib, a poet forever quoting Arabic verse at him, Khalid climbs the mountain-road to the Cedars of Lebanon. From the heights they watch the sun sink into the western sea, and take it, half in earnest, as a summons to America."
+    },
+    {
+      "kind": "journey",
+      "chapter": 3,
+      "from": "cedars",
+      "to": "beirut",
+      "character": ["khalid", "shakib"],
+      "title": "smuggled out",
+      "narration": "Down to the coast and the emigrant port. Having no passports, the two bribe the boatmen and are rowed to the steamer in the dark, watching the peaks of the Lebanons recede as they sail for the paradise they imagine the West to be."
+    },
+    {
+      "kind": "journey",
+      "chapter": 3,
+      "from": "beirut",
+      "to": "marseilles",
+      "character": ["khalid", "shakib"],
+      "title": "the Via Dolorosa",
+      "narration": "The emigrant's road of sorrows begins: huddled on deck \"like sheep\" from Beirut to Marseilles, among the cattle and horses shipped west. Khalid lies serene on his rug with his lute, deciding that wherever one is happy is first class."
+    },
+    {
+      "kind": "scene",
+      "chapter": 3,
+      "at": "marseilles",
+      "character": "khalid",
+      "title": "the sharpers",
+      "day": 75,
+      "narration": "At Marseilles the emigrants are fleeced act by act: stripped of their baggy trousers, sold shoddy suits, held a fortnight in a verminous hostelry, and talked into buying boxes of trinkets \"made in the Holy Land\" to peddle in America."
+    },
+    {
+      "kind": "journey",
+      "chapter": 4,
+      "from": "marseilles",
+      "to": "ellis-island",
+      "character": ["khalid", "shakib"],
+      "title": "under the hatches",
+      "narration": "Then the Atlantic, \"like cattle transported under hatches\", a fortnight of steerage in a stacked and stinking hold. One night on deck Khalid dreams he rides the desert a crowned prophet, and wakes uneasy, homesick for the paper boats of Baalbek.",
+      "quote": {
+        "text": "Long have we waited for thee, now we shall enter in peace.",
+        "source": "The Book of Khalid, Book I"
+      }
+    },
+    {
+      "kind": "scene",
+      "chapter": 4,
+      "at": "ellis-island",
+      "character": "khalid",
+      "title": "the last gate",
+      "day": 120,
+      "narration": "The last station, and it nearly shuts on them. Both fail inspection, their eyes ulcerated with trachoma, their purses emptied at Marseilles. Shakib slips ashore among the Italians; a few dollars to a porter, and Khalid is smuggled out of the hospital too."
+    },
+    {
+      "kind": "removal",
+      "chapter": 4,
+      "from": "ellis-island",
+      "to": "syrian-quarter",
+      "character": ["khalid", "shakib"],
+      "title": "into the cellar",
+      "narration": "Shriven by the Maronite priest of the colony, they go down into their new home: a cellar on Washington Street \"as deep and dark and damp as could be found\", shop in front and beds behind, in New York's crowded Syrian quarter."
+    },
+    {
+      "kind": "scene",
+      "chapter": 5,
+      "at": "syrian-quarter",
+      "character": "khalid",
+      "title": "the cellar of the soul",
+      "narration": "Five years in the flooding cellar, pumping out the winter tides and peddling false Holy-Land relics to pious country wives. Prosperous, and happy enough over lentils and the lute - yet Khalid broods that the soul is kept in the sub-cellar while the high rooms stand empty.",
+      "quote": {
+        "text": "The soul, Shakib, is kept below, although the high places are vacant.",
+        "source": "The Book of Khalid, Book I"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 5,
+      "from": "syrian-quarter",
+      "to": "battery-park",
+      "character": "khalid",
+      "title": "the wharf of enchantment",
+      "narration": "A few steps to the green at the water's edge, where the immigrants take the air. Here Khalid loafs and gazes at the harbour he first saw from the ship - the skyscrapers, the Brooklyn Bridge, the torch-bearing goddess as famous, he thinks, as the Cedars of Lebanon."
+    },
+    {
+      "kind": "journey",
+      "chapter": 6,
+      "from": "battery-park",
+      "to": "tammany-wigwam",
+      "character": "khalid",
+      "title": "the Wigwam",
+      "narration": "Uptown to Tammany Hall, where Khalid is taken up by \"the Boss\" as an agent to the Syrian papers. He sees American democracy from the inside - the gilded office, the founding fathers on the wall beside a party chief, the votes bought below."
+    },
+    {
+      "kind": "journey",
+      "chapter": 6,
+      "from": "tammany-wigwam",
+      "to": "the-tombs",
+      "character": "khalid",
+      "title": "the Bridge of Sighs",
+      "narration": "The falling-out comes, and a charge of misappropriating public funds. Khalid is walked \"across the Bridge of Sighs\" into the Tombs for ten days - his first prison, and a bitter lesson in the New World he crossed an ocean to reach."
+    },
+    {
+      "kind": "removal",
+      "chapter": 7,
+      "from": "the-tombs",
+      "to": "syrian-quarter",
+      "character": "khalid",
+      "title": "enough of the West",
+      "narration": "Out of gaol and sick of it all, Khalid goes back to the cellar and to Shakib. They have their bank accounts and their disillusion, and they resolve, after five years and more, to sail home to the mountains."
+    },
+    {
+      "kind": "journey",
+      "chapter": 7,
+      "from": "syrian-quarter",
+      "to": "beirut",
+      "character": ["khalid", "shakib"],
+      "title": "the return east",
+      "narration": "They bid New York farewell, the skyscrapers and the Statue of Liberty receding, and cross back the long way to the Levant - the same straits, the same sea, an emigrant's whole American education behind them."
+    },
+    {
+      "kind": "journey",
+      "chapter": 7,
+      "from": "beirut",
+      "to": "baalbek",
+      "character": ["khalid", "shakib"],
+      "title": "home, and changed",
+      "narration": "Up over the Lebanon and across the Beqaa to Baalbek. Khalid comes home no longer the placid donkey-boy who left, but restless, argumentative, full of half-formed gospels - a prophet with no congregation yet."
+    },
+    {
+      "kind": "scene",
+      "chapter": 8,
+      "at": "baalbek",
+      "character": "khalid",
+      "title": "Najma",
+      "narration": "Back in Baalbek, Khalid falls again for his cousin Najma - \"the star\" - and she for him. He courts her at the spring and in the ruined Temple of Venus, and asks for her hand, dreaming of a free, unpriested love out in the open desert."
+    },
+    {
+      "kind": "scene",
+      "chapter": 9,
+      "at": "baalbek",
+      "character": "khalid",
+      "title": "the ban",
+      "day": 2440,
+      "narration": "But Khalid will not be married in the Church, and mocks its dues; so the Maronite priest forbids the match and lays a ban on him. Feeling for and against the excommunicated heretic boils over into a riot in the town square."
+    },
+    {
+      "kind": "journey",
+      "chapter": 9,
+      "from": "baalbek",
+      "to": "damascus",
+      "character": "khalid",
+      "title": "the velayet prison",
+      "narration": "The Ottoman troops seize Khalid among the rioters and carry him by rail, through the junction at Riak and down the Barada gorge, to a month of silence in the stone prison of Damascus - the Old World's gaol to answer the New World's."
+    },
+    {
+      "kind": "journey",
+      "chapter": 10,
+      "from": "damascus",
+      "to": "cloister",
+      "character": "khalid",
+      "title": "the cloister in the pines",
+      "narration": "Freed at last - and Najma married off to a Bey while he lay in gaol - Khalid is done with the world. He rides off into the pine wilderness of Mount Lebanon, to a hermit's booth under an almond tree at the foot of Mt Sanneen, what he calls the Kaaba of Solitude."
+    },
+    {
+      "kind": "scene",
+      "chapter": 10,
+      "at": "cloister",
+      "character": "khalid",
+      "title": "the hermit year",
+      "day": 2655,
+      "narration": "A year in the pines, sleeping under the open sky and sparring with a shrewd hermit-monk over faith, anarchy and the consumption in his own lungs. He leaves at last not for the Church, but to go down and preach a gospel of his own."
+    },
+    {
+      "kind": "journey",
+      "chapter": 11,
+      "from": "cloister",
+      "to": "beirut",
+      "character": "khalid",
+      "title": "on the open highway",
+      "narration": "A year in the pines behind him, Khalid takes up his staff and tramps down out of the mountains - through the Kisrawan and the old Phoenician coast - to Beirut, to write and to lecture and to try his gospel on the world again."
+    },
+    {
+      "kind": "journey",
+      "chapter": 11,
+      "from": "beirut",
+      "to": "damascus",
+      "character": "khalid",
+      "title": "Union and Progress",
+      "narration": "After months in Beirut, the Young Turks' \"Union and Progress\" deputies recruit him for a speaking tour, and he takes the train up to Damascus, \"the city of seven rivers\" - to preach a union of East and West and a dream of a great Arab awakening."
+    },
+    {
+      "kind": "scene",
+      "chapter": 11,
+      "at": "damascus",
+      "character": "khalid",
+      "title": "the reformer",
+      "day": 3055,
+      "narration": "Damascus simmers around him. Khalid preaches to crowds and clashes with the Vali and the ulema; an American Baha'i woman, Mrs Gotfry, attaches herself to him, half disciple, half suitor. His dream of empire runs far ahead of any sense.",
+      "quote": {
+        "text": "A great Arab Empire in the border-land of the Orient and Occident, in this very heart of the world",
+        "source": "The Book of Khalid, Book III"
+      }
+    },
+    {
+      "kind": "scene",
+      "chapter": 12,
+      "at": "damascus",
+      "character": "khalid",
+      "title": "the stoning",
+      "day": 3190,
+      "narration": "It turns, as it must. The mob that cheered him takes up stones; the authorities want him tried at Constantinople. Mrs Gotfry talks him out of martyrdom - \"The Turks are not worth the sacrifice\" - and offers to flee with him instead."
+    },
+    {
+      "kind": "journey",
+      "chapter": 12,
+      "from": "damascus",
+      "to": "baalbek",
+      "character": "khalid",
+      "title": "the flight",
+      "narration": "Wounded and feverish, Khalid flees Damascus that same night - the morning train too late, the road ruined, so on horseback by moonlight up to Baalbek - to be nursed, and to find Najma there, abandoned now, her husband fled the country, coughing the same consumption he once buried in the pines."
+    },
+    {
+      "kind": "scene",
+      "chapter": 12,
+      "at": "baalbek",
+      "character": "khalid",
+      "title": "Najma, wasted",
+      "day": 3203,
+      "narration": "The love of his youth, ruined: the health and beauty gone, a sick child, Najib, on her arm, the disease perhaps his own gift to her, from his kisses. Khalid will not stay in Turkish Syria, and resolves to carry her and the boy to Egypt."
+    },
+    {
+      "kind": "journey",
+      "chapter": 13,
+      "from": "baalbek",
+      "to": "beirut",
+      "character": ["khalid", "najma", "shakib"],
+      "title": "the caravan to Egypt",
+      "narration": "Done with Syria for good, the little party sets out - Khalid, the dying Najma with her child Najib, and faithful Shakib - by rail from Baalbek down through Riak to the coast at Beirut."
+    },
+    {
+      "kind": "journey",
+      "chapter": 13,
+      "from": "beirut",
+      "to": "port-said",
+      "character": ["khalid", "najma", "shakib"],
+      "title": "the Austrian liner",
+      "narration": "Aboard the Austrian liner for Port Said, down the Levant coast past Tyre and Jaffa and along the edge of the Nile delta - Khalid turning his back on the whole Ottoman world at last."
+    },
+    {
+      "kind": "journey",
+      "chapter": 13,
+      "from": "port-said",
+      "to": "helwan",
+      "character": ["khalid", "najma", "shakib"],
+      "title": "within wind of Helwan",
+      "narration": "Up from the canal by the Egyptian railway, through Cairo and out to Helwan on the desert's edge, where they pitch their tents on the clean sand - the enchanted country of Khalid's shipboard dream, come strangely true."
+    },
+    {
+      "kind": "scene",
+      "chapter": 13,
+      "at": "helwan",
+      "character": "khalid",
+      "title": "the sand-graves",
+      "day": 3360,
+      "narration": "On the sands the child Najib sickens and dies, and is buried where he learned to walk. Najma, wasting with grief, follows him into the sand within a fortnight. Khalid's tears, Shakib says, freeze, and flow inward through a cracked heart."
+    },
+    {
+      "kind": "scene",
+      "chapter": 13,
+      "at": "helwan",
+      "character": "khalid",
+      "title": "the disappearance",
+      "day": 3376,
+      "narration": "And then Khalid is simply gone - walked out into the desert one night, no one saw which way, \"deeper to this side or to that he must have passed\", and never seen again. The prophet's dream on the emigrant ship, fulfilled at last.",
+      "quote": {
+        "text": "appearance in the disappearance; of truth in the surrender; of sunrises in the sunset.",
+        "source": "The Book of Khalid, Al-Khatimah"
+      }
+    },
+    {
+      "kind": "removal",
+      "chapter": 13,
+      "from": "helwan",
+      "to": "cairo",
+      "character": "shakib",
+      "title": "Shakib to Cairo",
+      "narration": "His friend gone, Shakib leaves the desert camp for Cairo, poet-laureate now to a pasha - carrying the two manuscripts from which, one day, the whole of Khalid's story will be pieced together."
+    },
+    {
+      "kind": "scene",
+      "chapter": 13,
+      "at": "cairo",
+      "character": "shakib",
+      "title": "the Mena House",
+      "day": 3392,
+      "narration": "At the Mena House by the Pyramids, an editor finds Shakib weeping into his whiskey over a Master who vanished ten days before, he knows not where. From those tears, and a manuscript in the Khedivial Library, this book was made."
+    }
+  ]
+}

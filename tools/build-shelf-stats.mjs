@@ -62,6 +62,7 @@ export const SPANS = {
   'crime-and-punishment': [14, 'a fortnight'],
   'persuasion': [2920, 'eight years'],
   'sentimental-education': [9855, 'a quarter-century'],
+  'book-of-khalid': [4380, 'a dozen years'],
 };
 
 const R = 6371; // km
