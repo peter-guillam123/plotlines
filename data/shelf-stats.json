@@ -183,5 +183,10 @@
     "distanceKm": 785,
     "spanDays": 9855,
     "spanLabel": "a quarter-century"
+  },
+  "book-of-khalid": {
+    "distanceKm": 21599,
+    "spanDays": 4380,
+    "spanLabel": "a dozen years"
   }
 }
