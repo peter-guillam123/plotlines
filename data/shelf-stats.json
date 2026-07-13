@@ -178,5 +178,10 @@
     "distanceKm": 404,
     "spanDays": 2920,
     "spanLabel": "eight years"
+  },
+  "sentimental-education": {
+    "distanceKm": 785,
+    "spanDays": 9855,
+    "spanLabel": "a quarter-century"
   }
 }

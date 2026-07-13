@@ -430,5 +430,17 @@
       "cloth": "#3f5560",
       "text": "#dfd2b4"
     }
+  },
+  {
+    "id": "sentimental-education",
+    "title": "Sentimental Education",
+    "author": "Gustave Flaubert",
+    "year": 1869,
+    "file": "data/sentimental-education.json",
+    "blurb": "A young man sees a woman on a Seine steamer and falls hopelessly in love. Over twenty-five years he drifts between Paris and his provincial home, and between three women he is half-hearted about, achieving nothing - while the Revolution of 1848 convulses the streets around him and he barely notices. Flaubert’s great anti-romance, the Paris counterpart to Madame Bovary’s provincial trap.",
+    "spine": {
+      "cloth": "#4a5560",
+      "text": "#d6c9ad"
+    }
   }
 ]

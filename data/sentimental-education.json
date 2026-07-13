@@ -1,0 +1,931 @@
+{
+  "title": "Sentimental Education",
+  "author": "Gustave Flaubert",
+  "year": 1869,
+  "gutenbergId": 34828,
+  "overture": "A young man sees a woman on a Seine steamer, falls hopelessly in love, and spends the next twenty-five years drifting between Paris and his provincial home, and between three women he is half-hearted about, achieving nothing - while the Revolution of 1848 convulses the streets around him and he barely notices.",
+  "mapHome": {
+    "bounds": [
+      [
+        2.298,
+        48.85
+      ],
+      [
+        2.388,
+        48.884
+      ]
+    ]
+  },
+  "timeline": {
+    "epoch": null,
+    "calendar": false,
+    "span": "a quarter-century",
+    "duration": "a quarter-century",
+    "unit": "year"
+  },
+  "sources": [
+    "Flaubert’s Paris is real and street-precise; the addresses come from the text and the address-index scholarship (site-magister; the Centre Flaubert notes).",
+    "The Arnoux (rue de Choiseul), Rosanette (rue de Laval / Victor-Massé) and Dambreuse (rue d’Anjou) addresses are given or identified; the Tuileries, boulevards, faubourg Saint-Antoine, Nogent and Fontainebleau are real named places.",
+    "The opening steamer Ville-de-Montereau ran Paris (Quai Saint-Bernard) to Montereau; the Paris-Nogent shuttle switched from river/coach to the railway (opened 1847-48) over the book’s span.",
+    "English text: the public-domain M. Walter Dunne translation (Gutenberg #34828 / #27537), which anglicises “Frédéric” to “Frederick” in the verbatim quotes."
+  ],
+  "regions": [
+    {
+      "id": "the-drift",
+      "name": "Paris: the drift"
+    },
+    {
+      "id": "the-revolution",
+      "name": "The Revolution"
+    },
+    {
+      "id": "the-retreats",
+      "name": "The retreats"
+    }
+  ],
+  "locations": [
+    {
+      "id": "quai-saint-bernard",
+      "region": "the-drift",
+      "name": "Quai Saint-Bernard, Paris",
+      "novelName": "the river steamer",
+      "coords": [
+        2.3625,
+        48.846
+      ],
+      "certainty": "real",
+      "note": "The left-bank quay by the Jardin des Plantes where the paddle-steamer Ville-de-Montereau casts off at 6am, 15 September 1840 - the novel’s first line.",
+      "story": "Where it all begins: eighteen-year-old Frédéric Moreau, going home up the Seine, first sees Madame Arnoux on the deck of the steamer. “It was like an apparition.” He will love her, hopelessly and idly, for the next twenty-five years.",
+      "image": {
+        "file": "assets/images/se-quai-saint-bernard.jpg",
+        "caption": "The Quai Saint-Bernard on the Seine, washing-boats along the bank and Notre-Dame beyond; Thomas Shotter Boys’s coloured lithograph, 1839 - the year before Frédéric boards the steamer here.",
+        "credit": "Thomas Shotter Boys lithograph, 1839 · Musée Carnavalet / Paris Musées · CC0 public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "ecole-de-droit",
+      "region": "the-drift",
+      "name": "the École de Droit, Place du Panthéon, Paris",
+      "novelName": "the law school",
+      "coords": [
+        2.344,
+        48.8479
+      ],
+      "certainty": "real",
+      "note": "The Paris law school in the Latin Quarter, where Frédéric and his sharp, ambitious friend Deslauriers are students.",
+      "story": "The Latin Quarter of Frédéric’s student years, where he and the poorer, fiercer Deslauriers dream of glory - Frédéric of art and love, Deslauriers of politics and power - and where their hopes are as large as they will ever be.",
+      "image": {
+        "file": "assets/images/se-ecole-de-droit.jpg",
+        "caption": "The Faculté de Droit on the Place du Panthéon - the law school Frédéric is sent to read at - photographed by Hippolyte Blancard c.1890; later than the story, but Soufflot’s building stood in Frédéric’s day.",
+        "credit": "Hippolyte Blancard photograph, c.1890 · Musée Carnavalet / Paris Musées · CC0 public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "art-industriel",
+      "region": "the-drift",
+      "name": "Boulevard Montmartre, Paris",
+      "novelName": "L’Art Industriel",
+      "coords": [
+        2.342,
+        48.8712
+      ],
+      "certainty": "real",
+      "note": "Jacques Arnoux’s picture-gallery and art-journal on the Boulevard Montmartre; block-level pin (no number given).",
+      "story": "The gallery of the genial, unscrupulous art-dealer Jacques Arnoux - Madame Arnoux’s husband. Frédéric haunts it to be near her, and is drawn into Arnoux’s raffish boulevard world of painters, hangers-on and courtesans.",
+      "image": {
+        "file": "assets/images/se-art-industriel.jpg",
+        "caption": "The Boulevard Montmartre - the grand boulevard where Arnoux keeps his gallery, L’Art Industriel - in a later-19th-century photograph.",
+        "credit": "Rijksmuseum, Amsterdam (RP-F-F16593) · CC0 public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "arnoux-choiseul",
+      "region": "the-drift",
+      "name": "24 bis rue de Choiseul, Paris",
+      "novelName": "the Arnoux home",
+      "coords": [
+        2.3345,
+        48.869
+      ],
+      "certainty": "identified",
+      "note": "The Arnoux family apartment in its prosperous years; the number is given in the text. The auction of the family’s goods is later held nearby.",
+      "story": "The home of the one woman Frédéric truly loves and never has: Marie Arnoux, virtuous, married, unattainable. He visits for years as a friend of the family, worshipping her across a drawing-room, and the whole book turns on a love that goes nowhere.",
+      "imageBlank": "A private apartment on the rue de Choiseul; nothing specific to photograph honestly."
+    },
+    {
+      "id": "rosanette-laval",
+      "region": "the-drift",
+      "name": "18 rue de Laval (now rue Victor-Massé), Paris",
+      "novelName": "Rosanette’s flat",
+      "coords": [
+        2.3392,
+        48.8817
+      ],
+      "certainty": "identified",
+      "note": "The flat of the courtesan Rosanette (“la Maréchale”), kept by Arnoux, in the lorette district below Montmartre.",
+      "story": "The flat of Rosanette, the good-natured courtesan Frédéric takes as a mistress - the woman he actually beds, in place of the one he adores. Half in spite and half in weakness, he divides himself between her and Madame Arnoux, whole with neither.",
+      "imageBlank": "A courtesan’s flat on the rue de Laval; a private address, nothing specific to photograph."
+    },
+    {
+      "id": "dambreuse-anjou",
+      "region": "the-drift",
+      "name": "rue d’Anjou, Paris",
+      "novelName": "the Dambreuse mansion",
+      "coords": [
+        2.3205,
+        48.8705
+      ],
+      "certainty": "identified",
+      "note": "The grand town-house of the banker M. Dambreuse in the faubourg Saint-Honoré district; block-level pin (no number).",
+      "story": "The cold, gilded mansion of the rich banker Dambreuse and his elegant wife. Frédéric, ambitious by fits, courts the influence here - and after the banker dies, the widowed Madame Dambreuse herself, for money and position, a third woman to be half-hearted about.",
+      "imageBlank": "A private mansion on the rue d’Anjou (no number given); nothing specific to photograph."
+    },
+    {
+      "id": "frederic-rumford",
+      "region": "the-drift",
+      "name": "rue Rumford (by the Parc Monceau), Paris",
+      "novelName": "Frédéric’s house",
+      "coords": [
+        2.313,
+        48.8788
+      ],
+      "certainty": "identified",
+      "note": "The small private hôtel Frédéric takes after inheriting a fortune; a short right-bank street still existing by Monceau. His study, where the 1867 farewell happens.",
+      "story": "The comfortable right-bank house Frédéric sets up after an inheritance suddenly makes him a gentleman of leisure - the moment he could have become anything, and instead becomes nothing, drifting between drawing-rooms with an income and no purpose.",
+      "imageBlank": "Frédéric’s rented house on the short rue Rumford; nothing specific to photograph honestly."
+    },
+    {
+      "id": "rue-tronchet",
+      "region": "the-drift",
+      "name": "rue Tronchet (near the Madeleine), Paris",
+      "novelName": "the tryst flat",
+      "coords": [
+        2.3235,
+        48.8712
+      ],
+      "certainty": "identified",
+      "note": "The flat Frédéric secretly furnishes for the long-hoped-for assignation with Madame Arnoux; near the Madeleine.",
+      "story": "The little flat Frédéric fits out, at last, for the tryst with Madame Arnoux he has waited years for. She never comes - her child falls ill, and she takes it for a judgement. In cold fury Frédéric brings Rosanette there instead: the ideal betrayed the very night it was almost won.",
+      "imageBlank": "A rented flat near the Madeleine; a fictional address, nothing specific to photograph."
+    },
+    {
+      "id": "tuileries-palace",
+      "region": "the-revolution",
+      "name": "the Palais des Tuileries, Paris",
+      "novelName": "the Tuileries",
+      "coords": [
+        2.3293,
+        48.8626
+      ],
+      "certainty": "real",
+      "note": "The royal palace at the east end of the Tuileries garden, sacked in February 1848 (the building burned in 1871).",
+      "story": "In February 1848 the monarchy falls, and the mob pours through the royal palace. Frédéric watches the crowd sack the throne room and pitch the gilded throne out of the window - History convulsing a few streets from his private obsessions, and touching him hardly at all.",
+      "image": {
+        "file": "assets/images/se-tuileries-palace.jpg",
+        "caption": "“Le peuple aux Tuileries” - the crowd in the throne room of the Palais des Tuileries on 24 February 1848, the day the monarchy fell; Victor Adam’s lithograph of 1848.",
+        "credit": "Victor Adam lithograph, 1848 (Goupil, Vibert & Cie) · Musée Carnavalet / Paris Musées · CC0 public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "faubourg-saint-antoine",
+      "region": "the-revolution",
+      "name": "the Faubourg Saint-Antoine, Paris",
+      "novelName": "the June barricades",
+      "coords": [
+        2.383,
+        48.8515
+      ],
+      "certainty": "real",
+      "note": "The eastern working-class quarter where the June 1848 insurrection was raised and drowned in blood; block-level anchor.",
+      "story": "The eastern workers’ quarter where, in June 1848, the young republic turns its guns on the poor and thousands are killed at the barricades. It is the great tragedy of the age - and Frédéric misses all of it, because he has taken his mistress to the country.",
+      "image": {
+        "file": "assets/images/se-faubourg-saint-antoine.jpg",
+        "caption": "A June Days barricade in the Faubourg Saint-Antoine - the Archbishop of Paris pleading with the insurgents, 25 June 1848, the July Column smoking behind; anonymous contemporary engraving.",
+        "credit": "Anonymous engraving, c.1848 · Musée Carnavalet / Paris Musées · CC0 public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "nogent-sur-seine",
+      "region": "the-retreats",
+      "name": "Nogent-sur-Seine (Aube)",
+      "novelName": "Nogent",
+      "coords": [
+        3.5031,
+        48.4939
+      ],
+      "certainty": "real",
+      "note": "Frédéric’s home town on the upper Seine, ~100km SE of Paris, where his mother lives; town-centre pin.",
+      "story": "The dull provincial town Frédéric keeps retreating to - to his mother, to money, to his childhood friend Deslauriers and the girl next door he half-heartedly might have married. Every time Paris disappoints him he comes back here, and every return is another year quietly wasted.",
+      "image": {
+        "file": "assets/images/se-nogent-sur-seine.jpg",
+        "caption": "Nogent-sur-Seine - Frédéric’s provincial home town - its bridge, riverfront houses and the tower of Saint-Laurent; a steel engraving of 1838, two years before the novel opens.",
+        "credit": "Rauch & Schroeder engraving, 1838 (Guide pittoresque) · Bibliothèque nationale de France / Gallica · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "fontainebleau-foret",
+      "region": "the-retreats",
+      "name": "the forest of Fontainebleau",
+      "novelName": "Fontainebleau",
+      "coords": [
+        2.66,
+        48.4
+      ],
+      "certainty": "real",
+      "note": "The great forest south of Paris (the château is at [2.6996, 48.4020]); the June-1848 idyll unfolds in the forest walks.",
+      "story": "The forest where Frédéric takes Rosanette on a lovers’ escape in June 1848 - wandering the mossy gorges and old oaks, murmuring about love, while a day’s ride north the barricades are being slaughtered. Flaubert’s cruellest cut: the idyll and the massacre, side by side.",
+      "image": {
+        "file": "assets/images/se-fontainebleau-foret.jpg",
+        "caption": "The forest of Fontainebleau - where Frédéric and Rosanette pass their June-1848 idyll among the oaks and rocks while Paris fights; Camille Corot’s painting of 1846.",
+        "credit": "Camille Corot, “Forest of Fontainebleau” (1846) · National Gallery of Art, Washington · public domain",
+        "indicative": false
+      }
+    }
+  ],
+  "characters": [
+    {
+      "id": "frederic",
+      "name": "Frédéric Moreau",
+      "colour": "madder",
+      "role": "The aimless young romantic who drifts through Paris and a doomed love for twenty-five years",
+      "start": {
+        "location": "quai-saint-bernard",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "mme-arnoux",
+      "name": "Madame Arnoux",
+      "colour": "prussian",
+      "role": "The virtuous married woman Frédéric adores and never has; the still centre of his drift",
+      "start": {
+        "location": "quai-saint-bernard",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "rosanette",
+      "name": "Rosanette",
+      "colour": "sienna",
+      "role": "The good-natured courtesan he beds in place of the woman he truly loves",
+      "start": {
+        "location": "rosanette-laval",
+        "chapter": 7
+      }
+    },
+    {
+      "id": "jacques-arnoux",
+      "name": "Jacques Arnoux",
+      "colour": "bottle",
+      "role": "The genial, unscrupulous art-dealer; Madame Arnoux’s husband and Frédéric’s rival",
+      "start": {
+        "location": "art-industriel",
+        "chapter": 3
+      }
+    },
+    {
+      "id": "deslauriers",
+      "name": "Deslauriers",
+      "colour": "slate",
+      "role": "Frédéric’s poorer, fiercer friend, who wants power as Frédéric wants love",
+      "start": {
+        "location": "nogent-sur-seine",
+        "chapter": 2
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "day": 0,
+      "when": "1840: the apparition on the steamer"
+    },
+    {
+      "n": 2,
+      "day": 15,
+      "when": "the return to Nogent"
+    },
+    {
+      "n": 3,
+      "day": 120,
+      "when": "the student years in Paris"
+    },
+    {
+      "n": 4,
+      "day": 700,
+      "when": "the years lost at Nogent"
+    },
+    {
+      "n": 5,
+      "day": 1825,
+      "when": "1845: the inheritance"
+    },
+    {
+      "n": 6,
+      "day": 2920,
+      "when": "the tryst that never was"
+    },
+    {
+      "n": 7,
+      "day": 2925,
+      "when": "February 1848: the revolution"
+    },
+    {
+      "n": 8,
+      "day": 3040,
+      "when": "June 1848: the idyll at Fontainebleau"
+    },
+    {
+      "n": 9,
+      "day": 3044,
+      "when": "the June Days"
+    },
+    {
+      "n": 10,
+      "day": 3400,
+      "when": "courting Madame Dambreuse"
+    },
+    {
+      "n": 11,
+      "day": 4015,
+      "when": "the auction"
+    },
+    {
+      "n": 12,
+      "day": 9855,
+      "when": "1867: the farewell"
+    },
+    {
+      "n": 13,
+      "day": 9900,
+      "when": "Nogent, the fireside"
+    }
+  ],
+  "movements": [
+    {
+      "character": "frederic",
+      "from": "quai-saint-bernard",
+      "to": "nogent-sur-seine",
+      "chapter": 2,
+      "mode": "ship",
+      "days": 2,
+      "note": "The steamer carries him up the Seine and home to his mother at Nogent - his head full of the woman on the deck he will never stop thinking about.",
+      "via": [
+        {
+          "at": [
+            2.9576,
+            48.3847
+          ],
+          "name": "Montereau",
+          "note": "the steamer’s destination; he goes on to Nogent by coach"
+        }
+      ],
+      "medium": "river",
+      "routeCertainty": "illustrative",
+      "routeSource": "Vol 1 Ch I: the Ville-de-Montereau, Paris to Montereau by river, then coach to Nogent."
+    },
+    {
+      "character": "deslauriers",
+      "from": "nogent-sur-seine",
+      "to": "ecole-de-droit",
+      "chapter": 3,
+      "mode": "coach",
+      "days": 2,
+      "note": "Deslauriers, poor and hungry and clever, follows Frédéric to Paris - to grind at the law, to burn for the republic, and to watch his friend fritter away every advantage he himself would kill for.",
+      "via": [],
+      "startDay": 118,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 1 Ch II-III: Deslauriers comes to Paris."
+    },
+    {
+      "character": "frederic",
+      "from": "nogent-sur-seine",
+      "to": "ecole-de-droit",
+      "chapter": 3,
+      "mode": "coach",
+      "days": 2,
+      "note": "Back to Paris to read law - and really to be near the Arnoux. He and Deslauriers take rooms and talk of the great things they will do.",
+      "via": [],
+      "startDay": 120,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 1 Ch III: Frédéric returns to Paris to study law."
+    },
+    {
+      "character": "mme-arnoux",
+      "from": "quai-saint-bernard",
+      "to": "arnoux-choiseul",
+      "chapter": 3,
+      "mode": "coach",
+      "days": 3,
+      "note": "The apparition on the boat goes home to her husband and children in Paris, never guessing the boy who could not stop looking at her. For twenty-five years she will be, mostly, exactly where he cannot have her.",
+      "via": [],
+      "startDay": 130,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 1 Ch I-IV: Mme Arnoux returns to the Paris home."
+    },
+    {
+      "character": "frederic",
+      "from": "ecole-de-droit",
+      "to": "art-industriel",
+      "chapter": 3,
+      "mode": "foot",
+      "days": 0.1,
+      "note": "He haunts the Boulevard Montmartre and Arnoux’s gallery, and at last contrives an introduction to the dealer - the doorway into her world.",
+      "via": [],
+      "startDay": 200,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 1 Ch III-IV: Frédéric gets into the Arnoux circle via the gallery."
+    },
+    {
+      "character": "jacques-arnoux",
+      "from": "art-industriel",
+      "to": "arnoux-choiseul",
+      "chapter": 3,
+      "mode": "foot",
+      "days": 0.1,
+      "note": "Jacques Arnoux - all bonhomie and bad faith - moves between his boulevard gallery and his home, spending his wife’s peace and his own credit with the same careless charm.",
+      "via": [],
+      "startDay": 255,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 1 Ch IV: Arnoux at home and gallery."
+    },
+    {
+      "character": "frederic",
+      "from": "art-industriel",
+      "to": "arnoux-choiseul",
+      "chapter": 3,
+      "mode": "foot",
+      "days": 0.1,
+      "note": "And so, invited to dinner at the rue de Choiseul, he crosses at last into the Arnoux home - and sits, tongue-tied and adoring, at Madame Arnoux’s own table.",
+      "via": [],
+      "startDay": 260,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 1 Ch IV: the first dinner at the Arnoux home."
+    },
+    {
+      "character": "frederic",
+      "from": "arnoux-choiseul",
+      "to": "dambreuse-anjou",
+      "chapter": 3,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "He is taken up too by the rich banker Dambreuse - the other Paris pole, money instead of love - and dines in the cold splendour of the rue d’Anjou.",
+      "via": [],
+      "startDay": 340,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 1 Ch III/VIII: Frédéric enters the Dambreuse circle."
+    },
+    {
+      "character": "frederic",
+      "from": "dambreuse-anjou",
+      "to": "nogent-sur-seine",
+      "chapter": 4,
+      "mode": "coach",
+      "days": 2,
+      "note": "Then he fails his examinations, his mother’s money runs short, and he sinks back to Nogent - three long, stagnant, wasted years in the provinces, going quietly to seed.",
+      "via": [],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 1 Ch VI-VII: Frédéric retreats to Nogent; years of stagnation."
+    },
+    {
+      "character": "frederic",
+      "from": "nogent-sur-seine",
+      "to": "frederic-rumford",
+      "chapter": 5,
+      "mode": "coach",
+      "days": 2,
+      "note": "An uncle dies and leaves him a fortune. In an instant he is a gentleman of leisure - back to Paris, a little house of his own by the Parc Monceau, and everything before him. He will do nothing with any of it.",
+      "via": [],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 1 Ch VII-VIII: the inheritance; Frédéric takes a house on the rue Rumford."
+    },
+    {
+      "character": "jacques-arnoux",
+      "from": "arnoux-choiseul",
+      "to": "rosanette-laval",
+      "chapter": 5,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "And keeps Rosanette on the side - the same courtesan his young admirer Frédéric will bed, the two men circling one woman while Frédéric worships the wife. The whole tangle of the boulevards in one triangle.",
+      "via": [],
+      "startDay": 2000,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 1-2: Arnoux keeps Rosanette; the rivalry with Frédéric."
+    },
+    {
+      "character": "frederic",
+      "from": "frederic-rumford",
+      "to": "arnoux-choiseul",
+      "chapter": 5,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "He picks up the old worship where he left it - back to the Arnoux, trailing Madame Arnoux from her drawing-room to her husband’s failing factory and back, and getting exactly nowhere.",
+      "via": [],
+      "startDay": 2100,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 1 Ch IX-X: Frédéric resumes the pursuit of Mme Arnoux (incl. the Creil works, narrated)."
+    },
+    {
+      "character": "frederic",
+      "from": "arnoux-choiseul",
+      "to": "rue-tronchet",
+      "chapter": 6,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "Years on, she seems at last to yield: they agree to meet. He takes a little flat near the Madeleine and fills it with flowers, and waits, and waits. She never comes; her small son has fallen ill, and she has vowed to God to give the love up.",
+      "via": [],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XIII: the rue Tronchet tryst; Mme Arnoux fails to come."
+    },
+    {
+      "character": "frederic",
+      "from": "rue-tronchet",
+      "to": "rosanette-laval",
+      "chapter": 7,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "Humiliated and raging, he goes straight to Rosanette - and, to spite in his own heart the woman who did not come, brings the courtesan back to the very room he had made ready for the other.",
+      "via": [],
+      "startDay": 2925,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XIII: the revenge turn to Rosanette, the same day the revolution breaks out."
+    },
+    {
+      "character": "frederic",
+      "from": "rosanette-laval",
+      "to": "tuileries-palace",
+      "chapter": 7,
+      "mode": "foot",
+      "days": 0.3,
+      "note": "That morning Paris wakes covered in barricades. Frédéric wanders out to watch the show - and is swept into the palace as the mob sacks the throne room and pitches the throne out of the window.",
+      "via": [],
+      "startDay": 2927,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XIV: February; the sacking of the Tuileries."
+    },
+    {
+      "character": "frederic",
+      "from": "tuileries-palace",
+      "to": "rosanette-laval",
+      "chapter": 7,
+      "mode": "foot",
+      "days": 0.3,
+      "note": "The republic is proclaimed; the city is drunk on hope. Frédéric, unmoved by any of it, drifts back to Rosanette and his own small affairs.",
+      "via": [],
+      "startDay": 2929,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XIV: Frédéric returns to Rosanette after February."
+    },
+    {
+      "character": [
+        "frederic",
+        "rosanette"
+      ],
+      "from": "rosanette-laval",
+      "to": "fontainebleau-foret",
+      "chapter": 8,
+      "mode": "coach",
+      "days": 2,
+      "note": "In June, with Paris on the brink of civil war, the pair take themselves off to the forest of Fontainebleau - drifting through the gorges and old oaks, drunk on the green quiet, talking of nothing but themselves.",
+      "via": [],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XIV: the Fontainebleau idyll during the June Days."
+    },
+    {
+      "character": "frederic",
+      "from": "fontainebleau-foret",
+      "to": "faubourg-saint-antoine",
+      "chapter": 9,
+      "mode": "coach",
+      "days": 1,
+      "note": "Word comes that a friend has been wounded in the fighting. Frédéric leaves Rosanette and races back into a Paris pooled with blood - threading the barricaded streets of the crushed June insurrection to find him.",
+      "via": [],
+      "startDay": 3044,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XIV: Frédéric’s dash back through the June Days (Melun/Corbeil, narrated)."
+    },
+    {
+      "character": "rosanette",
+      "from": "fontainebleau-foret",
+      "to": "rosanette-laval",
+      "chapter": 9,
+      "mode": "coach",
+      "days": 2,
+      "note": "Left behind at the forest inn when Frédéric bolts for Paris, Rosanette makes her own way back to the city - and to the shared life, and the child, that will not save either of them.",
+      "via": [],
+      "startDay": 3050,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XIV: Rosanette returns to Paris; later their child is born and dies."
+    },
+    {
+      "character": "frederic",
+      "from": "faubourg-saint-antoine",
+      "to": "dambreuse-anjou",
+      "chapter": 10,
+      "mode": "coach",
+      "days": 1,
+      "note": "The rising drowned, life closes over it. Frédéric turns to the main chance: the banker Dambreuse dead, he courts the rich widow, coolly, for her money and her position - a marriage of pure advancement.",
+      "via": [],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XV-XVII: after June, Frédéric courts the widowed Mme Dambreuse."
+    },
+    {
+      "character": "frederic",
+      "from": "dambreuse-anjou",
+      "to": "arnoux-choiseul",
+      "chapter": 11,
+      "mode": "coach",
+      "days": 0.5,
+      "note": "Then, at the auction of the ruined Arnoux’s furniture, Madame Dambreuse spitefully buys the little silver casket that was always Madame Arnoux’s - and Frédéric, disgusted, breaks with her on the spot, and throws the rich marriage away.",
+      "via": [],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XVIII: the auction of the Arnoux goods; the break with Mme Dambreuse."
+    },
+    {
+      "character": "frederic",
+      "from": "arnoux-choiseul",
+      "to": "frederic-rumford",
+      "chapter": 11,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "He goes home alone, having sacrificed a fortune for a scruple, to nobody. The years close over him too; friends die, the Empire comes, he travels, and comes back, and drifts.",
+      "via": [],
+      "startDay": 4020,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XVIII-XIX: Frédéric alone; the years pass, he travels."
+    },
+    {
+      "character": "deslauriers",
+      "from": "ecole-de-droit",
+      "to": "nogent-sur-seine",
+      "chapter": 11,
+      "mode": "coach",
+      "days": 2,
+      "note": "His own ambitions come to as little; and in a last small treachery he goes back to Nogent and marries Louise Roque - the girl who had waited for Frédéric - only to have her run off within the year.",
+      "via": [],
+      "startDay": 4025,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XVIII: Deslauriers marries Louise Roque at Nogent."
+    },
+    {
+      "character": "mme-arnoux",
+      "from": "arnoux-choiseul",
+      "to": "frederic-rumford",
+      "chapter": 12,
+      "mode": "coach",
+      "days": 0.3,
+      "note": "And once, in 1867, an old woman now with white hair, she comes to his rooms to see him one last time. They walk out on his arm through the lamplit streets, confess at last that they loved, and part forever. “And this was all.”",
+      "via": [],
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XIX: the farewell; Mme Arnoux visits Frédéric’s study in 1867."
+    },
+    {
+      "character": "frederic",
+      "from": "frederic-rumford",
+      "to": "nogent-sur-seine",
+      "chapter": 13,
+      "mode": "train",
+      "days": 1,
+      "note": "And at the very last he goes back, once more, to Nogent - to the fireside and the old friend, where the whole of a wasted life is waiting to be totted up.",
+      "via": [],
+      "startDay": 9880,
+      "routeCertainty": "reconstructed",
+      "routeSource": "Vol 2 Ch XX: the closing return to Nogent."
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "chapter": 1,
+      "at": "quai-saint-bernard",
+      "character": "frederic",
+      "title": "the apparition",
+      "narration": "Paris, 1840. On the deck of a Seine steamer, an eighteen-year-old law student, Frédéric Moreau, sees a woman in a wide straw hat and is lost on the spot. She is Madame Arnoux, married, and he will love her, uselessly, for the next twenty-five years. His whole “sentimental education” begins here, and goes nowhere.",
+      "quote": {
+        "text": "What he then saw was like an apparition. She was seated in the middle of a bench all alone, or, at any rate, he could see no one, dazzled as he was by her eyes.",
+        "source": "Sentimental Education, Vol I"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 2,
+      "from": "quai-saint-bernard",
+      "to": "nogent-sur-seine",
+      "character": "frederic",
+      "title": "home to Nogent",
+      "narration": "The boat carries him home to his widowed mother at Nogent-sur-Seine - the dull provincial town he will keep retreating to all his life. Here his sharp, ambitious school-friend Deslauriers dreams with him of the great things they will both do in Paris."
+    },
+    {
+      "kind": "journey",
+      "chapter": 3,
+      "from": "nogent-sur-seine",
+      "to": "ecole-de-droit",
+      "character": "frederic",
+      "title": "the student years",
+      "narration": "Back to Paris to read law - though what he really studies is how to be near the Arnoux. He and Deslauriers take rooms in the Latin Quarter, and their hopes are never larger than now.",
+      "quote": {
+        "text": "when he had exhausted a circulating library, gone over the collections in the Louvre, and been at the theatre a great many nights in succession, he sank into the lowest depths of idleness.",
+        "source": "Sentimental Education, Vol I"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 3,
+      "from": "art-industriel",
+      "to": "arnoux-choiseul",
+      "character": "frederic",
+      "title": "into the Arnoux home",
+      "narration": "He works his way into the art-dealer Jacques Arnoux’s raffish gallery on the boulevard, and so at last to a dinner at the family home - where he sits speechless and adoring at Madame Arnoux’s table, and is happy, and is doomed."
+    },
+    {
+      "kind": "journey",
+      "chapter": 3,
+      "from": "arnoux-choiseul",
+      "to": "dambreuse-anjou",
+      "character": "frederic",
+      "title": "the other pole",
+      "narration": "And into the cold, gilded mansion of the banker Dambreuse - the rival Paris pole, money in place of love. Between the Arnoux drawing-room and this one, Frédéric will spend his life half-heartedly, at home in neither."
+    },
+    {
+      "kind": "journey",
+      "chapter": 4,
+      "from": "dambreuse-anjou",
+      "to": "nogent-sur-seine",
+      "character": "frederic",
+      "title": "the years lost",
+      "narration": "Then he fails his examinations, the money runs thin, and he sinks back to Nogent - three stagnant years going quietly to seed in the provinces, the first great tract of wasted life on the map."
+    },
+    {
+      "kind": "handoff",
+      "chapter": 5,
+      "character": "frederic",
+      "title": "the inheritance",
+      "narration": "An uncle dies and leaves him a fortune. In a single morning the drifting nobody becomes a gentleman of leisure with an income and no purpose - the moment he could have become anything at all.",
+      "day": 1825,
+      "quote": {
+        "text": "He had fallen in for the inheritance! As if a conflagration had burst out behind the wall, he jumped out of bed in his shirt, with his feet bare.",
+        "source": "Sentimental Education, Vol I"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 5,
+      "from": "nogent-sur-seine",
+      "to": "frederic-rumford",
+      "character": "frederic",
+      "title": "back to Paris for good",
+      "narration": "Back to Paris, a little house of his own by the Parc Monceau, everything before him - and he does precisely nothing with it, taking up the old hopeless worship of Madame Arnoux exactly where he left off."
+    },
+    {
+      "kind": "journey",
+      "chapter": 6,
+      "from": "arnoux-choiseul",
+      "to": "rue-tronchet",
+      "character": "frederic",
+      "title": "the tryst that never was",
+      "narration": "At long last she seems to yield, and agrees to meet him. He takes a little flat near the Madeleine, fills it with flowers, and waits. She never comes: her small son has fallen ill, and she has vowed to God to sacrifice the one real passion of her life.",
+      "quote": {
+        "text": "she vowed to God that she would sacrifice, as a holocaust, her first real passion, her only weakness as a woman.",
+        "source": "Sentimental Education, Vol II"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 7,
+      "from": "rue-tronchet",
+      "to": "rosanette-laval",
+      "character": "frederic",
+      "title": "the revenge",
+      "narration": "Humiliated, raging, he goes straight to the courtesan Rosanette - and, to outrage in his own soul the woman who failed him, brings Rosanette back to the very room he had made ready for Madame Arnoux. The ideal is betrayed the night it was nearly won.",
+      "quote": {
+        "text": "in order the better to offer an outrage in his own soul to Madame Arnoux, he led Rosanette to the hotel in the Rue Tronchet, and brought her up to the room which he had got ready for the other.",
+        "source": "Sentimental Education, Vol II"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 7,
+      "from": "rosanette-laval",
+      "to": "tuileries-palace",
+      "character": "frederic",
+      "title": "February 1848",
+      "narration": "And that same morning the monarchy falls. Paris wakes behind barricades; Frédéric strolls out to watch, and is carried into the palace as the mob sacks the throne room. History erupts a few streets from his private sulk, and barely touches him.",
+      "quote": {
+        "text": "Paris, that morning, was covered with barricades.",
+        "source": "Sentimental Education, Vol II"
+      }
+    },
+    {
+      "kind": "scene",
+      "chapter": 7,
+      "at": "tuileries-palace",
+      "character": "frederic",
+      "title": "the sovereign people",
+      "narration": "He and his cynical friend, the journalist Hussonnet, watch the mob pitch the throne out of the window and a girl of the streets pose as Liberty in the doorway - the revolution a mere spectacle to Frédéric, who is already thinking of Rosanette.",
+      "day": 2928,
+      "quote": {
+        "text": "“What a myth!” said Hussonnet. “There you see the sovereign people!”",
+        "source": "Sentimental Education, Vol II"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 8,
+      "from": "rosanette-laval",
+      "to": "fontainebleau-foret",
+      "character": [
+        "frederic",
+        "rosanette"
+      ],
+      "title": "the idyll",
+      "narration": "By June the republic is at war with itself. And Frédéric, at the exact hour Paris is about to tear itself apart, takes his mistress off to the forest of Fontainebleau - drifting through the gorges and old oaks, drunk on green quiet and each other.",
+      "quote": {
+        "text": "Standing side by side, on some rising ground, they felt, as they drank in the air, the pride of a life more free penetrating into the depths of their souls, with a superabundance of energy, a joy which they could not explain.",
+        "source": "Sentimental Education, Vol II"
+      }
+    },
+    {
+      "kind": "meanwhile",
+      "chapter": 9,
+      "character": "frederic",
+      "title": "meanwhile, in Paris",
+      "narration": "And a day’s ride to the north, in those same June days, the young republic turns its cannon on the working quarters and drowns the June rising in blood - thousands dead in the eastern barricades while the lovers murmur in the trees. Flaubert’s cruellest cut: the idyll here, the massacre there.",
+      "quote": {
+        "text": "Some travellers, who had recently arrived, informed them that a terrible battle had stained Paris with blood. Rosanette and her lover were not surprised.",
+        "source": "Sentimental Education, Vol II"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 9,
+      "from": "fontainebleau-foret",
+      "to": "faubourg-saint-antoine",
+      "character": "frederic",
+      "title": "the crawl back",
+      "narration": "News that his honest friend Dussardier is wounded finally moves him. Frédéric leaves Rosanette and threads his way back into a city pooled with blood, through the barricaded streets of the crushed insurrection - a tourist, at last, in the tragedy he slept through."
+    },
+    {
+      "kind": "journey",
+      "chapter": 10,
+      "from": "faubourg-saint-antoine",
+      "to": "dambreuse-anjou",
+      "character": "frederic",
+      "title": "the main chance",
+      "narration": "The rising drowned, ordinary life closes over it. The banker Dambreuse dies, and Frédéric coolly courts his rich widow - a third woman, wanted for her money and position, to be half-hearted about. He is nearly settled, nearly respectable, nearly nothing."
+    },
+    {
+      "kind": "journey",
+      "chapter": 11,
+      "from": "dambreuse-anjou",
+      "to": "arnoux-choiseul",
+      "character": "frederic",
+      "title": "the auction",
+      "narration": "The ruined Arnoux’s furniture is sold at auction, and Madame Dambreuse, out of pure spite, buys the little silver casket that was always Madame Arnoux’s. Frédéric, sickened, breaks with her on the spot - and throws the rich marriage away for a keepsake.",
+      "quote": {
+        "text": "The crier had opened a piano—her piano!",
+        "source": "Sentimental Education, Vol II"
+      }
+    },
+    {
+      "kind": "scene",
+      "chapter": 12,
+      "at": "frederic-rumford",
+      "character": "mme-arnoux",
+      "title": "the farewell",
+      "narration": "The years close over everything. Then, in 1867, white-haired now, Madame Arnoux comes once to his rooms. They walk out on his arm through the lamplit streets, confess at last that they loved each other and never belonged to each other, and part forever. She leaves a lock of her white hair, and is gone.",
+      "day": 9856,
+      "quote": {
+        "text": "“No matter; we shall have loved each other truly!” “And still without having ever belonged to each other!”",
+        "source": "Sentimental Education, Vol II"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 13,
+      "from": "frederic-rumford",
+      "to": "nogent-sur-seine",
+      "character": "frederic",
+      "title": "the fireside",
+      "narration": "And at the very end he goes back to Nogent, to the fireside and the old friend Deslauriers - two ageing, disappointed men, one who wanted love and one who wanted power, and got neither."
+    },
+    {
+      "kind": "scene",
+      "chapter": 13,
+      "at": "nogent-sur-seine",
+      "character": "frederic",
+      "title": "the best we ever had",
+      "narration": "They tot up the wreck of their lives, and agree that the best hour of both was a botched teenage visit to a brothel down by the bridges, twenty-eight years before - fled in a panic before anything happened. That, and nothing they actually did, was the best time they ever had.",
+      "day": 9905,
+      "quote": {
+        "text": "“That was the best time we ever had!” said Frederick. “Yes, perhaps so, indeed! It was the best time we ever had,” said Deslauriers.",
+        "source": "Sentimental Education, Vol II"
+      }
+    }
+  ]
+}

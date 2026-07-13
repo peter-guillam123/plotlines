@@ -61,6 +61,7 @@ export const SPANS = {
   'great-gatsby': [100, 'one summer'],
   'crime-and-punishment': [14, 'a fortnight'],
   'persuasion': [2920, 'eight years'],
+  'sentimental-education': [9855, 'a quarter-century'],
 };
 
 const R = 6371; // km
