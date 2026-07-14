@@ -63,6 +63,7 @@ export const SPANS = {
   'persuasion': [2920, 'eight years'],
   'sentimental-education': [9855, 'a quarter-century'],
   'book-of-khalid': [4380, 'a dozen years'],
+  'botchan': [400, 'about a year'],
 };
 
 const R = 6371; // km

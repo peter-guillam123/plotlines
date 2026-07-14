@@ -1,0 +1,653 @@
+{
+  "title": "Botchan",
+  "author": "Natsume Sōseki",
+  "year": 1906,
+  "gutenbergId": 8868,
+  "overture": "A hot-headed young Tokyoite, loved by nobody but his family's old servant Kiyo, is packed off to teach maths at a middle school in a sleepy Shikoku town - where he wages a losing comic war on the smooth headmaster he nicknames Red Shirt, throws up the job in disgust, and goes home to the one person who ever believed in him.",
+  "mapHome": {
+    "bounds": [[132.4, 33.5], [140.2, 35.9]]
+  },
+  "timeline": {
+    "epoch": null,
+    "calendar": false,
+    "span": "about a year",
+    "duration": "about a year",
+    "unit": "year"
+  },
+  "sources": [
+    "Follows the text of Natsume Sōseki's Botchan (1906), in Yasotaro Morri's public-domain 1919 translation; Project Gutenberg #8868.",
+    "The provincial town is never named but is unmistakably Matsuyama, where Sōseki taught in 1895; the unnamed hot spring is Dōgo Onsen (its 1894 bath-house still stands), and the fishing-trip rock the teachers grandly rename 'Turner Island' is the pine-topped islet Aoshima (Shijūshima) off Takahama.",
+    "The route is period-documented: rikisha to Shimbashi, the Tōkaidō line (the pre-1934 Gotemba routing) to Kobe, a steamer across the Seto Inland Sea to the rail-pier port of Takahama (the Iyo Railway's coastal terminus from 1892), then the 'match-box' light railway into Matsuyama.",
+    "Kiyo's grave 'in the Yogen temple at Kobinata': Kobinata is a real Tokyo district, though the actual Yōgen-ji that inspired it stands about 2.5km NE in Sendagi - Sōseki moved it into the district of his own family temple. The historic OS overlay is Great Britain only, so Botchan sits on the plain sepia base; the base map is modern, not a period map of Japan."
+  ],
+  "regions": [
+    { "id": "tokyo", "name": "Tokyo: home and Kiyo" },
+    { "id": "shikoku", "name": "The country: Kobe and Shikoku" }
+  ],
+  "chapters": [
+    { "n": 1, "day": 0, "when": "a reckless Tokyo boyhood" },
+    { "n": 2, "day": 26, "when": "the send-off" },
+    { "n": 3, "day": 33, "when": "the crossing to Shikoku" },
+    { "n": 4, "day": 44, "when": "the barbarous little town" },
+    { "n": 5, "day": 50, "when": "the staff and their nicknames" },
+    { "n": 6, "day": 60, "when": "the hot spring" },
+    { "n": 7, "day": 80, "when": "Turner Island" },
+    { "n": 8, "day": 120, "when": "the Madonna and the wronged Squash" },
+    { "n": 9, "day": 150, "when": "the victory festival" },
+    { "n": 10, "day": 163, "when": "the ambush, and resignation" },
+    { "n": 11, "day": 185, "when": "home to Kiyo" },
+    { "n": 12, "day": 420, "when": "Kiyo's grave" }
+  ],
+  "locations": [
+    {
+      "id": "tokyo-home",
+      "region": "tokyo",
+      "name": "Tokyo (Botchan's home)",
+      "novelName": "home",
+      "coords": [139.745, 35.702],
+      "certainty": "conjectured",
+      "note": "Botchan's family home in Tokyo; no address is given, so this is a representative central-Tokyo pin. The reckless boyhood, his father's contempt, and old Kiyo's unaccountable devotion all belong here.",
+      "story": "Where the unloved, pugnacious boy grows up - slapped down by his father and brother, adored only by Kiyo, the old family servant who is blindly certain he will be a great man and live in a house with a grand entrance. When the family breaks up and the house is sold, she goes to her nephew's to wait for him to settle.",
+      "quote": "Because of an hereditary recklessness, I have been playing always a losing game since my childhood.",
+      "quoteRef": "ch. I",
+      "image": {
+        "file": "assets/images/bo-tokyo-street.jpg",
+        "caption": "A downtown Tokyo street - the horse-tram between Nihonbashi and Kyōbashi, Mount Fuji beyond; a woodblock print of 1882, indicative of Botchan's Tokyo.",
+        "credit": "Utagawa-school woodblock print, 1882 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "shimbashi",
+      "region": "tokyo",
+      "name": "Shimbashi Station, Tokyo",
+      "novelName": "the station",
+      "coords": [139.7595, 35.6656],
+      "certainty": "real",
+      "note": "The 1872 Shimbashi terminus, Tokyo's gateway west. Kiyo rides here by rikisha to see Botchan off; he comes back to it at the end; and it stands, at Tokyo scale, for the city he rushes home to.",
+      "story": "The platform of the great parting and the great return. Kiyo sees him off here, sick with grief, a small figure growing smaller as the train pulls out; and here, a year later, he steps down and rushes straight to her. Where he finally settles, keeps house with her, and buries her.",
+      "quote": "This may be our last good-by. Take care of yourself.",
+      "quoteRef": "ch. I",
+      "image": {
+        "file": "assets/images/bo-shimbashi.jpg",
+        "caption": "Shimbashi Station, Tokyo - the 1872 terminus where Kiyo sees Botchan off, and where he comes home; photograph, c.1899.",
+        "credit": "From J. S. Ransome, Japan in Transition (1899) · British Library · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "kobe",
+      "region": "shikoku",
+      "name": "Kobe",
+      "novelName": "Kobe",
+      "coords": [135.19, 34.681],
+      "certainty": "real",
+      "note": "The great Honshu port where the Tōkaidō railway from Tokyo meets the Inland Sea steamers. Botchan changes from train to ship here on the way out, and from ship to the through-train home at the end.",
+      "story": "The hinge of the long journey between Tokyo and the country: rail one side, the Inland Sea the other. Coming home, it is from Kobe that he and Porcupine board the through train that carries them, at last, back to Shimbashi and 'congenial human society'.",
+      "quote": "From Kobe to Tokyo we boarded a through train and when we made Shimbashi, we breathed as if we were once more in congenial human society.",
+      "quoteRef": "ch. XI",
+      "image": {
+        "file": "assets/images/bo-kobe.jpg",
+        "caption": "The Bund at Kobe, the waterfront of the treaty port where rail meets the Inland Sea steamers; hand-tinted photograph, c.1890.",
+        "credit": "Kusakabe Kimbei studio, c.1890 · Leiden University Library (KITLV) · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "takahama",
+      "region": "shikoku",
+      "name": "Takahama, the Shikoku port",
+      "novelName": "the fishing village",
+      "coords": [132.7075, 33.8825],
+      "certainty": "identified",
+      "note": "The rail-pier port on the Iyo coast (the Iyo Railway's coastal terminus from 1892, built to meet the Kobe steamers). Never named in the text, which calls it only a fishing village 'about the size of Omori', where the steamer anchors offshore and Botchan is rowed ashore by a near-naked boatman.",
+      "story": "Landfall in the country, and Botchan hates it on sight: a naked boatman, a glaring sun, a place 'about the size of a needle-point on the map'. From the inn Minato-ya he is told the school is four miles off by rail, and stumps away to find the 'match-box' train.",
+      "quote": "A barbarous place, this!",
+      "quoteRef": "ch. II",
+      "imageBlank": "No period photograph of the little Takahama steamer port surfaced (only a 1929 town hall); the arrival is carried by the Inland Sea crossing and the Kobe waterfront."
+    },
+    {
+      "id": "matsuyama",
+      "region": "shikoku",
+      "name": "Matsuyama (the middle school and town)",
+      "novelName": "the town",
+      "coords": [132.7657, 33.8455],
+      "certainty": "identified",
+      "note": "The unnamed provincial town of the novel, unmistakably Matsuyama - Sōseki taught at its middle school in 1895. The castle stands on the hill above; the school where Botchan teaches maths, his lodgings, and the festival brawl all lie in the streets below.",
+      "story": "The stage for the comedy: the middle school where Botchan, blunt and honest, is baited by his own pupils and out-manoeuvred by the staff he nicknames - the Badger, Red Shirt, the Clown, the Hubbard Squash. He makes one true ally, the maths head Porcupine, and one true enemy, the smooth, red-shirted headmaster.",
+      "quote": "The coach I got in was about as dignified as a match-box.",
+      "quoteRef": "ch. II",
+      "image": {
+        "file": "assets/images/bo-matsuyama.jpg",
+        "caption": "Matsuyama Castle on its hill above the town - the unnamed 'country' Botchan is exiled to; hand-coloured postcard, 1906.",
+        "credit": "Colour postcard, 1906 · Wikimedia Commons · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "dogo-onsen",
+      "region": "shikoku",
+      "name": "Dōgo Onsen (the hot spring)",
+      "novelName": "the hot springs",
+      "coords": [132.7865, 33.8519],
+      "certainty": "identified",
+      "note": "The ancient hot spring east of Matsuyama, unnamed in the book but unmistakably Dōgo, whose grand 1894 bath-house still stands. Botchan walks out for the bath daily; and it is here, at the springs town, that the final ambush of Red Shirt plays out - outside the inn Kadoya, where he keeps his geisha.",
+      "story": "The one thing in the country worthy of Tokyo, Botchan says: a splendid bath where he takes to swimming lengths in the great stone tank - until a notice goes up, 'No swimming allowed in the tank', which he is quietly certain was aimed at him alone. Later, on the cedar road out of the springs town, he and Porcupine settle their score with Red Shirt.",
+      "quote": "No swimming allowed in the tank.",
+      "quoteRef": "ch. III",
+      "image": {
+        "file": "assets/images/bo-dogo.jpg",
+        "caption": "The Dōgo Onsen Honkan, the great 1894 bath-house where Botchan takes to swimming lengths; photograph, c.1912.",
+        "credit": "Tayama Munetaka, c.1912 · National Diet Library · public domain",
+        "indicative": false
+      }
+    },
+    {
+      "id": "turner-island",
+      "region": "shikoku",
+      "name": "Turner Island (Aoshima), Matsuyama Bay",
+      "novelName": "Turner Island",
+      "coords": [132.695, 33.895],
+      "certainty": "identified",
+      "note": "A small pine-topped rock in the bay off Takahama - really the islet Aoshima (Shijūshima). On a fishing trip, Red Shirt and the Clown pretentiously admire its lone pine as 'Turnersque' and rename the island after the painter, a bit of art-name showing-off that Botchan finds vulgar.",
+      "story": "Out in a boat with Red Shirt and the Clown, Botchan is treated to their oily talk of Turner and Raphael, and to the Clown's fancy of naming the rock Turner Island. Beneath the posing he hears them murmur about 'the Madonna' - a name he does not yet understand, but the whole performance leaves him cold.",
+      "quote": "Clown made the unlooked-for proposal that the island be named Turner Island.",
+      "quoteRef": "ch. V",
+      "imageBlank": "A small uninhabited pine-topped rock (Aoshima) in Matsuyama Bay; no period image of the islet itself."
+    },
+    {
+      "id": "yogen-temple",
+      "region": "tokyo",
+      "name": "the Yogen temple, Kobinata, Tokyo",
+      "novelName": "the Yogen temple at Kobinata",
+      "coords": [139.7345, 35.7160],
+      "certainty": "identified",
+      "note": "Kiyo's grave. The book's last line names 'the Yogen temple at Kobinata'; Kobinata is a real Tokyo district, but the actual Yōgen-ji that inspired it stands about 2.5km NE in Sendagi - Sōseki appears to have moved it into the district of his own family temple. Pinned at Kobinata, as the text says.",
+      "story": "Where the whole comic novel comes quietly to rest. Home in Tokyo, Botchan takes a job as a tram engineer and at last keeps house with Kiyo - but within the year she dies of pneumonia, asking only to be buried in his family temple: 'I will be glad to wait in the grave for my Master Darling.'",
+      "quote": "So Kiyo’s grave is in the Yogen temple at Kobinata.",
+      "quoteRef": "ch. XI",
+      "image": {
+        "file": "assets/images/bo-yogen.jpg",
+        "caption": "A Tokyo temple graveyard - the tombs at Sengaku-ji - in an 1868 watercolour, standing in for Kiyo's resting place; she was, the book says, a woman of the old feudal loyalty.",
+        "credit": "Lt James Henry Butt watercolour, 1868 · Royal Museums Greenwich · public domain",
+        "indicative": true
+      }
+    }
+  ],
+  "characters": [
+    {
+      "id": "botchan",
+      "name": "Botchan",
+      "colour": "madder",
+      "role": "The reckless, blunt-honest young Tokyoite of the title (never named), packed off to teach maths in the provinces and unfit, gloriously, to flatter anyone",
+      "start": { "location": "tokyo-home", "chapter": 1 }
+    },
+    {
+      "id": "kiyo",
+      "name": "Kiyo",
+      "colour": "prussian",
+      "role": "The old family servant who alone loves Botchan and is sure he will be great; the fixed star in Tokyo he leaves and returns to",
+      "start": { "location": "tokyo-home", "chapter": 1 }
+    },
+    {
+      "id": "porcupine",
+      "name": "Porcupine",
+      "colour": "bottle",
+      "role": "Hotta, the blunt head of maths - Botchan's one true ally against Red Shirt, who leaves the town at his side",
+      "start": { "location": "matsuyama", "chapter": 5 }
+    }
+  ],
+  "movements": [
+    {
+      "character": ["botchan", "kiyo"],
+      "from": "tokyo-home",
+      "to": "shimbashi",
+      "chapter": 2,
+      "mode": "rickshaw",
+      "days": 0.1,
+      "note": "'We rode in rikishas to the station.' Kiyo, though sick, insists on seeing Botchan off, and comes with him across the city to Shimbashi.",
+      "via": [[139.752, 35.684]],
+      "startDay": 26,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch. I: 'We rode in rikishas to the station' - Kiyo accompanies Botchan to Shimbashi."
+    },
+    {
+      "character": "botchan",
+      "from": "shimbashi",
+      "to": "kobe",
+      "chapter": 3,
+      "mode": "train",
+      "days": 1,
+      "note": "West out of Shimbashi on the Tōkaidō line - the first time Botchan has been beyond Tokyo since a boyhood picnic - looping inland round Mount Fuji at Gotemba and down the coast to Kobe.",
+      "via": [
+        { "at": [139.622, 35.466], "name": "Yokohama", "note": "" },
+        { "at": [139.156, 35.291], "name": "Kozu", "note": "" },
+        { "at": [138.935, 35.308], "name": "Gotemba", "note": "the period inland loop north-east of Mount Fuji; the coastal Atami cut-off did not open until 1934" },
+        { "at": [138.858, 35.106], "name": "Numazu", "note": "" },
+        [138.573, 35.107],
+        { "at": [138.389, 34.972], "name": "Shizuoka", "note": "" },
+        { "at": [137.734, 34.703], "name": "Hamamatsu", "note": "" },
+        { "at": [137.391, 34.763], "name": "Toyohashi", "note": "" },
+        { "at": [137.174, 34.954], "name": "Okazaki", "note": "inland arc round the head of Mikawa Bay" },
+        { "at": [136.882, 35.170], "name": "Nagoya", "note": "" },
+        { "at": [136.756, 35.409], "name": "Gifu", "note": "" },
+        { "at": [136.289, 35.315], "name": "Maibara", "note": "" },
+        [135.960, 35.020],
+        { "at": [135.759, 34.986], "name": "Kyoto", "note": "" },
+        { "at": [135.499, 34.700], "name": "Osaka", "note": "" },
+        [135.350, 34.720]
+      ],
+      "startDay": 30,
+      "routeCertainty": "documented",
+      "routeSource": "Tōkaidō Main Line as built 1889 (the pre-1934 Gotemba routing); the text names Shimbashi and Kobe (ch. I, XI)."
+    },
+    {
+      "character": "botchan",
+      "from": "kobe",
+      "to": "takahama",
+      "chapter": 3,
+      "mode": "ship",
+      "days": 1,
+      "note": "By steamer across the Seto Inland Sea, threading the Akashi Strait, the island-choked Bisan Seto and the narrow Kurushima channel to the Iyo coast - the steamer anchoring off Takahama.",
+      "via": [
+        [135.080, 34.660],
+        { "at": [135.025, 34.613], "name": "Akashi Strait", "note": "the narrow gate between Honshu and Awaji Island" },
+        [134.900, 34.560],
+        [134.650, 34.500],
+        [134.400, 34.470],
+        [134.150, 34.455],
+        { "at": [133.900, 34.415], "name": "the Bisan Seto", "note": "the island-strewn narrows off the Shiwaku group" },
+        [133.600, 34.300],
+        [133.250, 34.150],
+        [133.050, 34.130],
+        { "at": [132.975, 34.115], "name": "the Kurushima Strait", "note": "the fast, narrow channel between Imabari and Ōshima" },
+        [132.830, 33.980],
+        [132.740, 33.900]
+      ],
+      "startDay": 32,
+      "routeCertainty": "reconstructed",
+      "routeSource": "The main east-west Inland Sea shipping lane, c.1906 (the text names no islands, only the steamer); Kobe-Iyo steamer connection that the Takahama pier was built to serve."
+    },
+    {
+      "character": "botchan",
+      "from": "takahama",
+      "to": "matsuyama",
+      "chapter": 4,
+      "mode": "train",
+      "days": 0.1,
+      "note": "The tiny 'match-box' train of the Iyo Railway - three sen, a few minutes - up from the coast through Mitsu and Furumachi into Matsuyama, where he hires a rikisha for the last stretch and takes against the whole place at once.",
+      "via": [
+        { "at": [132.7168, 33.8665], "name": "Mitsu", "note": "the older port, now a stop on the line" },
+        [132.735, 33.855],
+        { "at": [132.7520, 33.8490], "name": "Furumachi", "note": "" }
+      ],
+      "startDay": 44,
+      "routeCertainty": "documented",
+      "routeSource": "Iyo Railway (Takahama Line); the text: 'The coach I got in was about as dignified as a match-box... cost only three sen' (ch. II)."
+    },
+    {
+      "character": "botchan",
+      "from": "matsuyama",
+      "to": "dogo-onsen",
+      "chapter": 6,
+      "mode": "foot",
+      "days": 0.1,
+      "note": "Out east to the hot spring on foot - 'I went there walking, partly for physical exercise, before my supper' - the daily ritual that becomes his one comfort in the town.",
+      "via": [[132.7750, 33.8480]],
+      "startDay": 58,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch. III: 'I decided that I would have a dip every day, and went there walking' - the daily Dōgo bath on foot."
+    },
+    {
+      "character": "botchan",
+      "from": "dogo-onsen",
+      "to": "matsuyama",
+      "chapter": 6,
+      "mode": "foot",
+      "days": 0.1,
+      "note": "And back into town - to the school where his blunt honesty keeps landing him in a losing game.",
+      "via": [[132.7750, 33.8480]],
+      "startDay": 62,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch. III-IV: the daily return from Dōgo to the town and school."
+    },
+    {
+      "character": "botchan",
+      "from": "matsuyama",
+      "to": "turner-island",
+      "chapter": 7,
+      "mode": "ship",
+      "days": 0.2,
+      "note": "Down to the shore and out into Matsuyama Bay in a fishing boat with Red Shirt and the Clown - all Turner-this and Raphael-that, and, underneath it, a plot.",
+      "via": [[132.725, 33.870]],
+      "startDay": 78,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch. V: from the station down to the shore, then the fishing boat out to Aoshima / Turner Island."
+    },
+    {
+      "character": "botchan",
+      "from": "turner-island",
+      "to": "matsuyama",
+      "chapter": 7,
+      "mode": "ship",
+      "days": 0.2,
+      "note": "Back to shore, and back to town, with the Madonna talk half-overheard and a bad taste in his mouth.",
+      "via": [[132.725, 33.870]],
+      "startDay": 82,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch. V: the return from the fishing trip."
+    },
+    {
+      "character": ["botchan", "porcupine"],
+      "from": "matsuyama",
+      "to": "dogo-onsen",
+      "chapter": 10,
+      "mode": "foot",
+      "days": 0.1,
+      "note": "Their patience worn through, Botchan and Porcupine walk out to the springs town at nightfall to lie in wait for Red Shirt, taking an upstairs room at Masuya, across from the inn Kadoya.",
+      "via": [[132.7750, 33.8480]],
+      "startDay": 160,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch. X: the stake-out at Masuya, opposite Kadoya 'at the springs town' (Dōgo)."
+    },
+    {
+      "character": ["botchan", "porcupine"],
+      "from": "dogo-onsen",
+      "to": "takahama",
+      "chapter": 10,
+      "mode": "train",
+      "days": 0.15,
+      "note": "The score settled, they come down through the town and out to the coast on the match-box train for the last time, to the port and the evening steamer.",
+      "via": [
+        { "at": [132.7657, 33.8455], "name": "Matsuyama", "note": "back through the town" },
+        { "at": [132.7520, 33.8490], "name": "Furumachi", "note": "" },
+        { "at": [132.7168, 33.8665], "name": "Mitsu", "note": "" }
+      ],
+      "startDay": 166,
+      "routeCertainty": "documented",
+      "routeSource": "ch. XI: 'That night I and Porcupine left the town'; the Iyo Railway down to the harbour and the Minato-ya inn."
+    },
+    {
+      "character": ["botchan", "porcupine"],
+      "from": "takahama",
+      "to": "kobe",
+      "chapter": 11,
+      "mode": "ship",
+      "days": 1,
+      "note": "'The steamer leaves the harbor at six in the evening.' Back across the Inland Sea to Kobe - and the farther it steams from Shikoku, the more refreshed the two of them feel.",
+      "via": [
+        [132.740, 33.900],
+        [132.830, 33.980],
+        { "at": [132.975, 34.115], "name": "the Kurushima Strait", "note": "" },
+        [133.050, 34.130],
+        [133.250, 34.150],
+        [133.600, 34.300],
+        { "at": [133.900, 34.415], "name": "the Bisan Seto", "note": "" },
+        [134.150, 34.455],
+        [134.400, 34.470],
+        [134.650, 34.500],
+        [134.900, 34.560],
+        { "at": [135.025, 34.613], "name": "Akashi Strait", "note": "" },
+        [135.080, 34.660]
+      ],
+      "startDay": 168,
+      "routeCertainty": "reconstructed",
+      "routeSource": "ch. XI: the return steamer to Kobe (no islands named); reverses the outbound Inland Sea passage."
+    },
+    {
+      "character": ["botchan", "porcupine"],
+      "from": "kobe",
+      "to": "shimbashi",
+      "chapter": 11,
+      "mode": "train",
+      "days": 1,
+      "note": "The through train from Kobe to Shimbashi, and the sweet relief of the city. At the station Botchan parts from Porcupine, and never sees him again.",
+      "via": [
+        [135.350, 34.720],
+        { "at": [135.499, 34.700], "name": "Osaka", "note": "" },
+        { "at": [135.759, 34.986], "name": "Kyoto", "note": "" },
+        { "at": [136.289, 35.315], "name": "Maibara", "note": "" },
+        { "at": [136.882, 35.170], "name": "Nagoya", "note": "" },
+        { "at": [137.391, 34.763], "name": "Toyohashi", "note": "" },
+        { "at": [137.734, 34.703], "name": "Hamamatsu", "note": "" },
+        { "at": [138.389, 34.972], "name": "Shizuoka", "note": "" },
+        { "at": [138.935, 35.308], "name": "Gotemba", "note": "the inland loop, homeward" },
+        { "at": [139.156, 35.291], "name": "Kozu", "note": "" },
+        { "at": [139.622, 35.466], "name": "Yokohama", "note": "" }
+      ],
+      "startDay": 171,
+      "routeCertainty": "documented",
+      "routeSource": "ch. XI: 'From Kobe to Tokyo we boarded a through train and when we made Shimbashi'. Tōkaidō Main Line."
+    },
+    {
+      "character": "kiyo",
+      "from": "shimbashi",
+      "to": "yogen-temple",
+      "chapter": 12,
+      "mode": "foot",
+      "days": 0.2,
+      "note": "Within the year of their life together, Kiyo dies of pneumonia and is laid, as she asked, in Botchan's family temple at Kobinata - to wait in the grave for her Master Darling.",
+      "via": [],
+      "startDay": 410,
+      "routeCertainty": "illustrative",
+      "routeSource": "ch. XI: Kiyo's death and burial 'in the Yogen temple at Kobinata'."
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "chapter": 1,
+      "at": "tokyo-home",
+      "character": "botchan",
+      "title": "a reckless boy",
+      "day": 0,
+      "narration": "Tokyo. Botchan, a reckless boy who once jumped from an upper window on a dare and cut his own thumb to prove a knife sharp, is disliked by his father and brother and loved by exactly one person: Kiyo, the old family servant, who is sure he will be a great man."
+    },
+    {
+      "kind": "journey",
+      "chapter": 2,
+      "from": "tokyo-home",
+      "to": "shimbashi",
+      "character": ["botchan", "kiyo"],
+      "title": "the send-off",
+      "narration": "Graduated and orphaned, he takes a post teaching maths in a town on far-off Shikoku. Kiyo, sick abed, asks only when he will settle and keep house with her, then rides with him by rikisha to Shimbashi and stands on the platform, her eyes full of tears - a small figure as the train pulls out.",
+      "quote": {
+        "text": "She was still there. She looked very small.",
+        "source": "Botchan, ch. I"
+      }
+    },
+    {
+      "kind": "journey",
+      "chapter": 3,
+      "from": "shimbashi",
+      "to": "kobe",
+      "character": "botchan",
+      "title": "out of Tokyo",
+      "narration": "West out of Shimbashi on the Tōkaidō line, the first time he has left Tokyo since a boyhood picnic - inland round Mount Fuji at Gotemba and down the long coast to the port of Kobe."
+    },
+    {
+      "kind": "journey",
+      "chapter": 3,
+      "from": "kobe",
+      "to": "takahama",
+      "character": "botchan",
+      "title": "the Inland Sea",
+      "narration": "Then a steamer, threading the islands of the Seto Inland Sea for the better part of a day, out to the Iyo coast of Shikoku - the town he was bound for looking, on the map, 'the size of a needle-point'."
+    },
+    {
+      "kind": "scene",
+      "chapter": 4,
+      "at": "takahama",
+      "character": "botchan",
+      "title": "a barbarous place",
+      "day": 38,
+      "narration": "The steamer anchors off a fishing village and a near-naked boatman rows him ashore into a glare of sun. 'A barbarous place, this!' he decides on the spot. The school, they tell him, is four miles further off by rail."
+    },
+    {
+      "kind": "journey",
+      "chapter": 4,
+      "from": "takahama",
+      "to": "matsuyama",
+      "character": "botchan",
+      "title": "the match-box train",
+      "narration": "So the last leg is the tiny 'match-box' train of the Iyo Railway - three sen, five minutes - up from the coast through Mitsu into Matsuyama, where he takes against the whole place at once."
+    },
+    {
+      "kind": "scene",
+      "chapter": 5,
+      "at": "matsuyama",
+      "character": "botchan",
+      "title": "the nicknames",
+      "day": 48,
+      "narration": "At the middle school Botchan is far too blunt to flatter anyone, and privately names the staff: the Badger for the sly principal, Red Shirt for the smooth head-teacher, the Clown for his fawning shadow, the Squash for the meek English master. Only the gruff maths head, Porcupine, does he like."
+    },
+    {
+      "kind": "scene",
+      "chapter": 5,
+      "at": "matsuyama",
+      "character": "botchan",
+      "title": "the grasshoppers",
+      "day": 52,
+      "narration": "The boarding students bait him - a bed full of grasshoppers, a night of stamping feet overhead - and at the staff meeting Red Shirt smoothly argues for leniency. Only Porcupine takes Botchan's side, demanding the boys be punished and made to apologise in the open. Here the alliance, and the enmity, are set."
+    },
+    {
+      "kind": "journey",
+      "chapter": 6,
+      "from": "matsuyama",
+      "to": "dogo-onsen",
+      "character": "botchan",
+      "title": "the hot spring",
+      "narration": "His one solace is the daily walk out to the hot spring - the single thing in the whole country he finds worthy of Tokyo, and worth the three miles on foot for a swim before supper."
+    },
+    {
+      "kind": "scene",
+      "chapter": 6,
+      "at": "dogo-onsen",
+      "character": "botchan",
+      "title": "no swimming",
+      "day": 60,
+      "narration": "He takes to swimming lengths up and down the great stone bath - until a notice goes up: 'No swimming allowed in the tank.' He is quietly certain it was posted for him alone."
+    },
+    {
+      "kind": "journey",
+      "chapter": 6,
+      "from": "dogo-onsen",
+      "to": "matsuyama",
+      "character": "botchan",
+      "title": "back to the fray",
+      "narration": "And back on foot into town, and the school, where his own pupils bait him and his honesty keeps landing him, as ever, in a losing game."
+    },
+    {
+      "kind": "journey",
+      "chapter": 7,
+      "from": "matsuyama",
+      "to": "turner-island",
+      "character": "botchan",
+      "title": "the fishing trip",
+      "narration": "Red Shirt invites him fishing, and has him rowed out into the bay with the Clown - a boatful of oily talk about Turner and Raphael over one lone pine on a rock."
+    },
+    {
+      "kind": "scene",
+      "chapter": 7,
+      "at": "turner-island",
+      "character": "botchan",
+      "title": "Turner Island",
+      "day": 80,
+      "narration": "The Clown proposes they name the rock 'Turner Island', and Red Shirt agrees; Botchan finds it vulgar. And beneath the art-talk, something oilier: the pair murmuring about 'the Madonna', a name he does not yet understand but already mistrusts."
+    },
+    {
+      "kind": "journey",
+      "chapter": 7,
+      "from": "turner-island",
+      "to": "matsuyama",
+      "character": "botchan",
+      "title": "ashore",
+      "narration": "He is rowed back to shore and returns to town with the half-heard talk, and the two smooth men, sitting badly with him."
+    },
+    {
+      "kind": "scene",
+      "chapter": 8,
+      "at": "matsuyama",
+      "character": "botchan",
+      "title": "the Madonna and the Squash",
+      "day": 120,
+      "narration": "It comes clear soon enough. Red Shirt eases the honest Squash out to a far-off post, the better to take his fiancée the Madonna for himself, and dresses the whole manoeuvre up as kindness. Botchan and Porcupine seethe, and resolve to have it out with him."
+    },
+    {
+      "kind": "scene",
+      "chapter": 9,
+      "at": "matsuyama",
+      "character": "botchan",
+      "title": "the victory festival",
+      "day": 150,
+      "narration": "At the town's victory celebration a brawl erupts between the middle-school and the normal-school students, and Red Shirt's faction slyly sees to it that Botchan and Porcupine take the blame. The trap is closing on the two honest men."
+    },
+    {
+      "kind": "journey",
+      "chapter": 10,
+      "from": "matsuyama",
+      "to": "dogo-onsen",
+      "character": ["botchan", "porcupine"],
+      "title": "the stake-out",
+      "narration": "Their patience worn through, the two walk out to the springs town at nightfall and take an upstairs room across from Kadoya - the inn where Red Shirt keeps his geisha - and settle down to watch."
+    },
+    {
+      "kind": "scene",
+      "chapter": 10,
+      "at": "dogo-onsen",
+      "character": "botchan",
+      "title": "the ambush",
+      "day": 163,
+      "narration": "Before dawn the pair catch Red Shirt and the Clown slipping out of Kadoya, and on the cedar-lined road out of the springs town thrash them both. Then, the point made at last, Botchan and Porcupine hand in their resignations and are done with the school for good."
+    },
+    {
+      "kind": "journey",
+      "chapter": 10,
+      "from": "dogo-onsen",
+      "to": "takahama",
+      "character": ["botchan", "porcupine"],
+      "title": "leaving the country",
+      "narration": "That same day, down through the town and out to the coast on the match-box train for the last time, to the harbour and the evening steamer."
+    },
+    {
+      "kind": "journey",
+      "chapter": 11,
+      "from": "takahama",
+      "to": "kobe",
+      "character": ["botchan", "porcupine"],
+      "title": "the steamer home",
+      "narration": "'The steamer leaves the harbor at six.' Back across the Inland Sea to Kobe - and the farther the vessel steams from Shikoku, the more refreshed the two of them feel."
+    },
+    {
+      "kind": "journey",
+      "chapter": 11,
+      "from": "kobe",
+      "to": "shimbashi",
+      "character": ["botchan", "porcupine"],
+      "title": "congenial society",
+      "narration": "The through train from Kobe to Shimbashi, and the relief of the city closing round them. At the station Botchan parts from Porcupine, and never sets eyes on him again."
+    },
+    {
+      "kind": "scene",
+      "chapter": 11,
+      "at": "shimbashi",
+      "character": "botchan",
+      "title": "home to Kiyo",
+      "day": 185,
+      "narration": "He rushes straight to Kiyo, valise still in hand - 'Hello, Kiyo, I'm back!' She weeps for joy. He gives up the country for good, takes a modest job as a tram engineer, and at last keeps house with her. The great future she always promised him has come to this, and it is enough."
+    },
+    {
+      "kind": "removal",
+      "chapter": 12,
+      "from": "shimbashi",
+      "to": "yogen-temple",
+      "character": "kiyo",
+      "title": "Kiyo's grave",
+      "narration": "Within the year Kiyo dies of pneumonia. She asks only to be buried in his family temple, and to wait for him there; and so Kiyo's grave is in the Yogen temple at Kobinata - the last quiet word of a comic novel that was, all along, a love story.",
+      "quote": {
+        "text": "I will be glad to wait in the grave for my Master Darling.",
+        "source": "Botchan, ch. XI"
+      }
+    }
+  ]
+}

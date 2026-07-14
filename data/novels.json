@@ -454,5 +454,17 @@
       "cloth": "#a9762f",
       "text": "#f0e2c0"
     }
+  },
+  {
+    "id": "botchan",
+    "title": "Botchan",
+    "author": "Natsume Sōseki",
+    "year": 1906,
+    "file": "data/botchan.json",
+    "blurb": "A hot-headed young Tokyoite, too honest to flatter anyone and loved only by his family’s old servant Kiyo, is packed off to teach maths at a middle school in a sleepy Shikoku town. There he wages a losing comic war on the smooth headmaster he nicknames Red Shirt, thrashes him and resigns, and goes home to Tokyo - and to Kiyo, on whose grave the book quietly ends. Sōseki’s short, beloved comedy, which turns out all along to have been a love story.",
+    "spine": {
+      "cloth": "#2f3d4d",
+      "text": "#d6c9ad"
+    }
   }
 ]
