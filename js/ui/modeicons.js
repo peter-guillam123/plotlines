@@ -53,6 +53,17 @@ const ICONS = {
     '<path d="M11.1 7.5 13 6.2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>' +
     '<path d="M3.4 7.5 1.3 6.3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>' +
     '<path d="M5.1 7.7 4.1 9.8M10.1 7.7l1 2.1" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>',
+  // jinrikisha (rickshaw): a big spoked wheel, a hooded passenger seat, and
+  // two shafts running forward to the ground with no horse — a man-pulled cart.
+  // Botchan rides them round the provincial town (Botchan); distinct from the
+  // coach (horse-drawn body) and the jaunting car (seat over one wheel).
+  rickshaw:
+    '<circle cx="10" cy="10.8" r="2.5" fill="none" stroke="currentColor" stroke-width="1.2"/>' +
+    '<circle cx="10" cy="10.8" r="0.5" fill="currentColor"/>' +
+    '<path d="M7 10V7.2h4v3" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>' +
+    '<path d="M7 7.2C7 4.6 9.4 4.4 11 5.4" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>' +
+    '<path d="M7 8.4 1.6 10.6" stroke="currentColor" stroke-width="1.15" stroke-linecap="round"/>' +
+    '<path d="M7 9.7 1.9 12" stroke="currentColor" stroke-width="1.15" stroke-linecap="round"/>',
   // steam locomotive: cab, boiler, a flared chimney with smoke, wheels
   train:
     '<path d="M2 11h11.4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>' +
@@ -138,6 +149,7 @@ const PHRASE = {
   omnibus: 'by omnibus',
   tram: 'by tram',
   jaunting: 'by jaunting car',
+  rickshaw: 'by rickshaw',
   motor: 'by motor-car',
   train: 'by train',
   ship: 'by ship',
