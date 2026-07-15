@@ -2005,11 +2005,15 @@ body.is-overture #captions { display: none !important; }
     max-width: none;
     gap: 6px;
   }
-  html.touch .story-body { padding: 6px 14px 5px; }
-  html.touch .story-title { font-size: 17px; margin-top: 1px; }
-  html.touch .story-narration { font-size: 14px; line-height: 1.35; margin: 3px 0 0; }
-  html.touch .story-kicker { font-size: 11px; }
-  html.touch .story-progress { margin-top: 3px; }
+  html.touch .story-body { padding: 7px 16px 8px; }
+  html.touch .story-title { font-size: 16px; margin-top: 0; }
+  html.touch .story-narration { font-size: 13.5px; line-height: 1.32; margin: 2px 0 0; }
+  /* drop the two rows the transport bar already carries - the time/chapter
+     kicker (repeated on the scrubber) and the "N of M" counter (the slider) -
+     so the strip stays down at the foot and frees the map above it. The
+     character is shown by the moving marker; the chapter, by the scrubber. */
+  html.touch .story-kicker,
+  html.touch .story-progress { display: none; }
 }
 
 /* landscape phone — the library shelf must fit a ~390px height, not run off
