@@ -193,5 +193,10 @@
     "distanceKm": 1587,
     "spanDays": 400,
     "spanLabel": "about a year"
+  },
+  "three-kingdoms": {
+    "distanceKm": 10756,
+    "spanDays": 35040,
+    "spanLabel": "a century"
   }
 }
