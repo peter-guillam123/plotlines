@@ -2057,10 +2057,20 @@ body.is-overture #captions { display: none !important; }
   html.touch .maplibregl-ctrl-attrib { font-size: 9px; line-height: 1.25; padding: 0 4px; }
 
   /* DURING A JOURNEY (not the overture): give the map the whole screen —
-     drop the title/cast pane and the map toggle, offer a back button that
-     returns to the top-level view (the overture, with the pane and cast) */
-  html.touch body:not(.is-overture) #rail,
-  html.touch body:not(.is-overture) .settings-pane { display: none; }
+     drop the title/cast pane, offer a back button that returns to the
+     top-level view (the overture, with the pane and cast). The settings cog
+     stays LIVE here: this is where the map is full-screen and the 1890s
+     slider is worth reaching, so its pane must open (it used to be force-
+     hidden, which left the cog looking dead). The OVERTURE hides the cog
+     instead, below, because the framing card covers the corner it sits in. */
+  html.touch body:not(.is-overture) #rail { display: none; }
+  /* the pane opens upward from the cog; on a short phone a tall pane (a British
+     book carries the 1890s slider too) could run off the top - bound it so it
+     always fits and scrolls within the visible area instead. */
+  html.touch body:not(.is-overture) .settings-pane {
+    max-height: calc(100dvh - 140px);
+    overflow-y: auto;
+  }
   html.touch body:not(.is-overture) #mobile-stop {
     display: flex; align-items: center; justify-content: center;
     position: absolute; z-index: 12;
@@ -2091,4 +2101,9 @@ body.is-overture #captions { display: none !important; }
   }
   /* keep the nav above the card even if a future layout makes them touch */
   html.touch body.is-overture #rail { z-index: 21; }
+
+  /* the cog lives bottom-right, exactly where the framing card is docked, so a
+     tap there lands on the card, not the cog. Hide it at the overture; it comes
+     back for the journey, where the map is full-screen and it can be tapped. */
+  html.touch body.is-overture .settings-fab { display: none; }
 }
