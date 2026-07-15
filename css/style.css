@@ -1326,7 +1326,8 @@ body.is-overture #storycard { display: none !important; }
   position: absolute;
   right: 10px;
   bottom: 84px; /* clears the floating transport bar (~71px) */
-  z-index: 5;
+  z-index: 15; /* above the story card (11) and mobile back button (12), so the
+                  full-width caption strip can't swallow the tap */
   margin: 0;
 }
 /* Beat MapLibre's own `.maplibregl-ctrl-group button` rule (more specific
@@ -1347,7 +1348,7 @@ body.is-overture #storycard { display: none !important; }
   position: absolute;
   right: 10px;
   bottom: 122px; /* above the cog (84 + 29 + gap) */
-  z-index: 6;
+  z-index: 16; /* sit the open pane above the story card and controls, never behind */
   width: 246px;
   max-width: calc(100vw - 20px);
   background: var(--paper-bright);
@@ -1997,7 +1998,7 @@ body.is-overture #captions { display: none !important; }
 @media (orientation: landscape) and (max-height: 560px) {
   html.touch #storycard {
     left: calc(env(safe-area-inset-left) + 8px);
-    right: calc(env(safe-area-inset-right) + 8px);
+    right: calc(env(safe-area-inset-right) + 48px); /* clear the cog's column */
     bottom: calc(env(safe-area-inset-bottom) + 74px);
     transform: none;
     width: auto;
