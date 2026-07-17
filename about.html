@@ -176,6 +176,41 @@
     <section>
       <h2>Diary</h2>
 
+      <h3>17 July 2026, last thing - what the gates were letting through</h3>
+      <p>Two days of finding lies on the map raises an obvious question: why did
+      none of the checks catch any of it? Mostly they couldn’t, and that is worth
+      writing down honestly rather than quietly bolting on a gate and claiming
+      the problem is solved.</p>
+      <p>The one that could be fixed properly is the spill detector, which
+      flags a leg drawn across the wrong medium - a train over the sea, a ship
+      over land. It was only ever a warning, and so a spill in The Call of the
+      Wild went unread from the day that book shipped. It is an error now. A
+      book with a spill does not ship.</p>
+      <p>Except the Call of the Wild spill turned out not to be a spill. Buck’s
+      Inside Passage is drawn correctly, with twenty waypoints down the real
+      Klondike steamer track. The problem is that the detector samples against a
+      coarse world map, and the Inside Passage threads channels far narrower
+      than it can see: Seymour Narrows is about seven hundred and fifty metres
+      wide. At that scale Vancouver Island is welded to the mainland and the
+      whole sheltered run reads as overland. No number of waypoints can fix
+      water that isn’t on the map you’re checking against. So that leg is now
+      formally excused, and excusing a leg costs a written reason, because a
+      hidden escape hatch next to a hard error is just a quiet way to make real
+      lies go away.</p>
+      <p>The clock bug got a guard rather than a gate, and the distinction
+      matters. Anything dated after the end of the clock used to be silently
+      squashed onto the last instant, which is how thirteen character exits came
+      to fire never. That is fixed at the root now, so the check that watches
+      for it always passes. It is there for the next person who adds a dated
+      field and forgets, which is precisely what happened the first time.</p>
+      <p>And one thing we decided not to gate. It is tempting to insist every
+      beat play under its own chapter, since that is exactly what Three Kingdoms
+      got wrong. But forty-nine beats across the shelf already disagree with
+      their chapter, and nearly all of them are meant to: Frankenstein’s
+      creature tells his story in flashback, Ulysses runs its two mornings in
+      parallel. The disagreement is the storytelling. A rule that forbade it
+      would have banned the books.</p>
+
       <h3>17 July 2026, later - the journeys home <span class="diary-milestone">milestone</span></h3>
       <p>The other half of the lie, and the harder half. Yesterday’s pass gave
       characters a way to <em>leave</em> a book. But some discs were parked in
