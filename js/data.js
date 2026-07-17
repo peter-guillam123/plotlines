@@ -229,6 +229,16 @@ function validate(novel, file) {
     if (m.routeCertainty && !m.routeSource) {
       console.warn(`${file}: ${m.from}->${m.to} has routeCertainty "${m.routeCertainty}" but no routeSource`);
     }
+    // `spillOk` switches off the wrong-medium detector for one leg. That check
+    // is an error now, not a warning, which makes this flag the lazy way to
+    // silence a real lie - so it costs a written reason, like an imageBlank
+    // does. The reason must be about the DETECTOR being wrong (a channel too
+    // narrow for the coarse land polygon to see, a leg the book itself draws as
+    // a gesture), never about the route being wrong. If the line is wrong, fix
+    // the line. See docs/ADDING-A-NOVEL.md §3.
+    if (m.spillOk && !(typeof m.spillNote === 'string' && m.spillNote.trim())) {
+      fail(file, `${m.from}->${m.to} sets spillOk but no "spillNote" saying why the spill detector is wrong here — an opt-out is a claim, and it gets sourced like any other`, m);
+    }
   }
 
   // The story script (scripted story mode): every beat must reference the

@@ -40,7 +40,11 @@ Gold-standard exemplars to match: `data/dracula.json` (dataset shape) and
    unreadable text, silent rewinds, uncovered movements, scene-vs-map
    contradictions, and route spills (a leg drawn across the wrong medium —
    a train over the sea, a ship over land; fix with `via` points or a
-   `river`/`canal` medium tag).
+   `river`/`canal` medium tag). **A spill is an error**, not a warning: it is
+   a plain lie on the map, and as a warning one went unread in The Call of the
+   Wild from the day it shipped. Where the *detector* is wrong rather than the
+   route (a channel narrower than its coarse polygon can see), `spillOk` opts
+   one leg out and costs a written `spillNote` — see ADDING-A-NOVEL §3.
 3. **The text-vs-map check passes.** A reviewer reads every beat's narration
    against the route the map will actually draw (mode, land/sea, named
    places, direction, scene placement, shared-vs-solo) and reports

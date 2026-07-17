@@ -40,8 +40,14 @@
   ],
   "mapHome": {
     "bounds": [
-      [11, -7],
-      [26.5, 3]
+      [
+        11,
+        -7
+      ],
+      [
+        26.5,
+        3
+      ]
     ]
   },
   "chapters": [
@@ -171,7 +177,10 @@
       "region": "europe",
       "name": "The Sea Reach of the Thames, off Gravesend",
       "novelName": "the sea-reach of the Thames",
-      "coords": [0.44, 51.45],
+      "coords": [
+        0.44,
+        51.45
+      ],
       "certainty": "real",
       "note": "The cruising yawl Nellie swings to her anchor in the Lower Hope, off Gravesend, waiting for the turn of the tide; the exact spot is Conrad's to keep, but the reach is named.",
       "story": "Where the whole tale is told. Five old friends aboard a yawl wait for the tide to turn on the Thames estuary, and Marlow - a seaman still, sitting cross-legged like an idol - begins the story of the one voyage that marked him. 'And this also,' he says, looking at London's glow, 'has been one of the dark places of the earth.'",
@@ -188,7 +197,10 @@
       "region": "europe",
       "name": "London",
       "novelName": "London",
-      "coords": [-0.09, 51.51],
+      "coords": [
+        -0.09,
+        51.51
+      ],
       "certainty": "real",
       "note": "The tale is framed on the Thames estuary, but it begins in London: Marlow, home from the sea and restless, waits out the Company appointment his aunt's connections secure before he crosses to Brussels to sign on.",
       "story": "Home from the sea and out of a ship, Marlow loafs about London until his aunt's Continental connections land him the Company's appointment - skipper of a river steamboat - and a summons to Brussels to sign the contract.",
@@ -205,7 +217,10 @@
       "region": "europe",
       "name": "Brussels",
       "novelName": "the sepulchral city",
-      "coords": [4.3517, 50.8503],
+      "coords": [
+        4.3517,
+        50.8503
+      ],
       "certainty": "identified",
       "note": "Conrad never names it, but the Company's headquarters is Brussels - the seat of the Société Anonyme Belge pour le Commerce du Haut-Congo, which employed him in 1890. 'A whited sepulchre' is the identification the text all but signs.",
       "story": "The Company's city, where Marlow signs the contract. In the waiting-room two women knit black wool, guarding the door; a doctor measures his skull 'in the interests of science' and asks, mildly, whether there has been madness in his family. Everything here forebodes.",
@@ -222,7 +237,10 @@
       "region": "europe",
       "name": "Bordeaux",
       "novelName": "a French steamer",
-      "coords": [-0.57, 44.84],
+      "coords": [
+        -0.57,
+        44.84
+      ],
       "certainty": "conjectured",
       "note": "Best guess for the embarkation. The novel names only 'a French steamer' that calls at every port down the coast; Conrad himself sailed from Bordeaux in May 1890, and a French colonial mail-boat would leave from there.",
       "story": "The French Atlantic port where Marlow takes ship for Africa - down to the coast to join the steamer that will carry him a month south, past a coast like an enigma.",
@@ -240,7 +258,10 @@
       "region": "lower-congo",
       "name": "Boma, near the mouth of the Congo",
       "novelName": "the mouth of the big river",
-      "coords": [13.054, -5.851],
+      "coords": [
+        13.054,
+        -5.851
+      ],
       "certainty": "identified",
       "note": "The estuary landfall. Conrad's own ship, the Ville de Maçeio, landed him near here; the text calls it only the mouth of the big river.",
       "story": "The mouth of the great river, thirty days down the coast. From here the Company's launches work up the last navigable reach to the first station - the ocean voyage over, the true descent about to begin.",
@@ -253,7 +274,10 @@
       "region": "lower-congo",
       "name": "Matadi, at the head of ocean navigation",
       "novelName": "the Company's station",
-      "coords": [13.463, -5.839],
+      "coords": [
+        13.463,
+        -5.839
+      ],
       "certainty": "identified",
       "note": "The Outer or Lower Station, below the first cataracts, where ocean navigation ends and Conrad's Congo Diary begins. Identified as Matadi from the diary and the railway then being cut inland.",
       "story": "The Outer Station: a railway being blasted into the hillside to no clear purpose, boilers rusting in the grass. And in a shade off the path, the grove where the used-up labourers of the Company have crawled away to die. The book's moral centre, met in its first pages.",
@@ -266,7 +290,10 @@
       "region": "the-river",
       "name": "Léopoldville (Kinshasa), on Stanley Pool",
       "novelName": "the Central Station",
-      "coords": [15.3, -4.3],
+      "coords": [
+        15.3,
+        -4.3
+      ],
       "certainty": "identified",
       "note": "The Central Station on the great pool where the river becomes navigable again above the cataracts - Léopoldville, today Kinshasa. Marlow finds his command sunk here and waits.",
       "story": "The Central Station, at the head of the two-hundred-mile portage. Marlow arrives to find his steamboat at the bottom of the river, and spends weeks fishing it up and patching it while the agents intrigue for advancement - and here he first hears the name Kurtz: the best agent the Company has, alone up-river, gone quiet.",
@@ -279,7 +306,10 @@
       "region": "the-river",
       "name": "The river below the Inner Station",
       "novelName": "eight miles below the station",
-      "coords": [24.95, 0.54],
+      "coords": [
+        24.95,
+        0.54
+      ],
       "certainty": "conjectured",
       "note": "Best guess. The text places the blinding fog and the attack about eight miles below Kurtz's station; no exact spot is given. Pinned just downstream of Stanley Falls.",
       "story": "Where the river turns deadly. A dense white fog halts the steamer at dawn; then, in the last miles below the station, arrows come out of the silent bank, and the African helmsman is killed at Marlow's feet - the price of the approach to Kurtz.",
@@ -292,7 +322,10 @@
       "region": "the-river",
       "name": "Stanley Falls (Kisangani), the Inner Station",
       "novelName": "the Inner Station",
-      "coords": [25.191, 0.515],
+      "coords": [
+        25.191,
+        0.515
+      ],
       "certainty": "identified",
       "note": "The innermost station, at the great falls that were the limit of navigation - Stanley Falls, today Kisangani, and the furthest point Conrad himself reached in 1890.",
       "story": "Kurtz's station, at the head of the navigable river: a ruined house, a broken fence, and fence-posts topped with human heads turned inward. A mad Russian in harlequin patches keeps the last of the ivory and the last of Kurtz's genius. The wilderness had found the man out early, and taken him for its own.",
@@ -305,7 +338,10 @@
       "region": "the-river",
       "name": "The head of an island, down-river",
       "novelName": "the head of an island",
-      "coords": [22.1, 2.15],
+      "coords": [
+        22.1,
+        2.15
+      ],
       "certainty": "conjectured",
       "note": "Author-withheld. Kurtz dies on the down-river passage when the steamer breaks down 'at the head of an island'; Conrad names no place. Pinned, conjecturally, on the great northward bend below Basoko.",
       "story": "Where Kurtz dies. Carried down-stream on a stretcher, his life going out with the brown current, he sums up everything he has seen and done and been in a whisper - 'The horror! The horror!' - and is gone. They bury something in a muddy hole, and the steamer goes on.",
@@ -324,9 +360,30 @@
       "startDay": 1,
       "days": 1,
       "via": [
-        { "at": [1.31, 51.13], "name": "Dover", "note": "down to the coast for the Channel packet" },
-        { "at": [1.85, 50.96], "name": "Calais", "note": "across the Straits into France" },
-        { "at": [3.06, 50.63], "name": "Lille", "note": "up through French Flanders" }
+        {
+          "at": [
+            1.31,
+            51.13
+          ],
+          "name": "Dover",
+          "note": "down to the coast for the Channel packet"
+        },
+        {
+          "at": [
+            1.85,
+            50.96
+          ],
+          "name": "Calais",
+          "note": "across the Straits into France"
+        },
+        {
+          "at": [
+            3.06,
+            50.63
+          ],
+          "name": "Lille",
+          "note": "up through French Flanders"
+        }
       ],
       "routeNote": "The boat-train to the Continent - down to Dover, the packet across the Straits to Calais, and on by rail through Lille to Brussels.",
       "routeSource": "The standard 1890 London–Brussels boat-train, Dover–Calais.",
@@ -342,7 +399,14 @@
       "startDay": 4,
       "days": 1,
       "via": [
-        { "at": [2.35, 48.86], "name": "Paris", "note": "down through France to the Atlantic coast" }
+        {
+          "at": [
+            2.35,
+            48.86
+          ],
+          "name": "Paris",
+          "note": "down through France to the Atlantic coast"
+        }
       ],
       "routeNote": "By rail down through France to the Atlantic port of embarkation.",
       "routeSource": "Reconstructs the overland leg to the French steamer; the novel skips it.",
@@ -358,15 +422,73 @@
       "startDay": 5,
       "days": 28,
       "via": [
-        { "at": [-9.6, 43.0], "name": "out of Biscay" },
-        { "at": [-16.5, 28.3], "name": "Tenerife", "note": "coaling at the Canaries" },
-        { "at": [-17.8, 14.5], "name": "off Cap-Vert", "note": "past Dakar" },
-        { "at": [-15.0, 8.5], "name": "the Guinea coast" },
-        { "at": [-8.0, 3.8], "name": "Cape Palmas", "note": "into the Gulf of Guinea" },
-        { "at": [3.0, 2.5], "name": "the Bight" },
-        { "at": [8.5, -2.0], "name": "off Gabon" },
-        { "at": [11.6, -6.1], "name": "closing the coast" },
-        { "at": [12.42, -6.0], "name": "Banana", "note": "at the mouth" }
+        {
+          "at": [
+            -9.6,
+            43.0
+          ],
+          "name": "out of Biscay"
+        },
+        {
+          "at": [
+            -16.5,
+            28.3
+          ],
+          "name": "Tenerife",
+          "note": "coaling at the Canaries"
+        },
+        {
+          "at": [
+            -17.8,
+            14.5
+          ],
+          "name": "off Cap-Vert",
+          "note": "past Dakar"
+        },
+        {
+          "at": [
+            -15.0,
+            8.5
+          ],
+          "name": "the Guinea coast"
+        },
+        {
+          "at": [
+            -8.0,
+            3.8
+          ],
+          "name": "Cape Palmas",
+          "note": "into the Gulf of Guinea"
+        },
+        {
+          "at": [
+            3.0,
+            2.5
+          ],
+          "name": "the Bight"
+        },
+        {
+          "at": [
+            8.5,
+            -2.0
+          ],
+          "name": "off Gabon"
+        },
+        {
+          "at": [
+            11.6,
+            -6.1
+          ],
+          "name": "closing the coast"
+        },
+        {
+          "at": [
+            12.42,
+            -6.0
+          ],
+          "name": "Banana",
+          "note": "at the mouth"
+        }
       ],
       "routeNote": "A month down the Atlantic coast of Africa on a French mail-steamer - Tenerife, Dakar, past Cape Palmas into the Gulf of Guinea, and south to the mouth of the Congo.",
       "routeSource": "The French colonial coastal mail route to the Congo, c.1890; Conrad's own passage.",
@@ -383,13 +505,34 @@
       "startDay": 33,
       "days": 1,
       "via": [
-        [13.1843, -5.8563],
-        [13.2688, -5.8635],
-        [13.3421, -5.8905],
-        [13.3799, -5.8563],
-        [13.4137, -5.8456],
-        [13.4247, -5.8037],
-        [13.4656, -5.7943]
+        [
+          13.1843,
+          -5.8563
+        ],
+        [
+          13.2688,
+          -5.8635
+        ],
+        [
+          13.3421,
+          -5.8905
+        ],
+        [
+          13.3799,
+          -5.8563
+        ],
+        [
+          13.4137,
+          -5.8456
+        ],
+        [
+          13.4247,
+          -5.8037
+        ],
+        [
+          13.4656,
+          -5.7943
+        ]
       ],
       "routeNote": "Up the last navigable water of the lower Congo to the head of ocean navigation at Matadi.",
       "routeSource": "The lower Congo below the cataracts.",
@@ -405,8 +548,22 @@
       "startDay": 40,
       "days": 15,
       "via": [
-        { "at": [14.02, -5.7], "name": "Songololo", "note": "up from the river into the hills" },
-        { "at": [14.4, -4.89], "name": "Manyanga", "note": "the Congo-side post where the caravans rested" }
+        {
+          "at": [
+            14.02,
+            -5.7
+          ],
+          "name": "Songololo",
+          "note": "up from the river into the hills"
+        },
+        {
+          "at": [
+            14.4,
+            -4.89
+          ],
+          "name": "Manyanga",
+          "note": "the Congo-side post where the caravans rested"
+        }
       ],
       "routeNote": "The two-hundred-mile foot-track around the unnavigable cataracts - up by Songololo and the river-crossing at Manyanga to Stanley Pool. The Matadi–Léopoldville railway later followed this line.",
       "routeSource": "Conrad's Congo Diary (the overland march, June–August 1890); the caravan corridor later taken by the 1898 railway.",
@@ -423,56 +580,223 @@
       "startDay": 70,
       "days": 44,
       "via": [
-        [15.2749, -4.3002],
-        [15.4584, -4.2137],
-        [15.5486, -4.0461],
-        [15.8437, -3.9653],
-        [15.9118, -3.9172],
-        [16.2202, -3.3315],
-        [16.227, -3.2897],
-        [16.1929, -3.2382],
-        [16.1765, -2.8823],
-        [16.2251, -2.6351],
-        [16.1743, -2.3029],
-        { "at": [16.2063, -2.1607], "name": "Bolobo" },
-        [16.5134, -1.8872],
-        [16.6037, -1.7538],
-        [16.6358, -1.6206],
-        [16.8325, -1.269],
-        [17.022, -1.097],
-        { "at": [17.2971, -1.0209], "name": "Lukolela" },
-        [17.3644, -0.9671],
-        [17.6637, -0.6126],
-        [18.0783, -0.1987],
-        [18.1492, -0.0895],
-        [18.2522, 0.1971],
-        [18.3909, 0.8894],
-        [18.5712, 1.1065],
-        { "at": [19.1428, 1.5736], "name": "the Bangala station", "note": "Nouvelle-Anvers" },
-        [19.9184, 1.8933],
-        [20.155, 1.9614],
-        [20.3032, 1.9542],
-        [20.4473, 1.9928],
-        [20.9075, 2.0169],
-        [21.2068, 2.0058],
-        [21.3444, 2.0915],
-        [21.5967, 2.1481],
-        [22.0928, 2.1874],
-        { "at": [22.4977, 2.1516], "name": "Bumba" },
-        [22.7146, 1.9589],
-        [22.9534, 1.9047],
-        [23.0454, 1.8477],
-        [23.1843, 1.643],
-        [23.4379, 1.3913],
-        { "at": [23.5991, 1.1732], "name": "Basoko", "note": "at the mouth of the Aruwimi" },
-        [23.7719, 1.0862],
-        [23.9099, 1.0745],
-        [24.1401, 0.9711],
-        [24.2112, 0.9134],
-        [24.3207, 0.7445],
-        [24.5208, 0.7472],
-        [24.7432, 0.5895],
-        [24.9513, 0.5389]
+        [
+          15.2749,
+          -4.3002
+        ],
+        [
+          15.4584,
+          -4.2137
+        ],
+        [
+          15.5486,
+          -4.0461
+        ],
+        [
+          15.8437,
+          -3.9653
+        ],
+        [
+          15.9118,
+          -3.9172
+        ],
+        [
+          16.2202,
+          -3.3315
+        ],
+        [
+          16.227,
+          -3.2897
+        ],
+        [
+          16.1929,
+          -3.2382
+        ],
+        [
+          16.1765,
+          -2.8823
+        ],
+        [
+          16.2251,
+          -2.6351
+        ],
+        [
+          16.1743,
+          -2.3029
+        ],
+        {
+          "at": [
+            16.2063,
+            -2.1607
+          ],
+          "name": "Bolobo"
+        },
+        [
+          16.5134,
+          -1.8872
+        ],
+        [
+          16.6037,
+          -1.7538
+        ],
+        [
+          16.6358,
+          -1.6206
+        ],
+        [
+          16.8325,
+          -1.269
+        ],
+        [
+          17.022,
+          -1.097
+        ],
+        {
+          "at": [
+            17.2971,
+            -1.0209
+          ],
+          "name": "Lukolela"
+        },
+        [
+          17.3644,
+          -0.9671
+        ],
+        [
+          17.6637,
+          -0.6126
+        ],
+        [
+          18.0783,
+          -0.1987
+        ],
+        [
+          18.1492,
+          -0.0895
+        ],
+        [
+          18.2522,
+          0.1971
+        ],
+        [
+          18.3909,
+          0.8894
+        ],
+        [
+          18.5712,
+          1.1065
+        ],
+        {
+          "at": [
+            19.1428,
+            1.5736
+          ],
+          "name": "the Bangala station",
+          "note": "Nouvelle-Anvers"
+        },
+        [
+          19.9184,
+          1.8933
+        ],
+        [
+          20.155,
+          1.9614
+        ],
+        [
+          20.3032,
+          1.9542
+        ],
+        [
+          20.4473,
+          1.9928
+        ],
+        [
+          20.9075,
+          2.0169
+        ],
+        [
+          21.2068,
+          2.0058
+        ],
+        [
+          21.3444,
+          2.0915
+        ],
+        [
+          21.5967,
+          2.1481
+        ],
+        [
+          22.0928,
+          2.1874
+        ],
+        {
+          "at": [
+            22.4977,
+            2.1516
+          ],
+          "name": "Bumba"
+        },
+        [
+          22.7146,
+          1.9589
+        ],
+        [
+          22.9534,
+          1.9047
+        ],
+        [
+          23.0454,
+          1.8477
+        ],
+        [
+          23.1843,
+          1.643
+        ],
+        [
+          23.4379,
+          1.3913
+        ],
+        {
+          "at": [
+            23.5991,
+            1.1732
+          ],
+          "name": "Basoko",
+          "note": "at the mouth of the Aruwimi"
+        },
+        [
+          23.7719,
+          1.0862
+        ],
+        [
+          23.9099,
+          1.0745
+        ],
+        [
+          24.1401,
+          0.9711
+        ],
+        [
+          24.2112,
+          0.9134
+        ],
+        [
+          24.3207,
+          0.7445
+        ],
+        [
+          24.5208,
+          0.7472
+        ],
+        [
+          24.7432,
+          0.5895
+        ],
+        [
+          24.9513,
+          0.5389
+        ]
       ],
       "routeNote": "Two months up the navigable Congo above Stanley Pool - Bolobo, Lukolela, the Bangala station, Bumba and Basoko - a thousand miles into the interior.",
       "routeSource": "The course of the middle and upper Congo, with the Free State posts Conrad passed aboard the Roi des Belges, 1890.",
@@ -490,10 +814,22 @@
       "days": 2,
       "note": "The last eight miles up to the Inner Station, past the reeds the arrows came from.",
       "via": [
-        [24.9513, 0.5389],
-        [25.0333, 0.5585],
-        [25.137, 0.5091],
-        [25.1832, 0.503]
+        [
+          24.9513,
+          0.5389
+        ],
+        [
+          25.0333,
+          0.5585
+        ],
+        [
+          25.137,
+          0.5091
+        ],
+        [
+          25.1832,
+          0.503
+        ]
       ]
     },
     {
@@ -509,24 +845,78 @@
       "startDay": 140,
       "days": 6,
       "via": [
-        [25.1832, 0.503],
-        [25.0333, 0.5585],
-        [24.9336, 0.5386],
-        [24.7726, 0.5784],
-        [24.5208, 0.7472],
-        [24.3207, 0.7445],
-        [24.2112, 0.9134],
-        [24.1401, 0.9711],
-        [23.9099, 1.0745],
-        [23.7719, 1.0862],
-        [23.5991, 1.1732],
-        [23.4379, 1.3913],
-        [23.1843, 1.643],
-        [23.0361, 1.8538],
-        [22.9534, 1.9047],
-        [22.7146, 1.9589],
-        [22.5086, 2.1491],
-        [22.0928, 2.1874]
+        [
+          25.1832,
+          0.503
+        ],
+        [
+          25.0333,
+          0.5585
+        ],
+        [
+          24.9336,
+          0.5386
+        ],
+        [
+          24.7726,
+          0.5784
+        ],
+        [
+          24.5208,
+          0.7472
+        ],
+        [
+          24.3207,
+          0.7445
+        ],
+        [
+          24.2112,
+          0.9134
+        ],
+        [
+          24.1401,
+          0.9711
+        ],
+        [
+          23.9099,
+          1.0745
+        ],
+        [
+          23.7719,
+          1.0862
+        ],
+        [
+          23.5991,
+          1.1732
+        ],
+        [
+          23.4379,
+          1.3913
+        ],
+        [
+          23.1843,
+          1.643
+        ],
+        [
+          23.0361,
+          1.8538
+        ],
+        [
+          22.9534,
+          1.9047
+        ],
+        [
+          22.7146,
+          1.9589
+        ],
+        [
+          22.5086,
+          2.1491
+        ],
+        [
+          22.0928,
+          2.1874
+        ]
       ],
       "routeNote": "Down-stream from the Inner Station, Kurtz on a stretcher, the current carrying them back the way Marlow came.",
       "routeSource": "The upper Congo, reversed.",
@@ -543,39 +933,138 @@
       "startDay": 146,
       "days": 6,
       "via": [
-        [22.0928, 2.1874],
-        [21.5967, 2.1481],
-        [21.3444, 2.0915],
-        [21.2068, 2.0058],
-        [20.4473, 1.9928],
-        [20.3032, 1.9542],
-        [20.155, 1.9614],
-        [19.9184, 1.8933],
-        [19.1233, 1.563],
-        [18.5712, 1.1065],
-        [18.3813, 0.8726],
-        [18.2522, 0.1971],
-        [18.1492, -0.0895],
-        [18.0783, -0.1987],
-        [17.6637, -0.6126],
-        [17.3644, -0.9671],
-        [17.2971, -1.0209],
-        [17.022, -1.097],
-        [16.8325, -1.269],
-        [16.6358, -1.6206],
-        [16.6037, -1.7538],
-        [16.5134, -1.8872],
-        [16.1941, -2.1818],
-        [16.1743, -2.3029],
-        [16.2251, -2.6351],
-        [16.1765, -2.8823],
-        [16.1929, -3.2382],
-        [16.2251, -3.313],
-        [15.9118, -3.9172],
-        [15.8437, -3.9653],
-        [15.5486, -4.0461],
-        [15.4584, -4.2137],
-        [15.2749, -4.3002]
+        [
+          22.0928,
+          2.1874
+        ],
+        [
+          21.5967,
+          2.1481
+        ],
+        [
+          21.3444,
+          2.0915
+        ],
+        [
+          21.2068,
+          2.0058
+        ],
+        [
+          20.4473,
+          1.9928
+        ],
+        [
+          20.3032,
+          1.9542
+        ],
+        [
+          20.155,
+          1.9614
+        ],
+        [
+          19.9184,
+          1.8933
+        ],
+        [
+          19.1233,
+          1.563
+        ],
+        [
+          18.5712,
+          1.1065
+        ],
+        [
+          18.3813,
+          0.8726
+        ],
+        [
+          18.2522,
+          0.1971
+        ],
+        [
+          18.1492,
+          -0.0895
+        ],
+        [
+          18.0783,
+          -0.1987
+        ],
+        [
+          17.6637,
+          -0.6126
+        ],
+        [
+          17.3644,
+          -0.9671
+        ],
+        [
+          17.2971,
+          -1.0209
+        ],
+        [
+          17.022,
+          -1.097
+        ],
+        [
+          16.8325,
+          -1.269
+        ],
+        [
+          16.6358,
+          -1.6206
+        ],
+        [
+          16.6037,
+          -1.7538
+        ],
+        [
+          16.5134,
+          -1.8872
+        ],
+        [
+          16.1941,
+          -2.1818
+        ],
+        [
+          16.1743,
+          -2.3029
+        ],
+        [
+          16.2251,
+          -2.6351
+        ],
+        [
+          16.1765,
+          -2.8823
+        ],
+        [
+          16.1929,
+          -3.2382
+        ],
+        [
+          16.2251,
+          -3.313
+        ],
+        [
+          15.9118,
+          -3.9172
+        ],
+        [
+          15.8437,
+          -3.9653
+        ],
+        [
+          15.5486,
+          -4.0461
+        ],
+        [
+          15.4584,
+          -4.2137
+        ],
+        [
+          15.2749,
+          -4.3002
+        ]
       ],
       "routeNote": "On down the river to the Pool, the dead man left behind in a muddy hole.",
       "routeSource": "The middle Congo, reversed.",
@@ -591,8 +1080,20 @@
       "startDay": 152,
       "days": 5,
       "via": [
-        { "at": [14.4, -4.89], "name": "Manyanga" },
-        { "at": [14.02, -5.7], "name": "Songololo" }
+        {
+          "at": [
+            14.4,
+            -4.89
+          ],
+          "name": "Manyanga"
+        },
+        {
+          "at": [
+            14.02,
+            -5.7
+          ],
+          "name": "Songololo"
+        }
       ],
       "routeNote": "Back down the portage to the coast.",
       "routeSource": "The caravan corridor, reversed.",
@@ -609,22 +1110,91 @@
       "days": 12,
       "spillOk": true,
       "via": [
-        { "at": [13.054, -5.851], "name": "Boma" },
-        { "at": [12.42, -6.0], "name": "Banana", "note": "out at the mouth" },
-        { "at": [8.5, -2.0], "name": "off Gabon" },
-        { "at": [3.0, 2.5], "name": "the Bight" },
-        { "at": [-8.0, 3.8], "name": "Cape Palmas" },
-        { "at": [-17.8, 14.5], "name": "off Cap-Vert" },
-        { "at": [-16.5, 28.3], "name": "Tenerife" },
-        { "at": [-9.6, 43.0], "name": "out of Biscay" },
-        { "at": [-2.0, 49.5], "name": "up Channel" },
-        { "at": [2.5, 51.4], "name": "the Belgian coast" },
-        { "at": [4.4, 51.22], "name": "Antwerp", "note": "up the Scheldt to the Congo trade's own port" }
+        {
+          "at": [
+            13.054,
+            -5.851
+          ],
+          "name": "Boma"
+        },
+        {
+          "at": [
+            12.42,
+            -6.0
+          ],
+          "name": "Banana",
+          "note": "out at the mouth"
+        },
+        {
+          "at": [
+            8.5,
+            -2.0
+          ],
+          "name": "off Gabon"
+        },
+        {
+          "at": [
+            3.0,
+            2.5
+          ],
+          "name": "the Bight"
+        },
+        {
+          "at": [
+            -8.0,
+            3.8
+          ],
+          "name": "Cape Palmas"
+        },
+        {
+          "at": [
+            -17.8,
+            14.5
+          ],
+          "name": "off Cap-Vert"
+        },
+        {
+          "at": [
+            -16.5,
+            28.3
+          ],
+          "name": "Tenerife"
+        },
+        {
+          "at": [
+            -9.6,
+            43.0
+          ],
+          "name": "out of Biscay"
+        },
+        {
+          "at": [
+            -2.0,
+            49.5
+          ],
+          "name": "up Channel"
+        },
+        {
+          "at": [
+            2.5,
+            51.4
+          ],
+          "name": "the Belgian coast"
+        },
+        {
+          "at": [
+            4.4,
+            51.22
+          ],
+          "name": "Antwerp",
+          "note": "up the Scheldt to the Congo trade's own port"
+        }
       ],
       "routeNote": "Home by sea - down the estuary from Matadi and back up the whole Atlantic coast to Europe, into Antwerp and inland to the sepulchral city.",
       "routeSource": "The novel gives the return a sentence; drawn here as an indicative track home, the lower-Congo estuary (ocean-navigable to Matadi) included.",
       "routeCertainty": "illustrative",
-      "note": "By sea back to the sepulchral city, a year almost gone, and everything he thought he knew about the world turned over."
+      "note": "By sea back to the sepulchral city, a year almost gone, and everything he thought he knew about the world turned over.",
+      "spillNote": "A sea leg that ends inland by design. The voyage is real as far as Antwerp; the last stretch to Brussels is overland, and the two are drawn as one line rather than split, because Marlow gives the homeward journey a single exhausted sentence and the map should not be more definite than he is."
     }
   ],
   "story": [

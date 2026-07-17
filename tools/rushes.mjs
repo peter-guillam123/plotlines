@@ -200,11 +200,14 @@ for (const l of legs) {
 }
 
 // Route honesty: a leg drawn across the wrong medium (a train over the sea, a
-// ship over land). Reported here so the standard gate catches it; fix with
-// `via` points or tag the medium (river/canal). See tools/route-spill.mjs.
+// ship over land). An ERROR, not a warning: a spill is a plain lie on the map,
+// and as a warning one sat unnoticed in The Call of the Wild from the day that
+// book shipped. Fix with `via` points, or tag the medium (river/canal), or -
+// where the detector itself is wrong rather than the route - set `spillOk` with
+// a `spillNote` saying why. See tools/route-spill.mjs.
 for (const f of analyseSpills(novel)) {
   const medium = f.wantLand ? 'over water' : 'over land';
-  warns.push(`route ${f.mode} ${f.from}->${f.to}: drawn ${medium} for ${Math.round(f.maxRun)}km (${f.pct.toFixed(0)}% of the leg) — add via points, or tag the medium`);
+  errors.push(`route ${f.mode} ${f.from}->${f.to}: drawn ${medium} for ${Math.round(f.maxRun)}km (${f.pct.toFixed(0)}% of the leg) — add via points, or tag the medium, or justify it with spillOk + spillNote`);
 }
 
 // Image coverage, surfaced here so the picture pass can't quietly drop off:

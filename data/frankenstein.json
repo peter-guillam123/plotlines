@@ -1057,25 +1057,90 @@
       "days": 10,
       "mode": "ship",
       "via": [
-        { "at": [8.228, 50.038], "name": "Mainz", "note": "Down the Rhine by boat: 'The course of the Rhine below Mainz becomes much more picturesque.'" },
-        [8.1736, 50.0457],
-        [7.8779, 49.9728],
-        [7.7651, 50.0637],
-        [7.7199, 50.1584],
-        [7.6513, 50.1788],
-        [7.5793, 50.2499],
-        [7.6479, 50.2608],
-        [7.592, 50.3155],
-        [7.613, 50.3837],
-        [7.5808, 50.4112],
-        [7.3872, 50.4492],
-        [7.3325, 50.4868],
-        [7.2133, 50.5958],
-        [7.175, 50.699],
-        [6.9756, 50.8399],
-        [7.0514, 50.8908],
-        [6.9856, 50.9017],
-        { "at": [6.9627, 50.9427], "name": "Cologne", "note": "'Beyond Cologne we descended to the plains of Holland' - the last of the gorge country." }
+        {
+          "at": [
+            8.228,
+            50.038
+          ],
+          "name": "Mainz",
+          "note": "Down the Rhine by boat: 'The course of the Rhine below Mainz becomes much more picturesque.'"
+        },
+        [
+          8.1736,
+          50.0457
+        ],
+        [
+          7.8779,
+          49.9728
+        ],
+        [
+          7.7651,
+          50.0637
+        ],
+        [
+          7.7199,
+          50.1584
+        ],
+        [
+          7.6513,
+          50.1788
+        ],
+        [
+          7.5793,
+          50.2499
+        ],
+        [
+          7.6479,
+          50.2608
+        ],
+        [
+          7.592,
+          50.3155
+        ],
+        [
+          7.613,
+          50.3837
+        ],
+        [
+          7.5808,
+          50.4112
+        ],
+        [
+          7.3872,
+          50.4492
+        ],
+        [
+          7.3325,
+          50.4868
+        ],
+        [
+          7.2133,
+          50.5958
+        ],
+        [
+          7.175,
+          50.699
+        ],
+        [
+          6.9756,
+          50.8399
+        ],
+        [
+          7.0514,
+          50.8908
+        ],
+        [
+          6.9856,
+          50.9017
+        ],
+        {
+          "at": [
+            6.9627,
+            50.9427
+          ],
+          "name": "Cologne",
+          "note": "'Beyond Cologne we descended to the plains of Holland' - the last of the gorge country."
+        }
       ],
       "routeNote": "Victor and Clerval descend the Rhine by boat from Strasbourg through Mainz and Cologne to the plains of Holland and Rotterdam - the very towns Shelley names as they pass.",
       "routeSource": "Shelley, Ch. 18: 'descend the Rhine in a boat from Strasburgh to Rotterdam', naming Mainz, Cologne and the plains of Holland.",
@@ -1445,7 +1510,8 @@
       "routeSource": "The creature's vow on the ice ('I shall be with you on your wedding-night') and its appearance at the Orkney window (Ch. 20) are the visible marks of a pursuit otherwise unnarrated. Illustrative.",
       "routeCertainty": "illustrative",
       "note": "Trailing Victor north to the Orkneys - the face that will appear at the window (its sea-crossings are a side effect of an inhuman pursuit, spill-exempt).",
-      "spillOk": true
+      "spillOk": true,
+      "spillNote": "The detector is right that a walking line crosses the Channel and the Pentland Firth, and it does not matter: Shelley never routes this pursuit at all, so the leg is an illustrative gesture for an off-page journey rather than a claim about ground. Drawing the creature onto real ferries would invent a precision the novel refuses."
     },
     {
       "character": "creature",
@@ -1489,7 +1555,8 @@
       "routeSource": "The creature's threat and its strangling of Elizabeth at Evian (Ch. 23) are the visible marks of a return Shelley leaves unnarrated. Illustrative.",
       "routeCertainty": "illustrative",
       "note": "South again, vowing vengeance - carrying its promise to the wedding night (sea-crossings spill-exempt).",
-      "spillOk": true
+      "spillOk": true,
+      "spillNote": "Same as the outward shadow, in reverse: the return crosses the Pentland Firth and the Channel on a walking line, and the leg is the off-page half of a pursuit Shelley leaves almost entirely unwritten. A gesture, honestly flagged, beats a fabricated itinerary."
     },
     {
       "character": "victor",

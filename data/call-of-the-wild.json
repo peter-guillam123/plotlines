@@ -453,7 +453,9 @@
       "note": "Aboard the Narwhal, up the sheltered Inside Passage to Alaskan tidewater - Buck's last sight of the soft country as the coast turns to ice.",
       "routeCertainty": "documented",
       "routeNote": "The Klondike-era Inside Passage steamer route: Puget Sound, the sheltered BC channels, Dixon Entrance, the Alaska panhandle past Juneau, and up the Lynn Canal to Dyea.",
-      "routeSource": "1897 Inside Passage sailing; London names the Narwhal (fictional steamer) and 'the Dyea beach'."
+      "routeSource": "1897 Inside Passage sailing; London names the Narwhal (fictional steamer) and 'the Dyea beach'.",
+      "spillOk": true,
+      "spillNote": "The route is right and the detector cannot see it. The Inside Passage threads channels far narrower than the coarse 1:50m land polygon the check samples against: Seymour Narrows is about 750m wide and Johnstone Strait about 2.5km, so at that scale Vancouver Island is welded to the mainland and the whole sheltered run reads as overland. The leg already carries twenty via points down the real steamer track, and no number more can fix it, because the water it follows is not in the polygon. This is the detector's resolution, not a lie on the map."
     },
     {
       "character": "buck",

@@ -259,12 +259,42 @@ drawn path against a coarse land polygon and flags any leg whose *contiguous*
 wrong-medium run is long enough to be a real lie (a train across the Adriatic,
 a steamer cutting the Malay peninsula) rather than an honest short hop (the
 Channel, a harbour mouth). It also runs inside `rushes`, so a spill shows up
-in the standard gate. Fix a flag by adding `via` points that hug the real
-coast, road or shipping lane — the same lever as route provenance. Two honest
-exceptions the tool already ignores: a `sledge` leg (its medium is snow and
-sea-ice, not the land/water binary), and a **river-boat**, which runs through
-land by design — mark such a `ship` leg `"medium": "river"` (the Rhine, the
-Sereth up to the castle) and the detector leaves it alone.
+in the standard gate.
+
+**A spill is an ERROR, not a warning** (since 2026-07-17). It is a plain lie on
+the map, and as a warning one sat unread in The Call of the Wild from the day
+that book shipped. A book with a spill does not ship.
+
+Fix a flag by adding `via` points that hug the real coast, road or shipping lane
+— the same lever as route provenance. Two exceptions the tool ignores by itself:
+a `sledge` leg (its medium is snow and sea-ice, not the land/water binary), and
+a **river-boat**, which runs through land by design — mark such a `ship` leg
+`"medium": "river"` (the Rhine, the Sereth up to the castle).
+
+#### `spillOk` — when the detector is wrong, not the route
+
+The last resort. `"spillOk": true` switches the check off for one leg, and it
+**requires a `spillNote`** saying why (the loader fails without one). Now that a
+spill is an error, this flag is the lazy way to make a real lie go away, so it
+costs a written reason like an `imageBlank` does.
+
+The reason must be that the **detector** is wrong, never that the route is. If
+the line is wrong, fix the line. The three legitimate uses on the shelf:
+
+- **The polygon can't see the water.** Call of the Wild's Inside Passage threads
+  Seymour Narrows (~750m wide) and Johnstone Strait (~2.5km). At 1:50m Vancouver
+  Island is welded to the mainland, so the whole sheltered run reads as overland.
+  The leg already carries twenty `via` points down the real steamer track and no
+  number more can fix it: the water it follows is not in the polygon.
+- **The book itself draws a gesture.** Frankenstein's creature walks from the
+  Alps to the Orkneys and back. Shelley never routes the pursuit, so the line is
+  an `illustrative` stand-in for an off-page journey, not a claim about ground,
+  and putting the creature on real ferries would invent precision the novel
+  refuses.
+- **One line, two mediums, deliberately.** Heart of Darkness sails Matadi to
+  Brussels: real sea as far as Antwerp, then overland. Marlow gives the homeward
+  journey one exhausted sentence and the map should not be more definite than he
+  is.
 
 ### Making a river leg follow the river — the river-tracer
 
