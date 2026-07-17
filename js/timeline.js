@@ -44,6 +44,29 @@ export function createTimeline(novel, paths) {
   }
   tEnd += 2; // a breath at the end
 
+  // Leaving the story. `start` says when a character arrives on the map; this
+  // is its mirror — the moment the map stops claiming to know where they are,
+  // because they died or because the book simply stopped following them.
+  // Without it a disc sits at its last stop until the novel runs out, which
+  // put Blazes Boylan in Bloom's house at two in the morning and left Helen
+  // Burns standing at Lowood for the whole back half of Jane Eyre.
+  //
+  // `exit.day` is the moment; the data validator checks it against the chapter
+  // the exit is declared in (js/data.js).
+  const exits = {};
+  for (const c of novel.characters) {
+    if (!c.exit) continue;
+    const legs = schedule[c.id];
+    exits[c.id] = {
+      day: c.exit.day,
+      kind: c.exit.kind,
+      note: c.exit.note,
+      // Where they were left: their last arrival, or where they started if
+      // the book never moved them.
+      location: legs.length ? legs[legs.length - 1].movement.to : (c.start && c.start.location),
+    };
+  }
+
   // Every leg's start day, sorted — so the engine can find the next moment
   // anyone sets out and pace a long empty stretch to reach it.
   const legStarts = paths.map((e) => e.dayStart).sort((a, b) => a - b);
@@ -83,9 +106,30 @@ export function createTimeline(novel, paths) {
         continue;
       }
 
+      // Gone from the story. Not null (that means "not yet born", and the
+      // trails read the leg count from here) but flagged: the marker layer
+      // drops the disc, the director stops framing them, and a death leaves
+      // its mark at `atLocationId`.
+      const exit = exits[c.id];
+      if (exit && day >= exit.day) {
+        out[c.id] = {
+          lngLat: novel.locationsById[exit.location].coords,
+          moving: false,
+          movement: null,
+          retired: true,
+          exit,
+          atLocationId: exit.location,
+          legIndex: legs.length,
+        };
+        continue;
+      }
+
       let restLoc = c.start ? c.start.location : null;
       let restFrom = bornDay;
-      let restUntil = tEnd;
+      // A character with an exit rests only until it: the tile should count
+      // down to the moment they go, not report a stay lasting to the last
+      // page of a book they are no longer in.
+      let restUntil = exit ? exit.day : tEnd;
       let active = null;
       let activeIndex = 0;
       let completed = 0;

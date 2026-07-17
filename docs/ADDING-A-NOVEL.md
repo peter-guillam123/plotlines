@@ -67,6 +67,8 @@ truth for allowed values, this document explains them.
   inks and dyes, not neon.
 - `start.location` must exist. Every character's movements must form a
   continuous chain from `start` (the validator catches teleports).
+- **`exit` — when the book lets them go.** See below; it is easy to forget,
+  and forgetting it makes the map lie.
 - **The disc monogram is two initials — first name + last name** — so
   Fitzwilliam Darcy reads **FD**, not a lonely F. It is derived
   automatically (`characterInitial` in `js/ui/format.js`): a leading title
@@ -78,6 +80,51 @@ truth for allowed values, this document explains them.
   `"initials": "LC"`, not the derived CB). Check each cast's monograms as
   you build: two letters must be unambiguous *within that book* and sit
   cleanly on the disc.
+
+#### `exit` — when the book lets them go
+
+`start` puts a character on the map. `exit` takes them off it. Without one, a
+disc sits at its last stop until the novel runs out — which parked Blazes
+Boylan in Bloom's house at two in the morning (an event Joyce pointedly never
+shows) and left Helen Burns standing at Lowood for the whole back half of
+*Jane Eyre*. **A reader caught the first one.** Assume they will catch yours.
+
+```jsonc
+"exit": {
+  "chapter": 9,          // the chapter that shows it
+  "day": 195,            // the day it happens — this is what the map obeys
+  "kind": "dies",        // "dies" | "leaves"
+  "note": "Consumption takes Helen at Lowood in the June after the typhus spring."
+}
+```
+
+- **`kind: "dies"`** — the book stops them, at a place, for good. The disc
+  turns inside out and stays: paper where the colour was, the colour held in
+  the ring, the monogram still on it. Waterloo keeps George Osborne's mark.
+- **`kind: "leaves"`** — the book simply stops following them. Nothing can be
+  claimed about where they went, so **nothing is drawn**. This is the honest
+  answer for Boylan, and the map must not invent the departure Joyce declined
+  to write.
+- Either way **the trail stays**. The journey happened; only the "they are
+  here now" claim retires.
+- **Both `chapter` and `day` are required, and the day must sit inside the
+  chapter.** That is not belt and braces. A chapter is far too coarse to carry
+  the moment on its own: Helen dies in chapter 9, and chapter 9 is followed by
+  an eight-year jump, so a chapter-derived exit would leave her ghost at Lowood
+  until Jane reaches Thornfield. The validator checks the two against each
+  other so the mistake surfaces where it is made.
+- `note` is required. An exit is a claim like any other and gets sourced like
+  any other.
+
+**Ask this of every character, every book**, as its own pass: *does the book
+still know where this person is on the last page?* Three answers —
+
+1. **Yes, they're there.** Molly Bloom really is in that bed. No exit.
+2. **No, they died.** `kind: "dies"`.
+3. **No, the book lost sight of them.** `kind: "leaves"`.
+
+Only (1) needs no exit, and (1) is rarer than it looks. A character who simply
+stops moving is not the same as a character who is still *there*.
 
 ### Locations
 

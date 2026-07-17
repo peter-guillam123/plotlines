@@ -63,6 +63,61 @@ function checkCoord(file, pair, context) {
   }
 }
 
+// A character's `exit` is the mirror of `start`: the moment the map stops
+// claiming to know where they are. Two kinds, and the difference is the whole
+// point of the field —
+//   "dies"   the book stops them, at a place, for good. The map keeps a mark
+//            there; the journey ends where it ends.
+//   "leaves" the book simply stops following them. Nothing may be claimed
+//            about where they went, so nothing is drawn.
+// Either way the trail stays: the journey happened. Only the "they are here
+// now" claim retires. See docs/ADDING-A-NOVEL.md.
+//
+// Both `chapter` and `day` are required, and the day must fall inside the
+// chapter. That looks like belt and braces; it isn't. A chapter is far too
+// coarse to carry the claim on its own — Helen Burns dies in chapter 9 of
+// Jane Eyre, and chapter 9 is followed by an eight-year jump, so deriving her
+// exit from the chapter alone would leave her ghost standing at Lowood until
+// Jane reaches Thornfield. The day is what the map obeys; the chapter is the
+// provenance, and checking one against the other catches the mistake where it
+// is made rather than eight years downstream.
+const EXIT_KINDS = ['dies', 'leaves'];
+
+function validateExit(file, novel, c, maxChapter) {
+  const x = c.exit;
+  if (!EXIT_KINDS.includes(x.kind)) {
+    fail(file, `"${c.id}" exit.kind must be one of ${EXIT_KINDS.join('/')}`, x);
+  }
+  if (!x.note || !String(x.note).trim()) {
+    fail(file, `"${c.id}" exit needs a "note" saying what the book actually shows — an exit is a claim, and it has to be sourced like any other`, x);
+  }
+  if (!Number.isInteger(x.chapter) || x.chapter < 1 || x.chapter > maxChapter) {
+    fail(file, `"${c.id}" exit.chapter must be an integer 1–${maxChapter} — the chapter the book lets them go in`, x);
+  }
+  if (typeof x.day !== 'number') {
+    fail(file, `"${c.id}" exit needs a "day" — the chapter alone is too coarse to say when someone leaves the story`, x);
+  }
+  const opens = novel.chapters[x.chapter - 1].day;
+  const closes = x.chapter < maxChapter ? novel.chapters[x.chapter].day : Infinity;
+  if (x.day < opens || x.day > closes) {
+    fail(file, `"${c.id}" exits on day ${x.day}, which is outside chapter ${x.chapter} (days ${opens}–${closes === Infinity ? 'the end' : closes})`, x);
+  }
+  // An exit inside a journey would vanish the disc mid-flight.
+  const mine = novel.movements.filter((m) =>
+    (Array.isArray(m.character) ? m.character : [m.character]).includes(c.id));
+  const last = mine[mine.length - 1];
+  if (!last) return;
+  if (x.chapter < last.chapter) {
+    fail(file, `"${c.id}" exits in chapter ${x.chapter} but is still travelling in chapter ${last.chapter} — an exit cannot fall inside a journey`, x);
+  }
+  const arrives = last.startDay != null
+    ? last.startDay + Math.max(last.days ?? 1, 0.002)
+    : novel.chapters[last.chapter - 1].day;
+  if (x.day < arrives) {
+    fail(file, `"${c.id}" exits on day ${x.day} but is still travelling until day ${arrives.toFixed(3)} — an exit cannot fall inside a journey`, x);
+  }
+}
+
 function validate(novel, file) {
   const certainties = Object.values(CERTAINTY);
 
@@ -129,6 +184,7 @@ function validate(novel, file) {
     if (c.start && !Number.isInteger(c.start.chapter)) {
       fail(file, `"${c.id}" start needs an integer "chapter" — the timeline derives the character's opening day from it`, c);
     }
+    if (c.exit) validateExit(file, novel, c, maxChapter);
   }
 
   for (const m of novel.movements) {

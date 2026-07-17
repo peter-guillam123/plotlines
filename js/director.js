@@ -71,7 +71,9 @@ export function createDirector(map, timeline, novel, paths) {
 
     if (focus) {
       const pos = positions[focus];
-      if (!pos) return null;
+      // Gone from the story: there is nothing left to follow, so hold the
+      // frame rather than pin the camera to a mark that will never move.
+      if (!pos || pos.retired) return null;
       maxZoom = FOLLOW_MAX_ZOOM;
       if (pos.movement) {
         const path = pathByMovement.get(pos.movement);
@@ -108,7 +110,10 @@ export function createDirector(map, timeline, novel, paths) {
       const padLat = Math.max((bounds[1][1] - bounds[0][1]) * 0.6, 0.4);
       for (const c of novel.characters) {
         const pos = positions[c.id];
-        if (!pos || pos.moving) continue;
+        // A character who has left the story is not context for the action —
+        // Helen Burns's mark at Lowood must not drag the shot back north for
+        // the rest of Jane Eyre.
+        if (!pos || pos.moving || pos.retired) continue;
         const [lng, lat] = pos.lngLat;
         if (lng >= bounds[0][0] - padLng && lng <= bounds[1][0] + padLng &&
             lat >= bounds[0][1] - padLat && lat <= bounds[1][1] + padLat) {

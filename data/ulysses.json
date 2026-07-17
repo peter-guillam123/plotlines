@@ -75,7 +75,13 @@
       "name": "Blazes Boylan",
       "colour": "ochre",
       "role": "Molly's concert manager and lover; the jaunting-car crossing town to a four o'clock the whole day turns on",
-      "start": { "location": "thorntons", "chapter": 10 }
+      "start": { "location": "thorntons", "chapter": 10 },
+      "exit": {
+        "chapter": 11,
+        "day": 0.708,
+        "kind": "leaves",
+        "note": "Joyce never shows Boylan leave Eccles Street and never says when. The book's last sight of him is the four o'clock arrival; after that he lives only in other people's talk. So the map stops where the book stops, rather than invent the departure or leave him standing in Bloom's house at two in the morning."
+      }
     },
     {
       "id": "mulligan",

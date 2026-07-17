@@ -359,6 +359,12 @@
       "start": {
         "location": "lowood",
         "chapter": 6
+      },
+      "exit": {
+        "chapter": 9,
+        "day": 195,
+        "kind": "dies",
+        "note": "Consumption takes Helen at Lowood in the June after the typhus spring, in Jane's arms, one night. Chapter 9 then runs on for eight years, which is why the day has to carry this and the chapter cannot."
       }
     }
   ],

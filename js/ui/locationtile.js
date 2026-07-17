@@ -52,6 +52,13 @@ export function createLocationTile(container, novel, timeline) {
       const icon = modeIcon(pos.movement.mode);
       return `${icon} ${modePhrase(pos.movement.mode)} to ${novel.locationsById[pos.movement.to].novelName}`;
     }
+    // Left the story. The two exits read differently and should: a death is a
+    // fact about a place, while "the book stopped following him" can only be
+    // reported as the last thing anyone actually saw.
+    if (pos.retired) {
+      const where = novel.locationsById[pos.atLocationId].novelName;
+      return pos.exit.kind === 'dies' ? `dies at ${where}` : `last seen at ${where}`;
+    }
     const here = `at ${novel.locationsById[pos.atLocationId].novelName}`;
     if (pos.restUntil >= timeline.tEnd) return `${here} - journey's end`;
     const dwell = dwellPhrase(pos.restUntil - timeline.state.t);
