@@ -5,6 +5,9 @@
 // each on its own wooden board, the card scrolling down like stepping back to
 // take in the whole case. Choosing a book navigates to ?novel=<id>.
 //
+// At the foot, the two standing pages - the only route to them from the front
+// door, which otherwise kept the diary behind a book you had to open first.
+//
 // Under the dek, a thin toggle re-orders the whole case: by author, by title,
 // by distance travelled, by time span, or by date. The last two are stats
 // baked into the index (see tools/build-shelf-stats.mjs); when either is the
@@ -67,6 +70,10 @@ export function createLibrary(container, index) {
       <div class="library-shelf" role="group" aria-label="The shelf"></div>
       <p class="intro-hints">Each book opens with a choice: watch the story, or
         explore its places.</p>
+      <nav class="library-links" aria-label="About PlotLines">
+        <a href="about.html">How it works</a>
+        <a href="workshop.html">How it&rsquo;s made</a>
+      </nav>
     </div>`;
 
   const shelf = container.querySelector('.library-shelf');

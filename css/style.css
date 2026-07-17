@@ -1637,6 +1637,25 @@ body.is-overture #captions { display: none !important; }
   line-height: 1;
 }
 
+/* The way out of the front door. These two pages used to live only in a book's
+   settings cog, which put the diary behind a book you had to open first. */
+.library-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 14px;
+  padding-top: 13px;
+  border-top: 1px solid var(--rule);
+}
+.library-links a {
+  font-size: 13.5px;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 4px 2px;
+}
+.library-links a:hover { text-decoration: underline; }
+
 .library-sub {
   margin: 14px auto 0;
   max-width: 30rem;
@@ -2028,6 +2047,9 @@ body.is-overture #captions { display: none !important; }
   html.touch .library-title { font-size: 30px; margin: 0; }
   html.touch .library-sub { font-size: 12px; line-height: 1.4; margin: 5px auto 0; max-width: 36rem; }
   html.touch .intro-kicker, html.touch .intro-hints { display: none; }
+  /* The hint above them goes, so the links carry the foot of the card alone;
+     keep them tappable but tight. */
+  html.touch .library-links { margin-top: 8px; padding-top: 8px; gap: 22px; }
   /* On a short phone screen, collapse the stacked bookcase back to one
      horizontally-swiped shelf, so the whole collection sits on a single
      screen rather than scrolling down. The rows dissolve into one flex row
