@@ -43,7 +43,13 @@
       "colour": "sienna",
       "initials": "Q",
       "role": "The gentleman of La Mancha turned knight-errant - who sees giants, castles and armies where the map can only draw windmills, inns and sheep",
-      "start": { "location": "quixote-home-village", "chapter": 1 }
+      "start": { "location": "quixote-home-village", "chapter": 1 },
+      "exit": {
+        "chapter": 8,
+        "day": 460,
+        "kind": "dies",
+        "note": "Home from Barcelona and beaten by his word, he takes to his bed, and the madness lifts. He is plain Alonso Quixano again, and having made his will and abjured the whole business of knight-errantry, he dies in his own village with Sancho at the bedside."
+      }
     },
     {
       "id": "sancho",

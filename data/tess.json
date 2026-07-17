@@ -484,6 +484,12 @@
       "start": {
         "location": "marlott",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 59,
+        "day": 1800,
+        "kind": "dies",
+        "note": "Hardy does not take us inside the gaol. He puts Angel and 'Liza-Lu on the West Hill above Wintoncester on a July morning and lets the black flag go up the tower staff instead: 'Justice' was done, and Tess is hanged there. The map keeps her mark where the book leaves her body."
       }
     },
     {
@@ -504,6 +510,12 @@
       "start": {
         "location": "trantridge",
         "chapter": 5
+      },
+      "exit": {
+        "chapter": 56,
+        "day": 1712,
+        "kind": "dies",
+        "note": "Tess stabs him at the breakfast table at The Herons and walks out. The book shows it from below and afterwards, through the landlady Mrs Brooks watching a red spot spread on her ceiling. Sandbourne is where Alec stops."
       }
     }
   ],

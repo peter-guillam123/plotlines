@@ -156,6 +156,12 @@
       "start": {
         "location": "stanley-falls",
         "chapter": 10
+      },
+      "exit": {
+        "chapter": 11,
+        "day": 146,
+        "kind": "dies",
+        "note": "Kurtz dies in his cabin the night the steamer breaks down at the head of an island, his last words 'The horror! The horror!'. The manager's boy announces it to the mess-room, and the next day the pilgrims bury him in a muddy hole beside the river."
       }
     }
   ],

@@ -44,7 +44,13 @@
       "colour": "madder",
       "initials": "M",
       "role": "The Capuchin monk undone by the elixir - the living line of the curse, driven through seduction, murder and madness",
-      "start": { "location": "holy-lime-tree", "chapter": 1 }
+      "start": { "location": "holy-lime-tree", "chapter": 1 },
+      "exit": {
+        "chapter": 8,
+        "day": 2930,
+        "kind": "dies",
+        "note": "Back in his own monastery at Königswald, Medardus sets down the confession the novel consists of and dies on the anniversary of Aurelie's death. Father Spiridion's closing note records it: sane at the last, the curse spent with him."
+      }
     },
     {
       "id": "victorin",
@@ -52,7 +58,13 @@
       "colour": "aubergine",
       "initials": "V",
       "role": "Medardus's identical half-brother and mad shadow - the darkened reflection, forever on the same road",
-      "start": { "location": "devils-abyss", "chapter": 4 }
+      "start": { "location": "devils-abyss", "chapter": 4 },
+      "exit": {
+        "chapter": 8,
+        "day": 2910,
+        "kind": "leaves",
+        "note": "The mad count knifes Aurelie at her veiling and is gone: the crowd curse \"the murderer, who had supernaturally vanished, nor could a trace of him be discovered\". Hoffmann then refuses the question outright, letting Medardus wonder whether Victorin was ever really killed at all. The book does not know where he went, so neither does the map."
+      }
     },
     {
       "id": "aurelie",
@@ -60,7 +72,13 @@
       "colour": "prussian",
       "initials": "A",
       "role": "The woman Medardus is obsessed with - later the nun Rosalia; the still point the two reds pursue, and the curse's last victim",
-      "start": { "location": "castle", "chapter": 5 }
+      "start": { "location": "castle", "chapter": 5 },
+      "exit": {
+        "chapter": 8,
+        "day": 2905,
+        "kind": "dies",
+        "note": "Stabbed at her own veiling as Sister Rosalia, with Medardus's stiletto in the hand of Medardus's face, she lingers long enough to forgive him and dies at Königswald."
+      }
     }
   ],
   "locations": [
@@ -555,7 +573,7 @@
       "at": "konigswald",
       "chapter": 8,
       "title": "The curse spent",
-      "narration": "The double is taken and dies; Aurelie forgives Medardus and dies; and Medardus, sane and whole at last, sets down the whole confession you have been reading and quietly follows them - the curse, after generations, finally spent.",
+      "narration": "The double strikes and is gone, no trace of him ever found; Aurelie forgives Medardus and dies; and Medardus, sane at last, sets down this confession and follows her. The curse is spent - though what became of the other man, Hoffmann never says.",
       "day": 2930
     }
   ]

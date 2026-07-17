@@ -187,14 +187,26 @@
       "name": "Kiyo",
       "colour": "prussian",
       "role": "The old family servant who alone loves Botchan and is sure he will be great; the fixed star in Tokyo he leaves and returns to",
-      "start": { "location": "tokyo-home", "chapter": 1 }
+      "start": { "location": "tokyo-home", "chapter": 1 },
+      "exit": {
+        "chapter": 12,
+        "day": 420,
+        "kind": "dies",
+        "note": "Pneumonia takes Kiyo in the February after Botchan comes home, inside the one year of housekeeping they had barely begun. She asks the day before to be buried in his family temple, and the novel's last line lays her there: 'So Kiyo's grave is in the Yogen temple at Kobinata.'"
+      }
     },
     {
       "id": "porcupine",
       "name": "Porcupine",
       "colour": "bottle",
       "role": "Hotta, the blunt head of maths - Botchan's one true ally against Red Shirt, who leaves the town at his side",
-      "start": { "location": "matsuyama", "chapter": 5 }
+      "start": { "location": "matsuyama", "chapter": 5 },
+      "exit": {
+        "chapter": 11,
+        "day": 185,
+        "kind": "leaves",
+        "note": "'I parted from Porcupine at the station, and have not had the chance of meeting him since.' Sōseki ends the one friendship the book earned on the Shimbashi platform and never says where Hotta went next, so the map stops where the book stops rather than leave him standing at the station for good."
+      }
     }
   ],
   "movements": [

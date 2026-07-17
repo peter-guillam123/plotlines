@@ -483,6 +483,12 @@
       "start": {
         "location": "chesney-wold",
         "chapter": 2
+      },
+      "exit": {
+        "chapter": 59,
+        "day": 680,
+        "kind": "dies",
+        "note": "Esther and Bucket run her through the snow to the iron gate of the pauper burial ground where Nemo lies, and find her dead on the step in the brickmaker's wife's clothes. Eight chapters of the novel still remain after it."
       }
     },
     {
@@ -503,6 +509,12 @@
       "start": {
         "location": "lincolns-inn-chancery",
         "chapter": 3
+      },
+      "exit": {
+        "chapter": 65,
+        "day": 740,
+        "kind": "dies",
+        "note": "Jarndyce and Jarndyce ends not with a judgment but with the whole estate eaten up in costs, and Richard, who had staked his life on it, breaks the same day. He asks Ada's pardon, says he will begin the world, and dies of the case instead."
       }
     },
     {
@@ -513,6 +525,12 @@
       "start": {
         "location": "tom-all-alones",
         "chapter": 16
+      },
+      "exit": {
+        "chapter": 47,
+        "day": 560,
+        "kind": "dies",
+        "note": "The fever he carried out of Tom-all-Alone's kills Jo at Mr George's gallery, saying the Lord's Prayer after Woodcourt a few words at a time. Dickens breaks off to round on the reader - 'Dead, your Majesty. Dead, my lords and gentlemen' - with twenty chapters still to run."
       }
     }
   ],

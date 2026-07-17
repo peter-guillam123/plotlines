@@ -98,6 +98,12 @@
         "location": "saint-petersburg",
         "chapter": 1
       },
+      "exit": {
+        "chapter": 7,
+        "day": 1543,
+        "kind": "dies",
+        "note": "One Sunday in May, half-mad with jealousy and morphine, Anna takes the Nizhny line out to intercept Vronsky and throws herself under a goods wagon on the platform at Obiralovka. Part 8 then runs on through a whole further summer, which is why the day has to carry this and the chapter cannot."
+      },
       "initials": "AK"
     },
     {
@@ -108,6 +114,12 @@
       "start": {
         "location": "moscow",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 8,
+        "day": 1625,
+        "kind": "leaves",
+        "note": "Koznyshev watches Vronsky board the volunteer train at Moscow, ruined by a toothache and by wanting no more of his life, and that is the last the novel sees of him. Tolstoy never brings him to Serbia and never says whether he lived, so the map draws the direction of departure and then lets him go rather than post him alive at Belgrade for the rest of the run."
       },
       "initials": "AV"
     },

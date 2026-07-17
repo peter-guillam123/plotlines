@@ -147,6 +147,12 @@
       "start": {
         "location": "russell-square",
         "chapter": 2
+      },
+      "exit": {
+        "chapter": 8,
+        "day": 747.5,
+        "kind": "dies",
+        "note": "Thackeray ends the Waterloo chapter with one sentence and no scene: the fighting stops at dusk and George Osborne is lying on his face, dead, with a bullet through his heart. Waterloo keeps his mark."
       }
     }
   ],

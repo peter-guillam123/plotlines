@@ -233,6 +233,12 @@
       "start": {
         "location": "castle-dracula",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 27,
+        "day": 193,
+        "kind": "dies",
+        "note": "The last box is run to earth just short of the castle as the sun goes down on 6 November. Jonathan's kukri shears through the throat, Quincey Morris's bowie goes into the heart, and the Count crumbles into dust in front of them."
       }
     },
     {
@@ -243,6 +249,12 @@
       "start": {
         "location": "hillingham",
         "chapter": 5
+      },
+      "exit": {
+        "chapter": 16,
+        "day": 149.5,
+        "kind": "dies",
+        "note": "Lucy dies at Hillingham on 20 September, but the book will not let her rest there: she walks Hampstead Heath as the bloofer lady for a week after. It is the stake in the Kingstead tomb, a little before midnight on 29 September, that stops her for good, which is why the exit is here and not at the first death."
       }
     },
     {

@@ -214,6 +214,12 @@
       "start": {
         "location": "geneva",
         "chapter": 2
+      },
+      "exit": {
+        "chapter": 26,
+        "day": 1004,
+        "kind": "dies",
+        "note": "Victor dies in the cabin of Walton's ship, worn out and past saving, having finished his telling and charged Walton to destroy the creature if ever he can. The pack ice is as far north as he gets."
       }
     },
     {
@@ -224,6 +230,12 @@
       "start": {
         "location": "ingolstadt",
         "chapter": 6
+      },
+      "exit": {
+        "chapter": 26,
+        "day": 1005,
+        "kind": "leaves",
+        "note": "The creature mourns over its maker's body, then springs from the cabin window onto an ice-raft and is borne away, 'lost in darkness and distance'. It says it will burn itself on a pyre at the pole, but Shelley never shows the fire, so the map follows it no further than the window."
       }
     },
     {
@@ -244,6 +256,12 @@
       "start": {
         "location": "ingolstadt",
         "chapter": 7
+      },
+      "exit": {
+        "chapter": 22,
+        "day": 646,
+        "kind": "dies",
+        "note": "Clerval is strangled on the Irish shore, the black mark of the creature's fingers on his neck. Victor is blown in from the Orkneys to find the body laid out and himself accused of the murder; the book gives no more of Clerval than the corpse."
       }
     },
     {
@@ -254,6 +272,12 @@
       "start": {
         "location": "geneva",
         "chapter": 2
+      },
+      "exit": {
+        "chapter": 24,
+        "day": 730.5,
+        "kind": "dies",
+        "note": "The creature keeps its promise on the wedding night. Elizabeth is strangled in her room at the Evian inn while Victor searches the passages for it, and Evian is where she stays."
       }
     }
   ],

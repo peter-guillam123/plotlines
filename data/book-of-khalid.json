@@ -300,7 +300,13 @@
       "name": "Khalid",
       "colour": "madder",
       "role": "The Baalbek donkey-boy turned peddler, prophet and outcast, forever crossing between East and West and at home in neither",
-      "start": { "location": "baalbek", "chapter": 1 }
+      "start": { "location": "baalbek", "chapter": 1 },
+      "exit": {
+        "chapter": 13,
+        "day": 3440,
+        "kind": "leaves",
+        "note": "Rihani declines to end him. Found again at the Mena House, Shakib will say only that his Master 'has disappeared some ten days ago, and I know not whither', and the Editor turns the question back on the reader: 'ask us not, O gentle Reader, what became of him. How can we know?' All the book will offer is that he is 'not now on the outskirts of the desert', so the map claims nothing."
+      }
     },
     {
       "id": "shakib",
@@ -314,7 +320,13 @@
       "name": "Najma",
       "colour": "prussian",
       "role": "Khalid's cousin, the 'star' he loves in Baalbek; married off by the Church, then abandoned when her husband flees the country, and dying of consumption, she follows him to the Egyptian desert",
-      "start": { "location": "baalbek", "chapter": 8 }
+      "start": { "location": "baalbek", "chapter": 8 },
+      "exit": {
+        "chapter": 13,
+        "day": 3425,
+        "kind": "dies",
+        "note": "At the camp on the sand outside Helwan her son Najib dies of meningitis after the doctors of Cairo guess wrong four times and open his skull for nothing. Najma, already consumptive, wastes away from grief, and the relapse carries her 'in a fortnight downward to the grave of her child'."
+      }
     }
   ],
   "movements": [

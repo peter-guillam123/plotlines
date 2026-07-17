@@ -99,6 +99,12 @@
       "start": {
         "location": "toulon-bagne",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 10,
+        "day": 6451,
+        "kind": "dies",
+        "note": "Valjean dies in the bare room in the Rue de l'Homme-Armé, with Cosette and Marius on their knees at the bed and the Bishop's two candlesticks burning: 'He was dead.' Hugo gives him a stone at Père-Lachaise with no name on it, so the mark on the map is the only place he is kept."
       }
     },
     {
@@ -109,6 +115,12 @@
       "start": {
         "location": "montreuil-sur-mer",
         "chapter": 3
+      },
+      "exit": {
+        "chapter": 9,
+        "day": 6097.5,
+        "kind": "dies",
+        "note": "Spared by the man he swore to take, Javert leaves his note at the Châtelet post, walks back to the same paving-stone of the parapet, sets his hat on the edge of the quay and falls into the river: 'a dull splash followed'. The Moniteur later reports an inspector of that name found drowned between the Pont au Change and the Pont-Neuf."
       }
     },
     {
@@ -119,6 +131,12 @@
       "start": {
         "location": "montfermeil",
         "chapter": 3
+      },
+      "exit": {
+        "chapter": 4,
+        "day": 2902.5,
+        "kind": "dies",
+        "note": "Fantine dies in the infirmary at Montreuil-sur-Mer the moment Javert comes for Valjean at her bedside, before she can be told her daughter is not in the room: 'She was dead.' She never reaches Cosette, and the map should not go on carrying her towards her."
       }
     },
     {

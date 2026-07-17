@@ -45,7 +45,13 @@
       "colour": "madder",
       "initials": "A",
       "role": "The Pequod's monomaniac master - the single obsessive line drawn eastward across three oceans, to the whale that took his leg",
-      "start": { "location": "nantucket", "chapter": 2 }
+      "start": { "location": "nantucket", "chapter": 2 },
+      "exit": {
+        "chapter": 8,
+        "day": 414,
+        "kind": "dies",
+        "note": "On the third day of the chase Ahab darts his last harpoon, the flying line catches him round the neck and snatches him out of the boat, and the Pequod founders with every soul aboard but one. Melville gives him no body and no burial: the sea simply closes."
+      }
     },
     {
       "id": "ishmael",

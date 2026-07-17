@@ -39,14 +39,26 @@
       "name": "Emma Bovary",
       "colour": "madder",
       "role": "The doctor's wife, consumed by romantic longing - a whole life spent dreaming past the few miles she is given",
-      "start": { "location": "les-bertaux", "chapter": 1 }
+      "start": { "location": "les-bertaux", "chapter": 1 },
+      "exit": {
+        "chapter": 7,
+        "day": 3120,
+        "kind": "dies",
+        "note": "Refused the money by every man who wanted her, Emma swallows arsenic from Homais's jars and dies at Yonville, badly and over days, with the blind man singing under the window. The book runs on well past her - Charles has his whole ruin still to come - so the map must let her go or spend the ending claiming she is alive in the house."
+      }
     },
     {
       "id": "charles",
       "name": "Charles Bovary",
       "colour": "slate",
       "role": "Her dull, devoted husband, a country health-officer who never once sees what she is",
-      "start": { "location": "tostes", "chapter": 1 }
+      "start": { "location": "tostes", "chapter": 1 },
+      "exit": {
+        "chapter": 7,
+        "day": 3200,
+        "kind": "dies",
+        "note": "Charles outlives Emma, finds her lovers' letters, lets everything go, and is found by little Berthe on the seat in the arbour at Yonville with a tress of her hair in his hand: she pushes him, thinking he wants to play, and 'he fell to the ground. He was dead.' Yonville keeps his mark; the map has nowhere else to put him."
+      }
     },
     {
       "id": "rodolphe",
@@ -60,7 +72,13 @@
       "name": "Léon Dupuis",
       "colour": "prussian",
       "role": "The young law-clerk - her second lover, in Rouen, and the affair that finishes the ruin",
-      "start": { "location": "yonville", "chapter": 4 }
+      "start": { "location": "yonville", "chapter": 4 },
+      "exit": {
+        "chapter": 7,
+        "day": 3150,
+        "kind": "leaves",
+        "note": "After Emma's death the book disposes of Léon in one line of other people's post - the widow Dupuis announces 'the marriage of Monsieur Léon Dupuis her son, notary at Yvetot, to Mademoiselle Leocadie Leboeuf of Bondeville'. Flaubert never follows him to Yvetot and never shows him leave Rouen, so the map stops rather than keep him standing in the city he has quietly got out of."
+      }
     }
   ],
   "locations": [

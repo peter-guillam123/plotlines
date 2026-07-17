@@ -313,6 +313,12 @@
       "start": {
         "location": "svidrigailov-hotel",
         "chapter": 10
+      },
+      "exit": {
+        "chapter": 13,
+        "day": 17.9,
+        "kind": "dies",
+        "note": "At grey dawn, before the fire-watchtower on the Petrograd Side, Svidrigaïlov tells the sentry he is going to America and shoots himself. Dostoevsky shows the shot; the double takes the road out that Raskolnikov turns away from."
       }
     },
     {
@@ -333,6 +339,12 @@
       "start": {
         "location": "marmeladov-lodging",
         "chapter": 3
+      },
+      "exit": {
+        "chapter": 8,
+        "day": 8.3,
+        "kind": "dies",
+        "note": "Run down by a carriage in the street outside his own door, Marmeladov is carried up to the room and dies there in Katerina Ivanovna's arms, with Sonia beside him. The book has eleven more days to run and he is in none of them."
       }
     }
   ],

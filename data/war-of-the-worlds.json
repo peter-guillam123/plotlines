@@ -223,6 +223,12 @@
       "start": {
         "location": "regents-park",
         "chapter": 14
+      },
+      "exit": {
+        "chapter": 18,
+        "day": 5.8,
+        "kind": "leaves",
+        "note": "Wells's last sight of the brother is the crowded paddle-steamer standing out from the Blackwater at dusk, the Essex coast going faint behind it. Book Two turns back to the narrator and never returns to him: whether he reached the Continent, or ever came home, the book does not say, so the map declines to leave him bobbing off the estuary for the next three weeks."
       }
     },
     {
@@ -233,6 +239,12 @@
       "start": {
         "location": "horsell",
         "chapter": 2
+      },
+      "exit": {
+        "chapter": 25,
+        "day": 20.2,
+        "kind": "dies",
+        "note": "The wailing from the Primrose Hill redoubt sinks and is cut off at dusk, and at sunrise the narrator climbs the rampart to find nearly fifty Martians dead in the pit, killed by the bacteria they had no defence against. The invasion stops for good at the hill its last cylinder fell on."
       }
     }
   ],

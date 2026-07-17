@@ -121,6 +121,12 @@
       "start": {
         "location": "bond-street",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 4,
+        "day": 0.6,
+        "kind": "dies",
+        "note": "Cornered that afternoon in the Bloomsbury lodging by Dr Holmes, come to carry him off to the rest-home, Septimus flings himself from the window onto Mrs Filmer's area railings. By evening he reaches Clarissa's party only as a piece of news."
       }
     },
     {
@@ -171,6 +177,12 @@
       "start": {
         "location": "clarissas-house",
         "chapter": 6
+      },
+      "exit": {
+        "chapter": 6,
+        "day": 0.7,
+        "kind": "leaves",
+        "note": "Elizabeth slips away from the tea-table and leaves Miss Kilman alone at the Stores; the book follows her as far as Westminster Abbey, where she prays among the worshippers, and then lets her go. She is not at the party, and Woolf never says where she spends the evening."
       }
     }
   ],

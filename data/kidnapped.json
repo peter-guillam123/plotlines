@@ -253,6 +253,12 @@
       "start": {
         "location": "lettermore-appin",
         "chapter": 18
+      },
+      "exit": {
+        "chapter": 30,
+        "day": 95.5,
+        "kind": "leaves",
+        "note": "David and Alan part on the Corstorphine road, Alan to lie hidden in the fields until Rankeillor can find him a ship for France. Stevenson never shows him take it, and Kidnapped ends without another word of him, so the map stops where the book stops rather than leave him standing at the House of Shaws."
       }
     }
   ],

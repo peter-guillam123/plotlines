@@ -147,6 +147,12 @@
       "start": {
         "location": "marseille",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 9,
+        "day": 8676,
+        "kind": "leaves",
+        "note": "Vampa's bandits hold Danglars in the catacombs outside Rome until the last of the stolen five millions has been starved out of him, and then the Count names himself, forgives him and turns him loose. Dumas follows him as far as a brook where he sees that his hair has gone white, and no further."
       }
     }
   ],

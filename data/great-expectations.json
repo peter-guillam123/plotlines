@@ -367,6 +367,12 @@
       "start": {
         "location": "hulks",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 56,
+        "day": 6690,
+        "kind": "dies",
+        "note": "Taken off the river and condemned, Magwitch lies broken in the Newgate infirmary through the whole interval between his committal and the Sessions, and dies there ten days after sentence - before the hanging can be carried out. Pip is at the bedside, telling him at the last that his lost daughter lives."
       }
     },
     {

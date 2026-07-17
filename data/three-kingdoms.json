@@ -395,6 +395,12 @@
       "start": {
         "location": "zhuozhou",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 13,
+        "day": 414,
+        "kind": "dies",
+        "note": "His army burnt at Yiling, Liu Bei flees back up the gorges to White Emperor City and lies down to die there in 223, entrusting his son and his kingdom to Zhuge Liang. The chancellor carries his coffin home to Chengdu; the map keeps his mark at Baidicheng, where the book stops him."
       }
     },
     {
@@ -405,6 +411,12 @@
       "start": {
         "location": "luoyang",
         "chapter": 2
+      },
+      "exit": {
+        "chapter": 11,
+        "day": 370,
+        "kind": "dies",
+        "note": "Cao Cao dies at Luoyang in 220, master of the north and never of the south, and his son Cao Pi takes the Han throne outright. The novel runs on for sixty more chapters without him."
       }
     },
     {
@@ -425,6 +437,12 @@
       "start": {
         "location": "longzhong",
         "chapter": 6
+      },
+      "exit": {
+        "chapter": 16,
+        "day": 540,
+        "kind": "dies",
+        "note": "On the last of the northern expeditions the worn-out chancellor sickens and dies in camp on the Wuzhang Plains in 234, within sight of the Wei River he never crossed, and a great red star falls. With him goes the last hope of Shu."
       }
     },
     {
@@ -435,6 +453,12 @@
       "start": {
         "location": "zhuozhou",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 10,
+        "day": 356,
+        "kind": "dies",
+        "note": "Cut off at Maicheng in 219 with his army melted away, Guan Yu breaks out with a handful of men, is taken in ambush by Wu and put to death. The first of the three sworn brothers to go, and the death the rest of the book pays for."
       }
     }
   ],

@@ -255,6 +255,12 @@
       "start": {
         "location": "north-dakota",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 12,
+        "day": 649.1,
+        "kind": "dies",
+        "note": "Wilson shoots Gatsby in his own pool on the first afternoon of autumn, still waiting on a telephone call from Daisy that was never going to come. The chauffeur hears the shots; Nick finds him a little after seven."
       }
     },
     {
@@ -275,6 +281,12 @@
       "start": {
         "location": "louisville",
         "chapter": 3
+      },
+      "exit": {
+        "chapter": 12,
+        "day": 649,
+        "kind": "leaves",
+        "note": "Fitzgerald takes Daisy off the page for good. Nick telephones East Egg half an hour after they find Gatsby and is told she and Tom went away early that afternoon and took baggage with them: no address left, no word when they would be back. The map must not keep her in a house the book has already emptied."
       }
     },
     {
@@ -295,6 +307,12 @@
       "start": {
         "location": "valley-of-ashes",
         "chapter": 6
+      },
+      "exit": {
+        "chapter": 11,
+        "day": 646.6,
+        "kind": "dies",
+        "note": "Myrtle breaks out of the room George has locked her in, runs into the road toward the yellow car she takes for Tom's, and is killed outright by it - on the ash-grey ground outside her own garage, under the painted eyes of Doctor Eckleburg."
       }
     },
     {
@@ -305,6 +323,12 @@
       "start": {
         "location": "valley-of-ashes",
         "chapter": 6
+      },
+      "exit": {
+        "chapter": 12,
+        "day": 649.1,
+        "kind": "dies",
+        "note": "Wilson walks the length of the island on foot, shoots Gatsby in the pool, and then shoots himself in the grass a little way off. Fitzgerald leaves both bodies on the mansion lawn and calls it the holocaust complete."
       }
     }
   ],

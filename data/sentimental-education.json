@@ -267,6 +267,12 @@
       "start": {
         "location": "quai-saint-bernard",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 12,
+        "day": 9855.5,
+        "kind": "leaves",
+        "note": "Flaubert shows her leave and stops there. She cuts off a lock of her white hair, says goodbye, and from the window Frédéric watches her wave down a passing cab: 'She stepped into it. The vehicle disappeared. And this was all.' Later, asked what became of her, he can only guess that she is probably at Rome with her son."
       }
     },
     {
@@ -287,6 +293,12 @@
       "start": {
         "location": "art-industriel",
         "chapter": 3
+      },
+      "exit": {
+        "chapter": 11,
+        "day": 4016,
+        "kind": "leaves",
+        "note": "Ruined and facing a fraud charge, Arnoux clears out of Paris overnight with his wife: the porter says only that he has been gone since the evening before, and Regimbart reports the pair were seen at the Havre terminus. Frédéric never sees him again. Everything after is second-hand and vague - a remote part of Brittany, an old man and an invalid by 1867, and a single line at the fireside saying he died a year ago. Flaubert never says where, so nothing is drawn."
       }
     },
     {

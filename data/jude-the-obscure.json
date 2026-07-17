@@ -327,6 +327,12 @@
       "start": {
         "location": "marygreen",
         "chapter": 1
+      },
+      "exit": {
+        "chapter": 53,
+        "day": 6570,
+        "kind": "dies",
+        "note": "Jude dies alone in his Christminster lodging on Remembrance day, murmuring Job's curse on the day of his birth, while the crowds cheer at the river outside. Arabella has left him to go to the races."
       }
     },
     {
