@@ -42,6 +42,16 @@ export function createTimeline(novel, paths) {
       tEnd = Math.max(tEnd, e.dayEnd);
     }
   }
+  // The clock runs to the last journey — but it must also outlast every exit.
+  // A death is often the last thing that happens to someone and lands well
+  // after they stopped travelling: Richard Carstone dies on day 740 in a book
+  // whose final journey lands on 659, and Jude dies four days after his. Left
+  // as it was, tEnd fell short of those moments, they never arrived, and the
+  // disc we were retiring sat there for the whole run anyway — the exact bug
+  // this is here to fix, silently surviving its own cure.
+  for (const c of novel.characters) {
+    if (c.exit) tEnd = Math.max(tEnd, c.exit.day);
+  }
   tEnd += 2; // a breath at the end
 
   // Leaving the story. `start` says when a character arrives on the map; this
