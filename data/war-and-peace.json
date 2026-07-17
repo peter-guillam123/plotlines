@@ -113,6 +113,13 @@
       "image": { "file": "assets/images/wp-borodino.jpg", "caption": "Napoleon on the heights of Borodinó, 7 September 1812 - the Emperor slumped among his marshals, over a battle no one commands.", "credit": "Vasily Vereshchagin, 1897 · Wikimedia Commons · public domain" }
     },
     {
+      "id": "voronezh", "region": "cities-and-estates", "name": "Voronezh", "novelName": "Vorónezh", "coords": [39.2106, 51.6717], "certainty": "real",
+      "note": "The governorate capital on the Voronezh river, some 470 km south of Moscow and well clear of the fighting. Nikolái is sent here from the army to buy remount horses for his division, and reaches it a few days before Borodinó is fought.",
+      "story": "Tolstoy's own answer to what people were actually doing in the autumn of 1812: while the army fights at Borodinó and Moscow burns, Nikolái is here buying horses, going to the governor's party, and falling in love with the Princess Marya he carried out of Bald Hills and meets again by chance at her aunt's. He leaves to rejoin his regiment once the news comes; Tolstoy never says where the regiment then was, so the map leaves him at Vorónezh.",
+      "quote": "he learned that he was being sent to Vorónezh to buy remounts for his division, not only without regret at being prevented from taking part in the coming battle, but with the greatest pleasure", "quoteRef": "Bk 12, Ch. 4",
+      "imageBlank": "A considered blank, the quote carrying the place. What the novel shows of Vorónezh is interiors - a hotel room, the governor's party, Princess Marya's face across a church - and the one period view to surface, Vasily Timm's lithograph of the town from the west, is a generation after 1812 and of a skyline the book never looks at. Vílna and Yaroslávl are blank for the same kind of reason."
+    },
+    {
       "id": "yaroslavl", "region": "cities-and-estates", "name": "Yaroslávl", "novelName": "Yaroslávl", "coords": [39.8845, 57.6261], "certainty": "real",
       "note": "The city north-east of Moscow where the fleeing Rostóvs halt, and where the wounded Prince Andrei - carried unknowing among them out of Moscow - dies with Natasha nursing him.",
       "story": "Where the flight from Moscow comes to rest and the deathbed is set: Natasha, and then Marya, nurse the dying Andrei through his last days, until he reaches a strange serene acceptance and is gone.",
@@ -183,7 +190,14 @@
     { "character": "nikolai", "from": "austerlitz", "to": "tilsit", "chapter": 5, "mode": "horse", "days": 570, "startDay": 160,
       "routeCertainty": "illustrative", "routeSource": "Nikolái on service to the 1807 peace at Tilsit; illustrative line.", "note": "On service, to the peace of the Emperors at Tilsit." },
     { "character": "nikolai", "from": "tilsit", "to": "bald-hills", "chapter": 9, "mode": "horse", "days": 15, "startDay": 2590,
-      "routeCertainty": "illustrative", "routeSource": "Nikolái, foraging with his squadron in 1812, reaches Bald Hills in time to rescue Princess Marya from her mutinous peasants; illustrative line.", "note": "To Bald Hills - in time to carry Princess Marya out of the invasion's path." }
+      "routeCertainty": "illustrative", "routeSource": "Nikolái, foraging with his squadron in 1812, reaches Bald Hills in time to rescue Princess Marya from her mutinous peasants; illustrative line.", "note": "To Bald Hills - in time to carry Princess Marya out of the invasion's path." },
+    { "character": "nikolai", "from": "bald-hills", "to": "voronezh", "chapter": 9, "mode": "coach", "days": 6, "startDay": 2620,
+      "via": [
+        { "at": [36.2833, 54.5500], "name": "Kaluga", "note": "The army's rear base in 1812 and the road hub of the whole southern quarter - the way out of the Smolensk country for anyone not going to Moscow." },
+        { "at": [37.6167, 54.2000], "name": "Tula", "note": "Where the road down from Kaluga meets the Moscow-Vorónezh tract." },
+        { "at": [38.4667, 52.6167], "name": "Yelets", "note": "A staging town on the tract, in the black-earth country." }
+      ],
+      "routeCertainty": "reconstructed", "routeSource": "No road is named in the text - Tolstoy gives the destination and 'post horses', nothing more (Bk 12, Ch. 4), and post horses meant the post road. The documented way into Vorónezh from the north is the Moscow-Vorónezh tract through Tula, Yefremov, Yelets and Zadonsk, one of the seven ancient state roads, laid out under Peter I in 1700. Reconstructed rather than documented because Nikolái sets out from the army in Smolensk province, not from Moscow: the link south through Kaluga to pick the tract up at Tula is assembled, not sourced.", "note": "South to buy remounts for the division - out of the war, in the week the army marches to Borodinó." }
   ],
   "story": [
     { "kind": "scene", "character": "pierre", "at": "petersburg", "chapter": 1, "title": "Anna Pávlovna's soirée",
@@ -236,6 +250,10 @@
       "narration": "Foraging with his squadron, Nikolái reaches Bald Hills to find the old prince dead of a stroke, the French almost arrived, and Andrei's devout sister, Princess Marya, trapped by her own mutinous peasants - and carries her out to safety, and toward the rest of both their lives." },
     { "kind": "journey", "character": "grande-armee", "from": "smolensk", "to": "borodino", "chapter": 10, "title": "Toward Moscow",
       "narration": "A hundred and forty-five thousand drive on toward Moscow, and the Russians turn at last to give battle on the field of Borodinó - the bloodiest single day of the whole war." },
+    { "kind": "meanwhile",
+      "narration": "And one of ours was going the other way entirely - south, out of the war, on the army's errands." },
+    { "kind": "journey", "character": "nikolai", "from": "bald-hills", "to": "voronezh", "chapter": 9, "title": "Buying horses at Vorónezh",
+      "narration": "Nikolái is not at Borodinó. Days before the battle he is sent south with post horses to buy remounts for his division - and passes the worst weeks of the war in a quiet governorate town, at the governor's party, meeting again the Marya he carried out of Bald Hills." },
     { "kind": "meanwhile",
       "narration": "To that field, from their different lives, three of our people are drawn at once." },
     { "kind": "journey", "character": "andrei", "from": "otradnoe", "to": "borodino", "chapter": 10, "title": "Andrei's regiment",
