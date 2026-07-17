@@ -6,6 +6,8 @@
 // when its card is opened, one at a time; 64MB of them at once would be a bomb.
 
 import { createMap } from './map.js';
+import { addNlsOverlay } from './overlay.js';
+import { createSettings } from './ui/settings.js';
 import { placeFigureHtml, fillPlaceFigure } from './ui/placefig.js';
 
 const map = createMap(document.getElementById('map'));
@@ -42,6 +44,16 @@ fetch('data/atlas.json')
     let activeBook = null; // null = all books shown
 
     const ready = () => {
+      // The same cog a book carries, so the atlas is not a dead end: the way
+      // back to the shelf and out to the standing pages. The overlay check
+      // wants locations, and the pins are exactly that — hundreds of them sit
+      // on British ground, so the 1890s survey is offered here too. It only
+      // draws from zoom 6 (NLS_MINZOOM), so the whole-shelf opening shot is
+      // untouched and the OS sheet reveals itself as you go into London.
+      createSettings(map, {
+        overlay: addNlsOverlay(map, { locations: atlas.pins }),
+      });
+
       map.addSource('atlas', {
         type: 'geojson',
         data: { type: 'FeatureCollection', features },

@@ -1344,6 +1344,11 @@ body.is-overture #storycard { display: none !important; }
 .settings-fab .settings-cog svg { display: block; transition: transform 0.3s ease; }
 .settings-fab .settings-cog[aria-expanded='true'] svg { transform: rotate(60deg); }
 
+/* The atlas has no transport bar to clear, only the attribution strip, so the
+   cog drops to sit just above that. */
+.atlas-page .settings-fab { bottom: 34px; }
+.atlas-page .settings-pane { bottom: 72px; }
+
 .settings-pane {
   position: absolute;
   right: 10px;
