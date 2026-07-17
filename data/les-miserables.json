@@ -839,6 +839,18 @@
       "routeSource": "Les Misérables IV.3."
     },
     {
+      "character": "cosette",
+      "from": "rue-plumet",
+      "to": "rue-de-lhomme-arme",
+      "chapter": 10,
+      "mode": "coach",
+      "startDay": 6450.9,
+      "days": 0.05,
+      "note": "Marius learns at last whose hand carried him out of the sewer, and the two of them take a fiacre across Paris to the bare room in the Rue de l'Homme-Armé.",
+      "routeCertainty": "illustrative",
+      "routeSource": "Hugo names neither the road nor the hour, only that they drive there and arrive in time. Three kilometres across Paris, drawn straight, because there is nothing to reconstruct. Cosette's own address between the Rue Plumet and this drive is the Gillenormand house in the Marais, which this map does not carry - so the line starts from the last place it honestly knows her."
+    },
+    {
       "character": "valjean",
       "from": "rue-plumet",
       "to": "rue-de-la-chanvrerie-barricade",
@@ -1135,12 +1147,20 @@
       "narration": "Marius recovers and marries Cosette. His secret confessed, Valjean quietly withdraws to a bare room in the Rue de l'Homme-Armé, believing he has given her up for good."
     },
     {
+      "kind": "journey",
+      "character": "cosette",
+      "from": "rue-plumet",
+      "to": "rue-de-lhomme-arme",
+      "chapter": 10,
+      "narration": "Then Thénardier, trying to sell a secret, hands Marius the truth instead: the man he took for a criminal is the hand that carried him out of the sewer. They drive across Paris at once."
+    },
+    {
       "kind": "scene",
       "character": "valjean",
       "at": "rue-de-lhomme-arme",
       "chapter": 10,
       "title": "The candlesticks, at the last",
-      "narration": "Cosette and Marius learn the truth and reach him at the last. By the light of the Bishop's two candlesticks, forgiven and at peace, Jean Valjean dies. His grave is left unmarked.",
+      "narration": "They reach him at the last. By the light of the Bishop's two candlesticks, forgiven and at peace, Jean Valjean dies. His grave is left unmarked.",
       "day": 6451
     }
   ]
