@@ -11,6 +11,11 @@
 // from SPANS) and compares - so it also catches stats gone stale after a route
 // or SPANS edit, not just a missing book.
 //
+// It also checks the one other hand-written derived number on the site: the
+// book count in the About intro. That sat at twenty-one for nineteen books,
+// which is the same failure in a different file - a figure that has to be
+// remembered rather than computed. Same gate, same reason.
+//
 // Run: node tools/check-shelf-stats.mjs   ->  exits non-zero if incomplete/stale
 
 import { readFileSync } from 'node:fs';
@@ -49,10 +54,31 @@ for (const entry of novels) {
   }
 }
 
+// ---- the About intro's book count, written out by hand in prose ----
+const ONES = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight',
+  'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen',
+  'seventeen', 'eighteen', 'nineteen'];
+const TENS = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+const inWords = (n) => {
+  if (n < 20) return ONES[n];
+  if (n < 100) return n % 10 ? `${TENS[Math.floor(n / 10)]}-${ONES[n % 10]}` : TENS[Math.floor(n / 10)];
+  return String(n);
+};
+
+const about = readFileSync(join(root, 'about.html'), 'utf8');
+const said = about.match(/There are ([a-z-]+) books now/i);
+const should = inWords(novels.length);
+if (!said) {
+  problems.push('about.html: the "There are <n> books now" sentence has moved or been reworded - update this check to match');
+} else if (said[1].toLowerCase() !== should) {
+  problems.push(`about.html: intro book count stale (says "${said[1]}", should be "${should}" for ${novels.length} books)`);
+}
+
 if (problems.length) {
-  console.error(`shelf-stats gate FAILED - the shelf would mis-sort ${problems.length} thing(s):`);
+  console.error(`shelf-stats gate FAILED - ${problems.length} thing(s) stale or missing:`);
   for (const p of problems) console.error('  - ' + p);
   console.error('\nfix: add any missing SPANS line, then run: node tools/build-shelf-stats.mjs');
+  console.error('     an about.html count is a hand edit - just correct the word.');
   process.exit(1);
 }
-console.log(`shelf stats complete and fresh for ${novels.length} books.`);
+console.log(`shelf stats complete and fresh for ${novels.length} books; About count reads "${should}".`);
