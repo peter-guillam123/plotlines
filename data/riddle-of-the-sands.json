@@ -1,0 +1,1646 @@
+{
+  "title": "The Riddle of the Sands",
+  "story": [
+    {
+      "kind": "scene",
+      "character": "carruthers",
+      "at": "london",
+      "chapter": 1,
+      "title": "The letter",
+      "day": 47.8,
+      "narration": "Meet Carruthers: a bored young clerk at the Foreign Office, his autumn leave in ruins. A letter comes from Davies, a half-remembered friend, offering duck-shooting and a little yachting in the Baltic. For want of anything better, he goes."
+    },
+    {
+      "kind": "journey",
+      "character": "carruthers",
+      "from": "london",
+      "to": "flensburg",
+      "chapter": 2,
+      "narration": "Out to the Baltic by the boat-train: the night steamer across to Flushing, then the long rail haul over Holland and Germany by Hamburg to the little port of Flensburg, expecting a smart yacht and a gay party."
+    },
+    {
+      "kind": "scene",
+      "character": "carruthers",
+      "at": "flensburg",
+      "chapter": 3,
+      "title": "The Dulcibella",
+      "day": 51.3,
+      "narration": "What he finds is Davies: shy, dogged, sunburnt, alone on the Dulcibella, a spartan seven-ton converted lifeboat with no party and no comfort. Carruthers nearly turns for home. Something in his friend's manner keeps him aboard."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "flensburg",
+      "to": "sonderburg",
+      "chapter": 5,
+      "narration": "They potter down the fiord into Als Sound, under the Dybbøl heights where Prussia stormed these duchies from Denmark in 1864. 'Germany's a thundering great nation,' says Davies, oddly intent; 'I wonder if we shall ever fight her.'"
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "sonderburg",
+      "to": "schlei",
+      "chapter": 6,
+      "narration": "South down the coast to the narrow, fog-prone mouth of the Schlei, Davies growing stranger and more secretive by the hour."
+    },
+    {
+      "kind": "scene",
+      "character": "davies",
+      "at": "schlei",
+      "chapter": 7,
+      "title": "The confession",
+      "day": 55,
+      "narration": "Here, fog-bound, Davies finally tells the whole truth of his summer, the thing he has been circling since Carruthers arrived. It is worth winding the clock back to hear it from the start."
+    },
+    {
+      "kind": "meanwhile",
+      "narration": "Wind back to August, and Davies's own cruise, and how a summer's yachting turned into a matter of life and death."
+    },
+    {
+      "kind": "removal",
+      "character": "davies",
+      "from": "dover",
+      "to": "amsterdam",
+      "chapter": 4,
+      "narration": "From Dover he had crossed to Ostend and threaded the Dutch canals up to Amsterdam, his friend Morrison along."
+    },
+    {
+      "kind": "removal",
+      "character": "davies",
+      "from": "amsterdam",
+      "to": "terschelling",
+      "chapter": 4,
+      "narration": "Out across the Zuider Zee to Terschelling, where Morrison left him, and Davies, happiest alone, sailed on east by himself."
+    },
+    {
+      "kind": "removal",
+      "character": "davies",
+      "from": "terschelling",
+      "to": "borkum",
+      "chapter": 4,
+      "narration": "Island by island along the great sandy chain to Borkum, the first of the German islands."
+    },
+    {
+      "kind": "journey",
+      "character": "davies",
+      "from": "borkum",
+      "to": "norderney",
+      "chapter": 4,
+      "narration": "At Norderney he fell in with a fellow Englishman in a fine yacht, the Medusa: Dollmann, genial and plausible, passing as German. Davies liked him. It was very nearly the last mistake he ever made."
+    },
+    {
+      "kind": "journey",
+      "character": "dollmann",
+      "from": "norderney",
+      "to": "hohenhorn",
+      "chapter": 4,
+      "narration": "For Dollmann offered to pilot him a short cut behind the sands as a gale got up, and led the way out ahead in the Medusa."
+    },
+    {
+      "kind": "journey",
+      "character": "davies",
+      "from": "norderney",
+      "to": "hohenhorn",
+      "chapter": 4,
+      "narration": "Trusting the lead, Davies followed the Medusa into breaking water on the Hohenhörn sand, straight into a place a stranger would take a man only to drown him."
+    },
+    {
+      "kind": "scene",
+      "character": "davies",
+      "at": "hohenhorn",
+      "chapter": 4,
+      "title": "No accident",
+      "day": 38.8,
+      "narration": "He clawed off, grounded, half-swamped, and was plucked from the sands by a Frisian galliot, its kindly skipper Bartels. Alive, and certain now: it had been no accident, and the sands were hiding something worth his murder."
+    },
+    {
+      "kind": "journey",
+      "character": "dollmann",
+      "from": "hohenhorn",
+      "to": "norderney",
+      "chapter": 4,
+      "narration": "Dollmann, his work as good as done, had already slipped back to Norderney, sure the sea had closed over the only witness."
+    },
+    {
+      "kind": "removal",
+      "character": "davies",
+      "from": "hohenhorn",
+      "to": "kiel",
+      "chapter": 4,
+      "narration": "Davies worked north to the Eider and through by river and canal to Kiel, burning to go back."
+    },
+    {
+      "kind": "removal",
+      "character": "davies",
+      "from": "kiel",
+      "to": "flensburg",
+      "chapter": 4,
+      "narration": "And up to Flensburg, where he wired the one friend he thought might help: Carruthers."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "schlei",
+      "to": "kiel",
+      "chapter": 9,
+      "narration": "The tale told, back at the Schlei the two make their pact: sail down to the sands and solve it. They slip out past Bülk Point for Kiel and the canal that runs west to the North Sea."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "kiel",
+      "to": "cuxhaven",
+      "chapter": 11,
+      "narration": "Through the Kaiser Wilhelm Canal by Rendsburg to Brunsbüttel, and down the Elbe past Cuxhaven, out of the tame Baltic and into the wild estuaries at last."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "cuxhaven",
+      "to": "wangeroog",
+      "chapter": 12,
+      "narration": "Before them the drowned wilderness Davies loves: the sands between Elbe, Weser and Jade, bared at every tide. Ten days feeling a way across, aground as often as afloat, to Wangeroog and the great screen of islands running fifty miles west to the Ems."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "wangeroog",
+      "to": "bensersiel",
+      "chapter": 15,
+      "narration": "West through the gaps and along the sheltered Watt behind the islands, to the mean little mainland harbour of Bensersiel, one of seven such tidal creeks."
+    },
+    {
+      "kind": "scene",
+      "character": "carruthers",
+      "at": "bensersiel",
+      "chapter": 16,
+      "title": "Watched",
+      "day": 74.5,
+      "narration": "Here Commander von Brüning of the gunboat Blitz comes calling, genial, dangerous, full of friendly questions. Likeable as he is, the two men grasp it at last: they are watched, and this coast has something to hide."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "bensersiel",
+      "to": "norderney",
+      "chapter": 20,
+      "narration": "On behind Baltrum into the roadstead at Norderney, the fashionable island resort that is, they now suspect, the very heart of the thing."
+    },
+    {
+      "kind": "scene",
+      "character": "carruthers",
+      "at": "norderney",
+      "chapter": 20,
+      "title": "Dollmann's island",
+      "day": 77.1,
+      "narration": "Dollmann's own island: his villa, his salvage company's office, and his daughter Clara, who sails her own boat and is innocent of his trade. Davies is helplessly in love; and Clara, half-guessing the truth, comes quietly to shield them both."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "norderney",
+      "to": "memmert",
+      "chapter": 21,
+      "narration": "In thick fog they pull a dinghy out across the drying sands by compass alone, blindfold to Memmert, a bare bank where the salvage company keeps its depot."
+    },
+    {
+      "kind": "scene",
+      "character": "carruthers",
+      "at": "memmert",
+      "chapter": 22,
+      "title": "The secret",
+      "day": 77.5,
+      "narration": "Carruthers creeps to a lit window and listens. Inside, four men and the whole secret: the salvage is a blind, and something is being built here for a sea-borne descent on England. He has it, and must get away unseen."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "memmert",
+      "to": "norderney",
+      "chapter": 23,
+      "narration": "The long blind pull back to the boat, the foghorn guiding them in, the thing half-known and wholly dangerous now."
+    },
+    {
+      "kind": "handoff",
+      "character": "carruthers",
+      "at": "norderney",
+      "chapter": 24,
+      "title": "The doubling-back",
+      "narration": "We leave Davies with the boat now. This is Carruthers's game: to vanish, playing the beaten amateur gone home, then slip back in disguise and catch the plot in the very act."
+    },
+    {
+      "kind": "removal",
+      "character": "carruthers",
+      "from": "norderney",
+      "to": "norddeich",
+      "chapter": 25,
+      "narration": "Out by the morning ferry to the mainland, openly, as a man giving the whole thing up."
+    },
+    {
+      "kind": "removal",
+      "character": "carruthers",
+      "from": "norddeich",
+      "to": "emden",
+      "chapter": 25,
+      "narration": "By the little Frisian railway through Norden to Emden."
+    },
+    {
+      "kind": "removal",
+      "character": "carruthers",
+      "from": "emden",
+      "to": "amsterdam",
+      "chapter": 25,
+      "narration": "On by train into Holland to Amsterdam, laying a false scent; and there, in a back-street slop-shop, he sheds the yachtsman for a common seaman, rough clothes and a false name, and turns straight round."
+    },
+    {
+      "kind": "journey",
+      "character": "carruthers",
+      "from": "amsterdam",
+      "to": "esens",
+      "chapter": 26,
+      "narration": "Doubled back into Germany by the same lines reversed, down to the country town of Esens by night, unrecognised."
+    },
+    {
+      "kind": "journey",
+      "character": "carruthers",
+      "from": "esens",
+      "to": "bensersiel",
+      "chapter": 26,
+      "narration": "On foot through the dark siel-villages, tracing the little canals that could float an army's boats, to reach Bensersiel by the night of the rendezvous."
+    },
+    {
+      "kind": "journey",
+      "character": "carruthers",
+      "from": "bensersiel",
+      "to": "norddeich",
+      "chapter": 27,
+      "narration": "Stowed in a tug's boat, he rides unseen through a full rehearsal: tug and laden lighter, out past the islands and back - and aboard, one passenger who has, he is sure, a better right than anyone in Germany to insist on coming."
+    },
+    {
+      "kind": "journey",
+      "character": "carruthers",
+      "from": "norddeich",
+      "to": "norderney",
+      "chapter": 28,
+      "narration": "To break free he runs the whole rehearsal aground in the shoals off Norddeich, then rows back across to Norderney and Davies, with the proof entire."
+    },
+    {
+      "kind": "scene",
+      "character": "carruthers",
+      "at": "norderney",
+      "chapter": 28,
+      "title": "Cornered",
+      "day": 81.4,
+      "narration": "At dawn the two confront Dollmann in his villa. Cornered, and with Clara's whole future in the balance, the traitor agrees to run for England with them, and turn on the masters he has served."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies",
+        "dollmann"
+      ],
+      "from": "norderney",
+      "to": "rottum",
+      "chapter": 28,
+      "narration": "Out of the Riff Gat and away west through a rising gale, Dollmann and Clara aboard, the little boat driving for the open sea under the lee of Juist and Memmert."
+    },
+    {
+      "kind": "scene",
+      "character": "carruthers",
+      "at": "rottum",
+      "chapter": 28,
+      "title": "He was gone",
+      "day": 81.85,
+      "narration": "Off Rottum, in the thick of a hard beat with everyone busy on deck, Carruthers looks round and Dollmann is simply gone, over the side in the dark, leap or fall, and the sea keeps its own counsel."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "rottum",
+      "to": "ostmahorn",
+      "chapter": 28,
+      "narration": "Through the Dutch shoals, shaken, to anchor off the hamlet of Ostmahorn and give the Dulcibella into the hands of astonished fishermen."
+    },
+    {
+      "kind": "removal",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "ostmahorn",
+      "to": "harlingen",
+      "chapter": 28,
+      "narration": "Then by road and rail across Friesland, hurrying still, to the port of Harlingen."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "harlingen",
+      "to": "london",
+      "chapter": 28,
+      "narration": "And home by the ordinary mail-steamer, carrying what they know to a Government that must somehow be made to listen, before it is too late."
+    }
+  ],
+  "author": "Erskine Childers",
+  "year": 1903,
+  "gutenbergId": 2360,
+  "quotesVerified": true,
+  "timeline": {
+    "epoch": "1902-08-06",
+    "calendar": true,
+    "span": "one autumn - late August to late October, on a real tide-table"
+  },
+  "overture": "One autumn in a small boat among the sands of the German North Sea coast - two amateur Englishmen, a chart, and the tide - uncovering, channel by channel, a secret worth a man's murder to keep.",
+  "sources": "Erskine Childers, The Riddle of the Sands (1903), Project Gutenberg #2360; the Frisian coast, islands and channels are real and were charted by Childers from his own cruises (the book's Maps A and B). Coastline and place positions from standard modern charts.",
+  "regions": [
+    {
+      "id": "outward",
+      "name": "The outward passage"
+    },
+    {
+      "id": "baltic",
+      "name": "The Baltic fiords"
+    },
+    {
+      "id": "sands",
+      "name": "The sands"
+    },
+    {
+      "id": "escape",
+      "name": "The run for home"
+    }
+  ],
+  "mapHome": {
+    "bounds": [
+      [
+        6,
+        53
+      ],
+      [
+        10.6,
+        55.2
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "day": 48
+    },
+    {
+      "n": 2,
+      "day": 51
+    },
+    {
+      "n": 3,
+      "day": 51
+    },
+    {
+      "n": 4,
+      "day": 52
+    },
+    {
+      "n": 5,
+      "day": 52
+    },
+    {
+      "n": 6,
+      "day": 55
+    },
+    {
+      "n": 7,
+      "day": 56
+    },
+    {
+      "n": 8,
+      "day": 56
+    },
+    {
+      "n": 9,
+      "day": 56
+    },
+    {
+      "n": 10,
+      "day": 57
+    },
+    {
+      "n": 11,
+      "day": 58
+    },
+    {
+      "n": 12,
+      "day": 60
+    },
+    {
+      "n": 13,
+      "day": 64
+    },
+    {
+      "n": 14,
+      "day": 70
+    },
+    {
+      "n": 15,
+      "day": 72
+    },
+    {
+      "n": 16,
+      "day": 74
+    },
+    {
+      "n": 17,
+      "day": 74
+    },
+    {
+      "n": 18,
+      "day": 75
+    },
+    {
+      "n": 19,
+      "day": 76
+    },
+    {
+      "n": 20,
+      "day": 77
+    },
+    {
+      "n": 21,
+      "day": 77
+    },
+    {
+      "n": 22,
+      "day": 77
+    },
+    {
+      "n": 23,
+      "day": 78
+    },
+    {
+      "n": 24,
+      "day": 78
+    },
+    {
+      "n": 25,
+      "day": 79
+    },
+    {
+      "n": 26,
+      "day": 80
+    },
+    {
+      "n": 27,
+      "day": 81
+    },
+    {
+      "n": 28,
+      "day": 81
+    }
+  ],
+  "characters": [
+    {
+      "id": "carruthers",
+      "name": "Carruthers",
+      "colour": "ochre",
+      "initials": "C",
+      "role": "A bored young Foreign Office clerk, pulled out to the Baltic by a half-forgotten friend's letter and drawn into the chase.",
+      "start": {
+        "location": "london",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "davies",
+      "name": "Davies",
+      "colour": "prussian",
+      "initials": "D",
+      "role": "A shy, dogged amateur yachtsman who has stumbled on a secret in the sands and cannot let it go.",
+      "start": {
+        "location": "dover",
+        "chapter": 4
+      }
+    },
+    {
+      "id": "dollmann",
+      "name": "Dollmann",
+      "colour": "slate",
+      "initials": "Do",
+      "role": "An Englishman and disgraced ex-naval officer, passing as German, who authored the plan and once tried to drown Davies for finding it.",
+      "start": {
+        "location": "norderney",
+        "chapter": 4
+      },
+      "exit": {
+        "chapter": 28,
+        "day": 81.85,
+        "kind": "dies",
+        "note": "Goes over the side in a gale off Rottum during the escape and is lost - leap or fall, the book leaves open."
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "london",
+      "region": "outward",
+      "name": "London",
+      "novelName": "London",
+      "coords": [
+        -0.128,
+        51.507
+      ],
+      "certainty": "real",
+      "story": "A wet September evening at the Foreign Office. Carruthers, a bored young clerk with his leave ruined, opens a half-forgotten friend's letter inviting him yachting in the Baltic, and goes for want of anything better.",
+      "quote": "join me in a little yachting, and, I hope, duck-shooting.",
+      "quoteRef": "Ch. 1",
+      "image": {
+        "file": "assets/images/rs-london.jpg",
+        "caption": "Horse Guards on Whitehall, the government quarter where Carruthers idles at the Foreign Office, photographed around 1895.",
+        "credit": "Photochrom, Detroit Publishing Co., c.1895 · Library of Congress · public domain"
+      }
+    },
+    {
+      "id": "dover",
+      "region": "outward",
+      "name": "Dover",
+      "novelName": "Dover",
+      "coords": [
+        1.313,
+        51.129
+      ],
+      "certainty": "real",
+      "story": "Where Davies's own cruise began that August, sailing a converted lifeboat across to Ostend and on into the Dutch waterways - the voyage that would carry him, alone, into the sands and the secret.",
+      "image": {
+        "file": "assets/images/rs-dover.jpg",
+        "caption": "The Dover seafront, castle and white cliffs, around 1895 - where Davies's own cruise set out that August.",
+        "credit": "Photochrom, Detroit Publishing Co., c.1895 · Library of Congress · public domain"
+      }
+    },
+    {
+      "id": "amsterdam",
+      "region": "outward",
+      "name": "Amsterdam",
+      "novelName": "Amsterdam",
+      "coords": [
+        4.895,
+        52.37
+      ],
+      "certainty": "real",
+      "story": "The turn of Davies's outward passage through Holland - and, weeks later, the far end of Carruthers's doubling-back, where he sheds his yachtsman's clothes for a seaman's slop-suit and a false trail before slipping back into Germany in disguise.",
+      "image": {
+        "file": "assets/images/rs-amsterdam.jpg",
+        "caption": "The IJ harbour at Amsterdam, thick with steam tugs and ferries, around 1900 - the turn of Davies's passage through Holland.",
+        "credit": "Postcard, c.1900 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "terschelling",
+      "region": "outward",
+      "name": "Terschelling",
+      "novelName": "Terschelling",
+      "coords": [
+        5.35,
+        53.4
+      ],
+      "certainty": "real",
+      "story": "The Dutch island where Davies's friend Morrison left him, and the shy amateur went on east alone along the Frisian chain - the moment the book's real solitude begins.",
+      "image": {
+        "file": "assets/images/rs-terschelling.jpg",
+        "caption": "The pier at West-Terschelling, steamers alongside and the Brandaris tower behind, around 1900 - the island where Davies went on alone.",
+        "credit": "Tresoar (Frisian Historical Archive), c.1900 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "borkum",
+      "region": "outward",
+      "name": "Borkum",
+      "novelName": "Borkum",
+      "coords": [
+        6.66,
+        53.578
+      ],
+      "certainty": "real",
+      "story": "The first of the German islands. Beyond it Davies met a fellow Englishman in a fine yacht, Dollmann, passing as German - genial, plausible, and about to lure him onto the sands to die.",
+      "image": {
+        "file": "assets/images/rs-borkum.jpg",
+        "caption": "A family on the beach at Borkum, around 1900 - the first of the German islands, where Davies fell in with Dollmann.",
+        "credit": "Postcard, c.1900 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "hohenhorn",
+      "region": "sands",
+      "name": "the Hohenhörn sands",
+      "novelName": "the Hohenhörn Sand",
+      "coords": [
+        8.3,
+        53.905
+      ],
+      "certainty": "conjectured",
+      "story": "The bank where Dollmann, sailing ahead as pilot in a rising gale, led Davies's little boat into breaking water and left him to drown. Davies clawed off, grounded, and was picked up by a passing galliot - and knew then it had been no accident.",
+      "note": "The exact stranding-ground is Childers's fiction laid over the real maze of banks at the Weser and Elbe mouths; 'Hohenhörn' does not map cleanly onto a single modern chart label. Placed on the sands off Scharhorn.",
+      "image": {
+        "file": "assets/images/rs-hohenhorn.jpg",
+        "caption": "An Admiralty chart of the Helgoland Bight and its sands, published 1919 - the real maze of banks at the Weser and Elbe mouths where the fictional Hohenhörn wreck is set.",
+        "credit": "Admiralty Chart 3347, UK Hydrographic Office, 1919 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "flensburg",
+      "region": "baltic",
+      "name": "Flensburg",
+      "novelName": "Flensburg",
+      "coords": [
+        9.437,
+        54.782
+      ],
+      "certainty": "real",
+      "story": "At the head of its long Baltic fiord, where Carruthers joins the Dulcibella and finds not the smart yacht and gay party he packed for, but a spartan 7-ton converted lifeboat and a friend nursing a secret.",
+      "quote": "Germany's a thundering great nation,",
+      "quoteRef": "Ch. 5",
+      "image": {
+        "file": "assets/images/rs-flensburg.jpg",
+        "caption": "A square-rigger in the misty Flensburg harbour, painted in 1900 - the Baltic port where Carruthers joins the Dulcibella.",
+        "credit": "Painting by Petersen-Angeln, 1900 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "sonderburg",
+      "region": "baltic",
+      "name": "Sønderborg, on Als Sound",
+      "novelName": "Sonderburg",
+      "coords": [
+        9.786,
+        54.913
+      ],
+      "certainty": "real",
+      "story": "Down the fiords by Sonderburg and the Dybbøl heights, past the memorials of the 1864 war in which Prussia took these duchies from Denmark - the first hint of the German power the book is really about.",
+      "image": {
+        "file": "assets/images/rs-sonderburg.jpg",
+        "caption": "Sønderborg castle across the Als Sound, in a watercolour of about 1895 - the fiord country under the Dybbøl heights.",
+        "credit": "Watercolour by Thoen-Wolters, c.1895 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "schlei",
+      "region": "baltic",
+      "name": "the mouth of the Schlei",
+      "novelName": "Schlei Fiord",
+      "coords": [
+        10.037,
+        54.673
+      ],
+      "certainty": "real",
+      "story": "Fog-bound at the narrow mouth of the Schlei, Davies at last tells the whole truth: the wreck, Dollmann, and his conviction that something is being hidden in the sands worth a man's murder to keep.",
+      "quote": "whatever the riddle to be solved, it was no mean one.",
+      "quoteRef": "Ch. 7",
+      "image": {
+        "file": "assets/images/rs-schlei.jpg",
+        "caption": "A thatched village on the broad water of the Schlei, photographed by Wilhelm Dreesen in 1894 - the fiord where Davies confesses.",
+        "credit": "Wilhelm Dreesen, 1894 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "kiel",
+      "region": "baltic",
+      "name": "Kiel",
+      "novelName": "Kiel",
+      "coords": [
+        10.152,
+        54.371
+      ],
+      "certainty": "real",
+      "story": "The great naval harbour on the Baltic. Here they store the boat, watch the German fleet, and slip into the Kaiser Wilhelm Canal that will carry them west to the North Sea and the coast that holds the answer.",
+      "image": {
+        "file": "assets/images/rs-kiel.jpg",
+        "caption": "Kiel harbour with warships at anchor, photographed in 1894 - the naval base, and the way into the canal west.",
+        "credit": "Sophus Williams, 1894 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "cuxhaven",
+      "region": "sands",
+      "name": "Cuxhaven and the estuary sands",
+      "novelName": "Cuxhaven",
+      "coords": [
+        8.7,
+        53.868
+      ],
+      "certainty": "real",
+      "story": "Out of the Elbe past Cuxhaven into the open estuaries - the drowned wilderness of sand between the Elbe, Weser and Jade that Davies calls the Pike and the Fork, ten days of feeling a way over banks that bare at every tide.",
+      "quote": "the three great estuaries—the Jade, the Weser and the Elbe",
+      "quoteRef": "Ch. 9",
+      "image": {
+        "file": "assets/images/rs-cuxhaven.jpg",
+        "caption": "The promenade and lighthouse at Cuxhaven, at the mouth of the Elbe, around 1910 - a little after the story, where the wild estuaries begin.",
+        "credit": "Postcard, c.1910 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "wangeroog",
+      "region": "sands",
+      "name": "Wangeroog",
+      "novelName": "Wangeroog",
+      "coords": [
+        7.9,
+        53.79
+      ],
+      "certainty": "real",
+      "story": "The easternmost of the Frisian islands, and the start of the great screen: a string of sandy islands running fifty miles west to the Ems, with a maze of tidal water threaded behind them.",
+      "quote": "A string of sandy islands backed by sand",
+      "quoteRef": "Ch. 11",
+      "image": {
+        "file": "assets/images/rs-wangeroog.jpg",
+        "caption": "The bathing beach at Wangerooge, its wicker Strandkörbe and the dune beacon, 1907 - easternmost of the island screen.",
+        "credit": "Postcard, 1907 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "bensersiel",
+      "region": "sands",
+      "name": "Bensersiel",
+      "novelName": "Bensersiel",
+      "coords": [
+        7.573,
+        53.673
+      ],
+      "certainty": "real",
+      "story": "A mean little tidal harbour on the mainland behind the islands, one of the seven insignificant 'siels'. Here Commander von Brüning of the gunboat Blitz comes genially to sound them out - and they realise they are watched.",
+      "imageBlank": "No period view of this tiny tidal siel-harbour surfaced; the honest images are all modern."
+    },
+    {
+      "id": "esens",
+      "region": "sands",
+      "name": "Esens",
+      "novelName": "Esens",
+      "coords": [
+        7.612,
+        53.652
+      ],
+      "certainty": "real",
+      "story": "The small country town four miles inland, hub of the little railway that loops the Frisian peninsula. Doubled back in disguise, Carruthers works its canals and villages by night, tracing the line that would move an invasion's men.",
+      "imageBlank": "No period view of the small East Frisian town surfaced; only modern photographs."
+    },
+    {
+      "id": "norderney",
+      "region": "sands",
+      "name": "Norderney",
+      "novelName": "Norderney",
+      "coords": [
+        7.155,
+        53.7
+      ],
+      "certainty": "real",
+      "story": "The fashionable island watering-place that is the heart of the plot: Dollmann's villa, his daughter Clara, the salvage company's office, and the roadstead where the Dulcibella lies while the two men close on the truth.",
+      "note": "Dollmann's villa in the Schwannallée is a plausible but invented address on the real island.",
+      "image": {
+        "file": "assets/images/rs-norderney.jpg",
+        "caption": "Beach life on Norderney, the fashionable island resort at the heart of the plot, photographed around 1895.",
+        "credit": "Photochrom, Detroit Publishing Co., c.1895 · Library of Congress · public domain"
+      }
+    },
+    {
+      "id": "memmert",
+      "region": "sands",
+      "name": "Memmert",
+      "novelName": "Memmert",
+      "coords": [
+        6.88,
+        53.635
+      ],
+      "certainty": "real",
+      "story": "A bare curved sandbank south of Juist, and the plot's engine-room: a salvage depot, ostensibly raising the bullion of a wrecked frigate, in fact the cover for building the fleet of shallow lighters. Carruthers rows here blind through fog to listen at its window.",
+      "note": "Memmert is a real sandbank; the salvage-depot buildings on it are Childers's fiction.",
+      "imageBlank": "A bare, uninhabited sandbank with nothing period to photograph; the chart of these sands is carried on the Hohenhörn card."
+    },
+    {
+      "id": "norddeich",
+      "region": "sands",
+      "name": "Norddeich",
+      "novelName": "Norddeich",
+      "coords": [
+        7.16,
+        53.618
+      ],
+      "certainty": "real",
+      "story": "The ferry-landing on the mainland opposite Norderney, near the town of Norden. Stowed away in a tug's lifeboat through a full rehearsal of the embarkation, Carruthers runs the whole thing aground in the shoal water here to escape with what he has learned.",
+      "image": {
+        "file": "assets/images/rs-norddeich.jpg",
+        "caption": "A street in Norden, around 1900 - the mainland town beside the Norddeich ferry-mole, of which no period view survives.",
+        "credit": "Postcard (Cramers), c.1900 · Wikimedia Commons · public domain",
+        "indicative": true
+      }
+    },
+    {
+      "id": "emden",
+      "region": "sands",
+      "name": "Emden",
+      "novelName": "Emden",
+      "coords": [
+        7.206,
+        53.359
+      ],
+      "certainty": "real",
+      "story": "The one real port at the Ems, and a station on Carruthers's overland journey - out by ferry and train towards Holland to lay a false scent, then back again, doubled, disguised, and hunting.",
+      "image": {
+        "file": "assets/images/rs-emden.jpg",
+        "caption": "The Ratsdelft basin at Emden on the Ems, a moored barge under the gabled houses, 1900 - the one real port on the Frisian coast.",
+        "credit": "Postcard, 1900 · Wikimedia Commons · public domain"
+      }
+    },
+    {
+      "id": "rottum",
+      "region": "escape",
+      "name": "Rottum",
+      "novelName": "Rottum",
+      "coords": [
+        6.552,
+        53.53
+      ],
+      "certainty": "real",
+      "story": "The first of the Dutch islands, and the end of the chase. Running for England through a gale with Dollmann aboard, the traitor goes over the side in the dark off Rottum and is gone - whether leap or fall, the sea keeps.",
+      "quote": "I happened to look round, and he was gone.",
+      "quoteRef": "Ch. 28",
+      "imageBlank": "No honest period view of this uninhabited Wadden island surfaced; left a logged blank."
+    },
+    {
+      "id": "ostmahorn",
+      "region": "escape",
+      "name": "Oostmahorn",
+      "novelName": "Ostmahorn",
+      "coords": [
+        6.152,
+        53.4
+      ],
+      "certainty": "real",
+      "story": "The Dutch mainland hamlet where the exhausted crew anchor at last, give the Dulcibella into the hands of astonished fishermen, and take to road and rail for the boat home.",
+      "imageBlank": "The only honest image of the hamlet is a 1674 engraving, far too early to read as the story's 1902; left a logged blank."
+    },
+    {
+      "id": "harlingen",
+      "region": "escape",
+      "name": "Harlingen",
+      "novelName": "Harlingen",
+      "coords": [
+        5.415,
+        53.174
+      ],
+      "certainty": "real",
+      "story": "The Dutch port from which, the sands behind them and the secret carried home, Carruthers and Davies take the ordinary mail-steamer back to England - and to a Government that must now be made to listen.",
+      "image": {
+        "file": "assets/images/rs-harlingen.jpg",
+        "caption": "Harlingen harbour with a three-masted barque, 1900 - the port from which the two men took the mail-steamer home.",
+        "credit": "Postcard (A. Land Ezn.), 1900 · Wikimedia Commons · public domain"
+      }
+    }
+  ],
+  "movements": [
+    {
+      "character": "davies",
+      "from": "dover",
+      "to": "amsterdam",
+      "chapter": 4,
+      "mode": "ship",
+      "days": 6,
+      "startDay": 0,
+      "medium": "river",
+      "note": "Davies and his friend Morrison cross from Dover to Ostend and thread the Dutch rivers and canals up to Amsterdam."
+    },
+    {
+      "character": "davies",
+      "from": "amsterdam",
+      "to": "terschelling",
+      "chapter": 4,
+      "mode": "ship",
+      "days": 5,
+      "startDay": 8,
+      "via": [
+        [
+          5.05,
+          52.55
+        ],
+        [
+          5.25,
+          52.85
+        ],
+        [
+          5.3,
+          53.05
+        ],
+        [
+          5.33,
+          53.22
+        ],
+        [
+          5.35,
+          53.35
+        ]
+      ],
+      "note": "Out through the Zuider Zee to the Frisian islands; at Terschelling Morrison leaves him, and Davies goes on east alone.",
+      "spillOk": true,
+      "spillNote": "Davies crosses the Zuider Zee - open arm of the sea in 1902, now the dammed and part-reclaimed IJsselmeer, which the coarse coast polygon reads as land. On the detailed base it draws over water."
+    },
+    {
+      "character": "davies",
+      "from": "terschelling",
+      "to": "borkum",
+      "chapter": 4,
+      "mode": "ship",
+      "days": 13,
+      "startDay": 20,
+      "via": [
+        [
+          5.55,
+          53.41
+        ],
+        [
+          5.9,
+          53.43
+        ],
+        [
+          6.2,
+          53.47
+        ],
+        [
+          6.42,
+          53.52
+        ],
+        [
+          6.55,
+          53.56
+        ]
+      ],
+      "note": "Alone along the whole Frisian chain, threading the Wadden behind the Dutch islands to Borkum - the first of the German islands.",
+      "routeCertainty": "novel",
+      "routeSource": "Davies's own account of the outward cruise, ch. 4."
+    },
+    {
+      "character": "davies",
+      "from": "borkum",
+      "to": "norderney",
+      "chapter": 4,
+      "mode": "ship",
+      "days": 0.5,
+      "startDay": 34,
+      "via": [
+        [
+          6.82,
+          53.61
+        ],
+        [
+          6.98,
+          53.645
+        ],
+        [
+          7.06,
+          53.665
+        ]
+      ],
+      "note": "On behind Juist to Norderney, where he falls in with Dollmann and the Medusa.",
+      "routeCertainty": "novel",
+      "routeSource": "ch. 4."
+    },
+    {
+      "character": "dollmann",
+      "from": "norderney",
+      "to": "hohenhorn",
+      "chapter": 4,
+      "mode": "ship",
+      "days": 0.6,
+      "startDay": 37.6,
+      "note": "Dollmann, sailing ahead as pilot, offers to show Davies a short cut behind the sands in worsening weather."
+    },
+    {
+      "character": "davies",
+      "from": "norderney",
+      "to": "hohenhorn",
+      "chapter": 4,
+      "mode": "ship",
+      "days": 0.6,
+      "startDay": 38,
+      "note": "Trusting the stranger's lead, Davies follows the Medusa into the breaking water off the Hohenhörn - and is nearly drowned."
+    },
+    {
+      "character": "dollmann",
+      "from": "hohenhorn",
+      "to": "norderney",
+      "chapter": 4,
+      "mode": "ship",
+      "days": 0.5,
+      "startDay": 39,
+      "note": "His work as good as done, Dollmann slips back to Norderney, sure the sea has finished the witness."
+    },
+    {
+      "character": "davies",
+      "from": "hohenhorn",
+      "to": "kiel",
+      "chapter": 4,
+      "mode": "ship",
+      "days": 6,
+      "startDay": 40,
+      "medium": "river",
+      "note": "Picked off the sands by the galliot Johannes, Davies works north to the Eider and through by river and canal to Kiel, then up to Flensburg - determined to go back."
+    },
+    {
+      "character": "davies",
+      "from": "kiel",
+      "to": "flensburg",
+      "chapter": 4,
+      "mode": "ship",
+      "days": 3,
+      "startDay": 46,
+      "via": [
+        [
+          10.2,
+          54.45
+        ],
+        [
+          10.15,
+          54.6
+        ],
+        [
+          10,
+          54.72
+        ],
+        [
+          9.85,
+          54.8
+        ],
+        [
+          9.72,
+          54.82
+        ]
+      ],
+      "note": "By sea up the Baltic coast and into the Flensburg fiord."
+    },
+    {
+      "character": "carruthers",
+      "from": "london",
+      "to": "flensburg",
+      "chapter": 2,
+      "mode": "train",
+      "days": 3,
+      "startDay": 48,
+      "via": [
+        [
+          0.74,
+          51.42
+        ],
+        [
+          3.57,
+          51.44
+        ],
+        [
+          4.46,
+          51.53
+        ],
+        [
+          6.17,
+          51.36
+        ],
+        [
+          8.05,
+          52.28
+        ],
+        [
+          9.99,
+          53.55
+        ],
+        [
+          9.44,
+          54.4
+        ]
+      ],
+      "note": "Carruthers travels out by the boat-train - the short Channel crossing at Dover, then the long haul across Germany by rail - to join the boat at Flensburg.",
+      "routeCertainty": "documented",
+      "routeSource": "the 1902 boat-train via Dover-Calais and the German main lines.",
+      "spillOk": true,
+      "spillNote": "The boat-train to the Baltic: rail to the Kent coast, the Zeeland steamer across the North Sea to Flushing, then rail on across Holland and Germany - one line, two mediums, as the book has it."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "flensburg",
+      "to": "sonderburg",
+      "chapter": 5,
+      "mode": "ship",
+      "days": 1,
+      "startDay": 52,
+      "note": "Down the Flensburg fiord and into Als Sound, under the Dybbøl heights."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "sonderburg",
+      "to": "schlei",
+      "chapter": 6,
+      "mode": "ship",
+      "days": 1,
+      "startDay": 54,
+      "note": "South-west along the coast to the narrow mouth of the Schlei."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "schlei",
+      "to": "kiel",
+      "chapter": 9,
+      "mode": "ship",
+      "days": 0.5,
+      "startDay": 56,
+      "note": "Out past Bülk Point into Kiel Fiord by night, the confession made and the purpose fixed."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "kiel",
+      "to": "cuxhaven",
+      "chapter": 11,
+      "mode": "ship",
+      "days": 2,
+      "startDay": 58,
+      "medium": "canal",
+      "via": [
+        [
+          9.95,
+          54.36
+        ],
+        {
+          "at": [
+            9.667,
+            54.304
+          ],
+          "name": "Rendsburg",
+          "note": "The midpoint of the Kaiser Wilhelm Canal, where it doglegs south for the Elbe."
+        },
+        [
+          9.4,
+          54.08
+        ],
+        {
+          "at": [
+            9.14,
+            53.895
+          ],
+          "name": "Brunsbüttel",
+          "note": "The canal locks down into the Elbe here."
+        },
+        [
+          8.95,
+          53.885
+        ],
+        [
+          8.8,
+          53.875
+        ]
+      ],
+      "note": "Through the Kaiser Wilhelm Canal from Holtenau by Rendsburg to Brunsbüttel, then down the Elbe past Cuxhaven into the open estuaries.",
+      "routeCertainty": "novel",
+      "routeSource": "Childers takes the Dulcibella through the Kaiser Wilhelm Canal and down the Elbe, chs. 10-11."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "cuxhaven",
+      "to": "wangeroog",
+      "chapter": 12,
+      "mode": "ship",
+      "days": 10,
+      "startDay": 60,
+      "via": [
+        [
+          8.503,
+          53.919
+        ],
+        [
+          8.42,
+          53.965
+        ],
+        [
+          8.3,
+          53.905
+        ],
+        [
+          8.15,
+          53.85
+        ],
+        [
+          7.98,
+          53.815
+        ]
+      ],
+      "routeCertainty": "novel",
+      "routeSource": "Childers charts the passage across the estuary sands turn by turn in chs. 11-13 (Map A)."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "wangeroog",
+      "to": "bensersiel",
+      "chapter": 15,
+      "mode": "ship",
+      "days": 3,
+      "startDay": 71,
+      "via": [
+        [
+          7.8,
+          53.745
+        ],
+        [
+          7.7,
+          53.735
+        ],
+        [
+          7.62,
+          53.72
+        ]
+      ],
+      "routeCertainty": "novel",
+      "routeSource": "The passage behind the islands, ch. 15 (Map B)."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "bensersiel",
+      "to": "norderney",
+      "chapter": 20,
+      "mode": "ship",
+      "days": 2,
+      "startDay": 75,
+      "via": [
+        [
+          7.52,
+          53.715
+        ],
+        [
+          7.44,
+          53.712
+        ],
+        [
+          7.36,
+          53.705
+        ],
+        [
+          7.26,
+          53.702
+        ]
+      ],
+      "routeCertainty": "novel",
+      "routeSource": "chs. 15-20 (Map B)."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "norderney",
+      "to": "memmert",
+      "chapter": 21,
+      "mode": "ship",
+      "days": 0.2,
+      "startDay": 77.2,
+      "via": [
+        [
+          7.09,
+          53.678
+        ],
+        [
+          7.01,
+          53.66
+        ],
+        [
+          6.93,
+          53.642
+        ]
+      ],
+      "routeCertainty": "novel",
+      "routeSource": "ch. 21, 'Blindfold to Memmert'."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "memmert",
+      "to": "norderney",
+      "chapter": 23,
+      "mode": "ship",
+      "days": 0.2,
+      "startDay": 77.7,
+      "via": [
+        [
+          6.93,
+          53.642
+        ],
+        [
+          7.01,
+          53.66
+        ],
+        [
+          7.09,
+          53.678
+        ]
+      ],
+      "routeCertainty": "novel",
+      "routeSource": "ch. 23."
+    },
+    {
+      "character": "carruthers",
+      "from": "norderney",
+      "to": "norddeich",
+      "chapter": 25,
+      "mode": "ship",
+      "days": 0.1,
+      "startDay": 78.3,
+      "note": "Out by the morning ferry-steamer to the mainland."
+    },
+    {
+      "character": "carruthers",
+      "from": "norddeich",
+      "to": "emden",
+      "chapter": 25,
+      "mode": "train",
+      "days": 0.2,
+      "startDay": 78.5,
+      "note": "By the little Frisian railway through Norden to Emden."
+    },
+    {
+      "character": "carruthers",
+      "from": "emden",
+      "to": "amsterdam",
+      "chapter": 25,
+      "mode": "train",
+      "days": 0.6,
+      "startDay": 78.7,
+      "via": [
+        [
+          7.44,
+          52.28
+        ],
+        [
+          6.9,
+          52.22
+        ],
+        [
+          5.9,
+          52.21
+        ]
+      ],
+      "note": "On by train through Leer and Rheine into Holland, laying a false scent that he has quit the game.",
+      "routeCertainty": "documented",
+      "routeSource": "the Emden-Rheine and Dutch main lines, 1902."
+    },
+    {
+      "character": "carruthers",
+      "from": "amsterdam",
+      "to": "esens",
+      "chapter": 26,
+      "mode": "train",
+      "days": 0.7,
+      "startDay": 79.6,
+      "via": [
+        [
+          5.9,
+          52.21
+        ],
+        [
+          7.44,
+          52.28
+        ],
+        [
+          7.206,
+          53.359
+        ],
+        [
+          7.205,
+          53.596
+        ]
+      ],
+      "note": "Disguised as a seaman, he doubles straight back into Germany and down to Esens by night.",
+      "routeCertainty": "documented",
+      "routeSource": "the same lines, reversed, ch. 25."
+    },
+    {
+      "character": "carruthers",
+      "from": "esens",
+      "to": "bensersiel",
+      "chapter": 26,
+      "mode": "foot",
+      "days": 0.3,
+      "startDay": 80.5,
+      "note": "On foot through the siel villages, tracing the canals, to reach Bensersiel by the night of the rendezvous."
+    },
+    {
+      "character": "carruthers",
+      "from": "bensersiel",
+      "to": "norddeich",
+      "chapter": 27,
+      "mode": "ship",
+      "days": 0.2,
+      "startDay": 80.9,
+      "via": [
+        [
+          7.5,
+          53.72
+        ],
+        [
+          7.35,
+          53.74
+        ],
+        [
+          7.22,
+          53.7
+        ],
+        [
+          7.16,
+          53.66
+        ]
+      ],
+      "routeCertainty": "novel",
+      "routeSource": "chs. 26-27, the rehearsal run."
+    },
+    {
+      "character": "carruthers",
+      "from": "norddeich",
+      "to": "norderney",
+      "chapter": 28,
+      "mode": "ship",
+      "days": 0.1,
+      "startDay": 81.25,
+      "note": "He grounds the tug in the shoals and rows back across to the Dulcibella and Davies."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies",
+        "dollmann"
+      ],
+      "from": "norderney",
+      "to": "rottum",
+      "chapter": 28,
+      "mode": "ship",
+      "days": 0.3,
+      "startDay": 81.5,
+      "via": [
+        [
+          7.05,
+          53.665
+        ],
+        [
+          6.93,
+          53.643
+        ],
+        [
+          6.82,
+          53.6
+        ],
+        [
+          6.7,
+          53.555
+        ]
+      ],
+      "routeCertainty": "novel",
+      "routeSource": "ch. 28."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "rottum",
+      "to": "ostmahorn",
+      "chapter": 28,
+      "mode": "ship",
+      "days": 0.4,
+      "startDay": 81.9,
+      "via": [
+        [
+          6.35,
+          53.48
+        ],
+        [
+          6.2,
+          53.44
+        ]
+      ],
+      "note": "Through the Dutch shoals to anchor off the hamlet of Ostmahorn.",
+      "spillOk": true,
+      "spillNote": "The sheltered Dutch Wadden behind Schiermonnikoog and Ameland; the coarse polygon welds the islands to the mainland, but this is the real tidal fairway."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "ostmahorn",
+      "to": "harlingen",
+      "chapter": 28,
+      "mode": "train",
+      "days": 0.2,
+      "startDay": 82.4,
+      "via": [
+        [
+          5.99,
+          53.33
+        ],
+        [
+          5.8,
+          53.2
+        ]
+      ],
+      "note": "By road and rail across Friesland, hurrying still, to Harlingen.",
+      "routeCertainty": "novel",
+      "routeSource": "ch. 28: gave the yacht to fishermen and 'by road and rail ... gained Harlingen'."
+    },
+    {
+      "character": [
+        "carruthers",
+        "davies"
+      ],
+      "from": "harlingen",
+      "to": "london",
+      "chapter": 28,
+      "mode": "ship",
+      "days": 1,
+      "startDay": 82.7,
+      "via": [
+        [
+          4.5,
+          52.9
+        ],
+        [
+          3,
+          52.3
+        ],
+        [
+          1.9,
+          51.9
+        ],
+        [
+          1.4,
+          51.45
+        ],
+        [
+          0.7,
+          51.48
+        ],
+        [
+          0.35,
+          51.46
+        ]
+      ],
+      "note": "And home by the ordinary mail-steamer, the riddle solved and the warning to carry.",
+      "spillOk": true,
+      "spillNote": "The mail-steamer runs up the tidal Thames to London - navigable water the coarse polygon carries as land for the last stretch."
+    }
+  ]
+}

@@ -478,5 +478,17 @@
       "cloth": "#6e2420",
       "text": "#dcc074"
     }
+  },
+  {
+    "id": "riddle-of-the-sands",
+    "title": "The Riddle of the Sands",
+    "author": "Erskine Childers",
+    "year": 1903,
+    "file": "data/riddle-of-the-sands.json",
+    "blurb": "The first modern spy novel, and the most map-obsessed book on the shelf. Two amateur Englishmen work a small boat through the tidal sands behind the German Frisian islands and read, channel by channel, a plan to invade England from the shallows. Childers charted every mile of it from his own cruises, so the map is the plot: the fog, the groundings, the seven mean little harbours, and the secret worth a man's murder to keep.",
+    "spine": {
+      "cloth": "#2e4a5a",
+      "text": "#c9b892"
+    }
   }
 ]

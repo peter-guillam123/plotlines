@@ -25,6 +25,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 // it must outrank any concrete span, even a long one like "30+ years".
 const LIFETIME = 25550; // ~70 years, in days - the ceiling bucket
 export const SPANS = {
+  'riddle-of-the-sands': [82, 'one autumn'],
   'pride-and-prejudice': [365, 'one year'],
   'jane-eyre': [4380, '12 years'],
   'thirty-nine-steps': [21, '3 weeks'],

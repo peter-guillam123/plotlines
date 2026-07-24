@@ -198,5 +198,10 @@
     "distanceKm": 10756,
     "spanDays": 35040,
     "spanLabel": "a century"
+  },
+  "riddle-of-the-sands": {
+    "distanceKm": 3521,
+    "spanDays": 82,
+    "spanLabel": "one autumn"
   }
 }
