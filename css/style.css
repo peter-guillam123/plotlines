@@ -2063,6 +2063,18 @@ body.is-overture #captions { display: none !important; }
   html.touch .masthead-kicker, html.touch .masthead-byline { display: none; }
   html.touch #masthead { padding: 8px 12px 10px; }
 
+  /* The rail's height above is reserved for a JOURNEY (the bottom caption
+     strip). During the OVERTURE there is no caption strip and the whole left
+     column is free — the framing card is docked bottom-right — so that
+     reservation needlessly starved the rail, and a title long enough to wrap to
+     two or three lines pushed the Story/Explore tabs below the clipped pane
+     (reported on Huckleberry Finn; fine on short titles like Kim). Here: give
+     the rail its height back, pin the masthead so its tabs are never the part
+     that scrolls off, and make the cast list the flexible, scrolling region. */
+  html.touch body.is-overture #rail { max-height: calc(100dvh - 16px); overflow: hidden; }
+  html.touch body.is-overture #masthead { flex: 0 0 auto; }
+  html.touch body.is-overture #legend { flex: 0 1 auto; min-height: 0; overflow-y: auto; }
+
   /* narration as a caption strip that clears the map's centre, not a floating slab */
   html.touch #storycard { max-width: min(70vw, 560px); }
 
