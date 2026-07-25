@@ -82,11 +82,18 @@ Read `docs/EDITORIAL.md` §1 first (is this book allowed?), then
 A book that fails any of these does not ship:
 
 ```
+node tools/ship.mjs <slug>                   # all of the below, in order
+```
+
+```
 node tools/validate.mjs data/<slug>.json     # it loads (the real loader, headless)
 node tools/rushes.mjs   data/<slug>.json     # it plays: errors 0, and the feel line
 node tools/images.mjs   data/<slug>.json     # every place imaged or a logged blank
+node tools/quotes.mjs   data/<slug>.json     # every quote verbatim from the text
 node tools/check-shelf-stats.mjs             # the shelf's sort stats are fresh
 ```
+
+The same gates run in CI on every push (`.github/workflows/gates.yml`).
 
 Then the judged passes a program can't do: the text-vs-map review, the
 completeness read, the contact sheet (`python3 tools/screening.py <slug>`),

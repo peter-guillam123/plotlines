@@ -68,13 +68,20 @@ jobs:
       - name: every place decided
         run: node tools/images.mjs
 
-      # 4. The shelf's generated indexes are fresh - the check that catches
+      # 4. Every quotation is the author's, word for word. Runs against the
+      #    cached Gutenberg texts where CI has them and fetches otherwise;
+      #    a book whose text can only be part-checked declares that in
+      #    quoteSource with a written reason.
+      - name: every quote verbatim
+        run: node tools/quotes.mjs
+
+      # 5. The shelf's generated indexes are fresh - the check that catches
       #    a book added without rebuilding the sort stats, which otherwise
       #    fails silently and sorts it to the bottom of two orders.
       - name: shelf stats fresh
         run: node tools/check-shelf-stats.mjs
 
-      # 5. The atlas index really is the shelf's places, not a stale copy.
+      # 6. The atlas index really is the shelf's places, not a stale copy.
       #    Rebuild into a temp file and compare rather than trusting it.
       - name: atlas index current
         run: |

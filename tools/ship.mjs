@@ -52,14 +52,12 @@ const GATES = [
   { name: 'plays (rushes)', run: (f) => run('node', ['tools/rushes.mjs', f]) },
   { name: 'images decided', run: (f) => run('node', ['tools/images.mjs', f]) },
   {
-    // Advisory, for now, and deliberately: when the gate was first run over
-    // the shelf it found 32 quotes adrift across 14 books - 17 of them
-    // punctuation slips, the rest not in the recorded edition at all. A gate
-    // that fails a third of the shelf on the day it lands is a gate everyone
-    // learns to ignore. It reports until the corpus is clean, then becomes
-    // blocking (and joins the CI workflow).
+    // Blocking, as of the day the corpus came clean. It landed advisory
+    // because it found 32 quotes adrift across 14 books and a gate that
+    // fails a third of the shelf on arrival is one everyone learns to
+    // ignore; every one of those is now either fixed or declared
+    // unverifiable with a written reason.
     name: 'quotes verbatim',
-    advisory: true,
     run: (f) => (existsSync('tools/quotes.mjs')
       ? run('node', ['tools/quotes.mjs', f])
       : null),

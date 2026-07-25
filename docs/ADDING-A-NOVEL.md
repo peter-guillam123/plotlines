@@ -462,11 +462,28 @@ The pipeline that produced the honest datasets, in order:
    Gutenberg text (cached after the first run) and matches every `quote`
    word for word, forgiving typography and nothing else. It separates
    `NEAR` (the words are right, our punctuation isn't — copy the line
-   again) from `MISS` (not in that text at all — usually a different
-   translation, occasionally a paraphrase we wrote and then believed).
-   Where a book genuinely can't be checked this way, `quoteSource: { skip:
-   true, note: "…" }` opts out and costs a written reason, as `spillOk`
-   does.
+   again) from `MISS` (not in that text at all — usually a paraphrase we
+   wrote and then believed).
+
+   **Check the volumes first.** `gutenbergId` takes a list, and a great
+   many nineteenth-century works are on Gutenberg in two or three parts
+   under separate numbers. Recording only volume one makes every quote
+   from the book's second half look invented — which is exactly what
+   happened to Sentimental Education, The Devil's Elixir and Three
+   Kingdoms, and cost an afternoon chasing a translation that was never
+   wrong.
+
+   Where a text genuinely can't be checked this way, `quoteSource` opts
+   out and costs a written reason, as `spillOk` does: `{ skip: true, note
+   }` when none of it is checkable, `{ partial: true, note }` when only
+   part of the work is on Gutenberg — that checks what it can and reports
+   the rest as `UNVERIFIED` rather than throwing away the verification of
+   the half that is there.
+
+   A book may also carry a `quoteNote`: a plain editorial note about the
+   edition or the quote policy (which translation, whose spellings are
+   preserved, why the quotes avoid a certain register). It is prose for a
+   reader of the file, not a claim the tool acts on.
 4. **Audit routes against the text** — for every fleshed route, ask *does
    the book name this path?* Promote the genuinely text-named ones to
    `novel`; confirm nothing external contradicts a detail the author gave.
