@@ -188,9 +188,17 @@ def main():
             #  - a LEG's settled still holds the route framing with the peg
             #    just arrived; the arrival push-in that lifts it clear of the
             #    card is motion (measured: y 500 -> 212 on Kidnapped 16).
-            #  - a placeless HANDOFF or MEANWHILE holds the previous frame on
-            #    purpose, so its focus character is legitimately elsewhere.
-            holds = b["kind"] in ("handoff", "meanwhile") and not b["at"]
+            #  - a HANDOFF or MEANWHILE turns the attention to a character
+            #    without asserting they have stopped anywhere: the camera
+            #    goes to the place the thread is about, and the character may
+            #    perfectly well still be travelling towards it (the Count
+            #    posting himself south as cargo). Only a `scene` claims
+            #    somebody is standing somewhere, so only a scene is
+            #    contradicted by a marker that is elsewhere. rushes makes the
+            #    same distinction, and owns the data half of this question:
+            #    a handoff whose character is at a *different named place* is
+            #    its warning, not a pixel problem.
+            holds = b["kind"] in ("handoff", "meanwhile")
             if geo["fx"] is not None and not geo["retired"] and not holds:
                 if not (0 <= geo["fx"] <= w and 0 <= geo["fy"] <= h):
                     checks.append(f"FIX  {tag}: the focus character is off-screen")

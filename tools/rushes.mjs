@@ -160,11 +160,24 @@ story.forEach((b, i) => {
         warns.push(`${tag}: steps back to day ${day} (clock at ${Math.round(t)}) with no meanwhile`);
       }
       beatT = Math.max(day, b.kind === 'scene' ? day : t ?? day);
-      // does the map agree the character is there?
-      if (b.kind === 'scene' && focus && b.at) {
+      // Does the map agree the character is there? Asked of ANY beat that
+      // names a place, not only a `scene` — a `handoff` with an `at` moves
+      // the camera to that place exactly as a scene does, and until the
+      // screening room measured where the markers actually were, nothing
+      // checked it. That blind spot had Passepartout introduced at an opium
+      // den his own disc was nowhere near.
+      if (focus && b.at) {
         const where = restingAt(focus, day + 0.01);
-        if (where && where !== b.at) warns.push(`${tag}: at day ${day} the map has ${focus} at "${where}", not "${b.at}"`);
-        if (where === null) warns.push(`${tag}: at day ${day} ${focus} is mid-journey on the map, not resting at "${b.at}"`);
+        if (where && where !== b.at) {
+          warns.push(`${tag}: at day ${day} the map has ${focus} at "${where}", not "${b.at}"`);
+        } else if (where === null && b.kind === 'scene') {
+          // Only a SCENE asserts that someone is stopped somewhere, so only
+          // a scene is contradicted by a marker still in motion. A handoff
+          // merely turns the attention to a character, who may perfectly
+          // well be travelling as it does — the Count posting himself south
+          // as cargo, Septimus walking when the same bang stops him.
+          warns.push(`${tag}: at day ${day} ${focus} is mid-journey on the map, not resting at "${b.at}"`);
+        }
       }
     }
   }
