@@ -93,22 +93,47 @@ const mapReady = (map.loaded() ? Promise.resolve() : mapEvent('load', BASE_MAP_M
     return mapEvent('style.load', FALLBACK_MS);
   });
 
+// The front door never waits for the tile host. The library needs only the
+// index — a small same-origin file — so it renders the moment that arrives,
+// and the map's tiles appear behind its scrim whenever they're ready. A book
+// page likewise names itself at once, from the index, so the wait for the
+// map is a labelled "drawing the map…", not a stack of empty panels.
+const indexReady = loadNovelIndex();
+
+indexReady.then((index) => {
+  const meta = requestedNovel && index.find((n) => n.id === requestedNovel);
+  if (!meta) {
+    createLibrary(document.getElementById('library'), index);
+    return;
+  }
+  document.title = `${meta.title} · PlotLines`;
+  const masthead = document.getElementById('masthead');
+  masthead.innerHTML = `
+    <a class="masthead-kicker" href="./" title="Back to the library" aria-label="Back to the library">
+      <span class="kicker-arrow" aria-hidden="true">&larr;</span><span class="kicker-word">PlotLines</span>
+    </a>
+    <h1 class="masthead-title"></h1>
+    <p class="masthead-byline"></p>
+    <p class="masthead-booting" role="status">Drawing the map&hellip;</p>`;
+  masthead.querySelector('.masthead-title').textContent = meta.title;
+  masthead.querySelector('.masthead-byline').textContent =
+    `${meta.author}, ${meta.year}`;
+}).catch(() => { /* the boot chain below owns failure reporting */ });
+
 const ready = Promise.all([
   mapReady,
-  loadNovelIndex(),
-]).then(([, index]) => {
-  const meta = index.find((n) => n.id === requestedNovel);
-  if (!meta) return [index, null, null]; // no book chosen: the library
-  return Promise.all([index, meta, loadNovel(meta.file)]);
-});
+  // The book's own JSON starts fetching immediately too, in parallel with
+  // the tiles — not queued behind them.
+  indexReady.then((index) => {
+    const meta = index.find((n) => n.id === requestedNovel);
+    if (!meta) return [index, null, null]; // no book chosen: the library, already up
+    return Promise.all([index, meta, loadNovel(meta.file)]);
+  }),
+]).then(([, payload]) => payload);
 
 ready
   .then(([index, meta, novel]) => {
-    if (!meta) {
-      createLibrary(document.getElementById('library'), index);
-      return;
-    }
-    document.title = `${meta.title} · PlotLines`;
+    if (!meta) return; // the library rendered from the index alone, above
     const overlay = addNlsOverlay(map, novel);
     // Silent until the reader asks: nothing is fetched or decoded before then.
     const sound = createSound();
@@ -469,6 +494,8 @@ ready
   })
   .catch((err) => {
     console.error(err);
-    // Whatever went wrong, never leave a silent page of empty panels.
+    // Whatever went wrong, never leave a silent page of empty panels — and
+    // never a "drawing the map…" line under an error that says it won't be.
+    document.querySelector('.masthead-booting')?.remove();
     bootFailure();
   });

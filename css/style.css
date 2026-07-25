@@ -288,6 +288,9 @@ body {
   box-shadow: var(--shadow);
   border-radius: 3px;
 }
+/* A panel with nothing in it yet is nothing — the boot paints panels as
+   their content arrives, and an empty parchment box must never show. */
+.panel:empty { display: none; }
 
 /* ---- the left rail: masthead, legend, places stack and flow ----
    (pinning each at fixed offsets broke the moment a long title
@@ -357,6 +360,15 @@ a.masthead-kicker:focus-visible {
   margin: 2px 0 0;
   font-style: italic;
   font-size: 14px;
+  color: var(--ink-soft);
+}
+
+/* The one line a reader sees between naming the book and the map arriving. */
+.masthead-booting {
+  margin: 8px 0 0;
+  font-size: 12px;
+  font-style: italic;
+  letter-spacing: 0.02em;
   color: var(--ink-soft);
 }
 
