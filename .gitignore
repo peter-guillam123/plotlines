@@ -9,3 +9,6 @@
 
 # python bytecode from the screening tools
 tools/__pycache__/
+
+# fetched Gutenberg texts, cached for tools/quotes.mjs
+/.cache/

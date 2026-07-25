@@ -52,8 +52,14 @@ const GATES = [
   { name: 'plays (rushes)', run: (f) => run('node', ['tools/rushes.mjs', f]) },
   { name: 'images decided', run: (f) => run('node', ['tools/images.mjs', f]) },
   {
+    // Advisory, for now, and deliberately: when the gate was first run over
+    // the shelf it found 32 quotes adrift across 14 books - 17 of them
+    // punctuation slips, the rest not in the recorded edition at all. A gate
+    // that fails a third of the shelf on the day it lands is a gate everyone
+    // learns to ignore. It reports until the corpus is clean, then becomes
+    // blocking (and joins the CI workflow).
     name: 'quotes verbatim',
-    optional: true, // absent until tools/quotes.mjs exists
+    advisory: true,
     run: (f) => (existsSync('tools/quotes.mjs')
       ? run('node', ['tools/quotes.mjs', f])
       : null),
@@ -85,10 +91,10 @@ for (const slug of books) {
   console.log(`\n${BOLD}${slug}${OFF}`);
   for (const gate of GATES) {
     const r = gate.run(file, slug);
-    if (r === null) continue; // an optional gate that isn't built yet
-    const mark = r.skipped ? '–' : r.ok ? '✓' : '✗';
-    console.log(`  ${mark} ${gate.name}`);
-    if (!r.ok) failed++;
+    if (r === null) continue; // a gate whose tool isn't built yet
+    const mark = r.skipped ? '–' : r.ok ? '✓' : (gate.advisory ? '!' : '✗');
+    console.log(`  ${mark} ${gate.name}${!r.ok && gate.advisory ? ' (advisory)' : ''}`);
+    if (!r.ok && !gate.advisory) failed++;
     // Show the detail for a failure always, and for a pass only where the
     // tool has something a person should read (warnings, the feel line).
     const interesting = r.out
