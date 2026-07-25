@@ -2,13 +2,18 @@
 
 The playbook for turning an out-of-copyright novel into a PlotLines
 dataset that gets the best possible first pass — with all the lessons the
-existing four books taught us baked in, so none of them has to be
+shelf's forty-one books taught us baked in, so none of them has to be
 re-discovered.
 
 Read this before starting a new book. The behaviour (camera, routes,
 images, badges) is already in the code and applies to any dataset
 automatically; what this document carries is the **judgement** — how to
 fill the data honestly — which no code can enforce.
+
+**Before any of it, check the book is allowed on the shelf at all**:
+`EDITORIAL.md` §1 carries the copyright rule (UK life-plus-seventy, which
+is stricter than Gutenberg's test), and §§2–4 the editorial care that
+governs narration, quotes and images once you start writing.
 
 The one rule underneath everything: **every claim on the map is badged for
 how much we actually know, and the novel's own words always outrank our
@@ -229,6 +234,20 @@ and the confidence is badged on hover. **The hierarchy, text first:**
 4. **Short trips need nothing.** If every leg is under ~60 km (Tess's
    Wessex walks), straight lines are honest. Don't flesh what doesn't need
    it.
+
+Three research habits, each bought with a wrong line on the live map:
+
+- **The text beats the atlas, and the atlas is often the more plausible of
+  the two.** Dickens sends Esther to Yorkshire by *stage-coach* in the
+  1850s, when the Great Northern already ran there. Assuming the railway
+  was reasonable, modern and wrong.
+- **Check the period, not the famous version.** In 1889 the GWR reached
+  Devon by the "Great Way Round" via Bristol; the Castle Cary cut-off that
+  everyone pictures opened in 1906. The Hound's outbound train sat on an
+  alignment that did not yet exist, crossing Dartmoor where no line ran.
+- **Stop where the record stops.** Tolstoy never says where Nikolái's
+  regiment was, so he stays at Voronezh. The real Pavlograd Hussars were
+  at the Berezina, which would have been a tidy, well-sourced, false fix.
 
 ### Transport modes and how they route
 
@@ -452,8 +471,26 @@ The pipeline that produced the honest datasets, in order:
    overlap; any global voyage stays in frame; a place card centres its
    spot clear of the sheet; the historic overlay shows over Britain; and
    two characters travelling together show as two discs side by side, not
-   one. **PlotLines is desktop-only** — no mobile pass (a project decision;
-   it overrides the global mobile rules).
+   one. **Desktop is the priority**, but there is a designed
+   landscape-phone layout (the MOBILE block in `css/style.css`), so a new
+   book must not break there either — `python3 tools/screening.py <slug>
+   --phone` shoots that layout without a device. Portrait phones get the
+   rotate-to-read hint by design.
+
+   A note on how to verify, because an agent often cannot do it the
+   obvious way: **the book page will not boot in a hidden or throttled
+   tab** — `js/main.js` waits on MapLibre's `load`, which never fires
+   unless the tab is genuinely visible and painting. Symptom:
+   `window.plotlines` undefined, no console error. Three ways round it,
+   in order of cost: headless Chromium via `tools/screening.py`, which
+   drives the real page and is now the default (see `SCREENING.md`);
+   driving the shipping modules in Node with a `fetch` shim (copy the
+   header of `tools/validate.mjs`) for anything about timing, position or
+   state — this is how the story-clock bugs were found; and
+   `window.plotlines.renderAt(day)` to force a single play-frame at any
+   story-clock day when you need to inspect an animation by hand. Say
+   plainly which one you used, and never imply a visual check happened
+   when it didn't.
 7. **Write the script** — the novel's `story` array of narrated beats, per
    `STORYTELLING.md` (the rubric) and its screening loop (draft → rushes →
    **text-vs-map check** → **completeness check** → watch-through). The
@@ -612,12 +649,28 @@ still yours.
   the map. The geometry engine's great-circle densification then draws it
   correctly — but **verify that crossing in the browser**; it is the one
   route that can silently draw the wrong way round the world.
-- **A new conveyance means a new mode.** The mode enum is in `js/data.js`
-  and the glyphs in `js/ui/modeicons.js`; add both rather than forcing an
-  odd fit (the `elephant` and wind-`sledge` modes were added for Eighty
-  Days). One caveat left open: that sledge glyph is a *wind*-sledge (a sail
-  on a runner) — a dog-sledge (Frankenstein's Arctic) reuses it and could
-  earn its own variant.
+- **A new conveyance means a new mode, in four places.** The enum lives in
+  `js/data.js`; the glyph in `js/ui/modeicons.js`; the land/water
+  expectation in `LAND_MODES` / `SKIP_MODES` in `tools/route-spill.mjs`
+  (miss this and the spill detector judges the new mode by the wrong
+  medium); and, if the mode deserves one, a sound bed in `js/sound.js`'s
+  `HAVE` set with a level in `GAIN`, baked by `tools/sfx-loop.mjs` into
+  `assets/sound/`. A mode with no bed plays silence, which is a legitimate
+  answer — `unknown` must never get one, because a leg we couldn't identify
+  should not be given a confident noise. Add the mode rather than forcing
+  an odd fit (`elephant` and wind-`sledge` were added for Eighty Days). One
+  caveat left open: that sledge glyph is a *wind*-sledge (a sail on a
+  runner) — a dog-sledge (Frankenstein's Arctic) reuses it and could earn
+  its own variant.
+- **Anything newly dated must extend the story clock.** `tEnd` is built
+  from the movements, and `setT` clamps to it, so a dated thing landing
+  after the last journey is silently squashed to the end and never
+  happens — no gate complains. Three kinds have already been caught this
+  way (a character's `exit.day`, a beat's explicit `day`, and a scene
+  dated only by its chapter, which put "Reader, I married him" past the
+  end of Jane Eyre's clock). `js/timeline.js` now maxes over all three,
+  **but the shape will recur for the next dated field somebody adds** —
+  extend the calculation in the same commit.
 
 ---
 
