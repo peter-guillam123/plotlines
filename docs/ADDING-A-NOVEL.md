@@ -504,7 +504,37 @@ The pipeline that produced the honest datasets, in order:
    until nothing is unreviewed. This is a step of the build, not an optional
    afterthought — it lives here so it can't be skipped.
 9. **Update** the About page (a diary entry + any new attribution) and add
-   the shelf entry to `data/novels.json` with first-edition spine colours.
+   the shelf entry to `data/novels.json`. The entry is seven fields, and
+   the shelf reads nothing else:
+
+   ```jsonc
+   {
+     "id": "riddle-of-the-sands",              // the ?novel= slug; matches the filename
+     "title": "The Riddle of the Sands",
+     "author": "Erskine Childers",
+     "year": 1903,                             // first publication
+     "file": "data/riddle-of-the-sands.json",
+     "blurb": "…",                             // the spine's hover text: what the
+                                               // book is and why its map is worth
+                                               // watching. A sentence for a slight
+                                               // book, a short paragraph for a big
+                                               // one; editorial, never blurb-speak.
+     "spine": { "cloth": "#1f3b52", "text": "#c8a95e" }  // the FIRST EDITION's
+                                               // binding and lettering, researched
+                                               // — this is why Dracula's spine is
+                                               // that startling yellow
+   }
+   ```
+
+   Keep the file in author order for tidiness (append-and-forget left the
+   shelf out of order twice); the library re-sorts on demand anyway.
+
+   **The diary entry** on `about.html` is written in the editor's voice, in
+   the first person, newest first: what was built, and *why* — the problem
+   the book posed and the decision that answered it, not a changelog line.
+   Each entry stands alone, since readers arrive at one and not the rest.
+   Mark the genuine arcs `milestone`; keep the small increments terse. It
+   is the project's memory, so it is updated with the work, not after it.
    The library re-sorts the shelf on demand — **by author, title, date,
    distance travelled, or time span** (`js/ui/library.js`) — so a new entry
    displays in the right place wherever you drop it in the file; but keep

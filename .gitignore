@@ -6,3 +6,6 @@
 
 # screening-room output (tools/screening.py) - generated, never shipped
 /screenings/
+
+# python bytecode from the screening tools
+tools/__pycache__/
