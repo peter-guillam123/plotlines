@@ -49,6 +49,7 @@ function normalise(s) {
     .replace(/[‘’‚‛′]/g, "'")   // curly singles
     .replace(/[“”„‟″]/g, '"')   // curly doubles
     .replace(/[‐-―−]/g, '-')              // dashes of every width
+    .replace(/-{2,}/g, '-')                    // Gutenberg writes an em dash as --
     .replace(/ /g, ' ')                             // non-breaking space
     .replace(/æ/g, 'ae').replace(/œ/g, 'oe')   // ligatures
     .replace(/…/g, '...')                           // ellipsis
@@ -58,11 +59,30 @@ function normalise(s) {
     .toLowerCase();
 }
 
-// Our own elision marks, which are not in anybody's text: a quote may open
-// or close mid-sentence ("...a whited sepulchre."), and the ellipsis is our
-// punctuation, not Conrad's.
-function trimElision(s) {
-  return s.replace(/^\s*(\.{3}|…)\s*/, '').replace(/\s*(\.{3}|…)\s*$/, '');
+// Our own excerpt punctuation, which is not in anybody's text and never was:
+//
+//  - the elision mark on a quote that opens or closes mid-sentence
+//    ("...a whited sepulchre.") - that ellipsis is ours, not Conrad's;
+//  - the full stop that closes a truncated excerpt. Wells wrote "the only
+//    warship in sight, but far away to the right…" and the card shows "the
+//    only warship in sight." Ending an excerpt with a stop is ordinary
+//    editorial practice and changes no word the author wrote.
+//
+// What the gate is for is the WORDS, and the punctuation *inside* them - a
+// comma we invented, a dash where the author wrote a comma. So both marks
+// are trimmed from the end before matching, and everything between the first
+// word and the last is held to the letter.
+// (Also the quotation marks we wrap an excerpt in, which are ours whenever
+// the passage is narration rather than speech. Trimming them is safe: the
+// match is a substring search, so a line that really is dialogue still finds
+// its opening mark in the source.)
+function trimExcerpt(s) {
+  return s
+    .replace(/^\s*(\.{3}|…)\s*/, '')
+    .replace(/\s*(\.{3}|…)\s*$/, '')
+    .replace(/\s*["'”’]?\s*[.,;:]\s*["'”’]?\s*$/, '')
+    .replace(/^\s*["“”'‘’]\s*/, '')
+    .replace(/\s*["“”'‘’]\s*$/, '');
 }
 
 async function text(id) {
@@ -141,7 +161,7 @@ for (const file of books) {
 
   const misses = [];
   for (const q of quotes) {
-    const text = trimElision(q.quote);
+    const text = trimExcerpt(q.quote);
     if (hay.includes(normalise(text))) continue;
     misses.push({ ...q, near: hayWords.includes(words(text)) });
   }
