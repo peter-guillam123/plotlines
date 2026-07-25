@@ -27,6 +27,7 @@
 import {
   READ_BASE_SECONDS, READ_PER_WORD_SECONDS, BEAT_MIN_SECONDS,
 } from './constants.js';
+import { compactViewport } from './viewport.js';
 import { storyTime, roman, kmToMiles, humanDuration } from './ui/format.js';
 
 // Camera timings, in *content* seconds (so at 1× they line up exactly with
@@ -171,13 +172,11 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
   };
 
   // ---- camera helpers ----
-  // Desktop only. The visible map is the rectangle left of the character
-  // panel and above the story card + controls — so an establishing shot
-  // keeps both ends of a leg inside that rectangle, never tucked under the
-  // furniture. A landscape phone reserves less on every side.
-  const compact = () =>
-    document.documentElement.classList.contains('touch') &&
-    matchMedia('(orientation: landscape) and (max-height: 560px)').matches;
+  // The visible map is the rectangle left of the character panel and above
+  // the story card + controls — so an establishing shot keeps both ends of a
+  // leg inside that rectangle, never tucked under the furniture. A landscape
+  // phone reserves less on every side (the shared test in js/viewport.js).
+  const compact = compactViewport;
   function camPad() {
     return compact()
       ? { top: 52, bottom: 176, left: 176, right: 40 }

@@ -4,6 +4,7 @@
 // — their colours and letters. Then Start.
 
 import { CHARACTER_COLOURS } from '../constants.js';
+import { compactViewport } from '../viewport.js';
 import { characterInitial, milesAndTime } from './format.js';
 
 export function createOverture(container, map, novel, paths, { onStart, reducedMotion, totalMiles = 0, totalSpan = null }) {
@@ -77,10 +78,12 @@ export function createOverture(container, map, novel, paths, { onStart, reducedM
     // over the lower part of the map, so reserve ~44% of the height for
     // it (half on narrow screens) and the masthead's width on the left.
     const h = map.getContainer().clientHeight;
-    const mobile = window.innerWidth <= 720;
     const cam = map.cameraForBounds(bounds, {
-      padding: mobile
-        ? { top: 70, bottom: Math.round(h * 0.5), left: 24, right: 24 }
+      // Landscape phone (shared test, js/viewport.js): the framing card
+      // docks bottom-right of the rail, so the open map is the letterbox
+      // strip above it, right of the rail — frame the journey there.
+      padding: compactViewport()
+        ? { top: 28, bottom: Math.round(h * 0.58), left: 216, right: 16 }
         : { top: 90, bottom: Math.round(h * 0.44), left: 300, right: 80 },
     });
     if (cam) {

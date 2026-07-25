@@ -13,6 +13,7 @@
 // character). Reduced motion gets the same framing via jumpTo.
 
 import { CERTAINTY } from './constants.js';
+import { compactViewport } from './viewport.js';
 
 const ENSEMBLE_MAX_ZOOM = 10.5;
 const FOLLOW_MAX_ZOOM = 13.5;
@@ -43,9 +44,12 @@ export function createDirector(map, timeline, novel, paths) {
   }
 
   function padding() {
-    const mobile = window.innerWidth <= 720;
-    return mobile
-      ? { top: 90, bottom: 180, left: 36, right: 36 }
+    // Landscape phone (the shared test in js/viewport.js — a width test
+    // missed every landscape phone and handed a 390px-tall screen the
+    // desktop padding): the rail is hidden during a journey, so clear only
+    // the back button's column, the foot caption strip and the transport.
+    return compactViewport()
+      ? { top: 56, bottom: 150, left: 60, right: 44 }
       : { top: 110, bottom: 140, left: 280, right: 90 };
   }
 
