@@ -162,9 +162,13 @@ def main():
                 f"tracked frames ({pct}%), first at frame {worst['i']} "
                 f"(story day {round(worst['t'], 1)})")
 
-    # The clock: only meanwhiles may rewind it.
+    # The clock: only meanwhiles may rewind it — and the excuse sits on
+    # either side of the turn (the meanwhile announces it, the next beat
+    # carries the rewound clock; rushes' rule looks at the previous beat).
     rewinds = sum(1 for a, b in zip(rec, rec[1:])
-                  if b["t"] < a["t"] - 0.5 and b["kind"] not in ("meanwhile", "handoff"))
+                  if b["t"] < a["t"] - 0.5
+                  and b["kind"] not in ("meanwhile", "handoff")
+                  and a["kind"] not in ("meanwhile", "handoff"))
     if rewinds:
         findings.append(f"QUESTION: the clock rewound {rewinds} time(s) outside a meanwhile/handoff")
 

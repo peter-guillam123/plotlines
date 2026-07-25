@@ -125,7 +125,10 @@ def main():
             else:
                 page.evaluate("() => window.plotlines.story.step(1)")
             wait_tiles(page)
-            page.wait_for_timeout(250)  # marker/label settle
+            # Raster tiles (the NLS overlay) fade in over ~300ms after they
+            # count as "loaded"; a shorter settle shot five half-painted
+            # frames on this rig's first outing.
+            page.wait_for_timeout(700)
             card = page.evaluate("""() => ({
               kicker: document.querySelector('.story-clock')?.textContent || '',
               title: document.querySelector('.story-title')?.textContent || '',

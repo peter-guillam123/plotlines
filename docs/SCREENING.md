@@ -85,3 +85,17 @@ Stills cannot judge easing, dwell, the cross-fade, or sound. A green
 screening pass earns a book the editor's watch-through; it never replaces
 it. And the honesty checks stay where they were: rushes and gate 3 own the
 data's truth, `tools/images.mjs` owns the picture decisions.
+
+Known harness artefacts a reviewer should not report as bugs (learned on
+the rubric's first outing, Jane Eyre):
+
+- **A journey's settled still holds the route framing** with the peg
+  arrived; the player's final push-in to the destination is motion, seen
+  in the timelapse film and the watch-through, never in the sheet.
+- **The mid-crossing frame's odometer shows the arrival figure** — the
+  still is composed for geometry, not the ticker.
+- **The faint full route web on early frames is furniture**, deliberate:
+  ghost mode sketches the whole journey ahead; trails are the record of
+  travel and only ever grow.
+- **Retired discs are small hollow rings** — zoom before reporting a dead
+  character as still alive; at contact-sheet size a ring reads solid.
