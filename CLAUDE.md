@@ -57,7 +57,12 @@ Gold-standard exemplars to match: `data/dracula.json` (dataset shape) and
    cleared (see the images edge below). `rushes` prints the tally too, so it
    can't drop off the radar.
 
-Then watch it in the browser end-to-end before it goes to the editor.
+Then the screening room, then the watch-through. `python3
+tools/screening.py <slug>` renders every beat to a contact sheet reviewed
+against `docs/SCREENING.md` (the pixels: framing, collisions, card-vs-map
+agreement — the checks no data gate can see); rushes' `feel:` line covers
+pacing. After that, watch it in the browser end-to-end before it goes to
+the editor — stills can't judge motion or sound.
 
 ## Not automatic — know the edges
 

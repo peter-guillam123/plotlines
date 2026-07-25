@@ -225,8 +225,16 @@ A script is never shipped on the first draft:
    what actually goes in. This is what would have caught P&P shipping without
    Mr Collins's proposal and Charlotte Lucas's acceptance — the betrothal the
    whole Kent hinge silently depends on.
-5. **Screening** — watch it in the browser, end to end, at 1×, as a
-   stranger would. Only then does it go in front of the editor.
+5. **The contact sheet** — `python3 tools/screening.py <slug>` renders
+   every beat (and every journey's mid-crossing) to stills, exactly as the
+   player composes them, and binds them into a reviewable sheet. An agent
+   or a person reads it against the rubric in `docs/SCREENING.md`: subject
+   in frame, card-vs-picture truth, label collisions, meaningful zoom,
+   camera grammar, continuity. This is how the *pixels* get checked
+   without a human stepping every beat by hand.
+6. **The watch-through** — watch it in the browser, end to end, at 1×, as
+   a stranger would. Stills can't judge motion or sound; this can. Only
+   then does it go in front of the editor.
 
 ## What the player does with it
 
