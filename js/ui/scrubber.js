@@ -40,6 +40,7 @@ function activityGradient(novel, timeline) {
 
 export function createScrubber(container, novel, timeline, engine, {
   scripted = false, onSeekFraction = null, onStepBeat = null, marks = null,
+  sound = null,
 } = {}) {
   const { tStart, tEnd } = timeline;
   container.innerHTML = `
@@ -52,6 +53,15 @@ export function createScrubber(container, novel, timeline, engine, {
       </svg>
     </button>
     <button type="button" class="speed-btn" aria-label="Playback speed: 1 times">1&times;</button>
+    <button type="button" class="sound-btn" aria-pressed="false" aria-label="Turn travel sound on" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18">
+        <path d="M4 9.5v5h3.6L12 18V6L7.6 9.5H4z" fill="currentColor"/>
+        <path class="sound-waves" d="M15 9.2a4 4 0 0 1 0 5.6M17.4 7a7.2 7.2 0 0 1 0 10"
+          fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        <line class="sound-slash" x1="15" y1="9" x2="20" y2="15"
+          stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+    </button>
     <div class="scrub-body">
       <div class="chapter-heading">
         <span class="story-clock">
@@ -115,6 +125,23 @@ export function createScrubber(container, novel, timeline, engine, {
   }
 
   playBtn.addEventListener('click', () => engine.toggle());
+
+  // Sound, surfaced: the best-hidden feature on the site gets a speaker on
+  // the bar. Still off by default, still a per-visit choice — this is only
+  // a door, in the place a reader would look for it. Mirrors the settings
+  // checkbox through sound.onChange.
+  const soundBtn = container.querySelector('.sound-btn');
+  if (sound) {
+    soundBtn.hidden = false;
+    const syncSound = (on) => {
+      soundBtn.setAttribute('aria-pressed', String(on));
+      soundBtn.setAttribute('aria-label', on ? 'Turn travel sound off' : 'Turn travel sound on');
+      soundBtn.title = on ? 'Travel sound is on' : 'Hear the journeys - hooves, rails, the sea';
+    };
+    soundBtn.addEventListener('click', () => sound.setEnabled(!sound.isEnabled()));
+    sound.onChange(syncSound);
+    syncSound(sound.isEnabled());
+  }
 
   const speedBtn = container.querySelector('.speed-btn');
   speedBtn.addEventListener('click', () => {

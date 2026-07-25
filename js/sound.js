@@ -127,14 +127,19 @@ export function createSound() {
     current = null;
   }
 
+  // Two controls share this switch (the settings pane and the transport
+  // bar), so a change made at either must show at both.
+  const listeners = [];
   function setEnabled(on) {
     enabled = !!on;
     if (!enabled) silence();
+    listeners.forEach((fn) => fn(enabled));
   }
 
   return {
     setEnabled,
     isEnabled: () => enabled,
+    onChange: (fn) => listeners.push(fn),
     // A beat either carries someone somewhere, or it doesn't.
     forBeat(beat) {
       const travelling = beat && (beat.kind === 'journey' || beat.kind === 'removal') && beat.leg;

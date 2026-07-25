@@ -438,6 +438,7 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     totalSpan,
     totalSeconds: totalDur, // the telling's expected runtime at 1×
     hasBegun: () => idx >= 0,
+    currentBeat: () => (idx >= 0 ? beats[idx] : null),
     // The shape of the telling, for the scrubber: where each beat starts
     // as a fraction of the whole, and what to call it under a hover.
     beatMarks: () => beats.map((b, i) => ({

@@ -76,6 +76,8 @@ export function createSettings(map, { overlay, sound } = {}) {
     const toggle = pane.querySelector('.settings-sound-toggle');
     toggle.checked = false;
     toggle.addEventListener('change', () => sound.setEnabled(toggle.checked));
+    // The transport bar has a speaker toggle too; stay in step with it.
+    sound.onChange((on) => { toggle.checked = on; });
   }
 
   // ---- the cog ----

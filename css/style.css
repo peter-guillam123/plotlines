@@ -838,6 +838,25 @@ body.is-overture #storycard { display: none !important; }
 .play-btn[aria-pressed='true'] .icon-play { display: none; }
 .play-btn[aria-pressed='true'] .icon-pause { display: block; }
 
+/* The speaker: waves when on, a quiet slash when off (the default). */
+.sound-btn {
+  flex: none;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+.sound-btn:hover { background: var(--paper-deep); color: var(--ink); }
+.sound-btn[aria-pressed='true'] { color: var(--accent); border-color: var(--accent); }
+.sound-btn .sound-slash { display: none; }
+.sound-btn[aria-pressed='false'] .sound-waves { display: none; }
+.sound-btn[aria-pressed='false'] .sound-slash { display: block; }
+
 .scrub-body { flex: 1; min-width: 0; }
 
 .chapter-heading {

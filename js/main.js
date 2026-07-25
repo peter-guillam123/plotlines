@@ -232,7 +232,15 @@ ready
       onSeekFraction: (f, o) => story && story.gotoFraction(f, o),
       onStepBeat: (dir) => story && story.step(dir),
       marks: story ? story.beatMarks() : null,
+      sound: scripted ? sound : null,
     });
+    // Switched on mid-journey, the bed should start under the beat that's
+    // already crossing, not wait for the next one.
+    if (scripted) {
+      sound.onChange((on) => {
+        if (on && story.isPlaying()) sound.forBeat(story.currentBeat());
+      });
+    }
     // The frame-the-story button lives inside the controls bar, where it
     // can never overlap the caption stack.
     document.getElementById('controls').append(document.getElementById('recentre'));
