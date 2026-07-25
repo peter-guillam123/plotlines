@@ -400,17 +400,26 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     startBeat(idx);
     if (playing) schedule();
   }
-  function gotoFraction(f) {
+  function gotoFraction(f, { resume = false } = {}) {
     if (!beats.length) return;
     const target = f * totalDur;
     let i = 0;
     for (let k = 0; k < beats.length; k++) {
       if (cumBefore[k] <= target) i = k; else break;
     }
-    if (playing) pause();
     director.disarm();
-    idx = i;
-    startBeat(i);
+    if (resume) {
+      // A scrub released mid-play lands playing: the beat starts with its
+      // cameras easing, not a jump-then-freeze the reader must un-pause.
+      if (!playing) { playing = true; timeline.setPlaying(true); }
+      idx = i;
+      startBeat(i);
+      schedule();
+    } else {
+      if (playing) pause();
+      idx = i;
+      startBeat(i);
+    }
   }
   function stop() {
     pause();
@@ -429,6 +438,14 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     totalSpan,
     totalSeconds: totalDur, // the telling's expected runtime at 1×
     hasBegun: () => idx >= 0,
+    // The shape of the telling, for the scrubber: where each beat starts
+    // as a fraction of the whole, and what to call it under a hover.
+    beatMarks: () => beats.map((b, i) => ({
+      frac: cumBefore[i] / totalDur,
+      chapter: b.chapter || null,
+      title: b.title || null,
+      kind: b.kind,
+    })),
     play,
     pause,
     toggle: () => (playing ? pause() : play()),

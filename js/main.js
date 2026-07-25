@@ -223,7 +223,9 @@ ready
     });
     scrubber = createScrubber(document.getElementById('controls'), novel, timeline, transport, {
       scripted,
-      onSeekFraction: (f) => story && story.gotoFraction(f),
+      onSeekFraction: (f, o) => story && story.gotoFraction(f, o),
+      onStepBeat: (dir) => story && story.step(dir),
+      marks: story ? story.beatMarks() : null,
     });
     // The frame-the-story button lives inside the controls bar, where it
     // can never overlap the caption stack.

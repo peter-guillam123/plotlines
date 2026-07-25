@@ -38,7 +38,9 @@ function activityGradient(novel, timeline) {
   return `linear-gradient(90deg, ${stops.join(',')})`;
 }
 
-export function createScrubber(container, novel, timeline, engine, { scripted = false, onSeekFraction = null } = {}) {
+export function createScrubber(container, novel, timeline, engine, {
+  scripted = false, onSeekFraction = null, onStepBeat = null, marks = null,
+} = {}) {
   const { tStart, tEnd } = timeline;
   container.innerHTML = `
     <button type="button" class="play-btn" aria-pressed="false" aria-label="Play">
@@ -124,17 +126,135 @@ export function createScrubber(container, novel, timeline, engine, { scripted = 
     );
   });
 
+  // ---- the telling is navigable (scripted mode) ----
+  // Chapter tick-marks on the track, a hover label naming the beat under
+  // the cursor, drag-to-preview (the seek lands on release, and lands
+  // *playing* if the reader was playing), and arrow keys that step whole
+  // beats rather than re-firing the same one.
+
+  const track = container.querySelector('.scrub-track');
+
+  function paintFill(frac) {
+    const pct = Math.max(0, Math.min(1, frac)) * 100;
+    activityEl.style.background =
+      `linear-gradient(90deg, var(--accent) 0 ${pct}%, var(--rule) ${pct}% 100%)`;
+  }
+
+  // Which beat a track fraction lands in — the last mark at or before it.
+  function beatAt(f) {
+    let i = 0;
+    for (let k = 0; k < marks.length; k++) {
+      if (marks[k].frac <= f) i = k; else break;
+    }
+    return i;
+  }
+
+  if (scripted && marks) {
+    // Tick-marks where the chapter turns. A very long book would dissolve
+    // into noise, so past ~48 turns the fill alone carries the shape.
+    const ticks = document.createElement('div');
+    ticks.className = 'scrub-ticks';
+    ticks.setAttribute('aria-hidden', 'true');
+    const turns = [];
+    let prevCh = null;
+    for (const m of marks) {
+      if (m.chapter && m.chapter !== prevCh) {
+        prevCh = m.chapter;
+        if (m.frac > 0) turns.push(m.frac);
+      }
+    }
+    if (turns.length && turns.length <= 48) {
+      for (const f of turns) {
+        const t = document.createElement('span');
+        t.style.left = `${(f * 100).toFixed(2)}%`;
+        ticks.append(t);
+      }
+      // Over the fill, under the thumb.
+      activityEl.after(ticks);
+    }
+
+    // The hover label: what's under the cursor, before you commit to it.
+    if (window.matchMedia('(pointer: fine)').matches) {
+      const peek = document.createElement('div');
+      peek.className = 'scrub-peek';
+      peek.hidden = true;
+      track.append(peek);
+      const showPeek = (clientX) => {
+        const r = track.getBoundingClientRect();
+        if (!r.width) return;
+        const f = Math.min(Math.max((clientX - r.left) / r.width, 0), 1);
+        const m = marks[beatAt(f)];
+        const h = m.chapter ? chapterHeading(novel, m.chapter) : null;
+        peek.textContent = h
+          ? `${h.numeral}${m.title ? ` · ${m.title}` : ''}`
+          : (m.title || (m.kind === 'meanwhile' ? 'Meanwhile' : ''));
+        peek.style.left = `${(f * 100).toFixed(2)}%`;
+        peek.hidden = !peek.textContent;
+      };
+      track.addEventListener('pointermove', (e) => showPeek(e.clientX));
+      track.addEventListener('pointerleave', () => { peek.hidden = true; });
+    }
+  }
+
+  let wasPlaying = null; // playing state when a drag began
+  let previewRaf = null;
+
+  range.addEventListener('pointerdown', () => {
+    wasPlaying = engine.isPlaying();
+  });
   range.addEventListener('input', () => {
-    scrubbing = true;
     if (scripted) {
-      if (onSeekFraction) onSeekFraction(range.valueAsNumber / 1000);
+      // Preview only — rAF-coalesced, so a drag never rebuilds the story
+      // card dozens of times a second. The seek itself lands on release.
+      scrubbing = true;
+      const f = range.valueAsNumber / 1000;
+      if (previewRaf == null) {
+        previewRaf = requestAnimationFrame(() => {
+          previewRaf = null;
+          paintFill(f);
+        });
+      }
     } else {
+      scrubbing = true;
       timeline.seek(range.valueAsNumber);
       engine.requestRender();
+      scrubbing = false;
     }
+  });
+  range.addEventListener('change', () => {
+    if (!scripted) return;
     scrubbing = false;
+    const resume = wasPlaying ?? engine.isPlaying();
+    wasPlaying = null;
+    if (onSeekFraction) onSeekFraction(range.valueAsNumber / 1000, { resume });
   });
   range.addEventListener('keydown', (e) => {
+    if (scripted) {
+      // Arrows step whole beats — the native 0.1% nudge mostly re-fired
+      // the same beat. PageUp/Down jump a whole chapter through the
+      // telling; Home/End keep their native ends-of-the-bar meaning.
+      if (['ArrowRight', 'ArrowUp', 'ArrowLeft', 'ArrowDown'].includes(e.key)) {
+        e.preventDefault();
+        if (onStepBeat) onStepBeat(e.key === 'ArrowRight' || e.key === 'ArrowUp' ? 1 : -1);
+      } else if ((e.key === 'PageUp' || e.key === 'PageDown') && marks) {
+        e.preventDefault();
+        const dir = e.key === 'PageUp' ? 1 : -1;
+        let j = beatAt(range.valueAsNumber / 1000);
+        const ch = marks[j].chapter;
+        while (j + dir >= 0 && j + dir < marks.length) {
+          j += dir;
+          if (marks[j].chapter && marks[j].chapter !== ch) break;
+        }
+        // Going back lands on the first beat of that chapter, not its last.
+        if (dir === -1) {
+          while (j > 0 && marks[j - 1].chapter === marks[j].chapter) j--;
+        }
+        if (onSeekFraction) {
+          onSeekFraction(marks[j].frac + 1e-6, { resume: engine.isPlaying() });
+        }
+      }
+      return;
+    }
     if (e.key === 'PageUp' || e.key === 'PageDown') {
       e.preventDefault();
       const dir = e.key === 'PageUp' ? 1 : -1;
@@ -163,11 +283,10 @@ export function createScrubber(container, novel, timeline, engine, { scripted = 
   const distanceEl = container.querySelector('.story-distance');
   return {
     setStoryProgress(frac) {
-      const pct = Math.max(0, Math.min(1, frac)) * 100;
-      if (!scrubbing) range.value = Math.round(frac * 1000);
-      activityEl.style.background =
-        `linear-gradient(90deg, var(--accent) 0 ${pct}%, var(--rule) ${pct}% 100%)`;
-      range.setAttribute('aria-valuetext', `${Math.round(pct)}% through the story`);
+      if (scrubbing) return; // a drag's preview owns the bar until release
+      range.value = Math.round(frac * 1000);
+      paintFill(frac);
+      range.setAttribute('aria-valuetext', `${Math.round(frac * 100)}% through the story`);
     },
     // The odometer: distance travelled so far, ticking up as journeys play.
     setDistance(miles) {
