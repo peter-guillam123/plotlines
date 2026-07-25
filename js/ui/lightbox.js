@@ -4,8 +4,11 @@
 // atlas, so a picture opens the same way wherever you meet it. Builds its
 // own overlay in <body> once, on first use.
 
+import { trapFocus } from './trap.js';
+
 let overlay = null;
 let lastFocus = null;
+let releaseTrap = null;
 
 function build() {
   overlay = document.createElement('div');
@@ -45,10 +48,12 @@ export function openLightbox(image) {
   overlay.querySelector('.lightbox-credit').textContent = image.credit || '';
   overlay.hidden = false;
   overlay.querySelector('.lightbox-figure').focus({ preventScroll: true });
+  releaseTrap = trapFocus(overlay.querySelector('.lightbox-figure'));
 }
 
 function close() {
   if (!overlay || overlay.hidden) return;
+  if (releaseTrap) { releaseTrap(); releaseTrap = null; }
   overlay.hidden = true;
   overlay.querySelector('.lightbox-img').src = '';
   if (lastFocus && lastFocus.isConnected) lastFocus.focus({ preventScroll: true });

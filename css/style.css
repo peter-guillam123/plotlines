@@ -610,9 +610,14 @@ body.is-overture #locationtile { display: none !important; }
   pointer-events: none;
 }
 #storycard.is-visible { opacity: 1; pointer-events: auto; }
+.story-body.is-swapping { opacity: 0; }
+@media (prefers-reduced-motion: reduce) {
+  .story-body { transition: none; }
+}
 body.is-overture #storycard { display: none !important; }
 
 .story-body {
+  transition: opacity 0.13s ease; /* the beat-swap breath; see storycard.js */
   flex: 1;
   min-width: 0;
   background: var(--paper-bright);

@@ -14,6 +14,8 @@
 // order, each spine shows its value at the foot in place of the date, so the
 // reshuffle reads as something and not a mystery.
 
+import { trapFocus } from './trap.js';
+
 // How many spines before a row feels crowded. Rows are then balanced evenly
 // (13 books -> 7 + 7, not 8 + 6), so the case never looks lopsided.
 const MAX_PER_ROW = 8;
@@ -154,4 +156,8 @@ export function createLibrary(container, index) {
   // Focus the dialog, not the first book - focusing a spine would lift it
   // and read as "selected" before anyone's chosen.
   container.querySelector('.library-card').focus({ preventScroll: true });
+  // The shelf is the whole page here; the modal must hold Tab, not leak it
+  // into the map's zoom buttons behind the scrim. Never released - choosing
+  // a book is a navigation.
+  trapFocus(container.querySelector('.library-card'));
 }

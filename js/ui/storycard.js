@@ -54,6 +54,27 @@ export function createStoryCard(container, novel, { onStep, onExplore, onReplay 
   exploreBtn.hidden = !onExplore;
   replayBtn.hidden = !onReplay;
 
+  // A beat's text swaps with a breath, not a teleprompter blink: fade the
+  // body out for a heartbeat, swap, fade back in. The first show and
+  // reduced motion swap instantly.
+  const bodyEl = container.querySelector('.story-body');
+  const rmQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let swapTimer = null;
+  function withSwap(apply) {
+    const visible = !container.hidden && container.classList.contains('is-visible');
+    clearTimeout(swapTimer);
+    if (!visible || rmQuery.matches) {
+      bodyEl.classList.remove('is-swapping');
+      apply();
+      return;
+    }
+    bodyEl.classList.add('is-swapping');
+    swapTimer = setTimeout(() => {
+      apply();
+      bodyEl.classList.remove('is-swapping');
+    }, 130);
+  }
+
   // The map holds every place's own words and, for most books, a period
   // picture — riches a viewer who only watches the story never opens. So the
   // telling ends on an invitation to go and walk them, not a dead "The end".
@@ -65,7 +86,11 @@ export function createStoryCard(container, novel, { onStep, onExplore, onReplay 
   const invitationText = (totalMiles, totalSpan) =>
     `That's the whole journey told${totalMiles ? ` - ${milesAndTime(totalMiles, totalSpan)}` : ''}. Now the map is yours: ${placesClause}`;
 
-  function show(beat, { index, total, clock, focusChar, mode }) {
+  function show(beat, meta) {
+    withSwap(() => applyShow(beat, meta));
+  }
+
+  function applyShow(beat, { index, total, clock, focusChar, mode }) {
     container.classList.remove('is-interstitial', 'is-done');
     container.classList.toggle('is-interstitial', beat.kind === 'meanwhile' || beat.kind === 'handoff');
     // Leaving the end state (a step back into the story) restores the beat UI.
@@ -114,6 +139,10 @@ export function createStoryCard(container, novel, { onStep, onExplore, onReplay 
   }
 
   function done(totalMiles, totalSpan) {
+    withSwap(() => applyDone(totalMiles, totalSpan));
+  }
+
+  function applyDone(totalMiles, totalSpan) {
     container.classList.add('is-done');
     clockEl.textContent = 'The end';
     subjectEl.innerHTML = '';
@@ -130,6 +159,8 @@ export function createStoryCard(container, novel, { onStep, onExplore, onReplay 
   }
 
   function hide() {
+    clearTimeout(swapTimer);
+    bodyEl.classList.remove('is-swapping');
     container.hidden = true;
     container.classList.remove('is-visible', 'is-done', 'is-interstitial');
   }
