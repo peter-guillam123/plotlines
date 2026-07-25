@@ -1,48 +1,17 @@
-// The chapter timeline: play/pause + a range scrubber over the story's
-// real days. Arrow keys give a fine scrub (native), PageUp/PageDown move a
-// whole chapter, Home/End jump to the ends (native).
-//
-// Behind the range runs an "activity band": a ribbon coloured by how many
-// characters are travelling at each moment, so the quiet stretches read as
-// pale gaps and the busy passages as deep madder.
+// The transport bar of the telling: play/pause, the speed dial, the
+// speaker, and a range scrubber over the story's continuous progress.
+// Chapter tick-marks show the book's shape; a hover label names the beat
+// under the cursor; a drag previews and commits on release; arrow keys
+// step whole beats and PageUp/PageDown jump a chapter. (The old day-clock
+// scrubber with its activity-density band retired with the clock
+// transport — every book is a scripted telling now.)
 
 import { chapterHeading, storyTime, milesTicker } from './format.js';
 
-function mix(a, b, f) {
-  const pa = [1, 3, 5].map((i) => parseInt(a.slice(i, i + 2), 16));
-  const pb = [1, 3, 5].map((i) => parseInt(b.slice(i, i + 2), 16));
-  const c = pa.map((v, i) => Math.round(v + (pb[i] - v) * f));
-  return `rgb(${c[0]},${c[1]},${c[2]})`;
-}
-
-function activityGradient(novel, timeline) {
-  const STILL = '#e4d8bd';
-  const BUSY = '#a63d33';
-  const N = 200;
-  const { tStart, tEnd } = timeline;
-  const density = [];
-  let max = 1;
-  for (let i = 0; i < N; i++) {
-    const t = tStart + (tEnd - tStart) * (i / (N - 1));
-    const pos = timeline.positionsAt(t);
-    let moving = 0;
-    for (const c of novel.characters) if (pos[c.id] && pos[c.id].moving) moving++;
-    density.push(moving);
-    if (moving > max) max = moving;
-  }
-  const seg = 100 / N;
-  const stops = density.map((m, i) => {
-    const colour = m === 0 ? STILL : mix(STILL, BUSY, 0.25 + 0.75 * (m / max));
-    return `${colour} ${(i * seg).toFixed(2)}% ${((i + 1) * seg).toFixed(2)}%`;
-  });
-  return `linear-gradient(90deg, ${stops.join(',')})`;
-}
-
 export function createScrubber(container, novel, timeline, engine, {
-  scripted = false, onSeekFraction = null, onStepBeat = null, marks = null,
-  sound = null,
+  onSeekFraction = null, onStepBeat = null, marks = null, sound = null,
 } = {}) {
-  const { tStart, tEnd } = timeline;
+  const { tStart } = timeline;
   container.innerHTML = `
     <button type="button" class="play-btn" aria-pressed="false" aria-label="Play">
       <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true" width="22" height="22">
@@ -78,18 +47,15 @@ export function createScrubber(container, novel, timeline, engine, {
         <div class="scrub-activity" aria-hidden="true"
              title="Darker bands are the times with more characters travelling"></div>
         <input class="scrub-range" type="range"
-               min="${scripted ? 0 : tStart}" max="${scripted ? 1000 : tEnd - 0.01}"
-               step="${scripted ? 1 : 0.1}" value="${scripted ? 0 : tStart}"
-               aria-label="${scripted ? 'Story progress' : 'Story timeline'}">
+               min="0" max="1000" step="1" value="0"
+               aria-label="Story progress">
       </div>
     </div>`;
 
+  // The bar measures the telling's own progress (which creeps forward even
+  // through a still scene): a plain fill over a plain track.
   const activityEl = container.querySelector('.scrub-activity');
-  // In scripted mode the bar measures the telling's own progress (which
-  // creeps forward even through a still scene), not the day-clock — so it
-  // becomes a plain fill rather than the day-density band.
-  if (scripted) activityEl.style.background = 'var(--rule)';
-  else activityEl.style.background = activityGradient(novel, timeline);
+  activityEl.style.background = 'var(--rule)';
 
   const playBtn = container.querySelector('.play-btn');
   const range = container.querySelector('.scrub-range');
@@ -153,12 +119,7 @@ export function createScrubber(container, novel, timeline, engine, {
     );
   });
 
-  // ---- the telling is navigable (scripted mode) ----
-  // Chapter tick-marks on the track, a hover label naming the beat under
-  // the cursor, drag-to-preview (the seek lands on release, and lands
-  // *playing* if the reader was playing), and arrow keys that step whole
-  // beats rather than re-firing the same one.
-
+  // ---- the telling is navigable ----
   const track = container.querySelector('.scrub-track');
 
   function paintFill(frac) {
@@ -176,7 +137,7 @@ export function createScrubber(container, novel, timeline, engine, {
     return i;
   }
 
-  if (scripted && marks) {
+  if (marks) {
     // Tick-marks where the chapter turns. A very long book would dissolve
     // into noise, so past ~48 turns the fill alone carries the shape.
     const ticks = document.createElement('div');
@@ -230,70 +191,51 @@ export function createScrubber(container, novel, timeline, engine, {
     wasPlaying = engine.isPlaying();
   });
   range.addEventListener('input', () => {
-    if (scripted) {
-      // Preview only — rAF-coalesced, so a drag never rebuilds the story
-      // card dozens of times a second. The seek itself lands on release.
-      scrubbing = true;
-      const f = range.valueAsNumber / 1000;
-      if (previewRaf == null) {
-        previewRaf = requestAnimationFrame(() => {
-          previewRaf = null;
-          paintFill(f);
-        });
-      }
-    } else {
-      scrubbing = true;
-      timeline.seek(range.valueAsNumber);
-      engine.requestRender();
-      scrubbing = false;
+    // Preview only — rAF-coalesced, so a drag never rebuilds the story
+    // card dozens of times a second. The seek itself lands on release.
+    scrubbing = true;
+    const f = range.valueAsNumber / 1000;
+    if (previewRaf == null) {
+      previewRaf = requestAnimationFrame(() => {
+        previewRaf = null;
+        paintFill(f);
+      });
     }
   });
   range.addEventListener('change', () => {
-    if (!scripted) return;
     scrubbing = false;
     const resume = wasPlaying ?? engine.isPlaying();
     wasPlaying = null;
     if (onSeekFraction) onSeekFraction(range.valueAsNumber / 1000, { resume });
   });
   range.addEventListener('keydown', (e) => {
-    if (scripted) {
-      // Arrows step whole beats — the native 0.1% nudge mostly re-fired
-      // the same beat. PageUp/Down jump a whole chapter through the
-      // telling; Home/End keep their native ends-of-the-bar meaning.
-      if (['ArrowRight', 'ArrowUp', 'ArrowLeft', 'ArrowDown'].includes(e.key)) {
-        e.preventDefault();
-        if (onStepBeat) onStepBeat(e.key === 'ArrowRight' || e.key === 'ArrowUp' ? 1 : -1);
-      } else if ((e.key === 'PageUp' || e.key === 'PageDown') && marks) {
-        e.preventDefault();
-        const dir = e.key === 'PageUp' ? 1 : -1;
-        let j = beatAt(range.valueAsNumber / 1000);
-        const ch = marks[j].chapter;
-        while (j + dir >= 0 && j + dir < marks.length) {
-          j += dir;
-          if (marks[j].chapter && marks[j].chapter !== ch) break;
-        }
-        // Going back lands on the first beat of that chapter, not its last.
-        if (dir === -1) {
-          while (j > 0 && marks[j - 1].chapter === marks[j].chapter) j--;
-        }
-        if (onSeekFraction) {
-          onSeekFraction(marks[j].frac + 1e-6, { resume: engine.isPlaying() });
-        }
-      }
-      return;
-    }
-    if (e.key === 'PageUp' || e.key === 'PageDown') {
+    // Arrows step whole beats — the native 0.1% nudge mostly re-fired
+    // the same beat. PageUp/Down jump a whole chapter through the
+    // telling; Home/End keep their native ends-of-the-bar meaning.
+    if (['ArrowRight', 'ArrowUp', 'ArrowLeft', 'ArrowDown'].includes(e.key)) {
+      e.preventDefault();
+      if (onStepBeat) onStepBeat(e.key === 'ArrowRight' || e.key === 'ArrowUp' ? 1 : -1);
+    } else if ((e.key === 'PageUp' || e.key === 'PageDown') && marks) {
       e.preventDefault();
       const dir = e.key === 'PageUp' ? 1 : -1;
-      const n = Math.min(Math.max(timeline.chapterByDate(timeline.state.t) + dir, 1), novel.chapters.length);
-      timeline.seek(novel.chapters[n - 1].day);
-      engine.requestRender();
+      let j = beatAt(range.valueAsNumber / 1000);
+      const ch = marks[j].chapter;
+      while (j + dir >= 0 && j + dir < marks.length) {
+        j += dir;
+        if (marks[j].chapter && marks[j].chapter !== ch) break;
+      }
+      // Going back lands on the first beat of that chapter, not its last.
+      if (dir === -1) {
+        while (j > 0 && marks[j - 1].chapter === marks[j].chapter) j--;
+      }
+      if (onSeekFraction) {
+        onSeekFraction(marks[j].frac + 1e-6, { resume: engine.isPlaying() });
+      }
     }
   });
 
   timeline.on('tick', (t, positions) => {
-    if (!scripted && !scrubbing) range.value = t; // scripted: the story drives it
-    updateHeading(t, positions);
+    updateHeading(t, positions); // the range itself is driven by the story
   });
   timeline.on('playState', (playing) => {
     playBtn.setAttribute('aria-pressed', String(playing));

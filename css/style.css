@@ -567,34 +567,12 @@ body.is-overture #locationtile { display: none !important; }
 }
 .loc-tile-where .mode-icon { flex: none; vertical-align: -2px; }
 
-/* travel-mode icon, shared by tile and captions */
+/* travel-mode icon (the tile and the story card's kicker) */
 .mode-icon { display: inline-block; }
-.caption-line .mode-icon { flex: none; align-self: center; opacity: 0.9; }
 
-/* ---- captions ---- */
-
-#captions {
-  position: absolute;
-  z-index: 10;
-  left: 50%;
-  bottom: 122px; /* a clear gap above the controls bar */
-  transform: translateX(-50%);
-  max-width: min(620px, calc(100vw - 24px));
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  text-align: center;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-#captions.is-visible { opacity: 1; }
-
-/* ---- the story card (scripted story mode) ---- */
+/* ---- the story card ---- */
 /* The narrative surface: one beat at a time, text given the time it
-   needs. Sits where the captions live; in scripted mode this card IS the
-   narration, so it takes the spot with room to breathe. */
+   needs. This card IS the narration. */
 #storycard {
   position: absolute;
   z-index: 11;
@@ -753,51 +731,6 @@ body.is-overture #storycard { display: none !important; }
   .story-narration { font-size: 14.5px; }
   .story-step { width: 40px; height: 40px; }
 }
-
-.caption-line {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  margin: 0;
-  padding: 7px 16px;
-  background: rgba(46, 36, 23, 0.85);
-  color: var(--paper-bright);
-  font-size: 15px;
-  border-radius: 3px;
-  transition: opacity 0.5s ease;
-}
-.caption-line.is-arrival { background: rgba(46, 36, 23, 0.68); font-style: italic; }
-/* A staging post ticking by as you ride along — lighter and quieter than
-   a full journey line, a passing whisper. */
-.caption-line.is-passing {
-  background: rgba(46, 36, 23, 0.6);
-  font-size: 13px;
-  font-style: italic;
-  padding: 4px 14px;
-  align-self: flex-start;
-}
-.caption-line.is-passing .caption-swatch { width: 7px; height: 7px; }
-/* "the years pass…" — a quiet interlude while the map sweeps empty time. */
-.caption-line.is-interlude {
-  background: rgba(46, 36, 23, 0.5);
-  justify-content: center;
-  font-style: italic;
-  letter-spacing: 0.04em;
-  color: var(--paper);
-}
-.caption-line.is-retiring { opacity: 0; }
-
-.caption-swatch {
-  flex: none;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  align-self: center;
-  box-shadow: 0 0 0 1.5px var(--paper-bright);
-}
-.caption-swatch + .caption-swatch { margin-left: -6px; }
-.caption-text { min-width: 0; }
-.caption-note { font-style: italic; opacity: 0.85; }
 
 /* ---- controls / scrubber ---- */
 
@@ -1529,8 +1462,7 @@ body.is-overture #storycard { display: none !important; }
 
 /* While the overture holds the stage, the working UI steps aside */
 body.is-overture #legend,
-body.is-overture #controls,
-body.is-overture #captions { display: none !important; }
+body.is-overture #controls { display: none !important; }
 
 .overture-panel {
   position: absolute;
@@ -1991,10 +1923,6 @@ body.is-overture #captions { display: none !important; }
   outline-offset: 2px;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  #captions { transition: none; }
-}
-
 /* ---- mobile ---- */
 
 @media (max-width: 720px) {
@@ -2044,8 +1972,6 @@ body.is-overture #captions { display: none !important; }
     min-height: 0;
   }
 
-  #captions { bottom: 152px; }
-  .caption-line { font-size: 13px; }
   #recentre { bottom: 148px; font-size: 13px; }
 
   #controls {

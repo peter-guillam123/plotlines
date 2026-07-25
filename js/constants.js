@@ -53,18 +53,10 @@ export const NLS_MINZOOM = 6;
 export const NLS_MAXZOOM = 16; // tileset's native max
 export const NLS_DEFAULT_OPACITY = 0.85;
 
-// Animation. Base pace is deliberately unhurried (~3 minutes for a
-// 27-chapter novel); the speed control multiplies it.
-// The speed button cycles these in order. The half step comes last so the
-// dial reads as "faster, faster, then linger" — for the dense tellings
-// (Three Kingdoms) where a reader wants more time, not less.
+// Animation. The speed button cycles these in order. The half step comes
+// last so the dial reads as "faster, faster, then linger" — for the dense
+// tellings (Three Kingdoms) where a reader wants more time, not less.
 export const SPEED_STEPS = [1, 2, 3, 0.5];
-// Playback runs on real days. A novel is normalised to roughly this many
-// seconds at 1x; days when someone travels play at the base rate, and the
-// quiet stretches (nobody on the road) fast-forward by REST_SPEEDUP — so
-// journeys take their true relative time while the waiting compresses.
-export const STORY_TARGET_SECONDS = 120;
-export const REST_SPEEDUP = 15;
 // Scripted story mode: a beat lasts as long as its text takes to read —
 // generously — and never less than the floor. The story takes the time it
 // needs; pace belongs to the reader (speed control, step buttons).
@@ -72,9 +64,3 @@ export const REST_SPEEDUP = 15;
 export const READ_BASE_SECONDS = 2.5;
 export const READ_PER_WORD_SECONDS = 0.32;
 export const BEAT_MIN_SECONDS = 5;
-// ...but no single empty stretch should ever hold the map still for long.
-// A gap with nobody travelling is swept to the next journey in at most
-// this many seconds, however many years it spans — so David Copperfield's
-// childhood and quiet years pass in a beat, not a dead minute.
-export const REST_MAX_SECONDS = 2.5;
-export const CAMERA_DAMPING = 0.08;    // per-frame lerp factor for follow mode

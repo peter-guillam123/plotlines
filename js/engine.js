@@ -1,145 +1,38 @@
-// The render loop. One rAF loop that runs ONLY while playing or while a
-// one-off render is pending — an idle page schedules zero frames. All
-// state changes coalesce into at most one render per frame, and stale
-// frames are cancelled, never left running.
+// The paint loop. One rAF loop that runs ONLY while a render is pending —
+// an idle page schedules zero frames. All state changes coalesce into at
+// most one render per frame, and stale frames are cancelled, never left
+// running. render() may return true to request more frames (a camera still
+// settling after a pause or scrub).
 //
-// Reduced motion is a different transport, same model: play() becomes a
-// chapter-by-chapter step on a timer, with a single jump-render per step.
+// Time itself belongs to the scripted story player (js/story.js); this
+// module only paints, and carries the playback-speed dial the player
+// divides its durations by. The old day-clock transport — smooth day
+// advance, rest fast-forward, reduced-motion chapter stepping — lived here
+// until every book on the shelf shipped with a script; it was retired
+// deliberately (see the About diary), and git history keeps it.
 
-import { SPEED_STEPS, STORY_TARGET_SECONDS, REST_SPEEDUP, REST_MAX_SECONDS } from './constants.js';
+import { SPEED_STEPS } from './constants.js';
 
-const RM_STEP_MS = 3600;
-
-export function createEngine(timeline, render) {
+export function createEngine(render) {
   let rafId = null;
-  let lastTs = null;
-  let stepTimer = null;
   let speedIndex = 0; // index into SPEED_STEPS
-  // A scripted story player may drive the clock itself; then this loop
-  // only paints, and must not also advance time.
-  let externalDriver = false;
   const rmQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-  // Normalise this novel to ~STORY_TARGET_SECONDS: sample the day axis to
-  // learn how many days have someone travelling vs waiting, then set a
-  // base days/sec so journeys play at their true relative length while
-  // the quiet stretches fast-forward.
-  const span = timeline.tEnd - timeline.tStart;
-  const sampleStep = Math.max(0.5, span / 500);
-  let movingDays = 0;
-  for (let d = timeline.tStart; d < timeline.tEnd; d += sampleStep) {
-    if (timeline.anyMoving(d)) movingDays += sampleStep;
-  }
-  const restDays = Math.max(span - movingDays, 0);
-  const effectiveDays = movingDays + restDays / REST_SPEEDUP;
-  const baseRate = Math.max(effectiveDays / STORY_TARGET_SECONDS, 0.001); // days/sec while travelling
-
-  function frame(ts) {
+  function frame() {
     rafId = null;
-    const dt = lastTs == null ? 0 : Math.min((ts - lastTs) / 1000, 0.25);
-    lastTs = ts;
-    let atEnd = false;
-    // In reduced-motion mode the step timer drives time; the loop only
-    // paints, it must not also advance.
-    const smoothPlaying = timeline.state.playing && stepTimer == null && !externalDriver;
-    if (smoothPlaying) {
-      // Travelling plays at the base rate; the quiet stretches fast-forward
-      // — and any long empty gap is swept to the next journey in at most
-      // REST_MAX_SECONDS, so a thirty-year life doesn't sit dead on the map.
-      const moving = timeline.anyMoving(timeline.state.t);
-      let rate = baseRate * SPEED_STEPS[speedIndex];
-      if (!moving) {
-        const gap = timeline.nextMovingDay(timeline.state.t) - timeline.state.t;
-        rate = Math.max(baseRate * REST_SPEEDUP, gap / REST_MAX_SECONDS) * SPEED_STEPS[speedIndex];
-      }
-      atEnd = timeline.advance(dt * rate);
-    }
-    // render() may return true to request more frames (a camera still
-    // settling after a pause or scrub).
-    const wantsMore = render() === true;
-    if (atEnd) {
-      pause();
-    } else if (smoothPlaying || wantsMore) {
-      schedule();
-    } else {
-      lastTs = null;
-    }
+    if (render() === true) schedule();
   }
 
   function schedule() {
     if (rafId == null) rafId = requestAnimationFrame(frame);
   }
 
-  function cancel() {
-    if (rafId != null) {
-      cancelAnimationFrame(rafId);
-      rafId = null;
-    }
-    lastTs = null;
-  }
-
-  // A single coalesced render for scrubs and selection changes.
-  function requestRender() {
-    schedule();
-  }
-
-  function play() {
-    if (isPlaying()) return;
-    if (externalDriver) return; // the story player owns playback
-    if (rmQuery.matches) {
-      timeline.snapToChapter();
-      stepTimer = setInterval(() => {
-        const done = timeline.stepChapter(1);
-        requestRender();
-        if (done) pause();
-      }, RM_STEP_MS / SPEED_STEPS[speedIndex]);
-      timeline.setPlaying(true);
-      requestRender();
-    } else {
-      timeline.setPlaying(true);
-      schedule();
-    }
-  }
-
-  function pause() {
-    if (stepTimer) {
-      clearInterval(stepTimer);
-      stepTimer = null;
-    }
-    if (timeline.state.playing) timeline.setPlaying(false);
-    cancel();
-    schedule(); // one settling render, then idle
-  }
-
-  // If the OS preference flips mid-play, swap transports.
-  rmQuery.addEventListener('change', () => {
-    if (isPlaying()) {
-      pause();
-      play();
-    }
-  });
-
-  function isPlaying() {
-    return timeline.state.playing || stepTimer != null;
-  }
-
   return {
-    play,
-    pause,
-    toggle: () => (isPlaying() ? pause() : play()),
-    isPlaying,
-    requestRender,
+    // A single coalesced render for scrubs and selection changes.
+    requestRender: schedule,
     reducedMotion: () => rmQuery.matches,
-    setExternalDriver(v) {
-      externalDriver = !!v;
-    },
-    // Cycle 1x -> 2x -> 3x; restart the step timer if it's driving.
     cycleSpeed() {
       speedIndex = (speedIndex + 1) % SPEED_STEPS.length;
-      if (stepTimer) {
-        pause();
-        play();
-      }
       return SPEED_STEPS[speedIndex];
     },
     speed: () => SPEED_STEPS[speedIndex],

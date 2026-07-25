@@ -1,8 +1,7 @@
 // The "where they are" tile: a small pill, top-centre, that names the
 // followed character's whereabouts and — when they settle for a while —
 // how long they stay. It answers the two things that made playback
-// bewildering: who am I watching, and where are they right now. Also the
-// opening establishing note ("Jonathan Harker sets out from Munich").
+// bewildering: who am I watching, and where are they right now.
 //
 // aria-live so screen-reader users hear the same running commentary.
 
@@ -20,11 +19,9 @@ function dwellPhrase(days) {
 
 export function createLocationTile(container, novel, timeline) {
   let selected = null;    // the followed character (persists)
-  let establish = null;   // the opening establishing subject (temporary)
-  let establishTimer = null;
   let builtFor = null;    // which character the shell is currently built for
 
-  const subject = () => selected || establish;
+  const subject = () => selected;
 
   function buildShell(c) {
     container.innerHTML = `
@@ -41,13 +38,7 @@ export function createLocationTile(container, novel, timeline) {
   }
 
   // Returns HTML (may carry a travel-mode icon).
-  function phrase(pos, establishing) {
-    // The opening note names where the character starts, not where the
-    // first step already points.
-    if (establishing) {
-      const originId = pos.moving ? pos.movement.from : pos.atLocationId;
-      return `begins at ${novel.locationsById[originId].novelName}`;
-    }
+  function phrase(pos) {
     if (pos.moving) {
       const icon = modeIcon(pos.movement.mode);
       return `${icon} ${modePhrase(pos.movement.mode)} to ${novel.locationsById[pos.movement.to].novelName}`;
@@ -77,8 +68,7 @@ export function createLocationTile(container, novel, timeline) {
       return;
     }
     if (builtFor !== id) buildShell(novel.charactersById[id]);
-    const establishing = !selected && establish === id;
-    container.querySelector('.loc-tile-where').innerHTML = phrase(pos, establishing);
+    container.querySelector('.loc-tile-where').innerHTML = phrase(pos);
     container.classList.add('is-visible');
   }
 
@@ -90,20 +80,8 @@ export function createLocationTile(container, novel, timeline) {
       selected = id;
       render(timeline.state.t);
     },
-    // A brief opening note on one character, then it fades unless followed.
-    establish(id, ms = 6000) {
-      establish = id;
-      render(timeline.state.t);
-      clearTimeout(establishTimer);
-      establishTimer = setTimeout(() => {
-        establish = null;
-        render(timeline.state.t);
-      }, ms);
-    },
     clear() {
       selected = null;
-      establish = null;
-      clearTimeout(establishTimer);
       container.classList.remove('is-visible');
     },
   };

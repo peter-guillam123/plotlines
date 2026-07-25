@@ -18,7 +18,6 @@ import { createDirector } from './director.js';
 import { createMasthead } from './ui/masthead.js';
 import { createLegend } from './ui/legend.js';
 import { createScrubber } from './ui/scrubber.js';
-import { createCaptions } from './ui/captions.js';
 import { createCards } from './ui/cards.js';
 import { createPlaces } from './ui/places.js';
 import { createLibrary } from './ui/library.js';
@@ -160,7 +159,7 @@ ready
       updateTrails(map, novel, positions, paths, { monotonic: scripted });
       if (camera) return director.update(positions, { instant: instant ?? engine.reducedMotion() });
     }
-    const engine = createEngine(timeline, () => renderFrame());
+    const engine = createEngine(() => renderFrame());
 
     // Co-located markers are dodged apart by a fixed number of screen pixels,
     // so the spread has to recompute as the map zooms. Playback re-renders
@@ -173,13 +172,14 @@ ready
     // ---- scripted story mode ----
     // A novel with a `story` script is played as a telling — beats, not a
     // clock (docs/STORYTELLING.md). The story player drives the timeline;
-    // the engine only paints. Novels without a script keep the plain
-    // clock playback.
+    // the engine only paints. Every shipped book carries a script; a novel
+    // without one (a dataset mid-authoring) opens as explore-only. The old
+    // day-clock transport that used to play such books was retired once
+    // the whole shelf was scripted — git history keeps it.
     const scripted = Array.isArray(novel.story) && novel.story.length > 0;
     let story = null;
     let scrubber = null;
     if (scripted) {
-      engine.setExternalDriver(true);
       const storyCard = createStoryCard(document.getElementById('storycard'), novel, {
         onStep: (dir) => story.step(dir),
         onExplore: () => setMode('explore'),
@@ -202,7 +202,7 @@ ready
       });
     }
     // Everything that starts/stops playback talks to the transport: the
-    // story player when there's a script, the raw engine when not.
+    // story player when there's a script, a stub when not (explore-only).
     const transport = scripted
       ? {
           play: () => story.play(),
@@ -214,7 +214,14 @@ ready
           cycleSpeed: engine.cycleSpeed,
           speed: engine.speed,
         }
-      : engine;
+      : {
+          play() {}, pause() {}, toggle() {},
+          isPlaying: () => false,
+          requestRender: engine.requestRender,
+          reducedMotion: engine.reducedMotion,
+          cycleSpeed: engine.cycleSpeed,
+          speed: engine.speed,
+        };
 
     // ---- UI ----
     const masthead = createMasthead(document.getElementById('masthead'), index, meta.id, {
@@ -227,26 +234,24 @@ ready
     const legend = createLegend(document.getElementById('legend'), novel, (id) => {
       selectCharacter(id === timeline.state.selected ? null : id);
     });
-    scrubber = createScrubber(document.getElementById('controls'), novel, timeline, transport, {
-      scripted,
-      onSeekFraction: (f, o) => story && story.gotoFraction(f, o),
-      onStepBeat: (dir) => story && story.step(dir),
-      marks: story ? story.beatMarks() : null,
-      sound: scripted ? sound : null,
-    });
-    // Switched on mid-journey, the bed should start under the beat that's
-    // already crossing, not wait for the next one.
     if (scripted) {
+      scrubber = createScrubber(document.getElementById('controls'), novel, timeline, transport, {
+        onSeekFraction: (f, o) => story.gotoFraction(f, o),
+        onStepBeat: (dir) => story.step(dir),
+        marks: story.beatMarks(),
+        sound,
+      });
+      // Switched on mid-journey, the bed should start under the beat that's
+      // already crossing, not wait for the next one.
       sound.onChange((on) => {
         if (on && story.isPlaying()) sound.forBeat(story.currentBeat());
       });
     }
     // The frame-the-story button lives inside the controls bar, where it
-    // can never overlap the caption stack.
+    // can never overlap the story card.
     document.getElementById('controls').append(document.getElementById('recentre'));
-    const captions = createCaptions(document.getElementById('captions'), novel, timeline, paths, { scripted });
     const cards = createCards(map, novel, document.getElementById('sheet'), {
-      isPlaying: () => transport.isPlaying() || engine.isPlaying(),
+      isPlaying: () => transport.isPlaying(),
       reducedMotion: () => engine.reducedMotion(),
       cloth: meta.spine?.cloth || novel.spine?.cloth || '#4d5661',
     });
@@ -291,62 +296,19 @@ ready
       }
     );
 
-    // The establishing shot: open close on the protagonist's starting
-    // place, name it, hold a beat, then release into ensemble playback —
-    // so the story doesn't begin mid-journey with a stranger.
-    let establishing = false;
-    let establishTimer = null;
+    // The establishing shot: the script IS the establishing — its first
+    // beat opens on the protagonist with the time it needs. A book with no
+    // script (a dataset mid-authoring) has nothing to establish.
     function establishStart() {
-      // Scripted: the script IS the establishing — its first beat opens
-      // on the protagonist with the time it needs.
-      if (scripted) {
-        setRouteMode(map, 'ghost');
-        director.arm();
-        story.play();
-        return;
-      }
-      const hero = novel.characters[0].id;
-      setRouteMode(map, 'ghost'); // the trail leads from here on
+      if (!scripted) return;
+      setRouteMode(map, 'ghost');
       director.arm();
-      director.setSpotlight(hero);
-      // The opening line goes to the bottom narration strip (where all the
-      // running commentary lives), not a separate popup up top.
-      const heroChar = novel.charactersById[hero];
-      const hp = timeline.positionsAt(timeline.tStart)[hero];
-      const originId = hp && (hp.moving ? hp.movement.from : hp.atLocationId);
-      if (originId) {
-        captions.announce(heroChar, `${heroChar.name} begins at ${novel.locationsById[originId].novelName}.`);
-      }
-      engine.requestRender();
-      if (engine.reducedMotion()) {
-        director.setSpotlight(null);
-        engine.play();
-        return;
-      }
-      establishing = true;
-      clearTimeout(establishTimer);
-      establishTimer = setTimeout(() => {
-        if (!establishing) return;
-        establishing = false;
-        director.setSpotlight(null);
-        engine.play();
-      }, 3400);
+      story.play();
     }
-    function cancelEstablish() {
-      if (!establishing) return;
-      establishing = false;
-      clearTimeout(establishTimer);
-      director.setSpotlight(null);
-    }
-    // Any playback start (Start's own timer, the play button, Space)
-    // ends the establishing hold cleanly.
-    timeline.on('playState', (p) => {
-      if (p) cancelEstablish();
-    });
 
     // ---- modes ----
-    // Story: legend, scrubber, captions, the director. Explore: the
-    // gazetteer and place names, playback cleared away.
+    // Story: legend, scrubber, the director. Explore: the gazetteer and
+    // place names, playback cleared away.
     let mode = 'story';
     const recentre = document.getElementById('recentre');
 
@@ -355,7 +317,6 @@ ready
       const explore = mode === 'explore';
       document.getElementById('legend').hidden = explore;
       document.getElementById('controls').hidden = explore;
-      document.getElementById('captions').hidden = explore;
       document.getElementById('places').hidden = !explore;
       setCharacterMarkersVisible(map, !explore);
       masthead.setMode(mode);
@@ -363,11 +324,9 @@ ready
         // The front door must not linger over the gazetteer when you
         // switch tabs.
         overture.hide();
-        cancelEstablish();
         if (scripted) story.pause();
         document.getElementById('storycard').hidden = true;
         locationTile.clear();
-        engine.pause();
         director.disarm();
         setRouteMode(map, 'explore');
         updateTrails(map, novel, {}, paths);
@@ -393,12 +352,10 @@ ready
     }
 
     function restartStory() {
-      cancelEstablish();
       if (scripted) {
         story.stop();
         resetTrailMemory(); // a fresh telling starts with a clean tapestry
       }
-      engine.pause();
       timeline.setSelected(null);
       legend.setSelected(null);
       setRouteEmphasis(map, null);
@@ -416,7 +373,6 @@ ready
     // "Frame the story" appears when the user has taken the camera —
     // but only in story mode, where there's a story to frame.
     recentre.addEventListener('click', () => {
-      cancelEstablish();
       director.arm();
       engine.requestRender();
     });
@@ -427,9 +383,7 @@ ready
     // the telling's position survive the trip. Shown only during a
     // mobile-landscape journey by CSS; harmless off touch devices.
     document.getElementById('mobile-stop').addEventListener('click', () => {
-      cancelEstablish();
       if (scripted) story.pause();
-      engine.pause();
       director.disarm(); // the front door holds the camera
       setRouteMode(map, 'full'); // the card frames the whole journey again
       const resume = scripted && story.hasBegun();
@@ -443,7 +397,6 @@ ready
     document.getElementById('places').hidden = true;
 
     function selectCharacter(id) {
-      cancelEstablish();
       // Choosing a character to ride along takes the wheel from the telling.
       if (scripted && story.isPlaying()) story.pause();
       timeline.setSelected(id);
@@ -488,8 +441,10 @@ ready
 
     // Open on the front door: the book's card over the camera's pull-out.
     // (A book without an overture — none on the shelf today — falls
-    // straight into the establishing shot.)
-    restartStory();
+    // straight into the establishing shot; one without a script at all,
+    // a dataset mid-authoring, opens as explore-only.)
+    if (scripted) restartStory();
+    else setMode('explore');
 
     engine.requestRender();
 
