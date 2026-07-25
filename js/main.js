@@ -183,6 +183,12 @@ ready
       const storyCard = createStoryCard(document.getElementById('storycard'), novel, {
         onStep: (dir) => story.step(dir),
         onExplore: () => setMode('explore'),
+        onReplay: () => {
+          // Straight back into beat one — no detour via the front door.
+          story.stop();
+          resetTrailMemory();
+          story.play();
+        },
       });
       story = createStoryPlayer(novel, timeline, paths, {
         map,

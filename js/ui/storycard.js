@@ -10,7 +10,7 @@ import { CHARACTER_COLOURS } from '../constants.js';
 import { characterInitial, milesAndTime } from './format.js';
 import { modeIcon, modePhrase } from './modeicons.js';
 
-export function createStoryCard(container, novel, { onStep, onExplore }) {
+export function createStoryCard(container, novel, { onStep, onExplore, onReplay }) {
   // Mirror-identical arrows: one right-pointing triangle, the prev flipped
   // on its x-axis, so the two buttons can never disagree on shape.
   const tri = (dir) =>
@@ -28,7 +28,10 @@ export function createStoryCard(container, novel, { onStep, onExplore }) {
       <h3 class="story-title"></h3>
       <p class="story-narration"></p>
       <p class="story-progress"></p>
-      <button type="button" class="story-explore" hidden>Explore the places</button>
+      <div class="story-end-actions" hidden>
+        <button type="button" class="story-explore">Explore the places</button>
+        <button type="button" class="story-replay">Watch it again</button>
+      </div>
     </div>
     <button type="button" class="story-step story-step-next" aria-label="Next scene">${tri(1)}</button>`;
 
@@ -40,11 +43,16 @@ export function createStoryCard(container, novel, { onStep, onExplore }) {
   const progressEl = container.querySelector('.story-progress');
   const prevBtn = container.querySelector('.story-step-prev');
   const nextBtn = container.querySelector('.story-step-next');
+  const endActions = container.querySelector('.story-end-actions');
   const exploreBtn = container.querySelector('.story-explore');
+  const replayBtn = container.querySelector('.story-replay');
 
   prevBtn.addEventListener('click', () => onStep(-1));
   nextBtn.addEventListener('click', () => onStep(1));
   exploreBtn.addEventListener('click', () => onExplore && onExplore());
+  replayBtn.addEventListener('click', () => onReplay && onReplay());
+  exploreBtn.hidden = !onExplore;
+  replayBtn.hidden = !onReplay;
 
   // The map holds every place's own words and, for most books, a period
   // picture — riches a viewer who only watches the story never opens. So the
@@ -61,7 +69,7 @@ export function createStoryCard(container, novel, { onStep, onExplore }) {
     container.classList.remove('is-interstitial', 'is-done');
     container.classList.toggle('is-interstitial', beat.kind === 'meanwhile' || beat.kind === 'handoff');
     // Leaving the end state (a step back into the story) restores the beat UI.
-    exploreBtn.hidden = true;
+    endActions.hidden = true;
     titleEl.hidden = !beat.title;
     narrationEl.classList.remove('is-invitation');
     progressEl.hidden = false;
@@ -116,7 +124,7 @@ export function createStoryCard(container, novel, { onStep, onExplore }) {
     narrationEl.textContent = invitationText(totalMiles, totalSpan);
     narrationEl.classList.add('is-invitation');
     nextBtn.disabled = true;      // nothing after the end; ◂ still steps back in
-    exploreBtn.hidden = !onExplore;
+    endActions.hidden = !(onExplore || onReplay);
     container.hidden = false;
     container.classList.add('is-visible');
   }

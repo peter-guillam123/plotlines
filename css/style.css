@@ -697,11 +697,19 @@ body.is-overture #storycard { display: none !important; }
 .story-step:hover:not(:disabled) { background: var(--paper); }
 .story-step:disabled { opacity: 0.35; cursor: default; }
 
-/* The end-of-telling invitation: a slightly warmer narration, and an accent
-   button that hands the reader on to the places (their words and pictures). */
+/* The end-of-telling invitation: a slightly warmer narration, an accent
+   button that hands the reader on to the places (their words and pictures),
+   and a quieter one that plays the whole telling again. */
 .story-narration.is-invitation { font-size: 15px; }
-.story-explore {
+.story-end-actions {
   margin: 12px auto 2px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.story-explore, .story-replay {
+  margin: 0;
   min-height: 40px;
   padding: 8px 22px;
   border: none;
@@ -714,7 +722,15 @@ body.is-overture #storycard { display: none !important; }
   box-shadow: var(--shadow);
 }
 .story-explore:hover { background: #8e332b; }
-.story-explore:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.story-explore:focus-visible,
+.story-replay:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.story-replay {
+  background: transparent;
+  border: 1px solid var(--rule);
+  color: var(--ink-soft);
+  box-shadow: none;
+}
+.story-replay:hover { background: var(--paper-deep); color: var(--ink); }
 
 /* Interstitials (meanwhile, handoff) own the moment: a darker, weightier
    card, so the change of thread or of time reads as a deliberate turn. */
