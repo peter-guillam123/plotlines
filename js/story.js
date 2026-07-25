@@ -201,12 +201,13 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
   }
   // `offset` (pixels) seats a single node in the visible rectangle; `linear`
   // is for the opening living push-in, which wants a constant, unhurried
-  // drift rather than an ease. Durations are wall-clock ms; at 1× they match
-  // the beat's content clock (see the timing constants above).
+  // drift rather than an ease. Durations are given in content-clock ms and
+  // divided by the playback speed, so the choreography's promise — the zoom
+  // completes before the peg sets off — holds at 2× and 3× exactly as at 1×.
   function applyCam(cam, ms, offset, linear) {
     if (!cam) return;
     const c = cam.center;
-    const opts = { center: [c.lng ?? c[0], c.lat ?? c[1]], zoom: cam.zoom, essential: true, duration: Math.max(0, ms) };
+    const opts = { center: [c.lng ?? c[0], c.lat ?? c[1]], zoom: cam.zoom, essential: true, duration: Math.max(0, ms / engine.speed()) };
     if (offset) opts.offset = offset;
     if (linear) opts.easing = (t) => t;
     map.easeTo(opts);

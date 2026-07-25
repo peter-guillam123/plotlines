@@ -117,8 +117,11 @@ export function createScrubber(container, novel, timeline, engine, { scripted = 
   const speedBtn = container.querySelector('.speed-btn');
   speedBtn.addEventListener('click', () => {
     const s = engine.cycleSpeed();
-    speedBtn.innerHTML = `${s}&times;`;
-    speedBtn.setAttribute('aria-label', `Playback speed: ${s} times`);
+    speedBtn.innerHTML = `${s === 0.5 ? '&frac12;' : s}&times;`;
+    speedBtn.setAttribute(
+      'aria-label',
+      `Playback speed: ${s === 0.5 ? 'half speed' : `${s} times`}`,
+    );
   });
 
   range.addEventListener('input', () => {

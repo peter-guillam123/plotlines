@@ -55,7 +55,10 @@ export const NLS_DEFAULT_OPACITY = 0.85;
 
 // Animation. Base pace is deliberately unhurried (~3 minutes for a
 // 27-chapter novel); the speed control multiplies it.
-export const SPEED_STEPS = [1, 2, 3];  // the speed button cycles these
+// The speed button cycles these in order. The half step comes last so the
+// dial reads as "faster, faster, then linger" — for the dense tellings
+// (Three Kingdoms) where a reader wants more time, not less.
+export const SPEED_STEPS = [1, 2, 3, 0.5];
 // Playback runs on real days. A novel is normalised to roughly this many
 // seconds at 1x; days when someone travels play at the base rate, and the
 // quiet stretches (nobody on the road) fast-forward by REST_SPEEDUP — so
