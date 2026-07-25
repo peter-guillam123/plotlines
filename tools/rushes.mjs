@@ -12,12 +12,19 @@
 import { readFileSync } from 'node:fs';
 import { analyseSpills } from './route-spill.mjs';
 
-// Keep in sync with js/constants.js (the tool is standalone: the repo has
-// no package.json, so it can't import the app's ES modules directly).
+// Keep in sync with js/constants.js and the camera timings at the top of
+// js/story.js (the tool is standalone: the repo has no package.json, so it
+// can't import the app's ES modules directly).
 const READ_BASE_SECONDS = 2.5;
 const READ_PER_WORD_SECONDS = 0.32;
 const BEAT_MIN_SECONDS = 5;
 const ARRIVAL_DWELL_SECONDS = 2.5; // a leg rests on the place reached (see story.js)
+const MOVE_ESTABLISH_SEC = 1.6;    // story.js camera choreography, mirrored so
+const MOVE_HOLD_SEC = 0.55;        // the runtime and the feel metrics see the
+const MOVE_SETTLE_SEC = 1.5;       // same clock the player runs
+const MOVE_SMALL_SEC = 0.9;
+const OPENING_MOVE_SEC = 1.8;
+const SMALL_MOVE_DEG = 0.18;
 
 const [novelPath, storyPath] = process.argv.slice(2);
 if (!novelPath) {
@@ -86,6 +93,8 @@ const centreOf = (pts) => {
 
 const errors = [], warns = [];
 let t = null, total = 0, prevFrame = null, prevKind = null, lastExcuse = false;
+let prevPlace = null, seenPlace = false; // mirrors story.js's camera plan
+const plan = []; // one entry per beat, for the feel metrics below
 const covered = new Set();
 
 story.forEach((b, i) => {
@@ -105,6 +114,7 @@ story.forEach((b, i) => {
   if (b.character && ![].concat(b.character).every((c) => charIds.has(c))) errors.push(`${tag}: unknown character`);
 
   let frame = null, beatT = t;
+  let moveKind = 'none', moveSec = 0, crossSec = null;
   if (b.kind === 'journey' || b.kind === 'removal') {
     const leg = legs.find((l) =>
       l.from === b.from && l.to === b.to && l.chapter === b.chapter &&
@@ -117,13 +127,33 @@ story.forEach((b, i) => {
         errors.push(`${tag}: rewinds the clock (day ${leg.dayStart} < ${Math.round(t)}) with no meanwhile before it`);
       }
       beatT = leg.dayEnd;
-      const travelFloor = b.kind === 'journey' ? Math.min(6 + leg.km / 800, 12) : 0;
-      dur = Math.max(read, travelFloor) + ARRIVAL_DWELL_SECONDS;
+      // The player's own arithmetic (story.js): establish + crossing + dwell,
+      // and removals take the same travel floor journeys do.
+      const travelFloor = Math.min(6 + leg.km / 800, 12);
+      moveKind = 'leg';
+      moveSec = MOVE_ESTABLISH_SEC;
+      crossSec = Math.max(read, travelFloor);
+      dur = moveSec + crossSec + ARRIVAL_DWELL_SECONDS;
+      prevPlace = locs[b.to].coords; seenPlace = true;
     }
   } else if (b.kind === 'scene' || b.kind === 'handoff') {
     if (b.at && !locs[b.at]) errors.push(`${tag}: unknown place "${b.at}"`);
     if (b.kind === 'scene' && !b.at) errors.push(`${tag}: scene needs "at"`);
-    if (b.at && locs[b.at]) frame = { c: locs[b.at].coords, span: 0 };
+    if (b.at && locs[b.at]) {
+      frame = { c: locs[b.at].coords, span: 0 };
+      // The camera's move class, story.js's own rules: the first placed
+      // beat gets the opening drift; a near-neighbour hop settles; a real
+      // change of place gets the pull-back-hold-push-in.
+      const pt = locs[b.at].coords;
+      if (!seenPlace) { moveKind = 'opening'; moveSec = OPENING_MOVE_SEC; }
+      else {
+        const d = prevPlace ? Math.hypot(pt[0] - prevPlace[0], pt[1] - prevPlace[1]) : 0;
+        if (d < SMALL_MOVE_DEG) { moveKind = 'small'; moveSec = MOVE_SMALL_SEC; }
+        else { moveKind = 'big'; moveSec = MOVE_ESTABLISH_SEC + MOVE_HOLD_SEC + MOVE_SETTLE_SEC; }
+      }
+      dur = moveSec + read;
+      prevPlace = pt; seenPlace = true;
+    }
     if (b.chapter) {
       const day = typeof b.day === 'number' ? b.day : chapterDay(b.chapter);
       if (t != null && day < t - 0.5 && prevKind !== 'meanwhile') {
@@ -147,12 +177,115 @@ story.forEach((b, i) => {
       warns.push(`${tag}: camera leaps ${jump.toFixed(0)}° with nothing to carry it (needs a handoff/meanwhile first)`);
     }
   }
+  plan.push({ tag, kind: b.kind, read, dur, frame, moveKind, moveSec, crossSec });
   if (frame) prevFrame = frame;
   lastExcuse = b.kind === 'handoff' || b.kind === 'meanwhile';
   prevKind = b.kind;
   if (beatT != null) t = beatT;
   total += dur;
 });
+
+// ---- feel: how the telling plays, not just whether it lies ----
+// Proxies for pacing and camera monotony, computed from the same static
+// plan the player builds. All warnings, never errors: feel is editorial,
+// and some books (a circumnavigation, a single-room drama) will justify
+// their numbers. The point is that nobody has to *notice* — the tool asks.
+let feelLine = '';
+{
+  // Dead air: seconds the peg crawls on after the narration has been read
+  // (the travel floor outlasting a short line). The single best "feels
+  // slow" proxy.
+  let deadAir = 0;
+  for (const p of plan) {
+    if (p.crossSec == null) continue;
+    const silent = p.crossSec - p.read;
+    if (silent > 0) deadAir += silent;
+    if (silent > 6) {
+      warns.push(`${p.tag}: ${Math.round(silent)}s of dead air — the crossing outlasts the narration; a line more of text would carry it`);
+    }
+  }
+
+  // Stillness: a run of beats with no camera move at all (meanwhiles and
+  // placeless beats — a small settle between neighbouring pins is real
+  // motion at the story's zoom). Over a minute reads as a stopped page.
+  let runStart = -1, runTime = 0;
+  const flushStill = (endIdx) => {
+    if (runStart >= 0 && runTime > 60) {
+      warns.push(`beats ${runStart + 1}-${endIdx}: the map does not move for ${Math.round(runTime)}s (${endIdx - runStart} placeless beats in a row)`);
+    }
+    runStart = -1; runTime = 0;
+  };
+  plan.forEach((p, i) => {
+    if (p.moveKind === 'none') {
+      if (runStart < 0) runStart = i;
+      runTime += p.dur;
+    } else flushStill(i);
+  });
+  flushStill(plan.length);
+
+  // Framing repetition: consecutive placed beats holding an effectively
+  // identical frame — and the A-B-A-B ping-pong the jump check can't see
+  // because each individual hop is small or "carried". "Identical" for a
+  // point frame (a scene) means literally the same pin: at the story's
+  // close zoom, neighbouring pins in one city are distinct framings.
+  const same = (a, b) => {
+    if (!a || !b) return false;
+    // "Identical" scales with the frame: a tenth of the wider frame's span,
+    // floored at ~200m so two beats at the same pin match and two pins a
+    // street apart in a close-up book (Crime and Punishment's 700m box)
+    // don't.
+    const maxSpan = Math.max(a.span, b.span);
+    const tol = Math.max(0.002, 0.1 * maxSpan);
+    return Math.hypot(a.c[0] - b.c[0], a.c[1] - b.c[1]) < tol &&
+      Math.abs(a.span - b.span) < Math.max(0.02, 0.2 * maxSpan);
+  };
+  const framed = plan.map((p, i) => ({ i, f: p.frame })).filter((x) => x.f);
+  let repStart = 0;
+  for (let k = 1; k <= framed.length; k++) {
+    if (k < framed.length && same(framed[k].f, framed[k - 1].f)) continue;
+    const len = k - repStart;
+    // A four-beat stay at one house is ordinary novel structure; six or
+    // more without the picture changing is worth a human look.
+    if (len >= 6) {
+      warns.push(`beats ${framed[repStart].i + 1}-${framed[k - 1].i + 1}: an identical framing held for ${len} beats — a frozen slideshow`);
+    }
+    repStart = k;
+  }
+  for (let k = 3; k < framed.length; k++) {
+    if (same(framed[k].f, framed[k - 2].f) && same(framed[k - 1].f, framed[k - 3].f) &&
+        !same(framed[k].f, framed[k - 1].f)) {
+      warns.push(`beats ${framed[k - 3].i + 1}-${framed[k].i + 1}: the camera ping-pongs A-B-A-B between two framings`);
+      k += 2; // one report per volley
+    }
+  }
+
+  // Zoom altitude: how much of the telling plays from continental height
+  // (a frame spanning more than ~8°). Too long up there reads as abstract.
+  const contTime = plan.filter((p) => p.frame && p.frame.span > 8)
+    .reduce((a, p) => a + p.dur, 0);
+  const contPct = Math.round((contTime / total) * 100);
+  if (contPct > 45) {
+    warns.push(`the camera spends ${contPct}% of the telling at continental height — the map reads as abstract for long stretches`);
+  }
+
+  // Rhythm: the beat-duration distribution, and the longest run of
+  // near-identical durations (a metronome numbs).
+  const durs = plan.map((p) => p.dur).sort((a, b) => a - b);
+  const med = durs[Math.floor(durs.length / 2)] || 0;
+  let monoStart = 0, monoBest = 1, monoAt = 0;
+  for (let k = 1; k <= plan.length; k++) {
+    if (k < plan.length && Math.abs(plan[k].dur - plan[k - 1].dur) < 1) continue;
+    if (k - monoStart > monoBest) { monoBest = k - monoStart; monoAt = monoStart; }
+    monoStart = k;
+  }
+  if (monoBest >= 6) {
+    warns.push(`beats ${monoAt + 1}-${monoAt + monoBest}: ${monoBest} beats in a row within a second of the same length — a metronome rhythm`);
+  }
+
+  const deadPct = Math.round((deadAir / total) * 100);
+  feelLine = `  feel: dead air ${Math.round(deadAir)}s (${deadPct}%) · continental zoom ${contPct}%` +
+    ` · beat lengths ${Math.round(durs[0] || 0)}s/${Math.round(med)}s/${Math.round(durs[durs.length - 1] || 0)}s (min/med/max)`;
+}
 
 for (const l of legs) {
   const key = `${l.from}>${l.to}@${l.chapter}`;
@@ -223,6 +356,7 @@ console.log(`  beats: ${story.length}   runtime at 1x: ${m}m${String(s).padStart
 console.log(`  errors: ${errors.length}   warnings: ${warns.length}`);
 console.log(`  images: ${imaged} placed · ${imgBlank} blank · ${unreviewed} unreviewed` +
   (unreviewed ? `   → run: node tools/images.mjs ${novelPath}` : ''));
+if (feelLine) console.log(feelLine);
 for (const e of errors) console.log(`  E ${e}`);
 for (const w of warns) console.log(`  W ${w}`);
 process.exit(errors.length ? 1 : 0);
