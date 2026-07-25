@@ -3,7 +3,6 @@
   "author": "Alexandre Dumas",
   "year": 1846,
   "gutenbergId": 1184,
-  "quotesVerified": true,
   "timeline": {
     "epoch": "1815-02-24",
     "calendar": true,
@@ -181,7 +180,7 @@
       "coords": [5.3251, 43.2799],
       "certainty": "real",
       "story": "The island fortress off Marseille where Dantès is walled up without trial for fourteen years - and where the Abbé Faria, tunnelling in error into his cell, gives him an education, a purpose, and the secret of the treasure buried on Monte Cristo.",
-      "quote": "The treasure I speak of really exists, and I offer to make you the possessor of it.",
+      "quote": "The treasure I speak of really exists, and I offer to sign an agreement with you, in which I promise to lead you to the spot where you shall dig.",
       "quoteRef": "Ch. 17, the Abbé Faria",
       "image": {
         "file": "assets/images/mc-chateau-dif.jpg",

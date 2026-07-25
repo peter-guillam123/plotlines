@@ -3,7 +3,6 @@
   "author": "John Buchan",
   "year": 1915,
   "gutenbergId": 558,
-  "quotesVerified": true,
   "timeline": {
     "epoch": "1914-05-24",
     "calendar": true,
@@ -125,7 +124,7 @@
       "certainty": "conjectured",
       "note": "Best guess. The Radical candidate's house is invented and unlocated; placed toward the greener eastern valleys the text describes. Conjectured - dashed routes.",
       "story": "Fleeing across country, Hannay blunders into a by-election and is press-ganged into speaking for Sir Harry, the earnest Liberal candidate - who, hearing the real story afterwards, believes every word and sends him on to his godfather, Sir Walter Bullivant.",
-      "quote": "He spoke of Sir Harry's speech as 'statesmanlike', and mine as having 'the eloquence of an emigration agent.'",
+      "quote": "The minister didn't like me, though, and when he proposed a vote of thanks, spoke of Sir Harry's speech as \"statesmanlike\" and mine as having \"the eloquence of an emigration agent.\"",
       "quoteRef": "Ch. 4",
       "imageBlank": "A real Galloway country house would only stand in for an invented one; Sir Harry's house keeps its pin without a borrowed portrait."
     },

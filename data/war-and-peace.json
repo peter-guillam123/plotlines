@@ -3,7 +3,7 @@
   "author": "Leo Tolstoy",
   "year": 1869,
   "gutenbergId": 2600,
-  "quotesVerified": "War and Peace, Louise and Aylmer Maude translation, Project Gutenberg #2600. Quotes preserve the Maude text's accents and spellings (Borodinó, Vílna, Berëzina, Málo-Yaroslávets).",
+  "quoteNote": "War and Peace, Louise and Aylmer Maude translation, Project Gutenberg #2600. Quotes preserve the Maude text's accents and spellings (Borodinó, Vílna, Berëzina, Málo-Yaroslávets).",
   "overture": "Five lives and an army, across the Napoleonic wars. The searching Pierre, the disillusioned Prince Andrei, the vivid Natasha and the soldier Nikolai move through the Petersburg salons and the country estates - until in 1812 Napoleon's Grande Armée pours across the Niemen and drives to Moscow, over the top of the world the peace had built, and staggers back a ruin. The invasion drawn as the great character it is: out to Moscow at four hundred thousand, back to the river a thread.",
   "mapHome": { "bounds": [[15, 48], [41, 61]] },
   "timeline": { "epoch": "1805-07-01", "calendar": true, "span": "1805–1812 (the novel runs to 1820; the spine ends with the retreat)", "unit": "day" },

@@ -2,7 +2,7 @@
   "title": "The Devil's Elixir",
   "author": "E. T. A. Hoffmann",
   "year": 1815,
-  "gutenbergId": 36494,
+  "gutenbergId": [36494, 37005],
   "overture": "Germany, the late eighteenth century. Brother Medardus, a Capuchin monk, drinks a relic-elixir that unchains every buried desire, and is driven out of his cloister into a wandering life of seduction, murder and madness - dogged the whole way by his own double, the mad Count Victorin, whom neither he nor anyone can tell apart from himself. Two identical men on the same roads; an old family curse of blood and incest running beneath, migrating north out of Italy; and one woman, Aurelie, caught between them.",
   "mapHome": {
     "bounds": [[9.8, 41.2], [22.0, 54.6]]

@@ -131,9 +131,24 @@ for (const file of books) {
   const quotes = quotesOf(novel);
   const name = file.replace(/^data\//, '').replace(/\.json$/, '');
 
+  // Two shapes of opt-out, both costing a written reason.
+  //   skip:    nothing here can be checked this way.
+  //   partial: only some of the text is on Gutenberg, so what can be
+  //            checked still is, and what can't is reported as UNVERIFIED
+  //            rather than counted a failure. Romance of the Three Kingdoms
+  //            is the case it exists for: Gutenberg carries volume one of
+  //            two, and the rest of the Brewitt-Taylor translation came
+  //            from Wikisource. A blanket skip would have thrown away the
+  //            six quotes that do verify to hide the three that can't.
   if (novel.quoteSource?.skip) {
     console.log(`${name}: skipped — ${novel.quoteSource.note || 'no reason given (add one)'}`);
     if (!novel.quoteSource.note) failed++;
+    continue;
+  }
+  const partial = !!novel.quoteSource?.partial;
+  if (partial && !novel.quoteSource.note) {
+    console.log(`${name}: quoteSource.partial needs a note saying which text is missing`);
+    failed++;
     continue;
   }
   if (!quotes.length) { console.log(`${name}: no quotes`); continue; }
@@ -143,12 +158,22 @@ for (const file of books) {
     continue;
   }
 
-  const body = await text(novel.gutenbergId);
-  if (!body) {
-    console.log(`${name}: could not fetch Gutenberg #${novel.gutenbergId}${offline ? ' (offline, not cached)' : ''}`);
-    failed++;
-    continue;
+  // A work can be more than one Gutenberg text. Flaubert's Sentimental
+  // Education is published there in two volumes, and nine of its quotes
+  // looked like a wrong translation until the second volume turned up.
+  const ids = [].concat(novel.gutenbergId);
+  const parts = [];
+  for (const id of ids) {
+    const part = await text(id);
+    if (!part) {
+      console.log(`${name}: could not fetch Gutenberg #${id}${offline ? ' (offline, not cached)' : ''}`);
+      failed++;
+      break;
+    }
+    parts.push(part);
   }
+  if (parts.length !== ids.length) continue;
+  const body = parts.join('\n');
   const hay = normalise(body);
   // Words only: no punctuation at all. A quote that fails the verbatim test
   // but passes this one is a transcription slip in our JSON - a comma we
@@ -166,13 +191,20 @@ for (const file of books) {
     misses.push({ ...q, near: hayWords.includes(words(text)) });
   }
   const near = misses.filter((m) => m.near).length;
-  console.log(`${name}: ${quotes.length - misses.length}/${quotes.length} verbatim in Gutenberg #${novel.gutenbergId}`
+  console.log(`${name}: ${quotes.length - misses.length}/${quotes.length} verbatim in Gutenberg #${ids.join(' + #')}`
     + (near ? ` (${near} near - punctuation only)` : ''));
   for (const m of misses) {
-    const label = m.near ? 'NEAR' : 'MISS';
+    const label = m.near ? 'NEAR' : (partial ? 'UNVERIFIED' : 'MISS');
     console.log(`  ${label} ${m.where}: "${String(m.quote).slice(0, 90)}${m.quote.length > 90 ? '…' : ''}"`);
   }
-  failed += misses.length;
+  if (partial) {
+    // A NEAR is still ours to fix even in a partial text: the words were
+    // found, so the punctuation is checkable and wrong.
+    if (misses.some((m) => m.near)) failed += misses.filter((m) => m.near).length;
+    console.log(`  (${misses.length} unverifiable here — ${novel.quoteSource.note})`);
+  } else {
+    failed += misses.length;
+  }
 }
 
 console.log(failed ? `\n${failed} problem(s).` : '\nevery quote verbatim.');

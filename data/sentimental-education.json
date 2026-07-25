@@ -2,7 +2,7 @@
   "title": "Sentimental Education",
   "author": "Gustave Flaubert",
   "year": 1869,
-  "gutenbergId": 34828,
+  "gutenbergId": [34828, 27537],
   "overture": "A young man sees a woman on a Seine steamer, falls hopelessly in love, and spends the next twenty-five years drifting between Paris and his provincial home, and between three women he is half-hearted about, achieving nothing - while the Revolution of 1848 convulses the streets around him and he barely notices.",
   "mapHome": {
     "bounds": [

@@ -3,6 +3,10 @@
   "author": "Luo Guanzhong",
   "year": 1522,
   "gutenbergId": 77416,
+  "quoteSource": {
+    "partial": true,
+    "note": "Gutenberg #77416 is volume one of two; chapters 61-120 of Brewitt-Taylor's translation were read from Wikisource, so quotes from the later chapters cannot be machine-checked here"
+  },
   "overture": "The four-hundred-year Han empire falls into anarchy, and three warlords carve its body into three kingdoms: Cao Cao's Wei in the north, Liu Bei's Shu in the west, Sun Quan's Wu in the south-east. Across a century of brotherhood, genius and betrayal - the fire at Red Cliffs, the fall of Guan Yu, the doomed campaigns of Zhuge Liang - the three contend for a united China, until all are swept away and the empire is one again.",
   "mapHome": {
     "bounds": [

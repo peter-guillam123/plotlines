@@ -3,7 +3,7 @@
   "author": "Selma Lagerlöf",
   "year": 1906,
   "gutenbergId": 10935,
-  "quotesVerified": "The Wonderful Adventures of Nils, Velma Swanston Howard's translation, Project Gutenberg #10935. Quotes preserve the source's inconsistent spellings ('Skane', 'Gottland').",
+  "quoteNote": "The Wonderful Adventures of Nils, Velma Swanston Howard's translation, Project Gutenberg #10935. Quotes preserve the source's inconsistent spellings ('Skane', 'Gottland').",
   "overture": "A lazy farm boy in the far south of Sweden is shrunk to thumb-size, and carried off on the back of a white gander when the wild geese fly north for the spring. From Skåne to Lapland and home again, he sees the whole length of his country from the air - and is made kind by it.",
   "mapHome": { "bounds": [[10.5, 55], [21, 68.6]] },
   "timeline": { "epoch": null, "calendar": false, "span": "one spring, summer and autumn", "duration": "a spring and summer", "unit": "month" },

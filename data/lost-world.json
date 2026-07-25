@@ -3,7 +3,7 @@
   "author": "Arthur Conan Doyle",
   "year": 1912,
   "gutenbergId": 139,
-  "quotesVerified": "The Lost World, Project Gutenberg #139.",
+  "quoteNote": "The Lost World, Project Gutenberg #139.",
   "overture": "To prove himself worthy of the woman he loves, a young reporter joins a ferocious genius's expedition to a plateau in the Amazon where the prehistoric world still lives. From a London lecture-hall out across the Atlantic, up the Amazon by steamer and a hidden tributary, and over a felled-tree bridge onto an island in the air - from which, the bridge toppled behind them, there may be no way down.",
   "mapHome": { "bounds": [[-66, -5], [1, 53]] },
   "timeline": { "epoch": null, "calendar": false, "span": "about six months of one expedition", "duration": "about six months", "unit": "month" },
