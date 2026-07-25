@@ -13,15 +13,21 @@ The method is written down. Read both before building a book:
 - `docs/ADDING-A-NOVEL.md` — the dataset (places, movements, routes, images).
 - `docs/STORYTELLING.md` — the script (narrated beats) and its screening loop.
 
-Per novel, in order: research + curate the **dataset** (real/identified/
-conjectured places, movements, verified quotes) → enrich **routes** (every
-leg on the real road / rail line / sea-lane it could have taken, with
-sources) → write the **story script** (narrated beats) → add the shelf entry
-to `data/novels.json` → a **diary** entry on the About page → rebuild the two
-generated indexes: `node tools/build-atlas.mjs` (atlas pins) and, after adding
-a curated time-span to `SPANS`, `node tools/build-shelf-stats.mjs` (shelf sort
-stats). `node tools/check-shelf-stats.mjs` gates the latter. Authoring is a
-staged fan-out of subagents; the shipped result is static.
+Per novel, in order: check it's allowed at all (`docs/EDITORIAL.md` §1 —
+the UK copyright rule is stricter than Gutenberg's) → research + curate the
+**dataset** (real/identified/conjectured places, movements, verified quotes)
+→ enrich **routes** (every leg on the real road / rail line / sea-lane it
+could have taken, with sources) → write the **story script** (narrated
+beats) → add the shelf entry to `data/novels.json` → a **diary** entry on
+the About page → rebuild the two generated indexes.
+
+**`node tools/ship.mjs <slug> --rebuild` does all the checking and both
+rebuilds in one command**, and then prints the judged passes it can't run.
+Use it rather than remembering eight invocations; the same gates run in CI
+on every push. Authoring is a staged fan-out of subagents, and their briefs
+are now checked in at `.claude/agents/` (text-vs-map, completeness,
+sensitivity, screening, place- and route-research) rather than improvised.
+The shipped result is static.
 
 Gold-standard exemplars to match: `data/dracula.json` (dataset shape) and
 `data/david-copperfield.json` (script + enriched routes).

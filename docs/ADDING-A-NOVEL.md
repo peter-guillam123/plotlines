@@ -458,8 +458,15 @@ The pipeline that produced the honest datasets, in order:
    scholarship; each fleshed route's period path with sources. Keep the
    endpoints you'll use fixed so the research connects.
 2. **Curate** into the JSON, applying §§2–4. One book, one file.
-3. **Verify quotes** — fetch the Gutenberg text and string-match every
-   `quote` verbatim; fix or cut anything that isn't there word for word.
+3. **Verify quotes** — `node tools/quotes.mjs data/<slug>.json` fetches the
+   Gutenberg text (cached after the first run) and matches every `quote`
+   word for word, forgiving typography and nothing else. It separates
+   `NEAR` (the words are right, our punctuation isn't — copy the line
+   again) from `MISS` (not in that text at all — usually a different
+   translation, occasionally a paraphrase we wrote and then believed).
+   Where a book genuinely can't be checked this way, `quoteSource: { skip:
+   true, note: "…" }` opts out and costs a written reason, as `spillOk`
+   does.
 4. **Audit routes against the text** — for every fleshed route, ask *does
    the book name this path?* Promote the genuinely text-named ones to
    `novel`; confirm nothing external contradicts a detail the author gave.
@@ -558,6 +565,15 @@ The pipeline that produced the honest datasets, in order:
     `node tools/check-shelf-stats.mjs` is a gate that refuses to pass until
     every shelf book has a fresh, complete entry (it recomputes and compares,
     so it also catches stats gone stale after a route edit).
+
+**One command runs all of it**: `node tools/ship.mjs <slug>` (add
+`--rebuild` to regenerate the atlas and the shelf stats, `--all` to sweep
+the whole shelf). It runs the deterministic gates in order, shows the
+warnings worth reading, and then prints the judged passes it cannot do —
+which is the point, because the gates going green is exactly when it is
+tempting to think a book is finished. The same checks run on GitHub for
+every push (`.github/workflows/gates.yml`); a green tick there means a
+book loads and plays honestly, never that it is any good.
 
 **The four hard gates** (a book that fails any does not ship): it **loads**
 (`node tools/validate.mjs data/<slug>.json` → `load clean` — this runs the
