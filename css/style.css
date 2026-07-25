@@ -1604,6 +1604,17 @@ body.is-overture #controls { display: none !important; }
 }
 .overture-again:hover { color: var(--accent); }
 
+/* One sentence of expectation-setting: the journey starts moving on its
+   own, and here is how to take the wheel. A reader was genuinely surprised
+   by the autoplay; this line is the answer, kept to a whisper. */
+.overture-hints {
+  margin: 12px 0 0;
+  font-size: 12.5px;
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
 .overture-back {
   display: inline-block;
   margin-top: 12px;
@@ -2198,8 +2209,10 @@ body.is-overture #controls { display: none !important; }
 
   /* The rail's masthead already names the book beside the docked card, so
      the card's own title page is a duplicate here — reclaim its height for
-     the sweep and the cast. */
+     the sweep and the cast. The keyboard hints go too: no spacebar on a
+     phone, and the card needs its height. */
   html.touch .overture-kicker,
   html.touch .overture-title,
-  html.touch .overture-byline { display: none; }
+  html.touch .overture-byline,
+  html.touch .overture-hints { display: none; }
 }

@@ -69,6 +69,8 @@ export function createOverture(container, map, novel, paths, {
           <button type="button" class="overture-start"></button>
           <button type="button" class="overture-explore">Explore the map</button>
         </div>
+        <p class="overture-hints">The story plays itself - space pauses, the
+          arrows step scene by scene, and the bar below jumps anywhere.</p>
         <a class="overture-back" href="./">&#8617; Choose another book</a>
       </div>`;
     container.querySelector('.overture-title').textContent = novel.title;
