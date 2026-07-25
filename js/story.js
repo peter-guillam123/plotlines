@@ -439,13 +439,17 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     totalSeconds: totalDur, // the telling's expected runtime at 1×
     hasBegun: () => idx >= 0,
     currentBeat: () => (idx >= 0 ? beats[idx] : null),
-    // The shape of the telling, for the scrubber: where each beat starts
-    // as a fraction of the whole, and what to call it under a hover.
+    // The shape of the telling, for the scrubber and the screening rig:
+    // where each beat starts as a fraction of the whole, what to call it,
+    // and (for journeys) the day-span its crossing covers, so a screening
+    // frame can be rendered mid-leg via renderAt().
     beatMarks: () => beats.map((b, i) => ({
       frac: cumBefore[i] / totalDur,
       chapter: b.chapter || null,
       title: b.title || null,
       kind: b.kind,
+      t0: b.t0,
+      t1: b.t1,
     })),
     play,
     pause,

@@ -442,9 +442,18 @@ ready
     // Open on the front door: the book's card over the camera's pull-out.
     // (A book without an overture — none on the shelf today — falls
     // straight into the establishing shot; one without a script at all,
-    // a dataset mid-authoring, opens as explore-only.)
-    if (scripted) restartStory();
-    else setMode('explore');
+    // a dataset mid-authoring, opens as explore-only. ?screening=1 skips
+    // the front door so tools/screening.py can step the telling frame by
+    // frame from a clean start.)
+    if (scripted && new URLSearchParams(location.search).has('screening')) {
+      setRouteMode(map, 'ghost');
+      director.disarm();
+      story.showFirst();
+    } else if (scripted) {
+      restartStory();
+    } else {
+      setMode('explore');
+    }
 
     engine.requestRender();
 

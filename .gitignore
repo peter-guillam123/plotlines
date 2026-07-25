@@ -3,3 +3,6 @@
 
 # stray image candidates / scratch dropped at the repo root
 /t_*.jpg
+
+# screening-room output (tools/screening.py) - generated, never shipped
+/screenings/
