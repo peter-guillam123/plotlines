@@ -64,6 +64,14 @@ export function createTimeline(novel, paths) {
   }
   for (const b of novel.story || []) {
     if (b.day != null) tEnd = Math.max(tEnd, b.day);
+    else if ((b.kind === 'scene' || b.kind === 'handoff') && Number.isInteger(b.chapter)) {
+      // The third instance of this clamp class: a scene dated only by its
+      // CHAPTER can sit past the last journey too. Jane Eyre ends on
+      // "Reader, I married him" - chapter 38, ten story-years after the
+      // final movement - and the bar under it read chapter 37 until the
+      // screening room caught the contradiction. Same clamp, same cure.
+      tEnd = Math.max(tEnd, chapterDay(b.chapter) + 0.02);
+    }
   }
   tEnd += 2; // a breath at the end
 

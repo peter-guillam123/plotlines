@@ -66,9 +66,13 @@ export function createScrubber(container, novel, timeline, engine, {
 
   let scrubbing = false;
 
-  // Which chapter to name: the one whose journey is on the map right now
-  // (faithful on a chronological axis), falling back to the nearest by date.
+  // Which chapter to name. The telling's own beat wins (set via
+  // setBeatChapter — at a journey's arrival the day-derived chapter runs
+  // ahead of the beat's, and the bar must agree with the card). Fallback:
+  // the chapter whose journey is on the map, then the nearest by date.
+  let beatChapter = null;
   function currentChapter(t, positions) {
+    if (beatChapter) return beatChapter;
     if (positions) {
       let min = Infinity;
       for (const c of novel.characters) {
@@ -260,6 +264,11 @@ export function createScrubber(container, novel, timeline, engine, {
     // The odometer: distance travelled so far, ticking up as journeys play.
     setDistance(miles) {
       distanceEl.textContent = miles >= 0.5 ? milesTicker(miles) : '';
+    },
+    // The current beat's chapter (or null to fall back to the clock).
+    setBeatChapter(ch) {
+      beatChapter = ch;
+      updateHeading(timeline.state.t);
     },
   };
 }

@@ -198,6 +198,7 @@ ready
         emphasize: (id) => setRouteEmphasis(map, id),
         onProgress: (frac) => scrubber && scrubber.setStoryProgress(frac),
         onDistance: (miles) => scrubber && scrubber.setDistance(miles),
+        onBeatChapter: (ch) => scrubber && scrubber.setBeatChapter(ch),
         sound,
       });
     }
