@@ -405,11 +405,19 @@ ready
       engine.requestRender();
     });
 
-    // Mobile "back": end the journey and return to the top-level overture
-    // (the title pane and cast). Shown only during a mobile-landscape
-    // journey by CSS; harmless off touch devices.
+    // Mobile "back": return to the front door WITHOUT losing the reader's
+    // place — a back-shaped button gets tapped reflexively, and it used to
+    // restart the whole book. The card offers Resume first; the trails and
+    // the telling's position survive the trip. Shown only during a
+    // mobile-landscape journey by CSS; harmless off touch devices.
     document.getElementById('mobile-stop').addEventListener('click', () => {
-      enterStory({ restart: true });
+      cancelEstablish();
+      if (scripted) story.pause();
+      engine.pause();
+      director.disarm(); // the front door holds the camera
+      setRouteMode(map, 'full'); // the card frames the whole journey again
+      const resume = scripted && story.hasBegun();
+      if (!overture.show({ resume })) enterStory({ restart: true });
     });
     function updateRecentre() {
       recentre.hidden = director.isArmed() || mode === 'explore';

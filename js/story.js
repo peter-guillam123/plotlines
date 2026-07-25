@@ -428,6 +428,7 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     totalMiles,
     totalSpan,
     totalSeconds: totalDur, // the telling's expected runtime at 1×
+    hasBegun: () => idx >= 0,
     play,
     pause,
     toggle: () => (playing ? pause() : play()),
