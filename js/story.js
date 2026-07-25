@@ -439,6 +439,13 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     totalSeconds: totalDur, // the telling's expected runtime at 1×
     hasBegun: () => idx >= 0,
     currentBeat: () => (idx >= 0 ? beats[idx] : null),
+    beatIndex: () => idx, // for the screening rig's flight recorder
+    // Continuous progress through the telling, 0..1 in content time — the
+    // same number the scrubber shows. The timelapse rig paces its frames
+    // on this, not on wall/fake clocks, so its sampling is exact however
+    // the environment batches animation frames.
+    progressFraction: () =>
+      (idx < 0 ? 0 : Math.min((cumBefore[idx] + Math.min(elapsed, durs[idx])) / totalDur, 1)),
     // The shape of the telling, for the scrubber and the screening rig:
     // where each beat starts as a fraction of the whole, what to call it,
     // and (for journeys) the day-span its crossing covers, so a screening
