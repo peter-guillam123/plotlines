@@ -21,7 +21,6 @@ import { createScrubber } from './ui/scrubber.js';
 import { createCaptions } from './ui/captions.js';
 import { createCards } from './ui/cards.js';
 import { createPlaces } from './ui/places.js';
-import { createIntro } from './ui/intro.js';
 import { createLibrary } from './ui/library.js';
 import { createOverture } from './ui/overture.js';
 import { createLocationTile } from './ui/locationtile.js';
@@ -240,8 +239,9 @@ ready
       document.getElementById('locationtile'), novel, timeline
     );
 
-    // The overture: the whole story framed, the sweep in a sentence,
-    // the cast introduced in the map's own colours — then Start.
+    // The front door: the whole story framed, the book named, the sweep in
+    // a sentence, the cast introduced in the map's own colours — then Start
+    // or Explore. One card, one click to motion.
     const overture = createOverture(
       document.getElementById('overture'),
       map,
@@ -251,7 +251,19 @@ ready
         reducedMotion: () => engine.reducedMotion(),
         totalMiles: story ? story.totalMiles : 0,
         totalSpan: story ? story.totalSpan : null,
-        onStart: ({ play = true } = {}) => {
+        totalSeconds: story ? story.totalSeconds : 0,
+        onStart: ({ play = true, resume = false } = {}) => {
+          if (resume && scripted) {
+            // The reader's place survived the trip to the front door.
+            setRouteMode(map, 'ghost');
+            if (play) story.play();
+            else engine.requestRender();
+            return;
+          }
+          if (scripted) {
+            story.stop(); // "Start again" mid-book means from the beginning
+            resetTrailMemory();
+          }
           if (play) establishStart();
           else {
             director.arm();
@@ -259,6 +271,7 @@ ready
             engine.requestRender();
           }
         },
+        onExplore: () => setMode('explore'),
       }
     );
 
@@ -315,17 +328,6 @@ ready
       if (p) cancelEstablish();
     });
 
-    function beginStory() {
-      enterStory({ restart: true });
-    }
-
-    const intro = createIntro(
-      document.getElementById('intro'),
-      novel,
-      beginStory,
-      () => setMode('explore')
-    );
-
     // ---- modes ----
     // Story: legend, scrubber, captions, the director. Explore: the
     // gazetteer and place names, playback cleared away.
@@ -342,9 +344,8 @@ ready
       setCharacterMarkersVisible(map, !explore);
       masthead.setMode(mode);
       if (explore) {
-        // A modal front-door (title card or overture) must not linger over
-        // the gazetteer when you switch tabs.
-        intro.dismiss();
+        // The front door must not linger over the gazetteer when you
+        // switch tabs.
         overture.hide();
         cancelEstablish();
         if (scripted) story.pause();
@@ -376,7 +377,6 @@ ready
     }
 
     function restartStory() {
-      intro.dismiss(); // clicking Story from the title card replaces it with the overture
       cancelEstablish();
       if (scripted) {
         story.stop();
@@ -461,6 +461,11 @@ ready
         }
       }
     });
+
+    // Open on the front door: the book's card over the camera's pull-out.
+    // (A book without an overture — none on the shelf today — falls
+    // straight into the establishing shot.)
+    restartStory();
 
     engine.requestRender();
 
