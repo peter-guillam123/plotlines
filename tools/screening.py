@@ -169,7 +169,18 @@ def main():
                 if (pos) {
                   out.retired = !!pos.retired;
                   const pt = map.project(pos.lngLat);
-                  out.fx = pt.x; out.fy = pt.y;
+                  // The map repeats east-west, and MapLibre projects into the
+                  // primary copy of the world - so on a Pacific crossing it
+                  // reports a marker at x = -1941 that the reader can see
+                  // perfectly well on the wrapped copy at x = 1229. Shift by
+                  // whole world-widths to whichever copy is actually on
+                  // screen before judging anything.
+                  const worldPx = 512 * Math.pow(2, map.getZoom());
+                  const mid = map.getContainer().clientWidth / 2;
+                  let x = pt.x;
+                  while (Math.abs(x + worldPx - mid) < Math.abs(x - mid)) x += worldPx;
+                  while (Math.abs(x - worldPx - mid) < Math.abs(x - mid)) x -= worldPx;
+                  out.fx = x; out.fy = pt.y;
                 }
               }
               const n = document.querySelector('.story-narration');

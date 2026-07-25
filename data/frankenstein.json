@@ -849,7 +849,8 @@
       "from": "ingolstadt",
       "to": "delacey-cottage",
       "chapter": 12,
-      "days": 30,
+      "startDay": 240,
+      "days": 60,
       "mode": "foot",
       "via": [
         {
@@ -901,7 +902,8 @@
       "from": "delacey-cottage",
       "to": "plainpalais",
       "chapter": 17,
-      "days": 40,
+      "startDay": 350,
+      "days": 45,
       "mode": "foot",
       "via": [
         {
@@ -954,6 +956,7 @@
       "from": "plainpalais",
       "to": "montanvert",
       "chapter": 11,
+      "startDay": 415,
       "days": 30,
       "mode": "foot",
       "via": [
@@ -1307,6 +1310,7 @@
       "from": "orkney-island",
       "to": "ireland-town",
       "chapter": 21,
+      "startDay": 644,
       "days": 3,
       "mode": "ship",
       "via": [
@@ -1705,6 +1709,7 @@
       "from": "evian",
       "to": "arctic-coast",
       "chapter": 25,
+      "startDay": 760,
       "days": 202,
       "mode": "sledge",
       "via": [
@@ -1869,9 +1874,9 @@
       "narration": "He climbs alone to the great glacier above the valley. There, bounding across the crevasses with a speed no man could match, the creature comes down to meet its maker face to face - and demands, at last, to be heard."
     },
     {
-      "kind": "handoff",
+      "kind": "meanwhile",
       "character": "creature",
-      "at": "montanvert",
+      "at": "ingolstadt",
       "chapter": 12,
       "title": "The creature speaks",
       "narration": "Now the maker must listen. The creature tells its own story - of waking alone at Ingolstadt, abandoned by the man who made it, knowing nothing, wanted by no one, driven out into the German countryside to learn cold and hunger for itself."
@@ -2059,6 +2064,7 @@
       "character": "victor",
       "at": "orkney-island",
       "chapter": 21,
+      "day": 643,
       "title": "The female destroyed",
       "narration": "Half-finished, he thinks what a race of such beings might loose upon the world - and looks up to see the creature grinning at the window. In a passion he tears the female apart. It vanishes, vowing: 'I shall be with you on your wedding-night.'"
     },
@@ -2140,6 +2146,7 @@
       "character": "victor",
       "at": "evian",
       "chapter": 24,
+      "day": 731.5,
       "title": "The wedding night",
       "narration": "At the inn he sends Elizabeth ahead and paces the halls, listening. Too late he understands whom the vow was for: a scream from the room he has left her in, and she lies dead across the bed, the creature grinning through the open window."
     },

@@ -25,7 +25,23 @@ export function createTimeline(novel, paths) {
   let tEnd = 0;
   for (const c of novel.characters) {
     const legs = schedule[c.id];
-    legs.sort((a, b) => a.movement.chapter - b.movement.chapter);
+    // A character's legs run in the order they HAPPENED, which is usually the
+    // order they are told in - but not always. Frankenstein's creature
+    // narrates his own history in flashback, so his walk out of Ingolstadt is
+    // chapter 12 and his climb to Montanvert chapter 11, and chapter order
+    // alone marched him away from a mountain he had not yet reached.
+    //
+    // So: when EVERY leg of a chain carries an explicit `startDay`, the
+    // dataset is stating the chronology outright and it decides the order.
+    // A chain that only dates some of its legs keeps chapter order, because
+    // mixing the two is how you get a leg dated 0.4 sorted after one that
+    // fell back to its chapter's day of 0 - which silently reversed the
+    // opening of Eighty Days and stranded Lost World's party up a river
+    // before they had boarded the boat.
+    const dated = legs.length > 0 && legs.every((e) => e.movement.startDay != null);
+    legs.sort((a, b) => (dated
+      ? a.movement.startDay - b.movement.startDay
+      : a.movement.chapter - b.movement.chapter));
     let cursor = c.start ? chapterDay(c.start.chapter) : 0;
     tStart = Math.min(tStart, cursor);
     for (const e of legs) {

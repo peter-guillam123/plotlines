@@ -14,6 +14,7 @@
 
 import { CERTAINTY } from './constants.js';
 import { compactViewport } from './viewport.js';
+import { boundsOf } from './geometry.js';
 
 const ENSEMBLE_MAX_ZOOM = 10.5;
 const FOLLOW_MAX_ZOOM = 13.5;
@@ -127,7 +128,10 @@ export function createDirector(map, timeline, novel, paths) {
     }
     if (!bounds.length) return null;
 
-    const cam = map.cameraForBounds(bounds, { padding: padding(), maxZoom });
+    // Re-derive through boundsOf so a leg crossing the antimeridian is framed
+    // the short way round (see js/geometry.js); the running min/max above is
+    // fine for everything else and cheaper per frame.
+    const cam = map.cameraForBounds(boundsOf(bounds), { padding: padding(), maxZoom });
     // Floor of 0 (not 3) so a near-global leg — David Copperfield's
     // emigration to Australia — can actually zoom out far enough to hold
     // both England and the ship in frame. Ordinary journeys fit well above

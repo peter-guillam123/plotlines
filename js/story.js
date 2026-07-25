@@ -28,6 +28,7 @@ import {
   READ_BASE_SECONDS, READ_PER_WORD_SECONDS, BEAT_MIN_SECONDS,
 } from './constants.js';
 import { compactViewport } from './viewport.js';
+import { boundsOf } from './geometry.js';
 import { storyTime, roman, kmToMiles, humanDuration } from './ui/format.js';
 
 // Camera timings, in *content* seconds (so at 1× they line up exactly with
@@ -187,16 +188,8 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
   function nodeOffset() {
     return compact() ? [78, -44] : [150, -90];
   }
-  function boundsFrom(coords) {
-    const b = [[180, 90], [-180, -90]];
-    for (const [lng, lat] of coords) {
-      b[0][0] = Math.min(b[0][0], lng); b[0][1] = Math.min(b[0][1], lat);
-      b[1][0] = Math.max(b[1][0], lng); b[1][1] = Math.max(b[1][1], lat);
-    }
-    return b;
-  }
   function camForBounds(coords) {
-    return map.cameraForBounds(boundsFrom(coords), { padding: camPad(), maxZoom: 13 });
+    return map.cameraForBounds(boundsOf(coords), { padding: camPad(), maxZoom: 13 });
   }
   // `offset` (pixels) seats a single node in the visible rectangle; `linear`
   // is for the opening living push-in, which wants a constant, unhurried

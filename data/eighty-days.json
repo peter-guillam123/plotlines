@@ -923,6 +923,7 @@
       "from": "reform-club",
       "to": "charing-cross",
       "chapter": 4,
+      "startDay": 0.4,
       "mode": "coach",
       "note": "Out of the Reform Club at twenty-five past seven, by cab to the station"
     },
@@ -1919,6 +1920,7 @@
       "from": "liverpool",
       "to": "london-return",
       "chapter": 34,
+      "startDay": 83.5,
       "days": 1,
       "mode": "train",
       "via": [
@@ -2090,6 +2092,7 @@
       "character": "fogg",
       "at": "calcutta",
       "chapter": 16,
+      "day": 26,
       "title": "The magistrate",
       "narration": "In Calcutta the party is haled before a magistrate - Fix's doing, the Bombay pagoda his pretext. Fogg forfeits two thousand pounds in bail without a flicker and walks free, reaching the Hong Kong steamer with only minutes to spare."
     },
@@ -2336,6 +2339,7 @@
       "character": "fogg",
       "at": "liverpool",
       "chapter": 34,
+      "day": 83.2,
       "title": "Arrested",
       "narration": "Ashore at Liverpool at twenty to noon on the 21st, six hours from London and seemingly the winner - and there Fix, his warrant come at last, arrests him. The hours lost in the Custom House look to have ruined everything."
     },
@@ -2357,6 +2361,7 @@
       "character": "fogg",
       "at": "london-return",
       "chapter": 37,
+      "day": 85,
       "title": "The day at the meridian",
       "narration": "Then Passepartout learns the truth: travelling always eastward, they had crossed the date line and gained a day. It is not Sunday but Saturday. Fogg races to the Reform Club, arrives with seconds to spare, wins - and marries Aouda."
     }

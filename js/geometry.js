@@ -6,6 +6,34 @@ const R = 6371; // km
 const rad = (d) => (d * Math.PI) / 180;
 const deg = (r) => (r * 180) / Math.PI;
 
+// The bounding box of a set of [lng, lat] points, honest about the
+// antimeridian. Taken naively, a Pacific crossing runs from about 139°E to
+// 122°W, and min/max makes that a box 345° wide - the whole globe, the wrong
+// way round - so a camera fitted to it zooms out to nothing and leaves the
+// traveller off screen. (The route itself draws correctly: the `via` points
+// step across 180 and the arc densifier follows them. It was only ever the
+// framing that lied, which is why the shelf carried the bug for as long as it
+// did.) Where the wrapped span is the shorter one, longitudes east of the
+// line keep going past 180 instead of jumping to negative - MapLibre accepts
+// that and normalises it.
+export function boundsOf(coords) {
+  if (!coords.length) return null;
+  let W = 180, E = -180, S = 90, N = -90;
+  let wW = Infinity, wE = -Infinity; // the same, unwrapped across 180
+  for (const [lng, lat] of coords) {
+    W = Math.min(W, lng); E = Math.max(E, lng);
+    S = Math.min(S, lat); N = Math.max(N, lat);
+    const u = lng < 0 ? lng + 360 : lng;
+    wW = Math.min(wW, u); wE = Math.max(wE, u);
+  }
+  // Only a naive box wider than half the globe indicates a wrap. Comparing
+  // the two spans directly looks tidier and is wrong: London to New York
+  // measures the same either way, and floating point then picks the unwrapped
+  // one, quietly sending every Atlantic crossing round the back of the world.
+  const wrapped = (E - W) > 180 && (wE - wW) < (E - W);
+  return wrapped ? [[wW, S], [wE, N]] : [[W, S], [E, N]];
+}
+
 export function haversineKm(a, b) {
   const dLat = rad(b[1] - a[1]);
   const dLng = rad(b[0] - a[0]);

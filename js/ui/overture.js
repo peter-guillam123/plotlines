@@ -12,6 +12,7 @@
 
 import { CHARACTER_COLOURS } from '../constants.js';
 import { compactViewport } from '../viewport.js';
+import { boundsOf } from '../geometry.js';
 import { characterInitial, milesAndTime } from './format.js';
 
 export function createOverture(container, map, novel, paths, {
@@ -22,23 +23,9 @@ export function createOverture(container, map, novel, paths, {
   // emigration to Australia) doesn't zoom the opening out to the whole
   // globe; those distances reveal themselves dramatically when they play.
   // Falls back to the full route extent if no mapHome is declared.
-  let bounds;
-  if (novel.mapHome && novel.mapHome.bounds) {
-    bounds = novel.mapHome.bounds.map((p) => [...p]);
-  } else {
-    bounds = [];
-    for (const { path } of paths) {
-      for (const [lng, lat] of path.coords) {
-        if (!bounds.length) bounds.push([lng, lat], [lng, lat]);
-        else {
-          bounds[0][0] = Math.min(bounds[0][0], lng);
-          bounds[0][1] = Math.min(bounds[0][1], lat);
-          bounds[1][0] = Math.max(bounds[1][0], lng);
-          bounds[1][1] = Math.max(bounds[1][1], lat);
-        }
-      }
-    }
-  }
+  const bounds = novel.mapHome?.bounds
+    ? novel.mapHome.bounds.map((p) => [...p])
+    : boundsOf(paths.flatMap(({ path }) => path.coords));
 
   // "About N minutes" — the one expectation every player sets and this one
   // never did. Rounded honestly; the speed control makes it elastic anyway.

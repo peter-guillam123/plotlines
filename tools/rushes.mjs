@@ -57,7 +57,14 @@ const km = (a, b) => {
 };
 const viaAt = (v) => (Array.isArray(v) ? v : v.at);
 for (const c of Object.keys(byChar)) {
-  const list = byChar[c].sort((a, b) => a.chapter - b.chapter);
+  // Same ordering rule as js/timeline.js: a chain whose every leg is dated
+  // states its own chronology and is ordered by it (the flashback case); a
+  // partly-dated chain keeps chapter order.
+  const all = byChar[c];
+  const dated = all.length > 0 && all.every((m) => m.startDay != null);
+  const list = all.sort((a, b) => (dated
+    ? a.startDay - b.startDay
+    : a.chapter - b.chapter));
   const start = novel.characters.find((x) => x.id === c)?.start;
   let cursor = start ? chapterDay(start.chapter) : 0;
   for (const m of list) {
