@@ -80,6 +80,20 @@ def main():
         total = page.evaluate("() => window.plotlines.story.totalSeconds")
         page.evaluate("() => window.plotlines.story.play()")
 
+        # Chase an exact target on the story's own progress clock, in fine
+        # steps, so each screenshot lands where intended.
+        #
+        # A measured note for anyone tempted to make this cheap enough to
+        # sweep the whole shelf: it isn't, and the obvious economy backfires.
+        # Advancing the fake clock costs ~4.3s of REAL time per second of
+        # story, because every faked animation frame is a full software-WebGL
+        # map render - about 27 minutes for a 6-minute book. Dropping the
+        # screenshots ("recorder only") makes it *slower*, not faster: taking
+        # a screenshot lets real time leak in and carries the story along, so
+        # the frames were doing useful work all along. This tool is therefore
+        # a per-book instrument - a film, and one book's flight recording -
+        # and the shelf-wide sweep belongs to the cheap per-beat pass in
+        # tools/screening.py, which never runs the animation at all.
         n = 0
         while n < MAX_FRAMES:
             target = min((n + 1) * args.slice, total - 0.05)

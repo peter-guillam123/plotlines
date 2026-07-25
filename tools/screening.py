@@ -32,6 +32,20 @@ import threading
 from html import escape
 from pathlib import Path
 
+ROMAN = [(1000, "M"), (900, "CM"), (500, "D"), (400, "CD"), (100, "C"),
+         (90, "XC"), (50, "L"), (40, "XL"), (10, "X"), (9, "IX"),
+         (5, "V"), (4, "IV"), (1, "I")]
+
+
+def roman(n):
+    """Chapter numerals, matching js/ui/format.js."""
+    out = ""
+    for value, letters in ROMAN:
+        while n >= value:
+            out += letters
+            n -= value
+    return out
+
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -65,6 +79,9 @@ def main():
     ap.add_argument("--base", choices=["real", "blank"], default="real",
                     help="blank skips the tile host (CI-friendly)")
     ap.add_argument("--out", default=None, help="output directory")
+    ap.add_argument("--checks-only", action="store_true",
+                    help="run the mechanical per-beat checks and print "
+                         "findings; no stills, no sheet - the shelf sweep")
     args = ap.parse_args()
 
     out = Path(args.out) if args.out else ROOT / "screenings" / (
@@ -117,6 +134,7 @@ def main():
               f"({'phone' if args.phone else 'desktop'}, {args.base} base)")
 
         sheet = []
+        checks = []
         for b in beats:
             i = b["i"]
             # showFirst() for the first beat, then paused steps.
@@ -124,19 +142,78 @@ def main():
                 page.evaluate("() => window.plotlines.story.showFirst()")
             else:
                 page.evaluate("() => window.plotlines.story.step(1)")
-            wait_tiles(page)
-            # Raster tiles (the NLS overlay) fade in over ~300ms after they
-            # count as "loaded"; a shorter settle shot five half-painted
-            # frames on this rig's first outing.
-            page.wait_for_timeout(700)
+            if not args.checks_only:
+                wait_tiles(page)
+                # Raster tiles (the NLS overlay) fade in over ~300ms after
+                # they count as "loaded"; a shorter settle shot five
+                # half-painted frames on this rig's first outing.
+                page.wait_for_timeout(700)
             card = page.evaluate("""() => ({
               kicker: document.querySelector('.story-clock')?.textContent || '',
               title: document.querySelector('.story-title')?.textContent || '',
               narration: document.querySelector('.story-narration')?.textContent || '',
+              barChapter: document.querySelector('.chapter-numeral')?.textContent || '',
             })""")
+
+            # The mechanical half of the rubric: what geometry alone can
+            # settle, with no vision and no animation. Cheap enough to sweep
+            # the whole shelf, so these run on every screening.
+            geo = page.evaluate("""() => {
+              const { map, timeline, story, novel } = window.plotlines;
+              const beat = story.currentBeat();
+              const focus = beat &&
+                (Array.isArray(beat.character) ? beat.character[0] : beat.character);
+              const out = { zoom: map.getZoom(), fx: null, fy: null, retired: false };
+              if (focus) {
+                const pos = timeline.positionsAt(timeline.state.t)[focus];
+                if (pos) {
+                  out.retired = !!pos.retired;
+                  const pt = map.project(pos.lngLat);
+                  out.fx = pt.x; out.fy = pt.y;
+                }
+              }
+              const n = document.querySelector('.story-narration');
+              out.clipped = n ? n.scrollHeight > n.clientHeight + 2 : false;
+              return out;
+            }""")
+            w, h = (844, 390) if args.phone else (1280, 800)
+            # The rectangle a reader actually sees the map in: clear of the
+            # left rail, the story card and the transport bar.
+            rail = 0 if args.phone else 262
+            floor = h - (150 if args.phone else 300)
+            tag = f"beat {i + 1} ({b['kind']}{': ' + b['title'] if b['title'] else ''})"
+            leg = b["kind"] in ("journey", "removal")
+            # Two compositions this still deliberately does not show, so
+            # neither is judged here (both verified against the live player):
+            #  - a LEG's settled still holds the route framing with the peg
+            #    just arrived; the arrival push-in that lifts it clear of the
+            #    card is motion (measured: y 500 -> 212 on Kidnapped 16).
+            #  - a placeless HANDOFF or MEANWHILE holds the previous frame on
+            #    purpose, so its focus character is legitimately elsewhere.
+            holds = b["kind"] in ("handoff", "meanwhile") and not b["at"]
+            if geo["fx"] is not None and not geo["retired"] and not holds:
+                if not (0 <= geo["fx"] <= w and 0 <= geo["fy"] <= h):
+                    checks.append(f"FIX  {tag}: the focus character is off-screen")
+                elif not leg and (geo["fx"] < rail or geo["fy"] > floor):
+                    checks.append(f"QUERY {tag}: the focus character sits under the "
+                                  f"{'rail' if geo['fx'] < rail else 'card/transport bar'}")
+            if geo["clipped"]:
+                checks.append(f"FIX  {tag}: the narration is clipped in its card")
+            # The card and the bar must name the same chapter (the seam that
+            # went unnoticed until the screening room's first outing).
+            if b["chapter"] and card["barChapter"]:
+                want = roman(b["chapter"])
+                got = card["barChapter"].replace("Chapter", "").strip()
+                if got and got != want:
+                    checks.append(f"FIX  {tag}: the bar says chapter {got}, the card {want}")
+
+            entry = {**b, "card": card, "geo": geo}
+            if args.checks_only:
+                sheet.append(entry)
+                continue
             frame = f"beat-{i + 1:03d}.png"
             page.screenshot(path=str(out / frame))
-            entry = {**b, "frame": frame, "card": card}
+            entry["frame"] = frame
 
             # A journey's paused step seats the peg at the leg's END; the
             # mid-crossing composition is a different picture and lies
@@ -159,9 +236,22 @@ def main():
         browser.close()
     httpd.shutdown()
 
+    if args.checks_only:
+        for c in checks:
+            print(f"  {c}")
+        if not checks:
+            print("  clean")
+        if errors:
+            print("  PAGE ERRORS:", *errors, sep="\n    ")
+        sys.exit(1 if (errors or any(c.startswith("FIX") for c in checks)) else 0)
+
     (out / "sheet.json").write_text(json.dumps(
         {"title": meta["title"], "slug": args.slug, "phone": args.phone,
-         "beats": sheet}, indent=1))
+         "beats": sheet, "checks": checks}, indent=1))
+    if checks:
+        print("mechanical checks:")
+        for c in checks:
+            print(f"  {c}")
 
     # ---- the contact sheet ----
     cells = []
