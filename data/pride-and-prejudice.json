@@ -2212,6 +2212,7 @@
       "to": "lambton",
       "chapter": 45,
       "title": "The happiest days",
+      "presenceOk": { "jane": "Two letters arrive FROM Jane at Longbourn - the line depends on her being elsewhere." },
       "narration": "Back to the inn again, lighter than she has been in months. She half-admits to herself what she once thought impossible - that she could, in time, have loved him. And then, next morning, two letters from Jane arrive at once."
     },
     {
@@ -2277,6 +2278,7 @@
       "to": "darcy-london",
       "chapter": 47,
       "title": "The secret hunt",
+      "presenceOk": { "elizabeth": "Darcy acts for Elizabeth's sake in London; she is at Longbourn and knows nothing of it." },
       "narration": "Darcy has followed the runaways to town a day behind them. He runs Mrs Younge to ground and finds Wickham - and resolves, for Elizabeth's sake and telling no one, to put right the ruin he blames himself for having let happen."
     },
     {
@@ -2295,6 +2297,7 @@
       "to": "darcy-london",
       "chapter": 51,
       "title": "The debt paid",
+      "presenceOk": { "elizabeth": "What Elizabeth will only learn much later - she is not there, and that is the point." },
       "narration": "The business done and the Gardiners sworn to keep his name out of it, he goes back across town - telling no one what Elizabeth will only learn, much later, by accident."
     },
     {
@@ -2373,6 +2376,7 @@
       "to": "darcy-london",
       "chapter": 57,
       "title": "She carries it to Darcy",
+      "presenceOk": { "elizabeth": "Lady Catherine recounts Elizabeth's defiance to Darcy in town; Elizabeth is at Longbourn." },
       "narration": "Too angry to let it lie, she wheels the carriage round and drives straight to her nephew in town, meaning to have him forbid the match himself. She recounts every word of Elizabeth's defiance - and, without meaning to, tells Darcy the one thing he needed to hear: that Elizabeth would not disavow him."
     },
     {
@@ -2382,6 +2386,7 @@
       "to": "hunsford",
       "chapter": 57,
       "title": "Home to Kent, beaten",
+      "presenceOk": { "elizabeth": "A look ahead to Elizabeth as mistress of Pemberley; she is at Longbourn now." },
       "narration": "Beaten at both houses, she drives back down her own Kent road to Rosings. It is the last of her interference and the making of the match. The storm she carries home will send the Collinses bolting from the parsonage; and when at last she condescends to call at Pemberley, Elizabeth will be its mistress."
     },
     {
@@ -2400,6 +2405,7 @@
       "to": "longbourn",
       "chapter": 58,
       "title": "The second proposal",
+      "presenceOk": { "lydia": "Named for what Darcy did for her; Lydia is away at Newcastle." },
       "narration": "It is the last three miles of the whole map. Darcy walks over towards Lucas Lodge, and Elizabeth - who now knows what he did for Lydia - thanks him for it. He asks again; and this time, field and parsonage and great house behind them both, the answer is yes."
     },
     {

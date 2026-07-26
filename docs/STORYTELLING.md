@@ -173,6 +173,16 @@ A script is never shipped on the first draft:
      [data/<slug>.json]` lists candidates — every beat that names a character
      whose marker is elsewhere — but it can't tell a real assertion from a mere
      mention, so judge each; most candidates are innocent.
+
+     Once you have judged one innocent, **say so in the beat** so the next
+     reader doesn't judge it again: `"presenceOk": { "<characterId>": "why
+     this is a mention, not a claim" }`. It costs a written reason, like
+     every other opt-out in the project, and the acknowledged ones are still
+     counted at the foot of the report rather than disappearing — a
+     suppression nobody can see would repeat the very failure the STRANDED
+     mark exists to prevent. Acknowledging the plainly-innocent is what
+     makes the remainder worth reading: it took one shelf-wide pass from 245
+     candidates to 143, and the stranded list from 31 to 3.
      **Read the ones marked `[STRANDED]` first.** Those name a character who has
      already made their last move, so the map will hold them on that spot to the
      last page — and the innocent explanations ("he's only mentioned", "he moves

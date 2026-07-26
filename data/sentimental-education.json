@@ -898,6 +898,7 @@
       "to": "arnoux-choiseul",
       "character": "frederic",
       "title": "the auction",
+      "presenceOk": { "jacques-arnoux": "His furniture is sold at auction; Arnoux has fled and is pointedly not there." },
       "narration": "The ruined Arnoux’s furniture is sold at auction, and Madame Dambreuse, out of pure spite, buys the little silver casket that was always Madame Arnoux’s. Frédéric, sickened, breaks with her on the spot - and throws the rich marriage away for a keepsake.",
       "quote": {
         "text": "The crier had opened a piano—her piano!",

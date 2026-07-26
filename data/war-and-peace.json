@@ -275,6 +275,7 @@
     { "kind": "meanwhile",
       "narration": "And the Rostóvs, fleeing the doomed city, carry out of it - without knowing it - the dying man among the wounded." },
     { "kind": "journey", "character": "natasha", "from": "moscow", "to": "yaroslavl", "chapter": 12, "title": "The flight from Moscow",
+      "presenceOk": { "nikolai": "The Rostov convoy is named, not Nikolai himself, who is away at Voronezh." },
       "narration": "Natasha has the family's loaded carts emptied of their treasure to carry wounded soldiers instead - and so the Rostóv convoy pulls north for Yaroslávl, bearing among the wounded a man in a fever she does not at first recognise." },
     { "kind": "meanwhile",
       "narration": "And the wounded man was carried along that same northward road." },

@@ -104,14 +104,36 @@ function scheduler(novel) {
   };
 }
 
-// name tokens to look for in narration: distinctive words of each character's
-// name (drop short/title words), plus the id.
+// Words that name a rank rather than a person. A token like "Prince" or
+// "King" identifies nobody on a shelf that has more than one of them, and
+// matching on it read "Prince John comes north" as a sighting of Prince Hal.
+const TITLES = /^(the|mr|mrs|miss|ms|dr|doctor|lord|lady|sir|dame|von|de|du|la|le|of|old|young|king|queen|prince|princess|duke|duchess|earl|count|countess|baron|captain|colonel|major|general|professor|father|madame|madam|monsieur|mademoiselle|signor|don|dona|saint)$/i;
+
+// Name tokens to look for in narration: the distinctive words of a
+// character's name, plus their id.
 function nameTokens(c) {
   const toks = new Set();
   for (const w of String(c.name || '').split(/[\s'-]+/)) {
-    if (w.length > 2 && !/^(the|mr|mrs|miss|dr|lord|lady|sir|von|de|of|old|young)$/i.test(w)) toks.add(w);
+    if (w.length > 2 && !TITLES.test(w)) toks.add(w);
   }
   return [...toks];
+}
+
+// ...and then drop any token two characters share, because it cannot tell
+// them apart. A shelf full of Bennets flagged every mention of "the Bennet
+// sisters" against each sister in turn; an Elliot in Persuasion could be Anne
+// or her father. What survives is the word that names one person and no one
+// else - and a character left with nothing distinctive is matched on their id
+// alone, which narration never contains, so they simply stop being guessed at.
+function distinctiveTokens(characters) {
+  const counts = new Map();
+  const raw = characters.map((c) => nameTokens(c));
+  for (const toks of raw) {
+    for (const t of new Set(toks.map((x) => x.toLowerCase()))) {
+      counts.set(t, (counts.get(t) || 0) + 1);
+    }
+  }
+  return raw.map((toks) => toks.filter((t) => counts.get(t.toLowerCase()) === 1));
 }
 
 function beatPlace(b) {
@@ -124,7 +146,8 @@ function checkBook(file) {
   const novel = JSON.parse(readFileSync(join(root, file), 'utf8'));
   if (!Array.isArray(novel.story) || !novel.story.length) return { file, flags: [] };
   const sch = scheduler(novel);
-  const tokensByChar = novel.characters.map((c) => ({ id: c.id, name: c.name, toks: nameTokens(c), exit: c.exit }));
+  const distinct = distinctiveTokens(novel.characters);
+  const tokensByChar = novel.characters.map((c, i) => ({ id: c.id, name: c.name, toks: distinct[i], exit: c.exit }));
   const flags = [];
 
   novel.story.forEach((b, i) => {
@@ -149,7 +172,16 @@ function checkBook(file) {
       if (!at) {
         const wLabel = w.resting ? `resting at ${w.resting}` : `moving ${w.moving.from}->${w.moving.to}`;
         const stranded = Boolean(w.resting) && sch.settled(id, day);
-        flags.push({ beat: i + 1, title: b.title || b.kind, place, day, who: name, where: wLabel, stranded });
+        // A beat may acknowledge a name the tool will always find and a
+        // reader has already judged innocent - a character mentioned rather
+        // than placed ("Levin's half-brother", "Jude's son by Arabella").
+        // It costs a written reason, like every other opt-out here, and the
+        // acknowledged ones are still counted at the foot rather than
+        // vanishing: a list nobody reads is how Esther Summerson stood in a
+        // graveyard for ten chapters, and a suppression nobody can see would
+        // be the same mistake with better manners.
+        const okNote = b.presenceOk && b.presenceOk[id];
+        flags.push({ beat: i + 1, title: b.title || b.kind, place, day, who: name, where: wLabel, stranded, ok: okNote || null });
       }
     }
   });
@@ -162,8 +194,11 @@ const files = arg ? [arg.startsWith('data/') ? arg : `data/${arg}`]
 
 let total = 0;
 let stranded = 0;
+let acknowledged = 0;
 for (const f of files) {
-  const { file, flags } = checkBook(f);
+  const { file, flags: all } = checkBook(f);
+  const flags = all.filter((fl) => !fl.ok);
+  acknowledged += all.length - flags.length;
   if (flags.length) {
     console.log(`\n${file}  — ${flags.length} candidate(s):`);
     // The stranded ones first: they are the likeliest to be real, and in a list
@@ -179,10 +214,13 @@ for (const f of files) {
     stranded += flags.filter((fl) => fl.stranded).length;
   }
 }
+const ack = acknowledged
+  ? `\n${acknowledged} already judged and acknowledged in the data (presenceOk, each with a written reason) - not listed above, but still here.`
+  : '';
 if (!total) {
-  console.log(`\nno presence candidates across ${files.length} book(s).`);
+  console.log(`\nno presence candidates across ${files.length} book(s).${ack}`);
 } else {
-  console.log(`\n${total} candidate(s) across ${files.length} book(s) - judge each: does the line assert the named character is present?`);
+  console.log(`\n${total} candidate(s) across ${files.length} book(s) - judge each: does the line assert the named character is present?${ack}`);
   if (stranded) {
     console.log(`\n${stranded} marked STRANDED: the named character has made their last move, so the map will hold them on that spot to the last page. Most candidates here are innocent mentions; a stranded one often isn't, so read those first. The usual fix is the missing journey (docs/ADDING-A-NOVEL.md), NOT an exit - an exit claims the book lost sight of them, and a book that names them somewhere else plainly has not.`);
   }

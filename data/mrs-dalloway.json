@@ -839,6 +839,7 @@
       "character": "richard",
       "at": "brook-street",
       "chapter": 4,
+      "presenceOk": { "clarissa": "Peter resolves to go and tell her he loves her - she is at home, where the map has her." },
       "narration": "Over the meal he resolves, for once, to go straight home and tell Clarissa that he loves her - a thing it is 'a thousand pities' never to say. He leaves determined to say it plainly.",
       "day": 0.565
     },
@@ -942,6 +943,7 @@
       "character": "peter",
       "at": "bloomsbury",
       "chapter": 7,
+      "presenceOk": { "clarissa": "Peter turns her over in his mind at his hotel; she is at home, where the map has her." },
       "narration": "At his hotel he dines alone, turning Clarissa over in his mind, and at last takes up his hat to go to her party - half in dread, half in longing, after all these years.",
       "day": 0.85
     },

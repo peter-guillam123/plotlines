@@ -1587,6 +1587,7 @@
         "daisy"
       ],
       "title": "the drive to town",
+      "presenceOk": { "myrtle": "She is at the garage in the valley of ashes, exactly where the map has her; the beat is the party passing through." },
       "narration": "On the hottest day of the year they gather at East Egg and drive to the city - Gatsby and Daisy in Tom’s coupe, Tom charging ahead in Gatsby’s yellow car, a petrol stop at Wilson’s garage where Myrtle, watching from a window, takes the woman in the car for Tom’s wife."
     },
     {
@@ -1612,6 +1613,7 @@
         "daisy"
       ],
       "title": "the death car",
+      "presenceOk": { "myrtle": "Named in the valley of ashes, which is where the map has her; the beat is the return to East Egg." },
       "narration": "Daisy drives to calm herself. In the dusk of the valley of ashes Myrtle, who has broken free of the room George locked her in, runs out into the road toward the yellow car she thinks is Tom’s - and the car strikes her and does not stop. Gatsby resolves at once to take the blame.",
       "quote": {
         "text": "Was Daisy driving?” “Yes,” he said after a moment, “but of course I’ll say I was.",
