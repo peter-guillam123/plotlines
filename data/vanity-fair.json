@@ -390,9 +390,13 @@
       "from": "boulogne",
       "to": "pumpernickel",
       "chapter": 12,
-      "mode": "unknown",
+      "mode": "coach",
       "startDay": 4600.0,
       "days": 30.0,
+      "via": [[1.836,50.105],{"at":[1.078,49.924],"name":"Dieppe"},[1.0993,49.4432],{"at":[-0.3707,49.1829],"name":"Caen"},{"at":[0.6848,47.3941],"name":"Tours"},{"at":[2.3522,48.8566],"name":"Paris"},{"at":[7.7521,48.5734],"name":"Strasburg","note":"the hissed opera debut, 1830"},{"at":[8.24,48.7606],"name":"Baden-Baden","note":"the play-table years"},[7.5886,47.5596],{"at":[6.6323,46.5197],"name":"Lausanne"},{"at":[8.027,46.25],"name":"the Simplon"},[9.19,45.4642],[11.3426,44.4949],{"at":[11.2558,43.7696],"name":"Florence"},[11.33,43.3188],{"at":[12.4823,41.9058],"name":"Rome","note":"where Steyne's man frightens her off"},[12.39,43.11],[11.2558,43.7696],[10.99,45.44],{"at":[11.51,47],"name":"the Brenner"},{"at":[11.58,48.14],"name":"Munich","note":"ordered out of it"},[11.08,49.45],[11.59,50.93]],
+      "routeNote": "The drift itself, and the longest line in the book: two thousand miles of running away, drawn as Thackeray names it rather than as a chord.",
+      "routeSource": "Thackeray names the stations himself in ch. 64, 'A Vagabond Chapter': Boulogne to Dieppe to Caen to Tours, then Paris, Strasburg (1830), Baden, Wildbad, Lausanne, Florence, Munich, and Rome, which she reaches 'in the diligence from Florence' and leaves under Lord Steyne's threat. Connective points are the post roads between. St Petersburg, Toplitz and Vienna are left out on purpose: the narrator raises them only to say there 'cannot be any possibility of truth in the report'.",
+      "routeCertainty": "novel",
       "note": "Then the long downward drift - Dieppe, the German spa towns, cards and shabby lodgings and worse - sinking year by year, until she washes up in the little court of Pumpernickel"
     },
     {
@@ -416,25 +420,58 @@
       "routeCertainty": "documented"
     },
     {
-      "character": [
-        "amelia",
-        "george"
-      ],
-      "from": "brighton",
-      "to": "ostend",
-      "chapter": 6,
-      "mode": "ship",
-      "startDay": 738.0,
-      "days": 0.6,
-      "via": [
-        { "at": [0.6, 50.75], "name": "the Channel" },
-        { "at": [1.9, 51.15], "name": "off the Flemish coast" }
-      ],
-      "note": "The regiment for the Continent: the whole party takes the packet across to Ostend, Jos blustering about the coming campaign, the war a rumour and an excitement not yet a horror",
-      "routeNote": "By packet across the Channel to Ostend.",
-      "routeSource": "The Ostend packet (the heroines cross by Ramsgate; the transports down the river).",
-      "routeCertainty": "documented"
-    },
+        "character": [
+          "amelia",
+          "george"
+        ],
+        "from": "brighton",
+        "to": "ostend",
+        "chapter": 6,
+        "mode": "coach",
+        "startDay": 738,
+        "days": 0.6,
+        "via": [
+          {
+            "at": [
+              -0.09,
+              51.508
+            ],
+            "name": "London"
+          },
+          {
+            "at": [
+              0.53,
+              51.38
+            ],
+            "name": "Chatham"
+          },
+          {
+            "at": [
+              1.42,
+              51.36
+            ],
+            "name": "Ramsgate",
+            "note": "where the packets plied"
+          },
+          [
+            2,
+            51.35
+          ],
+          {
+            "at": [
+              2.9286,
+              51.2154
+            ],
+            "name": "the Ostend packet"
+          }
+        ],
+        "note": "The regiment for the Continent: the whole party takes the packet across to Ostend, Jos blustering about the coming campaign, the war a rumour and an excitement not yet a horror",
+        "routeNote": "Up the Kent road to Ramsgate, and the packet across - one line, two mediums, as the crossing really was.",
+        "routeSource": "Thackeray routes it (ch. 28): the party goes up from Brighton to London, on to Chatham, and thence 'drove pretty much unencumbered to Ramsgate, where there were plenty of packets plying, in one of which they had a speedy passage to Ostend'. The drawn line used to run straight out to sea from Brighton, which its own source string already contradicted.",
+        "routeCertainty": "novel",
+        "spillOk": true,
+        "spillNote": "The Ramsgate packet. One line, two mediums, as the crossing really was: the Kent road out of Brighton, then the sea to Ostend. Splitting it would break a single sentence of Thackeray into a change of transport he never makes."
+      },
     {
       "character": [
         "amelia",
