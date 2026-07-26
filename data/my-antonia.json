@@ -285,6 +285,10 @@
       "mode": "train",
       "startDay": 42,
       "days": 4,
+      "via": [{"at":[14.0322,50.6607],"name":"Ústí nad Labem (Aussig)","note":"down the Elbe out of Bohemia"},{"at":[14.2148,50.7821],"name":"Děčín (Bodenbach)","note":"the Austrian frontier station on the Elbe"},[14.1553,50.9186],{"at":[13.7373,51.0504],"name":"Dresden"},[13.2925,51.3078],{"at":[12.3731,51.3397],"name":"Leipzig","note":"the Saxon hub every emigrant train was funnelled through"},[11.9689,51.4964],{"at":[11.6276,52.1205],"name":"Magdeburg"},[10.5268,52.2689],{"at":[9.732,52.3759],"name":"Hannover"},[9.2137,52.6386]],
+      "routeNote": "Down the Elbe out of Bohemia, through Saxony to the Leipzig hub and north-west to the Weser ports.",
+      "routeSource": "No route named in the text. Reconstructs the standard Bohemian emigrant corridor of the 1880s: down the Elbe valley through Bodenbach into Saxony, to the Leipzig hub, then Magdeburg-Hannover-Bremen. Bremen is the port the real family behind the Shimerdas used - the Sadileks sailed on Norddeutscher Lloyd's SS Hermann, 20 October 1880.",
+      "routeCertainty": "reconstructed",
       "note": "Overland out of Bohemia to the North Sea coast, selling everything they own to buy the passage - the first leg of the longest journey any of them will ever make."
     },
     {
@@ -380,6 +384,10 @@
       "mode": "train",
       "startDay": 4300,
       "days": 4,
+      "via": [{"at":[-98.5192,40.0891],"name":"Red Cloud (Black Hawk)","note":"the depot; the Divide is reached by road"},[-98.452,40.3325],{"at":[-98.3898,40.5861],"name":"Hastings","note":"Cather's own junction - Jim breaks his journey here in Book V"},[-97.5895,40.6383],[-96.9614,40.6272],{"at":[-96.7026,40.8136],"name":"Lincoln"},[-96.3689,41.0389],{"at":[-95.8825,41.0114],"name":"Plattsmouth","note":"the Burlington's Missouri River bridge, opened 1880"},[-95.2258,41.0092],{"at":[-94.3616,41.0586],"name":"Creston, Iowa"},[-93.3069,41.0136],[-92.4113,41.02],{"at":[-91.1129,40.8075],"name":"Burlington, Iowa","note":"the railroad's namesake town on the Mississippi"},[-90.3712,40.9478],{"at":[-87.65,41.85],"name":"Chicago","note":"the change from the Burlington to the eastern trunk"},[-85.9767,41.6819],{"at":[-83.5379,41.6528],"name":"Toledo"},{"at":[-81.6944,41.4993],"name":"Cleveland"},[-80.0851,42.1292],{"at":[-78.8784,42.8864],"name":"Buffalo"},[-77.6088,43.1566],{"at":[-76.1474,43.0481],"name":"Syracuse"},[-75.2327,43.1009],{"at":[-73.7562,42.6526],"name":"Albany"},{"at":[-72.5898,42.1015],"name":"Springfield"},[-71.8023,42.2626]],
+      "routeNote": "The Burlington east to Chicago, then the Water Level Route round Lake Erie and up the Mohawk. Two standard alignments existed east of Chicago (the Lake Shore by Cleveland, the Michigan Central by Detroit); this is the former.",
+      "routeSource": "Not routed in the text, but the companies are certain: the Burlington - Cather's own 'our branch of the Burlington' - from Red Cloud by Hastings, Lincoln and the Plattsmouth bridge across Iowa to Chicago, reversing the road Jim came in on (which the novel does route: 'Beyond Chicago', 'crossing the Missouri River', 'the long day's journey through Nebraska'); then the New York Central trunk east - Lake Shore & Michigan Southern to Buffalo, NYC & Hudson River to Albany, Boston & Albany over the Berkshires.",
+      "routeCertainty": "documented",
       "note": "Then east for good, to finish at Harvard, following his tutor Cleric to Boston. The prairie drops away behind him, and the promise with it - the line climbing, and thinning as it climbs."
     },
     {
@@ -406,6 +414,10 @@
       "mode": "train",
       "startDay": 3820,
       "days": 3,
+      "via": [[-98.7568,40.0778],{"at":[-98.9531,40.0964],"name":"Franklin"},[-99.2237,40.0919],{"at":[-99.4529,40.13],"name":"Orleans"},[-99.6323,40.2453],{"at":[-99.9001,40.3036],"name":"Arapahoe"},{"at":[-100.1657,40.2822],"name":"Cambridge"},[-100.4218,40.2364],{"at":[-100.6254,40.2019],"name":"McCook","note":"the division point the Burlington built in 1882, midway between Red Cloud and Akron"},[-100.8382,40.2278],{"at":[-101.5324,40.0464],"name":"Benkelman"},[-101.9337,40.0142],{"at":[-102.2235,40.0755],"name":"Wray","note":"on the Burlington main line, 165 miles east of Denver"},{"at":[-102.7252,40.1225],"name":"Yuma"},{"at":[-103.211,40.1622],"name":"Akron"},{"at":[-103.6252,40.2569],"name":"Brush","note":"platted in June 1882 as the line came through"},{"at":[-103.7999,40.2503],"name":"Fort Morgan","note":"the line meets the South Platte and follows it down"},[-104.0755,40.2286],[-104.6386,40.0736]],
+      "routeNote": "Up the Republican valley to McCook, the 1882 Denver extension across the plains, and down the South Platte into Denver.",
+      "routeSource": "The novel puts Ántonia on 'the night train for Denver' from Black Hawk; Red Cloud was a division point on the Burlington's Kansas City-Denver main line, with eight passenger trains a day. Drawn on that line - the Republican Valley Railroad's road up the river to McCook, the Burlington's Denver extension of 1882 into Colorado at Wray, and on by Akron, Brush and Fort Morgan down the South Platte.",
+      "routeCertainty": "documented",
       "note": "Ántonia goes west to Denver to marry the railway conductor Larry Donovan, a flashy, plausible man - her savings, her wedding clothes, and all her hope carried with her."
     },
     {
@@ -416,6 +428,10 @@
       "mode": "train",
       "startDay": 3950,
       "days": 5,
+      "via": [[-96.3689,41.0389],{"at":[-95.9345,41.2565],"name":"Omaha","note":"the Overland Route's eastern gateway"},[-96.4981,41.4333],{"at":[-97.3684,41.4297],"name":"Columbus"},{"at":[-98.342,40.9264],"name":"Grand Island"},[-99.0817,40.6994],{"at":[-100.7654,41.1239],"name":"North Platte","note":"the Union Pacific division point on the Platte"},[-101.7196,41.1281],[-102.9777,41.1428],{"at":[-104.8202,41.14],"name":"Cheyenne"},{"at":[-105.5911,41.3114],"name":"Laramie"},[-107.2387,41.7911],{"at":[-109.4662,41.5286],"name":"Green River"},[-110.9632,41.2683],{"at":[-111.9738,41.223],"name":"Ogden","note":"the transfer from the Union Pacific to the Southern Pacific"},[-112.1152,41.5486],{"at":[-112.5486,41.62],"name":"Promontory","note":"north of the Great Salt Lake; the cutoff across the water did not open until 1904"},[-113.135,41.7286],[-113.9089,41.3625],{"at":[-114.9647,41.1119],"name":"Wells"},{"at":[-115.7631,40.8324],"name":"Elko"},[-116.9342,40.6421],{"at":[-117.7357,40.973],"name":"Winnemucca"},[-118.4735,40.1794],{"at":[-119.8138,39.5296],"name":"Reno"},{"at":[-120.1833,39.328],"name":"Truckee","note":"over the Sierra summit and the snowsheds"},[-120.9533,39.1007],{"at":[-121.4944,38.5816],"name":"Sacramento"},{"at":[-122.1836,38.0455],"name":"Port Costa","note":"the whole train ferried over the Carquinez Strait on the Solano"}],
+      "routeNote": "The Overland Route. The line stops at the Oakland Pier because the railway did: passengers crossed to San Francisco by ferry.",
+      "routeSource": "Cather names no route, only the destination. Drawn on the Overland Route, the only through passenger road west in the period: the Burlington from Lincoln to Omaha, the Union Pacific by the Platte, Cheyenne and Green River to Ogden, then the Central Pacific under Southern Pacific lease round the NORTH SHORE of the Great Salt Lake (the Lucin Cutoff across the water did not open until 1904), over the Sierra at Truckee to Sacramento, the Solano train ferry at Carquinez, and the Oakland Pier, whence a ferry crossed to the city.",
+      "routeCertainty": "documented",
       "note": "Lena moves further west still, to San Francisco - persuaded by her friend Tiny Soderball, back rich from the Klondike, that the city is the right field for her. She will be the leading dressmaker there, and never look back."
     },
     {
@@ -426,6 +442,10 @@
       "mode": "train",
       "startDay": 3950,
       "days": 4,
+      "via": [[-104.6386,40.0736],{"at":[-103.7999,40.2503],"name":"Fort Morgan"},{"at":[-103.211,40.1622],"name":"Akron"},{"at":[-102.2235,40.0755],"name":"Wray"},{"at":[-100.6254,40.2019],"name":"McCook"},{"at":[-99.4529,40.13],"name":"Orleans"},{"at":[-98.5192,40.0891],"name":"Red Cloud (Black Hawk)","note":"she comes off the train here and is driven out the west road to the Divide"}],
+      "routeNote": "The same railway travelled back east; she comes off the train at Black Hawk and is driven out to the Divide by road. Thinned to the division points so the returning line reads as its own journey rather than a doubled one.",
+      "routeSource": "The same Burlington line home: the Denver extension of 1882 down the South Platte and across the plains to Wray, then the Republican valley through McCook to Black Hawk - and the last few miles to the Divide by road, 'a livery team from town, driving fast out the west road' (Bk IV).",
+      "routeCertainty": "documented",
       "note": "Deserted and pregnant, Ántonia comes home to the old Shimerda land on the Divide, bears her daughter, and works the fields like a man, brown and silent, vowing the child will have a better chance than she did."
     },
     {
