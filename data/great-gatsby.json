@@ -63,6 +63,8 @@
       ],
       "certainty": "conjectured",
       "note": "Gatsby’s house has no single agreed original - a composite of the West Egg (Great Neck) mansions; placed on the bay-facing shore so it looks across the water at East Egg, as the book requires.",
+      "quote": "it was a factual imitation of some Hôtel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden.",
+      "quoteRef": "Ch. 1",
       "story": "The huge imitation-Norman mansion where Jay Gatsby throws his blazing summer parties for hundreds who don’t know him - all of it a lure, a lighthouse lit for one guest across the bay: Daisy.",
       "imageBlank": "Gatsby’s mansion is a composite of the West Egg (Great Neck) millionaires’ houses with no single original; any specific mansion photo would falsely claim to be his."
     },
@@ -77,6 +79,8 @@
       ],
       "certainty": "conjectured",
       "note": "Nick’s small rented “eyesore”, squeezed between two mansions next to Gatsby’s; fictional, placed adjacent to Gatsby’s per the novel.",
+      "quote": "My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbour’s lawn, and the consoling proximity of millionaires",
+      "quoteRef": "Ch. 1",
       "story": "The narrator Nick Carraway’s cheap bungalow, wedged beside Gatsby’s palace. Here Gatsby and Daisy are brought together again after five years - a reunion Nick arranges, over tea, in the rain.",
       "imageBlank": "Nick’s small rented bungalow is fictional and deliberately nondescript; there is nothing specific to photograph."
     },
@@ -91,6 +95,8 @@
       ],
       "certainty": "identified",
       "note": "Tom and Daisy’s Georgian Colonial on East Egg; the most-cited model is the Swope estate “Land’s End” on Sands Point (demolished 2011), the old-money peninsula across the bay from West Egg.",
+      "quote": "a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran towards the front door for a quarter of a mile",
+      "quoteRef": "Ch. 1",
       "story": "The Buchanans’ cool, moneyed house on the fashionable side of the bay - old wealth, careless and secure. Here Nick first dines with his cousin Daisy and her rich, brutal, unfaithful husband Tom.",
       "imageBlank": "Land’s End (the Swope estate at Sands Point), the model for the house, has no verifiable public-domain historical photograph - the images that circulate are copyrighted shots taken shortly before the 2011 demolition."
     },
@@ -105,6 +111,8 @@
       ],
       "certainty": "conjectured",
       "note": "The single green light Gatsby watches across the water - real in the text but with no surveyed spot; placed on the Sands Point shore that faces Gatsby’s side of the bay.",
+      "quote": "a single green light, minute and far away, that might have been the end of a dock.",
+      "quoteRef": "Ch. 1",
       "story": "The green light at the end of Daisy’s dock, which Gatsby stretches his arms toward across the dark water - the whole of his hope reduced to one far, faint point, a few hundred yards and five years away.",
       "imageBlank": "The green light is a symbol at the end of a fictional dock, not a place; no honest picture exists."
     },
@@ -119,6 +127,8 @@
       ],
       "certainty": "identified",
       "note": "The grey industrial wasteland between the Eggs and Manhattan - the real Corona ash dumps by Flushing Creek (now Flushing Meadows). Over it stands the faded billboard of the oculist Doctor T. J. Eckleburg, his enormous spectacled eyes brooding on the road. Wilson’s garage, and Myrtle’s death, are placed here.",
+      "quote": "This is a valley of ashes—a fantastic farm where ashes grow like wheat into ridges and hills and grotesque gardens; where ashes take the forms of houses and chimneys and rising smoke",
+      "quoteRef": "Ch. 2",
       "story": "The grey dumping-ground everyone must drive through between the money and the city, watched over by the blind billboard eyes of Doctor T. J. Eckleburg. Here George Wilson keeps his garage, his wife Myrtle is Tom’s mistress - and here, on the road, Myrtle is run down and killed.",
       "imageBlank": "No clean public-domain photograph of the Corona/Flushing ash dumps came to hand; only illustrated-newspaper engravings, nothing verifiably public-domain and unambiguously the ash heaps."
     },
@@ -133,6 +143,8 @@
       ],
       "certainty": "real",
       "note": "Named in the book; the hot afternoon suite where the story breaks open.",
+      "quote": "the parlour of a suite in the Plaza Hotel",
+      "quoteRef": "Ch. 7",
       "story": "A stifling suite where it all comes apart: Tom, cornered, exposes Gatsby as a bootlegger and a fraud, and makes Daisy choose. She cannot leave her husband for the dream, and Gatsby’s whole edifice cracks in the heat.",
       "image": {
         "file": "assets/images/gatsby-the-plaza.jpg",
@@ -152,6 +164,8 @@
       ],
       "certainty": "conjectured",
       "note": "The apartment Tom keeps for Myrtle - “a long white cake of apartment-houses” on 158th Street; the exact address is invented.",
+      "quote": "At 158th Street the cab stopped at one slice in a long white cake of apartment-houses.",
+      "quoteRef": "Ch. 2",
       "story": "The little flat Tom keeps for his mistress Myrtle Wilson, where a drunken afternoon party swells and turns ugly - Tom, when Myrtle taunts him with Daisy’s name, breaking her nose with the flat of his hand.",
       "imageBlank": "The flat on 158th Street is a fictional address; no honest specific period image."
     },
@@ -166,6 +180,8 @@
       ],
       "certainty": "conjectured",
       "note": "A “well-fanned Forty-second Street cellar”; fictional. Meyer Wolfsheim, the gambler said to have fixed the 1919 World Series, is Gatsby’s underworld connection - the source of the money behind the mansion.",
+      "quote": "In a well-fanned Forty-second Street cellar I met Gatsby for lunch.",
+      "quoteRef": "Ch. 4",
       "story": "The basement lunch-room where Gatsby introduces Nick to Meyer Wolfsheim, the gambler who fixed the World Series - a glimpse of the criminal money that built the mansion and paid for the parties.",
       "imageBlank": "Wolfsheim’s Forty-second Street cellar is fictional; no honest specific period image."
     },
@@ -180,6 +196,8 @@
       ],
       "certainty": "real",
       "note": "Named; Daisy’s home, where the young Lieutenant Gatsby met and lost her before shipping out, and where she married Tom.",
+      "quote": "by far the most popular of all the young girls in Louisville. She dressed in white, and had a little white roadster",
+      "quoteRef": "Ch. 4",
       "story": "Where it began, five years before: a poor young officer at nearby Camp Taylor falls for the golden Daisy Fay, then is sent to the war. By the time he returns she has married rich Tom Buchanan - and Gatsby sets out to become worthy of her.",
       "image": {
         "file": "assets/images/gatsby-louisville.jpg",
@@ -199,6 +217,8 @@
       ],
       "certainty": "identified",
       "note": "Nick’s home city is unnamed but modelled on Fitzgerald’s own St Paul; Nick comes east from it and, at the end, goes back.",
+      "quote": "Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe—so I decided to go East",
+      "quoteRef": "Ch. 1",
       "story": "The solid, dull Middle West Nick comes east to escape - and, sickened by the careless glamour that leaves Gatsby dead and the Buchanans untouched, the place he finally retreats to, wanting the world “at a moral attention forever”.",
       "image": {
         "file": "assets/images/gatsby-nicks-midwest.jpg",
@@ -218,6 +238,8 @@
       ],
       "certainty": "identified",
       "note": "Named as the state; Gatsby’s origin as James Gatz, son of “shiftless and unsuccessful farm people”. No town is given, so a central-state point stands in.",
+      "quote": "His parents were shiftless and unsuccessful farm people—his imagination had never really accepted them as his parents at all.",
+      "quoteRef": "Ch. 6",
       "story": "Where Jay Gatsby began as plain James Gatz, a poor farm boy who never accepted his parents’ lot - and who, somewhere on the road out, invented a grander self and set out to become him.",
       "image": {
         "file": "assets/images/gatsby-north-dakota.jpg",
@@ -237,6 +259,8 @@
       ],
       "certainty": "identified",
       "note": "Recounted; the shallows where the drifting young Gatz rows out to warn the yachtsman Dan Cody of a coming storm, and is taken aboard - the moment he becomes “Jay Gatsby”.",
+      "quote": "he had been beating his way along the south shore of Lake Superior as a clam-digger and a salmon-fisher",
+      "quoteRef": "Ch. 6",
       "story": "On the lake, the drifting teenager rows out to a millionaire’s yacht, warns him of a storm, and is taken up by the old copper-and-silver man Dan Cody. Five years cruising the continent make him, at last, into Gatsby.",
       "image": {
         "file": "assets/images/gatsby-lake-superior.jpg",

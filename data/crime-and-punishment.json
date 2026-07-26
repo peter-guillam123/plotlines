@@ -59,6 +59,8 @@
       ],
       "certainty": "identified",
       "note": "The corner house on the novel’s “S. Lane” by “K. Bridge”; a memorial relief on Grazhdanskaya 19 now reads “House of Raskolnikov”. The attic room is up 13 steps under the roof.",
+      "quote": "His garret was under the roof of a high, five-storied house and was more like a cupboard than a room.",
+      "quoteRef": "Pt. I, ch. 1",
       "story": "The “coffin” of a garret where the poor ex-student Raskolnikov lies for days, starving and feverish, and hatches his theory that an extraordinary man may step over any law - even to murder. Everything in the book begins and ends within a few hundred yards of this door.",
       "imageBlank": "No honest period view of the Stolyarny/Grazhdanskaya tenement came to hand; the district’s period images are the market square and the canal (used elsewhere), and a generic courtyard would be filler."
     },
@@ -73,6 +75,8 @@
       ],
       "certainty": "identified",
       "note": "The big house wrapping three streets on the Griboyedov (then Ekaterininsky) Canal; fourth storey. The scholar-consensus site of the murders, about 700m - Dostoevsky’s “exactly seven hundred and thirty” paces - from the garret.",
+      "quote": "he went up to a huge house which on one side looked on to the canal, and on the other into the street. This house was let out in tiny tenements",
+      "quoteRef": "Pt. I, ch. 1",
       "story": "The flat of the old money-lender Alyona Ivanovna. Here Raskolnikov brings the axe down on her, and then, when her gentle sister Lizaveta walks in, on her too - the second, unplanned killing that damns him. The crime the whole book is the punishment for.",
       "image": {
         "file": "assets/images/cp-pawnbroker-flat.jpg",
@@ -92,6 +96,8 @@
       ],
       "certainty": "identified",
       "note": "The irregular room Sonia rents in the tailor Kapernaumov’s flat, on the canal a little down from the pawnbroker’s. Katerina Ivanovna dies here.",
+      "quote": "Sonia’s room looked like a barn; it was a very irregular quadrangle and this gave it a grotesque appearance.",
+      "quoteRef": "Pt. IV, ch. 4",
       "story": "Where Sonia Marmeladov - driven onto the streets to feed her stepmother’s children - reads Raskolnikov the raising of Lazarus, and where he first confesses the murder to her. She becomes the one soul he cannot lie to, and the one who will follow him to Siberia.",
       "imageBlank": "A private rented room; nothing specific to photograph honestly."
     },
@@ -106,6 +112,8 @@
       ],
       "certainty": "real",
       "note": "The real market square at the heart of the slum district; named throughout the novel.",
+      "quote": "Owing to the proximity of the Hay Market, the number of establishments of bad character, the preponderance of the trading and working class population crowded in these streets and alleys in the heart of Petersburg",
+      "quoteRef": "Pt. I, ch. 1",
       "story": "The teeming square Raskolnikov is compulsively drawn back to, day after day, as if the crime were a magnet. Here, near the end, on Sonia’s counsel, he kneels down and kisses the filthy earth before the whole market - the first act of his confession.",
       "image": {
         "file": "assets/images/cp-sennaya.jpg",
@@ -167,6 +175,8 @@
       ],
       "certainty": "conjectured",
       "note": "Katerina Ivanovna’s single rented room off a courtyard near the Hay Market; the house is unlocated. Marmeladov is carried here to die; the funeral dinner erupts here.",
+      "quote": "not part of a room, but their room was practically a passage",
+      "quoteRef": "Pt. I, ch. 2",
       "story": "The wretched room where Marmeladov, run down by a carriage in the street outside, is carried home to die in his family’s arms - and where, days later, the funeral dinner collapses into chaos as Luzhin frames Sonia for theft to spite Raskolnikov.",
       "imageBlank": "The Marmeladovs’ room (Kozel’s house) is unlocated; nothing specific to photograph."
     },
@@ -195,6 +205,8 @@
       ],
       "certainty": "conjectured",
       "note": "The blank-walled court off “V. Prospect” where he hides the loot under a slab; no agreed building, placed on the route he walks after the murder.",
+      "quote": "He bent down over the stone, seized the top of it firmly in both hands, and using all his strength turned it over. Under the stone was a small hollow in the ground",
+      "quoteRef": "Pt. II, ch. 2",
       "story": "Reeling from the murders, Raskolnikov shoves the pawnbroker’s purse and trinkets under a stone in an empty yard and never spends a rouble of it - the plunder was never the point, and the theory is already eating him alive.",
       "imageBlank": "An anonymous courtyard off Voznesensky Prospekt; no honest specific image."
     },
@@ -237,6 +249,8 @@
       ],
       "certainty": "real",
       "note": "Over the Neva (today’s Blagoveshchensky Bridge), just north of the Hay Market box - the camera travels here.",
+      "quote": "On the Nikolaevsky Bridge he was roused to full consciousness again by an unpleasant incident.",
+      "quoteRef": "Pt. II, ch. 2",
       "story": "On the great bridge over the Neva a carriage nearly rides him down and an old woman in a kerchief, taking him for a beggar, presses a coin into his hand “in Christ’s name”. He stares at the cold shining panorama of the capital that has no place for him, and flings the coin into the river.",
       "image": {
         "file": "assets/images/cp-nikolaevsky-bridge.jpg",
@@ -275,6 +289,8 @@
       ],
       "certainty": "identified",
       "note": "The book names only “a town… on the banks of the Irtish”; the real place is the wooden ostrog inside the Omsk fortress, entered by the Tara Gate - the prison of Dostoevsky’s own 1850-54 sentence and “The House of the Dead”.",
+      "quote": "at the workshops or at the brick kilns, or at the sheds on the banks of the Irtish",
+      "quoteRef": "Epilogue",
       "story": "Two thousand miles east, across the Urals and the whole width of Russia, Raskolnikov serves eight years’ penal servitude - and here, at last, with Sonia settled nearby and waiting, the ice in him begins to break, and a new life he has not yet earned or understood opens before him.",
       "image": {
         "file": "assets/images/cp-omsk-prison.jpg",

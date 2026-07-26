@@ -55,6 +55,8 @@
       ],
       "certainty": "conjectured",
       "note": "Fictional Elliot seat, best-guess sited on Barrington Court within Austen’s stated distances (3 miles to Uppercross, 17 to Lyme, 50 to Bath); the name and exact spot are invented.",
+      "quote": "Sir Walter Elliot, of Kellynch Hall, in Somersetshire, was a man who, for his own amusement, never took up any book but the Baronetage",
+      "quoteRef": "Ch. 1",
       "story": "The Elliot family seat, and the vanity that beggars it: Sir Walter Elliot, too proud and too extravagant to live within his rank, must let the great house to strangers and retreat to cheaper Bath. Here too, eight years before, Anne loved and gave up Frederick Wentworth. The old landed order, quietly failing.",
       "imageBlank": "Kellynch Hall is fictional (best-guessed at Barrington Court); no honest picture can claim to be the Elliot seat."
     },
@@ -69,6 +71,8 @@
       ],
       "certainty": "conjectured",
       "note": "Fictional Musgrove village, three miles from Kellynch and seventeen from Lyme; anchored to Hinton St George. Holds both the Cottage (Mary and Charles) and the Great House (the elder Musgroves).",
+      "quote": "the more consistent and considerable aspect and premises of the Great House, about a quarter of a mile farther on. Here Anne had often been staying.",
+      "quoteRef": "Ch. 5",
       "story": "The warm, noisy, unbookish Musgrove world where Anne is sent to be useful - to nurse her sister Mary’s complaints and watch Captain Wentworth court the two lively Musgrove girls, Henrietta and Louisa, as if Anne were already old and finished at seven-and-twenty.",
       "imageBlank": "Uppercross is a fictional village; nothing specific to photograph honestly."
     },
@@ -83,6 +87,8 @@
       ],
       "certainty": "conjectured",
       "note": "The Hayters’ farm, “two miles” from Uppercross over a hill; no real-house consensus, placed on the described walk east of the village.",
+      "quote": "The estate at Winthrop is not less than two hundred and fifty acres, besides the farm near Taunton, which is some of the best land in the country.",
+      "quoteRef": "Ch. 9",
       "story": "The plain down-a-valley farm of the Hayter cousins, reached by the long autumn nutting-walk. In the hedgerow above it Anne overhears Wentworth praising Louisa’s firmness of mind - a speech that sounds, painfully, like a reproach of Anne’s own long-ago yielding.",
       "imageBlank": "Winthrop is a fictional farm; nothing specific to photograph."
     },
@@ -97,6 +103,8 @@
       ],
       "certainty": "real",
       "note": "The stone harbour breakwater; the fall marker sits at the seaward high wall of the Lower Cobb (the famous “Granny’s Teeth” steps were built after 1816, so are not the spot).",
+      "quote": "the Cobb itself, its old wonders and new improvements, with the very beautiful line of cliffs stretching out to the east of the town",
+      "quoteRef": "Ch. 11",
       "story": "The great curving sea-wall where the whole book turns. Headstrong Louisa Musgrove, in high spirits, insists on being “jumped down” the steep steps, misjudges it, and is taken up senseless on the pavement. In the panic it is quiet Anne who keeps her head - and Wentworth, watching, begins to understand what he threw away.",
       "image": {
         "file": "assets/images/persuasion-lyme-cobb.jpg",
@@ -135,6 +143,8 @@
       ],
       "certainty": "real",
       "note": "The West-Country naval station; the concrete anchor for the Crofts arriving “from the sea”. Their exact prior port is unnamed, so the leg from here is illustrative.",
+      "quote": "I brought her into Plymouth; and here another instance of luck. We had not been six hours in the Sound, when a gale came on",
+      "quoteRef": "Ch. 8",
       "story": "The naval world the Crofts come from - Admiral Croft fresh off years afloat in the war just ended. That the sailors’ first home ashore is Kellynch Hall itself, rented from the ruined baronet, is the whole social argument of the book in a single move: the sea taking the land.",
       "image": {
         "file": "assets/images/persuasion-plymouth.jpg",
@@ -154,6 +164,8 @@
       ],
       "certainty": "real",
       "note": "The Elliots’ “lofty, dignified” Bath house, high on the hill north-east of the centre; now Camden Crescent.",
+      "quote": "Lady Russell reverted to their former hopes and fears, and spoke her satisfaction in the house in Camden Place, which had been taken",
+      "quoteRef": "Ch. 15",
       "story": "The grand Bath address Sir Walter takes to keep up appearances he can no longer afford at home - perched high on the hill, all show and no comfort. Anne dreads it as an imprisonment; her father cares only that the rooms are large and the street fashionable.",
       "image": {
         "file": "assets/images/persuasion-camden-place.jpg",
@@ -173,6 +185,8 @@
       ],
       "certainty": "real",
       "note": "The social hub by the Abbey where fashionable Bath parades and takes the waters; stands in here for the concert rooms too.",
+      "quote": "her station at a window overlooking the entrance to the Pump Room",
+      "quoteRef": "Ch. 22",
       "story": "The great rooms by the Abbey where all Bath is seen and sees - where the Elliots display their recovered consequence, where the smooth, calculating Mr Elliot presses his suit on Anne, and where, at a concert, Wentworth’s plain jealousy tells her at last that he loves her still.",
       "image": {
         "file": "assets/images/persuasion-pump-room.jpg",
@@ -192,6 +206,8 @@
       ],
       "certainty": "real",
       "note": "The fashionable shopping street; the rainy meeting at Molland’s the confectioner is placed on it.",
+      "quote": "in walking up Milsom Street she had the good fortune to meet with the Admiral. He was standing by himself at a printshop window",
+      "quoteRef": "Ch. 18",
       "story": "The busy shopping street where Anne, sheltering from a shower in Molland’s, comes suddenly face to face with Wentworth, arrived in Bath at last - and the long, tense, hopeful courtship-in-public begins, watched by all the wrong people.",
       "image": {
         "file": "assets/images/persuasion-milsom-street.jpg",
@@ -211,6 +227,8 @@
       ],
       "certainty": "real",
       "note": "The coaching inn opposite the Pump Room where the Musgroves lodge; the climactic letter is written here (the inn was demolished in 1867).",
+      "quote": "hastened forward to the White Hart, to see again the friends and companions of the last autumn",
+      "quoteRef": "Ch. 22",
       "story": "The inn where, as Anne argues to Captain Harville that women love longest “when all hope is gone”, Wentworth sits writing at the next table - and pours it all into a letter, then lays it before her and flees. “You pierce my soul. I am half agony, half hope.”",
       "image": {
         "file": "assets/images/persuasion-white-hart.jpg",
@@ -230,6 +248,8 @@
       ],
       "certainty": "real",
       "note": "The quiet paved path below the Royal Crescent and the Circus, between Queen Square and the Crescent, where the pair finally re-engage.",
+      "quote": "direction towards the comparatively quiet and retired gravel walk, where the power of conversation would make the present hour a blessing indeed",
+      "quoteRef": "Ch. 23",
       "story": "The quiet gravelled walk, apart from the crowd at last, where Anne and Wentworth say everything eight years had left unsaid, and settle the second chance the world had all but taken from them. The happiest, most sensible walk in Bath.",
       "image": {
         "file": "assets/images/persuasion-gravel-walk.jpg",
@@ -249,6 +269,8 @@
       ],
       "certainty": "real",
       "note": "The cheap lodging near the baths where the widowed, crippled Mrs Smith lives; the class counterpoint, low in the town, to Camden Place high on the hill.",
+      "quote": "happy to convey her as near to Mrs Smith’s lodgings in Westgate Buildings, as Anne chose to be taken.",
+      "quoteRef": "Ch. 17",
       "story": "The poor lodging, low by the baths, of Anne’s old schoolfriend Mrs Smith - widowed, ill and penniless. Sir Walter is appalled that Anne would visit so mean an address; but it is here Anne learns the truth about Mr Elliot, a cold fortune-hunter behind the charm.",
       "imageBlank": "Bath’s poor lower town by the baths is barely depicted in period prints; only modern photographs of Westgate Buildings exist, and a generic Georgian street would misrepresent Mrs Smith’s honest slum."
     }
