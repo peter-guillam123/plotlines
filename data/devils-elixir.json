@@ -183,7 +183,11 @@
       "mode": "coach",
       "startDay": 60,
       "days": 12,
-      "note": "The widow carries her child the long way south out of Prussia to the Saale - the curse travelling on, north-to-central, as it had travelled north out of Italy a generation before."
+      "note": "The widow carries her child the long way south out of Prussia to the Saale - the curse travelling on, north-to-central, as it had travelled north out of Italy a generation before.",
+      "via": [{"at":[18.646,54.352],"name":"Danzig"},{"at":[14.552,53.428],"name":"Stettin"},{"at":[13.405,52.52],"name":"Berlin"}],
+      "routeNote": "A gesture, not an itinerary: three beads on the great Prussian post road to show the corridor a widow with an infant would have been carried along, round the Baltic and through the capital.",
+      "routeSource": "Hoffmann declines to record it: 'The interval between this period and the time when my mother, on her homeward journey, stopped at the convent of Kreuzberg, remains a mere blank; not a trace of any event is left to me.' The destination is his invention too - a Cistercian Kreuzberg anchored only by the named river Saale - so the line is drawn as a flagged gesture along the Koenigsberg-Danzig-Stettin-Berlin post road rather than a town-by-town route the book does not have.",
+      "routeCertainty": "illustrative"
     },
     {
       "character": "medardus",

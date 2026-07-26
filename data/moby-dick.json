@@ -327,7 +327,10 @@
       "mode": "whale",
       "startDay": 410,
       "days": 3,
-      "note": "The white whale, raised at last, runs straight to leeward for three days, towing the fast boats behind him on the planted harpoon-lines - the ghost of the whole voyage made suddenly, terribly real."
+      "note": "The white whale, raised at last, runs straight to leeward for three days, towing the fast boats behind him on the planted harpoon-lines - the ghost of the whole voyage made suddenly, terribly real.",
+      "routeNote": "Straight, and deliberately so: the whale runs straight to leeward for three days, which is the shape the text gives the chase. What is unknown is not the course but the place.",
+      "routeSource": "Melville names the direction and refuses the position. The whale 'ran straight to leeward' through all three days of the chase, so a straight line is the faithful shape; but no longitude is given anywhere on the Line, and the book mocks the wish for one. Drawn as a short leeward run between two conjectured points, and flagged as the gesture it is.",
+      "routeCertainty": "illustrative"
     },
     {
       "character": ["ahab", "ishmael"],
@@ -337,7 +340,10 @@
       "mode": "ship",
       "startDay": 410,
       "days": 3,
-      "note": "The Pequod and her boats chase the whale to leeward for three days - to the spot where the ship goes down, and where the one survivor is left afloat."
+      "note": "The Pequod and her boats chase the whale to leeward for three days - to the spot where the ship goes down, and where the one survivor is left afloat.",
+      "routeNote": "Straight, and deliberately so: the whale runs straight to leeward for three days, which is the shape the text gives the chase. What is unknown is not the course but the place.",
+      "routeSource": "Melville names the direction and refuses the position. The whale 'ran straight to leeward' through all three days of the chase, so a straight line is the faithful shape; but no longitude is given anywhere on the Line, and the book mocks the wish for one. Drawn as a short leeward run between two conjectured points, and flagged as the gesture it is.",
+      "routeCertainty": "illustrative"
     }
   ],
   "story": [
