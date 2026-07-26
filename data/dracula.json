@@ -1009,6 +1009,9 @@
           45.9
         ]
       ],
+      "routeNote": "Down out of the Carpathians by cart and river-craft to the Black Sea coast.",
+      "routeSource": "The novel has the boxes leave the castle by Szgany cart and go on by Slovak river-boat to the sea, but names no road; reconstructs the obvious way down the passes and the river valleys to Varna.",
+      "routeCertainty": "reconstructed",
       "note": "Fifty boxes of earth, by Szgany cart and Slovak river-craft, down to the Black Sea"
     },
     {
@@ -1218,6 +1221,9 @@
           47.3
         ]
       ],
+      "routeNote": "A gesture, not a route: Harker escapes the castle and surfaces six weeks later in a Buda-Pesth hospital.",
+      "routeSource": "Stoker gives nothing between the castle wall and the hospital - Harker has no memory of it. Drawn as a straight gesture and flagged, rather than inventing a road he could not have described.",
+      "routeCertainty": "illustrative",
       "note": "The escape down the castle wall - six weeks of brain fever later, he is in Buda-Pesth"
     },
     {
@@ -2231,6 +2237,9 @@
           50.95
         ]
       ],
+      "routeNote": "The boat train and the Dover-Calais packet.",
+      "routeSource": "The standard London-Paris service of the 1890s: South Eastern Railway boat train from Charing Cross to Dover, the Channel packet to Calais, and the Chemin de Fer du Nord on to Paris.",
+      "routeCertainty": "documented",
       "note": "The boat train, Dover to Calais"
     },
     {
@@ -2419,6 +2428,9 @@
           47.3
         ]
       ],
+      "routeNote": "Up the Sereth and then the Bistritza, the way Mina reasons it out on the map.",
+      "routeSource": "Mina works the route out from the text of the journals (ch. 26): 'the Sereth is, at Fundu, joined by the Bistritza which runs up round the Borgo Pass. The loop it makes is manifestly as close to Dracula's castle as can be got by water.' Godalming's steam launch takes exactly that line.",
+      "routeCertainty": "novel",
       "note": "With Lord Godalming: by steam launch up the Sereth, then the Bistritza",
       "medium": "river"
     },
@@ -2455,6 +2467,9 @@
           47.32
         ]
       ],
+      "routeNote": "Along the bank of the same rivers, keeping the launch in sight.",
+      "routeSource": "Morris: 'And I, horses to follow on the bank lest by chance he land' (ch. 26). The riders shadow the launch up the Sereth and the Bistritza.",
+      "routeCertainty": "novel",
       "note": "Morris and Seward, riding the river bank; the cart intercepted at sunset"
     },
     {
@@ -2482,6 +2497,9 @@
           47.35
         ]
       ],
+      "routeNote": "The Szgany leiter-wagon carrying the last box, up the river road toward the Borgo Pass.",
+      "routeSource": "The hunters reason the Count must cross from the river to the Carpathians about the 47th parallel (ch. 26), and the box is overtaken on that road at sunset (ch. 27). Mode left unknown because the text gives cart and river-craft by turns.",
+      "routeCertainty": "novel",
       "note": "Up the river with the Szgany, in the last box of earth - overtaken as the sun sets"
     }
   ],

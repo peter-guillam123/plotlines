@@ -2349,7 +2349,8 @@
       "to": "netherfield",
       "chapter": 53,
       "title": "The right man returns",
-      "narration": "Bingley reopens Netherfield for the shooting, and Darcy comes with him, drawn by no bird in Hertfordshire. Freed at last of Darcy's interference, Bingley is soon on his knees to Jane - one sister happily settled, while Elizabeth watches Darcy and dares not hope for herself."
+      "presenceOk": { "jane": "The line now says so itself: Bingley rides the three miles to Longbourn, where both sisters are and where the map has them. The beat is Darcy arriving at Netherfield.", "elizabeth": "The line now says so itself: Bingley rides the three miles to Longbourn, where both sisters are and where the map has them. The beat is Darcy arriving at Netherfield." },
+      "narration": "Bingley reopens Netherfield for the shooting, and Darcy comes with him, drawn by no bird in Hertfordshire. Freed at last of his friend's interference, Bingley is soon riding the three miles to Longbourn to go on his knees to Jane - one sister settled at last, while Elizabeth, watching from the same room, dares not hope for herself."
     },
     {
       "kind": "journey",
