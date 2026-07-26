@@ -300,6 +300,20 @@
       }
     },
     {
+        "id": "cologne",
+        "region": "continent",
+        "name": "Cologne",
+        "novelName": "the city of Cologne",
+        "coords": [
+          6.9603,
+          50.9375
+        ],
+        "certainty": "real",
+        "note": "Named twice in ch. 62: the party is carried here from Rotterdam 'by another steamer', and here 'the carriage and the family took to the shore'. Jos's arrival is announced in the Cologne newspapers, with his titles improved for the occasion.",
+        "story": "Where the water journey ends and the road one begins. The Batavier has brought them from the Tower stairs to Rotterdam and a Rhine steamer up to Cologne; from here the carriage and courier take them on by Bonn and Koblenz and Mainz, Emmy sketching crags and castles from the deck on the way.",
+        "imageBlank": "The beat is a transfer between a steamer and a carriage rather than a place the book describes; a general view of Cologne would claim more than the text does."
+      },
+    {
       "id": "pumpernickel",
       "region": "continent",
       "name": "Pumpernickel (Weimar)",
@@ -331,6 +345,9 @@
       "via": [
         { "at": [-0.2, 51.49], "name": "Hammersmith" }
       ],
+      "routeNote": "The Hammersmith road east into town - the way the Sedley carriage would have come.",
+      "routeSource": "Thackeray names no stage between Chiswick Mall and Russell Square; reconstructs the obvious road of 1813, east through Hammersmith and Kensington into Bloomsbury.",
+      "routeCertainty": "reconstructed",
       "note": "The two friends leave school in the Sedley carriage - Amelia in tears, Becky flinging Dr Johnson's dictionary back over the gate - and drive together into town, where Becky's first campaign, on Amelia's fat brother Jos, comes to nothing"
     },
     {
@@ -503,25 +520,206 @@
       "note": "The drums beat in the night; the army marches out south to meet Napoleon. Amelia clings to George and he goes - and by the end of that day, a few miles off at Mont-Saint-Jean, he is lying dead on the field, a bullet through his heart"
     },
     {
-      "character": "amelia",
-      "from": "brussels",
-      "to": "fulham",
-      "chapter": 9,
-      "mode": "unknown",
-      "startDay": 756.0,
-      "days": 20.0,
-      "note": "Widowed, and carrying George's child, Amelia is brought home to England - down at last to a small cottage at Fulham and years of gentle, grinding poverty"
-    },
+        "character": "amelia",
+        "from": "brussels",
+        "to": "fulham",
+        "chapter": 9,
+        "mode": "coach",
+        "startDay": 756,
+        "days": 20,
+        "via": [
+          {
+            "at": [
+              3.7174,
+              51.0543
+            ],
+            "name": "Ghent"
+          },
+          {
+            "at": [
+              3.2247,
+              51.2093
+            ],
+            "name": "Bruges"
+          },
+          {
+            "at": [
+              2.9286,
+              51.2154
+            ],
+            "name": "Ostend"
+          },
+          [
+            2,
+            51.35
+          ],
+          {
+            "at": [
+              1.42,
+              51.36
+            ],
+            "name": "Ramsgate"
+          },
+          {
+            "at": [
+              1.078,
+              51.28
+            ],
+            "name": "Canterbury"
+          },
+          {
+            "at": [
+              0.5,
+              51.39
+            ],
+            "name": "Rochester"
+          },
+          [
+            0.22,
+            51.446
+          ]
+        ],
+        "routeNote": "The road out of Brussels through Ghent and Bruges, the Ostend packet, and the Kent road up to London - mirroring the outward journey Thackeray does route.",
+        "routeSource": "Thackeray gives the return in a sentence and no route: 'It was he who brought her back to England and to her mother's house' (ch. 35). Mirrors the outward journey he does give - the Ramsgate packet to Ostend, then Bruges and Ghent to Brussels (ch. 28) - which is also the road the Waterloo Dispatch took home.",
+        "routeCertainty": "reconstructed",
+        "spillOk": true,
+        "spillNote": "The Ostend packet. One line, two mediums, as the crossing really was: the road out of Brussels, the packet to Thanet, and the Kent road to London. Thackeray gives the whole return in a single sentence, and splitting it would invent a change of transport he never makes.",
+        "note": "Dobbin brings her home - and not in the nine days the old clock allowed: Thackeray keeps her in Brussels through her collapse and the birth of her boy, so this is the spring of 1816 and she carries a baby, not a nine-day grief"
+      },
     {
-      "character": "amelia",
-      "from": "fulham",
-      "to": "pumpernickel",
-      "chapter": 12,
-      "mode": "unknown",
-      "startDay": 5200.0,
-      "days": 20.0,
-      "note": "Long after, faithful Dobbin home from India carries the little party - Amelia, Jos, and Georgy - up the Rhine to the quiet court of Pumpernickel, where Amelia will at last see Dobbin's worth"
-    }
+        "character": "amelia",
+        "from": "fulham",
+        "to": "cologne",
+        "chapter": 12,
+        "mode": "ship",
+        "medium": "river",
+        "startDay": 5200,
+        "days": 8,
+        "via": [
+          {
+            "at": [
+              -0.0759,
+              51.506
+            ],
+            "name": "the Tower stairs"
+          },
+          {
+            "at": [
+              0,
+              51.482
+            ],
+            "name": "Greenwich"
+          },
+          [
+            0.37,
+            51.44
+          ],
+          [
+            0.83,
+            51.48
+          ],
+          [
+            1.4,
+            51.6
+          ],
+          [
+            2.8,
+            51.9
+          ],
+          [
+            4.12,
+            51.98
+          ],
+          {
+            "at": [
+              4.4777,
+              51.9244
+            ],
+            "name": "Rotterdam"
+          },
+          [
+            5.87,
+            51.85
+          ],
+          [
+            6.25,
+            51.83
+          ],
+          [
+            6.77,
+            51.23
+          ]
+        ],
+        "routeNote": "Down the Thames and over to the Maas by steam packet, then up the Waal and the Rhine - a river journey for more than half its length, which is why it is tagged as one.",
+        "routeSource": "Thackeray names the ship and the ports: the Batavier out of the Tower stairs, past Greenwich, to the quays of Rotterdam, and 'by another steamer to the city of Cologne' (ch. 62). The Batavier was a real Nederlandsche Stoomboot Maatschappij paddle steamer, and the NSM ran Rotterdam-Cologne river services from the mid-1820s.",
+        "routeCertainty": "novel",
+        "note": "The Batavier out of the Tower stairs, Jos in state and the maid seasick by Greenwich; then up the Rhine by steamer, Emmy sketching crags and castles from the deck"
+      },
+    {
+        "character": "amelia",
+        "from": "cologne",
+        "to": "pumpernickel",
+        "chapter": 12,
+        "mode": "coach",
+        "startDay": 5208,
+        "days": 12,
+        "via": [
+          {
+            "at": [
+              7.098,
+              50.734
+            ],
+            "name": "Bonn"
+          },
+          {
+            "at": [
+              7.589,
+              50.36
+            ],
+            "name": "Koblenz"
+          },
+          {
+            "at": [
+              8.271,
+              49.993
+            ],
+            "name": "Mainz"
+          },
+          {
+            "at": [
+              8.682,
+              50.1109
+            ],
+            "name": "Frankfurt",
+            "note": "almost certainly Thackeray's 'Free City of Judenstadt', where they dine with the English consul - a Free City with a famous Jewish quarter"
+          },
+          {
+            "at": [
+              9.675,
+              50.555
+            ],
+            "name": "Fulda"
+          },
+          {
+            "at": [
+              10.315,
+              50.976
+            ],
+            "name": "Eisenach"
+          },
+          {
+            "at": [
+              11.029,
+              50.978
+            ],
+            "name": "Erfurt"
+          }
+        ],
+        "routeNote": "The carriage and courier, up the Rhine road to Frankfurt and then east by the old Via Regia.",
+        "routeSource": "At Cologne 'the carriage and the family took to the shore' (ch. 62); Thackeray names no town on the road beyond. Reconstructs the Rhine road to Frankfurt and the Via Regia east - Fulda, Eisenach, Erfurt - the standard post road to the Weimar that Pumpernickel and its Erbprinz Hotel are drawn from.",
+        "routeCertainty": "reconstructed",
+        "note": "By carriage up the Rhine road and east across Thuringia to the little court where the whole book comes to rest"
+      }
   ],
   "story": [
     {
@@ -666,14 +864,23 @@
       "narration": "And so the two threads, parted at the school gate a lifetime ago, run together one last time. Faithful Dobbin, home from India, brings Amelia and her brother abroad - and up the Rhine to the same quiet town."
     },
     {
-      "kind": "journey",
-      "character": "amelia",
-      "from": "fulham",
-      "to": "pumpernickel",
-      "chapter": 12,
-      "title": "Up the Rhine",
-      "narration": "At Pumpernickel Amelia, Jos and Dobbin come to rest, and - with a hard word from Becky, of all people, about the George she has mourned so long - Amelia at last turns to the man who has loved her for twenty years."
-    },
+        "kind": "journey",
+        "character": "amelia",
+        "from": "fulham",
+        "to": "cologne",
+        "chapter": 12,
+        "title": "Up the Rhine",
+        "narration": "Jos comes home rich and takes them all abroad: the Batavier out of the Tower stairs, the quays of Rotterdam, and a Rhine steamer up to Cologne, Emmy sketching crags and castles from the deck while Georgy grows up beside her."
+      },
+    {
+        "kind": "journey",
+        "character": "amelia",
+        "from": "cologne",
+        "to": "pumpernickel",
+        "chapter": 12,
+        "title": "Pumpernickel",
+        "narration": "At Pumpernickel they come to rest, and - with a hard word from Becky, of all people, about the George she has mourned so long - Amelia at last turns to the man who has loved her for twenty years."
+      },
     {
       "kind": "scene",
       "character": "amelia",

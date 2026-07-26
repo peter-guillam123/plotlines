@@ -374,15 +374,222 @@
       "note": "Ali Pasha betrayed and killed, the child Haydée and her mother are carried off and sold into slavery in the markets of Constantinople"
     },
     {
-      "character": "haydee",
-      "from": "constantinople",
-      "to": "paris",
-      "chapter": 12,
-      "mode": "unknown",
-      "startDay": 8520.0,
-      "days": 10.0,
-      "note": "Years later the Count of Monte Cristo seeks her out, buys her freedom, and brings her to Paris - his ward, and the living witness to Fernand's treason"
-    },
+        "character": "haydee",
+        "from": "constantinople",
+        "to": "marseille",
+        "chapter": 12,
+        "mode": "ship",
+        "startDay": 8520,
+        "days": 7,
+        "via": [
+          [
+            27.4,
+            40.75
+          ],
+          {
+            "at": [
+              26.2,
+              40.15
+            ],
+            "name": "the Dardanelles"
+          },
+          [
+            25.9,
+            39.55
+          ],
+          [
+            25.55,
+            39.1
+          ],
+          [
+            25.6,
+            38.55
+          ],
+          [
+            26.45,
+            38.52
+          ],
+          {
+            "at": [
+              27.05,
+              38.43
+            ],
+            "name": "Smyrna"
+          },
+          [
+            26.45,
+            38.52
+          ],
+          [
+            25.9,
+            38.1
+          ],
+          {
+            "at": [
+              24.94,
+              37.44
+            ],
+            "name": "Syra"
+          },
+          {
+            "at": [
+              23.2,
+              36.3
+            ],
+            "name": "Cape Malea"
+          },
+          [
+            16.5,
+            35.9
+          ],
+          {
+            "at": [
+              14.51,
+              35.75
+            ],
+            "name": "Malta"
+          },
+          [
+            15.3,
+            36.55
+          ],
+          [
+            15.6,
+            38.25
+          ],
+          {
+            "at": [
+              15.85,
+              38.45
+            ],
+            "name": "the Strait of Messina"
+          },
+          {
+            "at": [
+              14.45,
+              40.6
+            ],
+            "name": "off Naples"
+          },
+          [
+            13.2,
+            40.8
+          ],
+          [
+            12.55,
+            41.35
+          ],
+          {
+            "at": [
+              11.79,
+              42.05
+            ],
+            "name": "Civitavecchia"
+          },
+          [
+            10.9,
+            42.4
+          ],
+          [
+            10,
+            42.9
+          ],
+          {
+            "at": [
+              10.25,
+              43.45
+            ],
+            "name": "Livorno"
+          },
+          [
+            9.2,
+            43.85
+          ],
+          [
+            8.2,
+            43.6
+          ],
+          [
+            6,
+            42.95
+          ]
+        ],
+        "routeNote": "The Levant packet track - and drawn this way, the ship that carries her to France passes within sight of the Tuscan archipelago: she sails past Monte Cristo on her way to the man who owns it.",
+        "routeSource": "No route named in the text - Haydée's journey to France happens off the page. Reconstructs the Levant packet line opened by the French Post Office's Mediterranean steam-packet service on 1 May 1837, a year before this journey: Constantinople - Smyrna - Syra - Malta - Naples - Civitavecchia - Livorno - Marseille.",
+        "routeCertainty": "reconstructed",
+        "note": "Out of the East by sea, on the packet line that had been running a year when she took it"
+      },
+    {
+        "character": "haydee",
+        "from": "marseille",
+        "to": "paris",
+        "chapter": 12,
+        "mode": "coach",
+        "startDay": 8527,
+        "days": 3,
+        "via": [
+          [
+            5.0975,
+            43.64
+          ],
+          {
+            "at": [
+              4.8055,
+              43.9493
+            ],
+            "name": "Avignon"
+          },
+          [
+            4.8918,
+            44.9333
+          ],
+          {
+            "at": [
+              4.8357,
+              45.764
+            ],
+            "name": "Lyon"
+          },
+          [
+            4.833,
+            46.306
+          ],
+          {
+            "at": [
+              4.8536,
+              46.7806
+            ],
+            "name": "Châlons-sur-Saône",
+            "note": "where the count's steamboat waited, and the carriage was hoisted aboard"
+          },
+          [
+            4.229,
+            47.282
+          ],
+          {
+            "at": [
+              3.9077,
+              47.4886
+            ],
+            "name": "Avallon"
+          },
+          [
+            3.2833,
+            48.1974
+          ],
+          {
+            "at": [
+              2.7,
+              48.4045
+            ],
+            "name": "Fontainebleau"
+          }
+        ],
+        "routeNote": "North by the same post road the Count uses, reversed.",
+        "routeSource": "No route named in the text - reconstructs the post road Dumas uses for this corridor elsewhere (ch. 9, ch. 106, ch. 112).",
+        "routeCertainty": "reconstructed",
+        "note": "Up the Rhône corridor to Paris, and the rooms furnished like Yanina"
+      },
     {
       "character": "danglars",
       "from": "marseille",
@@ -416,18 +623,119 @@
       "routeCertainty": "documented"
     },
     {
-      "character": [
-        "dantes",
-        "haydee"
-      ],
-      "from": "paris",
-      "to": "monte-cristo",
-      "chapter": 10,
-      "mode": "unknown",
-      "startDay": 8680.0,
-      "days": 4.0,
-      "note": "His enemies destroyed, the Count gives away his Paris house and fortune and withdraws, with Haydée, to the isle that remade him"
-    },
+        "character": [
+          "dantes",
+          "haydee"
+        ],
+        "from": "paris",
+        "to": "marseille",
+        "chapter": 10,
+        "mode": "coach",
+        "startDay": 8680,
+        "days": 2,
+        "via": [
+          {
+            "at": [
+              2.7,
+              48.4045
+            ],
+            "name": "Fontainebleau"
+          },
+          [
+            3.2833,
+            48.1974
+          ],
+          {
+            "at": [
+              3.9077,
+              47.4886
+            ],
+            "name": "Avallon"
+          },
+          [
+            4.229,
+            47.282
+          ],
+          {
+            "at": [
+              4.8536,
+              46.7806
+            ],
+            "name": "Châlons-sur-Saône",
+            "note": "where the count's steamboat waited, and the carriage was hoisted aboard"
+          },
+          [
+            4.833,
+            46.306
+          ],
+          {
+            "at": [
+              4.8357,
+              45.764
+            ],
+            "name": "Lyon"
+          },
+          [
+            4.8918,
+            44.9333
+          ],
+          {
+            "at": [
+              4.8055,
+              43.9493
+            ],
+            "name": "Avignon"
+          },
+          [
+            5.0975,
+            43.64
+          ]
+        ],
+        "routeNote": "Post-chaise out of Paris by the Burgundy road, and from Châlons down the Rhône by steamer with the carriage aboard - which is why this road runs by Châlons and not by Moulins.",
+        "routeSource": "Dumas routes it himself: the count leaves Paris in a post-chaise with four horses, and next morning 'they arrived at Châlons, where the count's steamboat waited for them' (ch. 112). The same journey is itemised stage by stage in ch. 106 - coupé to Châlons, steamboat to Lyons, steamboat to Avignon, road to Marseilles.",
+        "routeCertainty": "novel",
+        "note": "The withdrawal begins on the road he was once carried up in irons: south by the Burgundy post road and down the Rhône, back to the city where the whole account was opened"
+      },
+    {
+        "character": [
+          "dantes",
+          "haydee"
+        ],
+        "from": "marseille",
+        "to": "monte-cristo",
+        "chapter": 10,
+        "mode": "ship",
+        "startDay": 8682,
+        "days": 2,
+        "via": [
+          [
+            6,
+            42.9
+          ],
+          {
+            "at": [
+              8.6,
+              43.35
+            ],
+            "name": "the Ligurian Sea"
+          },
+          {
+            "at": [
+              9.7,
+              42.95
+            ],
+            "name": "the Corsica Channel"
+          },
+          [
+            9.9,
+            42.6
+          ]
+        ],
+        "routeNote": "Out of Marseille by yacht, south-east past Corsica and Elba to the island.",
+        "routeSource": "Ch. 117: the yacht stands in to the isle on 5 October. The sea road from Marseille runs south of the Ligurian coast and through the Corsica Channel, west of Elba.",
+        "routeCertainty": "novel",
+        "note": "The last stretch, and the only one that was ever going to be made by sea: out to the rock that made him rich, and out of the book"
+      },
     {
       "character": [
         "dantes",
@@ -533,14 +841,23 @@
       "narration": "Haydée is the daughter of Ali Pasha of Yanina, in Epirus - until the French officer Fernand, trusted by her father, sells him to the Turks for gold. Ali is killed; the child and her mother are carried off and sold into slavery at Constantinople."
     },
     {
-      "kind": "journey",
-      "character": "haydee",
-      "from": "constantinople",
-      "to": "paris",
-      "chapter": 12,
-      "title": "Bought by the Count",
-      "narration": "Years on, the Count of Monte Cristo finds her in the slave-markets, buys her freedom, and brings her to Paris as his ward - carrying, without her enemy knowing it, the one testimony that can destroy him."
-    },
+        "kind": "journey",
+        "character": "haydee",
+        "from": "constantinople",
+        "to": "marseille",
+        "chapter": 12,
+        "title": "Bought by the Count",
+        "narration": "Years on, the Count of Monte Cristo finds her in the slave-markets, buys her freedom, and brings her west by the Levant packet - carrying, without her enemy knowing it, the one testimony that can destroy him."
+      },
+    {
+        "kind": "journey",
+        "character": "haydee",
+        "from": "marseille",
+        "to": "paris",
+        "chapter": 12,
+        "title": "North to the Champs-Élysées",
+        "narration": "Ashore at Marseille, and north up the Rhône road to Paris, where she lives as his ward in rooms furnished like Yanina - the past he keeps, and the weapon he has not yet drawn."
+      },
     {
       "kind": "meanwhile",
       "narration": "Haydée safe in his house and every thread in his hand, the Count’s long patience is over. Wind forward to Paris, and the reckoning."
@@ -580,17 +897,29 @@
       "narration": "His enemies destroyed, the Count finds vengeance has left him hollow. Return to Edmond - and to Haydée, who has loved him all along, and who will not let him go alone."
     },
     {
-      "kind": "removal",
-      "character": [
-        "dantes",
-        "haydee"
-      ],
-      "from": "paris",
-      "to": "monte-cristo",
-      "chapter": 10,
-      "title": "The retreat",
-      "narration": "He gives away the house on the Champs-Élysées and the last of his millions, and withdraws with Haydée to the isle that remade him."
-    },
+        "kind": "removal",
+        "character": [
+          "dantes",
+          "haydee"
+        ],
+        "from": "paris",
+        "to": "marseille",
+        "chapter": 10,
+        "title": "The retreat",
+        "narration": "He gives away the house on the Champs-Élysées and the last of his millions, and goes south by the road he was once carried up in irons - back to Marseille, where the whole account was opened."
+      },
+    {
+        "kind": "journey",
+        "character": [
+          "dantes",
+          "haydee"
+        ],
+        "from": "marseille",
+        "to": "monte-cristo",
+        "chapter": 10,
+        "title": "Wait, and hope",
+        "narration": "From Marseille the yacht stands out south-east, past Corsica and Elba, for the rock that made him rich. He leaves word for Maximilian and Valentine, and the sail is watched until it is nothing - all human wisdom in two words: wait, and hope."
+      },
     {
       "kind": "journey",
       "character": [
