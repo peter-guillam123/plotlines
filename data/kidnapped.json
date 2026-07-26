@@ -257,7 +257,7 @@
         "chapter": 30,
         "day": 95.5,
         "kind": "leaves",
-        "note": "David and Alan part on the Corstorphine road, Alan to lie hidden in the fields until Rankeillor can find him a ship for France. Stevenson never shows him take it, and Kidnapped ends without another word of him, so the map stops where the book stops rather than leave him standing at the House of Shaws."
+        "note": "David and Alan part at Rest-and-be-Thankful on Corstorphine Hill, Alan to lie hidden in the fields until Rankeillor can find him a ship for France. Stevenson never shows him take it, and Kidnapped ends without another word of him, so the map walks him to the parting and stops where the book stops."
       }
     }
   ],
@@ -282,6 +282,22 @@
         "credit": "Robert W. Little, c.1890 · Wikimedia Commons · public domain",
         "indicative": true
       }
+    },
+    {
+      "id": "corstorphine-road",
+      "region": "lowlands",
+      "name": "Rest-and-be-Thankful, Corstorphine Hill",
+      "novelName": "the place called Rest-and-be-Thankful",
+      "coords": [
+        -3.2789,
+        55.9497
+      ],
+      "certainty": "real",
+      "note": "Named in the text, and still there: a viewpoint on Corstorphine Hill, on the by-way over the hill rather than the turnpike below it. From here the two look down on Corstorphine bogs and across to the city and the castle, and stop without needing to say why.",
+      "story": "Where the book lets Alan go. They come over the hill and stop at the viewpoint, knowing without a word said that this is where their ways part: Alan to lie hidden in the fields until Rankeillor can find him a ship for France, David on into the city alone. Stevenson never shows Alan take the ship, and the map stops where the book stops.",
+      "quote": "we both stopped, for we both knew without a word said that we had come to where our ways parted.",
+      "quoteRef": "Ch. 30",
+      "imageBlank": "The parting is a viewpoint on an open hill, and no contemporaneous view of that spot has been found; a general prospect of Edinburgh would claim more than the text does."
     },
     {
       "id": "house-of-shaws",
@@ -1060,13 +1076,38 @@
       "note": "By night David, Rankeillor and Alan go out to Shaws, and Alan lures Ebenezer into confessing he paid to have David kidnapped. The inheritance is won."
     },
     {
-      "character": "david-balfour",
+      "character": [
+        "david-balfour",
+        "alan-breck-stewart"
+      ],
       "from": "house-of-shaws",
-      "to": "edinburgh-british-linen",
+      "to": "corstorphine-road",
       "chapter": 30,
       "mode": "foot",
-      "days": 1,
-      "note": "David and Alan part on the Corstorphine road, and David walks on alone into Edinburgh, to the doors of the bank and his fortune."
+      "days": 0.5,
+      "via": [
+        [
+          -3.297,
+          55.962
+        ]
+      ],
+      "routeNote": "South from Cramond and up the by-way over Corstorphine Hill, the two walking together for the last time.",
+      "routeSource": "Stevenson, Ch. 30: they come the by-way over the hill of Corstorphine and stop near Rest-and-be-Thankful.",
+      "routeCertainty": "novel",
+      "note": "The walk the map had never drawn, which left Alan standing at the house of Shaws while the book had him on the road beside David."
+    },
+    {
+      "character": "david-balfour",
+      "from": "corstorphine-road",
+      "to": "edinburgh-british-linen",
+      "chapter": 30,
+      "startDay": 95.6,
+      "mode": "foot",
+      "days": 0.5,
+      "routeNote": "Down off the hill and east into the city, alone.",
+      "routeSource": "Stevenson, Ch. 30.",
+      "routeCertainty": "novel",
+      "note": "David walks on alone into Edinburgh, to the doors of the bank and his fortune."
     }
   ],
   "story": [
@@ -1264,12 +1305,24 @@
     },
     {
       "kind": "journey",
-      "character": "david-balfour",
+      "character": [
+        "david-balfour",
+        "alan-breck-stewart"
+      ],
       "from": "house-of-shaws",
-      "to": "edinburgh-british-linen",
+      "to": "corstorphine-road",
       "chapter": 30,
       "title": "Good-bye",
-      "narration": "His fortune won, David parts from Alan on the Corstorphine road - Alan to find a ship for France, David on alone into Edinburgh, to the doors of the British Linen bank. Rich, safe, and strangely heavy-hearted."
+      "narration": "His fortune won, the two come the by-way over Corstorphine Hill, and at the viewpoint called Rest-and-be-Thankful they stop - knowing without a word said that this is where their ways part. Alan is to lie hidden in the fields until Rankeillor can find him a ship for France."
+    },
+    {
+      "kind": "journey",
+      "character": "david-balfour",
+      "from": "corstorphine-road",
+      "to": "edinburgh-british-linen",
+      "chapter": 30,
+      "title": "The doors of the bank",
+      "narration": "David goes on alone into Edinburgh, to the doors of the British Linen Company's bank and the fortune that is his at last - rich, safe, and strangely heavy-hearted."
     }
   ]
 }

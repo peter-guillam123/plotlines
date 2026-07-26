@@ -719,12 +719,15 @@
       "note": "The parson to his own parish and church"
     },
     {
-      "character": "jane",
+      "character": [
+        "jane",
+        "st-john"
+      ],
       "from": "morton",
       "to": "moor-house",
       "chapter": 34,
       "mode": "foot",
-      "note": "Back to Moor House once the cousinship and the shared fortune are known - St John pressing her, on these moors, to marry him and go to India"
+      "note": "Back to Moor House once the cousinship and the shared fortune are known - St John pressing her, on these moors, to marry him and go to India. He walks off the parish with her: the map used to leave him standing at Morton while the story had him proposing at Moor House."
     },
     {
       "character": "jane",
