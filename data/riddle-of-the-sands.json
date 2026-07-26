@@ -938,7 +938,12 @@
       "days": 6,
       "startDay": 0,
       "medium": "river",
-      "note": "Davies and his friend Morrison cross from Dover to Ostend and thread the Dutch rivers and canals up to Amsterdam."
+      "note": "Davies and his friend Morrison cross from Dover to Ostend and thread the Dutch rivers and canals up to Amsterdam.",
+      "medium": "river",
+      "via": [{"at":[2.43,51.38],"name":"the West Hinder","note":"'West Hinder 5 a.m., outside all banks' - the log's own words"},{"at":[2.9286,51.2154],"name":"Ostend","note":"a filthy hole, Davies calls it; two days lost to a fouled buoy and a carried-away bobstay"},[3.2,51.35],{"at":[3.57,51.44],"name":"the mouth of the Scheldt"},[3.9,51.45],[4.05,51.6],[4.35,51.7],{"at":[4.66,51.81],"name":"Dordrecht"},{"at":[4.48,51.92],"name":"Rotterdam","note":"swarms of tugs buzzing about and shaving one's bows every second"},[4.85,51.98],[5.12,52.09],{"at":[5.03,52.25],"name":"the Vecht"},[5.07,52.33]],
+      "routeNote": "Out of Dover overnight and across to Ostend, then up the Scheldt and through the Dutch waterways - a sea passage that turns into an inland one, which is why it carries the river tag.",
+      "routeSource": "Childers logs it stage by stage in ch. 3: they leave Dover on 6 August and make \"a good passage to Ostend\" (the log reading \"Under way 7 p.m. … West Hinder 5 a.m., outside all banks; Ostend 11 a.m.\"); then the Scheldt, \"by Dordrecht to Rotterdam\", and \"on by the Vecht river to Amsterdam\". The line used to run straight across the North Sea, which its own note already contradicted.",
+      "routeCertainty": "novel"
     },
     {
       "character": "davies",
@@ -970,6 +975,9 @@
           53.35
         ]
       ],
+      "routeNote": "Out of the Zuider Zee to the Frisian islands, where Morrison leaves him and the cruise proper begins.",
+      "routeSource": "Childers takes them out of Amsterdam 'into the North Sea again' and on up the Frisian coast (ch. 3); Terschelling is where Morrison goes home and Davies goes on east alone.",
+      "routeCertainty": "novel",
       "note": "Out through the Zuider Zee to the Frisian islands; at Terschelling Morrison leaves him, and Davies goes on east alone.",
       "spillOk": true,
       "spillNote": "Davies crosses the Zuider Zee - open arm of the sea in 1902, now the dammed and part-reclaimed IJsselmeer, which the coarse coast polygon reads as land. On the detailed base it draws over water."
@@ -1105,6 +1113,9 @@
           54.82
         ]
       ],
+      "routeNote": "North up the Schleswig coast and into the Flensburg fiord.",
+      "routeSource": "The text moves the Dulcibella from Kiel up to the Flensburg fiord without naming a course; the drawn line follows the obvious coastal passage north from Kiel Bay round to the fiord mouth.",
+      "routeCertainty": "documented",
       "note": "By sea up the Baltic coast and into the Flensburg fiord."
     },
     {
@@ -1571,6 +1582,9 @@
           53.44
         ]
       ],
+      "routeNote": "Across the last of the Dutch shoals to the anchorage off Ostmahorn.",
+      "routeSource": "A short passage the text places among the Dutch shoals but does not chart; the two beads keep the line in channel water rather than over the drying sands.",
+      "routeCertainty": "documented",
       "note": "Through the Dutch shoals to anchor off the hamlet of Ostmahorn.",
       "spillOk": true,
       "spillNote": "The sheltered Dutch Wadden behind Schiermonnikoog and Ameland; the coarse polygon welds the islands to the mainland, but this is the real tidal fairway."
@@ -1637,6 +1651,9 @@
           51.46
         ]
       ],
+      "routeNote": "Home by the ordinary mail-steamer, the riddle solved and the warning to carry.",
+      "routeSource": "The last chapter puts them on the regular packet home rather than the yacht; the line follows the mail-steamer track out of the Zuider Zee, down the Dutch coast and into the Thames.",
+      "routeCertainty": "documented",
       "note": "And home by the ordinary mail-steamer, the riddle solved and the warning to carry.",
       "spillOk": true,
       "spillNote": "The mail-steamer runs up the tidal Thames to London - navigable water the coarse polygon carries as land for the last stretch."
