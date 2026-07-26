@@ -1,0 +1,1646 @@
+{
+  "title": "The Sport of the Gods",
+  "author": "Paul Laurence Dunbar",
+  "year": 1902,
+  "gutenbergId": 17854,
+  "quoteNote": "The Sport of the Gods, Project Gutenberg #17854 (Dodd, Mead 1902; first printed complete in Lippincott's, May 1901). Dunbar's own word throughout is 'negro', the period's respectful term and his; it stands in his quotations and is not used in our narration. The novel's slurs sit in white mouths and none is quoted here.",
+  "overture": "A butler of twenty years is convicted of a theft he did not commit, on his employer's word and nothing else. His family are driven out of the only town they know and go north to New York, which they have heard of the way people hear of Heaven. There the three of them come apart, one at a time, in the space of a few blocks - and the two who are left go home to the same cottage in the same yard, next door to the man whose word convicted him.",
+  "mapHome": {
+    "bounds": [
+      [
+        -78.2,
+        36.6
+      ],
+      [
+        -73.4,
+        41.2
+      ]
+    ]
+  },
+  "timeline": {
+    "epoch": null,
+    "calendar": false,
+    "span": "five years",
+    "duration": "five years",
+    "unit": "year"
+  },
+  "sources": [
+    "Text: Project Gutenberg #17854, the Dodd, Mead 1902 first book edition. The novel was first printed complete in Lippincott's Monthly Magazine, May 1901.",
+    "THE SOUTHERN TOWN IS NEVER NAMED, and neither is its state - Jon-Christian Suggs writes of 'the governor of the unnamed southern state'. Three independent research passes found no scholar, editor or biographer who identifies either; the reference literature (Salem Press's Cyclopedia of Literary Places) says flatly that 'the unnamed southern town is supposed to represent a typical place in the South'. Our pin is an editorial placement built from the clues, not a finding. See the note on the town pin. Honest gap: Lawrence R. Rodgers's chapter in Canaan Bound (1997) and his 1992 American Literary Realism article are the likeliest places a geographic argument would live, and both were paywalled to us.",
+    "Berry is a town butler and the Oakleys are town gentry - NOT a plantation. The word 'plantation' appears three times in the novel and every one is something Dunbar is arguing against ('Fiction has said so much in regret of the old days when there were plantations'). Publisher blurbs describing a 'prosperous southern plantation' are wrong on the text.",
+    "The New York half is the Tenderloin - though note that neither 'Tenderloin' nor 'Harlem' appears anywhere in the novel. Dunbar gives one address, Twenty-seventh Street, and Tenderloin is the critics' term for that district. The reference works that call this book's New York 'early Harlem' are anachronistic: Harlem's Black community post-dates it by roughly a decade. James Weldon Johnson, writing the same streets from the inside in 1912, puts his narrator in 'a lodging house in Twenty-seventh Street, just west of Sixth Avenue' - the closest corroboration there is.",
+    "The novel was first printed complete in Lippincott's, May 1901, and revised for the 1902 book. The single most specific spatial fact about the town - that Joe 'had never been more than thirty miles from his native town' - does not exist in the serial. Dunbar added it, and the whole train-departure paragraph around it, for the book.",
+    "Robert M. Dowling, Slumming in New York: From the Waterfront to Mythic Harlem (Illinois, 2007), ch. 'Marginal Men in Black Bohemia', is the standard topography for the Tenderloin of these chapters.",
+    "The rail route north is ours, not Dunbar's - he names no line. It follows the only through road of 1900 (Atlantic Coast Line to Richmond, RF&P to Washington, Pennsylvania Railroad to Jersey City) and ends at the Hudson ferry, which the novel does give.",
+    "NO PHOTOGRAPHS. This is the only book on the shelf with a picture on none of its pins, and the reason is the novel's, not ours: Dunbar refuses to name the town, the state, the hotel, the court, the club, the theatre, the newspaper or either street. Fourteen of the seventeen places here are invented or unlocated, so any period photograph would be a real building standing in for one the book withholds - and on a novel about a family destroyed by a plausible story confidently told, that is the wrong kind of picture. The three identified pins are blank for their own reasons, logged on each. The absence is the honest reading of the text."
+  ],
+  "regions": [
+    {
+      "id": "the-south",
+      "name": "The South - the town with no name"
+    },
+    {
+      "id": "the-tenderloin",
+      "name": "New York: the Tenderloin"
+    },
+    {
+      "id": "abroad",
+      "name": "Paris"
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "title": "The cottage in the yard",
+      "day": 0,
+      "when": "the household, before"
+    },
+    {
+      "n": 2,
+      "title": "The farewell dinner",
+      "day": 2,
+      "when": "the household, before"
+    },
+    {
+      "n": 3,
+      "title": "The money is missed",
+      "day": 3,
+      "when": "the theft"
+    },
+    {
+      "n": 4,
+      "title": "Berry is taken",
+      "day": 4,
+      "when": "the theft"
+    },
+    {
+      "n": 5,
+      "title": "The trial",
+      "day": 20,
+      "when": "ten years at hard labour"
+    },
+    {
+      "n": 6,
+      "title": "Driven out",
+      "day": 30,
+      "when": "ten years at hard labour"
+    },
+    {
+      "n": 7,
+      "title": "New York",
+      "day": 36,
+      "when": "their first October in the city"
+    },
+    {
+      "n": 8,
+      "title": "The theatre",
+      "day": 38,
+      "when": "their first October in the city"
+    },
+    {
+      "n": 9,
+      "title": "The Banner Club",
+      "day": 60,
+      "when": "the city takes Joe"
+    },
+    {
+      "n": 10,
+      "title": "Minty Brown",
+      "day": 200,
+      "when": "the city takes Joe"
+    },
+    {
+      "n": 11,
+      "title": "Out of the boarding house",
+      "day": 350,
+      "when": "the first year"
+    },
+    {
+      "n": 12,
+      "title": "Kitty on the stage",
+      "day": 380,
+      "when": "the first year"
+    },
+    {
+      "n": 13,
+      "title": "The letter from Paris",
+      "day": 400,
+      "when": "meanwhile, at the great house"
+    },
+    {
+      "n": 14,
+      "title": "Hattie Sterling",
+      "day": 1750,
+      "when": "five years"
+    },
+    {
+      "n": 15,
+      "title": "Until the gods grow tired",
+      "day": 1790,
+      "when": "five years"
+    },
+    {
+      "n": 16,
+      "title": "Skaggs goes South",
+      "day": 1810,
+      "when": "the pardon"
+    },
+    {
+      "n": 17,
+      "title": "Out like an ox from his stall",
+      "day": 1830,
+      "when": "the pardon"
+    },
+    {
+      "n": 18,
+      "title": "Home",
+      "day": 1860,
+      "when": "home"
+    }
+  ],
+  "characters": [
+    {
+      "id": "berry",
+      "name": "Berry Hamilton",
+      "colour": "prussian",
+      "role": "Born a slave and stayed in the South after freedom; the Oakleys' butler of twenty years, convicted of a theft he did not commit - and the only person in the book who ends where he began",
+      "start": {
+        "location": "cottage",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "fannie",
+      "name": "Fannie Hamilton",
+      "colour": "aubergine",
+      "role": "Housekeeper at the great house, then the family's only earner in New York; told that a penitentiary sentence had divorced her, married to the man who told her and beaten by him, and Berry's again when he died",
+      "start": {
+        "location": "cottage",
+        "chapter": 1
+      }
+    },
+    {
+      "id": "joe",
+      "name": "Joe Hamilton",
+      "colour": "madder",
+      "role": "The barber's son who had never been thirty miles from home, and whom the city flatters, empties and finally takes",
+      "start": {
+        "location": "cottage",
+        "chapter": 1
+      },
+      "exit": {
+        "chapter": 15,
+        "day": 1795,
+        "kind": "leaves",
+        "note": "The book stops following him. He is alive, under a life sentence for Hattie's murder, awaiting removal from a New York gaol to a prison Dunbar never names - so the map lets him go rather than invent a cell for him."
+      }
+    },
+    {
+      "id": "kitty",
+      "name": "Kitty Hamilton",
+      "colour": "ochre",
+      "role": "The daughter who sings, gets into the chorus of Martin's Blackbirds, and is hardened by the getting - she will not pay for her brother's lawyer, and keeps the money with satisfaction",
+      "start": {
+        "location": "cottage",
+        "chapter": 1
+      },
+      "exit": {
+        "chapter": 15,
+        "day": 1792,
+        "kind": "leaves",
+        "note": "\"Kit was on the road\" is the last the novel says of her. She went out with her company before her brother was taken away, and no destination is ever given, so the map does not pretend to one."
+      }
+    },
+    {
+      "id": "frank",
+      "name": "Frank Oakley",
+      "colour": "sienna",
+      "role": "The painter half-brother whose gambling debt and lie put Berry in prison - the engine of the whole book, and never once suspected",
+      "start": {
+        "location": "oakley-house",
+        "chapter": 1
+      },
+      "exit": {
+        "chapter": 13,
+        "day": 400,
+        "kind": "leaves",
+        "note": "His confession arrives from Paris with the instruction that ends him: \"do not seek to find me, for from this time I shall be as one who has perished from the earth; I shall be no more.\" Dunbar never says whether he lived."
+      }
+    },
+    {
+      "id": "skaggs",
+      "name": "Skaggs",
+      "colour": "bottle",
+      "role": "A white reporter on the Universe, young enough to be fascinated by the bizarre and a fluent liar about his own life, who nevertheless goes South and gets an innocent man out",
+      "start": {
+        "location": "banner-club",
+        "chapter": 9
+      },
+      "exit": {
+        "chapter": 17,
+        "day": 1835,
+        "kind": "leaves",
+        "note": "He delivers Berry to New York and the novel drops him; the last chapter mentions his paper but not the man."
+      }
+    },
+    {
+      "id": "hattie",
+      "name": "Hattie Sterling",
+      "colour": "slate",
+      "role": "The chorus singer who picks Joe up out of the Banner Club, keeps him, tires of him, and is strangled by him for it",
+      "start": {
+        "location": "banner-club",
+        "chapter": 9
+      },
+      "exit": {
+        "chapter": 14,
+        "day": 1780,
+        "kind": "dies",
+        "note": "Joe lets himself in with the latch-key he had been used to and kills her in her own house - the book's one death, and the hinge the whole New York half turns on."
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "the-town",
+      "region": "the-south",
+      "name": "The Southern town (placed at Petersburg, Virginia)",
+      "novelName": "this fine old Southern town",
+      "coords": [
+        -77.4019,
+        37.2279
+      ],
+      "certainty": "conjectured",
+      "note": "BEST GUESS, and the most important guess in the book. Dunbar never names the town, the state, the county or the river, and no scholar has identified it - the reference literature says it is generic by design. The namelessness is his argument: it is meant to be every Southern town. Our placement is an editorial judgement from the clues. Chapter 2 makes it a seceded state whose region the war left in ruin, and whose men had a 'cause' - which rules out Kentucky and Maryland. It is not the state capital, which is a separate journey; Joe has never been more than thirty miles from it; it is big enough for a Chief of Police, a detective and evening papers, with a deep Black community of lodges, churches and barber shops. Petersburg satisfies all of that: besieged for ten months, twenty-one thousand people in 1900, one of the oldest free-Black communities in the South, and twenty-three miles from Richmond - which is both the capital and, in this period, the state penitentiary. The one clue it fails is Joe's 'live on the levee an' steal', the novel's only topographical word; Dunbar's dialect is a pan-Southern literary composite written by an Ohio-born poet, not a regional transcription, so it is weak evidence for a river town.",
+      "story": "The town the Hamiltons are from and are driven out of, and which Dunbar refuses to name even once. It has a Continental Hotel whose bar convicts Berry in conversation before any court convicts him in law, a police station with a telephone, evening papers, a Grand Jury, an A. M. E. church, and a Black lodge called the Tribe of Benjamin of which Berry is treasurer. Every one of those is real to the novel; the name of the place is not.",
+      "quote": "The company which Maurice Oakley brought together to say good-bye to his brother on this occasion was drawn from the best that this fine old Southern town afforded.",
+      "quoteRef": "Ch. 2",
+      "imageBlank": "The town is unnamed and our placement is a judgement; a photograph of the real Petersburg would turn an honest editorial guess into a claim about a real place Dunbar never made."
+    },
+    {
+      "id": "cottage",
+      "region": "the-south",
+      "name": "The Hamiltons' cottage, in the Oakley yard",
+      "novelName": "the little cottage in the yard",
+      "coords": [
+        -77.401,
+        37.2279
+      ],
+      "certainty": "conjectured",
+      "note": "Inside the conjectured town, but with one real measurement of its own: Dunbar puts the cottage 'some hundred paces from the mansion', so the two pins sit about eighty metres apart - which is the whole geography of Berry's life and, at the end, of his ruin.",
+      "story": "Where the novel opens and where it closes. Dunbar's first page sets it 'somewhat in the manner of the old cabin in the quarters', and Berry had been a slave. A creeper over the door, morning-glories in summer, and twenty years of a life spent a hundred paces from the house he served in. At the end Leslie Oakley reopens it with her own hands, and the two of them sit in it listening to her husband shrieking across the yard.",
+      "quote": "The little cottage in which he lived with his wife, Fannie, who was housekeeper to the Oakleys, and his son and daughter, Joe and Kit, sat back in the yard some hundred paces from the mansion of his employer.",
+      "quoteRef": "Ch. 1",
+      "imageBlank": "An invented cottage in an unnamed town; there is nothing to photograph that would not be a stand-in pretending to be the thing."
+    },
+    {
+      "id": "oakley-house",
+      "region": "the-south",
+      "name": "The Oakley house",
+      "novelName": "the great house",
+      "coords": [
+        -77.4019,
+        37.2286
+      ],
+      "certainty": "conjectured",
+      "note": "The mansion the cottage sits a hundred paces behind. Its library is where the theft is discussed and Berry's fate decided; its side porch is what makes the detective look at the butler's cottage first.",
+      "story": "Maurice Oakley's house, and the source of everything. Here his half-brother's gambling debt becomes a lie about nine hundred and eighty-six stolen dollars; here the police are telephoned; and here, five years on, Oakley goes mad guarding the letter that would have freed the man he ruined.",
+      "quote": "When, having married, Oakley bought the great house in which he now lived, he left the little servant's cottage in the yard, for, as he said laughingly, \"There is no telling when Berry will be following my example and be taking a wife unto himself.\"",
+      "quoteRef": "Ch. 1",
+      "imageBlank": "An invented house in an unnamed town."
+    },
+    {
+      "id": "continental",
+      "region": "the-south",
+      "name": "The Continental Hotel",
+      "novelName": "the Continental",
+      "coords": [
+        -77.403,
+        37.229
+      ],
+      "certainty": "conjectured",
+      "note": "The town's forum, and it does three jobs: the bar where the white men settle Berry's guilt before the trial, the hotel that refuses Joe a bell-boy's place because of his father, and Skaggs's base five years later when he comes South to undo it.",
+      "story": "\"I did n't know that you were Berry Hamilton's boy.\" The bar of the Continental is where the town's opinion is made, and where it is unmade: it convicts Berry over drinks in chapter five, closes its door to his son in chapter six, and in chapter sixteen gives a New York reporter the gossip that gets Berry out.",
+      "quote": "These things did not come up, and as far as the opinion of the gentlemen assembled in the Continental bar went, Berry was already proven guilty.",
+      "quoteRef": "Ch. 5",
+      "imageBlank": "An invented hotel in an unnamed town."
+    },
+    {
+      "id": "court",
+      "region": "the-south",
+      "name": "The court-room and the town gaol",
+      "novelName": "the jail",
+      "coords": [
+        -77.4045,
+        37.23
+      ],
+      "certainty": "conjectured",
+      "note": "One pin for the cell and the court, which the novel keeps within a few sentences of each other.",
+      "story": "Where a man is given ten years on his employer's word and nothing else. The town turns out to watch. Dunbar's point is not that the trial is corrupt but that it is ordinary: everybody has already decided, and the court is a formality performed on a man who has no way to answer it.",
+      "quote": "In vain he produced proof of the slow accumulation of what the man had. In vain he pleaded the man's former good name. The judge and the jury saw otherwise.",
+      "quoteRef": "Ch. 5",
+      "imageBlank": "An invented court in an unnamed town."
+    },
+    {
+      "id": "station",
+      "region": "the-south",
+      "name": "The railway station",
+      "novelName": "the station",
+      "coords": [
+        -77.398,
+        37.226
+      ],
+      "certainty": "conjectured",
+      "note": "Three departures pass through it: Frank's for New York and Paris, Berry's under guard for the penitentiary, and the family's for the North.",
+      "story": "The same platform three times, and each time it takes someone away for good. The last of them carries Fannie, Joe and Kitty north, watching the town go until the last spire has gone with it.",
+      "quote": "As the train drew out of the station, he did not look back upon the place which he hated, but Fannie and her daughter let their eyes linger upon it until the last house, the last chimney, and the last spire faded from their sight, and their tears fell and mingled as they were whirled away toward the unknown.",
+      "quoteRef": "Ch. 6",
+      "imageBlank": "An invented station in an unnamed town."
+    },
+    {
+      "id": "capital",
+      "region": "the-south",
+      "name": "The capital of the State, and the penitentiary (placed at Richmond)",
+      "novelName": "the capital of the State",
+      "coords": [
+        -77.436,
+        37.5407
+      ],
+      "certainty": "conjectured",
+      "note": "The novel puts the Governor in 'the capital of the State' and Berry in 'the prison of his native State', and never locates either. They share one pin here because the placement of the town makes them share one place: Virginia's capital and its state penitentiary were both at Richmond. Twenty-three miles from the town pin, just inside the thirty-mile edge of Joe's world.",
+      "story": "Where Skaggs beards the Governor with a great newspaper behind him, and where Berry has spent five years of a ten-year sentence at hard labour. He comes out of it, in the novel's flattest and most terrible sentence, like an animal let out of a stall.",
+      "quote": "He had lived like an ox, working without inspiration or reward, and he came forth like an ox from his stall.",
+      "quoteRef": "Ch. 17",
+      "imageBlank": "The state is never named in the novel and this pin is a consequence of our own placement of the town; a photograph of the real Virginia Penitentiary would assert a prison Dunbar declined to name."
+    },
+    {
+      "id": "ferry",
+      "region": "the-tenderloin",
+      "name": "The Hudson ferry, from the Jersey shore",
+      "novelName": "the ferry over the river",
+      "coords": [
+        -74.0134,
+        40.7098
+      ],
+      "certainty": "identified",
+      "note": "The one piece of real northern geography the novel gives without naming it. In 1900 no railway from the South reached Manhattan; every through train stopped on the Jersey shore and passengers crossed by ferry. The pin is the Cortlandt Street slip on the 1900 shoreline, two blocks west of where modern Cortlandt Street ends.",
+      "story": "The crossing that is the whole migration in one sentence. Fannie has misgivings about the boat; her son does not - for Joe, coming over the water into the spires is the moment the city takes him, and he will never afterwards be able to imagine leaving it.",
+      "quote": "If he have any eye at all for the beautiful, he cannot help experiencing a thrill as he crosses the ferry over the river filled with plying craft and catches the first sight of the spires and buildings of New York.",
+      "quoteRef": "Ch. 7",
+      "imageBlank": "The slip is identified; the picture is the problem. Every surviving photograph of a Hudson ferry house is of one named company's boat on one dated afternoon, and putting it here would tell a reader we know which crossing this was. Dunbar gives an October afternoon and no line."
+    },
+    {
+      "id": "boarding-house",
+      "region": "the-tenderloin",
+      "name": "Mrs Jones's boarding house, West Twenty-seventh Street",
+      "novelName": "a four-storied brick dwelling on Twenty-seventh Street",
+      "coords": [
+        -73.9917,
+        40.7456
+      ],
+      "certainty": "identified",
+      "note": "The only address in the novel, and the reason the New York half can be mapped at all. Dunbar gives the street but not the side; West Twenty-seventh just off Sixth Avenue is where the Black Tenderloin was, and James Weldon Johnson - writing the same district from the inside in 1912 - puts his own narrator in 'a lodging house in Twenty-seventh Street, just west of Sixth Avenue'. East Twenty-seventh in 1900 was Kips Bay and had no such lodging economy.",
+      "story": "Where the family land, and are impressed: it looks grander than anything they knew. It is the last place the three of them live together. Within a year Joe has been put out of it, and Minty Brown's gossip has driven the others out after him.",
+      "quote": "It was a four-storied brick dwelling on Twenty-seventh Street.",
+      "quoteRef": "Ch. 7",
+      "imageBlank": "A specific brick house on a street Dunbar names but does not number; a photograph of the wrong building would be a small lie in the one place the novel is precise."
+    },
+    {
+      "id": "banner-club",
+      "region": "the-tenderloin",
+      "name": "The Banner Club",
+      "novelName": "the Banner Club",
+      "coords": [
+        -73.9925,
+        40.7466
+      ],
+      "certainty": "conjectured",
+      "note": "Fictional, and Dunbar gives no address: a bar below, a long brilliantly lit room above with a piano and tables, and a stoop. Placed a block up and a street west of the boarding house - walking distance, which the novel requires. Read as a composite of the real Black Tenderloin clubs of the 1890s; no single model is attested, so none is named here.",
+      "story": "Where Joe is finished. Dunbar is savage about the club and careful about the men in it: it draws parasites and politicians and reporters, but also bright men come there after days of hard and unrewarded work, because there is nowhere else. Joe spends four years on that staircase.",
+      "quote": "The Banner Club was an institution for the lower education of negro youth.",
+      "quoteRef": "Ch. 9",
+      "imageBlank": "An invented club, and the period photographs of Tenderloin nightlife are white photographers' slumming pictures of Black people - exactly the posed and demeaning kind of image the picture rules refuse."
+    },
+    {
+      "id": "theatre",
+      "region": "the-tenderloin",
+      "name": "The theatre, off Broadway",
+      "novelName": "the cheap New York theatre",
+      "coords": [
+        -73.9884,
+        40.7461
+      ],
+      "certainty": "conjectured",
+      "note": "Named only as 'the cheap New York theatre' and later 'the opera-house'; Dunbar is not consistent and gives no street, so one pin covers both the family's first night out and Kitty's engagement with Martin's Blackbirds.",
+      "story": "The family's second night in the city, and the sentence that tells you what they came from: in the South they had sat in the peanut gallery, in the place reserved for people of colour. Here they sit where they like. It is the first good thing New York gives them, and it is what takes Kitty away.",
+      "quote": "Mrs. Hamilton had been in a theatre but once before in her life, and Joe and Kit but a few times oftener. On those occasions they had sat far up in the peanut gallery in the place reserved for people of colour.",
+      "quoteRef": "Ch. 8",
+      "imageBlank": "The theatre is unnamed and unlocated; any real house would be our invention wearing a real facade."
+    },
+    {
+      "id": "hatties-house",
+      "region": "the-tenderloin",
+      "name": "Hattie Sterling's house",
+      "novelName": "Hattie's",
+      "coords": [
+        -73.994,
+        40.748
+      ],
+      "certainty": "conjectured",
+      "note": "No street given. Placed within the same few Tenderloin blocks as the club and the theatre, which is all the novel's geography requires of it.",
+      "story": "Where Kitty auditions and is told she has a voice, and where, four years later, her brother lets himself in with a latch-key he had been told not to use again, and kills the woman who kept him.",
+      "quote": "It was very late when he reached Hattie's door, but he opened it with his latch-key, as he had been used to do.",
+      "quoteRef": "Ch. 14",
+      "imageBlank": "A private house on an unnamed street."
+    },
+    {
+      "id": "the-flat",
+      "region": "the-tenderloin",
+      "name": "The flat",
+      "novelName": "the flat",
+      "coords": [
+        -73.9905,
+        40.749
+      ],
+      "certainty": "conjectured",
+      "note": "Taken by Fannie and Kitty when Mrs Jones puts them out, and afterwards Gibson's. Dunbar gives it a stoop, a bell-pull and a door-plate, and no street.",
+      "story": "Taken by Fannie and Kitty when the boarding house puts them out, and afterwards the home of Tom Gibson, the race-horse man Fannie marries when she is told a sentence is as good as a divorce. It is where Berry comes at last, out of five years in prison, and rings the bell for his wife - and cannot read the other man's name on the door-plate, because prison has taken the little reading he had. It is the cruellest small detail in the novel.",
+      "quote": "Had not Berry's years of prison life made him forget what little he knew of reading, he might have read the name Gibson on the door-plate where they told him to ring for his wife.",
+      "quoteRef": "Ch. 18",
+      "imageBlank": "An unnamed flat on an unnamed street."
+    },
+    {
+      "id": "universe",
+      "region": "the-tenderloin",
+      "name": "The Universe office, Park Row",
+      "novelName": "the Universe",
+      "coords": [
+        -74.0045,
+        40.7113
+      ],
+      "certainty": "conjectured",
+      "note": "The Universe is a fictional yellow paper, plainly modelled on the Pulitzer and Hearst press, and Dunbar gives it no address. Placed on Park Row, where in 1902 every major New York daily had its building. Our inference, not the novel's.",
+      "story": "The paper frees Berry Hamilton because his innocence makes a story, photographs him before and after for the morning edition, crows about how great it is, and gives him the under-janitorship of its own building. The one act of justice in the book is cashed out into a broom.",
+      "quote": "He remembered now that the Universe had offered him the under janitorship in its building.",
+      "quoteRef": "Ch. 18",
+      "imageBlank": "An invented newspaper; a photograph of the real Newspaper Row would name a paper Dunbar did not."
+    },
+    {
+      "id": "paris",
+      "region": "abroad",
+      "name": "Paris, the Latin Quarter",
+      "novelName": "the Latin Quarter",
+      "coords": [
+        2.3453,
+        48.8491
+      ],
+      "certainty": "identified",
+      "note": "The one place in the novel outside America, and the only pin here with a positive longitude. Dunbar names Paris repeatedly and the Latin Quarter once, and gives no address; the pin is the Quartier de la Sorbonne.",
+      "story": "Where Frank Oakley goes back to, on nothing but the lie, and where he stays. His confession comes from here a year later, on absinthe and self-pity, and asks not to be looked for. The lie that destroyed a family costs its author a change of address.",
+      "quote": "Why could not Francis marry Claire Lessing and settle in America, instead of going back ever and again to that life in the Latin Quarter?",
+      "quoteRef": "Ch. 2",
+      "imageBlank": "The Latin Quarter is named but unlocated in the text, and the beat is about a man disappearing into it rather than about the place."
+    },
+    {
+      "id": "exchange-place",
+      "name": "Exchange Place, the Jersey shore",
+      "realName": "Exchange Place terminal, Jersey City, New Jersey",
+      "coords": [
+        -74.0335,
+        40.7163
+      ],
+      "certainty": "identified",
+      "story": "Where the North actually began. Every through train from the South stopped here, on the wrong side of the Hudson, and put its passengers on a boat for the last mile. The Hamiltons' first sight of New York is from the water, which is why it looks like Heaven.",
+      "note": "Dunbar never names it: he writes only that they 'took the ferry to the island'. The Pennsylvania Railroad had no bridge into Manhattan until 1910, so its New York terminus in 1900 was this pier in Jersey City, and the crossing was part of the ticket.",
+      "imageBlank": "Period photographs of the terminal exist but none I could clear; the pin carries its own note instead.",
+      "region": "the-tenderloin"
+    },
+    {
+      "id": "havre",
+      "name": "Le Havre",
+      "realName": "Le Havre, Seine-Inférieure, France",
+      "coords": [
+        0.1079,
+        49.4938
+      ],
+      "certainty": "conjectured",
+      "story": "Where the boat put Frank Oakley down. Dunbar shows nothing of the crossing and nothing of the landing - only the French postmarks afterwards, which are the whole evidence that the man who ruined the Hamiltons got away clean.",
+      "note": "Not named in the novel. The New York-Havre run was the ordinary passage to Paris in 1900, and Havre is where a train for the capital left from; the pin is here so the map does not sail a ship across Normandy.",
+      "imageBlank": "A conjectured landfall; an honest picture of it would imply we know he stood there.",
+      "region": "abroad"
+    }
+  ],
+  "movements": [
+    {
+      "character": "frank",
+      "from": "oakley-house",
+      "to": "station",
+      "chapter": 4,
+      "mode": "coach",
+      "startDay": 4,
+      "days": 0.02,
+      "note": "The carriage to the station, with Berry waving them off from the steps - the last hour before everything"
+    },
+    {
+      "character": "berry",
+      "from": "cottage",
+      "to": "oakley-house",
+      "chapter": 4,
+      "mode": "foot",
+      "startDay": 3.9,
+      "days": 0.01,
+      "routeNote": "A hundred paces across the yard, the walk of his working life.",
+      "routeSource": "Ch. 1: the cottage stands behind the house, and Berry answers the bell in the library.",
+      "routeCertainty": "novel",
+      "note": "Crossing the yard to work on the morning they come for him"
+    },
+    {
+      "character": "berry",
+      "from": "oakley-house",
+      "to": "court",
+      "chapter": 4,
+      "mode": "foot",
+      "startDay": 4.3,
+      "days": 0.02,
+      "note": "Taken in the house he had served in for twenty years, in his own livery"
+    },
+    {
+      "character": "frank",
+      "from": "station",
+      "to": "exchange-place",
+      "chapter": 4,
+      "mode": "train",
+      "startDay": 4.4,
+      "days": 2,
+      "via": [
+        {
+          "at": [
+            -77.436,
+            37.5407
+          ],
+          "name": "Richmond",
+          "note": "the capital, and the far edge of Joe's thirty-mile world"
+        },
+        {
+          "at": [
+            -77.4605,
+            38.3032
+          ],
+          "name": "Fredericksburg"
+        },
+        {
+          "at": [
+            -77.0369,
+            38.9072
+          ],
+          "name": "Washington"
+        },
+        {
+          "at": [
+            -76.6122,
+            39.2904
+          ],
+          "name": "Baltimore"
+        },
+        {
+          "at": [
+            -75.5277,
+            39.7391
+          ],
+          "name": "Wilmington"
+        },
+        {
+          "at": [
+            -75.1652,
+            39.9526
+          ],
+          "name": "Philadelphia"
+        },
+        {
+          "at": [
+            -74.7429,
+            40.2206
+          ],
+          "name": "Trenton"
+        }
+      ],
+      "routeNote": "North to New York by the same road the Hamiltons will take three weeks later, in the opposite condition. The road is documented; its southern end follows from our placement of the town, which is not. The last mile into Manhattan was a ferry, not a rail line; only the family, whose crossing the novel narrates, is drawn making it by boat.",
+      "routeSource": "'To-morrow morning's journey to New York' (ch. 3). No line named; it is the single through route of 1900 from this part of Virginia, and the one the family themselves take in ch. 6.",
+      "routeCertainty": "reconstructed",
+      "note": "North with the lie in his luggage and nothing else, first class"
+    },
+    {
+      "character": "frank",
+      "from": "exchange-place",
+      "to": "havre",
+      "chapter": 4,
+      "mode": "ship",
+      "startDay": 6.5,
+      "days": 12,
+      "via": [
+        [
+          -72,
+          40.4
+        ],
+        [
+          -60,
+          42
+        ],
+        [
+          -40,
+          46
+        ],
+        [
+          -20,
+          48.5
+        ],
+        [
+          -6,
+          49.5
+        ],
+        {
+          "at": [
+            -1.6,
+            49.65
+          ],
+          "name": "Cherbourg"
+        }
+      ],
+      "routeNote": "The Atlantic. Dunbar never shows this crossing at all - only the French postmarks that prove it happened. The camera necessarily jumps when the boat makes its landfall: the crossing frames an ocean and the arrival frames a coast. That leap is the journey, not a cut.",
+      "routeSource": "The novel states the intention (ch. 2: about returning to Paris for a stay of five years) and evidences the arrival only by the postmark on every later letter. The passage is never narrated, so the track is the ordinary New York to Havre crossing of the period.",
+      "routeCertainty": "reconstructed",
+      "note": "Out of the country while the man he accused is being tried for it"
+    },
+    {
+      "character": "frank",
+      "from": "havre",
+      "to": "paris",
+      "chapter": 4,
+      "mode": "train",
+      "startDay": 18.3,
+      "days": 0.4,
+      "via": [
+        {
+          "at": [
+            1.0993,
+            49.4431
+          ],
+          "name": "Rouen"
+        }
+      ],
+      "routeNote": "The Paris and Le Havre railway up the Seine valley through Rouen - the boat train, and the reason the ship stops at the coast.",
+      "routeSource": "Not in the novel, which gives only Paris and the postmark. The Chemin de fer de Paris à Rouen et au Havre had run this line since 1847.",
+      "routeCertainty": "reconstructed",
+      "note": "The last two hundred kilometres of getting away with it"
+    },
+    {
+      "character": "berry",
+      "from": "court",
+      "to": "capital",
+      "chapter": 6,
+      "mode": "train",
+      "startDay": 22,
+      "days": 1,
+      "via": [
+        {
+          "at": [
+            -77.42,
+            37.35
+          ],
+          "name": "north out of the town"
+        }
+      ],
+      "routeNote": "Up the line to the state penitentiary, which the novel places only in 'his native State'.",
+      "routeSource": "No route named. Follows from our placement of the town: the Virginia penitentiary stood at Richmond, twenty-three miles north, on the Richmond & Petersburg line.",
+      "routeCertainty": "illustrative",
+      "note": "Ten years at hard labour, protesting his innocence to the moment the train pulled out"
+    },
+    {
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "cottage",
+      "to": "station",
+      "chapter": 6,
+      "mode": "foot",
+      "startDay": 29.8,
+      "days": 0.05,
+      "note": "Out of the yard with what they could carry, past the great house, to the train - Joe not looking back and the women unable to stop"
+    },
+    {
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "station",
+      "to": "exchange-place",
+      "chapter": 6,
+      "mode": "train",
+      "startDay": 30,
+      "days": 5,
+      "via": [
+        {
+          "at": [
+            -77.436,
+            37.5407
+          ],
+          "name": "Richmond",
+          "note": "the capital, and the far edge of Joe's thirty-mile world"
+        },
+        {
+          "at": [
+            -77.4605,
+            38.3032
+          ],
+          "name": "Fredericksburg"
+        },
+        {
+          "at": [
+            -77.0369,
+            38.9072
+          ],
+          "name": "Washington"
+        },
+        {
+          "at": [
+            -76.6122,
+            39.2904
+          ],
+          "name": "Baltimore"
+        },
+        {
+          "at": [
+            -75.5277,
+            39.7391
+          ],
+          "name": "Wilmington"
+        },
+        {
+          "at": [
+            -75.1652,
+            39.9526
+          ],
+          "name": "Philadelphia"
+        },
+        {
+          "at": [
+            -74.7429,
+            40.2206
+          ],
+          "name": "Trenton"
+        }
+      ],
+      "routeNote": "The Great Migration's own road, twenty years before it had a name - and the ferry at the end of it is the novel's, not ours. The line stops on the Jersey shore because that is where it really stopped: the crossing is drawn separately, as a boat. The road is documented; its southern end follows from our placement of the town, which is not.",
+      "routeSource": "Dunbar names no line, only the ferry and the October afternoon. The route is the single through road of 1900 from this part of Virginia: the Atlantic Coast Line to Richmond, the RF&P to Washington, and the Pennsylvania Railroad by Baltimore and Philadelphia to Exchange Place, Jersey City, where every southern train terminated and passengers crossed the Hudson by boat.",
+      "routeCertainty": "reconstructed",
+      "note": "Three of them going north to a city they had heard of the way people hear of Heaven"
+    },
+    {
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "exchange-place",
+      "to": "ferry",
+      "chapter": 7,
+      "mode": "ship",
+      "startDay": 35.8,
+      "days": 0.05,
+      "routeNote": "The Hudson, about a mile and a half of it. The only sea-leg in the American half of the book, and the one Dunbar chose to show.",
+      "routeSource": "Ch. 7: they 'took the ferry to the island'. The Cortlandt Street slip was the Pennsylvania Railroad's Manhattan landing from Exchange Place.",
+      "routeCertainty": "documented",
+      "note": "The last mile of the migration, and the only part of it the family see from the outside"
+    },
+    {
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "ferry",
+      "to": "boarding-house",
+      "chapter": 7,
+      "mode": "foot",
+      "startDay": 36,
+      "days": 0.05,
+      "note": "Directed by a porter at the depot to a four-storied brick house on Twenty-seventh Street"
+    },
+    {
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "boarding-house",
+      "to": "theatre",
+      "chapter": 8,
+      "mode": "foot",
+      "startDay": 38,
+      "days": 0.05,
+      "note": "The second night, and the first seats they had ever been allowed to choose"
+    },
+    {
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "theatre",
+      "to": "boarding-house",
+      "chapter": 8,
+      "mode": "foot",
+      "startDay": 38.2,
+      "days": 0.05,
+      "note": "Home up Sixth Avenue with Kitty talking about the stage and Joe already somewhere else"
+    },
+    {
+      "character": "joe",
+      "from": "boarding-house",
+      "to": "banner-club",
+      "chapter": 9,
+      "mode": "foot",
+      "startDay": 60,
+      "days": 0.05,
+      "note": "Taken up the stairs by men with nothing to do, and introduced to Hattie Sterling"
+    },
+    {
+      "character": [
+        "fannie",
+        "kitty"
+      ],
+      "from": "boarding-house",
+      "to": "the-flat",
+      "chapter": 11,
+      "mode": "foot",
+      "startDay": 350,
+      "days": 0.05,
+      "note": "Put out of the boarding house after Minty Brown carries the family's story up from the South"
+    },
+    {
+      "character": [
+        "hattie",
+        "joe"
+      ],
+      "from": "banner-club",
+      "to": "hatties-house",
+      "chapter": 12,
+      "mode": "coach",
+      "startDay": 379,
+      "days": 0.02,
+      "note": "She takes him home in a hansom, neither cruel nor kind about it"
+    },
+    {
+      "character": "kitty",
+      "from": "the-flat",
+      "to": "hatties-house",
+      "chapter": 12,
+      "mode": "foot",
+      "startDay": 382,
+      "days": 0.05,
+      "note": "To be heard sing in Hattie Sterling's rooms, her mother against it and overruled"
+    },
+    {
+      "character": "kitty",
+      "from": "hatties-house",
+      "to": "theatre",
+      "chapter": 12,
+      "mode": "foot",
+      "startDay": 383,
+      "days": 0.05,
+      "routeNote": "Into the chorus of Martin's Blackbirds, which is the last address the novel gives her.",
+      "routeSource": "Ch. 12: Hattie hears her at her own rooms and gets her the place.",
+      "routeCertainty": "novel",
+      "note": "The stage takes her out of the family as surely as the club took her brother"
+    },
+    {
+      "character": "joe",
+      "from": "hatties-house",
+      "to": "banner-club",
+      "chapter": 14,
+      "mode": "foot",
+      "startDay": 1778,
+      "days": 0.05,
+      "note": "Thrown out drunk, half walking and half falling down the street"
+    },
+    {
+      "character": "joe",
+      "from": "banner-club",
+      "to": "hatties-house",
+      "chapter": 14,
+      "mode": "foot",
+      "startDay": 1779,
+      "days": 0.02,
+      "note": "Back with the latch-key, very late - the last journey he makes as a free man"
+    },
+    {
+      "character": "skaggs",
+      "from": "banner-club",
+      "to": "universe",
+      "chapter": 16,
+      "mode": "foot",
+      "startDay": 1809,
+      "days": 0.05,
+      "note": "Out of the club with the one true thing he has ever been told, and into the office with it"
+    },
+    {
+      "character": "skaggs",
+      "from": "universe",
+      "to": "continental",
+      "chapter": 16,
+      "mode": "train",
+      "startDay": 1810,
+      "days": 2,
+      "via": [
+        {
+          "at": [
+            -74.0335,
+            40.7163
+          ],
+          "name": "the Jersey shore"
+        },
+        {
+          "at": [
+            -74.7429,
+            40.2206
+          ],
+          "name": "Trenton"
+        },
+        {
+          "at": [
+            -75.1652,
+            39.9526
+          ],
+          "name": "Philadelphia"
+        },
+        {
+          "at": [
+            -75.5277,
+            39.7391
+          ],
+          "name": "Wilmington"
+        },
+        {
+          "at": [
+            -76.6122,
+            39.2904
+          ],
+          "name": "Baltimore"
+        },
+        {
+          "at": [
+            -77.0369,
+            38.9072
+          ],
+          "name": "Washington"
+        },
+        {
+          "at": [
+            -77.4605,
+            38.3032
+          ],
+          "name": "Fredericksburg"
+        },
+        {
+          "at": [
+            -77.436,
+            37.5407
+          ],
+          "name": "Richmond",
+          "note": "the capital, and the far edge of Joe's thirty-mile world"
+        }
+      ],
+      "routeNote": "The migration road run backwards, by a white reporter with a story to get. The road is documented; its southern end follows from our placement of the town, which is not. The last mile into Manhattan was a ferry, not a rail line; only the family, whose crossing the novel narrates, is drawn making it by boat.",
+      "routeSource": "'Skaggs shot out of the office, and within an hour and a half had boarded a fast train for the South' (ch. 16). No line named; the route reverses the family's own.",
+      "routeCertainty": "reconstructed",
+      "note": "South on a fast train, on the hunch that an innocent man makes a better story than a guilty one"
+    },
+    {
+      "character": "skaggs",
+      "from": "continental",
+      "to": "capital",
+      "chapter": 17,
+      "mode": "train",
+      "startDay": 1820,
+      "days": 1,
+      "via": [
+        {
+          "at": [
+            -77.42,
+            37.35
+          ],
+          "name": "north out of the town"
+        }
+      ],
+      "routeNote": "To the capital, to beard the Governor with a great newspaper behind him.",
+      "routeSource": "'He was to go to the capital of the State' (ch. 17); no route given, and the line follows from our placement of the town.",
+      "routeCertainty": "illustrative",
+      "note": "The pardon, got in a day by a man who lies for a living"
+    },
+    {
+      "character": [
+        "skaggs",
+        "berry"
+      ],
+      "from": "capital",
+      "to": "universe",
+      "chapter": 17,
+      "mode": "train",
+      "startDay": 1830,
+      "days": 2,
+      "via": [
+        {
+          "at": [
+            -77.436,
+            37.5407
+          ],
+          "name": "Richmond",
+          "note": "the capital, and the far edge of Joe's thirty-mile world"
+        },
+        {
+          "at": [
+            -77.4605,
+            38.3032
+          ],
+          "name": "Fredericksburg"
+        },
+        {
+          "at": [
+            -77.0369,
+            38.9072
+          ],
+          "name": "Washington"
+        },
+        {
+          "at": [
+            -76.6122,
+            39.2904
+          ],
+          "name": "Baltimore"
+        },
+        {
+          "at": [
+            -75.5277,
+            39.7391
+          ],
+          "name": "Wilmington"
+        },
+        {
+          "at": [
+            -75.1652,
+            39.9526
+          ],
+          "name": "Philadelphia"
+        },
+        {
+          "at": [
+            -74.7429,
+            40.2206
+          ],
+          "name": "Trenton"
+        },
+        {
+          "at": [
+            -74.0335,
+            40.7163
+          ],
+          "name": "the Jersey shore"
+        }
+      ],
+      "routeNote": "North again, five years late, over the same rails his family took. The road is documented; its southern end follows from our placement of the town, which is not. The last mile into Manhattan was a ferry, not a rail line; only the family, whose crossing the novel narrates, is drawn making it by boat.",
+      "routeSource": "The novel takes Berry from the warden's office to New York with Skaggs and names no route; it is the family's own road reversed.",
+      "routeCertainty": "reconstructed",
+      "note": "Out of the prison and straight onto the train, to a family he believes is waiting"
+    },
+    {
+      "character": "berry",
+      "from": "universe",
+      "to": "the-flat",
+      "chapter": 18,
+      "mode": "foot",
+      "startDay": 1840,
+      "days": 0.05,
+      "note": "To the door where they told him to ring for his wife, and the name on the plate he could not read"
+    },
+    {
+      "character": [
+        "berry",
+        "fannie"
+      ],
+      "from": "the-flat",
+      "to": "cottage",
+      "chapter": 18,
+      "mode": "train",
+      "startDay": 1858,
+      "days": 5,
+      "via": [
+        {
+          "at": [
+            -74.0335,
+            40.7163
+          ],
+          "name": "the Jersey shore"
+        },
+        {
+          "at": [
+            -74.7429,
+            40.2206
+          ],
+          "name": "Trenton"
+        },
+        {
+          "at": [
+            -75.1652,
+            39.9526
+          ],
+          "name": "Philadelphia"
+        },
+        {
+          "at": [
+            -75.5277,
+            39.7391
+          ],
+          "name": "Wilmington"
+        },
+        {
+          "at": [
+            -76.6122,
+            39.2904
+          ],
+          "name": "Baltimore"
+        },
+        {
+          "at": [
+            -77.0369,
+            38.9072
+          ],
+          "name": "Washington"
+        },
+        {
+          "at": [
+            -77.4605,
+            38.3032
+          ],
+          "name": "Fredericksburg"
+        },
+        {
+          "at": [
+            -77.436,
+            37.5407
+          ],
+          "name": "Richmond",
+          "note": "the capital, and the far edge of Joe's thirty-mile world"
+        }
+      ],
+      "routeNote": "The same road a third time, carrying two people where it carried four. The road is documented; its southern end follows from our placement of the town, which is not. The last mile into Manhattan was a ferry, not a rail line; only the family, whose crossing the novel narrates, is drawn making it by boat.",
+      "routeSource": "'They turned their faces southward, back to the only place they could call home' (ch. 18). No route named; it is the migration line reversed.",
+      "routeCertainty": "reconstructed",
+      "note": "Home, to the cottage in the yard of the man whose word convicted him - which Dunbar will not let them call anything but home"
+    }
+  ],
+  "story": [
+    {
+      "kind": "scene",
+      "character": "berry",
+      "at": "cottage",
+      "chapter": 1,
+      "title": "A hundred paces from the house",
+      "narration": "Berry Hamilton has been the Oakleys' butler for twenty years, and lives with his wife and two children in a cottage a hundred paces behind their house. A creeper over the door, morning-glories in summer. It is the whole geography of his life."
+    },
+    {
+      "kind": "scene",
+      "character": "frank",
+      "at": "oakley-house",
+      "chapter": 2,
+      "title": "The old regime",
+      "narration": "A farewell dinner for Maurice Oakley's half-brother Frank, a painter going back to Paris. The guests are the best the town affords, women who had queened it in Richmond and Baltimore and New Orleans - Dunbar naming half the South, so that you notice he never names this place."
+    },
+    {
+      "kind": "scene",
+      "character": "frank",
+      "at": "oakley-house",
+      "chapter": 3,
+      "title": "Nine hundred and eighty-six dollars",
+      "narration": "Frank says money has gone from his room - nine hundred and eighty-six dollars, a figure precise enough to be believed. He has in fact gambled it away and cannot say so. Maurice telephones the police, and a detective looks first at the servant's cottage on that side of the house, because that is where such men look first."
+    },
+    {
+      "kind": "journey",
+      "character": "frank",
+      "from": "oakley-house",
+      "to": "station",
+      "chapter": 4,
+      "title": "The carriage to the station",
+      "narration": "The Oakleys drive Frank to his train. The last thing they see is Berry on the steps, waving them off - a hearty farewell and god-speed to the man whose lie is already in his luggage.",
+      "presenceOk": {
+        "berry": "On the steps of the great house, where the leg before this one puts him."
+      }
+    },
+    {
+      "kind": "journey",
+      "character": "berry",
+      "from": "cottage",
+      "to": "oakley-house",
+      "chapter": 4,
+      "title": "Answering the bell",
+      "narration": "A hundred paces across the yard, the walk he has made every working morning for twenty years. The detective is already in the library. Berry goes in to answer the bell as usual, and does not come out a free man."
+    },
+    {
+      "kind": "journey",
+      "character": "berry",
+      "from": "oakley-house",
+      "to": "court",
+      "chapter": 4,
+      "title": "Taken in the library",
+      "narration": "They take him in the library, in his own livery, with his wife on the floor at his employer's feet. He has money in the bank, saved over twenty years, and that is the evidence: a Black man with savings must have stolen them."
+    },
+    {
+      "kind": "journey",
+      "character": "frank",
+      "from": "station",
+      "to": "exchange-place",
+      "chapter": 4,
+      "title": "North with it",
+      "narration": "Frank goes north with nothing in his luggage but the lie, and nobody looking at him. The road he takes is the one his lie will drive the Hamiltons up eight months later, in the other class of carriage."
+    },
+    {
+      "kind": "scene",
+      "character": "berry",
+      "at": "court",
+      "chapter": 5,
+      "title": "The town turns out to see it",
+      "narration": "Before the trial his lodge audits his books and his church turns him out; Dunbar says they dared not do otherwise, and lays it at slavery's door. What convicts him is not the evidence but the arithmetic the bar of the Continental has already done. Ten years at hard labour."
+    },
+    {
+      "kind": "journey",
+      "character": "berry",
+      "from": "court",
+      "to": "capital",
+      "chapter": 6,
+      "title": "Ten years",
+      "narration": "North to the penitentiary, protesting his innocence to the moment the train pulled out. He will serve five of the ten before anyone in the world troubles to look at the case again."
+    },
+    {
+      "kind": "meanwhile",
+      "character": "frank",
+      "chapter": 4,
+      "title": "Meanwhile, at sea",
+      "narration": "The clock turns back a fortnight. While Berry sat in the town gaol waiting for the Grand Jury, the man who took the money was already out of the country, and out of reach of any of it."
+    },
+    {
+      "kind": "journey",
+      "character": "frank",
+      "from": "exchange-place",
+      "to": "havre",
+      "chapter": 4,
+      "title": "Back to the Latin Quarter",
+      "narration": "Frank goes to New York and takes ship for France. Dunbar never shows the crossing. It is simply the case that the man who did this leaves the country, and the country lets him."
+    },
+    {
+      "kind": "journey",
+      "character": "frank",
+      "from": "havre",
+      "to": "paris",
+      "chapter": 4,
+      "title": "Ashore in France",
+      "narration": "He lands at Havre and takes the boat train up the Seine to Paris, and is not heard from for a year. When he is, it is a letter asking not to be looked for."
+    },
+    {
+      "kind": "handoff",
+      "character": "joe",
+      "at": "cottage",
+      "chapter": 6,
+      "day": 27,
+      "title": "Back in the town",
+      "narration": "We leave Berry in the penitentiary. This is his son Joe's story now - the barber's boy who shaved the town's aristocrats and picked up their manners along with their tips."
+    },
+    {
+      "kind": "scene",
+      "character": "joe",
+      "at": "cottage",
+      "chapter": 6,
+      "day": 28,
+      "title": "No work in this town",
+      "narration": "Joe goes out looking for work and comes back with none. The Black barbers turn him away, and Dunbar makes him know it is just: he had boasted he only shaved white men. The Continental will not have him either - 'I did n't know that you were Berry Hamilton's boy.'",
+      "quote": "I 've been out huntin' work. I 've been to Jones's bahbah shop an' to the Continental Hotel.",
+      "quoteRef": "Ch. 6",
+      "presenceOk": {
+        "berry": "Named in a quoted taunt from the hotel clerk. Berry is in the penitentiary and the beat says so."
+      }
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "cottage",
+      "to": "station",
+      "chapter": 6,
+      "title": "Driven out",
+      "narration": "Maurice Oakley orders Fannie out of the yard himself, and sends word that the new servants want the rooms by tomorrow afternoon. Every landlord refuses her, some with excuses and some straight out: the family would give a neighbourhood a bad name. So they go.",
+      "presenceOk": {
+        "frank": "A surname collision - the Oakley here is Maurice, who evicts them. Frank is in Paris."
+      }
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "station",
+      "to": "exchange-place",
+      "chapter": 6,
+      "title": "A city that existed by faith alone",
+      "narration": "North on the only road there was: Richmond, Washington, Baltimore, Philadelphia, and the Jersey shore. Joe does not look back. His mother and sister watch the town until the last spire has gone, and cry.",
+      "quote": "They had heard of New York as a place vague and far away, a city that, like Heaven, to them had existed by faith alone.",
+      "quoteRef": "Ch. 6"
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "exchange-place",
+      "to": "ferry",
+      "chapter": 7,
+      "title": "Over the water",
+      "narration": "No train from the South reached Manhattan; you crossed the last of it by boat. Fannie has misgivings about the ferry. Joe, coming over the water into the spires, is lost from that moment - though it takes the book four more years to finish him."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "ferry",
+      "to": "boarding-house",
+      "chapter": 7,
+      "title": "Twenty-seventh Street",
+      "narration": "A porter tells them the best way to reach the place, and they go up to a lodging house in West Twenty-seventh Street that looks grander to them than anything they have known. It is the last address the three of them share."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "boarding-house",
+      "to": "theatre",
+      "chapter": 8,
+      "title": "Where they liked",
+      "narration": "Their second night, and the first good thing the city gives them. At home they had sat far up in the peanut gallery, in the place reserved for people of colour. Here they sit where they like.",
+      "quote": "On those occasions they had sat far up in the peanut gallery in the place reserved for people of colour.",
+      "quoteRef": "Ch. 8"
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "fannie",
+        "joe",
+        "kitty"
+      ],
+      "from": "theatre",
+      "to": "boarding-house",
+      "chapter": 8,
+      "title": "Walking home",
+      "narration": "Home up the avenue, Kitty saying how she would like to be up there on the stage, her mother not liking it, Joe already somewhere else in his head. This is the last night the four of them are one thing."
+    },
+    {
+      "kind": "journey",
+      "character": "joe",
+      "from": "boarding-house",
+      "to": "banner-club",
+      "chapter": 9,
+      "title": "The Banner Club",
+      "narration": "Thomas takes Joe up a staircase into a long bright room with a piano - parasites looking for victims, politicians for votes, reporters for news, and bright men who came there after days of hard and unrewarded work. Joe is treated as somebody for the first time in his life."
+    },
+    {
+      "kind": "scene",
+      "character": "joe",
+      "at": "banner-club",
+      "chapter": 10,
+      "title": "The whole social life",
+      "narration": "For a man with no connections the club is everything - friends, credit, an opinion of himself. Joe stops going home, and when his mother will not receive a woman from home he walks out of her house of his own accord, glad to be free of her.",
+      "quote": "The Banner was only one of a kind. It stood to the stranger and the man and woman without connections for the whole social life.",
+      "quoteRef": "Ch. 9"
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "fannie",
+        "kitty"
+      ],
+      "from": "boarding-house",
+      "to": "the-flat",
+      "chapter": 11,
+      "title": "The story follows them",
+      "narration": "A woman from home arrives in New York and tells the boarding house everything: the theft, the trial, the convict husband. Within a day Fannie and Kitty are looking for a flat. There was no distance far enough."
+    },
+    {
+      "kind": "journey",
+      "character": "hattie",
+      "from": "banner-club",
+      "to": "hatties-house",
+      "chapter": 12,
+      "title": "Hattie Sterling",
+      "narration": "A chorus singer who finds the boy from the South amusing, and takes him home in a hansom. She is neither cruel nor kind about it. She simply has the use of him, as the city does."
+    },
+    {
+      "kind": "scene",
+      "character": "joe",
+      "chapter": 12,
+      "title": "Kept",
+      "narration": "Joe moves in with her and stops pretending to look for work. Four years pass in a paragraph: the same staircase, the same bar, the same woman growing tired of him, and the drink doing the rest.",
+      "at": "hatties-house"
+    },
+    {
+      "kind": "journey",
+      "character": "kitty",
+      "from": "the-flat",
+      "to": "hatties-house",
+      "chapter": 12,
+      "title": "Martin’s Blackbirds",
+      "narration": "Kitty sings for Hattie Sterling in her own rooms, and is good enough. Her mother is against it and is overruled by the money."
+    },
+    {
+      "kind": "journey",
+      "character": "kitty",
+      "from": "hatties-house",
+      "to": "theatre",
+      "chapter": 12,
+      "title": "Into the chorus",
+      "narration": "Hattie gets her the place, and Kitty is good, and gets better, and gets harder. The stage takes her out of the family as surely as the club took her brother.",
+      "presenceOk": {
+        "hattie": "Hattie gets Kitty the place; nothing says she is at the theatre to see it."
+      }
+    },
+    {
+      "kind": "scene",
+      "character": "fannie",
+      "at": "the-flat",
+      "chapter": 12,
+      "day": 381.5,
+      "title": "The price of the stage",
+      "narration": "Tom Gibson, the race-horse man lodging with them, has been telling Fannie that a sentence is as good as a divorce and that Berry will never come out. She offers herself as the price of Kitty staying off the stage. Kitty goes anyway. Fannie says yes.",
+      "presenceOk": {
+        "berry": "Gibson's claim that Berry will never come out - an assertion about his absence."
+      }
+    },
+    {
+      "kind": "handoff",
+      "character": "frank",
+      "at": "oakley-house",
+      "chapter": 13,
+      "title": "The letter from Paris",
+      "narration": "Meanwhile, at the great house. A letter comes with a French postmark: Frank confessing everything, asking not to be looked for, saying he will be as one who has perished from the earth. Maurice and Leslie read it, agree the family name outweighs the man in prison, and write a lie back to Paris."
+    },
+    {
+      "kind": "journey",
+      "character": "joe",
+      "from": "hatties-house",
+      "to": "banner-club",
+      "chapter": 14,
+      "title": "Put out",
+      "narration": "She has finished with him. He goes down the street half walking and half falling, and spends what is left of the night at the club being told he is a fool, which he knows."
+    },
+    {
+      "kind": "scene",
+      "character": "joe",
+      "at": "banner-club",
+      "chapter": 14,
+      "day": 1778.9,
+      "title": "A drunken man tells the truth",
+      "narration": "Drunk at a table, Joe says the thing he has never said in this city: his father never stole that money. Skaggs the reporter is sitting opposite and scents a story. It is the only good Joe does anyone, and he does it by accident, an hour before he kills her."
+    },
+    {
+      "kind": "journey",
+      "character": "joe",
+      "from": "banner-club",
+      "to": "hatties-house",
+      "chapter": 14,
+      "title": "The latch-key",
+      "narration": "He had said at the club he would kill her, and he had slept on it. It is very late when he reaches her door, and he opens it with the key he had been used to. He is drunk, she is contemptuous, and his hands are on her throat.",
+      "quote": "It was very late when he reached Hattie's door, but he opened it with his latch-key, as he had been used to do.",
+      "quoteRef": "Ch. 14"
+    },
+    {
+      "kind": "scene",
+      "character": "joe",
+      "at": "hatties-house",
+      "chapter": 15,
+      "title": "The sport of the gods",
+      "narration": "Life for the murder. Kitty is already on the road with her company and does not come. Dunbar refuses the consolation entirely: the stream will keep flowing north and breaking, he says, until the gods grow tired of their cruel sport.",
+      "quote": "the stream of young negro life would continue to flow up from the South, dashing itself against the hard necessities of the city and breaking like waves against a rock",
+      "quoteRef": "Ch. 15",
+      "presenceOk": {
+        "kitty": "Named to say she does NOT come. An absence, not a presence."
+      }
+    },
+    {
+      "kind": "journey",
+      "character": "skaggs",
+      "from": "banner-club",
+      "to": "universe",
+      "chapter": 16,
+      "title": "A reporter who lies for a living",
+      "narration": "Skaggs of the Universe has spent years at the club telling everyone a fictitious life story. He has also been listening. He goes to his editor with the one true thing he knows: there is an innocent man in a Southern prison, and that is a story."
+    },
+    {
+      "kind": "journey",
+      "character": "skaggs",
+      "from": "universe",
+      "to": "continental",
+      "chapter": 16,
+      "title": "South on a fast train",
+      "narration": "Within an hour and a half he is on the train, running the family's own road backwards. It has taken five years and a slow news week for anyone to make this journey on Berry Hamilton's behalf.",
+      "presenceOk": {
+        "berry": "The subject of the journey, not a passenger on it; Skaggs travels alone."
+      }
+    },
+    {
+      "kind": "scene",
+      "character": "skaggs",
+      "at": "continental",
+      "chapter": 16,
+      "day": 1815,
+      "title": "The bar gives it away",
+      "narration": "The bar of the Continental is still where the town's opinion is made, and it hands him everything over drinks: Maurice Oakley gone strange, a secret he carries in his shirt like a madman, a brother in Paris. Skaggs lies his way into the house and takes it.",
+      "quote": "This was no difficult matter, as the bar of the Continental was still the gathering-place of some of the city's choice spirits of the old regime.",
+      "quoteRef": "Ch. 16"
+    },
+    {
+      "kind": "journey",
+      "character": "skaggs",
+      "from": "continental",
+      "to": "capital",
+      "chapter": 17,
+      "title": "The Governor",
+      "narration": "To the capital, to beard the Governor with a great newspaper behind him. The State would not surrender, Dunbar says, but it capitulated. The pardon that five years of innocence could not obtain is got in a fortnight by a man with a headline - and Berry is pardoned, not cleared."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "skaggs",
+        "berry"
+      ],
+      "from": "capital",
+      "to": "universe",
+      "chapter": 17,
+      "title": "Like an ox from his stall",
+      "narration": "Berry comes out and goes straight onto the train north, to a family he had stopped writing to two years before. He had lived like an ox, Dunbar says, and came forth like an ox from his stall.",
+      "quote": "He had lived like an ox, working without inspiration or reward, and he came forth like an ox from his stall.",
+      "quoteRef": "Ch. 17"
+    },
+    {
+      "kind": "journey",
+      "character": "berry",
+      "from": "universe",
+      "to": "the-flat",
+      "chapter": 18,
+      "title": "The name on the door-plate",
+      "narration": "They send him to a flat and tell him to ring for his wife. He cannot read the other man's name on the door-plate; prison took the little reading he had. Upstairs Fannie tells him: Kit on the stage, Joe in for murder, herself married."
+    },
+    {
+      "kind": "scene",
+      "character": "berry",
+      "at": "the-flat",
+      "chapter": 18,
+      "day": 1850,
+      "title": "Crape on the bell",
+      "narration": "He takes the janitorship at the paper that freed him, and spends his nights on the pavement outside her door with a gun, meaning to kill the man who has her. Then one night there is crape on the bell: somebody else has done it."
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "berry",
+        "fannie"
+      ],
+      "from": "the-flat",
+      "to": "cottage",
+      "chapter": 18,
+      "title": "The only place they could call home",
+      "narration": "There is nothing left in the city for either of them. Maurice's wife Leslie, who had once told Fannie the case seemed perfectly plain, reopens the cottage with her own hands. Two people go south on the road that carried three north."
+    },
+    {
+      "kind": "scene",
+      "character": "berry",
+      "at": "cottage",
+      "chapter": 18,
+      "day": 1866,
+      "title": "A hundred paces, again",
+      "narration": "They sit in the cottage in the evenings, holding hands, listening to Maurice Oakley shrieking in the great house across the yard. That is the ending. Dunbar allows them no recovery, and does not pretend the arrangement is justice.",
+      "quote": "they sat together with clasped hands listening to the shrieks of the madman across the yard and thinking of what he had brought to them and to himself",
+      "quoteRef": "Ch. 18"
+    }
+  ]
+}

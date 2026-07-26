@@ -12,6 +12,18 @@
     }
   },
   {
+    "id": "persuasion",
+    "title": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "file": "data/persuasion.json",
+    "blurb": "Eight years after she let herself be persuaded to give up a penniless sailor, Anne Elliot watches him return from the war a rich man. As her spendthrift father lets the family seat to the very navy the Elliots look down on, Anne is carried from the cold country house to the sea at Lyme, and on to Bath, and a slow, aching second chance at the love she was talked out of.",
+    "spine": {
+      "cloth": "#3f5560",
+      "text": "#dfd2b4"
+    }
+  },
+  {
     "id": "jane-eyre",
     "title": "Jane Eyre",
     "author": "Charlotte Brontë",
@@ -60,6 +72,18 @@
     }
   },
   {
+    "id": "riddle-of-the-sands",
+    "title": "The Riddle of the Sands",
+    "author": "Erskine Childers",
+    "year": 1903,
+    "file": "data/riddle-of-the-sands.json",
+    "blurb": "The first modern spy novel, and the most map-obsessed book on the shelf. Two amateur Englishmen work a small boat through the tidal sands behind the German Frisian islands and read, channel by channel, a plan to invade England from the shallows. Childers charted every mile of it from his own cruises, so the map is the plot: the fog, the groundings, the seven mean little harbours, and the secret worth a man's murder to keep.",
+    "spine": {
+      "cloth": "#2e4a5a",
+      "text": "#c9b892"
+    }
+  },
+  {
     "id": "heart-of-darkness",
     "title": "Heart of Darkness",
     "author": "Joseph Conrad",
@@ -84,6 +108,18 @@
     }
   },
   {
+    "id": "bleak-house",
+    "title": "Bleak House",
+    "author": "Charles Dickens",
+    "year": 1853,
+    "file": "data/bleak-house.json",
+    "blurb": "Fog, Chancery, and a secret that drags a great lady from a Lincolnshire seat to a pauper's grave.",
+    "spine": {
+      "cloth": "#46545c",
+      "text": "#cbb98f"
+    }
+  },
+  {
     "id": "great-expectations",
     "title": "Great Expectations",
     "author": "Charles Dickens",
@@ -96,15 +132,15 @@
     }
   },
   {
-    "id": "bleak-house",
-    "title": "Bleak House",
-    "author": "Charles Dickens",
-    "year": 1853,
-    "file": "data/bleak-house.json",
-    "blurb": "Fog, Chancery, and a secret that drags a great lady from a Lincolnshire seat to a pauper's grave.",
+    "id": "crime-and-punishment",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "file": "data/crime-and-punishment.json",
+    "blurb": "A starving ex-student in St Petersburg talks himself into a theory - that an extraordinary man may step over any law - and murders a pawnbroker with an axe to prove he is one. The killing traps him: for the length of the book he cannot leave the few hundred yards of the Hay Market where he did it, circling the scene, the square, and the girl who will not let him lie - until confession sends him two thousand miles east.",
     "spine": {
-      "cloth": "#46545c",
-      "text": "#cbb98f"
+      "cloth": "#3a2529",
+      "text": "#c2b9a6"
     }
   },
   {
@@ -144,6 +180,30 @@
     }
   },
   {
+    "id": "sport-of-the-gods",
+    "title": "The Sport of the Gods",
+    "author": "Paul Laurence Dunbar",
+    "year": 1902,
+    "file": "data/sport-of-the-gods.json",
+    "blurb": "The first Black-authored novel on the shelf, and an answer to the migration romance before that romance had properly begun. A butler of twenty years is convicted of a theft he did not commit, his family are driven north to New York, and the four of them come apart one at a time in the space of a few Tenderloin blocks. Dunbar names New York down to the street and refuses to name the Southern town at all - because it is every Southern town.",
+    "spine": {
+      "cloth": "#5b6b58",
+      "text": "#d9c27e"
+    }
+  },
+  {
+    "id": "great-gatsby",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "file": "data/great-gatsby.json",
+    "blurb": "A poor boy remakes himself into Jay Gatsby and buys a mansion on Long Island for one reason: it stands across the bay from the woman he lost. All summer he throws vast parties as a lure, reaching for a green light at the end of her dock. It is a few hundred yards of water, and the whole distance between what he is and what he dreams - and it kills him.",
+    "spine": {
+      "cloth": "#1e3a34",
+      "text": "#d4af5f"
+    }
+  },
+  {
     "id": "madame-bovary",
     "title": "Madame Bovary",
     "author": "Gustave Flaubert",
@@ -156,15 +216,27 @@
     }
   },
   {
-    "id": "jude-the-obscure",
-    "title": "Jude the Obscure",
-    "author": "Thomas Hardy",
-    "year": 1895,
-    "file": "data/jude-the-obscure.json",
-    "blurb": "A village stonemason burns to enter Christminster, the university city that bars him for his class. He carves its colleges and is never let inside. His forbidden love for his cousin Sue, and the marriages that cage them both, end in a horror that breaks them - and he dies within sound of the city’s bells, still outside the walls.",
+    "id": "sentimental-education",
+    "title": "Sentimental Education",
+    "author": "Gustave Flaubert",
+    "year": 1869,
+    "file": "data/sentimental-education.json",
+    "blurb": "A young man sees a woman on a Seine steamer and falls hopelessly in love. Over twenty-five years he drifts between Paris and his provincial home, and between three women he is half-hearted about, achieving nothing - while the Revolution of 1848 convulses the streets around him and he barely notices. Flaubert’s great anti-romance, the Paris counterpart to Madame Bovary’s provincial trap.",
     "spine": {
-      "cloth": "#3c4a39",
-      "text": "#c9b075"
+      "cloth": "#4a5560",
+      "text": "#d6c9ad"
+    }
+  },
+  {
+    "id": "three-kingdoms",
+    "title": "Romance of the Three Kingdoms",
+    "author": "Luo Guanzhong",
+    "year": 1522,
+    "file": "data/three-kingdoms.json",
+    "blurb": "The great Chinese war epic, and the widest map on the shelf. As the four-hundred-year Han empire collapses, three warlords - Cao Cao in the north, Liu Bei in the west, Sun Quan in the south-east - carve it into three kingdoms and fight for a century to make it one again. Sworn brotherhood and cold betrayal, the fire at Red Cliffs, the fall of Guan Yu, the doomed genius of the strategist Zhuge Liang: told across the whole of China through five threads, and ending where it began, with the empire made one.",
+    "spine": {
+      "cloth": "#6e2420",
+      "text": "#dcc074"
     }
   },
   {
@@ -177,6 +249,18 @@
     "spine": {
       "cloth": "#3d5c3d",
       "text": "#e6d59a"
+    }
+  },
+  {
+    "id": "jude-the-obscure",
+    "title": "Jude the Obscure",
+    "author": "Thomas Hardy",
+    "year": 1895,
+    "file": "data/jude-the-obscure.json",
+    "blurb": "A village stonemason burns to enter Christminster, the university city that bars him for his class. He carves its colleges and is never let inside. His forbidden love for his cousin Sue, and the marriages that cage them both, end in a horror that breaks them - and he dies within sound of the city’s bells, still outside the walls.",
+    "spine": {
+      "cloth": "#3c4a39",
+      "text": "#c9b075"
     }
   },
   {
@@ -264,6 +348,18 @@
     }
   },
   {
+    "id": "book-of-khalid",
+    "title": "The Book of Khalid",
+    "author": "Ameen Rihani",
+    "year": 1911,
+    "file": "data/book-of-khalid.json",
+    "blurb": "The first novel in English by an Arab writer, illustrated by Kahlil Gibran. A donkey-boy from the ruins of Baalbek and his poet friend sail steerage to New York, peddle false Holy-Land trinkets from a flooding cellar, and come home changed - Khalid to preach a gospel of East and West that gets him excommunicated, gaoled and stoned, before he walks into the Egyptian desert and is gone.",
+    "spine": {
+      "cloth": "#a9762f",
+      "text": "#f0e2c0"
+    }
+  },
+  {
     "id": "henry-iv",
     "title": "Henry IV, Parts I & II",
     "author": "William Shakespeare",
@@ -285,6 +381,18 @@
     "spine": {
       "cloth": "#2e3d4d",
       "text": "#cdd6dc"
+    }
+  },
+  {
+    "id": "botchan",
+    "title": "Botchan",
+    "author": "Natsume Sōseki",
+    "year": 1906,
+    "file": "data/botchan.json",
+    "blurb": "A hot-headed young Tokyoite, too honest to flatter anyone and loved only by his family’s old servant Kiyo, is packed off to teach maths at a middle school in a sleepy Shikoku town. There he wages a losing comic war on the smooth headmaster he nicknames Red Shirt, thrashes him and resigns, and goes home to Tokyo - and to Kiyo, on whose grave the book quietly ends. Sōseki’s short, beloved comedy, which turns out all along to have been a love story.",
+    "spine": {
+      "cloth": "#2f3d4d",
+      "text": "#d6c9ad"
     }
   },
   {
@@ -393,102 +501,6 @@
     "spine": {
       "cloth": "#2c2b30",
       "text": "#d9b8a8"
-    }
-  },
-  {
-    "id": "great-gatsby",
-    "title": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald",
-    "year": 1925,
-    "file": "data/great-gatsby.json",
-    "blurb": "A poor boy remakes himself into Jay Gatsby and buys a mansion on Long Island for one reason: it stands across the bay from the woman he lost. All summer he throws vast parties as a lure, reaching for a green light at the end of her dock. It is a few hundred yards of water, and the whole distance between what he is and what he dreams - and it kills him.",
-    "spine": {
-      "cloth": "#1e3a34",
-      "text": "#d4af5f"
-    }
-  },
-  {
-    "id": "crime-and-punishment",
-    "title": "Crime and Punishment",
-    "author": "Fyodor Dostoevsky",
-    "year": 1866,
-    "file": "data/crime-and-punishment.json",
-    "blurb": "A starving ex-student in St Petersburg talks himself into a theory - that an extraordinary man may step over any law - and murders a pawnbroker with an axe to prove he is one. The killing traps him: for the length of the book he cannot leave the few hundred yards of the Hay Market where he did it, circling the scene, the square, and the girl who will not let him lie - until confession sends him two thousand miles east.",
-    "spine": {
-      "cloth": "#3a2529",
-      "text": "#c2b9a6"
-    }
-  },
-  {
-    "id": "persuasion",
-    "title": "Persuasion",
-    "author": "Jane Austen",
-    "year": 1817,
-    "file": "data/persuasion.json",
-    "blurb": "Eight years after she let herself be persuaded to give up a penniless sailor, Anne Elliot watches him return from the war a rich man. As her spendthrift father lets the family seat to the very navy the Elliots look down on, Anne is carried from the cold country house to the sea at Lyme, and on to Bath, and a slow, aching second chance at the love she was talked out of.",
-    "spine": {
-      "cloth": "#3f5560",
-      "text": "#dfd2b4"
-    }
-  },
-  {
-    "id": "sentimental-education",
-    "title": "Sentimental Education",
-    "author": "Gustave Flaubert",
-    "year": 1869,
-    "file": "data/sentimental-education.json",
-    "blurb": "A young man sees a woman on a Seine steamer and falls hopelessly in love. Over twenty-five years he drifts between Paris and his provincial home, and between three women he is half-hearted about, achieving nothing - while the Revolution of 1848 convulses the streets around him and he barely notices. Flaubert’s great anti-romance, the Paris counterpart to Madame Bovary’s provincial trap.",
-    "spine": {
-      "cloth": "#4a5560",
-      "text": "#d6c9ad"
-    }
-  },
-  {
-    "id": "book-of-khalid",
-    "title": "The Book of Khalid",
-    "author": "Ameen Rihani",
-    "year": 1911,
-    "file": "data/book-of-khalid.json",
-    "blurb": "The first novel in English by an Arab writer, illustrated by Kahlil Gibran. A donkey-boy from the ruins of Baalbek and his poet friend sail steerage to New York, peddle false Holy-Land trinkets from a flooding cellar, and come home changed - Khalid to preach a gospel of East and West that gets him excommunicated, gaoled and stoned, before he walks into the Egyptian desert and is gone.",
-    "spine": {
-      "cloth": "#a9762f",
-      "text": "#f0e2c0"
-    }
-  },
-  {
-    "id": "botchan",
-    "title": "Botchan",
-    "author": "Natsume Sōseki",
-    "year": 1906,
-    "file": "data/botchan.json",
-    "blurb": "A hot-headed young Tokyoite, too honest to flatter anyone and loved only by his family’s old servant Kiyo, is packed off to teach maths at a middle school in a sleepy Shikoku town. There he wages a losing comic war on the smooth headmaster he nicknames Red Shirt, thrashes him and resigns, and goes home to Tokyo - and to Kiyo, on whose grave the book quietly ends. Sōseki’s short, beloved comedy, which turns out all along to have been a love story.",
-    "spine": {
-      "cloth": "#2f3d4d",
-      "text": "#d6c9ad"
-    }
-  },
-  {
-    "id": "three-kingdoms",
-    "title": "Romance of the Three Kingdoms",
-    "author": "Luo Guanzhong",
-    "year": 1522,
-    "file": "data/three-kingdoms.json",
-    "blurb": "The great Chinese war epic, and the widest map on the shelf. As the four-hundred-year Han empire collapses, three warlords - Cao Cao in the north, Liu Bei in the west, Sun Quan in the south-east - carve it into three kingdoms and fight for a century to make it one again. Sworn brotherhood and cold betrayal, the fire at Red Cliffs, the fall of Guan Yu, the doomed genius of the strategist Zhuge Liang: told across the whole of China through five threads, and ending where it began, with the empire made one.",
-    "spine": {
-      "cloth": "#6e2420",
-      "text": "#dcc074"
-    }
-  },
-  {
-    "id": "riddle-of-the-sands",
-    "title": "The Riddle of the Sands",
-    "author": "Erskine Childers",
-    "year": 1903,
-    "file": "data/riddle-of-the-sands.json",
-    "blurb": "The first modern spy novel, and the most map-obsessed book on the shelf. Two amateur Englishmen work a small boat through the tidal sands behind the German Frisian islands and read, channel by channel, a plan to invade England from the shallows. Childers charted every mile of it from his own cruises, so the map is the plot: the fog, the groundings, the seven mean little harbours, and the secret worth a man's murder to keep.",
-    "spine": {
-      "cloth": "#2e4a5a",
-      "text": "#c9b892"
     }
   }
 ]

@@ -26,6 +26,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const LIFETIME = 25550; // ~70 years, in days - the ceiling bucket
 export const SPANS = {
   'riddle-of-the-sands': [82, 'one autumn'],
+  'sport-of-the-gods': [1866, 'five years'],
   'pride-and-prejudice': [365, 'one year'],
   'jane-eyre': [4380, '12 years'],
   'thirty-nine-steps': [21, '3 weeks'],

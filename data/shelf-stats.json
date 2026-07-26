@@ -4,6 +4,11 @@
     "spanDays": 365,
     "spanLabel": "one year"
   },
+  "persuasion": {
+    "distanceKm": 426,
+    "spanDays": 2920,
+    "spanLabel": "eight years"
+  },
   "jane-eyre": {
     "distanceKm": 526,
     "spanDays": 4380,
@@ -24,6 +29,11 @@
     "spanDays": 730,
     "spanLabel": "2 years"
   },
+  "riddle-of-the-sands": {
+    "distanceKm": 3609,
+    "spanDays": 82,
+    "spanLabel": "one autumn"
+  },
   "heart-of-darkness": {
     "distanceKm": 22531,
     "spanDays": 150,
@@ -34,15 +44,20 @@
     "spanDays": 25550,
     "spanLabel": "a lifetime"
   },
+  "bleak-house": {
+    "distanceKm": 2526,
+    "spanDays": 900,
+    "spanLabel": "2 years"
+  },
   "great-expectations": {
     "distanceKm": 61081,
     "spanDays": 9125,
     "spanLabel": "25 years"
   },
-  "bleak-house": {
-    "distanceKm": 2526,
-    "spanDays": 900,
-    "spanLabel": "2 years"
+  "crime-and-punishment": {
+    "distanceKm": 3135,
+    "spanDays": 14,
+    "spanLabel": "a fortnight"
   },
   "hound-of-the-baskervilles": {
     "distanceKm": 1183,
@@ -59,20 +74,40 @@
     "spanDays": 8760,
     "spanLabel": "24 years"
   },
+  "sport-of-the-gods": {
+    "distanceKm": 8196,
+    "spanDays": 1866,
+    "spanLabel": "five years"
+  },
+  "great-gatsby": {
+    "distanceKm": 8336,
+    "spanDays": 100,
+    "spanLabel": "one summer"
+  },
   "madame-bovary": {
     "distanceKm": 160,
     "spanDays": 3300,
     "spanLabel": "9 years"
   },
-  "jude-the-obscure": {
-    "distanceKm": 50000,
-    "spanDays": 6570,
-    "spanLabel": "18 years"
+  "sentimental-education": {
+    "distanceKm": 785,
+    "spanDays": 9855,
+    "spanLabel": "a quarter-century"
+  },
+  "three-kingdoms": {
+    "distanceKm": 10756,
+    "spanDays": 35040,
+    "spanLabel": "a century"
   },
   "tess": {
     "distanceKm": 675,
     "spanDays": 1600,
     "spanLabel": "4 years"
+  },
+  "jude-the-obscure": {
+    "distanceKm": 50000,
+    "spanDays": 6570,
+    "spanLabel": "18 years"
   },
   "devils-elixir": {
     "distanceKm": 3080,
@@ -109,6 +144,11 @@
     "spanDays": 550,
     "spanLabel": "18 months"
   },
+  "book-of-khalid": {
+    "distanceKm": 21599,
+    "spanDays": 4380,
+    "spanLabel": "a dozen years"
+  },
   "henry-iv": {
     "distanceKm": 4066,
     "spanDays": 3650,
@@ -118,6 +158,11 @@
     "distanceKm": 26350,
     "spanDays": 1095,
     "spanLabel": "3 years"
+  },
+  "botchan": {
+    "distanceKm": 1587,
+    "spanDays": 400,
+    "spanLabel": "about a year"
   },
   "kidnapped": {
     "distanceKm": 1114,
@@ -163,45 +208,5 @@
     "distanceKm": 22,
     "spanDays": 1,
     "spanLabel": "one day"
-  },
-  "great-gatsby": {
-    "distanceKm": 8336,
-    "spanDays": 100,
-    "spanLabel": "one summer"
-  },
-  "crime-and-punishment": {
-    "distanceKm": 3135,
-    "spanDays": 14,
-    "spanLabel": "a fortnight"
-  },
-  "persuasion": {
-    "distanceKm": 426,
-    "spanDays": 2920,
-    "spanLabel": "eight years"
-  },
-  "sentimental-education": {
-    "distanceKm": 785,
-    "spanDays": 9855,
-    "spanLabel": "a quarter-century"
-  },
-  "book-of-khalid": {
-    "distanceKm": 21599,
-    "spanDays": 4380,
-    "spanLabel": "a dozen years"
-  },
-  "botchan": {
-    "distanceKm": 1587,
-    "spanDays": 400,
-    "spanLabel": "about a year"
-  },
-  "three-kingdoms": {
-    "distanceKm": 10756,
-    "spanDays": 35040,
-    "spanLabel": "a century"
-  },
-  "riddle-of-the-sands": {
-    "distanceKm": 3609,
-    "spanDays": 82,
-    "spanLabel": "one autumn"
   }
 }
