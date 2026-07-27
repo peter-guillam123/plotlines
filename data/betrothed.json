@@ -27,12 +27,12 @@
       "name": "the Duchy of Milan / the Republic of Venice",
       "label": "MILAN · VENICE",
       "when": "the frontier of 1628",
-      "note": "Spanish Milan ended and Venetian territory began at the Adda. Manzoni makes it load-bearing twice: Renzo has 'often heard that at a certain point, and for some distance, its waters marked the confines of the Milanese and Venetian states' (ch. 16), and the valley under the Innominato's castle carries 'a small brook, or a large torrent, which served for a boundary between the two territories' (ch. 20). Crossing it is what puts Renzo out of the law's reach for two years.",
-      "source": "The line follows the Adda from Lake Como to below Trezzo, the frontier fixed between the Duchy of Milan and the Republic of Venice and unchanged through the seventeenth century. Drawn from the river's own course; the novel names it as the border twice.",
+      "note": "Spanish Milan ended and Venetian territory began at the Adda from about Brivio southward - but ABOVE Brivio the border leaves the river and swings east overland, round the Venetian Valle San Martino. That detour is the whole point: it is why the torrent in the valley under the Innominato's castle is a state line, and why Manzoni can put him 'there, on the frontiers, and almost in the sky'. Renzo, crossing far downstream, crosses the river itself.",
+      "source": "Drawn overland round the Valle San Martino above Brivio and along the Adda below it. The novel names the border twice: ch. 16, where Renzo has heard that 'at a certain point, and for some distance' the river's waters marked the confines of the Milanese and Venetian states - Manzoni's own hedge, and the reason the line is not simply the river - and ch. 20, where the torrent below the castle 'served for a boundary between the two territories'.",
       "coords": [
         [
-          9.3926,
-          45.8474
+          9.412,
+          45.816
         ],
         [
           9.4098,
@@ -830,7 +830,7 @@
       "note": "Named in the text, ch. 17, as the probable source of the clock.",
       "quote": "he heard, every half hour, in the deep silence, the heavy sound of some distant clock, probably that of Trezzo.",
       "quoteRef": "Ch. 17",
-      "imageBlank": "Heard and never seen — a clock striking in the dark is the whole of what the novel gives, and a picture of the castle would show Renzo something he never saw."
+      "imageBlank": "Heard and never seen: a clock striking in the dark is the whole of what the novel gives, and a picture of the castle would show Renzo something he never saw."
     },
     {
       "id": "adda-crossing",
@@ -1011,7 +1011,7 @@
             9.4055,
             45.79
           ],
-          "name": "Galbiate"
+          "name": "Olginate"
         },
         {
           "at": [
@@ -1032,7 +1032,7 @@
             9.2867,
             45.6674
           ],
-          "name": "Missaglia"
+          "name": "the Brianza road"
         }
       ],
       "routeNote": "The old road out of the Lecco territory through the Brianza, in a cart, before dawn.",
@@ -1070,7 +1070,7 @@
             9.25,
             45.545
           ],
-          "name": "Sesto"
+          "name": "the Milan high road"
         }
       ],
       "routeNote": "Ten miles down the high road with a letter to a friar and no idea what he is walking into.",
@@ -1378,7 +1378,7 @@
       "mode": "coach",
       "startDay": 15.3,
       "days": 0.05,
-      "routeNote": "Up the last of it in a litter, carried by men who will not look at her.",
+      "routeNote": "Up the last of it in a litter, carried by men who will not look at her. The mode is a compromise: a litter carried by men and a hand-barrow are neither a coach nor a walk, and the map has no glyph for being carried.",
       "routeSource": "Ch. 21.",
       "routeCertainty": "novel",
       "note": "To a castle nobody has ever come out of"
@@ -1444,10 +1444,54 @@
           "name": "Malanotte"
         }
       ],
-      "routeNote": "Down again the next day in the same litter, with a good woman holding her hand and her mother on the way.",
+      "routeNote": "Down again the next day in the same litter, with a good woman holding her hand and her mother on the way. The mode is a compromise: a litter carried by men and a hand-barrow are neither a coach nor a walk, and the map has no glyph for being carried.",
       "routeSource": "Ch. 24.",
       "routeCertainty": "novel",
       "note": "Twelve hours, and the man who took her has changed his life"
+    },
+    {
+      "character": "lucia",
+      "from": "chiuso",
+      "to": "village",
+      "chapter": 26,
+      "mode": "coach",
+      "startDay": 17.5,
+      "days": 0.2,
+      "via": [
+        {
+          "at": [
+            9.4192,
+            45.8182
+          ],
+          "name": "the lake road"
+        }
+      ],
+      "routeNote": "Home for a few hours, to say goodbye to a cottage she has not seen for a fortnight and will not see again for two years.",
+      "routeSource": "Ch. 26: 'Lucy separated herself from her mother with many tears, and again bade farewell to her cottage and her village'; ch. 29 confirms the journey retrospectively.",
+      "routeCertainty": "novel",
+      "note": "The only time in twenty-two months she touches home"
+    },
+    {
+      "character": "lucia",
+      "from": "village",
+      "to": "don-ferrante",
+      "chapter": 27,
+      "mode": "coach",
+      "startDay": 19.5,
+      "days": 0.4,
+      "via": [
+        {
+          "at": [
+            9.2749,
+            45.5845
+          ],
+          "name": "Monza"
+        }
+      ],
+      "routeNote": "From her own doorway to Milan with Donna Prassede, by way of her villa, to be improved.",
+      "routeSource": "Ch. 27. The villa is 'at some miles' distance' and nowhere located; the road is the Lecco-Monza-Milan highway.",
+      "routeCertainty": "reconstructed",
+      "note": "She will not move again for twenty-two months"
     },
     {
       "character": "rodrigo",
@@ -1484,28 +1528,6 @@
       "routeSource": "Chs. 20 and 25. He leaves for Milan having risen before the sun; the road is the Lecco-Monza-Milan highway.",
       "routeCertainty": "reconstructed",
       "note": "Running away, and calling it business"
-    },
-    {
-      "character": "lucia",
-      "from": "chiuso",
-      "to": "don-ferrante",
-      "chapter": 27,
-      "mode": "coach",
-      "startDay": 19.5,
-      "days": 0.4,
-      "via": [
-        {
-          "at": [
-            9.2749,
-            45.5845
-          ],
-          "name": "Monza"
-        }
-      ],
-      "routeNote": "To Milan with Donna Prassede, by way of her villa, to be improved.",
-      "routeSource": "Ch. 27. The villa is 'at some miles' distance' and nowhere located; the road is the Lecco-Monza-Milan highway.",
-      "routeCertainty": "reconstructed",
-      "note": "She will not move again for twenty-two months"
     },
     {
       "character": "contagion",
@@ -1595,10 +1617,17 @@
       "from": "village",
       "to": "rocca",
       "chapter": 29,
-      "mode": "coach",
+      "mode": "foot",
       "startDay": 326,
       "days": 0.2,
       "via": [
+        {
+          "at": [
+            9.4192,
+            45.8182
+          ],
+          "name": "Chiuso"
+        },
         {
           "at": [
             9.4347,
@@ -1607,10 +1636,48 @@
           "name": "Malanotte"
         }
       ],
-      "routeNote": "Up to the castle of the man who took her daughter, because it is the one building the German troops will not enter.",
-      "routeSource": "Chs. 29-30. Half the territory shelters there and the Innominato feeds them all.",
+      "routeNote": "On foot, with a basket over Perpetua's shoulders and Don Abbondio asking whether they could not find a man to come with them. Only the journey back is a carriage.",
+      "routeSource": "Ch. 29 walks them and Don Abbondio asks for an escort; ch. 30 has the Unknown send a carriage to Malanotte for the return.",
       "routeCertainty": "novel",
       "note": "The safest place in the valley is the one that terrified it"
+    },
+    {
+      "character": "contagion",
+      "from": "lecco",
+      "to": "monza",
+      "chapter": 31,
+      "mode": "foot",
+      "startDay": 330,
+      "days": 172,
+      "via": [
+        {
+          "at": [
+            9.4192,
+            45.8182
+          ],
+          "name": "Chiuso"
+        },
+        {
+          "at": [
+            9.4166,
+            45.7936
+          ],
+          "name": "Olginate"
+        },
+        {
+          "at": [
+            9.3479,
+            45.7869
+          ],
+          "name": "Oggiono"
+        }
+      ],
+      "armyStrength": 3,
+      "armyPhase": "advance",
+      "routeNote": "The army has gone on. From here the band is not men but deaths. On the 20th of October 1629 the protophysician Settala reported the contagion at Lecco, and then it went down the road all winter in the clothes of dead soldiers and on forged health passes.",
+      "routeSource": "Settala's report of 20 October 1629 to the Tribunal of Health; Manzoni names Chiuso in his first draft. Documented carriers include Geronimo Redaello, who left Merate on a forged licence on 22 November and was dead in Milan within two days.",
+      "routeCertainty": "documented",
+      "note": "The first case anybody wrote down, and probably not the first"
     },
     {
       "character": "agnese",
@@ -1640,59 +1707,6 @@
       "routeSource": "Ch. 30: 'Our fugitives remained three or four and twenty days in the castle'.",
       "routeCertainty": "novel",
       "note": "The soldiers have gone. What they left has not"
-    },
-    {
-      "character": "contagion",
-      "from": "lecco",
-      "to": "monza",
-      "chapter": 31,
-      "mode": "foot",
-      "startDay": 330,
-      "days": 172,
-      "via": [
-        {
-          "at": [
-            9.4192,
-            45.8182
-          ],
-          "name": "Chiuso"
-        },
-        {
-          "at": [
-            9.3479,
-            45.7869
-          ],
-          "name": "Oggiono"
-        }
-      ],
-      "armyStrength": 3,
-      "armyPhase": "advance",
-      "routeNote": "The army has gone on. From here the band is not men but deaths. On the 20th of October 1629 the protophysician Settala reported the contagion at Lecco, and then it went down the road all winter in the clothes of dead soldiers and on forged health passes.",
-      "routeSource": "Settala's report of 20 October 1629 to the Tribunal of Health; Manzoni names Chiuso in his first draft. Documented carriers include Geronimo Redaello, who left Merate on a forged licence on 22 November and was dead in Milan within two days.",
-      "routeCertainty": "documented",
-      "note": "The first case anybody wrote down, and probably not the first"
-    },
-    {
-      "character": "agnese",
-      "from": "village",
-      "to": "pasturo",
-      "chapter": 32,
-      "mode": "foot",
-      "startDay": 600,
-      "days": 0.4,
-      "via": [
-        {
-          "at": [
-            9.41,
-            45.89
-          ],
-          "name": "Lecco"
-        }
-      ],
-      "routeNote": "Up into the Valsassina to sit out the plague among relatives, on the grounds that it is not so bad up there.",
-      "routeSource": "Ch. 32: 'She has gone to Valsassina, among her relatives at Pasturo'.",
-      "routeCertainty": "novel",
-      "note": "Up the road the army came down the previous autumn"
     },
     {
       "character": "contagion",
@@ -1768,6 +1782,28 @@
       "note": "It ends where every thread in this book ends"
     },
     {
+      "character": "agnese",
+      "from": "village",
+      "to": "pasturo",
+      "chapter": 32,
+      "mode": "foot",
+      "startDay": 600,
+      "days": 0.4,
+      "via": [
+        {
+          "at": [
+            9.41,
+            45.89
+          ],
+          "name": "the Ballabio road"
+        }
+      ],
+      "routeNote": "Up into the Valsassina to sit out the plague among relatives, on the grounds that it is not so bad up there.",
+      "routeSource": "Ch. 32: 'She has gone to Valsassina, among her relatives at Pasturo'.",
+      "routeCertainty": "novel",
+      "note": "Up the road the army came down the previous autumn"
+    },
+    {
       "character": "lucia",
       "from": "don-ferrante",
       "to": "lazzaretto",
@@ -1806,7 +1842,7 @@
           "name": "Porta Orientale"
         }
       ],
-      "routeNote": "Carried out of his own house on a hand-barrow by the monatti, having been sold to them for his clothes by the servant he trusted most.",
+      "routeNote": "Carried out of his own house on a hand-barrow by the monatti, having been sold to them for his clothes by the servant he trusted most. The mode is a compromise: a litter carried by men and a hand-barrow are neither a coach nor a walk, and the map has no glyph for being carried.",
       "routeSource": "Ch. 32.",
       "routeCertainty": "reconstructed",
       "note": "The Griso takes the coat, and is dead of it within days"
@@ -1933,7 +1969,7 @@
             9.2372,
             45.5348
           ],
-          "name": "Sesto"
+          "name": "the Milan high road"
         },
         {
           "at": [
@@ -1948,6 +1984,13 @@
             45.8335
           ],
           "name": "Pescate"
+        },
+        {
+          "at": [
+            9.3926,
+            45.8474
+          ],
+          "name": "the bridge at Lecco"
         }
       ],
       "routeNote": "Out into the rain that ends the plague, and forty miles home in it without stopping: Sesto, Monza, the flooded road, Pescate at dawn, the bridge, the fields.",
@@ -1956,7 +1999,32 @@
       "note": "He has found her, and walks home through a thunderstorm without noticing"
     },
     {
-      "character": "agnese",
+      "character": "renzo",
+      "from": "village",
+      "to": "pasturo",
+      "chapter": 36,
+      "mode": "foot",
+      "startDay": 671,
+      "days": 1,
+      "via": [
+        {
+          "at": [
+            9.41,
+            45.89
+          ],
+          "name": "the Ballabio road"
+        }
+      ],
+      "routeNote": "Up into the Valsassina the morning after he gets home, to fetch her mother down.",
+      "routeSource": "Ch. 36: 'On the following morning Renzo set out for Pasturo'.",
+      "routeCertainty": "novel",
+      "note": "The last errand before the wedding"
+    },
+    {
+      "character": [
+        "agnese",
+        "renzo"
+      ],
       "from": "pasturo",
       "to": "village",
       "chapter": 36,
@@ -2012,17 +2080,24 @@
       "via": [
         {
           "at": [
-            9.42,
-            45.81
+            9.3939,
+            45.8335
           ],
-          "name": "the Adda"
+          "name": "Pescate"
         },
         {
           "at": [
-            9.5336,
-            45.6091
+            9.4166,
+            45.7936
           ],
-          "name": "the Bergamask bank"
+          "name": "Olginate"
+        },
+        {
+          "at": [
+            9.5083,
+            45.7396
+          ],
+          "name": "the ferry at Brivio"
         },
         {
           "at": [
@@ -2032,8 +2107,8 @@
           "name": "Bortolo's village"
         }
       ],
-      "routeNote": "Married at last, and leaving: they sell everything and cross the river for good, to a silk mill near the gates of Bergamo going half price.",
-      "routeSource": "Ch. 37.",
+      "routeNote": "Married at last, and leaving: down the right bank to the ferry at Brivio, over the Adda for good, and on to a silk mill near the gates of Bergamo going half price.",
+      "routeSource": "Ch. 37. The novel gives no stage; Brivio carried the ferry on the Lecco-Bergamo road and is where this journey would have crossed.",
       "routeCertainty": "reconstructed",
       "note": "Out of the country that would not let them marry"
     }
@@ -2056,7 +2131,7 @@
       "chapter": 1,
       "day": 0.5,
       "title": "Two men at the wayside chapel",
-      "narration": "Towards evening on the 7th of November 1628 the curate of one of these villages finds two men waiting where the lane forks. They name a couple he is to marry tomorrow and tell him he is not to. The local lord has made a bet about the bride with his cousin."
+      "narration": "Towards evening on the 7th of November 1628 Don Abbondio, the curate of one of these villages, finds two men waiting where the lane forks. They name a couple he is to marry tomorrow and tell him he is not to. The local lord has made a bet about the bride."
     },
     {
       "kind": "scene",
@@ -2067,7 +2142,7 @@
       "title": "The night of the deceits",
       "narration": "Fra Cristoforo has already been up to the great house to ask Don Rodrigo to behave, and been shown the door. So everyone tries at once, and every plan fails: an ambush marriage in the curate's parlour, bravoes at an empty cottage, and a sexton who rings the alarm bell and panics the kidnappers.",
       "presenceOk": {
-        "cristoforo": "Named for a visit he made earlier the same day; he is back at Pescarenico by nightfall.",
+        "cristoforo": "Named for the visit he made the day before; he is back at Pescarenico by the night of the wedding attempt.",
         "rodrigo": "Named as the man who ordered it. He is at his own house and sends the bravoes."
       }
     },
@@ -2140,7 +2215,7 @@
       "to": "porta-orientale",
       "chapter": 11,
       "title": "Into Milan",
-      "narration": "In at the eastern gate, past a long low building he is told is the lazaretto and does not look at twice. He walks into a city on the second day of a bread riot, with loaves in the street and flour trodden into the road."
+      "narration": "In at the eastern gate, past a long low building he is told is the lazaretto and does not look at twice. He walks into a city rioting over the price of bread, with loaves in the street and flour trodden into the road."
     },
     {
       "kind": "journey",
@@ -2187,7 +2262,7 @@
       "to": "bergamask-bank",
       "chapter": 17,
       "title": "The territory of St Mark",
-      "narration": "A hundred and fifty metres of water, a fisherman who asks nothing, and another state on the far side. The whole second half hangs on this: on that bank a Milanese warrant is a piece of paper."
+      "narration": "A few minutes of water, a fisherman who asks nothing, and another state on the far side. The whole second half hangs on this: on that bank a Milanese warrant is a piece of paper."
     },
     {
       "kind": "journey",
@@ -2196,7 +2271,7 @@
       "to": "bortolo-village",
       "chapter": 17,
       "title": "The country of his adoption",
-      "narration": "Eleven miles towards the whitish mass on the hillside that is Bergamo. His cousin takes him in, asks nothing, and gives him a job and a false name."
+      "narration": "A morning's walk towards the whitish mass on the hillside that is Bergamo. His cousin takes him in, asks nothing, and gives him a job and a false name."
     },
     {
       "kind": "journey",
@@ -2269,7 +2344,7 @@
       "to": "chiuso",
       "chapter": 22,
       "title": "Down to the cardinal",
-      "narration": "He rides down with a carbine on his shoulder, having decided nothing, and is received by Federigo Borromeo with an embrace and a question about what he has come for. He finds an answer while being asked."
+      "narration": "He rides down with a carbine on his shoulder, having decided nothing, and Federigo Borromeo, the Archbishop of Milan, receives him with an embrace and a question about what he has come for. He finds an answer while being asked."
     },
     {
       "kind": "journey",
@@ -2287,12 +2362,21 @@
       "to": "chiuso",
       "chapter": 24,
       "title": "She comes down",
-      "narration": "The same litter, the same road, twelve hours later. A good woman is waiting with clothes and a fire, her mother is on the way, and a hundred gold scudi arrive in a paper that nobody knows how to refuse."
+      "narration": "The same litter, the same road, twelve hours later. A good woman is waiting with clothes and a fire, her mother has been sent for, and a hundred gold scudi arrive in a paper that nobody knows how to refuse."
     },
     {
       "kind": "journey",
       "character": "lucia",
       "from": "chiuso",
+      "to": "village",
+      "chapter": 26,
+      "title": "Home, for an afternoon",
+      "narration": "Before Milan she goes home. It is the only time in twenty-two months she stands in her own cottage, and she spends it saying goodbye to it - to the village, to her mother, and to a wedding that did not happen a fortnight ago."
+    },
+    {
+      "kind": "journey",
+      "character": "lucia",
+      "from": "village",
       "to": "don-ferrante",
       "chapter": 27,
       "title": "Donna Prassede takes her",
@@ -2313,7 +2397,7 @@
       "at": "chur",
       "chapter": 28,
       "title": "Something else on the map",
-      "narration": "Nobody here has heard of the war over Mantua, and it is about to decide all their lives. This thread is not a person: it is thirty-five thousand imperial troops, and what came down with them. Minard's rule - the width is the number of people. Napoleon's band narrows. This one widens."
+      "narration": "Nobody here has heard of the war over Mantua, and it is about to decide all their lives. This thread is not a person: thirty-five thousand imperial troops, and what came down with them. Minard's rule - the width is people. First men, then deaths, and it is the deaths that widen."
     },
     {
       "kind": "journey",
@@ -2421,7 +2505,7 @@
       "character": "agnese",
       "chapter": 32,
       "title": "Meanwhile",
-      "narration": "Back to the spring, and the one person here whose plan worked."
+      "narration": "Back to midsummer, and the one person here whose plan worked."
     },
     {
       "kind": "journey",
@@ -2438,24 +2522,8 @@
       "from": "don-ferrante",
       "to": "lazzaretto",
       "chapter": 33,
-      "title": "She is carried out too",
-      "narration": "Donna Prassede is dead and Don Ferrante is dead, and Lucia is carried out of the house on a cart in the same direction as everybody else in Milan. Manzoni does not narrate the journey. He simply has her be there, later, alive."
-    },
-    {
-      "kind": "journey",
-      "character": "renzo",
-      "from": "don-ferrante",
-      "to": "lazzaretto",
-      "chapter": 33,
-      "title": "Onto the cart",
-      "narration": "Chased through the streets as a plague-spreader by people who mean to tear him apart, he saves his life by jumping onto a passing cart of corpses, and the monatti carry him out through the eastern gate, laughing."
-    },
-    {
-      "kind": "meanwhile",
-      "character": "rodrigo",
-      "chapter": 32,
-      "title": "Meanwhile",
-      "narration": "Back six days. Before Renzo reaches Milan, the man who started all this is carried out of his own house."
+      "title": "And Lucia, out of the same city",
+      "narration": "Donna Prassede is dead, and so is her husband Don Ferrante, who had proved out of Aristotle that there was no such thing as contagion. Lucia is carried out on a cart in the same direction as everybody else in Milan. Manzoni does not narrate it. He simply has her be there, later, alive."
     },
     {
       "kind": "journey",
@@ -2473,7 +2541,7 @@
       "to": "greco",
       "chapter": 32,
       "title": "Three days after",
-      "narration": "Renzo has had the plague and recovered, which in 1630 is a passport. He comes back over the river to find out who is alive; almost everyone he asks about is dead. Then south through Monza, where a shopkeeper hands him bread with a pair of tongs.",
+      "narration": "Renzo has had the plague and recovered, which in 1630 is a passport. He goes home first - the village is standing and nearly everyone he asks after is dead - then south through Monza, where a shopkeeper hands him bread with a pair of tongs.",
       "presenceOk": {
         "contagion": "The contagion is not a person and cannot be present or absent: by 1630 it is everywhere in the frame. The thread is drawn as a band, not as somebody who arrives."
       }
@@ -2489,6 +2557,15 @@
       "presenceOk": {
         "contagion": "The contagion is not a person and cannot be present or absent: by 1630 it is everywhere in the frame. The thread is drawn as a band, not as somebody who arrives."
       }
+    },
+    {
+      "kind": "journey",
+      "character": "renzo",
+      "from": "don-ferrante",
+      "to": "lazzaretto",
+      "chapter": 33,
+      "title": "Onto the cart",
+      "narration": "Chased through the streets as a plague-spreader by people who mean to tear him apart, he saves his life by jumping onto a passing cart of corpses, and the monatti carry him out through the eastern gate, laughing."
     },
     {
       "kind": "scene",
@@ -2513,12 +2590,27 @@
     },
     {
       "kind": "journey",
-      "character": "agnese",
+      "character": "renzo",
+      "from": "village",
+      "to": "pasturo",
+      "chapter": 36,
+      "title": "Up for her mother",
+      "narration": "The morning after he gets home he walks up into the Valsassina, because Agnese is still up there among relatives and does not yet know that any of them are alive.",
+      "presenceOk": {
+        "contagion": "The contagion is not a person and cannot be present or absent: by 1630 it is everywhere in the frame. The thread is drawn as a band, not as somebody who arrives."
+      }
+    },
+    {
+      "kind": "journey",
+      "character": [
+        "agnese",
+        "renzo"
+      ],
       "from": "pasturo",
       "to": "village",
       "chapter": 36,
       "title": "Down out of the mountains",
-      "narration": "He goes up into the Valsassina for her mother and they come home together, with the hundred gold scudi still in their paper. It is about to be a dowry.",
+      "narration": "They come down together, with the hundred gold scudi still in their paper. It is about to be a dowry.",
       "presenceOk": {
         "contagion": "The contagion is not a person and cannot be present or absent: by 1630 it is everywhere in the frame. The thread is drawn as a band, not as somebody who arrives."
       }
@@ -2530,7 +2622,7 @@
       "to": "village",
       "chapter": 37,
       "title": "One fine evening",
-      "narration": "Her quarantine over, Lucia comes home in a cart with the widow who nursed her, one fine evening in the middle of October 1630. Agnese hears the wheels at her own door. It is two years and four days since the three of them went down to the boat.",
+      "narration": "Her quarantine over, Lucia comes home in a cart with the widow who nursed her, one fine evening in the middle of October 1630. Agnese hears the wheels at her own door. It is two years all but a month since the three of them went down to the boat.",
       "presenceOk": {
         "contagion": "The contagion is not a person and cannot be present or absent: by 1630 it is everywhere in the frame. The thread is drawn as a band, not as somebody who arrives."
       }
@@ -2555,7 +2647,7 @@
       "kind": "scene",
       "at": "lecco-bridge",
       "chapter": 37,
-      "day": 1090.3,
+      "day": 735,
       "title": "And that is the whole of it",
       "narration": "All of it happened within fifty miles of the bridge the first sentence pointed at, bar one friar's walk to Rimini and one army's from the Alps. Manzoni framed the shot, then proved a place that small can hold a bread riot, a state frontier, a private army and sixty thousand deaths.",
       "presenceOk": {
