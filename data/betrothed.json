@@ -405,7 +405,12 @@
       "story": "Renzo and Lucia's village, and the only place either of them wanted to be. Manzoni describes exactly where it stands and refuses to say what it is called - a refusal that has kept two Lecco parishes arguing for two hundred years.",
       "note": "The novel never names it. Olate is Antonio Stoppani's identification and the one the sightline from the boat supports: from the water the fugitives see the palazzotto raised above the houses at the promontory's foot, which works from Olate's lake-facing slope and not from Acquate behind the hill. Acquate's rival claim is older and still live - its churchyard is called the Sagrato don Abbondio.",
       "quote": "The bank, formed by the deposit of three large mountain streams, descends from the bases of two contiguous mountains, the one called St. Martin, the other by a Lombard name, Resegone, from its long line of summits, which in truth give it the appearance of a saw",
-      "quoteRef": "Ch. 1"
+      "quoteRef": "Ch. 1",
+      "image": {
+        "file": "assets/images/bet-village.jpg",
+        "caption": "The night of the deceits, chapter seven",
+        "credit": "Francesco Gonin (1808-1889), for the illustrated edition of 1840 drawn under Manzoni's supervision · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "dabbondio-church",
@@ -420,7 +425,12 @@
       "story": "Where the wedding does not happen. Don Abbondio comes home along the lane where the two paths fork - the right hand climbing to the parsonage, the left going down to the torrent - and finds two men waiting at the little wayside chapel.",
       "note": "The traditional Olate attribution: the church of the Santi Vitale e Valeria. San Giorgio at Acquate, whose forecourt is named for Don Abbondio, is the rival.",
       "quote": "The inner walls of the two narrow paths, instead of meeting at the angle, ended in a little chapel, upon which were depicted certain long, sinuous, pointed shapes",
-      "quoteRef": "Ch. 1"
+      "quoteRef": "Ch. 1",
+      "image": {
+        "file": "assets/images/bet-chapel.jpg",
+        "caption": "Don Abbondio meets Don Rodrigo’s men at the wayside chapel",
+        "credit": "Francesco Gonin (1808-1889), for the illustrated edition of 1840 drawn under Manzoni's supervision · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "palazzotto",
@@ -435,7 +445,12 @@
       "story": "The house on the ridge that can see the whole village, which is the entire point of it. Fra Cristoforo is thrown out of its dining room; the bravoes go out of its gate at night; and from the boat it looks, Manzoni says, like a savage prowling over sleeping prey.",
       "note": "The sixteenth-century Arrigoni villa on the Zucco above Olate, demolished in 1937 and built over. A minority tradition puts the palazzotto at Pomedo di Laorca instead.",
       "quote": "the palace of Don Roderick, raised above the huts that crowded the base of the promontory, like a savage prowling in the dark over his slumbering prey.",
-      "quoteRef": "Ch. 8"
+      "quoteRef": "Ch. 8",
+      "image": {
+        "file": "assets/images/bet-palazzotto.jpg",
+        "caption": "Don Rodrigo’s palace above the village, chapter five",
+        "credit": "Francesco Gonin (1808-1889), for the illustrated edition of 1840 drawn under Manzoni's supervision · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "lecco",
@@ -450,7 +465,12 @@
       "story": "The town below, where you go for a lawyer and where the garrison is. Renzo walks down with four capons under his arm to buy justice from Doctor Azzeccagarbugli, and walks back up with the capons.",
       "note": "'Lecco, the largest of these villages, and which gives its name to the district' (ch. 1). The pin is the old market square.",
       "quote": "Lecco, the largest of these villages, and which gives its name to the district, is situated at no great distance from the bridge, upon the margin of the lake",
-      "quoteRef": "Ch. 1"
+      "quoteRef": "Ch. 1",
+      "image": {
+        "file": "assets/images/bet-lecco.jpg",
+        "caption": "Renzo consults Doctor Azzeccagarbugli, chapter three",
+        "credit": "Francesco Gonin (1808-1889), for the illustrated edition of 1840 drawn under Manzoni's supervision · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "lecco-bridge",
@@ -465,7 +485,12 @@
       "story": "The hinge of the opening paragraph, and of the map: the exact place where the lake stops being a lake and goes back to being the Adda. Everything in this book happens within about fifty miles of it.",
       "note": "The fourteenth-century Ponte Azzone Visconti. Manzoni marks it as the point where the lake ceases and the river recommences; the regiments are counted over it in 1629.",
       "quote": "The bridge by which the two shores are here united, appears to render the transformation more apparent, and marks the point at which the lake ceases, and the Adda recommences",
-      "quoteRef": "Ch. 1"
+      "quoteRef": "Ch. 1",
+      "image": {
+        "file": "assets/images/bet-lake.jpg",
+        "caption": "Lecco and the bridge where the lake becomes the Adda again, engraved for the 1840 edition",
+        "credit": "Luigi Riccardi (1808-1877), for the illustrated edition of 1840 drawn under Manzoni's supervision · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "pescarenico",
@@ -480,7 +505,12 @@
       "story": "Fra Cristoforo's house, and the last safe place any of them touch. The three fugitives come down to the water's edge here at night; the friar puts them in a boat and never sees Lucia again.",
       "note": "Manzoni notes the building 'still subsists'; the convent church of the Santi Materno e Lucia survives. He gives the hamlet as being on the left bank a few steps below the bridge.",
       "quote": "Pescarenico is a small hamlet on the left bank of the Adda, or, rather, of the Lake, a few steps below the bridge; a group of houses, inhabited for the most part by fishermen, and adorned here and there with nets spread out to dry.",
-      "quoteRef": "Ch. 4"
+      "quoteRef": "Ch. 4",
+      "image": {
+        "file": "assets/images/bet-boat.jpg",
+        "caption": "The boat pulling away from the shore under the Resegone: the Addio monti plate",
+        "credit": "Luigi Riccardi (1808-1877), for the illustrated edition of 1840 drawn under Manzoni's supervision · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "pescate",
@@ -495,7 +525,8 @@
       "story": "Where the boat puts them ashore in the dark, and where the carriage is waiting. Renzo, Lucia and Agnese part company two days later and do not stand in the same place again for twenty-two months.",
       "note": "The novel gives only 'the right bank of the Adda' here, but names Pescate on the return journey in ch. 36, coming up from Monza - which fixes the landing.",
       "quote": "as the bark carried them to the right bank of the Adda.",
-      "quoteRef": "Ch. 8"
+      "quoteRef": "Ch. 8",
+      "imageBlank": "The landing is identified from a later chapter, not shown; the 1840 plate of the crossing is on Pescarenico opposite, where the boat left from."
     },
     {
       "id": "chiuso",
@@ -508,7 +539,8 @@
       "certainty": "identified",
       "region": "lecco",
       "story": "The parish the cardinal happens to be visiting on the night the Innominato cannot sleep. Lucia is brought down to a tailor's house here; her mother is fetched to her; and a rich, timid woman offers to take her to Milan.",
-      "note": "Manzoni suppresses the name in the novel but names Chiuso in his first draft, Fermo e Lucia, where the priest is 'the good priest of Chiuso' - Serafino Morazzone, whose house is now his museum. It is 660 metres from the Rocca."
+      "note": "Manzoni suppresses the name in the novel but names Chiuso in his first draft, Fermo e Lucia, where the priest is 'the good priest of Chiuso' - Serafino Morazzone, whose house is now his museum. It is 660 metres from the Rocca.",
+      "imageBlank": "A village Manzoni suppressed the name of. No plate shows it, and a modern photograph would name what he would not."
     },
     {
       "id": "rocca",
@@ -523,7 +555,12 @@
       "story": "A castle above a valley on the summit of a cliff, where a man who is feared by governments discovers in one night that he cannot do this any more. Lucia spends a single night in it. Later half the valley shelters there from the German troops.",
       "note": "The Rocca di Vercurago, identified with the castle since the first printed map of the Manzonian places in 1830. Manzoni himself wrote that he had moved Bernardino Visconti's castle 'into the Valsassina'; the novel's own topography - the frontier torrent in the valley, Chiuso just below - points here instead.",
       "quote": "The castle of the Unknown was situated above a narrow and shady valley, on the summit of a cliff, which, belonging to a rugged chain of mountains, was nevertheless separated from them by banks, caverns, and precipices.",
-      "quoteRef": "Ch. 20"
+      "quoteRef": "Ch. 20",
+      "image": {
+        "file": "assets/images/bet-rocca.jpg",
+        "caption": "The castle of the Unnamed, with the litter being carried up the rock below",
+        "credit": "Francesco Gonin (1808-1889), for the illustrated edition of 1840 drawn under Manzoni's supervision · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "malanotte",
@@ -538,7 +575,8 @@
       "story": "The tavern at the foot of the climb, where the carriage stops and the litter takes over. It had an inn sign with a rising sun painted on it, and everybody called it Bad Night anyway.",
       "note": "A real cluster of houses below the Rocca; Via Malanotte at Calolziocorte carries the name. The tavern itself is not fixed to better than about a kilometre.",
       "quote": "an old sign, with a rising sun painted on both sides, was suspended before the door; but the people gave the place the more appropriate name of Malanotte.",
-      "quoteRef": "Ch. 20"
+      "quoteRef": "Ch. 20",
+      "imageBlank": "We cannot fix the tavern itself closer than about a kilometre, so there is nothing to point a camera at."
     },
     {
       "id": "pasturo",
@@ -553,7 +591,8 @@
       "story": "Where Agnese goes to sit out the plague among her relatives, on the grounds that it is not so bad up there. The imperial army had marched through Pasturo the previous autumn on its way down to Lecco.",
       "note": "Named in the text twice, chs. 32 and 36. It also sits on the lansquenets' documented route through the Valsassina - the map draws both, and lets the reader notice.",
       "quote": "She has gone to Valsassina, among her relatives at Pasturo; for they say that down there the pestilence has not made such ravages as it has here.",
-      "quoteRef": "Ch. 32"
+      "quoteRef": "Ch. 32",
+      "imageBlank": "A village of relatives, mentioned twice and never described."
     },
     {
       "id": "monza",
@@ -568,7 +607,8 @@
       "story": "Where the carriage stops at sunrise and the family comes apart: Lucia and Agnese to the convent, Renzo on foot to Milan. He passes back through it twice more, once being handed bread with a pair of tongs.",
       "note": "The inn is unnamed and unlocated; it is folded into this pin. Manzoni's own aside - 'which we believe to have been the name of the place' - is a joke about his manuscript source.",
       "quote": "Our travellers arrived then at Monza, which we believe to have been the name of the place to which Father Christopher had directed Renzo, a little after sunrise.",
-      "quoteRef": "Ch. 9"
+      "quoteRef": "Ch. 9",
+      "imageBlank": "The 1840 plates for the Monza chapters show the signora and the convent parlour, not the town. A modern photograph of Monza would show four centuries of the wrong buildings."
     },
     {
       "id": "monza-convent",
@@ -581,7 +621,8 @@
       "certainty": "identified",
       "region": "monza",
       "story": "Gertrude's convent, and the safest place they could think of. It is the least safe place in the book: the nun who takes Lucia in is being blackmailed, and hands her to the men who come for her.",
-      "note": "The novel never names the house. The historical monastery of Santa Margherita, where Marianna de Leyva was Sister Virginia, stood here; it was demolished around 1890 and its church survives on the piazza."
+      "note": "The novel never names the house. The historical monastery of Santa Margherita, where Marianna de Leyva was Sister Virginia, stood here; it was demolished around 1890 and its church survives on the piazza.",
+      "imageBlank": "The monastery of Santa Margherita was demolished around 1890 and the novel never names it; the surviving church is a retitled fragment."
     },
     {
       "id": "porta-orientale",
@@ -596,7 +637,8 @@
       "story": "The gate Renzo walks in by on the day of the riot, past a long low building he is told is the lazaretto and does not look at twice. Two years later he goes out through it to look for Lucia in that building.",
       "note": "The gate of the Spanish walls, on the line of the bastions at what is now Piazza Oberdan; renamed Porta Venezia in 1860. Not the medieval gate of the same name, which stood a kilometre inside it.",
       "quote": "he followed the path which had been pointed out to him, and arrived at the eastern entrance, which consisted of two pilasters, with a roofing above to secure the gates, and on one side was a small house for the toll-gatherer.",
-      "quoteRef": "Ch. 11"
+      "quoteRef": "Ch. 11",
+      "imageBlank": "The Spanish gate was replaced by neoclassical customs lodges in the 1820s, so every available picture shows the building that took its place."
     },
     {
       "id": "forno-grucce",
@@ -611,7 +653,12 @@
       "story": "Where the bread riot starts, and where Renzo's whole life turns on being in a street. He arrives hungry in a city throwing flour into the road, picks up an opinion and a crowd, and is a wanted man by nightfall.",
       "note": "Corsia de' Servi 16, now corso Vittorio Emanuele II between numbers 3 and 5, where a plaque stands; the bakery closed in 1919. The coordinate is interpolated to the Duomo end of the street and deserves a metre-level check.",
       "quote": "In the street called the Corsia de' Servi there was, and is still, a bakery of the same name,—a name that signifies in Tuscan the Shop of the Crutches",
-      "quoteRef": "Ch. 12"
+      "quoteRef": "Ch. 12",
+      "image": {
+        "file": "assets/images/bet-grucce.jpg",
+        "caption": "The bread riot in the Corsia de’ Servi, chapter twelve",
+        "credit": "Francesco Gonin (1808-1889), for the illustrated edition of 1840 drawn under Manzoni's supervision · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "duomo",
@@ -624,7 +671,8 @@
       "certainty": "real",
       "region": "milan",
       "story": "The bonfire of the bakers' tools, and the crossroads of both of Renzo's Milans: he passes through it in a mob on his first day, and alone through an empty plague city on his last.",
-      "note": "Piazza del Duomo. The cathedral was the landmark Renzo steered by across country - he takes its dome for his polar star."
+      "note": "Piazza del Duomo. The cathedral was the landmark Renzo steered by across country - he takes its dome for his polar star.",
+      "imageBlank": "The cathedral is the one building here every reader can already picture, and no 1840 plate shows the square itself."
     },
     {
       "id": "vicario",
@@ -639,7 +687,12 @@
       "story": "The house the mob decides is responsible for the price of bread. Renzo makes a speech outside it and is marked down as a ringleader by a man who is listening. The Grand Chancellor arrives in his own coach and carries the vicario out through the crowd by flattering it.",
       "note": "Manzoni names no street. The vicario in 1628 was Lodovico Melzi and the accounts of the tumult put his house near Santa Maria Segreta, just off the Cordusio. The fix is to the block, not the door. Melzi was awarded 300 gold scudi for the damage the following February.",
       "quote": "Near by is the house of the superintendent of provision; let us do justice, and plunder it.",
-      "quoteRef": "Ch. 12"
+      "quoteRef": "Ch. 12",
+      "image": {
+        "file": "assets/images/bet-vicario.jpg",
+        "caption": "Ferrer’s coach at the house of the vicario di provvisione, chapter thirteen",
+        "credit": "Francesco Gonin (1808-1889), for the illustrated edition of 1840 drawn under Manzoni's supervision · Wikimedia Commons · public domain"
+      }
     },
     {
       "id": "full-moon",
@@ -654,7 +707,8 @@
       "story": "Where a stranger buys Renzo his supper, gets him drunk, writes down his name, and has him arrested at dawn. He gets away in the street outside because the city is still too frightened of its own crowd to hold him.",
       "note": "Manzoni gives no street - only that the tout led Renzo to it from the crowd near the Duomo. The pin is a short walk from the cathedral and is a guess.",
       "quote": "And he entered a large gate, from which hung a sign of the Full Moon.",
-      "quoteRef": "Ch. 14"
+      "quoteRef": "Ch. 14",
+      "imageBlank": "Manzoni gives the inn a sign and no street. Any real building would be one he deliberately withheld, wearing a real facade."
     },
     {
       "id": "porta-nuova",
@@ -669,7 +723,8 @@
       "story": "The gate Renzo actually enters the plague city by, having meant to try the first one he came to. A bastion hides it until he is almost through it. Inside there is a hand-barrow across the opening with a dying man on it.",
       "note": "Our translation says he 'arrived before the walls of Milan near the eastern gate' and then contradicts itself. Manzoni puts him between the two gates and much nearer this one - 1.15 km from where the English implies. The Spanish gate stood well west of the medieval arch that now carries the name.",
       "quote": "he proceeded, without being aware of it, to the gate Nuova, which had been hid from his view by a bastion, behind which it was then concealed.",
-      "quoteRef": "Ch. 33"
+      "quoteRef": "Ch. 33",
+      "imageBlank": "Same as its neighbour: the gate Renzo walked through was pulled down in the Napoleonic period and the arch on the site is its replacement."
     },
     {
       "id": "don-ferrante",
@@ -682,7 +737,8 @@
       "certainty": "conjectured",
       "region": "milan",
       "story": "Where Lucia spends twenty-two months being improved by a kind, insufferable woman, and where Renzo knocks two years later and is chased down the street as a plague-spreader for touching the wall.",
-      "note": "Manzoni names no street and no quarter for it. The pin is a placement, not a location, and is kept apart from Don Rodrigo's Milan house on principle: they must not be the same dot."
+      "note": "Manzoni names no street and no quarter for it. The pin is a placement, not a location, and is kept apart from Don Rodrigo's Milan house on principle: they must not be the same dot.",
+      "imageBlank": "No street and no quarter is given for the house Lucia spends twenty-two months in. There is nothing honest to photograph."
     },
     {
       "id": "rodrigo-milan",
@@ -695,7 +751,8 @@
       "certainty": "conjectured",
       "region": "milan",
       "story": "Where he goes to be out of the cardinal's way and stays to be out of the plague's, until the morning he wakes with a swelling under his arm and finds that the one man he trusts has already gone for the monatti.",
-      "note": "'A casa sua, in Milano' is the whole of what the novel gives. Pinned separately from Don Ferrante's house because the book keeps them separate."
+      "note": "'A casa sua, in Milano' is the whole of what the novel gives. Pinned separately from Don Ferrante's house because the book keeps them separate.",
+      "imageBlank": "“A casa sua, in Milano” is the whole of what the novel says. A picture would invent an address."
     },
     {
       "id": "lazzaretto",
@@ -710,7 +767,8 @@
       "story": "A walled rectangle outside the eastern gate, three hundred and seventy metres by three hundred and seventy-eight, with two hundred and eighty-eight cells around a portico and a small octagonal church at the centre. In the summer of 1630 it held some sixteen thousand people. Every thread in this book ends up inside it.",
       "note": "Demolished from 1882; the central chapel of San Carlo al Lazzaretto still stands on the spot and fixes the centre to within a few metres. Dimensions from Luca Beltrami's 1899 monograph, written from the survey made before demolition. The sixteen thousand is Tadino's count and Manzoni's figure; nobody has ever checked it.",
       "quote": "in a little while you will find yourself by the side of a long and low building; that is the lazaretto; keep along the ditch that encircles it, and you will soon be at the eastern gate.",
-      "quoteRef": "Ch. 11"
+      "quoteRef": "Ch. 11",
+      "imageBlank": "Demolished from 1882. Photographs exist and I could not clear one; the only thing standing is the central chapel, which would show a fragment and imply the whole."
     },
     {
       "id": "greco",
@@ -725,7 +783,8 @@
       "story": "A hayloft on the last night of the walk south, close enough to Milan to see the dome in the morning. He has eaten nothing but two loaves handed to him at arm's length.",
       "note": "Named in the text, ch. 32.",
       "quote": "Towards evening he passed through Greco, and quitting the high road, went into the fields in search of some small house where he might pass the night",
-      "quoteRef": "Ch. 32"
+      "quoteRef": "Ch. 32",
+      "imageBlank": "A hayloft outside a village that is now inner Milan."
     },
     {
       "id": "sesto",
@@ -740,7 +799,8 @@
       "story": "Where the rain that ends the plague catches him on the way home, and does not stop.",
       "note": "Named in the text, ch. 36.",
       "quote": "He arrived at Sesto in the evening; the rain had as yet no appearance of ceasing.",
-      "quoteRef": "Ch. 36"
+      "quoteRef": "Ch. 36",
+      "imageBlank": "Named once, in the rain, on the way past."
     },
     {
       "id": "gorgonzola",
@@ -753,7 +813,8 @@
       "certainty": "real",
       "region": "bergamasco",
       "story": "A village inn where Renzo hears his own crime described by a traveller who was there, considerably improved, and understands for the first time that he cannot go home.",
-      "note": "Named in the text, ch. 16. He asks the host how far it is to the Adda and gets six miles."
+      "note": "Named in the text, ch. 16. He asks the host how far it is to the Adda and gets six miles.",
+      "imageBlank": "An inn on the road east; the novel gives the conversation and not the building."
     },
     {
       "id": "trezzo",
@@ -768,7 +829,8 @@
       "story": "Heard and never seen: a clock striking the half hours somewhere in the dark while Renzo is lost in a wood. It is the only thing in the novel that fixes where he crossed the river.",
       "note": "Named in the text, ch. 17, as the probable source of the clock.",
       "quote": "he heard, every half hour, in the deep silence, the heavy sound of some distant clock, probably that of Trezzo.",
-      "quoteRef": "Ch. 17"
+      "quoteRef": "Ch. 17",
+      "imageBlank": "Heard and never seen — a clock striking in the dark is the whole of what the novel gives, and a picture of the castle would show Renzo something he never saw."
     },
     {
       "id": "adda-crossing",
@@ -783,7 +845,8 @@
       "story": "The great scene of the first half: a man lost all night in a wood, hearing water and not daring to believe it, coming out on a bluff above the river at first light with another country on the far side.",
       "note": "Manzoni names no crossing point and no scholar has fixed one. The clues are six miles from Gorgonzola, a cross-road to the left, heath and wood, a steep bluff - and the Adda runs in a gorge only in the Trezzo reach - Trezzo's clock, and Bergamo visible across the water. The pin is a reading of those, not a location.",
       "quote": "He soon reached the extremity of the plain, and found himself on the edge of a steep precipice, whence looking downward, he discovered, through the bushes, the long-desired river, and, on the other side of it, villages scattered here and there, with hills in the distance",
-      "quoteRef": "Ch. 17"
+      "quoteRef": "Ch. 17",
+      "imageBlank": "Our own placement of the crossing is a reading of Trezzo’s clock and a bluff, not a location. A picture of one reach of the Adda would assert we know which."
     },
     {
       "id": "bortolo-village",
@@ -798,7 +861,8 @@
       "story": "Where a cousin takes him in without asking questions, gives him a new name and a job in a silk-mill, and keeps him for two years while the warrant sits in a drawer in another country.",
       "note": "Manzoni never names it and nobody has identified it. The only fix is his own arithmetic - nine miles from the landing and then two more, walking towards Bergamo, and short of the city. Low confidence, and said so.",
       "quote": "at its entrance, he saw a very high house, with numerous windows, and perceived it to be a silk manufactory",
-      "quoteRef": "Ch. 17"
+      "quoteRef": "Ch. 17",
+      "imageBlank": "Never named by Manzoni and never identified by anyone; the pin is arithmetic."
     },
     {
       "id": "bergamo",
@@ -813,7 +877,8 @@
       "story": "The whitish mass on the hillside that Renzo sees across the water at dawn and walks towards for the rest of his life. The novel ends at a silk-mill near its gates.",
       "note": "Venetian territory, and therefore out of reach of a Milanese warrant. Named repeatedly.",
       "quote": "The master of another manufactory, situated near the gates of Bergamo, being dead, the inheritor of it, a young libertine, was willing to sell it half price, for ready money.",
-      "quoteRef": "Ch. 37"
+      "quoteRef": "Ch. 37",
+      "imageBlank": "The city is a whitish mass on a hillside seen across water, which is the only way the novel ever shows it."
     },
     {
       "id": "chur",
@@ -826,7 +891,8 @@
       "certainty": "real",
       "region": "north",
       "story": "Where the army was on the 29th of May 1629, coming south for a war about who should inherit Mantua. Nobody in this book has heard of it.",
-      "note": "Documented staging point of the imperial column under Merode. The crossing of the Alps beyond it is inferred: Splugen and Septimer both funnel into Chiavenna and neither is named in an accessible source."
+      "note": "Documented staging point of the imperial column under Merode. The crossing of the Alps beyond it is inferred: Splugen and Septimer both funnel into Chiavenna and neither is named in an accessible source.",
+      "imageBlank": "Outside the novel entirely: a staging point on the army’s documented march, named here only so the thread has somewhere to start."
     },
     {
       "id": "colico",
@@ -841,7 +907,8 @@
       "story": "The first soil of the Duchy of Milan the troops set foot on, at the head of the lake, in September 1629.",
       "note": "Named in the novel, ch. 28: 'Colico was the first territory of the duchy that these demons invaded'. The date is disputed between the 9th and the 20th of September.",
       "quote": "Colico was the first territory of the duchy that these demons invaded; they then threw themselves on Bellano, from which they entered and spread themselves in the Valsassina, whence they marched into the territory of Lecco.",
-      "quoteRef": "Ch. 28"
+      "quoteRef": "Ch. 28",
+      "imageBlank": "Named in a list of places the troops ruined, with nothing described."
     },
     {
       "id": "bellano",
@@ -854,7 +921,8 @@
       "certainty": "real",
       "region": "north",
       "story": "The second place they came to, halfway down the lake. By early November fifty-nine people there were dead and three or four were dying every day.",
-      "note": "Named in the novel, ch. 28. The mortality is from the eyewitness account of Sigismondo Boldoni."
+      "note": "Named in the novel, ch. 28. The mortality is from the eyewitness account of Sigismondo Boldoni.",
+      "imageBlank": "The same: a name in the same sentence, and fifty-nine dead by November."
     },
     {
       "id": "rimini",
@@ -869,7 +937,8 @@
       "story": "Where Fra Cristoforo is sent to get him out of the way, on foot, the length of Italy, for the crime of having been right. He stays there until the plague gives him a reason to come back.",
       "note": "Manzoni gives the whole journey one sentence: 'made to travel on foot from Pescarenico to Rimini'. Both of his long legs are drawn as gestures, because that is all the novel gives.",
       "quote": "Friar Christopher was made to travel on foot from Pescarenico to Rimini, as we shall see.",
-      "quoteRef": "Ch. 19"
+      "quoteRef": "Ch. 19",
+      "imageBlank": "Manzoni gives the journey one sentence and the town none at all."
     },
     {
       "id": "bergamask-bank",
@@ -884,7 +953,8 @@
       "story": "Where the fisherman puts him ashore at first light, out of the Duchy of Milan and out of reach of it. He asks a passer-by whose country this is and is told: it is the territory of St Mark.",
       "note": "The landing is as conjectured as the launching point opposite it; the novel gives a fisherman, a bark and the far bank, and no place-name at all.",
       "quote": "It is the territory of St. Mark.",
-      "quoteRef": "Ch. 17"
+      "quoteRef": "Ch. 17",
+      "imageBlank": "A conjectured landing opposite a conjectured launching point."
     }
   ],
   "movements": [
