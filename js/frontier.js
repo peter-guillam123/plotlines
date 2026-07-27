@@ -111,7 +111,10 @@ export function addFrontiers(map, novel = {}) {
       'text-size': ['interpolate', ['linear'], ['zoom'], 6, 9, 11, 11],
       'text-letter-spacing': 0.18,
       'text-offset': [0, -0.9],
-      'symbol-spacing': 320,
+      // Wide, and wider as you zoom in: at 320 the same two names repeated
+      // three times in a single frame and read as clutter rather than as a
+      // border. A frontier needs saying once per view, not once per inch.
+      'symbol-spacing': ['interpolate', ['linear'], ['zoom'], 5, 600, 11, 1100],
       'text-max-angle': 25,
       'text-allow-overlap': false,
     },
