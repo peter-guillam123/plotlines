@@ -41,6 +41,7 @@ truth for allowed values, this document explains them.
   "sources": [ "scholarship the pins lean on — see Tess" ],
   "regions": [ { "id": "...", "name": "..." } ],   // groups places in Explore
   "chapters": [ { "n": 1, "title": "...", "day": 0, "when": "his birth" } ],
+  "frontiers": [ ... ],   // OPTIONAL — only for a book a border is about
   "characters": [ ... ],
   "locations": [ ... ],
   "movements": [ ... ]
@@ -60,6 +61,38 @@ truth for allowed values, this document explains them.
 - **`chapters[].day`** is the day-offset from the epoch where the chapter
   begins (the timeline axis is *days*, not chapter position). `when` is a
   short life-stage phrase for undated books.
+
+#### `frontiers` — when a border is the plot
+
+Most books don't need this and must not have it. A few *turn* on a political
+line the modern base map cannot show: in The Betrothed the Adda divides
+Spanish Milan from the Republic of Venice, and Renzo's whole second act is
+the question of which bank he is standing on. Drawn as a river, that crossing
+is scenery. Drawn as a frontier, it is the escape.
+
+```jsonc
+"frontiers": [{
+  "name":   "the Duchy of Milan / the Republic of Venice",
+  "label":  "MILAN · VENICE",        // drawn along the line in tracked caps
+  "when":   "the frontier of 1628",  // for the reader; NOT a time gate
+  "note":   "why the line ran here, and how well we know it",
+  "source": "where the line came from",
+  "coords": [[lng, lat], ...]        // west→east or south→north
+}]
+```
+
+A frontier is a **historical claim like any other**, so it carries a `note`
+and a `source` and gets the same scrutiny as a route. Two rules:
+
+- **Only where it is load-bearing.** If no beat turns on which side of it
+  someone stands, leave it out. A decorative border is clutter that costs
+  the reader attention and buys nothing.
+- **It is context, never a route.** It draws underneath the journeys in a
+  faded map-maker's ink, deliberately outside the character palette, so a
+  border can never be misread as somebody's path. Journeys cross *over* it.
+
+Verified on an NLS survey sheet, the busiest ground we ever draw on; on the
+plain sepia base it reads more clearly still.
 
 ### Characters
 

@@ -1,6 +1,7 @@
 import { createMap } from './map.js';
 import { BLANK_STYLE_URL } from './constants.js';
 import { addNlsOverlay } from './overlay.js';
+import { addFrontiers } from './frontier.js';
 import { loadNovelIndex, loadNovel } from './data.js';
 import {
   buildPaths, addRouteLayers, addStopLayers, addTrailLayers, addLocationLabels,
@@ -136,6 +137,10 @@ ready
     // Silent until the reader asks: nothing is fetched or decoded before then.
     const sound = createSound();
     createSettings(map, { overlay, sound });
+
+    // Frontiers go down before the routes, so a journey always crosses over
+    // its border rather than under it. Silent for a book with none declared.
+    addFrontiers(map, novel);
 
     const paths = buildPaths(novel);
     addRouteLayers(map, novel, paths);
