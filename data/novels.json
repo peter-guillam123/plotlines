@@ -336,6 +336,18 @@
     }
   },
   {
+    "id": "betrothed",
+    "title": "The Betrothed",
+    "author": "Alessandro Manzoni",
+    "year": 1827,
+    "file": "data/betrothed.json",
+    "blurb": "A wedding is forbidden, a river is a frontier, and an army comes down out of the Alps carrying plague.",
+    "spine": {
+      "cloth": "#3a4a52",
+      "text": "#d8cba8"
+    }
+  },
+  {
     "id": "moby-dick",
     "title": "Moby-Dick",
     "author": "Herman Melville",

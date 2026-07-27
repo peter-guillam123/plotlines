@@ -139,6 +139,11 @@
     "spanDays": 730,
     "spanLabel": "2 years"
   },
+  "betrothed": {
+    "distanceKm": 1473,
+    "spanDays": 1090,
+    "spanLabel": "three years"
+  },
   "moby-dick": {
     "distanceKm": 34343,
     "spanDays": 550,
