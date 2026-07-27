@@ -145,7 +145,7 @@ ready
     const paths = buildPaths(novel);
     addRouteLayers(map, novel, paths);
     addStopLayers(map, novel, paths);
-    addTrailLayers(map);
+    addTrailLayers(map, novel);
     addLocationLabels(map);
     addCharacterMarkers(map, novel);
 

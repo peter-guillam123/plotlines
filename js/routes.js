@@ -45,11 +45,22 @@ export function buildPaths(novel) {
   });
 }
 
-// The Minard band's width encodes the surviving numbers (in thousands): a
-// fat band leaving at ~400,000, a thread crawling back at ~10,000. Shared by
-// the full "study" band (overture / explore) and the per-leg play overlay so
-// the two always match.
-const MINARD_WIDTH = ['interpolate', ['linear'], ['get', 'strength'], 10, 2.5, 50, 6, 150, 13, 400, 28];
+// The Minard band's width encodes a number of people (in thousands). Shared
+// by the full "study" band (overture / explore) and the per-leg play overlay
+// so the two always match.
+//
+// The widest stop is the book's own largest number, not a constant.
+// Napoleon's 400,000 was the only case for a long time, so the stops were
+// hardcoded to it; a book counting in tens of thousands (The Betrothed's
+// plague dead, its 35,000 imperial troops) would then clamp to the 2.5px
+// floor and draw a flat thread carrying no information at all. A book sets
+// `minardMax` to its own ceiling and the four stops scale to it, so
+// `minardMax: 400` reproduces the Grande Armée's curve exactly.
+const MINARD_DEFAULT_MAX = 400;
+const minardWidth = (max = MINARD_DEFAULT_MAX) => [
+  'interpolate', ['linear'], ['get', 'strength'],
+  max * 0.025, 2.5, max * 0.125, 6, max * 0.375, 13, max, 28,
+];
 // In the study band, advance and retreat are pulled to opposite sides of the
 // road so the thin return is never buried under the fat advance. The two legs
 // run antiparallel, so a single constant offset separates them — the advance
@@ -126,7 +137,7 @@ export function addRouteLayers(map, novel, paths) {
     layout: lineLayout,
     paint: {
       'line-color': ['case', ['==', ['get', 'phase'], 'retreat'], '#4a4238', ['get', 'colour']],
-      'line-width': MINARD_WIDTH,
+      'line-width': minardWidth(novel.minardMax),
       'line-offset': MINARD_STUDY_OFFSET,
       'line-opacity': 0.82,
     },
@@ -308,7 +319,7 @@ function ensureIndex(novel, paths) {
   return trailIndex;
 }
 
-export function addTrailLayers(map) {
+export function addTrailLayers(map, novel = {}) {
   for (const id of ['trails-past', 'trails-live', 'minard-live']) {
     map.addSource(id, { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
   }
@@ -341,7 +352,7 @@ export function addTrailLayers(map) {
     id: 'minard-live', type: 'line', source: 'minard-live', layout,
     paint: {
       'line-color': ['case', ['==', ['get', 'phase'], 'retreat'], '#4a4238', ['get', 'colour']],
-      'line-width': MINARD_WIDTH,
+      'line-width': minardWidth(novel.minardMax),
       'line-offset': ['get', 'offset'],
       'line-opacity': 0.9,
     },
