@@ -1477,7 +1477,7 @@
       "to": "don-ferrante",
       "chapter": 27,
       "mode": "coach",
-      "startDay": 19.5,
+      "startDay": 18.6,
       "days": 0.4,
       "via": [
         {
@@ -1636,8 +1636,8 @@
           "name": "Malanotte"
         }
       ],
-      "routeNote": "On foot, with a basket over Perpetua's shoulders and Don Abbondio asking whether they could not find a man to come with them. Only the journey back is a carriage.",
-      "routeSource": "Ch. 29 walks them and Don Abbondio asks for an escort; ch. 30 has the Unknown send a carriage to Malanotte for the return.",
+      "routeNote": "On foot out of the village, with a basket over Perpetua's shoulders and Don Abbondio asking whether they could not find a man to come with them. The tailor at Chiuso finds them a cart as far as Malanotte, and the pass is climbed on foot.",
+      "routeSource": "Ch. 29: they set out walking, and at the tailor's 'the tailor went in search of a vehicle to carry the little company to the foot of the ascent'; ch. 30: 'At Malanotte... They here quitted the carriage to ascend the pass on foot.'",
       "routeCertainty": "novel",
       "note": "The safest place in the valley is the one that terrified it"
     },
@@ -2004,7 +2004,7 @@
       "to": "pasturo",
       "chapter": 36,
       "mode": "foot",
-      "startDay": 671,
+      "startDay": 665,
       "days": 1,
       "via": [
         {
@@ -2015,7 +2015,7 @@
           "name": "the Ballabio road"
         }
       ],
-      "routeNote": "Up into the Valsassina the morning after he gets home, to fetch her mother down.",
+      "routeNote": "Up into the Valsassina the morning after he gets home, to fetch her mother down. He made this climb twice in the event, with an errand to Bergamo between; the map draws it once.",
       "routeSource": "Ch. 36: 'On the following morning Renzo set out for Pasturo'.",
       "routeCertainty": "novel",
       "note": "The last errand before the wedding"
@@ -2029,12 +2029,12 @@
       "to": "village",
       "chapter": 36,
       "mode": "foot",
-      "startDay": 673.2,
+      "startDay": 666.2,
       "days": 0.3,
       "routeNote": "Down out of the mountains, fetched home by Renzo, with the hundred gold scudi still in their paper.",
       "routeSource": "Ch. 36: 'he returned by the way of Pasturo, and conducted Agnes to her village home'.",
       "routeCertainty": "novel",
-      "note": "It is about to be a dowry"
+      "note": "Bringing down the residue of the crowns, which is about to be a dowry"
     },
     {
       "character": "lucia",
@@ -2406,7 +2406,7 @@
       "to": "colico",
       "chapter": 28,
       "title": "Over the Alps",
-      "narration": "They were at Chur at the end of May 1629 and quartered at Chiavenna all summer. They had leave to cross the Duchy of Milan in eight days and took about twenty, living off it as they went."
+      "narration": "They were at Chur at the end of May 1629 and quartered at Chiavenna all summer. It was eight days' march across the Duchy of Milan and they were twenty days about it, living off it as they went."
     },
     {
       "kind": "journey",
@@ -2415,7 +2415,7 @@
       "to": "lecco",
       "chapter": 29,
       "title": "Down the lake, and through the Valsassina",
-      "narration": "Colico first, then Bellano, then village by village up the valley, billeted on each in turn with the notaries writing down what it cost. By the 3rd of October 1629 they were in Lecco, and being counted over the bridge the first paragraph pointed at."
+      "narration": "Colico first, then Bellano, then village by village up the valley, billeted on each in turn with the notaries writing down what it cost. They reached the territory of Lecco on the 3rd of October 1629, and for three weeks after were counted regiment by regiment over the bridge the first paragraph pointed at, as they went."
     },
     {
       "kind": "meanwhile",
@@ -2443,7 +2443,7 @@
       "to": "monza",
       "chapter": 31,
       "title": "The twentieth of October",
-      "narration": "The army has gone. From here the band is not men but deaths. On the 20th of October 1629 the protophysician Settala reported the contagion at Lecco - the first case anyone wrote down, and probably not the first. Then it went down the road all winter, in the clothes of dead soldiers and on forged health passes."
+      "narration": "The regiments are still filing out over the bridge when the first case is written down. From here the band is not men but deaths: on the 20th of October 1629 Settala reported the contagion at Lecco - the first anybody recorded, and probably not the first."
     },
     {
       "kind": "meanwhile",
@@ -2610,7 +2610,7 @@
       "to": "village",
       "chapter": 36,
       "title": "Down out of the mountains",
-      "narration": "They come down together, with the hundred gold scudi still in their paper. It is about to be a dowry.",
+      "narration": "They come down together, with what is left of the Unknown's gold. She untied the packet long ago and sent Renzo half of it, which he has carried in his girdle through a plague.",
       "presenceOk": {
         "contagion": "The contagion is not a person and cannot be present or absent: by 1630 it is everywhere in the frame. The thread is drawn as a band, not as somebody who arrives."
       }
