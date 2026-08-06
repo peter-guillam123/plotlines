@@ -1790,16 +1790,16 @@
       "narration": "He sailed north until the ice closed round the ship and held it fast. There, becalmed in a white waste, the sledges appeared on the horizon, and the ruined figure of Victor Frankenstein was carried up over the side to tell his story."
     },
     {
+      "kind": "meanwhile",
+      "narration": "Wind the clock back, then, to the beginning of it all - to a Geneva boyhood years before the ice, when nothing had gone wrong yet and the whole ruinous story was still only a boy's idle curiosity about the workings of the world."
+    },
+    {
       "kind": "handoff",
       "character": "victor",
       "at": "geneva",
       "chapter": 2,
       "title": "The maker's tale",
       "narration": "This is his story now. Victor Frankenstein was born to a good family in Geneva, and raised beside Elizabeth Lavenza, an orphan cousin taken in as a child - the sister he would come to love, and mean one day to marry."
-    },
-    {
-      "kind": "meanwhile",
-      "narration": "Wind the clock back, then, to the beginning of it all - to a Geneva boyhood years before the ice, when nothing had gone wrong yet and the whole ruinous story was still only a boy's idle curiosity about the workings of the world."
     },
     {
       "kind": "journey",
@@ -2095,6 +2095,7 @@
       "character": "clerval",
       "at": "ireland-town",
       "chapter": 22,
+      "day": 647,
       "title": "Clerval's last journey",
       "narration": "For a body was found on the shore the night before, the marks of a great hand livid on its throat. Turn to the dead man: it is Henry Clerval, who had left Perth to rejoin his friend, and met the creature on the way."
     },

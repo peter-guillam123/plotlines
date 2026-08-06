@@ -2005,6 +2005,7 @@
       "character": "fix",
       "at": "suez",
       "chapter": 6,
+      "day": 10.99,
       "title": "The detective",
       "narration": "Watching the Suez quay is Detective Fix of Scotland Yard. The Bank of England has just been robbed of fifty-five thousand pounds, and this cool, well-dressed traveller matches the thief's description exactly. Fix means to arrest him."
     },
@@ -2136,6 +2137,7 @@
       "character": "passepartout",
       "at": "hong-kong",
       "chapter": 19,
+      "day": 39,
       "title": "The opium den",
       "narration": "At Hong Kong the warrant still fails. Desperate, Fix lures the loyal Passepartout into an opium den and leaves him senseless, so the servant cannot warn his master that their steamer, the Carnatic, is sailing a day early."
     },
@@ -2149,16 +2151,17 @@
       "narration": "Insensible, Passepartout is carried aboard the Carnatic and wakes far out at sea - alone, penniless, adrift - the ship bearing him on toward Japan while Fogg is left stranded, servantless, on the Hong Kong quay."
     },
     {
+      "kind": "meanwhile",
+      "narration": "Wind back to the hour Passepartout was carried off, and to Fogg alone on the Hong Kong quay."
+    },
+    {
       "kind": "handoff",
       "character": "fogg",
       "at": "hong-kong",
       "chapter": 21,
+      "day": 39,
       "title": "The schooner",
       "narration": "Fogg finds his steamer gone and his servant vanished, and does not lose a moment. He hires the pilot-schooner Tankadere and her master to run him up the coast to Shanghai, where he may yet catch the American mail for the Pacific."
-    },
-    {
-      "kind": "meanwhile",
-      "narration": "Wind back to the hour Passepartout was carried off, and leave Hong Kong a second time - now on Fogg's little schooner."
     },
     {
       "kind": "journey",
@@ -2203,6 +2206,7 @@
       "character": "passepartout",
       "at": "yokohama",
       "chapter": 23,
+      "day": 45,
       "title": "The Long Noses",
       "narration": "And the servant himself? Marooned in Yokohama, Passepartout has sold his coat and joined a troupe of tumblers billed as the Long Noses. It is there, at the foot of a swaying human pyramid, that Fogg finds him, and the party is whole again."
     },
@@ -2253,6 +2257,7 @@
       "character": "passepartout",
       "at": "fort-kearney",
       "chapter": 29,
+      "day": 68,
       "title": "The Sioux",
       "narration": "On the open plains a Sioux war-party storms the moving train. In the running fight Passepartout crawls beneath the cars and uncouples the engine, so the carriages may halt at Fort Kearny - and is himself carried off by the raiders."
     },

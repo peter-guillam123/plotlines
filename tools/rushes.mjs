@@ -166,7 +166,14 @@ story.forEach((b, i) => {
       if (t != null && day < t - 0.5 && prevKind !== 'meanwhile') {
         warns.push(`${tag}: steps back to day ${day} (clock at ${Math.round(t)}) with no meanwhile`);
       }
-      beatT = Math.max(day, b.kind === 'scene' ? day : t ?? day);
+      // The clock lands on the beat's own day, for a handoff exactly as for a
+      // scene, because that is what the PLAYER does: js/story.js sets
+      // `beat.t0 = beat.t1 = day` for both kinds alike. Holding a handoff at
+      // the high-water mark here modelled a rewind the reader could plainly
+      // see happening and rushes could not, so a handoff that stepped back
+      // rated a warning where the same step in a journey was an error. It is
+      // the same step. Around the World in Eighty Days had five of them.
+      beatT = day;
       // Does the map agree the character is there? Asked of ANY beat that
       // names a place, not only a `scene` — a `handoff` with an `at` moves
       // the camera to that place exactly as a scene does, and until the

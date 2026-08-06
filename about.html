@@ -186,6 +186,38 @@
       <p>What follows is the project's memory, newest first - each entry says
       what was built and why, in the order it actually happened.</p>
 
+      <h3>6 August 2026, later - the rewind that arrived a beat too late</h3>
+      <p>Watching Eighty Days, the narration felt out of step with the map and
+      I could not say why. This is why. At Suez the Mongolia docks on day 11;
+      the next card turns to Detective Fix on the quay and the clock drops back
+      to day 7 with nothing said; and only <em>then</em> does a "meanwhile"
+      arrive to explain that time has stepped back. The explanation was turning
+      up a beat after the confusion, every time.</p>
+      <p>The cause is that a handoff beat carrying no explicit day falls back
+      to its chapter's day, and a chapter's day is where the chapter
+      <em>starts</em> - which is usually somewhere in the middle of the leg the
+      characters are still crossing. All five of Eighty Days' handoffs did it:
+      Fix at Suez, the opium den, the schooner, the Long Noses, the Sioux. Nine
+      across four books once I went looking. Each now carries the day its
+      character is actually in the place, and where the rewind is real and
+      wanted - Fogg back on the Hong Kong quay after we have followed
+      Passepartout out to sea, Victor's whole life before the ice - the
+      meanwhile that explains it has moved in front of the beat that does it,
+      instead of trailing along behind.</p>
+      <p>This is the second half of a fix from 25 July, which corrected exactly
+      this for <em>scene</em> beats and never looked at handoffs. That commit
+      has now had two follow-ups in a single day, the other one being the
+      antimeridian entry below. The lesson is the one I keep writing down: fix
+      the family, not the instance in front of you.</p>
+      <p>One tool change came with it. Rushes rated a handoff that stepped
+      backwards as a warning, and the identical step in a journey as an error,
+      because it modelled a handoff as never moving the clock. The player has
+      always moved it - one line in the story builder sets the same day for
+      both kinds - so a reader could plainly see a rewind the gate was
+      shrugging at. It is an error in both now. Run across all forty-three
+      books before and after: the same 158 warnings, and no book's output moved
+      except the two this was written to fix.</p>
+
       <h3>6 August 2026 - Fogg has been going round the world the wrong way</h3>
       <p>An experiment with a globe, which may yet come to nothing, turned up
       something with no connection to globes at all. On <em>Around the World in
