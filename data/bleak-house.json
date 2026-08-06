@@ -1165,6 +1165,7 @@
       "from": "deal",
       "to": "lincolns-inn-chancery",
       "chapter": 45,
+      "startDay": 534,
       "mode": "coach",
       "days": 1,
       "via": [
