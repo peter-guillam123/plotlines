@@ -173,6 +173,23 @@ A script is never shipped on the first draft:
      [data/<slug>.json]` lists candidates — every beat that names a character
      whose marker is elsewhere — but it can't tell a real assertion from a mere
      mention, so judge each; most candidates are innocent.
+   - **shared legs** — *one journey told twice.* Where two characters travel
+     the same leg over the same days by the same conveyance, they are one line
+     on the map with their discs on top of each other, and a beat each makes
+     the cards insist on a separation the map plainly denies. Around the World
+     in Eighty Days did it three times, always where Fix shadowed the party
+     aboard the same steamer, each doubling wrapped in a "meanwhile" that wound
+     the clock back for a voyage that had not moved. `node
+     tools/shared-legs.mjs [data/<slug>.json]` lists the candidates: legs told
+     by more than one beat whose travellers are genuinely aboard together.
+     Most are innocent, and the tool cannot tell which — Jane rides to
+     Netherfield and Elizabeth walks there the next day, the geese fly to
+     Kullaberg while Smirre runs the ground below, Bloom follows Stephen onto
+     the same train *and the cards say so*. The question to ask of each is
+     only: **do the cards pretend they are apart?** If they do, merge into one
+     journey naming everyone aboard, and let the card carry whatever the
+     separation was there to say. Watch the read-time ceiling when you merge —
+     two cards folded into one is the edit most likely to blow past 45 words.
 
      Once you have judged one innocent, **say so in the beat** so the next
      reader doesn't judge it again: `"presenceOk": { "<characterId>": "why
