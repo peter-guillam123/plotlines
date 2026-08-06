@@ -2010,33 +2010,17 @@
       "narration": "Watching the Suez quay is Detective Fix of Scotland Yard. The Bank of England has just been robbed of fifty-five thousand pounds, and this cool, well-dressed traveller matches the thief's description exactly. Fix means to arrest him."
     },
     {
-      "kind": "meanwhile",
-      "narration": "Follow the detective's own thread first, from Suez, a little before Fogg's steamer sails on for India."
-    },
-    {
-      "kind": "journey",
-      "character": "fix",
-      "from": "suez",
-      "to": "bombay",
-      "chapter": 9,
-      "title": "The shadow embarks",
-      "narration": "No warrant has reached him, so Fix boards the Mongolia himself and follows down the Red Sea toward India, wiring ahead for the papers that would let him take Fogg on British soil the moment the ship makes Bombay."
-    },
-    {
-      "kind": "meanwhile",
-      "narration": "And the man he hunts, unknowing, on that same deck? Take up Fogg's own thread again from Suez, the detective at his heels."
-    },
-    {
       "kind": "journey",
       "character": [
         "fogg",
-        "passepartout"
+        "passepartout",
+        "fix"
       ],
       "from": "suez",
       "to": "bombay",
       "chapter": 9,
       "title": "The Red Sea run",
-      "narration": "Down the Red Sea and across the Arabian Sea, coaling at Aden. Fair winds help the engines, and the Mongolia reaches Bombay two full days ahead of the timetable - the wager running, for now, in Fogg's favour."
+      "narration": "No warrant has reached him, so Fix boards the Mongolia himself: hunter and quarry on one deck, one of them unaware. Down the Red Sea, coaling at Aden, and she runs into Bombay two full days ahead of the timetable."
     },
     {
       "kind": "journey",
@@ -2098,19 +2082,6 @@
       "narration": "In Calcutta the party is haled before a magistrate - Fix's doing, the Bombay pagoda his pretext. Fogg forfeits two thousand pounds in bail without a flicker and walks free, reaching the Hong Kong steamer with only minutes to spare."
     },
     {
-      "kind": "journey",
-      "character": [
-        "fogg",
-        "passepartout",
-        "aouda"
-      ],
-      "from": "calcutta",
-      "to": "hong-kong",
-      "chapter": 17,
-      "title": "The Rangoon",
-      "narration": "Aboard the steamer Rangoon, down the Bay of Bengal and through the Strait of Malacca, a few hours ashore at Singapore among the clove groves, then up the South China Sea to Hong Kong through the first of the monsoon weather."
-    },
-    {
       "kind": "meanwhile",
       "narration": "And the detective, all this while? Wind back to India and follow Fix's own dogged pursuit, which never once left the rails."
     },
@@ -2125,12 +2096,17 @@
     },
     {
       "kind": "journey",
-      "character": "fix",
+      "character": [
+        "fogg",
+        "passepartout",
+        "aouda",
+        "fix"
+      ],
       "from": "calcutta",
       "to": "hong-kong",
       "chapter": 17,
-      "title": "The last British ground",
-      "narration": "Then aboard the same Rangoon, east to Hong Kong. It is the final stretch of British soil before Japan; there, Fix is certain, his warrant will catch up at last, and Fogg's flight round the world will end on a colonial quay."
+      "title": "The Rangoon",
+      "narration": "Aboard the Rangoon, down the Bay of Bengal, through the Strait of Malacca and a few hours ashore at Singapore. Fix is on the same ship: Hong Kong is the last British soil, and he is certain his warrant waits there."
     },
     {
       "kind": "handoff",
@@ -2167,26 +2143,14 @@
       "kind": "journey",
       "character": [
         "fogg",
-        "aouda"
+        "aouda",
+        "fix"
       ],
       "from": "hong-kong",
       "to": "shanghai",
       "chapter": 21,
       "title": "Through the gale",
-      "narration": "With Aouda beside him, Fogg drives the little schooner north through a rising gale. Seas sweep her deck and the mast strains near to breaking, but the Tankadere claws up the Chinese coast, racing the clock for Shanghai."
-    },
-    {
-      "kind": "meanwhile",
-      "narration": "The detective is aboard too. His Hong Kong plan in ruins, Fix has thrown in his lot with the very man he means to arrest."
-    },
-    {
-      "kind": "journey",
-      "character": "fix",
-      "from": "hong-kong",
-      "to": "shanghai",
-      "chapter": 21,
-      "title": "Willing him on",
-      "narration": "His interest has flipped clean over: Fix now needs Fogg to reach England, where the warrant will finally bite. And so, absurdly, the shadow shares the storm-schooner and wills its wild run up the coast along with everyone else."
+      "narration": "With Aouda beside him, Fogg drives the schooner north through a rising gale. Fix is aboard too, his interest flipped clean over: he needs Fogg in England now, where the warrant will bite, and wills the run on with the rest."
     },
     {
       "kind": "journey",
