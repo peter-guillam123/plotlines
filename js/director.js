@@ -21,6 +21,13 @@ const FOLLOW_MAX_ZOOM = 13.5;
 const CENTER_DAMPING = 0.075; // per-frame lerp
 const ZOOM_DAMPING = 0.055;
 
+// The same angle expressed in (-180, 180]: 311 degrees west is 49 degrees
+// east, and for a camera those are the same destination by very different
+// roads. See the note in update() for why the difference is load-bearing.
+function wrapDeg(d) {
+  return (((d + 180) % 360) + 360) % 360 - 180;
+}
+
 export function createDirector(map, timeline, novel, paths) {
   const pathByMovement = new Map(paths.map((e) => [e.movement, e.path]));
 
@@ -155,7 +162,20 @@ export function createDirector(map, timeline, novel, paths) {
         return false;
       }
 
-      smoothed.lng += (t.lng - smoothed.lng) * CENTER_DAMPING;
+      // Always take the short way round. cameraForBounds hands back an
+      // UNWRAPPED longitude for a leg that crosses the antimeridian (see
+      // boundsOf in js/geometry.js): the Pacific is framed at 188.6, not
+      // -171.4. That is right for the crossing itself, but the next leg is
+      // framed in the ordinary range, and lerping 188.6 towards San
+      // Francisco's -122.4 as plain numbers walks the camera 311 degrees
+      // WEST — back over China, India, Suez, Europe and the Atlantic, across
+      // everything Fogg has just travelled, to arrive from the wrong side.
+      // Around the World in Eighty Days holds the only leg on the whole shelf
+      // that crosses 180, which is why this went unseen: it is the one book
+      // that can trigger it, and the one book whose entire plot is that the
+      // journey only ever goes one way.
+      const dLng = wrapDeg(t.lng - smoothed.lng);
+      smoothed.lng += dLng * CENTER_DAMPING;
       smoothed.lat += (t.lat - smoothed.lat) * CENTER_DAMPING;
       smoothed.zoom += (t.zoom - smoothed.zoom) * ZOOM_DAMPING;
       map.jumpTo({
@@ -163,8 +183,11 @@ export function createDirector(map, timeline, novel, paths) {
         zoom: smoothed.zoom,
       });
 
+      // Measured the same way, or a camera that has wrapped past 180 counts
+      // as 300-odd degrees from a target it is in fact sitting on top of, and
+      // never reports itself settled.
       const settled =
-        Math.abs(t.lng - smoothed.lng) < 1e-4 &&
+        Math.abs(wrapDeg(t.lng - smoothed.lng)) < 1e-4 &&
         Math.abs(t.lat - smoothed.lat) < 1e-4 &&
         Math.abs(t.zoom - smoothed.zoom) < 1e-3;
       return !settled;
