@@ -186,6 +186,32 @@
       <p>What follows is the project's memory, newest first - each entry says
       what was built and why, in the order it actually happened.</p>
 
+      <h3>23 August 2026 - the map that gave up because nobody was looking</h3>
+      <p>A book opened in a background tab loses its period map. Not slowly, and
+      not recoverably: eight seconds in it swaps to the plain parchment and
+      stays there, with a note explaining that the base map could not be
+      reached, while the tile host sits there answering perfectly well.</p>
+      <p>A hidden tab does not paint. No paint means no animation frame, which
+      means MapLibre never renders, never works out which tiles the view needs,
+      and never asks for one. Measured on a backgrounded book: it fetches the
+      style, the sprites, and then nothing whatsoever, for as long as you leave
+      it. The boot waits eight seconds for the map's "load" event, quite
+      reasonably concludes the host is unreachable, and falls back - and
+      because "load" only ever fires once, it can never change its mind.</p>
+      <p>The fallback is right for the reader it was written for: an ad
+      blocker, a VPN, a corporate DNS. A tab nobody has looked at yet is not
+      that reader. So the clock no longer starts until the page is actually on
+      screen. A cmd-clicked link, a restored session, a book opened while you
+      finish reading something else - all of them now wait quietly and get the
+      real map when you arrive, instead of being quietly downgraded before you
+      ever saw them.</p>
+      <p>It surfaced sideways, which is the honest part. I had spent a while
+      convinced the globe experiment was tripping the fallback, on the strength
+      of a comparison between two page loads that turned out to differ in
+      whether the window was in front, not in which projection they used. The
+      globe was innocent. The bug was older than the globe and lives on the
+      shipped site.</p>
+
       <h3>6 August 2026, later still - one ship, one line, one card</h3>
       <p>Watching Eighty Days properly, the Suez sequence made no sense. Fix is
       introduced on the quay; a card winds the clock back to follow the

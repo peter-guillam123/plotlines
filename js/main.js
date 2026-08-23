@@ -76,10 +76,39 @@ const FALLBACK_MS = 5000;
 // plain local style so the book still plays.
 let baseFellBack = false;
 
+// A hidden tab never paints. No paint means no requestAnimationFrame, which
+// means MapLibre never renders, never works out which tiles the viewport
+// needs, and never asks for one — so `load` cannot fire however healthily the
+// tile host is answering. Measured: a backgrounded book page fetches the
+// TileJSON and the sprites and then nothing at all, and sits there for as long
+// as you leave it.
+//
+// The budget below exists to catch a reader who genuinely cannot reach the
+// host (an ad blocker, a VPN, a corporate DNS). A tab nobody is looking at is
+// not that. Without this guard, a book opened in the background — a
+// cmd-click, a restored session, a link tapped while you finish reading
+// something else — permanently loses its period base map to a fallback
+// meant for somebody else's problem, because `load` only ever fires once.
+//
+// So the clock does not start until the page is actually on screen.
+const whenVisible = () => (document.hidden
+  ? new Promise((r) => {
+      const onShow = () => {
+        if (document.hidden) return;
+        document.removeEventListener('visibilitychange', onShow);
+        r();
+      };
+      document.addEventListener('visibilitychange', onShow);
+    })
+  : Promise.resolve());
+
 const mapEvent = (evt, ms) => new Promise((resolve, reject) => {
+  let timer = null;
   const ok = () => { clearTimeout(timer); map.off(evt, ok); resolve(); };
-  const timer = setTimeout(() => { map.off(evt, ok); reject(new Error(`${evt} timed out`)); }, ms);
   map.on(evt, ok);
+  whenVisible().then(() => {
+    timer = setTimeout(() => { map.off(evt, ok); reject(new Error(`${evt} timed out`)); }, ms);
+  });
 });
 
 const mapReady = (map.loaded() ? Promise.resolve() : mapEvent('load', BASE_MAP_MS))
