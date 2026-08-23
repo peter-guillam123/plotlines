@@ -1750,6 +1750,10 @@ body.is-overture #controls { display: none !important; }
     var(--cloth, #4d5661);
   box-shadow: 2px 3px 6px rgba(46, 36, 23, 0.35);
   cursor: pointer;
+  /* It is an <a> now (see js/ui/library.js): kill the link underline and
+     inherit colour, so the spine looks exactly as it did as a button. */
+  text-decoration: none;
+  color: inherit;
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 .library-book:hover, .library-book:focus-visible {

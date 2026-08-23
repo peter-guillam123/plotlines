@@ -82,8 +82,15 @@ export function createLibrary(container, index) {
   const sortBar = container.querySelector('.shelf-sort');
 
   function makeBook(novel, order) {
-    const book = document.createElement('button');
-    book.type = 'button';
+    // A book is a link, not a button. It has a URL, and a reader should be
+    // able to do the things a URL affords: open it in a new tab, middle-click
+    // it, copy its address, see where it goes before committing. A <button>
+    // that assigns location.search looks identical and can do none of them —
+    // and announces itself to a screen reader as "button", naming no
+    // destination, where a link says where it is going. Found because
+    // cmd-clicking a book did nothing at all.
+    const book = document.createElement('a');
+    book.href = `?novel=${novel.id}`;
     book.className = 'library-book';
     book.setAttribute('aria-label', `Read ${novel.title} by ${novel.author}`);
     if (novel.blurb) book.title = novel.blurb;
@@ -100,9 +107,6 @@ export function createLibrary(container, index) {
     book.querySelector('.book-author').textContent = novel.author;
     book.querySelector('.book-year').textContent = novel.year;
     book.querySelector('.book-metric').textContent = metricText(novel, order);
-    book.addEventListener('click', () => {
-      location.search = `novel=${novel.id}`;
-    });
     return book;
   }
 
