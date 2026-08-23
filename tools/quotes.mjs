@@ -52,6 +52,15 @@ function normalise(s) {
     .replace(/-{2,}/g, '-')                    // Gutenberg writes an em dash as --
     .replace(/ /g, ' ')                             // non-breaking space
     .replace(/æ/g, 'ae').replace(/œ/g, 'oe')   // ligatures
+    // German umlauts, for the same reason as the ligatures above and
+    // discovered the same way. Gutenberg withdrew the UTF-8 edition of
+    // The Devil's Elixir (#36494 -0.txt now 404s) and the text that
+    // replaced it transliterates: our "Königswald" against its
+    // "Koenigswald". The place is spelt the way the place is spelt; which
+    // of the two an edition prints is a typesetting decision, not a
+    // different word. Folding both sides to the digraph settles it.
+    .replace(/[äÄ]/g, 'ae').replace(/[öÖ]/g, 'oe')
+    .replace(/[üÜ]/g, 'ue').replace(/ß/g, 'ss')
     .replace(/…/g, '...')                           // ellipsis
     .replace(/[_*]/g, '')                                // Gutenberg's italics
     .replace(/\s+/g, ' ')                                // line breaks, doubles

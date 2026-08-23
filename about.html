@@ -186,6 +186,26 @@
       <p>What follows is the project's memory, newest first - each entry says
       what was built and why, in the order it actually happened.</p>
 
+      <h3>23 August 2026, later - the word did not change, the edition did</h3>
+      <p>The gates went red on a book nobody had touched. The quote check said
+      The Devil's Elixir had stopped matching: our "right before the eastern
+      gates of Königswald" was no longer in the text. It passed on my machine
+      and failed in CI, every time, which is usually a sign the two are not
+      reading the same thing - and they were not. The checker caches the
+      Gutenberg texts, so mine was a copy taken in July.</p>
+      <p>Gutenberg has withdrawn the UTF-8 edition of #36494. The URL the
+      checker tried first now returns 404, so it falls through to the edition
+      that replaced it, and that one transliterates: <em>Koenigswald</em>, not
+      <em>Königswald</em>. The place is spelt the way the place is spelt. Which
+      of the two an edition prints is a typesetting decision, exactly like the
+      curly quotes and the ligatures and the em dashes written as two hyphens
+      that the checker has always folded away. The umlauts have joined that
+      list, on both sides of the comparison.</p>
+      <p>Worth writing down because it is a failure mode the shelf will meet
+      again: every quote on the site is checked against a third-party text that
+      can be revised or withdrawn under us, and a local cache means the day it
+      changes is not the day we find out.</p>
+
       <h3>23 August 2026 - the map that gave up because nobody was looking</h3>
       <p>A book opened in a background tab loses its period map. Not slowly, and
       not recoverably: eight seconds in it swaps to the plain parchment and
