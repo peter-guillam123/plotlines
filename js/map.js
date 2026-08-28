@@ -23,9 +23,9 @@ const DEFAULT_BOUNDS = [[-11, 42], [30, 60]];
 // never flattens, for judging the effect at a book's own working zoom rather
 // than only from orbit; ?globe=0 forces flat.
 //
-// NOT YET the default. Flipping this is its own commit, so the change is one
-// line to read and one line to revert.
-const GLOBE_IS_DEFAULT = false;
+// The default, as of 28 August 2026. One line to read and one line to revert,
+// which is why it was kept as a constant rather than spread through the code.
+const GLOBE_IS_DEFAULT = true;
 
 // The shelf is not on this list on purpose: its map is a backdrop behind a
 // card, and a sphere three-quarters hidden behind parchment reads as a
