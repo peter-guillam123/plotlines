@@ -1483,6 +1483,24 @@ body.is-overture #controls { display: none !important; }
   text-align: center;
 }
 
+/* Globe experiment only (html.globe is set by js/map.js under ?globe=1, so
+   nothing on the shipped site can match this). A centred, bottom-anchored
+   card is right over a flat map and wrong over a sphere: the globe is a disc
+   in the middle of the screen and the card sits precisely on it. Docked to
+   one side there is a whole hemisphere of room beside it, which is the shot
+   the opening wants. Only where there is width for two things side by side;
+   a landscape phone keeps the centred card and gets a smaller globe. */
+@media (min-width: 900px) {
+  html.globe .overture-panel {
+    left: auto;
+    right: 26px;
+    bottom: 50%;
+    transform: translateY(50%);
+    width: min(560px, 42vw);
+    max-height: calc(100dvh - 48px);
+  }
+}
+
 /* The card is also the book's title page now — the intro card folded in. */
 .overture-kicker {
   margin: 0;

@@ -13,6 +13,7 @@
 import { CHARACTER_COLOURS } from '../constants.js';
 import { compactViewport } from '../viewport.js';
 import { boundsOf } from '../geometry.js';
+import { requestedProjection, globeZoomFor } from '../map.js';
 import { characterInitial, milesAndTime } from './format.js';
 
 export function createOverture(container, map, novel, paths, {
@@ -102,14 +103,42 @@ export function createOverture(container, map, novel, paths, {
     // fit the journey to the whole screen instead, and whatever slivers
     // show beside the card are the story's own geography, not open ocean.
     const h = map.getContainer().clientHeight;
-    const cam = map.cameraForBounds(bounds, {
-      padding: compactViewport()
-        ? { top: 24, bottom: 24, left: 16, right: 16 }
-        : { top: 90, bottom: Math.round(h * 0.44), left: 300, right: 80 },
-    });
-    if (cam) {
-      if (reducedMotion()) map.jumpTo({ center: cam.center, zoom: cam.zoom });
-      else map.easeTo({ center: cam.center, zoom: cam.zoom, duration: 1600 });
+
+    // On a globe the front door frames the SPHERE, not the book's bounding
+    // box. Fitting the box zooms past the horizon and leaves the reader
+    // looking at a patch of curved ground with no globe in it; and since the
+    // map opens on the whole sphere already (js/map.js), the only move left
+    // here is a slow turn of the world to put the book's own ground in view.
+    if (requestedProjection()) {
+      const el = map.getContainer();
+      const W = el.clientWidth;
+      const card = container.querySelector('.overture-panel');
+      // Matches the stylesheet: wide enough for two things side by side and
+      // the card is docked right, so the globe takes the room to its left.
+      const docked = W >= 900 && card;
+      const clearW = docked ? W - card.getBoundingClientRect().width - 52 : W;
+      const clearH = docked ? h : h - Math.round(h * 0.42);
+      const cam = {
+        center: [(bounds[0][0] + bounds[1][0]) / 2, (bounds[0][1] + bounds[1][1]) / 2],
+        zoom: globeZoomFor(Math.min(clearW, clearH)),
+      };
+      // `offset` and not `padding`: padding sticks to the transform and would
+      // quietly re-frame every camera move for the rest of the book.
+      const offset = docked ? [-(W - clearW) / 2, 0] : [0, -Math.round(h * 0.42) / 2];
+      // easeTo either way, because jumpTo silently ignores `offset` — which
+      // would seat the globe dead centre, under the card, for exactly the
+      // readers who asked for less motion.
+      map.easeTo({ ...cam, offset, duration: reducedMotion() ? 0 : 2600 });
+    } else {
+      const cam = map.cameraForBounds(bounds, {
+        padding: compactViewport()
+          ? { top: 24, bottom: 24, left: 16, right: 16 }
+          : { top: 90, bottom: Math.round(h * 0.44), left: 300, right: 80 },
+      });
+      if (cam) {
+        if (reducedMotion()) map.jumpTo({ center: cam.center, zoom: cam.zoom });
+        else map.easeTo({ center: cam.center, zoom: cam.zoom, duration: 1600 });
+      }
     }
 
     const start = container.querySelector('.overture-start');

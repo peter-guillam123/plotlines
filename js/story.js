@@ -29,6 +29,7 @@ import {
 } from './constants.js';
 import { compactViewport } from './viewport.js';
 import { boundsOf } from './geometry.js';
+import { requestedProjection, requestedTilt } from './map.js';
 import { storyTime, roman, kmToMiles, humanDuration } from './ui/format.js';
 
 // Camera timings, in *content* seconds (so at 1× they line up exactly with
@@ -39,7 +40,12 @@ const MOVE_ESTABLISH_SEC = 1.6;  // pull back to hold old + new (or frame a rout
 const MOVE_HOLD_SEC = 0.55;      // let the geography be read before pushing in
 const MOVE_SETTLE_SEC = 1.5;     // push in on the place
 const MOVE_SMALL_SEC = 0.9;      // a near-neighbour hop: one quick settle
-const OPENING_MOVE_SEC = 1.8;    // the opening ease from the overture into place
+// The opening ease from the overture into place. 1.8s is right when the front
+// door already framed the book's own canvas and the move is a nudge. On a
+// globe the same move is a descent from the whole sphere to a single street -
+// eleven zoom levels - and at 1.8s that is not an opening, it is a fall. The
+// flag buys it the time to read as an arrival.
+const OPENING_MOVE_SEC = requestedProjection() ? 5.4 : 1.8;
 const OPENING_PUSH_ZOOM = 0.7;   // how far the opening living push-in drifts in
 const ARRIVAL_DWELL_SECONDS = 2.5; // after crossing, rest on the place reached
 const NODE_ZOOM = 11.5;          // a town on the historic survey
@@ -200,6 +206,7 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
     if (!cam) return;
     const c = cam.center;
     const opts = { center: [c.lng ?? c[0], c.lat ?? c[1]], zoom: cam.zoom, essential: true, duration: Math.max(0, ms / engine.speed()) };
+    if (cam.pitch != null) opts.pitch = cam.pitch;
     if (offset) opts.offset = offset;
     if (linear) opts.easing = (t) => t;
     map.easeTo(opts);
@@ -269,7 +276,10 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
       // After the crossing, push in on the place reached.
       push(beat.moveSec + beat.crossSec, () => applyCam(destCam, MOVE_SETTLE_SEC * 1000, off));
     } else if (beat.moveKind === 'opening') {
-      const wide = { center: beat.place, zoom: NODE_ZOOM - OPENING_PUSH_ZOOM };
+      // The globe leans as the camera drops towards it: pitch is carried on
+      // the opening move only, so the front door keeps its square sphere and
+      // the book proper is tilted from its first frame onward.
+      const wide = { center: beat.place, zoom: NODE_ZOOM - OPENING_PUSH_ZOOM, pitch: requestedTilt() };
       const tight = { center: beat.place, zoom: NODE_ZOOM };
       if (instant) { applyCam(tight, 0, off); return; }
       // Ease in from the overture, a little wide — then let it breathe inward
