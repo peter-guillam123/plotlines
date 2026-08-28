@@ -7,7 +7,7 @@
 
 import { bookHref, pageHref } from './links.js';
 import { Popup, LngLatBounds } from '../vendor/maplibre-gl/maplibre-gl.mjs';
-import { createMap } from './map.js';
+import { createMap, createMapShape } from './map.js';
 import { addNlsOverlay } from './overlay.js';
 import { createSettings } from './ui/settings.js';
 import { placeFigureHtml, fillPlaceFigure } from './ui/placefig.js';
@@ -61,6 +61,7 @@ fetch('data/atlas.json')
       // untouched and the OS sheet reveals itself as you go into London.
       createSettings(map, {
         overlay: addNlsOverlay(map, { locations: atlas.pins }),
+        shape: createMapShape(map, 'atlas'),
       });
 
       map.addSource('atlas', {

@@ -7,7 +7,7 @@
 // built-in one for the whole module, which is a trap waiting for whoever
 // next reaches for a plain `new Map()` in here.
 import {
-  Map as MapLibreMap, NavigationControl, GlobeControl,
+  Map as MapLibreMap, NavigationControl,
 } from '../vendor/maplibre-gl/maplibre-gl.mjs';
 import { STYLE_URL, BLANK_STYLE_URL } from './constants.js';
 
@@ -17,33 +17,55 @@ import { STYLE_URL, BLANK_STYLE_URL } from './constants.js';
 // Dracula's whole canvas, roughly: Ireland to Transylvania.
 const DEFAULT_BOUNDS = [[-11, 42], [30, 60]];
 
-// ?globe=1 — an experiment, off by default and reachable only by typing it,
-// the same shape as ?base=blank below. Nothing on the shipped site takes this
-// path, so a book that never sees the parameter is byte-for-byte what it was.
+// MapLibre's 'globe' is adaptive: it interpolates from a sphere to Mercator
+// between zoom 11 and 12, so journeys curve and the towns they join stay flat
+// without anybody choosing. ?globe=always pins 'vertical-perspective', which
+// never flattens, for judging the effect at a book's own working zoom rather
+// than only from orbit; ?globe=0 forces flat.
 //
-// MapLibre's own 'globe' is adaptive: internally it interpolates from a
-// sphere to Mercator between zoom 11 and 12. So the close-up books — Ulysses'
-// Dublin, Raskolnikov's 700m box round the Hay Market — sit entirely in the
-// flat half and are untouched; only the wide views curve. ?globe=always pins
-// 'vertical-perspective', which never flattens, for judging the effect at a
-// book's own working zoom rather than only from orbit.
-// NOT YET the default. The ten books the globe visibly changes have not had
-// their watch-through, and a push here is a deploy, so flipping this is the
-// last step and gets its own commit. Until then ?globe=1 opts in.
+// NOT YET the default. Flipping this is its own commit, so the change is one
+// line to read and one line to revert.
 const GLOBE_IS_DEFAULT = false;
 
-// Which surface is asking. A book defaults to the globe once the flag above
-// goes; the atlas never does, and that is deliberate rather than an oversight
-// — its whole job is every place in every book at once, and a sphere can only
-// ever show you half a world. Held side by side, the flat atlas has Japan,
-// Australia and the Americas in one view and the globe hides them behind the
-// limb. It is the prettier picture and the worse atlas, so there it stays an
-// opt-in.
+// The shelf is not on this list on purpose: its map is a backdrop behind a
+// card, and a sphere three-quarters hidden behind parchment reads as a
+// mistake rather than a choice.
+const GLOBE_SURFACES = new Set(['book', 'atlas']);
+
+// The reader's own choice of map, remembered. Sound deliberately is NOT
+// remembered — see js/ui/settings.js, a page that recalled it would one day
+// start making noise at somebody unannounced. The shape of the map is a
+// different sort of thing: it is silent, it changes nothing about what is
+// true, and somebody who wants the flat map wants it every time rather than
+// once per book. Storage can throw outright (private browsing, blocked site
+// data), and the honest failure there is simply that the choice does not
+// stick.
+const SHAPE_KEY = 'plotlines:map-shape';
+
+function storedShape() {
+  try { return localStorage.getItem(SHAPE_KEY); } catch (e) { return null; }
+}
+
+function storeShape(shape) {
+  try { localStorage.setItem(SHAPE_KEY, shape); } catch (e) { /* it won't stick */ }
+}
+
+// Precedence: what the URL says, then what the reader has chosen and we
+// remembered, then what the surface is for.
+//
+// The atlas is on the round list, which reverses an earlier decision here. The
+// argument against was that a sphere shows half a world and the atlas exists
+// to show every place at once — sound if the atlas is a survey you read
+// figures off, wrong about what it actually is. It is a thing you turn and
+// wander, and for that, revealing as you spin beats seeing everything and
+// taking none of it in.
 export function requestedProjection(surface = 'book') {
   const v = new URLSearchParams(location.search).get('globe');
   if (v === '0' || v === 'off') return null;
   if (v) return v === 'always' ? 'vertical-perspective' : 'globe';
-  return GLOBE_IS_DEFAULT && surface === 'book' ? 'globe' : null;
+  if (!GLOBE_SURFACES.has(surface)) return null;
+  if (storedShape() === 'flat') return null;
+  return GLOBE_IS_DEFAULT ? 'globe' : null;
 }
 
 // Above this much of the world in the home canvas, a book opens by descending
@@ -230,6 +252,47 @@ function addRelief(map) {
   else addNaturalEarthRelief(map);
 }
 
+// The globe is not a projection, it is a treatment: the sphere, the
+// atmosphere at its limb, the shaded relief, the dark ground that gives it an
+// edge, and the stylesheet class that moves the overture card off it. Turning
+// it off has to undo all five, or "flat" means a dark void round a rectangle,
+// which is the surround doing its job for an object that is no longer there.
+export function applyMapShape(map, projection) {
+  const root = document.documentElement;
+  if (projection) {
+    map.setProjection({ type: projection });
+    if (globeOption('surround', true)) {
+      map.setSky(SKY);
+      document.body.style.background = SURROUND;
+    }
+    addRelief(map); // reads ?relief itself: dem (default) | ne | 0
+    root.classList.add('globe');
+    return;
+  }
+  map.setProjection({ type: 'mercator' });
+  try { map.setSky(null); } catch (e) { /* nothing to clear */ }
+  for (const id of ['ne2-relief', 'dem-relief']) {
+    if (map.getLayer(id)) map.removeLayer(id);
+  }
+  document.body.style.background = '';
+  root.classList.remove('globe');
+}
+
+// The control the settings pane drives. `available` is false on the shelf,
+// where there is nothing to choose between.
+export function createMapShape(map, surface = 'book') {
+  let on = !!requestedProjection(surface);
+  return {
+    available: GLOBE_SURFACES.has(surface),
+    isOn: () => on,
+    set(next) {
+      on = !!next;
+      storeShape(on ? 'globe' : 'flat');
+      applyMapShape(map, on ? 'globe' : null);
+    },
+  };
+}
+
 export function createMap(container, { surface = 'book' } = {}) {
   // Offline preview: ?base=blank swaps the OpenFreeMap base for a local
   // parchment style with no external tile source, so MapLibre fires 'load'
@@ -272,27 +335,12 @@ export function createMap(container, { surface = 'book' } = {}) {
   }), 'top-right');
   map.keyboard.enable();
 
+  // setProjection throws outright if the style hasn't finished loading, and
+  // main.js may swap in the parchment fallback later when the base tiles are
+  // slow — so the treatment goes on at every style.load, not once, or a book
+  // that fell back would quietly lose it.
   if (projection) {
-    // setProjection throws outright if the style hasn't finished loading, and
-    // main.js may swap in the parchment fallback later when the base tiles are
-    // slow — so apply it on every style.load rather than once, or a book that
-    // fell back would quietly go flat again. The treatment goes on with it,
-    // for the same reason.
-    map.on('style.load', () => {
-      map.setProjection({ type: projection });
-      if (globeOption('surround', true)) map.setSky(SKY);
-      addRelief(map); // reads ?relief itself: dem (default) | ne | 0
-    });
-    if (globeOption('surround', true)) document.body.style.background = SURROUND;
-    // Lets the stylesheet move the furniture off the sphere. Only ever set
-    // under the flag, so no shipped rule can match it.
-    document.documentElement.classList.add('globe');
-    // MapLibre's own toggle, added only under the flag. The whole point of the
-    // experiment is holding flat and round against each other on the same
-    // view, and that is a button, not two page loads. (It toggles to the
-    // adaptive 'globe', so from ?globe=always the second press lands on
-    // adaptive rather than back on vertical-perspective.)
-    map.addControl(new GlobeControl(), 'top-right');
+    map.on('style.load', () => applyMapShape(map, projection));
   }
 
   return map;

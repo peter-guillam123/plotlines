@@ -13,8 +13,9 @@ const COG = `<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"
   <path d="M19.14 12.94a7.5 7.5 0 0 0 .05-.94 7.5 7.5 0 0 0-.05-.94l2.03-1.58a.5.5 0 0 0 .12-.61l-1.92-3.32a.5.5 0 0 0-.59-.22l-2.39.96a7 7 0 0 0-1.62-.94l-.36-2.54a.5.5 0 0 0-.5-.42h-3.84a.5.5 0 0 0-.5.42l-.36 2.54a7 7 0 0 0-1.62.94l-2.39-.96a.5.5 0 0 0-.59.22L2.7 8.87a.5.5 0 0 0 .12.61l2.03 1.58a7.5 7.5 0 0 0 0 1.88l-2.03 1.58a.5.5 0 0 0-.12.61l1.92 3.32a.5.5 0 0 0 .59.22l2.39-.96a7 7 0 0 0 1.62.94l.36 2.54a.5.5 0 0 0 .5.42h3.84a.5.5 0 0 0 .5-.42l.36-2.54a7 7 0 0 0 1.62-.94l2.39.96a.5.5 0 0 0 .59-.22l1.92-3.32a.5.5 0 0 0-.12-.61l-2.03-1.58zM12 15.4A3.4 3.4 0 1 1 12 8.6a3.4 3.4 0 0 1 0 6.8z"/>
 </svg>`;
 
-export function createSettings(map, { overlay, sound } = {}) {
+export function createSettings(map, { overlay, sound, shape } = {}) {
   const hasOverlay = overlay && overlay.available;
+  const hasShape = shape && shape.available;
 
   // ---- the pane ----
   const pane = document.createElement('div');
@@ -36,6 +37,23 @@ export function createSettings(map, { overlay, sound } = {}) {
       </section>`
     : '';
 
+  // Unlike sound, this one IS remembered (js/map.js). Somebody who wants the
+  // flat map wants it every time, not once per book, and remembering it makes
+  // no noise and changes nothing the map claims.
+  const shapeBlock = hasShape
+    ? `
+      <section class="settings-group settings-shape">
+        <h2 class="settings-title">The shape of the map</h2>
+        <p class="settings-note">Journeys are drawn on a globe, so a long one
+          bends the way it really does and the far side of the world is round
+          the back. Turn it off for the flat map.</p>
+        <label class="settings-check">
+          <input type="checkbox" class="settings-shape-toggle"${shape.isOn() ? ' checked' : ''}>
+          <span>Draw the world as a globe</span>
+        </label>
+      </section>`
+    : '';
+
   // Sound is off on arrival, every time, and stays a per-visit choice: a page
   // that remembered it would one day start making noise at somebody
   // unannounced. The toggle is also the user gesture the AudioContext needs.
@@ -54,6 +72,7 @@ export function createSettings(map, { overlay, sound } = {}) {
     : '';
 
   pane.innerHTML = `
+    ${shapeBlock}
     ${sliderBlock}
     ${soundBlock}
     <nav class="settings-links" aria-label="PlotLines">
@@ -72,6 +91,12 @@ export function createSettings(map, { overlay, sound } = {}) {
     slider.addEventListener('input', apply);
     // If the tiles fall over mid-session, retire the whole block quietly.
     overlay.onUnavailable(() => pane.querySelector('.settings-overlay')?.remove());
+  }
+
+
+  const shapeToggle = pane.querySelector('.settings-shape-toggle');
+  if (shapeToggle) {
+    shapeToggle.addEventListener('change', () => shape.set(shapeToggle.checked));
   }
 
   if (sound) {
