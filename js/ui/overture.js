@@ -10,6 +10,7 @@
 // { resume: true } it holds a paused reader's place and offers Resume
 // first, Start again second.
 
+import { libraryHref } from '../links.js';
 import { CHARACTER_COLOURS } from '../constants.js';
 import { compactViewport } from '../viewport.js';
 import { boundsOf } from '../geometry.js';
@@ -59,7 +60,7 @@ export function createOverture(container, map, novel, paths, {
         </div>
         <p class="overture-hints">The story plays itself - space pauses, the
           arrows step scene by scene, and the bar below jumps anywhere.</p>
-        <a class="overture-back" href="./">&#8617; Choose another book</a>
+        <a class="overture-back" href="${libraryHref()}">&#8617; Choose another book</a>
       </div>`;
     container.querySelector('.overture-title').textContent = novel.title;
     container.querySelector('.overture-byline').textContent =

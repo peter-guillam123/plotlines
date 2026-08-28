@@ -5,6 +5,7 @@
 // expand on zoom. Images are NOT loaded up front — a pin's picture only loads
 // when its card is opened, one at a time; 64MB of them at once would be a bomb.
 
+import { bookHref } from './links.js';
 import { Popup, LngLatBounds } from '../vendor/maplibre-gl/maplibre-gl.mjs';
 import { createMap } from './map.js';
 import { addNlsOverlay } from './overlay.js';
@@ -165,7 +166,7 @@ fetch('data/atlas.json')
           </p>
           ${pin.story ? `<p class="atlas-card-story">${pin.story}</p>` : ''}
           <p class="atlas-card-badge">${badge}</p>
-          <a class="atlas-card-open" href="index.html?novel=${pin.book}">Open in the book &rarr;</a>
+          <a class="atlas-card-open" href="${bookHref(pin.book, { page: 'index.html' })}">Open in the book &rarr;</a>
         </div>`;
       fillPlaceFigure(cardEl, pin.image);
       cardEl.querySelector('.place-panel-close').addEventListener('click', closeCard);

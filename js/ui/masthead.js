@@ -3,10 +3,12 @@
 // link, the standing pages, the 1890s slider — now lives under the settings
 // cog, so the top-left box stays as small as it can.
 
+import { libraryHref } from '../links.js';
+
 export function createMasthead(container, index, activeId, { onMode } = {}) {
   const novelMeta = index.find((n) => n.id === activeId);
   container.innerHTML = `
-    <a class="masthead-kicker" href="./" title="Back to the library" aria-label="Back to the library">
+    <a class="masthead-kicker" href="${libraryHref()}" title="Back to the library" aria-label="Back to the library">
       <span class="kicker-arrow" aria-hidden="true">&larr;</span><span class="kicker-word">PlotLines</span>
     </a>
     <h1 class="masthead-title"></h1>

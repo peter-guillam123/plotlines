@@ -14,6 +14,7 @@
 // order, each spine shows its value at the foot in place of the date, so the
 // reshuffle reads as something and not a mystery.
 
+import { bookHref } from '../links.js';
 import { trapFocus } from './trap.js';
 
 // How many spines before a row feels crowded. Rows are then balanced evenly
@@ -90,7 +91,7 @@ export function createLibrary(container, index) {
     // destination, where a link says where it is going. Found because
     // cmd-clicking a book did nothing at all.
     const book = document.createElement('a');
-    book.href = `?novel=${novel.id}`;
+    book.href = bookHref(novel.id);
     book.className = 'library-book';
     book.setAttribute('aria-label', `Read ${novel.title} by ${novel.author}`);
     if (novel.blurb) book.title = novel.blurb;

@@ -1,3 +1,4 @@
+import { libraryHref } from './links.js';
 import { createMap } from './map.js';
 import { BLANK_STYLE_URL } from './constants.js';
 import { addNlsOverlay } from './overlay.js';
@@ -139,7 +140,7 @@ indexReady.then((index) => {
   document.title = `${meta.title} · PlotLines`;
   const masthead = document.getElementById('masthead');
   masthead.innerHTML = `
-    <a class="masthead-kicker" href="./" title="Back to the library" aria-label="Back to the library">
+    <a class="masthead-kicker" href="${libraryHref()}" title="Back to the library" aria-label="Back to the library">
       <span class="kicker-arrow" aria-hidden="true">&larr;</span><span class="kicker-word">PlotLines</span>
     </a>
     <h1 class="masthead-title"></h1>
