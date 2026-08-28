@@ -34,7 +34,7 @@ function bootFailure(kind) {
   el.className = 'boot-error';
   el.innerHTML = kind === 'webgl'
     ? `<p><strong>This browser can't draw the map.</strong>
-       PlotLines needs WebGL, which looks to be switched off or unavailable here.
+       PlotLines needs WebGL 2, which looks to be switched off or unavailable here.
        Turning on hardware acceleration in your browser's settings usually cures it.</p>`
     : `<p><strong>The map didn't load properly.</strong>
        A hard refresh usually cures it &mdash;
@@ -44,7 +44,9 @@ function bootFailure(kind) {
 
 // MapLibre throws outright when it can't get a WebGL context — a blocklisted
 // GPU, hardware acceleration switched off. Nothing downstream can work, so say
-// what's wrong rather than leaving the panels empty.
+// what's wrong rather than leaving the panels empty. Since MapLibre v6 the
+// requirement is WebGL *2* specifically: v1 contexts are no longer supported,
+// so a machine that used to squeak by on v1 now lands here.
 let map;
 try {
   map = createMap('map');

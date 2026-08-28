@@ -186,6 +186,28 @@
       <p>What follows is the project's memory, newest first - each entry says
       what was built and why, in the order it actually happened.</p>
 
+      <h3>28 August 2026 - MapLibre 6, and the end of the global</h3>
+      <p>The map library goes from 5.24 to 6.4.1, which is a bigger step than
+      the number suggests. Version 6 dropped the UMD bundle: there is no
+      <em>maplibregl</em> global any more, the library is ES modules only, and
+      it ships split into three files that find each other by relative path and
+      by <em>import.meta.url</em>. So the vendor folder holds four files now
+      instead of two, all four hashed in its record, and the two script tags
+      that used to load a global are gone. Every symbol the site uses - the
+      map, the navigation control, the globe control, popups, bounds - is
+      imported by name at the eight places that use it.</p>
+      <p>One real cost, worth being straight about: v6 requires WebGL 2. A
+      machine that used to squeak by on WebGL 1 now gets the "this browser
+      can't draw the map" notice instead of a map. That is a small number of
+      old Android devices, and there is no way to keep both.</p>
+      <p>What it buys, beyond four weeks of fixes: the globe stops inverting
+      and stalling when panned across the poles, raster tiles stop flashing the
+      background when they reload, and a permanent frame-rate degradation after
+      switching styles is fixed - which is ours, because switching styles is
+      exactly what the base-map fallback does. The upgrade was deliberately
+      timed: 6.5.0 was six days old when this was done and the house rule is
+      seven, so 6.4.1 went in and the next one follows when it comes of age.</p>
+
       <h3>23 August 2026, later - the word did not change, the edition did</h3>
       <p>The gates went red on a book nobody had touched. The quote check said
       The Devil's Elixir had stopped matching: our "right before the eastern

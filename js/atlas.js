@@ -5,6 +5,7 @@
 // expand on zoom. Images are NOT loaded up front — a pin's picture only loads
 // when its card is opened, one at a time; 64MB of them at once would be a bomb.
 
+import { Popup, LngLatBounds } from '../vendor/maplibre-gl/maplibre-gl.mjs';
 import { createMap } from './map.js';
 import { addNlsOverlay } from './overlay.js';
 import { createSettings } from './ui/settings.js';
@@ -126,7 +127,7 @@ fetch('data/atlas.json')
         const p = atlas.pins[e.features[0].properties.pin];
         const book = booksById[p.book] || {};
         dropHover();
-        hover = new maplibregl.Popup({
+        hover = new Popup({
           closeButton: false, closeOnClick: false, offset: 12,
           className: 'loc-card atlas-hover-card',
         })
@@ -177,7 +178,7 @@ fetch('data/atlas.json')
     // the story reaches, held in one wide view. maxZoom keeps a book that sits
     // in one town (Mrs Dalloway's London) from diving to street level.
     const boundsOf = (feats) => {
-      const b = new maplibregl.LngLatBounds();
+      const b = new LngLatBounds();
       for (const f of feats) b.extend(f.geometry.coordinates);
       return b;
     };

@@ -3,6 +3,7 @@
 // the place as the novel names it, the real name, the quote, and an
 // honest certainty badge.
 
+import { Popup } from '../../vendor/maplibre-gl/maplibre-gl.mjs';
 import { CERTAINTY_LABELS } from './format.js';
 import { placeFigureHtml, fillPlaceFigure } from './placefig.js';
 
@@ -98,7 +99,7 @@ export function createCards(map, novel, sheetEl, { isPlaying = () => false, redu
       if (!p.routeNote) return;
       map.getCanvas().style.cursor = 'help';
       popup?.remove();
-      popup = new maplibregl.Popup({
+      popup = new Popup({
         closeButton: false, closeOnClick: false, offset: 10,
         maxWidth: '300px', className: 'loc-card route-hover-card',
         anchor: pickAnchor(e.lngLat),
@@ -128,7 +129,7 @@ export function createCards(map, novel, sheetEl, { isPlaying = () => false, redu
       const p = e.features[0].properties;
       map.getCanvas().style.cursor = 'help';
       popup?.remove();
-      popup = new maplibregl.Popup({
+      popup = new Popup({
         closeButton: false, closeOnClick: false, offset: 8,
         maxWidth: '260px', className: 'loc-card stop-hover-card',
         anchor: pickAnchor(e.features[0].geometry.coordinates),
@@ -151,7 +152,7 @@ export function createCards(map, novel, sheetEl, { isPlaying = () => false, redu
       const loc = novel.locationsById[e.features[0].properties.id];
       if (!loc) return;
       popup?.remove();
-      popup = new maplibregl.Popup({
+      popup = new Popup({
         closeButton: false,
         closeOnClick: false,
         offset: 14,

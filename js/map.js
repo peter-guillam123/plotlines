@@ -2,6 +2,13 @@
 // The NLS historic overlay, route and marker layers are added by their
 // own modules once the map and data are ready.
 
+// v6 is ESM only — there is no `maplibregl` global any more, so every symbol
+// is imported. `Map` is aliased: MapLibre's Map would otherwise shadow the
+// built-in one for the whole module, which is a trap waiting for whoever
+// next reaches for a plain `new Map()` in here.
+import {
+  Map as MapLibreMap, NavigationControl, GlobeControl,
+} from '../vendor/maplibre-gl/maplibre-gl.mjs';
 import { STYLE_URL, BLANK_STYLE_URL } from './constants.js';
 
 // Base-layer attribution comes from the style's own sources (OpenFreeMap /
@@ -212,7 +219,7 @@ export function createMap(container) {
         document.documentElement.clientWidth, document.documentElement.clientHeight)) }
     : { bounds: DEFAULT_BOUNDS, fitBoundsOptions: { padding: 40 } };
 
-  const map = new maplibregl.Map({
+  const map = new MapLibreMap({
     container,
     style,
     ...opening,
@@ -227,7 +234,7 @@ export function createMap(container) {
   // up, and no way back short of a reload. So under the flag the compass
   // comes back: it shows the tilt, and one click puts north up and the
   // camera flat again. It is the way out of being lost.
-  map.addControl(new maplibregl.NavigationControl({
+  map.addControl(new NavigationControl({
     showCompass: !!projection,
     visualizePitch: !!projection,
   }), 'top-right');
@@ -253,7 +260,7 @@ export function createMap(container) {
     // view, and that is a button, not two page loads. (It toggles to the
     // adaptive 'globe', so from ?globe=always the second press lands on
     // adaptive rather than back on vertical-perspective.)
-    map.addControl(new maplibregl.GlobeControl(), 'top-right');
+    map.addControl(new GlobeControl(), 'top-right');
   }
 
   return map;
