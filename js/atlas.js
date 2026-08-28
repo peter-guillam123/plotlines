@@ -11,7 +11,7 @@ import { addNlsOverlay } from './overlay.js';
 import { createSettings } from './ui/settings.js';
 import { placeFigureHtml, fillPlaceFigure } from './ui/placefig.js';
 
-const map = createMap(document.getElementById('map'));
+const map = createMap(document.getElementById('map'), { surface: 'atlas' });
 window.atlasMap = map; // debug handle, mirrors window.plotlinesMap
 
 // The heart of the collection is Britain and near-Europe; the far outliers

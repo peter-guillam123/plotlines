@@ -27,10 +27,42 @@ const DEFAULT_BOUNDS = [[-11, 42], [30, 60]];
 // flat half and are untouched; only the wide views curve. ?globe=always pins
 // 'vertical-perspective', which never flattens, for judging the effect at a
 // book's own working zoom rather than only from orbit.
-export function requestedProjection() {
+// NOT YET the default. The ten books the globe visibly changes have not had
+// their watch-through, and a push here is a deploy, so flipping this is the
+// last step and gets its own commit. Until then ?globe=1 opts in.
+const GLOBE_IS_DEFAULT = false;
+
+// Which surface is asking. A book defaults to the globe once the flag above
+// goes; the atlas never does, and that is deliberate rather than an oversight
+// — its whole job is every place in every book at once, and a sphere can only
+// ever show you half a world. Held side by side, the flat atlas has Japan,
+// Australia and the Americas in one view and the globe hides them behind the
+// limb. It is the prettier picture and the worse atlas, so there it stays an
+// opt-in.
+export function requestedProjection(surface = 'book') {
   const v = new URLSearchParams(location.search).get('globe');
-  if (!v || v === '0' || v === 'off') return null;
-  return v === 'always' ? 'vertical-perspective' : 'globe';
+  if (v === '0' || v === 'off') return null;
+  if (v) return v === 'always' ? 'vertical-perspective' : 'globe';
+  return GLOBE_IS_DEFAULT && surface === 'book' ? 'globe' : null;
+}
+
+// Above this much of the world in the home canvas, a book opens by descending
+// from the whole sphere; below it, by the push-in it has always used.
+//
+// Not a per-book field, because mapHome already says it and a field is a thing
+// to author, review and get wrong. The shelf splits cleanly here: Eighty Days
+// and Moby-Dick at 267 and 262 degrees, Frankenstein and Lost World at 76 and
+// 67, then Dracula, Anna Karenina, Call of the Wild and War and Peace between
+// 41 and 26 — and then a drop to Heart of Darkness at 15. Eight books get the
+// descent. The rest would be descending from orbit onto a single day in
+// London, which is grand to the point of silly.
+const GLOBE_OPENING_MIN_SPAN = 25; // degrees, the wider of lng/lat
+
+export function wantsGlobeOpening(novel) {
+  if (!requestedProjection()) return false;
+  const b = novel?.mapHome?.bounds;
+  if (!b) return true; // no declared canvas: it is framed from the whole route
+  return Math.max(b[1][0] - b[0][0], b[1][1] - b[0][1]) >= GLOBE_OPENING_MIN_SPAN;
 }
 
 // How big the sphere actually draws, measured rather than derived. Framing a
@@ -198,7 +230,7 @@ function addRelief(map) {
   else addNaturalEarthRelief(map);
 }
 
-export function createMap(container) {
+export function createMap(container, { surface = 'book' } = {}) {
   // Offline preview: ?base=blank swaps the OpenFreeMap base for a local
   // parchment style with no external tile source, so MapLibre fires 'load'
   // (and the book renders) even where external tiles are blocked — e.g. a
@@ -206,7 +238,7 @@ export function createMap(container) {
   // unchanged; only this explicit URL parameter opts in.
   const base = new URLSearchParams(location.search).get('base');
   const style = base === 'blank' ? BLANK_STYLE_URL : STYLE_URL;
-  const projection = requestedProjection();
+  const projection = requestedProjection(surface);
 
   // A flat book opens fitted to DEFAULT_BOUNDS and is then eased to its own
   // canvas by the overture. On a globe that first ease is a lurch: every book

@@ -13,7 +13,7 @@
 import { CHARACTER_COLOURS } from '../constants.js';
 import { compactViewport } from '../viewport.js';
 import { boundsOf } from '../geometry.js';
-import { requestedProjection, globeZoomFor } from '../map.js';
+import { wantsGlobeOpening, globeZoomFor } from '../map.js';
 import { characterInitial, milesAndTime } from './format.js';
 
 export function createOverture(container, map, novel, paths, {
@@ -109,7 +109,7 @@ export function createOverture(container, map, novel, paths, {
     // looking at a patch of curved ground with no globe in it; and since the
     // map opens on the whole sphere already (js/map.js), the only move left
     // here is a slow turn of the world to put the book's own ground in view.
-    if (requestedProjection()) {
+    if (wantsGlobeOpening(novel)) {
       const el = map.getContainer();
       const W = el.clientWidth;
       const card = container.querySelector('.overture-panel');

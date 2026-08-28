@@ -29,7 +29,7 @@ import {
 } from './constants.js';
 import { compactViewport } from './viewport.js';
 import { boundsOf } from './geometry.js';
-import { requestedProjection, requestedTilt } from './map.js';
+import { wantsGlobeOpening, requestedTilt } from './map.js';
 import { storyTime, roman, kmToMiles, humanDuration } from './ui/format.js';
 
 // Camera timings, in *content* seconds (so at 1× they line up exactly with
@@ -41,17 +41,20 @@ const MOVE_HOLD_SEC = 0.55;      // let the geography be read before pushing in
 const MOVE_SETTLE_SEC = 1.5;     // push in on the place
 const MOVE_SMALL_SEC = 0.9;      // a near-neighbour hop: one quick settle
 // The opening ease from the overture into place. 1.8s is right when the front
-// door already framed the book's own canvas and the move is a nudge. On a
-// globe the same move is a descent from the whole sphere to a single street -
-// eleven zoom levels - and at 1.8s that is not an opening, it is a fall. The
-// flag buys it the time to read as an arrival.
-const OPENING_MOVE_SEC = requestedProjection() ? 5.4 : 1.8;
+// door already framed the book's own canvas and the move is a nudge. A descent
+// from the whole sphere to a single street is eleven zoom levels, and at 1.8s
+// that is not an opening, it is a fall — so the books that actually descend
+// (js/map.js, wantsGlobeOpening) get the time to read as an arrival, and the
+// ones whose canvas is a city keep the nudge.
+const OPENING_MOVE_SEC = 1.8;
+const OPENING_DESCENT_SEC = 5.4;
 const OPENING_PUSH_ZOOM = 0.7;   // how far the opening living push-in drifts in
 const ARRIVAL_DWELL_SECONDS = 2.5; // after crossing, rest on the place reached
 const NODE_ZOOM = 11.5;          // a town on the historic survey
 const SMALL_MOVE_DEG = 0.18;     // below this, no pull-back is needed
 
 export function createStoryPlayer(novel, timeline, paths, { map, director, engine, card, emphasize, onProgress, onDistance, onBeatChapter, sound }) {
+  const openingMoveSec = wantsGlobeOpening(novel) ? OPENING_DESCENT_SEC : OPENING_MOVE_SEC;
   const chapterDay = (n) => novel.chapters[Math.min(Math.max(n, 1), novel.chapters.length) - 1].day ?? 0;
 
   const readTime = (text) => {
@@ -110,7 +113,7 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
         beat.readSec = read;
         if (!seenPlace) {
           beat.moveKind = 'opening';
-          beat.moveSec = OPENING_MOVE_SEC;
+          beat.moveSec = openingMoveSec;
         } else {
           const d = prevPlace
             ? Math.hypot(scenePt[0] - prevPlace[0], scenePt[1] - prevPlace[1]) : 0;
@@ -284,7 +287,7 @@ export function createStoryPlayer(novel, timeline, paths, { map, director, engin
       if (instant) { applyCam(tight, 0, off); return; }
       // Ease in from the overture, a little wide — then let it breathe inward
       // slowly, in a constant drift, all through the reading.
-      push(0, () => applyCam(wide, OPENING_MOVE_SEC * 1000, off));
+      push(0, () => applyCam(wide, openingMoveSec * 1000, off));
       push(beat.moveSec, () => applyCam(tight, beat.readSec * 1000, off, true));
     } else if (beat.moveKind === 'small') {
       const settle = { center: beat.place, zoom: NODE_ZOOM };
