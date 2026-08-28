@@ -1,15 +1,16 @@
 # Vendored: MapLibre GL JS
 
-- Version: **6.4.1** (pinned)
+- Version: **6.5.0** (pinned)
 - Downloaded: 2026-08-28
-- Source: `https://registry.npmjs.org/maplibre-gl/-/maplibre-gl-6.4.1.tgz`
+- Source: `https://registry.npmjs.org/maplibre-gl/-/maplibre-gl-6.5.0.tgz`
   - tarball verified against npm's published integrity before unpacking:
-    `sha512-KzxQKtfBu/pSz1C+yW1hNS9eyj2h2lC7ufdAi6/SEt177n3oAfDfmUmslRfJdXY7ReAFBcnvwsqmiyoDhtA9GQ==`
+    `sha512-kVStPz9Rw/ATjWV5tQ3iCR0tY+viz16Nh3E14iZNlBj0HloMAzFaDNtFYqPGkZSFRnv56txMh3ImjR0g6oClTw==`
 - SHA-256 (each file, as vendored):
-  - `97e8b9a39ab8b823d6a0caf9c312237262bc9138a6162d9e29606f5f8d24127d`  maplibre-gl.mjs
-  - `fcf4d81450df235da0aea74897cc23926774b5228d38ae1de6a7d701c5905785`  maplibre-gl-shared.mjs
-  - `ce4957017fe705ac2f9ebef206cca966d08d8621756c39326a78cf09757e7d75`  maplibre-gl-worker.mjs
+  - `c28aad7f75e9afb91824440161fe03ce747bd08d4a21d96f4df25e9218513265`  maplibre-gl.mjs
+  - `430178abe3dbf494342d2fd73feff41e9d39c0779034ec091a22a7a370dadb28`  maplibre-gl-shared.mjs
+  - `e250b93dd7970d44decfdcea5b7d806b59f25a54805145a2ab989eef8094083b`  maplibre-gl-worker.mjs
   - `8e2dbbab312dc57656fbb76e9fa5308c75c9d7c7ba5808a7d55bcdb64cc813fa`  maplibre-gl.css
+    (unchanged from 6.4.1 — the stylesheet is byte-identical between the two)
 - Licence: BSD-3-Clause (https://github.com/maplibre/maplibre-gl-js/blob/main/LICENSE.txt)
 
 ## Why there are now four files
