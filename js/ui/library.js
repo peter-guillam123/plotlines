@@ -14,7 +14,7 @@
 // order, each spine shows its value at the foot in place of the date, so the
 // reshuffle reads as something and not a mystery.
 
-import { bookHref } from '../links.js';
+import { bookHref, pageHref } from '../links.js';
 import { trapFocus } from './trap.js';
 
 // How many spines before a row feels crowded. Rows are then balanced evenly
@@ -64,7 +64,7 @@ export function createLibrary(container, index) {
       <h1 class="library-title" id="library-title">PlotLines</h1>
       <nav class="view-toggle library-toggle" aria-label="Views">
         <span aria-current="page">The shelf</span>
-        <a href="atlas.html">The atlas</a>
+        <a href="${pageHref('atlas.html')}">The atlas</a>
       </nav>
       <p class="library-sub">The classics, mapped - every journey in the book,
         drawn on a hand-tinted period map, with the real 1890s Ordnance Survey
@@ -74,8 +74,8 @@ export function createLibrary(container, index) {
       <p class="intro-hints">Each book opens with a choice: watch the story, or
         explore its places.</p>
       <nav class="library-links" aria-label="About PlotLines">
-        <a href="about.html">How it works</a>
-        <a href="workshop.html">How it&rsquo;s made</a>
+        <a href="${pageHref('about.html')}">How it works</a>
+        <a href="${pageHref('workshop.html')}">How it&rsquo;s made</a>
       </nav>
     </div>`;
 

@@ -5,7 +5,7 @@
 // expand on zoom. Images are NOT loaded up front — a pin's picture only loads
 // when its card is opened, one at a time; 64MB of them at once would be a bomb.
 
-import { bookHref } from './links.js';
+import { bookHref, pageHref } from './links.js';
 import { Popup, LngLatBounds } from '../vendor/maplibre-gl/maplibre-gl.mjs';
 import { createMap } from './map.js';
 import { addNlsOverlay } from './overlay.js';
@@ -13,6 +13,13 @@ import { createSettings } from './ui/settings.js';
 import { placeFigureHtml, fillPlaceFigure } from './ui/placefig.js';
 
 const map = createMap(document.getElementById('map'), { surface: 'atlas' });
+
+// atlas.html's nav is static markup, so its way back to the shelf is repointed
+// here — otherwise a round trip out and back drops whatever flags were on the
+// URL and you return to a different map from the one you left.
+for (const a of document.querySelectorAll('.view-toggle a[href^="index.html"], .atlas-links a[href$=".html"]')) {
+  a.href = pageHref(a.getAttribute('href').split('?')[0]);
+}
 window.atlasMap = map; // debug handle, mirrors window.plotlinesMap
 
 // The heart of the collection is Britain and near-Europe; the far outliers

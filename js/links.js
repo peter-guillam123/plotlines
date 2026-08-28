@@ -26,3 +26,13 @@ export function libraryHref() {
   const query = params.toString();
   return query ? `./?${query}` : './';
 }
+
+// A standing page (the atlas, how it works, how it's made), keeping the flags
+// but never the book. Without this a round trip — shelf to atlas and back —
+// quietly lands you on a different map from the one you left.
+export function pageHref(page) {
+  const params = new URLSearchParams(location.search);
+  params.delete('novel');
+  const query = params.toString();
+  return query ? `${page}?${query}` : page;
+}

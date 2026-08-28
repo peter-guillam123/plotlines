@@ -43,6 +43,11 @@ function bootFailure(kind) {
   document.body.append(el);
 }
 
+// Which novel, if any — read before the map is built, because the map's
+// shape depends on which surface this page is being asked to be.
+const requestedNovel = new URLSearchParams(location.search).get('novel');
+const SURFACE = requestedNovel ? 'book' : 'shelf';
+
 // MapLibre throws outright when it can't get a WebGL context — a blocklisted
 // GPU, hardware acceleration switched off. Nothing downstream can work, so say
 // what's wrong rather than leaving the panels empty. Since MapLibre v6 the
@@ -50,7 +55,9 @@ function bootFailure(kind) {
 // so a machine that used to squeak by on v1 now lands here.
 let map;
 try {
-  map = createMap('map');
+  // The shelf is not a book: its map is a backdrop behind a card, so it is
+  // classified separately and stays flat by default, as the atlas does.
+  map = createMap('map', { surface: SURFACE });
 } catch (err) {
   console.error(err);
   bootFailure('webgl');
@@ -61,7 +68,7 @@ window.plotlinesMap = map; // exposed immediately so a stuck startup can be insp
 // ?novel=<id> opens a book; no parameter means the library, where you
 // choose one. Switching novels is a clean page load, so there is no
 // cross-novel teardown to get wrong.
-const requestedNovel = new URLSearchParams(location.search).get('novel');
+
 
 // How long to wait for the base map before giving up on it, and for the local
 // fallback after that. Generous: a slow connection should still get the real
