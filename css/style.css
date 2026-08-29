@@ -2237,4 +2237,31 @@ body.is-overture #controls { display: none !important; }
   html.touch .overture-title,
   html.touch .overture-byline,
   html.touch .overture-hints { display: none; }
+
+  /* The card's own way back is a duplicate here too — the rail's wordmark
+     already goes to the shelf, and so does the settings pane. Another row of
+     height for a third copy of the same link. */
+  html.touch .overture-back { display: none; }
+
+  /* The blurb is long on some books and the card scrolls, which is fine: text
+     scrolls, that is what text does. What is NOT fine is the two buttons
+     scrolling away with it, so a reader arrives at a wall of prose with no
+     visible way to start. Reported from a phone: "buttons off or half off the
+     page". So the actions stay pinned to the foot of the card while the words
+     move behind them, and the shadow says there is more above. */
+  html.touch body.is-overture .overture-actions {
+    position: sticky;
+    /* Bled out to the card's own padding (20px 26px 18px) so the bar spans
+       the full width and sits flush to the bottom edge. Without that, the
+       cast chips still to be scrolled to peep out underneath it, which reads
+       as a rendering fault rather than a footer. `bottom` has to clear that
+       same 18px: sticky measures from the padding box, so bottom:0 parks the
+       bar one padding above the edge and leaves exactly the strip we are
+       trying to close. */
+    bottom: -18px;
+    margin: 12px -26px -18px;
+    padding: 10px 26px 14px;
+    background: var(--paper-bright);
+    box-shadow: 0 -10px 12px -10px rgba(46, 36, 23, 0.45);
+  }
 }
